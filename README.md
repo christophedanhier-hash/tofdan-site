@@ -1,5 +1,7 @@
 # Tofdan — Site d'Astrophotographie
 
+> 🚧 **Site en construction** — Création **Juin 2026**
+
 Site web 100% statique pour **www.tofdan.be**, dédié à la passion de l'astrophotographie partagée par Tof & Syl. Remplace l'ancien site Google Sites.
 
 ## Contexte du projet
@@ -98,7 +100,7 @@ tofdan-site/
 
 ### news.html
 - Grille d'articles responsive avec date, titre, extrait et lien "Lire la suite"
-- 4 articles d'exemple (juin 2025 à mars 2025)
+- 4 articles d'exemple (juin 2026 à mars 2026)
 
 ## Déploiement
 

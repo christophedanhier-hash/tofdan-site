@@ -436,6 +436,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ==========================================================================
+   CONSTRUCTION BANNER
+   ========================================================================== */
+
+.construction-banner {
+  padding: 24px 0;
+  background: rgba(124, 58, 237, 0.08);
+  border-top: 1px solid rgba(124, 58, 237, 0.15);
+  border-bottom: 1px solid rgba(124, 58, 237, 0.15);
+  text-align: center;
+}
+
+.construction-banner__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.construction-banner__icon {
+  font-size: 1.2rem;
+}
+
+.construction-banner__text {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
    WELCOME SECTION
    ========================================================================== */
 
