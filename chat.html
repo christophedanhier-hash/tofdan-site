@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez-nous — Une question, une remarque ou juste envie d'échanger sur l'astronomie ?">
+  <title>Contact — Tofdan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <span class="header__logo-icon">🌙</span>
+        ASTRO PHOTOGRAPHIE
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Accueil</a></li>
+          <li><a href="astro.html" class="nav__link">Astro</a></li>
+          <li><a href="app-astro.html" class="nav__link">App Astro</a></li>
+          <li><a href="news.html" class="nav__link">News</a></li>
+          <li><a href="materiel.html" class="nav__link">Matériel</a></li>
+          <li><a href="album.html" class="nav__link">Album</a></li>
+          <li><a href="meteo-astro.html" class="nav__link">Météo</a></li>
+          <li><a href="biblio.html" class="nav__link">Biblio</a></li>
+          <li><a href="chat.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">Contact</h1>
+        <p class="page-header__subtitle">Une question, une remarque, ou simplement l'envie d'échanger sur l'astronomie ? Écrivez-nous !</p>
+      </div>
+    </div>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+
+        <form id="contact-form" class="form" novalidate>
+          <div class="form__group">
+            <label for="name" class="form__label">Nom</label>
+            <input type="text" id="name" name="name" class="form__input" placeholder="Votre nom" required>
+            <p class="form__error">Veuillez entrer votre nom.</p>
+          </div>
+
+          <div class="form__group">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="votre@email.com" required>
+            <p class="form__error">Veuillez entrer une adresse email valide.</p>
+          </div>
+
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea id="message" name="message" class="form__textarea" placeholder="Votre message..." required></textarea>
+            <p class="form__error">Veuillez entrer un message.</p>
+          </div>
+
+          <div class="form__actions">
+            <button type="submit" class="btn btn--primary">Envoyer le message</button>
+          </div>
+        </form>
+
+        <div id="form-success" class="form__success">
+          <div class="form__success-icon">✅</div>
+          <p class="form__success-text">Message envoyé avec succès !</p>
+          <p class="card__text mt-1">Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copyright">(C) Tofdan — 2025</p>
+      <div class="footer__links">
+        <a href="#" class="footer__link">Mentions légales</a>
+        <a href="#" class="footer__link">Conditions d'utilisation</a>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/tofdan" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
