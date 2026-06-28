@@ -26,7 +26,7 @@ tofdan-site/
 ├── biblio.html             Bibliographie, logiciels, liens utiles
 ├── chat.html               Formulaire de contact avec validation
 ├── css/
-│   └── style.css           Feuille de style unique, modulaire (1249 lignes)
+│   └── style.css           Feuille de style unique, modulaire (1281 lignes)
 └── js/
     └── main.js             Navigation mobile, menu actif, formulaire, back-to-top
 ```
@@ -35,30 +35,35 @@ tofdan-site/
 
 | Fichier | Lignes |
 |---------|--------|
-| `css/style.css` | 1249 |
+| `css/style.css` | 1281 |
 | `js/main.js` | 99 |
-| `materiel.html` | 181 |
-| `biblio.html` | 172 |
-| `meteo-astro.html` | 152 |
-| `album.html` | 148 |
-| `news.html` | 115 |
-| `chat.html` | 103 |
-| `index.html` | 102 |
-| `app-astro.html` | 101 |
-| `astro.html` | 90 |
-| **Total** | **2512** |
+| `materiel.html` | 189 |
+| `biblio.html` | 180 |
+| `meteo-astro.html` | 160 |
+| `album.html` | 156 |
+| `news.html` | 123 |
+| `index.html` | 112 |
+| `chat.html` | 111 |
+| `app-astro.html` | 109 |
+| `astro.html` | 98 |
+| **Total** | **2618** |
 
 ## Fonctionnalités techniques
 
 - **Design responsive :** 3 breakpoints — mobile (< 640px), tablette (≥ 640px), desktop (≥ 1024px)
 - **CSS moderne :** Variables CSS (design tokens), Grid & Flexbox, dégradés, filtres backdrop, animations
 - **Navigation :** Header sticky avec backdrop blur, burger menu mobile (fullscreen overlay), lien actif détecté automatiquement
+- **Bandeau « Site en construction » :** Sur toutes les pages, inséré entre le `<header>` et le contenu principal
 - **Formulaire de contact :** Validation HTML5 + JS (nom, email regex, message), message de succès
 - **Bouton back-to-top :** Apparaît après 400px de scroll, smooth scroll
 - **Galeries :** Placeholders avec emojis, overlay au survol, grid responsive
 - **Performances :** Zéro dépendance externe hors Google Fonts, script async-ready, CSS minifié non nécessaire vu la taille
 
 ## Spécifications respectées par page
+
+### Bandeau construction (toutes les pages)
+- Bannière violette avec icônes 🚧 et texte « Site en construction — Création Juin 2026 »
+- Placée en haut du `<main>`, après le `page-header` (ou après le hero sur l'accueil)
 
 ### index.html
 - Hero banner avec texte "ASTRO PHOTOGRAPHIE" en dégradé primary
