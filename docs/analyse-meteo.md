@@ -14,7 +14,7 @@
 | **GitHub** | `christophedanhier-hash/tofdan-site` (branche `main`) |
 | **Date de création** | Juin 2026 |
 | **État** | En construction |
-| **Version** | 4 commits (Init projet → Iteration 2 → Bandeau → maj readme) |
+| **Version** | 4 commits (Init → Iteration 2 → Bandeau → maj readme) |
 
 ### 1.2 Statistiques
 
@@ -40,72 +40,144 @@
 
 ### 2.1 Stack
 
+Le site est 100% statique : zéro build, zéro framework, zéro dépendance runtime hors Google Fonts.
+
+```mermaid
+graph LR
+    A[Client Navigateur] --> B[Nginx /var/www/tofdan.be]
+    B --> C["HTML5 (10 pages)"]
+    B --> D["CSS3 (1 feuille, 1344 lignes)"]
+    B --> E["JS vanilla (2 scripts)"]
+    C --> F[Inter + Space Grotesk]
+    F --> G[Google Fonts]
+    E --> H[api.open-meteo.com]
+    H --> I[Données météo live]
 ```
-┌──────────────────────────────────────────────────┐
-│  Site 100% statique — zéro build, zéro dépendance │
-├──────────────────────────────────────────────────┤
-│  HTML5    → 10 pages (.html)                     │
-│  CSS3     → 1 feuille (style.css, 1344 lignes)    │
-│  JS       → 2 scripts (main.js + meteo.js)        │
-│  Fonts    → Google Fonts (Inter + Space Grotesk)  │
-│  Serveur  → Nginx                                 │
-│  APIs     → Open-Meteo (météo)                    │
-└──────────────────────────────────────────────────┘
+
+### 2.2 Modèle de composants — Duplication
+
+Le site n'utilise ni framework ni templating. Chaque page duplique manuellement les composants partagés.
+
+```mermaid
+graph TD
+    subgraph "10 pages HTML"
+        P1[index.html]
+        P2[astro.html]
+        P3[app-astro.html]
+        P4[news.html]
+        P5[materiel.html]
+        P6[album.html]
+        P7[meteo-astro.html]
+        P8[biblio.html]
+        P9[chat.html]
+    end
+
+    subgraph "Composants dupliqués (~52 lignes par page)"
+        A["&lt;header&gt; + &lt;nav&gt; 9 liens<br/>(~25 lignes)"]
+        B[".construction-banner<br/>(~9 lignes)"]
+        C["&lt;footer&gt;<br/>(~16 lignes)"]
+        D[".back-to-top + &lt;script&gt;<br/>(~2 lignes)"]
+    end
+
+    P1 -.-> A
+    P1 -.-> C
+    P1 -.-> D
+    P2 -.-> A
+    P2 -.-> B
+    P2 -.-> C
+    P2 -.-> D
+    P3 -.-> A
+    P3 -.-> B
+    P3 -.-> C
+    P3 -.-> D
+    P4 -.-> A
+    P4 -.-> B
+    P4 -.-> C
+    P4 -.-> D
+    P5 -.-> A
+    P5 -.-> B
+    P5 -.-> C
+    P5 -.-> D
+    P6 -.-> A
+    P6 -.-> B
+    P6 -.-> C
+    P6 -.-> D
+    P7 -.-> A
+    P7 -.-> B
+    P7 -.-> C
+    P7 -.-> D
+    P8 -.-> A
+    P8 -.-> B
+    P8 -.-> C
+    P8 -.-> D
+    P9 -.-> A
+    P9 -.-> B
+    P9 -.-> C
+    P9 -.-> D
 ```
 
-### 2.2 Modèle de composants
-
-Le site n'utilise ni framework ni templating. Chaque page duplique manuellement :
-
-| Composant | Présent sur | Lignes par occurrence |
-|---|---|---|
-| `<header>` + `<nav>` (9 liens) | 10 pages | ~25 |
-| `.construction-banner` | 9 pages (sauf index, placé après hero) | ~9 |
-| `<footer>` | 10 pages | ~16 |
-| `.back-to-top` | 10 pages | ~1 |
-| `<script src="js/main.js">` | 10 pages | ~1 |
-
-**Code dupliqué total** : ~52 lignes × 10 pages = ~520 lignes dupliquées, soit environ **25% du code HTML total**.
+**Code dupliqué total** : ~52 lignes × 10 pages = ~520 lignes, soit **25% du code HTML**.
 
 ### 2.3 Arborescence
 
-```
-tofdan-site/
-├── index.html               Accueil
-├── astro.html               Passion astronomie
-├── app-astro.html           Lien app externe
-├── news.html                Actualités (4 articles)
-├── materiel.html            Matériel (3×3 cartes)
-├── album.html               Galerie (15 photos)
-├── meteo-astro.html         Météo (8 indicateurs live)
-├── biblio.html              Ressources (livres/logiciels/liens)
-├── chat.html                Formulaire contact
-├── css/
-│   └── style.css            Styles (1344 lignes)
-├── js/
-│   ├── main.js              Navigation + formulaire (99 lignes)
-│   └── meteo.js             Météo temps réel (323 lignes)
-└── docs/
-    └── analyse-meteo.md     Ce document
+```mermaid
+graph TD
+    ROOT[tofdan-site/]
+
+    ROOT --> IDX[index.html<br/>Accueil]
+    ROOT --> AST[astro.html<br/>Passion astronomie]
+    ROOT --> APP[app-astro.html<br/>App externe]
+    ROOT --> NWS[news.html<br/>Actualités]
+    ROOT --> MAT[materiel.html<br/>Inventaire]
+    ROOT --> ALB[album.html<br/>Galerie photos]
+    ROOT --> MET[meteo-astro.html<br/>Météo live]
+    ROOT --> BIB[biblio.html<br/>Ressources]
+    ROOT --> CHT[chat.html<br/>Contact]
+    ROOT --> CSS[css/style.css]
+    ROOT --> JS[js/]
+    ROOT --> DOC[docs/]
+
+    JS --> MJ[main.js<br/>Navigation + formulaire]
+    JS --> ME[meteo.js<br/>Météo temps réel]
+
+    DOC --> AMD[analyse-meteo.md<br/>Ce document]
 ```
 
 ### 2.4 Design System
 
-Thème spatial sombre défini par 18 variables CSS (`:root`) :
+Thème spatial sombre défini par 18 variables CSS (`:root`).
 
-| Token | Valeur | Usage |
-|---|---|---|
-| `--color-bg` | `#0a0a1a` | Fond principal |
-| `--color-bg-card` | `#141432` | Fond des cartes |
-| `--color-primary` | `#4f46e5` | Accent principal |
-| `--color-accent` | `#7c3aed` | Accent secondaire |
-| `--color-text` | `#e2e8f0` | Texte principal |
-| `--color-text-muted` | `#94a3b8` | Texte secondaire |
-| `--gradient-primary` | `#4f46e5 → #7c3aed` | Dégradé titres |
-| `--font-sans` | Inter | Corps |
-| `--font-display` | Space Grotesk | Titres |
-| `--shadow-glow` | `0 0 40px rgba(79,70,229,0.15)` | Survol cartes |
-| `--max-width` | `1200px` | Largeur conteneur |
+```mermaid
+graph LR
+    subgraph "Design Tokens :root"
+        T1["--color-bg: #0a0a1a"]
+        T2["--color-bg-card: #141432"]
+        T3["--color-primary: #4f46e5"]
+        T4["--color-accent: #7c3aed"]
+        T5["--color-text: #e2e8f0"]
+        T6["--color-text-muted: #94a3b8"]
+        T7["--gradient-primary: #4f46e5 → #7c3aed"]
+        T8["--font-sans: Inter"]
+        T9["--font-display: Space Grotesk"]
+        T10["--shadow-glow: 0 0 40px rgba(79,70,229,0.15)"]
+        T11["--radius-md: 10px"]
+        T12["--radius-lg: 16px"]
+        T13["--max-width: 1200px"]
+        T14["--header-height: 70px"]
+        T15["--transition-fast: 150ms"]
+        T16["--transition-base: 250ms"]
+    end
+
+    T1 --> BG[Fond général]
+    T2 --> CARD[Fond cartes]
+    T3 --> ACC[Accents, liens, titres]
+    T4 --> HOV[Hover, accent]
+    T7 --> GRAD[Dégradés titres]
+    T8 --> BODY[Corps de texte]
+    T9 --> TITLE[Titres, display]
+    T10 --> SHADOW[Survol cartes]
+    T13 --> LAYOUT[Conteneurs]
+```
 
 ---
 
@@ -113,55 +185,58 @@ Thème spatial sombre défini par 18 variables CSS (`:root`) :
 
 ### 3.1 index.html — Accueil (112 lignes)
 
-**Rôle** : Page d'entrée, Hero banner, cartes Vedette (Lune, Soleil).
+**Rôle** : Page d'entrée, Hero banner, cartes Vedette.
 
 **Contenu** :
-- Hero fullscreen avec fond étoilé CSS (26 étoiles en `radial-gradient`)
+- Hero fullscreen avec fond étoilé CSS (26 étoiles `radial-gradient`)
 - Animation `float` sur l'icône télescope
 - 2 boutons CTA : Album (primary) + Astro (outline)
-- Section Welcome avec texte d'introduction
-- 2 cartes Featured (Lune, Soleil) avec emojis placeholder
+- Section Welcome + 2 cartes Featured (Lune, Soleil) avec emojis
 
-**Audit** :
+```mermaid
+flowchart TD
+    HERO[Hero<br/>fond étoilé CSS + animation float] --> BANNER[Construction Banner]
+    HERO --> ACTIONS[2 CTA: Album + Astro]
+    BANNER --> WELCOME[Welcome: texte d'introduction]
+    WELCOME --> FEATURED[Featured Grid: 🌕 Lune + ☀️ Soleil]
+```
 
 | Point | État | Détail |
 |---|---|---|
 | Hero | ✅ | Design attractif, responsive |
 | CTA | ✅ | Deux boutons distincts, bon contraste |
 | SEO | ✅ | Meta description + title personnalisés |
-| Placeholders | ⚠️ | Images remplacées par emojis 🌕 ☀️ |
+| Placeholders | ⚠️ | Images remplacées par emojis |
 | Construction banner | ✅ | Placé après le hero (pas en haut) |
+| Featured cards | ❌ | Cartes non cliquables |
 
 ### 3.2 astro.html — Passion (100 lignes)
 
-**Rôle** : Présentation de la passion astronomie, signature.
+**Rôle** : Présentation de la passion astronomie.
 
-**Contenu** :
-- 5 paragraphes de texte (`prose`)
-- Signature « Syl & Tof »
-- Info-box avec coordonnées GPS (50°32' N, 4°36' E)
-- Pas d'images, pas d'interactions
-
-**Audit** :
+**Contenu** : 5 paragraphes (`prose`), signature, coordonnées GPS (50°32' N, 4°36' E).
 
 | Point | État | Détail |
 |---|---|---|
 | Contenu | ✅ | Texte bien rédigé, narratif personnel |
-| Coordonnées | ✅ | Affichées dans une info-box dédiée |
+| Coordonnées | ✅ | Info-box dédiée |
 | SEO | ✅ | Meta description pertinente |
 | Liens internes | ❌ | Aucun lien vers album, météo ou contact |
-| Call-to-action | ❌ | Page sans CTA — le visiteur peut partir |
+| Call-to-action | ❌ | Page sans CTA — risque de rebond |
 
 ### 3.3 app-astro.html — Application externe (111 lignes)
 
-**Rôle** : Vitrine pour l'application Astro hébergée sur GitHub Pages.
+**Rôle** : Vitrine pour l'application Astro sur GitHub Pages.
 
-**Contenu** :
-- Bouton principal « Lancer l'application »
-- 3 cartes : Catalogue, Éphémérides, Simulateur
-- Lien externe : `christophedanhier-hash.github.io/Projet-Astro/www/`
-
-**Audit** :
+```mermaid
+flowchart LR
+    PAGE[app-astro.html] --> CTA[Bouton primary: Lancer l'application]
+    PAGE --> CARDS[3 cartes descriptives]
+    CARDS --> C1[Catalogue d'objets 🌟]
+    CARDS --> C2[Éphémérides 📅]
+    CARDS --> C3[Simulateur 🔍]
+    CTA --> EXT["christophedanhier-hash.github.io<br/>Projet-Astro/www/"]
+```
 
 | Point | État | Détail |
 |---|---|---|
@@ -174,115 +249,155 @@ Thème spatial sombre défini par 18 variables CSS (`:root`) :
 
 **Rôle** : Blog avec 4 articles d'exemple.
 
-**Contenu** :
-- 4 articles dans une grille responsive (1 ou 2 colonnes)
-- Dates de juin 2026 à mars 2026 (⚠️ incohérence : mars < juin)
-- Images placeholder (emojis : 🌌 ☄️ 🔭 🌑)
-- Liens « Lire la suite » pointant vers `#`
-
-**Audit** :
+```mermaid
+flowchart TD
+    GRID[News Grid responsive] --> A1["🌌 Juin 2026<br/>Nébuleuse d'Orion"]
+    GRID --> A2["☄️ Mai 2026<br/>Êta Aquarides"]
+    GRID --> A3["🔭 Avril 2026<br/>Caméra ZWO"]
+    GRID --> A4["🌑 Mars 2026<br/>Éclipse lunaire"]
+    A1 -.-> LINK1["Lire la suite → href=# ❌"]
+    A2 -.-> LINK2["Lire la suite → href=# ❌"]
+    A3 -.-> LINK3["Lire la suite → href=# ❌"]
+    A4 -.-> LINK4["Lire la suite → href=# ❌"]
+```
 
 | Point | État | Détail |
 |---|---|---|
-| Structure | ✅ | `<article>` sémantique, dates bien formatées |
-| Contenu | ⚠️ | 4 articles seulement, liens morts (`href="#"`) |
-| Dates | ❌ | L'ordre des articles est croissant (mars → juin) alors que l'affichage est décroissant (juin → mars). Cohérent dans l'HTML mais les dates sont dans le futur (juin 2026) |
+| Structure | ✅ | `<article>` sémantique, dates formatées |
+| Contenu | ⚠️ | 4 articles, liens morts (`href="#"`) |
 | Grille | ✅ | 1 colonne mobile, 2 colonnes desktop |
+| Images | ❌ | Emojis placeholder |
 
 ### 3.5 materiel.html — Matériel (191 lignes)
 
-**Rôle** : Inventaire de l'équipement.
+**Rôle** : Inventaire complet de l'équipement.
 
-**Contenu** :
-- 3 sections : Télescopes (3), Caméras (3), Oculaires (3)
-- Chaque item = une carte avec titre, description et liste à puces
-- Fiches techniques détaillées (diamètre, focale, capteur, etc.)
+```mermaid
+flowchart TD
+    PAGE[materiel.html] --> T[🔭 Télescopes]
+    PAGE --> C[📷 Caméras]
+    PAGE --> O[👁️ Oculaires]
 
-**Audit** :
+    T --> T1[🪐 SkyWatcher 200/1000 PDS<br/>Newton F/5, EQ6-R Pro]
+    T --> T2[🌙 Maksutov 127/1500<br/>Planétaire / Lunaire]
+    T --> T3[⭐ Lunette 80/600 ED<br/>Grand champ, nomade]
+
+    C --> C1[🖼️ ZWO ASI294MC Pro<br/>CMOS 4/3, refroidie]
+    C --> C2[🎥 ZWO ASI224MC<br/>Planétaire, 150 fps]
+    C --> C3[📸 Canon EOS 2000D<br/>APN défiltré astro]
+
+    O --> O1[Baader Hyperion 24mm<br/>Champ 68°]
+    O --> O2[Televue Nagler 7mm<br/>Champ 82°, référence]
+    O --> O3[SkyWatcher Plössl 10mm<br/>Polyvalent]
+```
 
 | Point | État | Détail |
 |---|---|---|
-| Organisation | ✅ | Catégories claires, 3×3 cartes |
+| Organisation | ✅ | 3 catégories, 3×3 cartes |
 | Données | ✅ | Spécifications techniques précises |
-| Cohérence | ⚠️ | Les oculaires n'ont pas d'icône contrairement aux télescopes et caméras |
-| Grille | ✅ | 1 col mobile → 2 cols tablette → 3 cols desktop |
+| Cohérence | ⚠️ | Oculaires sans icônes |
+| Grille | ✅ | 1→2→3 colonnes responsive |
 
 ### 3.6 album.html — Galerie (158 lignes)
 
 **Rôle** : Galerie photo avec 15 emplacements.
 
-**Contenu** :
-- 3 sections : Lune (6), Soleil (3), Ciel profond (6)
-- Chaque item = `gallery__item` avec placeholder emoji + overlay au survol
-- Overlay affiche le label technique au survol
+```mermaid
+flowchart TD
+    ALBUM[Album Photo] --> MOON[🌙 La Lune 6 photos]
+    ALBUM --> SUN[☀️ Le Soleil 3 photos]
+    ALBUM --> DEEP[🌌 Ciel Profond 6 photos]
 
-**Audit** :
+    MOON --> M1[Lune gibbeuse]
+    MOON --> M2[Premier quartier]
+    MOON --> M3[Détail cratères]
+    MOON --> M4[Dernier quartier]
+    MOON --> M5[Croissant]
+    MOON --> M6[Pleine Lune]
+
+    SUN --> S1[Soleil lumière blanche]
+    SUN --> S2[Soleil H-alpha]
+    SUN --> S3[Transit ISS]
+
+    DEEP --> D1[M31 Andromède]
+    DEEP --> D2[M42 Orion]
+    DEEP --> D3[M45 Pléiades]
+    DEEP --> D4[M13 Hercule]
+    DEEP --> D5[M57 Lyre]
+    DEEP --> D6[M51 Whirlpool]
+```
 
 | Point | État | Détail |
 |---|---|---|
 | Structure | ✅ | Grille responsive 1→2→3 colonnes |
-| Overlay | ✅ | Animation CSS propre au survol |
-| Placeholders | ❌ | Toutes les images sont des emojis, pas de vraies photos |
-| Ratio | ⚠️ | `aspect-ratio: 1` forcé, idéal pour Lune mais pas pour ciel profond (souvent rectangulaire) |
-| Nombre | ⚠️ | Déséquilibré : 6 Lune, 3 Soleil, 6 ciel profond |
+| Overlay | ✅ | Animation CSS au survol |
+| Placeholders | ❌ | Tous des emojis, pas de vraies photos |
+| Ratio | ⚠️ | `aspect-ratio: 1` forcé (carré) |
+| Équilibre | ⚠️ | 6 Lune, 3 Soleil, 6 ciel profond |
 
 ### 3.7 meteo-astro.html — Météo (175 lignes)
 
-**Rôle** : Indicateurs météo en temps réel pour l'observation.
-
-**Contenu** :
-- 8 cartes avec données live (API Open-Meteo)
-- Spinner de chargement + barre d'erreur
-- Bouton refresh + timestamp
-- Phase lunaire calculée côté client
-- Liens Meteoblue + Clear Outside
-
-**Audit** :
+**Rôle** : Indicateurs météo en temps réel (voir analyse détaillée §7).
 
 | Point | État | Détail |
 |---|---|---|
-| Données live | ✅ | 11 variables Open-Meteo, pas de clé API |
-| UX | ✅ | Loading states, erreurs, refresh, timestamp |
-| Algorithme | ✅ | Seeing calculé (Jet + nuages + humidité) |
-| Lune | ✅ | Calcul algorithmique sans API |
+| Données live | ✅ | Open-Meteo, 11 variables, pas de clé |
+| UX | ✅ | Loading, erreurs, refresh, timestamp |
+| Algorithme | ✅ | Seeing composite + phase lunaire |
 | Liens externes | ✅ | Meteoblue + Clear Outside |
 
 ### 3.8 biblio.html — Ressources (182 lignes)
 
 **Rôle** : Recommandations : livres, logiciels, liens.
 
-**Contenu** :
-- 3 sections : Livres (3), Logiciels (4), Liens utiles (3)
-- Chaque item = icône + titre + méta + description + lien externe
+```mermaid
+flowchart TD
+    BIBLIO[Ressources] --> BOOKS[📚 Livres 3]
+    BIBLIO --> SOFT[💻 Logiciels 4]
+    BIBLIO --> LINKS[🔗 Liens utiles 3]
 
-**Audit** :
+    BOOKS --> B1[Astrophotographie<br/>T. Legault, Eyrolles]
+    BOOKS --> B2[Le Guide du Ciel<br/>G. Cannat, AMDS]
+    BOOKS --> B3[Atlas du Ciel<br/>W. Tirion, Gründ]
+
+    SOFT --> S1[Stellarium<br/>Planétarium libre]
+    SOFT --> S2[Siril<br/>Traitement images]
+    SOFT --> S3[SharpCap<br/>Capture caméras]
+    SOFT --> S4[N.I.N.A.<br/>Automatisation]
+
+    LINKS --> L1[lightpollutionmap.info]
+    LINKS --> L2[heavens-above.com]
+    LINKS --> L3[Société Astro. Liège]
+```
 
 | Point | État | Détail |
 |---|---|---|
-| Qualité des liens | ✅ | Stellarium, Siril, N.I.N.A., SharpCap — références pertinentes |
-| Liens externes | ✅ | `rel="noopener noreferrer"` systématique |
-| Structure | ✅ | Cohérent avec le reste du site |
-| Nombre | ⚠️ | Seulement 10 ressources — peut être étoffé |
+| Qualité des liens | ✅ | Références pertinentes |
+| Liens externes | ✅ | `rel="noopener noreferrer"` |
+| Nombre | ⚠️ | Seulement 10 ressources |
 
 ### 3.9 chat.html — Contact (113 lignes)
 
-**Rôle** : Formulaire de contact.
+**Rôle** : Formulaire de contact (⚠️ sans backend).
 
-**Contenu** :
-- 3 champs : Nom, Email, Message
-- Validation JS (champs requis + regex email)
-- Message de succès après soumission
-- **Aucun envoi réel** (pas de backend)
-
-**Audit** :
+```mermaid
+flowchart TD
+    FORM[#contact-form] --> VALID{Validation JS}
+    VALID -->|Nom vide| ERR1[.form__input--error sur name]
+    VALID -->|Email invalide| ERR2[.form__input--error sur email]
+    VALID -->|Message vide| ERR3[.form__input--error sur message]
+    VALID -->|OK| HIDE["e.preventDefault()<br/>form.style.display='none'"]
+    HIDE --> FAKE["#form-success<br/>'Message envoyé !'"]
+    FAKE -.->|❌| BACKEND[Aucune donnée transmise]
+```
 
 | Point | État | Détail |
 |---|---|---|
 | Validation | ✅ | HTML5 (`required`) + JS (regex email) |
-| UX erreur | ✅ | Classe `.form__input--error` bien visible |
+| UX erreur | ✅ | `.form__input--error` bien visible |
 | UX succès | ✅ | Animation de confirmation |
-| Backend | ❌ | Le formulaire ne transmet nulle part les données. Le `e.preventDefault()` empêche toute soumission et simule un succès. |
-| Sécurité | ⚠️ | Pas de rate limiting, pas de honeypot, pas de CAPTCHA |
+| Backend | ❌ | `e.preventDefault()` empêche toute soumission réelle |
+| Sécurité | ⚠️ | Pas de rate limiting, honeypot, ni CAPTCHA |
 
 ---
 
@@ -290,29 +405,38 @@ Thème spatial sombre défini par 18 variables CSS (`:root`) :
 
 ### 4.1 Structure
 
-| Section | Lignes | Contenu |
-|---|---|---|
-| Reset + Design Tokens | 1–43 | `:root`, reset, body |
-| Header & Navigation | 98–209 | Sticky header, nav desktop + mobile |
-| Main Content | 211–276 | `.container`, `.section`, `.page-header` |
-| Hero | 278–380 | Fond étoilé, animation float |
-| Buttons | 382–436 | `.btn--primary`, `.btn--outline`, tailles |
-| Construction Banner | 438–468 | Bandeau violet |
-| Welcome | 470–485 | Texte centré |
-| Featured | 487–538 | `.featured-card` (accueil) |
-| Cards | 540–608 | `.card`, `.card-grid` (matériel, biblio) |
-| Gallery | 610–672 | `.gallery`, `.gallery__item`, overlay |
-| News | 674–740 | `.news-card` |
-| Contact Form | 742–832 | `.form`, validation, succès |
-| Weather | 834–908 | `.weather-card`, `.meteo-status`, `.meteo-controls` |
-| Info Box | 910–922 | `.info-box` (coordonnées) |
-| Signature | 924–929 | `.signature` |
-| Prose | 931–958 | `.prose` (contenu texte) |
-| Bibliography | 960–1009 | `.biblio-item` |
-| Footer | 1011–1080 | `.footer` + social |
-| Back to Top | 1082–1116 | `.back-to-top` |
-| Responsive | 1118–1253 | 3 breakpoints (640, 1024, 767) |
-| Utilities | 1255–1284 | `.text-center`, `.mt-*`, `.mb-*`, `.sr-only` |
+```mermaid
+flowchart TB
+    subgraph CSS["style.css — 1344 lignes"]
+        direction TB
+        R["Reset + Design Tokens (43 lignes)"]
+        H["Header & Navigation (111 lignes)"]
+        MC["Main Content — container, section (65 lignes)"]
+        HE["Hero — fond étoilé, float (102 lignes)"]
+        BTN["Buttons — 3 variantes (54 lignes)"]
+        BN["Construction Banner (30 lignes)"]
+        WEL["Welcome (15 lignes)"]
+        FEAT["Featured Cards (51 lignes)"]
+        CD["Cards — matériel, biblio (68 lignes)"]
+        GAL["Gallery — overlay, grid (62 lignes)"]
+        NWS["News Cards (66 lignes)"]
+        FORM["Contact Form — validation, succès (90 lignes)"]
+        WTH["Weather Cards + meteo-status (86 lignes)"]
+        INFO["Info Box (12 lignes)"]
+        SIG["Signature (5 lignes)"]
+        PRS["Prose — contenu texte (27 lignes)"]
+        BIB["Bibliography — items (49 lignes)"]
+        FT["Footer + social (69 lignes)"]
+        BTT["Back to Top (34 lignes)"]
+        RSP["Responsive (137 lignes)"]
+        UTL["Utilities (29 lignes)"]
+    end
+
+    R --> H --> MC --> HE --> BTN --> BN --> WEL
+    WEL --> FEAT --> CD --> GAL --> NWS --> FORM
+    FORM --> WTH --> INFO --> SIG --> PRS --> BIB
+    BIB --> FT --> BTT --> RSP --> UTL
+```
 
 ### 4.2 Qualité
 
@@ -320,11 +444,11 @@ Thème spatial sombre défini par 18 variables CSS (`:root`) :
 |---|---|---|
 | Design tokens | ✅ | 18 variables CSS bien nommées |
 | BEM naming | ✅ | Cohérent : `.block__element--modifier` |
-| Responsive | ✅ | 3 breakpoints ciblés, mobile-first |
+| Responsive | ✅ | 3 breakpoints, mobile-first |
 | Animations | ✅ | `float`, `spin`, `pulse`, transitions fluides |
-| Inline styles | ⚠️ | Quelques `style=""` dans le HTML (`padding-top: 0`, `margin-top: 48px`) |
-| Duplication | ⚠️ | `.card`, `.weather-card`, `.news-card`, `.featured-card` partagent des styles similaires (fond, bordure, hover). Factorisable. |
-| Dark mode | ❌ | Pas de `prefers-color-scheme` — le thème clair n'existe pas |
+| Inline styles | ⚠️ | `style="padding-top:0"` et `margin-top:48px` dans 6 pages |
+| Duplication | ⚠️ | `.card`, `.weather-card`, `.news-card`, `.featured-card` partagent ~60% de styles communs |
+| Dark mode | ❌ | Pas de `prefers-color-scheme` |
 
 ---
 
@@ -332,27 +456,32 @@ Thème spatial sombre défini par 18 variables CSS (`:root`) :
 
 ### 5.1 main.js (99 lignes)
 
-**Rôle** : Navigation mobile + lien actif + back-to-top + formulaire contact.
+```mermaid
+flowchart TD
+    MAIN["main.js — IIFE, ES5"] --> NAV[Navigation mobile]
+    MAIN --> ACTIVE[Lien actif automatique]
+    MAIN --> BTT[Back-to-top]
+    MAIN --> FORM[Formulaire contact]
+
+    NAV --> BURGER["Toggle .nav--open<br/>ARIA aria-expanded<br/>Body scroll lock"]
+    ACTIVE --> COMP["Comparaison pathname<br/>avec href de chaque lien"]
+    BTT --> SCROLL["Scroll listener >400px<br/>Smooth scroll"]
+    FORM --> VALID["Validation: nom, email regex, message"]
+    VALID --> FAKE["e.preventDefault()<br/>Simule succès sans envoi ❌"]
+```
 
 | Fonctionnalité | Implémentation | Qualité |
 |---|---|---|
-| Burger menu | Toggle `.nav--open`, ARIA `aria-expanded`, body scroll lock | ✅ |
+| Burger menu | Toggle `.nav--open`, ARIA `aria-expanded`, scroll lock | ✅ |
 | Lien actif | Comparaison `pathname` avec `href` | ✅ |
-| Back-to-top | Scroll listener >400px, smooth scroll | ✅ |
-| Formulaire contact | Validation nom/email/message, succès simulé | ⚠️ |
-| Structure | IIFE `(function() { 'use strict'; })()` | ✅ |
+| Back-to-top | Scroll listener 400px, `{ passive: true }`, smooth scroll | ✅ |
+| Formulaire | Validation nom/email/message, succès simulé | ❌ |
+| Structure | IIFE `(function(){'use strict';})()` | ✅ |
 | Compatibilité | ES5 (pas de `const`/`let`, pas de `=>`) | ✅ |
 
 **Problèmes** :
-- Le formulaire utilise `e.preventDefault()` et cache le form sans transmettre les données
-- Pas de `passive: true` sur le scroll listener de back-to-top (corrigé : ligne 41 a `{ passive: true }`)
-- La détection du lien actif a deux passes (lignes 19-32 et 88-98) — redondance partielle
-
-### 5.2 meteo.js (323 lignes)
-
-**Rôle** : Données météo live + phase lunaire.
-
-Voir la section dédiée §7 pour l'analyse détaillée.
+- Le formulaire bloque toute soumission réelle (`e.preventDefault()` + masquage)
+- La détection du lien actif a deux passes redondantes (lignes 19-32 et 88-98)
 
 ---
 
@@ -360,41 +489,49 @@ Voir la section dédiée §7 pour l'analyse détaillée.
 
 ### 6.1 Structurels
 
-| Problème | Impact | Priorité |
-|---|---|---|
-| **Duplication massive du code** | Maintenance : modifier header/footer nécessite 10 edits. Risque d'incohérence entre pages. | Haute |
-| **Pas de `.gitignore`** | Risque de commiter des fichiers sensibles (.env, backups, etc.) | Haute |
-| **Pas de favicon** | Onglet navigateur sans icône | Moyenne |
-| **Pas de `robots.txt`** | SEO non contrôlé | Moyenne |
-| **Pas de sitemap** | SEO — les moteurs doivent découvrir les pages par crawl | Basse |
-| **Pas d'OpenGraph/Twitter Cards** | Partage sur réseaux sociaux sans image ni description riche | Basse |
-| **Google Fonts bloquant** | `@import` dans CSS bloque le rendu tant que la fonte n'est pas chargée | Basse |
+```mermaid
+flowchart LR
+    subgraph CRIT["🔴 Problèmes structurels"]
+        DUP["Duplication massive<br/>~520 lignes, 25% du HTML"]
+        GIT[".gitignore absent<br/>risque secrets commités"]
+    end
+
+    subgraph WARN["🟡 Problèmes secondaires"]
+        FAV["Pas de favicon"]
+        ROBOT["Pas de robots.txt"]
+        SITEMAP["Pas de sitemap.xml"]
+        OG["Pas d'OpenGraph"]
+        FONT["Google Fonts @import bloquant"]
+    end
+
+    CRIT -->|Priorité haute| WARN
+```
 
 ### 6.2 Fonctionnels
 
 | Problème | Impact | Priorité |
 |---|---|---|
-| **Formulaire contact factice** | L'utilisateur croit avoir envoyé un message, rien n'est transmis | Haute |
-| **Galerie sans photos** | 15 emplacements vides (emojis). Page inutile en l'état | Haute |
-| **Featured cards sans liens** | Les cartes Lune/Soleil sur l'accueil ne sont pas cliquables | Moyenne |
-| **Liens « Lire la suite » morts** | `href="#"` sur les 4 articles | Moyenne |
-| **Liens footer morts** | Mentions légales et CGU → `href="#"` | Moyenne |
-| **Pas de page 404** | Erreur navigateur par défaut si URL inexistante | Basse |
+| **Formulaire contact factice** | L'utilisateur croit avoir envoyé un message, rien n'est transmis | 🔴 Haute |
+| **Galerie sans photos** | 15 emplacements vides (emojis). Page inutile | 🔴 Haute |
+| **Featured cards sans liens** | Cartes Lune/Soleil sur l'accueil non cliquables | 🟡 Moyenne |
+| **Liens « Lire la suite » morts** | `href="#"` sur 4 articles | 🟡 Moyenne |
+| **Liens footer morts** | Mentions légales et CGU → `href="#"` | 🟡 Moyenne |
+| **Pas de page 404** | Erreur navigateur par défaut | 🟢 Basse |
 
 ### 6.3 CSS
 
 | Problème | Impact | Priorité |
 |---|---|---|
-| **Inline styles dans HTML** | `style="padding-top: 0"` et `style="margin-top: 48px"` dans 6 pages. Devrait être une classe utilitaire. | Moyenne |
-| **Cartes non factorisées** | `.card`, `.weather-card`, `.news-card`, `.featured-card` ont ~60% de styles communs | Basse |
-| **`aspect-ratio: 1` partout** | La galerie force un ratio carré même pour les photos rectangulaires | Basse |
+| **Inline styles dans HTML** | `style="padding-top:0"` et `margin-top:48px` dans 6 pages | 🟡 Moyenne |
+| **Cartes non factorisées** | `.card`, `.weather-card`, `.news-card`, `.featured-card` dupliqués | 🟢 Basse |
+| **`aspect-ratio:1` forcé** | Galerie en carré même pour photos rectangulaires | 🟢 Basse |
 
 ### 6.4 JS
 
 | Problème | Impact | Priorité |
 |---|---|---|
-| **Validation formulaire sans backend** | Message envoyé non traité | Haute |
-| **Double détection lien actif** | `main.js:88-98` est un fallback redondant de la première passe `main.js:19-32` | Basse |
+| **Formulaire sans backend** | `e.preventDefault()` empêche tout envoi | 🔴 Haute |
+| **Double détection lien actif** | `main.js:88-98` redondant avec `main.js:19-32` | 🟢 Basse |
 
 ---
 
@@ -402,41 +539,43 @@ Voir la section dédiée §7 pour l'analyse détaillée.
 
 ### 7.1 Architecture
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    meteo-astro.html                      │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────────┐ │
-│  │ #meteo-loading│  │ #meteo-error │  │  8 weather-card │ │
-│  │ (spinner)     │  │ (message)    │  │  avec IDs        │ │
-│  └─────────────┘  └─────────────┘  └────────┬────────┘ │
-│  ┌──────────────────────────────────────────┘          │
-│  │ #meteo-refresh + #meteo-timestamp                   │
-│  └────────────────────────────────────────────────────── │
-│                                                          │
-│  <script src="js/meteo.js"></script>                    │
-└─────────────────────────────────────────────────────────┘
-         │
-         │ fetch()
-         ▼
-┌─────────────────────────────┐
-│  api.open-meteo.com         │  ← HTTP GET, gratuit, pas de clé API
-│  /v1/forecast               │
-│                             │
-│  hourly (11 variables) :    │
-│    cloud_cover              │
-│    cloud_cover_low/mid/high │
-│    relative_humidity_2m     │
-│    dew_point_2m             │
-│    temperature_2m           │
-│    wind_speed_10m           │
-│    wind_gusts_10m           │
-│    wind_speed_250hPa        │
-│                             │
-│  daily (2 variables) :      │
-│    sunrise, sunset          │
-└─────────────────────────────┘
+```mermaid
+flowchart TB
+    subgraph PAGE["meteo-astro.html"]
+        LOAD["#meteo-loading<br/>Spinner + texte"]
+        ERR["#meteo-error<br/>Message erreur"]
+        subgraph GRID["weather-grid"]
+            WC[wc-cloud]
+            WS[wc-seeing]
+            WH[wc-humidity]
+            WW[wc-wind]
+            WT[wc-temp]
+            WM[wc-moon]
+            WJ[wc-jet]
+            WSUN[wc-sun]
+        end
+        CTRL["#meteo-refresh + #meteo-timestamp"]
+    end
 
-  Phase lunaire → calculée localement
+    subgraph SCRIPT["js/meteo.js (IIFE)"]
+        INIT[init]
+        FETCH[fetchWeatherData]
+        PROCESS[processOpenMeteo]
+        MOON[calcMoonPhase]
+    end
+
+    subgraph API["api.open-meteo.com"]
+        HOURLY["11 variables horaires"]
+        DAILY["sunrise, sunset"]
+    end
+
+    INIT --> FETCH
+    FETCH -->|fetch| API
+    API -->|JSON| PROCESS
+    PROCESS --> GRID
+    PROCESS --> MOON
+    MOON --> WM
+    CTRL -->|click| FETCH
 ```
 
 ### 7.2 Sources de données
@@ -446,7 +585,7 @@ Voir la section dédiée §7 pour l'analyse détaillée.
 | Paramètre | Valeur |
 |---|---|
 | Endpoint | `https://api.open-meteo.com/v1/forecast` |
-| Coordonnées | 50.5333°N, 4.6°E |
+| Coordonnées | 50.5333°N, 4.6°E (Villers-la-Ville) |
 | Fuseau horaire | `Europe/Brussels` |
 | Forecast | 24 heures |
 | Licence | Gratuit, 10 000 req/jour (non commercial) |
@@ -468,20 +607,44 @@ https://api.open-meteo.com/v1/forecast
 
 #### Mapping variables → indicateurs
 
-| Variable Open-Meteo | Unité | Carte HTML | ID |
-|---|---|---|---|
-| `cloud_cover` | % | Couverture nuageuse | `wc-cloud` |
-| `cloud_cover_low/mid/high` | % | Détail nuages (bas/moyen/haut) | `wc-cloud` |
-| — (calculé) | score /10 | Seeing | `wc-seeing` |
-| `relative_humidity_2m` | % | Humidité | `wc-humidity` |
-| `dew_point_2m` | °C | Point de rosée + alerte buée | `wc-humidity` |
-| `temperature_2m` | °C | Température | `wc-temp` |
-| `wind_speed_10m` | km/h | Vent | `wc-wind` |
-| `wind_gusts_10m` | km/h | Rafales | `wc-wind` |
-| `wind_speed_250hPa` | km/h | Jet Stream | `wc-jet` |
-| — (calculé local) | phase | Phase lunaire | `wc-moon` |
-| `sunrise` | ISO 8601 | Lever du Soleil | `wc-sun` |
-| `sunset` | ISO 8601 | Coucher du Soleil | `wc-sun` |
+```mermaid
+flowchart LR
+    subgraph API["Open-Meteo"]
+        CC["cloud_cover<br/>cloud_cover_low/mid/high"]
+        RH["relative_humidity_2m"]
+        DP["dew_point_2m"]
+        T2["temperature_2m"]
+        WS["wind_speed_10m"]
+        WG["wind_gusts_10m"]
+        WJET["wind_speed_250hPa"]
+        SR["sunrise"]
+        SS["sunset"]
+    end
+
+    subgraph CARDS["Cartes HTML"]
+        C1["wc-cloud<br/>Couverture nuageuse"]
+        C2["wc-seeing<br/>Seeing (calculé)"]
+        C3["wc-humidity<br/>Humidité + buée"]
+        C4["wc-temp<br/>Température"]
+        C5["wc-wind<br/>Vent + rafales"]
+        C6["wc-jet<br/>Jet Stream"]
+        C7["wc-sun<br/>Lever/Coucher"]
+        C8["wc-moon<br/>Phase lunaire (calculée)"]
+    end
+
+    CC --> C1
+    RH --> C3
+    DP --> C3
+    T2 --> C4
+    WS --> C5
+    WG --> C5
+    WJET --> C6
+    WJET --> C2
+    CC --> C2
+    RH --> C2
+    SR --> C7
+    SS --> C7
+```
 
 ### 7.3 Algorithme du Seeing
 
@@ -490,69 +653,80 @@ https://api.open-meteo.com/v1/forecast
 seeing = (jetSpeed / 40) + (cloudCover / 100) + (humidity / 100)
 ```
 
-- Jet Stream (coeff 1/40) : facteur dominant. Un jet fort dégrade le seeing.
-- Nuages (coeff 1/100) : contribution modérée.
-- Humidité (coeff 1/100) : contribution modérée.
+- Jet Stream (coeff 1/40) : facteur dominant
+- Nuages (coeff 1/100) : contribution modérée
+- Humidité (coeff 1/100) : contribution modérée
 
-**Échelle** :
+```mermaid
+flowchart LR
+    J["Jet Stream<br/>wind_speed_250hPa"] -->|÷40| S1
+    C["Nuages<br/>cloud_cover"] -->|÷100| S2
+    H["Humidité<br/>relative_humidity_2m"] -->|÷100| S3
 
-| Score | Label | Couleur CSS | Conditions typiques |
-|---|---|---|---|
-| ≤ 2,5 | Excellent | `#22c55e` | Jet < 60 km/h, ciel dégagé, sec |
-| ≤ 4,5 | Bon | `#84cc16` | Jet < 100 km/h, nuages épars |
-| ≤ 6,5 | Moyen | `#eab308` | Jet < 140 km/h, partiellement couvert |
-| ≤ 8,5 | Médiocre | `#f97316` | Jet fort ou très nuageux |
-| > 8,5 | Mauvais | `#ef4444` | Jet très fort, couvert, humide |
+    S1[" "] --> SUM["Σ = seeing score"]
+    S2[" "] --> SUM
+    S3[" "] --> SUM
+
+    SUM --> EVAL{Évaluation}
+    EVAL -->|"≤ 2,5"| EXC["🟢 Excellent<br/>#22c55e"]
+    EVAL -->|"≤ 4,5"| BON["🟢 Bon<br/>#84cc16"]
+    EVAL -->|"≤ 6,5"| MOY["🟡 Moyen<br/>#eab308"]
+    EVAL -->|"≤ 8,5"| MED["🟠 Médiocre<br/>#f97316"]
+    EVAL -->|"> 8,5"| MAU["🔴 Mauvais<br/>#ef4444"]
+```
 
 **Exemple** : Jet 85 km/h, nuages 30%, humidité 60% → `(85/40)+(30/100)+(60/100)` = **3,0 (Bon)**.
 
 ### 7.4 Algorithme de la phase lunaire
 
-**Principe** : calcul basé sur le jour julien et le cycle synodique lunaire (29,53058867 jours).
-
-**Référence** : Nouvelle Lune du 6 janvier 2000 (JD 2451549,5).
-
-**Étapes** :
-1. Date → jour julien
-2. Jours écoulés depuis la référence / 29,53058867
-3. Partie fractionnaire = position dans le cycle (0 = Nouvelle Lune)
-4. Illumination = `(1 − cos(phase × 2π)) / 2` (0–100%)
-5. Âge = `phase × 29,53` jours
-
-**Précision** : ± quelques heures, amplement suffisant pour l'usage.
-
-### 7.5 Flux de données
-
+```mermaid
+flowchart TD
+    DATE["Date actuelle"] --> JD["Jour Julien<br/>JD = timestamp/86400000 + 2440587.5"]
+    JD --> DELTA["Jours écoulés depuis<br/>Nouvelle Lune 06/01/2000<br/>JD = 2451549.5"]
+    DELTA --> CYCLE["Divisé par<br/>mois synodique = 29.53058867"]
+    CYCLE --> PHASE["Partie fractionnaire<br/>= position dans le cycle<br/>0 = Nouvelle Lune, 0.5 = Pleine Lune"]
+    PHASE --> ILLUM["Illumination<br/>= (1 - cos(phase × 2π)) ÷ 2<br/>→ 0-100%"]
+    PHASE --> AGE["Âge<br/>= phase × 29.53 jours<br/>→ avec 1 décimale"]
+    PHASE --> NAME["Nom de phase<br/>8 paliers<br/>Nouvelle → Pleine → Nouvelle"]
 ```
-1. DOM prêt
-   │
-2. init()
-   ├── Cache les références DOM (8 cartes + 4 contrôles)
-   ├── Bind click sur #meteo-refresh
-   └── fetchWeatherData()
-        │
-3. showLoading()
-   ├── Affiche spinner + pulse animation sur les cartes
-   └── Désactive le bouton refresh
-        │
-4. fetch(api.open-meteo.com)
-        │
-   ┌────┴────┐
-   ✅ succès  ❌ échec
-   │          │
-5. processOpenMeteo()    showError()
-   │                        │
-   ├── getCurrentHourIndex  ├── calcMoonPhase()
-   ├── Extrait valeurs      │   (lune toujours calculée)
-   ├── Calcule le seeing    └── Affiche erreur
-   ├── updateCard() × 8
-   ├── hideLoading()
-   └── calcMoonPhase()
-        │
-6. hideLoading()
-   ├── Masque spinner
-   ├── Réactive bouton
-   └── Affiche timestamp "Mis à jour le JJ/MM HH:MM"
+
+**Précision** : ± quelques heures, suffisant pour l'usage amateur.
+
+### 7.5 Flux de données détaillé
+
+```mermaid
+sequenceDiagram
+    participant DOM as navigateur
+    participant JS as meteo.js
+    participant API as api.open-meteo.com
+
+    DOM->>JS: DOMContentLoaded
+    JS->>JS: init()
+    JS->>JS: Cache références DOM (8 cartes + 4 contrôles)
+    JS->>JS: Bind click sur #meteo-refresh
+    JS->>JS: fetchWeatherData()
+
+    JS->>DOM: showLoading()
+    Note over DOM: Affiche spinner<br/>Pulse animation sur cartes<br/>Désactive bouton refresh
+
+    JS->>API: GET /v1/forecast?latitude=...&hourly=...
+    API-->>JS: JSON (24h × 11 variables + daily)
+
+    alt Succès
+        JS->>JS: processOpenMeteo(data)
+        JS->>JS: getCurrentHourIndex()
+        JS->>JS: Extrait valeurs de l'heure courante
+        JS->>JS: Calcule seeing = (jet/40)+(cloud/100)+(humidity/100)
+        JS->>JS: calcMoonPhase(new Date())
+        JS->>DOM: updateCard() × 8
+        JS->>DOM: hideLoading()
+        Note over DOM: Masque spinner<br/>Réactive bouton<br/>Affiche timestamp
+    else Échec réseau / API
+        JS->>JS: calcMoonPhase(new Date())
+        JS->>DOM: updateCard('wc-moon', ...)
+        JS->>DOM: showError("Impossible de récupérer...")
+        Note over DOM: Affiche message rouge
+    end
 ```
 
 ### 7.6 Gestion des erreurs
@@ -564,29 +738,39 @@ seeing = (jetSpeed / 40) + (cloudCover / 100) + (humidity / 100)
 | API retourne `error: true` | Affichage du champ `reason` |
 | Variable absente de la réponse | La carte conserve le placeholder `—` |
 | `wind_speed_250hPa` absent | Fallback sur `wind_speed_200hPa`, sinon pas de Jet Stream |
-| Échec API mais lune OK | La phase lunaire est toujours calculée et affichée (indépendante du réseau) |
+| Échec API mais lune OK | La phase lunaire est toujours calculée et affichée |
 
 ### 7.7 Structure du code (meteo.js)
 
-```
-meteo.js (IIFE)
-├── Configuration : LAT, LON, TIMEZONE
-├── Références DOM : cards{}, refreshBtn, timestampEl, errorEl, loadingEl
-├── Calculs
-│   ├── calcMoonPhase(date)        → { name, illumination, age }
-│   ├── seeingLabel(score)         → "Excellent" ... "Mauvais"
-│   └── seeingColor(score)         → couleur CSS
-├── Affichage
-│   ├── moonEmoji/cloudEmoji/...   → icônes dynamiques
-│   └── updateCard(id,val,detail)  → mise à jour DOM
-├── État UI
-│   ├── showLoading() / hideLoading()
-│   └── showError(msg)
-├── Traitement
-│   ├── getCurrentHourIndex()      → index de l'heure actuelle
-│   ├── processOpenMeteo(data)     → parse + update DOM
-│   └── fetchWeatherData()         → fetch + then/catch
-└── init()                         → point d'entrée
+```mermaid
+flowchart TD
+    IIFE["meteo.js<br/>IIFE (function(){...})()"]
+
+    IIFE --> CONFIG["Configuration<br/>LAT, LON, TIMEZONE"]
+    IIFE --> DOMREF["Références DOM<br/>cards{}, refreshBtn<br/>timestampEl, errorEl, loadingEl"]
+    IIFE --> CALC["Calculs"]
+    IIFE --> DISPLAY["Affichage"]
+    IIFE --> UI["État UI"]
+    IIFE --> PROC["Traitement"]
+    IIFE --> ENTRY["init()"]
+
+    CALC --> C1["calcMoonPhase(date)<br/>→ name, illumination, age"]
+    CALC --> C2["seeingLabel(score)<br/>→ Excellent...Mauvais"]
+    CALC --> C3["seeingColor(score)<br/>→ couleur CSS"]
+
+    DISPLAY --> D1["moonEmoji/cloudEmoji/<br/>windEmoji/humidityEmoji/<br/>tempEmoji/jetEmoji"]
+    DISPLAY --> D2["updateCard(id, val, detail)<br/>→ mise à jour DOM"]
+
+    UI --> U1["showLoading()"]
+    UI --> U2["hideLoading()"]
+    UI --> U3["showError(msg)"]
+
+    PROC --> P1["getCurrentHourIndex()<br/>→ index heure actuelle"]
+    PROC --> P2["processOpenMeteo(data)<br/>→ parse + updateCard × 8"]
+    PROC --> P3["fetchWeatherData()<br/>→ fetch + then/catch"]
+
+    ENTRY --> DOMREF
+    ENTRY --> P3
 ```
 
 ### 7.8 Performances
@@ -595,7 +779,7 @@ meteo.js (IIFE)
 |---|---|
 | Appels HTTP par chargement | 1 (Open-Meteo) |
 | Taille réponse API | ~3–8 Ko |
-| Temps de réponse API | ~100–300 ms (CDN) |
+| Temps de réponse API | ~100–300 ms (CDN Cloudflare) |
 | Poids JS météo | ~8 Ko (non minifié) |
 | Calcul lune | < 0,1 ms (synchrone) |
 | Reflows DOM | Aucun forcé (modifications groupées) |
@@ -608,7 +792,7 @@ meteo.js (IIFE)
 
 | Amélioration | Effort | Impact |
 |---|---|---|
-| Résoudre le formulaire de contact (backend PHP simple ou service tiers) | 2h | Critique |
+| Résoudre le formulaire de contact (backend PHP ou service tiers) | 2h | Critique |
 | Ajouter un `.gitignore` | 5 min | Sécurité |
 | Ajouter un favicon | 15 min | Image de marque |
 | Remplir la galerie avec de vraies photos | Variable | Contenu |
@@ -618,8 +802,8 @@ meteo.js (IIFE)
 
 | Amélioration | Effort | Impact |
 |---|---|---|
-| Templating (SSI Nginx ou script build simple) pour éliminer la duplication | 3h | Maintenance |
-| Ajouter WeatherAPI pour des éphémérides lunaires plus précises | 1h | Précision |
+| Templating (SSI Nginx ou script build) pour éliminer la duplication | 3h | Maintenance |
+| Ajouter WeatherAPI pour éphémérides lunaires plus précises | 1h | Précision |
 | Page 404 personnalisée | 30 min | UX |
 | OpenGraph / Twitter Cards | 30 min | SEO Social |
 | `robots.txt` + sitemap.xml | 30 min | SEO |
@@ -628,8 +812,7 @@ meteo.js (IIFE)
 
 | Amélioration | Effort | Impact |
 |---|---|---|
-| Dark mode toggle (si thème clair souhaité) | 2h | Accessibilité |
-| Cache localStorage pour les données météo | 2h | Performance |
+| Cache localStorage pour données météo | 2h | Performance |
 | Prévisions météo multi-jours (graphique/tableau) | 4h | Fonctionnalité |
 | Base statique Bortle Scale pour pollution lumineuse | 3h | Fonctionnalité |
 | Migration vers un générateur statique (11ty/Astro) | 8h | Architecture |
@@ -638,24 +821,25 @@ meteo.js (IIFE)
 
 ## 9. Plan d'action prioritaire
 
-### 🔴 Bloquant
+```mermaid
+flowchart TD
+    START[Plan d'action] --> RED[🔴 Bloquant]
+    START --> YELLOW[🟡 Important]
+    START --> GREEN[🟢 Confort]
 
-1. **Formulaire de contact** : implémenter un envoi réel (email, webhook, ou service tiers type Formspree)
-2. **`.gitignore`** : créer le fichier avec `*.log`, `.env*`, `node_modules/`, `.DS_Store`, etc.
+    RED --> R1["1. Formulaire contact<br/>→ backend réel"]
+    RED --> R2["2. .gitignore<br/>→ sécuriser le repo"]
 
-### 🟡 Important
+    YELLOW --> Y1["3. Galerie photos<br/>→ vraies images"]
+    YELLOW --> Y2["4. Liens morts<br/>→ remplacer href='#'"]
+    YELLOW --> Y3["5. Favicon"]
+    YELLOW --> Y4["6. Templating<br/>→ SSI Nginx"]
 
-3. **Galerie photos** : remplacer les emojis par de vraies images
-4. **Liens morts** : remplacer `href="#"` (footer, news) par des pages réelles
-5. **Favicon** : ajouter une icône
-6. **Header/Footer dupliqués** : utiliser des Server-Side Includes (SSI) Nginx pour factoriser
-
-### 🟢 Confort
-
-7. **Featured cards cliquables** sur l'accueil
-8. **SEO** : OpenGraph, sitemap, robots.txt
-9. **Page 404**
-10. **Inline styles** → classes CSS
+    GREEN --> G1["7. Featured cards cliquables"]
+    GREEN --> G2["8. SEO: OG, sitemap, robots.txt"]
+    GREEN --> G3["9. Page 404"]
+    GREEN --> G4["10. Inline styles → classes"]
+```
 
 ---
 
