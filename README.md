@@ -37,7 +37,7 @@ tofdan-site/
 | Fichier              | Lignes         |
 | -------------------- | -------------- |
 | `css/style.css`    | 1496           |
-| `js/meteo.js`      | 600            |
+| `js/meteo.js`      | 626            |
 | `materiel.html`    | 191            |
 | `meteo-astro.html` | 191            |
 | `biblio.html`      | 182            |
@@ -48,7 +48,7 @@ tofdan-site/
 | `app-astro.html`   | 111            |
 | `astro.html`       | 100            |
 | `js/main.js`       | 99             |
-| **Total**      | **3478** |
+| **Total**      | **3504** |
 
 ## Fonctionnalités techniques
 
@@ -58,6 +58,7 @@ tofdan-site/
 - **Formulaire de contact :** Validation HTML5 + JS (nom, email regex, message), message de succès
 - **Bouton back-to-top :** Apparaît après 400px de scroll, smooth scroll
 - **Galeries :** Placeholders avec emojis, overlay au survol, grid responsive
+- **Météo astronomique :** Données météo live (Open-Meteo), recherche de ville, géolocalisation GPS, phase lunaire calculée localement, 5 dernières localisations en localStorage
 - **Performances :** Zéro dépendance externe hors Google Fonts, script async-ready, CSS minifié non nécessaire vu la taille
 
 ## Spécifications respectées par page
@@ -100,7 +101,14 @@ tofdan-site/
 
 ### meteo-astro.html
 
-- 8 indicateurs météo en cartes (nuages, seeing, humidité, vent, température, phase lunaire, jet stream, lever/coucher)
+- **8 indicateurs météo en temps réel** via l'API gratuite Open-Meteo (aucune clé requise) :
+  couverture nuageuse (totale + basse/moyenne/haute), seeing (calcul composite Jet Stream + nuages + humidité),
+  humidité avec alerte buée (point de rosée), vent + rafales, température, Jet Stream (250hPa), lever/coucher du Soleil
+- **Phase lunaire calculée côté client** (algorithme astronomique, sans API) : nom de phase, % illumination, âge
+- **Barre de recherche de ville** avec autocomplétion (API Open-Meteo Geocoding, gratuite)
+- **Bouton géolocalisation GPS** (reverse geocoding via Nominatim/OpenStreetMap)
+- **Historique des 5 dernières localisations** sauvegardé en localStorage (chips cliquables)
+- Spinner de chargement, gestion d'erreur, bouton refresh, timestamp de dernière mise à jour
 - Liens vers Meteoblue Astronomical Seeing et Clear Outside
 
 ### biblio.html

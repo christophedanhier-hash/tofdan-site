@@ -388,15 +388,12 @@
 
     fetch(url)
       .then(function (response) {
-        if (!response.ok) throw new Error('Geocoding error');
+        if (!response.ok) throw new Error('Erreur réseau: ' + response.status);
         return response.json();
       })
       .then(function (data) {
-        if (data.results && data.results.length > 0) {
-          callback(data.results, null);
-        } else {
-          callback([], null);
-        }
+        if (!data) throw new Error('Réponse vide');
+        callback(data.results || [], null);
       })
       .catch(function (err) {
         callback([], err);
@@ -413,7 +410,7 @@
   function showSearchResults(results) {
     if (!searchResults) return;
     searchResults.innerHTML = '';
-    if (results.length === 0) {
+    if (!results || results.length === 0) {
       searchResults.style.display = 'none';
       return;
     }
@@ -422,6 +419,9 @@
         var item = document.createElement('button');
         item.className = 'meteo-location__result-item';
         item.textContent = formatResultLabel(r);
+        item.addEventListener('mousedown', function (e) {
+          e.preventDefault();
+        });
         item.addEventListener('click', function () {
           setLocation(r.latitude, r.longitude, formatResultLabel(r));
           if (searchInput) searchInput.value = '';
@@ -430,6 +430,18 @@
         searchResults.appendChild(item);
       })(results[i]);
     }
+    searchResults.style.display = 'block';
+  }
+
+  function showSearchLoading() {
+    if (!searchResults) return;
+    searchResults.innerHTML = '<div class="meteo-location__result-item" style="cursor:default;color:var(--color-text-dim);">Recherche en cours...</div>';
+    searchResults.style.display = 'block';
+  }
+
+  function showSearchError(msg) {
+    if (!searchResults) return;
+    searchResults.innerHTML = '<div class="meteo-location__result-item" style="cursor:default;color:var(--color-error);">' + msg + '</div>';
     searchResults.style.display = 'block';
   }
 
@@ -551,18 +563,26 @@
 
     if (searchInput) {
       searchInput.addEventListener('input', function () {
-        var query = searchInput.value.trim();
-        if (searchTimer) clearTimeout(searchTimer);
-        if (query.length < 2) {
-          hideSearchResults();
-          return;
+        try {
+          var query = searchInput.value.trim();
+          if (searchTimer) { clearTimeout(searchTimer); searchTimer = null; }
+          if (query.length < 2) {
+            hideSearchResults();
+            return;
+          }
+          showSearchLoading();
+          searchTimer = setTimeout(function () {
+            geocodeSearch(query, function (results, err) {
+              if (err) {
+                showSearchError('Erreur de recherche. Réessayez.');
+                return;
+              }
+              showSearchResults(results);
+            });
+          }, 300);
+        } catch (e) {
+          console.error('Meteo search input error:', e);
         }
-        searchTimer = setTimeout(function () {
-          geocodeSearch(query, function (results, err) {
-            if (err) return;
-            showSearchResults(results);
-          });
-        }, 300);
       });
 
       searchInput.addEventListener('keydown', function (e) {
@@ -573,8 +593,14 @@
       });
 
       searchInput.addEventListener('focus', function () {
-        if (searchInput.value.trim().length >= 2) {
-          geocodeSearch(searchInput.value.trim(), function (results) {
+        var val = (searchInput.value || '').trim();
+        if (val.length >= 2) {
+          showSearchLoading();
+          geocodeSearch(val, function (results, err) {
+            if (err) {
+              showSearchError('Erreur de recherche. Réessayez.');
+              return;
+            }
             showSearchResults(results);
           });
         }

@@ -20,19 +20,19 @@
 
 | Fichier | Lignes | Type |
 |---|---|---|
-| `css/style.css` | 1344 | Styles |
-| `js/meteo.js` | 323 | Script météo |
+| `css/style.css` | 1496 | Styles |
+| `js/meteo.js` | 626 | Script météo |
 | `js/main.js` | 99 | Script principal |
 | `materiel.html` | 191 | Page |
+| `meteo-astro.html` | 191 | Page |
 | `biblio.html` | 182 | Page |
-| `meteo-astro.html` | 175 | Page |
 | `album.html` | 158 | Page |
 | `news.html` | 125 | Page |
 | `chat.html` | 113 | Page |
 | `index.html` | 112 | Page |
 | `app-astro.html` | 111 | Page |
 | `astro.html` | 100 | Page |
-| **Total** | **3033** | |
+| **Total** | **3504** | |
 
 ---
 
@@ -46,12 +46,16 @@ Le site est 100% statique : zéro build, zéro framework, zéro dépendance runt
 graph LR
     A[Client Navigateur] --> B[Nginx /var/www/tofdan.be]
     B --> C["HTML5 (10 pages)"]
-    B --> D["CSS3 (1 feuille, 1344 lignes)"]
+    B --> D["CSS3 (1 feuille, 1496 lignes)"]
     B --> E["JS vanilla (2 scripts)"]
     C --> F[Inter + Space Grotesk]
     F --> G[Google Fonts]
     E --> H[api.open-meteo.com]
     H --> I[Données météo live]
+    E --> J[geocoding-api.open-meteo.com]
+    J --> K[Recherche de ville]
+    E --> L[nominatim.openstreetmap.org]
+    L --> M[Reverse geocoding GPS]
 ```
 
 ### 2.2 Modèle de composants — Duplication
@@ -335,14 +339,42 @@ flowchart TD
 | Ratio | ⚠️ | `aspect-ratio: 1` forcé (carré) |
 | Équilibre | ⚠️ | 6 Lune, 3 Soleil, 6 ciel profond |
 
-### 3.7 meteo-astro.html — Météo (175 lignes)
+### 3.7 meteo-astro.html — Météo (191 lignes)
 
-**Rôle** : Indicateurs météo en temps réel (voir analyse détaillée §7).
+**Rôle** : Indicateurs météo en temps réel avec choix de localisation.
+
+**Contenu** :
+- Barre de recherche de ville avec autocomplétion (Open-Meteo Geocoding API)
+- Bouton géolocalisation GPS (Navigator API + Nominatim reverse geocoding)
+- Historique des 5 dernières localisations (localStorage, chips cliquables)
+- 8 cartes avec données live (API Open-Meteo)
+- Spinner de chargement + barre d'erreur + bouton refresh + timestamp
+- Phase lunaire calculée côté client
+- Liens Meteoblue + Clear Outside
+
+```mermaid
+flowchart TD
+    LOCATION[meteo-location] --> SEARCH["🔍 Barre de recherche<br/>+ autocomplétion"]
+    LOCATION --> GPS["📍 Bouton géoloc<br/>+ reverse geocoding"]
+    LOCATION --> RECENT["📌 5 dernières localisations<br/>localStorage chips"]
+    LOCATION --> CURRENT["Nom localisation courante"]
+
+    SEARCH --> GEOCODE["geocoding-api.open-meteo.com"]
+    GPS --> NOMINATIM["nominatim.openstreetmap.org"]
+    GEOCODE --> SET["setLocation(lat, lon, name)"]
+    NOMINATIM --> SET
+    RECENT --> SET
+    SET --> FETCH["fetchWeatherData() → api.open-meteo.com"]
+    FETCH --> CARDS["8 weather-card mises à jour"]
+```
 
 | Point | État | Détail |
 |---|---|---|
 | Données live | ✅ | Open-Meteo, 11 variables, pas de clé |
-| UX | ✅ | Loading, erreurs, refresh, timestamp |
+| Recherche ville | ✅ | Geocoding gratuit, débouce 300ms, état chargement + erreur visibles |
+| Géoloc GPS | ✅ | Navigator API + Nominatim, messages d'erreur dédiés |
+| Localisations récentes | ✅ | localStorage, max 5, sans doublons, chips cliquables |
+| UX | ✅ | Loading, erreurs, refresh, timestamp, mousedown preventDefault |
 | Algorithme | ✅ | Seeing composite + phase lunaire |
 | Liens externes | ✅ | Meteoblue + Clear Outside |
 
@@ -401,13 +433,13 @@ flowchart TD
 
 ---
 
-## 4. Audit CSS (style.css — 1344 lignes)
+## 4. Audit CSS (style.css — 1496 lignes)
 
 ### 4.1 Structure
 
 ```mermaid
 flowchart TB
-    subgraph CSS["style.css — 1344 lignes"]
+    subgraph CSS["style.css — 1496 lignes"]
         direction TB
         R["Reset + Design Tokens (43 lignes)"]
         H["Header & Navigation (111 lignes)"]
@@ -421,6 +453,7 @@ flowchart TB
         GAL["Gallery — overlay, grid (62 lignes)"]
         NWS["News Cards (66 lignes)"]
         FORM["Contact Form — validation, succès (90 lignes)"]
+        LOC["Meteo Location — search, geoloc, chips (155 lignes)"]
         WTH["Weather Cards + meteo-status (86 lignes)"]
         INFO["Info Box (12 lignes)"]
         SIG["Signature (5 lignes)"]
@@ -434,8 +467,8 @@ flowchart TB
 
     R --> H --> MC --> HE --> BTN --> BN --> WEL
     WEL --> FEAT --> CD --> GAL --> NWS --> FORM
-    FORM --> WTH --> INFO --> SIG --> PRS --> BIB
-    BIB --> FT --> BTT --> RSP --> UTL
+    FORM --> LOC --> WTH --> INFO --> SIG --> PRS
+    PRS --> BIB --> FT --> BTT --> RSP --> UTL
 ```
 
 ### 4.2 Qualité
@@ -542,6 +575,13 @@ flowchart LR
 ```mermaid
 flowchart TB
     subgraph PAGE["meteo-astro.html"]
+        subgraph LOC["meteo-location"]
+            SEARCH["#meteo-search<br/>Barre recherche ville"]
+            GPS["#meteo-geolocate<br/>Bouton GPS"]
+            RESULTS["#meteo-search-results<br/>Dropdown autocomplétion"]
+            CURRENT["#meteo-current-name<br/>Nom localisation"]
+            RECENT["#meteo-recent-list<br/>5 dernières localisations"]
+        end
         LOAD["#meteo-loading<br/>Spinner + texte"]
         ERR["#meteo-error<br/>Message erreur"]
         subgraph GRID["weather-grid"]
@@ -557,53 +597,88 @@ flowchart TB
         CTRL["#meteo-refresh + #meteo-timestamp"]
     end
 
-    subgraph SCRIPT["js/meteo.js (IIFE)"]
-        INIT[init]
-        FETCH[fetchWeatherData]
-        PROCESS[processOpenMeteo]
-        MOON[calcMoonPhase]
+    subgraph SCRIPT["js/meteo.js — 600 lignes"]
+        STATE["state { lat, lon, name, timezone }"]
+        GEOCODE["geocodeSearch()"]
+        REVERSE["reverseGeocode()"]
+        GEOLOC["requestGeolocation()"]
+        STORAGE["localStorage + renderRecentLocations()"]
+        FETCH["fetchWeatherData()"]
+        PROCESS["processOpenMeteo()"]
+        MOON["calcMoonPhase()"]
     end
 
-    subgraph API["api.open-meteo.com"]
-        HOURLY["11 variables horaires"]
-        DAILY["sunrise, sunset"]
+    subgraph EXT["APIs externes"]
+        OM["api.open-meteo.com<br/>/forecast"]
+        GC["geocoding-api.open-meteo.com<br/>/search"]
+        NOM["nominatim.openstreetmap.org<br/>/reverse"]
     end
 
-    INIT --> FETCH
-    FETCH -->|fetch| API
-    API -->|JSON| PROCESS
+    SEARCH --> GEOCODE
+    GEOCODE --> GC
+    GPS --> GEOLOC
+    GEOLOC --> REVERSE
+    REVERSE --> NOM
+    RECENT -->|click| STATE
+    GEOCODE -->|setLocation| STATE
+    GEOLOC -->|setLocation| STATE
+    STATE --> FETCH
+    FETCH --> OM
+    OM --> PROCESS
     PROCESS --> GRID
     PROCESS --> MOON
     MOON --> WM
+    STORAGE --> RECENT
     CTRL -->|click| FETCH
 ```
 
 ### 7.2 Sources de données
 
-#### Open-Meteo
+#### 7.2.1 Météo — Open-Meteo Forecast
 
 | Paramètre | Valeur |
 |---|---|
 | Endpoint | `https://api.open-meteo.com/v1/forecast` |
-| Coordonnées | 50.5333°N, 4.6°E (Villers-la-Ville) |
-| Fuseau horaire | `Europe/Brussels` |
+| Coordonnées | Dynamiques (défaut : 50.5333°N, 4.6°E) |
+| Fuseau horaire | Auto-détecté via réponse API |
 | Forecast | 24 heures |
 | Licence | Gratuit, 10 000 req/jour (non commercial) |
 | Authentification | Aucune |
 
-#### URL construite
+#### 7.2.2 Géocodage — Open-Meteo Geocoding
+
+| Paramètre | Valeur |
+|---|---|
+| Endpoint | `https://geocoding-api.open-meteo.com/v1/search` |
+| Paramètres | `name`, `count=5`, `language=fr`, `format=json` |
+| Licence | Gratuit, même quota que l'API météo |
+| Authentification | Aucune |
+
+#### 7.2.3 Reverse Geocoding — Nominatim (OpenStreetMap)
+
+| Paramètre | Valeur |
+|---|---|
+| Endpoint | `https://nominatim.openstreetmap.org/reverse` |
+| Paramètres | `lat`, `lon`, `format=json`, `accept-language=fr`, `zoom=10` |
+| Licence | Gratuit, usage limité à 1 req/s (politesse) |
+| Authentification | User-Agent requis |
+| Fallback | Si échec : affichage brut `lat, lon` |
+
+#### URL météo construite
 
 ```
 https://api.open-meteo.com/v1/forecast
-  ?latitude=50.5333
-  &longitude=4.6
+  ?latitude={state.lat}
+  &longitude={state.lon}
   &hourly=cloud_cover,cloud_cover_low,cloud_cover_mid,cloud_cover_high,
            relative_humidity_2m,dew_point_2m,temperature_2m,
            wind_speed_10m,wind_gusts_10m,wind_speed_250hPa
   &daily=sunrise,sunset
-  &timezone=Europe/Brussels
+  &timezone={state.timezone}
   &forecast_hours=24
 ```
+
+Les coordonnées et le fuseau horaire sont dynamiques — mis à jour à chaque changement de localisation.
 
 #### Mapping variables → indicateurs
 
@@ -692,7 +767,58 @@ flowchart TD
 
 **Précision** : ± quelques heures, suffisant pour l'usage amateur.
 
-### 7.5 Flux de données détaillé
+### 7.5 Gestion des localisations
+
+```mermaid
+sequenceDiagram
+    participant U as Utilisateur
+    participant DOM as navigateur
+    participant JS as meteo.js
+    participant GC as geocoding-api.open-meteo.com
+    participant NOM as nominatim.openstreetmap.org
+    participant OM as api.open-meteo.com
+    participant LS as localStorage
+
+    Note over U,LS: Scénario 1 — Recherche de ville
+    U->>DOM: Saisie ≥ 2 caractères
+    DOM->>JS: input event (debounce 300ms)
+    JS->>GC: GET /search?name=Bruxelles&count=5
+    GC-->>JS: results[{name, latitude, longitude, admin1, country}]
+    JS->>DOM: Affiche dropdown résultats
+    U->>DOM: Clic sur un résultat
+    JS->>JS: setLocation(lat, lon, name)
+    JS->>LS: addRecentLocation({lat, lon, name})
+    JS->>OM: fetchWeatherData()
+
+    Note over U,LS: Scénario 2 — Géolocalisation GPS
+    U->>DOM: Clic bouton 📍
+    DOM->>JS: requestGeolocation()
+    JS->>DOM: navigator.geolocation.getCurrentPosition()
+    DOM-->>JS: { coords.latitude, coords.longitude }
+    JS->>NOM: GET /reverse?lat=...&lon=...
+    NOM-->>JS: { display_name, address }
+    JS->>JS: setLocation(lat, lon, name)
+    JS->>LS: addRecentLocation(...)
+    JS->>OM: fetchWeatherData()
+
+    Note over U,LS: Scénario 3 — Restauration historique
+    U->>DOM: Clic sur chip récent
+    DOM->>JS: setLocation(lat, lon, name)
+    JS->>OM: fetchWeatherData()
+
+    Note over LS: localStorage clé "meteo_recent_locations"
+    Note over LS: Max 5 entrées, sans doublons, FIFO
+```
+
+**Stockage localStorage** :
+```json
+[
+  {"name": "Bruxelles, Bruxelles-Capitale, Belgique", "lat": 50.8505, "lon": 4.3488},
+  {"name": "Villers-la-Ville, Belgique", "lat": 50.5333, "lon": 4.6}
+]
+```
+
+### 7.6 Flux de données météo
 
 ```mermaid
 sequenceDiagram
@@ -702,8 +828,9 @@ sequenceDiagram
 
     DOM->>JS: DOMContentLoaded
     JS->>JS: init()
-    JS->>JS: Cache références DOM (8 cartes + 4 contrôles)
-    JS->>JS: Bind click sur #meteo-refresh
+    JS->>JS: Cache références DOM (15+ éléments : cartes, contrôles, location)
+    JS->>JS: Bind events (search, geolocate, refresh, click-outside)
+    JS->>JS: renderRecentLocations() depuis localStorage
     JS->>JS: fetchWeatherData()
 
     JS->>DOM: showLoading()
@@ -729,29 +856,39 @@ sequenceDiagram
     end
 ```
 
-### 7.6 Gestion des erreurs
+### 7.7 Gestion des erreurs améliorée
 
 | Scénario | Comportement |
 |---|---|
-| Réseau injoignable | Message « Impossible de récupérer les données météo. Vérifiez votre connexion internet. » |
-| Erreur HTTP | Affichage du code d'erreur |
-| API retourne `error: true` | Affichage du champ `reason` |
+| Réseau météo injoignable | Message « Impossible de récupérer les données météo. Vérifiez votre connexion internet. » |
+| Erreur HTTP météo | Affichage du code d'erreur |
+| API météo retourne `error: true` | Affichage du champ `reason` |
 | Variable absente de la réponse | La carte conserve le placeholder `—` |
 | `wind_speed_250hPa` absent | Fallback sur `wind_speed_200hPa`, sinon pas de Jet Stream |
+| Géocodage sans résultat | Dropdown masqué |
+| Géocodage en cours | « Recherche en cours... » affiché dans le dropdown |
+| Géocodage échec réseau | « Erreur de recherche. Réessayez. » affiché dans le dropdown |
+| Géocodage réponse vide | « Erreur de recherche. Réessayez. » |
+| Géolocalisation refusée (code 1) | « Géolocalisation refusée. Veuillez autoriser l'accès à votre position. » |
+| Géolocalisation indisponible (code 2) | « Position indisponible. Vérifiez votre connexion. » |
+| Géolocalisation timeout (code 3) | « Délai de géolocalisation dépassé. » |
+| Reverse geocoding échec | Affiche les coordonnées brutes `lat, lon` |
+| localStorage plein/corrompu | Capture silencieuse, la liste récente est vide |
 | Échec API mais lune OK | La phase lunaire est toujours calculée et affichée |
 
-### 7.7 Structure du code (meteo.js)
+### 7.8 Structure du code (meteo.js — 626 lignes)
 
 ```mermaid
 flowchart TD
     IIFE["meteo.js<br/>IIFE (function(){...})()"]
 
-    IIFE --> CONFIG["Configuration<br/>LAT, LON, TIMEZONE"]
-    IIFE --> DOMREF["Références DOM<br/>cards{}, refreshBtn<br/>timestampEl, errorEl, loadingEl"]
+    IIFE --> CONFIG["Configuration<br/>state { lat, lon, name, timezone }<br/>LS_KEY, MAX_RECENT"]
+    IIFE --> DOMREF["Références DOM<br/>15 éléments : cartes, input, boutons"]
     IIFE --> CALC["Calculs"]
     IIFE --> DISPLAY["Affichage"]
     IIFE --> UI["État UI"]
-    IIFE --> PROC["Traitement"]
+    IIFE --> LOCATION["Localisation"]
+    IIFE --> PROC["Traitement météo"]
     IIFE --> ENTRY["init()"]
 
     CALC --> C1["calcMoonPhase(date)<br/>→ name, illumination, age"]
@@ -765,23 +902,37 @@ flowchart TD
     UI --> U2["hideLoading()"]
     UI --> U3["showError(msg)"]
 
+    LOCATION --> L1["geocodeSearch(query)<br/>→ Open-Meteo Geocoding"]
+    LOCATION --> L2["reverseGeocode(lat, lon)<br/>→ Nominatim OSM"]
+    LOCATION --> L3["requestGeolocation()<br/>→ navigator.geolocation"]
+    LOCATION --> L4["setLocation(lat, lon, name)<br/>→ state + recent + fetch"]
+    LOCATION --> L5["getRecentLocations()<br/>→ localStorage JSON parse"]
+    LOCATION --> L6["addRecentLocation(loc)<br/>→ max 5, sans doublons"]
+    LOCATION --> L7["renderRecentLocations()<br/>→ chips cliquables"]
+    LOCATION --> L8["showSearchLoading()<br/>→ feedback visuel attente"]
+    LOCATION --> L9["showSearchError(msg)<br/>→ feedback visuel erreur"]
+
     PROC --> P1["getCurrentHourIndex()<br/>→ index heure actuelle"]
     PROC --> P2["processOpenMeteo(data)<br/>→ parse + updateCard × 8"]
     PROC --> P3["fetchWeatherData()<br/>→ fetch + then/catch"]
 
     ENTRY --> DOMREF
+    ENTRY --> L7
     ENTRY --> P3
 ```
 
-### 7.8 Performances
+### 7.9 Performances
 
 | Métrique | Valeur |
 |---|---|
-| Appels HTTP par chargement | 1 (Open-Meteo) |
-| Taille réponse API | ~3–8 Ko |
-| Temps de réponse API | ~100–300 ms (CDN Cloudflare) |
-| Poids JS météo | ~8 Ko (non minifié) |
+| Appels HTTP chargement initial | 1 (Open-Meteo forecast) |
+| Appels HTTP recherche ville | 1 (Open-Meteo geocoding, debounce 300ms) |
+| Appels HTTP géoloc GPS | 1 (Nominatim reverse) |
+| Taille réponse forecast | ~3–8 Ko |
+| Taille réponse geocoding | ~1–3 Ko |
+| Poids JS météo | ~15 Ko (non minifié, 626 lignes) |
 | Calcul lune | < 0,1 ms (synchrone) |
+| localStorage R/W | < 1 ms |
 | Reflows DOM | Aucun forcé (modifications groupées) |
 
 ---
@@ -812,7 +963,6 @@ flowchart TD
 
 | Amélioration | Effort | Impact |
 |---|---|---|
-| Cache localStorage pour données météo | 2h | Performance |
 | Prévisions météo multi-jours (graphique/tableau) | 4h | Fonctionnalité |
 | Base statique Bortle Scale pour pollution lumineuse | 3h | Fonctionnalité |
 | Migration vers un générateur statique (11ty/Astro) | 8h | Architecture |
@@ -853,13 +1003,13 @@ flowchart TD
 | `news.html` | 125 | ⚠️ | Liens morts |
 | `materiel.html` | 191 | ✅ | Complet |
 | `album.html` | 158 | ❌ | Placeholders |
-| `meteo-astro.html` | 175 | ✅ | Live + lune |
+| `meteo-astro.html` | 191 | ✅ | Recherche ville + géoloc + météo live + lune |
 | `biblio.html` | 182 | ✅ | Complet |
 | `chat.html` | 113 | ⚠️ | Pas de backend |
-| `css/style.css` | 1344 | ✅ | Design system cohérent |
+| `css/style.css` | 1496 | ✅ | Design system cohérent + location |
 | `js/main.js` | 99 | ✅ | Navigation + form |
-| `js/meteo.js` | 323 | ✅ | Météo live |
-| `README.md` | 120 | ✅ | Documentation |
+| `js/meteo.js` | 626 | ✅ | Météo live + géocodage + géoloc + localStorage + feedback erreur |
+| `README.md` | 132 | ✅ | Documentation |
 | `docs/analyse-meteo.md` | — | ✅ | Ce document |
 
-**Total** : 3033 lignes, 14 fichiers.
+**Total** : 3504 lignes, 14 fichiers.
