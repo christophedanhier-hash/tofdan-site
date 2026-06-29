@@ -85,15 +85,4 @@
     });
   }
 
-  var navLinksContainer = nav ? nav.querySelector('.nav__list') : null;
-  if (navLinksContainer && !navLinksContainer.querySelector('.nav__link--active') && currentPage) {
-    var activeSet = false;
-    navLinks.forEach(function (link) {
-      var href = link.getAttribute('href');
-      if (href && href !== '#' && currentPage.indexOf(href.replace('./', '')) !== -1) {
-        link.classList.add('nav__link--active');
-        activeSet = true;
-      }
-    });
-  }
 })();

@@ -119,7 +119,7 @@
   }
 
   function showLoading() {
-    if (loadingEl) loadingEl.style.display = 'block';
+    if (loadingEl) loadingEl.style.display = 'flex';
     if (errorEl) errorEl.style.display = 'none';
     if (refreshBtn) refreshBtn.disabled = true;
     Object.keys(cards).forEach(function (id) {
@@ -441,7 +441,12 @@
 
   function showSearchError(msg) {
     if (!searchResults) return;
-    searchResults.innerHTML = '<div class="meteo-location__result-item" style="cursor:default;color:var(--color-error);">' + msg + '</div>';
+    var div = document.createElement('div');
+    div.className = 'meteo-location__result-item';
+    div.style.cssText = 'cursor:default;color:var(--color-error);';
+    div.textContent = msg;
+    searchResults.innerHTML = '';
+    searchResults.appendChild(div);
     searchResults.style.display = 'block';
   }
 
