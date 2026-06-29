@@ -21,7 +21,7 @@
 | Fichier | Lignes | Type |
 |---|---|---|
 | `css/style.css` | 1496 | Styles |
-| `js/meteo.js` | 626 | Script météo |
+| `js/meteo.js` | 627 | Script météo |
 | `js/main.js` | 99 | Script principal |
 | `materiel.html` | 191 | Page |
 | `meteo-astro.html` | 191 | Page |
@@ -32,7 +32,7 @@
 | `index.html` | 112 | Page |
 | `app-astro.html` | 111 | Page |
 | `astro.html` | 100 | Page |
-| **Total** | **3504** | |
+| **Total** | **3505** | |
 
 ---
 
@@ -377,6 +377,7 @@ flowchart TD
 | UX | ✅ | Loading, erreurs, refresh, timestamp, mousedown preventDefault |
 | Algorithme | ✅ | Seeing composite + phase lunaire |
 | Liens externes | ✅ | Meteoblue + Clear Outside |
+| Débogage recherche | ℹ️ | Bug signalé (pas d'autocomplétion) : cause = cache navigateur / déploiement pas à jour. Code correct. |
 
 ### 3.8 biblio.html — Ressources (182 lignes)
 
@@ -597,7 +598,7 @@ flowchart TB
         CTRL["#meteo-refresh + #meteo-timestamp"]
     end
 
-    subgraph SCRIPT["js/meteo.js — 600 lignes"]
+    subgraph SCRIPT["js/meteo.js — 627 lignes"]
         STATE["state { lat, lon, name, timezone }"]
         GEOCODE["geocodeSearch()"]
         REVERSE["reverseGeocode()"]
@@ -875,8 +876,9 @@ sequenceDiagram
 | Reverse geocoding échec | Affiche les coordonnées brutes `lat, lon` |
 | localStorage plein/corrompu | Capture silencieuse, la liste récente est vide |
 | Échec API mais lune OK | La phase lunaire est toujours calculée et affichée |
+| Cache navigateur / déploiement | Vider le cache (Ctrl+F5) ou redéployer si l'interface ne réagit pas (code JS correct, pas de bug) |
 
-### 7.8 Structure du code (meteo.js — 626 lignes)
+### 7.8 Structure du code (meteo.js — 627 lignes)
 
 ```mermaid
 flowchart TD
@@ -930,7 +932,7 @@ flowchart TD
 | Appels HTTP géoloc GPS | 1 (Nominatim reverse) |
 | Taille réponse forecast | ~3–8 Ko |
 | Taille réponse geocoding | ~1–3 Ko |
-| Poids JS météo | ~15 Ko (non minifié, 626 lignes) |
+| Poids JS météo | ~15 Ko (non minifié, 627 lignes) |
 | Calcul lune | < 0,1 ms (synchrone) |
 | localStorage R/W | < 1 ms |
 | Reflows DOM | Aucun forcé (modifications groupées) |
@@ -1008,8 +1010,8 @@ flowchart TD
 | `chat.html` | 113 | ⚠️ | Pas de backend |
 | `css/style.css` | 1496 | ✅ | Design system cohérent + location |
 | `js/main.js` | 99 | ✅ | Navigation + form |
-| `js/meteo.js` | 626 | ✅ | Météo live + géocodage + géoloc + localStorage + feedback erreur |
+| `js/meteo.js` | 627 | ✅ | Météo live + géocodage + géoloc + localStorage + feedback erreur |
 | `README.md` | 132 | ✅ | Documentation |
 | `docs/analyse-meteo.md` | — | ✅ | Ce document |
 
-**Total** : 3504 lignes, 14 fichiers.
+**Total** : 3505 lignes, 14 fichiers.

@@ -27,7 +27,7 @@ tofdan-site/
 │   └── style.css           Feuille de style unique, modulaire (1496 lignes)
 ├── js/
 │   ├── main.js             Navigation mobile, menu actif, formulaire, back-to-top
-│   └── meteo.js            Module météo : API Open-Meteo, géocodage, géoloc, lune (600 lignes)
+│   └── meteo.js            Module météo : API Open-Meteo, géocodage, géoloc, lune (627 lignes)
 └── docs/
     └── analyse-meteo.md    Audit complet de l'application
 ```
@@ -37,7 +37,7 @@ tofdan-site/
 | Fichier              | Lignes         |
 | -------------------- | -------------- |
 | `css/style.css`    | 1496           |
-| `js/meteo.js`      | 626            |
+| `js/meteo.js`      | 627            |
 | `materiel.html`    | 191            |
 | `meteo-astro.html` | 191            |
 | `biblio.html`      | 182            |
@@ -48,7 +48,7 @@ tofdan-site/
 | `app-astro.html`   | 111            |
 | `astro.html`       | 100            |
 | `js/main.js`       | 99             |
-| **Total**      | **3504** |
+| **Total**      | **3505** |
 
 ## Fonctionnalités techniques
 
