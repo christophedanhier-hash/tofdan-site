@@ -1,15 +1,32 @@
 (function () {
   'use strict';
 
-  var LAT = 50.5333;
-  var LON = 4.6;
-  var TIMEZONE = 'Europe/Brussels';
+  var DEFAULT_LAT = 50.5333;
+  var DEFAULT_LON = 4.6;
+  var DEFAULT_NAME = 'Villers-la-Ville, Belgique';
+  var DEFAULT_TZ = 'Europe/Brussels';
+  var LS_KEY = 'meteo_recent_locations';
+  var MAX_RECENT = 5;
+
+  var state = {
+    lat: DEFAULT_LAT,
+    lon: DEFAULT_LON,
+    name: DEFAULT_NAME,
+    timezone: DEFAULT_TZ
+  };
 
   var cards = {};
   var refreshBtn = null;
   var timestampEl = null;
   var errorEl = null;
   var loadingEl = null;
+  var searchInput = null;
+  var searchResults = null;
+  var geolocateBtn = null;
+  var currentNameEl = null;
+  var recentListEl = null;
+  var recentWrap = null;
+  var searchTimer = null;
 
   function $(id) {
     return document.getElementById(id);
@@ -258,11 +275,11 @@
     showLoading();
 
     var url = 'https://api.open-meteo.com/v1/forecast'
-      + '?latitude=' + LAT
-      + '&longitude=' + LON
+      + '?latitude=' + state.lat
+      + '&longitude=' + state.lon
       + '&hourly=cloud_cover,cloud_cover_low,cloud_cover_mid,cloud_cover_high,relative_humidity_2m,dew_point_2m,temperature_2m,wind_speed_10m,wind_gusts_10m,wind_speed_250hPa'
       + '&daily=sunrise,sunset'
-      + '&timezone=' + TIMEZONE
+      + '&timezone=' + encodeURIComponent(state.timezone)
       + '&forecast_hours=24';
 
     fetch(url)
@@ -272,6 +289,7 @@
       })
       .then(function (data) {
         if (data.error) throw new Error(data.reason || 'Erreur API');
+        if (data.timezone) state.timezone = data.timezone;
         processOpenMeteo(data);
         hideLoading();
         var now = new Date();
@@ -288,6 +306,216 @@
       });
   }
 
+  /* ========================================================================
+     GESTION DES LOCALISATIONS
+     ======================================================================== */
+
+  function getRecentLocations() {
+    try {
+      var raw = localStorage.getItem(LS_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveRecentLocations(list) {
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify(list));
+    } catch (e) {}
+  }
+
+  function addRecentLocation(loc) {
+    var list = getRecentLocations();
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].lat === loc.lat && list[i].lon === loc.lon) {
+        list.splice(i, 1);
+        break;
+      }
+    }
+    list.unshift(loc);
+    if (list.length > MAX_RECENT) list = list.slice(0, MAX_RECENT);
+    saveRecentLocations(list);
+    renderRecentLocations();
+  }
+
+  function updateCurrentLocation(name) {
+    state.name = name;
+    if (currentNameEl) currentNameEl.textContent = name;
+  }
+
+  function setLocation(lat, lon, name) {
+    state.lat = Math.round(lat * 10000) / 10000;
+    state.lon = Math.round(lon * 10000) / 10000;
+    updateCurrentLocation(name);
+    addRecentLocation({ lat: state.lat, lon: state.lon, name: name });
+    fetchWeatherData();
+  }
+
+  function renderRecentLocations() {
+    if (!recentListEl || !recentWrap) return;
+    var list = getRecentLocations();
+    if (list.length === 0) {
+      recentWrap.style.display = 'none';
+      return;
+    }
+    recentWrap.style.display = 'flex';
+    recentListEl.innerHTML = '';
+    for (var i = 0; i < list.length; i++) {
+      (function (loc) {
+        var chip = document.createElement('button');
+        chip.className = 'meteo-location__chip';
+        chip.textContent = loc.name;
+        chip.title = loc.lat.toFixed(4) + ', ' + loc.lon.toFixed(4);
+        chip.addEventListener('click', function () {
+          setLocation(loc.lat, loc.lon, loc.name);
+        });
+        recentListEl.appendChild(chip);
+      })(list[i]);
+    }
+  }
+
+  /* ========================================================================
+     GÉOCODAGE (Open-Meteo Geocoding API)
+     ======================================================================== */
+
+  function geocodeSearch(query, callback) {
+    var url = 'https://geocoding-api.open-meteo.com/v1/search'
+      + '?name=' + encodeURIComponent(query)
+      + '&count=5'
+      + '&language=fr'
+      + '&format=json';
+
+    fetch(url)
+      .then(function (response) {
+        if (!response.ok) throw new Error('Geocoding error');
+        return response.json();
+      })
+      .then(function (data) {
+        if (data.results && data.results.length > 0) {
+          callback(data.results, null);
+        } else {
+          callback([], null);
+        }
+      })
+      .catch(function (err) {
+        callback([], err);
+      });
+  }
+
+  function formatResultLabel(result) {
+    var parts = [result.name];
+    if (result.admin1) parts.push(result.admin1);
+    parts.push(result.country);
+    return parts.join(', ');
+  }
+
+  function showSearchResults(results) {
+    if (!searchResults) return;
+    searchResults.innerHTML = '';
+    if (results.length === 0) {
+      searchResults.style.display = 'none';
+      return;
+    }
+    for (var i = 0; i < results.length; i++) {
+      (function (r) {
+        var item = document.createElement('button');
+        item.className = 'meteo-location__result-item';
+        item.textContent = formatResultLabel(r);
+        item.addEventListener('click', function () {
+          setLocation(r.latitude, r.longitude, formatResultLabel(r));
+          if (searchInput) searchInput.value = '';
+          searchResults.style.display = 'none';
+        });
+        searchResults.appendChild(item);
+      })(results[i]);
+    }
+    searchResults.style.display = 'block';
+  }
+
+  function hideSearchResults() {
+    if (searchResults) searchResults.style.display = 'none';
+  }
+
+  /* ========================================================================
+     GÉOLOCALISATION GPS + REVERSE GEOCODING
+     ======================================================================== */
+
+  function reverseGeocode(lat, lon, callback) {
+    var url = 'https://nominatim.openstreetmap.org/reverse'
+      + '?lat=' + lat
+      + '&lon=' + lon
+      + '&format=json'
+      + '&accept-language=fr'
+      + '&zoom=10';
+
+    fetch(url, {
+      headers: {
+        'User-Agent': 'Tofdan-Site/1.0 (christophedanhier-hash.github.io)'
+      }
+    })
+      .then(function (response) {
+        if (!response.ok) throw new Error('Reverse geocoding error');
+        return response.json();
+      })
+      .then(function (data) {
+        if (data && data.display_name) {
+          var name = data.address
+            ? (data.address.city || data.address.town || data.address.village || data.address.municipality || data.address.county || data.display_name.split(',')[0])
+              + ', ' + (data.address.country || '')
+            : data.display_name;
+          callback(name, null);
+        } else {
+          callback(lat.toFixed(4) + ', ' + lon.toFixed(4), null);
+        }
+      })
+      .catch(function () {
+        callback(lat.toFixed(4) + ', ' + lon.toFixed(4), null);
+      });
+  }
+
+  function requestGeolocation() {
+    if (!navigator.geolocation) {
+      showError('La géolocalisation n\'est pas supportée par votre navigateur.');
+      return;
+    }
+
+    if (geolocateBtn) {
+      geolocateBtn.disabled = true;
+      geolocateBtn.textContent = '⏳';
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      function (pos) {
+        var lat = pos.coords.latitude;
+        var lon = pos.coords.longitude;
+        reverseGeocode(lat, lon, function (name) {
+          if (geolocateBtn) {
+            geolocateBtn.disabled = false;
+            geolocateBtn.textContent = '📍';
+          }
+          setLocation(lat, lon, name);
+        });
+      },
+      function (err) {
+        if (geolocateBtn) {
+          geolocateBtn.disabled = false;
+          geolocateBtn.textContent = '📍';
+        }
+        var msg = 'Géolocalisation refusée ou indisponible.';
+        if (err.code === 1) msg = 'Géolocalisation refusée. Veuillez autoriser l\'accès à votre position.';
+        else if (err.code === 2) msg = 'Position indisponible. Vérifiez votre connexion.';
+        else if (err.code === 3) msg = 'Délai de géolocalisation dépassé.';
+        showError(msg);
+      },
+      { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
+    );
+  }
+
+  /* ========================================================================
+     INITIALISATION
+     ======================================================================== */
+
   function init() {
     cards['wc-cloud'] = $('wc-cloud');
     cards['wc-seeing'] = $('wc-seeing');
@@ -302,6 +530,12 @@
     timestampEl = $('meteo-timestamp');
     errorEl = $('meteo-error');
     loadingEl = $('meteo-loading');
+    searchInput = $('meteo-search');
+    searchResults = $('meteo-search-results');
+    geolocateBtn = $('meteo-geolocate');
+    currentNameEl = $('meteo-current-name');
+    recentListEl = $('meteo-recent-list');
+    recentWrap = $('meteo-recent');
 
     if (refreshBtn) {
       refreshBtn.addEventListener('click', function () {
@@ -309,6 +543,52 @@
       });
     }
 
+    if (geolocateBtn) {
+      geolocateBtn.addEventListener('click', function () {
+        requestGeolocation();
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', function () {
+        var query = searchInput.value.trim();
+        if (searchTimer) clearTimeout(searchTimer);
+        if (query.length < 2) {
+          hideSearchResults();
+          return;
+        }
+        searchTimer = setTimeout(function () {
+          geocodeSearch(query, function (results, err) {
+            if (err) return;
+            showSearchResults(results);
+          });
+        }, 300);
+      });
+
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+          hideSearchResults();
+          searchInput.blur();
+        }
+      });
+
+      searchInput.addEventListener('focus', function () {
+        if (searchInput.value.trim().length >= 2) {
+          geocodeSearch(searchInput.value.trim(), function (results) {
+            showSearchResults(results);
+          });
+        }
+      });
+    }
+
+    document.addEventListener('click', function (e) {
+      if (searchInput && !searchInput.contains(e.target) && searchResults && !searchResults.contains(e.target)) {
+        hideSearchResults();
+      }
+    });
+
+    updateCurrentLocation(state.name);
+    renderRecentLocations();
     fetchWeatherData();
   }
 

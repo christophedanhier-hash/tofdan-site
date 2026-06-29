@@ -20,31 +20,35 @@ tofdan-site/
 ├── news.html               Actualités / Blog (4 articles d'exemple)
 ├── materiel.html           Inventaire : télescopes, caméras, oculaires (cartes)
 ├── album.html              Galerie photo responsive (Lune, Soleil, Ciel profond)
-├── meteo-astro.html        Indicateurs météo + liens Meteoblue / Clear Outside
+├── meteo-astro.html        Météo astronomique live — recherche de ville, géolocalisation, 8 indicateurs
 ├── biblio.html             Bibliographie, logiciels, liens utiles
 ├── chat.html               Formulaire de contact avec validation
 ├── css/
-│   └── style.css           Feuille de style unique, modulaire (1249 lignes)
-└── js/
-    └── main.js             Navigation mobile, menu actif, formulaire, back-to-top
+│   └── style.css           Feuille de style unique, modulaire (1496 lignes)
+├── js/
+│   ├── main.js             Navigation mobile, menu actif, formulaire, back-to-top
+│   └── meteo.js            Module météo : API Open-Meteo, géocodage, géoloc, lune (600 lignes)
+└── docs/
+    └── analyse-meteo.md    Audit complet de l'application
 ```
 
 ## Statistiques du code
 
 | Fichier              | Lignes         |
 | -------------------- | -------------- |
-| `css/style.css`    | 1249           |
+| `css/style.css`    | 1496           |
+| `js/meteo.js`      | 600            |
+| `materiel.html`    | 191            |
+| `meteo-astro.html` | 191            |
+| `biblio.html`      | 182            |
+| `album.html`       | 158            |
+| `news.html`        | 125            |
+| `chat.html`        | 113            |
+| `index.html`       | 112            |
+| `app-astro.html`   | 111            |
+| `astro.html`       | 100            |
 | `js/main.js`       | 99             |
-| `materiel.html`    | 181            |
-| `biblio.html`      | 172            |
-| `meteo-astro.html` | 152            |
-| `album.html`       | 148            |
-| `news.html`        | 115            |
-| `chat.html`        | 103            |
-| `index.html`       | 102            |
-| `app-astro.html`   | 101            |
-| `astro.html`       | 90             |
-| **Total**      | **2512** |
+| **Total**      | **3478** |
 
 ## Fonctionnalités techniques
 

@@ -58,7 +58,23 @@
     <section class="section" style="padding-top: 0;">
       <div class="container">
 
-        <p class="prose text-center mb-4" style="margin: 0 auto 32px;">Avant chaque sortie d'observation, il est essentiel de vérifier les conditions météo. Voici les principaux indicateurs que nous surveillons depuis notre site à Villers-la-Ville (50°32' N, 4°36' E).</p>
+        <div class="meteo-location">
+          <div class="meteo-location__search">
+            <div class="meteo-location__input-wrap">
+              <input type="text" id="meteo-search" class="meteo-location__input" placeholder="Rechercher une ville..." autocomplete="off">
+              <button id="meteo-geolocate" class="meteo-location__geolocate" title="Utiliser ma position GPS" aria-label="Géolocalisation">📍</button>
+            </div>
+            <div id="meteo-search-results" class="meteo-location__results" style="display:none;"></div>
+          </div>
+          <div id="meteo-current" class="meteo-location__current">
+            <span class="meteo-location__pin">📌</span>
+            <span id="meteo-current-name">Villers-la-Ville, Belgique</span>
+          </div>
+          <div id="meteo-recent" class="meteo-location__recent" style="display:none;">
+            <span class="meteo-location__recent-label">Récentes :</span>
+            <div id="meteo-recent-list" class="meteo-location__recent-list"></div>
+          </div>
+        </div>
 
         <div id="meteo-loading" class="meteo-status meteo-status--loading" style="display: none;">
           <span class="meteo-status__spinner"></span>
