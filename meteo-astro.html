@@ -60,62 +60,74 @@
 
         <p class="prose text-center mb-4" style="margin: 0 auto 32px;">Avant chaque sortie d'observation, il est essentiel de vérifier les conditions météo. Voici les principaux indicateurs que nous surveillons depuis notre site à Villers-la-Ville (50°32' N, 4°36' E).</p>
 
+        <div id="meteo-loading" class="meteo-status meteo-status--loading" style="display: none;">
+          <span class="meteo-status__spinner"></span>
+          <span>Chargement des données météo...</span>
+        </div>
+
+        <div id="meteo-error" class="meteo-status meteo-status--error" style="display: none;"></div>
+
         <div class="weather-grid">
-          <div class="weather-card">
+          <div id="wc-cloud" class="weather-card">
             <div class="weather-card__icon">☁️</div>
             <h3 class="weather-card__title">Couverture nuageuse</h3>
             <p class="weather-card__value">—</p>
-            <p class="weather-card__detail">Consultez les prévisions</p>
+            <p class="weather-card__detail">Chargement...</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-seeing" class="weather-card">
             <div class="weather-card__icon">👁️</div>
             <h3 class="weather-card__title">Seeing</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Stabilité atmosphérique</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-humidity" class="weather-card">
             <div class="weather-card__icon">💧</div>
             <h3 class="weather-card__title">Humidité</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Risque de buée</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-wind" class="weather-card">
             <div class="weather-card__icon">🌬️</div>
             <h3 class="weather-card__title">Vent</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Rafales et stabilité</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-temp" class="weather-card">
             <div class="weather-card__icon">🌡️</div>
             <h3 class="weather-card__title">Température</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Mise en température</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-moon" class="weather-card">
             <div class="weather-card__icon">🌑</div>
             <h3 class="weather-card__title">Phase lunaire</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Pollution lumineuse naturelle</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-jet" class="weather-card">
             <div class="weather-card__icon">📍</div>
             <h3 class="weather-card__title">Jet Stream</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Influence sur le seeing</p>
           </div>
 
-          <div class="weather-card">
+          <div id="wc-sun" class="weather-card">
             <div class="weather-card__icon">🌅</div>
             <h3 class="weather-card__title">Lever/Coucher</h3>
             <p class="weather-card__value">—</p>
             <p class="weather-card__detail">Heures d'observation</p>
           </div>
+        </div>
+
+        <div class="meteo-controls">
+          <button id="meteo-refresh" class="btn btn--outline btn--sm">🔄 Actualiser</button>
+          <span id="meteo-timestamp" class="meteo-timestamp" style="display: none;"></span>
         </div>
 
         <div class="weather-link">
@@ -158,5 +170,6 @@
   <button class="back-to-top" aria-label="Retour en haut">↑</button>
 
   <script src="js/main.js"></script>
+  <script src="js/meteo.js"></script>
 </body>
 </html>
