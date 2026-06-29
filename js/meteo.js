@@ -561,51 +561,52 @@
       });
     }
 
-    if (searchInput) {
-      searchInput.addEventListener('input', function () {
-        try {
-          var query = searchInput.value.trim();
-          if (searchTimer) { clearTimeout(searchTimer); searchTimer = null; }
-          if (query.length < 2) {
-            hideSearchResults();
-            return;
-          }
-          showSearchLoading();
-          searchTimer = setTimeout(function () {
-            geocodeSearch(query, function (results, err) {
-              if (err) {
-                showSearchError('Erreur de recherche. Réessayez.');
-                return;
-              }
-              showSearchResults(results);
-            });
-          }, 300);
-        } catch (e) {
-          console.error('Meteo search input error:', e);
-        }
-      });
-
-      searchInput.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') {
+    document.addEventListener('input', function (e) {
+      if (!searchInput || e.target !== searchInput) return;
+      try {
+        var query = searchInput.value.trim();
+        if (searchTimer) { clearTimeout(searchTimer); searchTimer = null; }
+        if (query.length < 2) {
           hideSearchResults();
-          searchInput.blur();
+          return;
         }
-      });
-
-      searchInput.addEventListener('focus', function () {
-        var val = (searchInput.value || '').trim();
-        if (val.length >= 2) {
-          showSearchLoading();
-          geocodeSearch(val, function (results, err) {
+        showSearchLoading();
+        searchTimer = setTimeout(function () {
+          geocodeSearch(query, function (results, err) {
             if (err) {
               showSearchError('Erreur de recherche. Réessayez.');
               return;
             }
             showSearchResults(results);
           });
-        }
-      });
-    }
+        }, 300);
+      } catch (ex) {
+        console.error('Meteo search error:', ex);
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (!searchInput || e.target !== searchInput) return;
+      if (e.key === 'Escape') {
+        hideSearchResults();
+        searchInput.blur();
+      }
+    });
+
+    document.addEventListener('focusin', function (e) {
+      if (!searchInput || !searchResults || e.target !== searchInput) return;
+      var val = (searchInput.value || '').trim();
+      if (val.length >= 2) {
+        showSearchLoading();
+        geocodeSearch(val, function (results, err) {
+          if (err) {
+            showSearchError('Erreur de recherche. Réessayez.');
+            return;
+          }
+          showSearchResults(results);
+        });
+      }
+    });
 
     document.addEventListener('click', function (e) {
       if (searchInput && !searchInput.contains(e.target) && searchResults && !searchResults.contains(e.target)) {
