@@ -39,57 +39,35 @@
 
   <main class="main">
 
-    <section class="hero">
-      <div class="hero__content">
-        <div class="hero__icon">🔭</div>
-        <h1 class="hero__title">ASTRO PHOTOGRAPHIE</h1>
-        <p class="hero__text">Explorez les merveilles de l'univers à travers notre objectif. Photographies de la Lune, du Soleil et du ciel profond capturées avec passion.</p>
-        <div class="hero__actions">
-          <a href="album.html" class="btn btn--primary btn--lg">Voir l'album</a>
-          <a href="astro.html" class="btn btn--outline btn--lg">En savoir plus</a>
-        </div>
-      </div>
-    </section>
+    <style>
+      .hub-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px;padding:40px 24px;max-width:900px;margin:0 auto}
+      .hub-card{background:var(--bg-card,#1a1a2e);border:1px solid var(--border,#2a2a4a);border-radius:12px;padding:32px 24px;text-align:center;text-decoration:none;transition:transform .2s,box-shadow .2s;display:block;color:inherit}
+      .hub-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.5);border-color:var(--accent,#58a6ff)}
+      .hub-card__icon{font-size:48px;margin-bottom:16px;display:block}
+      .hub-card__title{font-size:22px;font-weight:700;margin-bottom:8px}
+      .hub-card__desc{font-size:14px;color:#8b949e;line-height:1.6}
+      .hub-header{text-align:center;padding:40px 16px 0}
+      .hub-header h1{font-size:28px;margin-bottom:8px}
+      .hub-header p{color:#8b949e;max-width:500px;margin:0 auto}
+    </style>
 
-    <div class="construction-banner">
-      <div class="container">
-        <div class="construction-banner__content">
-          <span class="construction-banner__icon">🚧</span>
-          <span class="construction-banner__text">Site en construction — Création <strong>Juin 2026</strong></span>
-          <span class="construction-banner__icon">🚧</span>
-        </div>
-      </div>
+    <div class="hub-header">
+      <h1>🌙 Tofdan</h1>
+      <p>Astrophotographie &amp; Plateforme LEO — deux univers, un seul site.</p>
     </div>
 
-    <section class="welcome">
-      <div class="container">
-        <p class="welcome__text">Nous sommes heureux de vous présenter notre tout nouveau site web dédié à notre passion commune : l'astrophotographie. Que vous soyez amateur, curieux ou passionné, nous espérons que vous trouverez ici de quoi nourrir votre fascination pour le cosmos. Bonne visite !</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <h2 class="section__title">En Vedette</h2>
-        <div class="section__divider"></div>
-        <p class="section__subtitle">Quelques-unes de nos plus belles captures récentes.</p>
-        <div class="featured-grid">
-          <article class="featured-card">
-            <div class="featured-card__image">🌕</div>
-            <div class="featured-card__body">
-              <h3 class="featured-card__title">La Lune</h3>
-              <p class="featured-card__desc">Cratères, mers lunaires et détails saisissants de notre satellite naturel.</p>
-            </div>
-          </article>
-          <article class="featured-card">
-            <div class="featured-card__image">☀️</div>
-            <div class="featured-card__body">
-              <h3 class="featured-card__title">Le Soleil</h3>
-              <p class="featured-card__desc">Taches solaires, protubérances et activité de notre étoile en lumière visible et H-alpha.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+    <div class="hub-grid">
+      <a href="album.html" class="hub-card">
+        <span class="hub-card__icon">🔭</span>
+        <div class="hub-card__title">Astro Photographie</div>
+        <div class="hub-card__desc">Photos de la Lune, du Soleil et du ciel profond. Matériel, météo astro, actualités.</div>
+      </a>
+      <a href="hermes.html" class="hub-card">
+        <span class="hub-card__icon">🤖</span>
+        <div class="hub-card__title">Hermes LEO</div>
+        <div class="hub-card__desc">Wikis, dashboard, documents, BAVI, voyages. Accès restreint à la plateforme.</div>
+      </a>
+    </div>
 
   </main>
 
