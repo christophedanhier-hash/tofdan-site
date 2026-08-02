@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hermes — Accès</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#c9d1d9;--accent:#58a6ff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.login{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px;width:100%;max-width:360px;text-align:center}
+.login h1{font-size:20px;margin-bottom:8px}
+.login p{color:#8b949e;font-size:13px;margin-bottom:20px}
+.login input{width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text);font-size:14px;margin-bottom:12px;outline:none}
+.login input:focus{border-color:var(--accent)}
+.login button{width:100%;padding:10px;background:var(--accent);color:#fff;border:none;border-radius:6px;font-size:14px;cursor:pointer;font-weight:600}
+.login button:hover{opacity:.9}
+.error{color:#f85149;font-size:12px;margin-top:8px;display:none}
+</style>
+</head>
+<body>
+<div class="login">
+  <h1>🤖 Hermes</h1>
+  <p>Accès restreint à la plateforme LEO</p>
+  <input type="password" id="pw" placeholder="Mot de passe" autofocus onkeydown="if(event.key==='Enter')login()">
+  <button onclick="login()">Accéder</button>
+  <div class="error" id="error">Mot de passe incorrect</div>
+</div>
+<script>
+const TOKEN='hermes-leo-2026';
+function login(){
+  const pw=document.getElementById('pw').value;
+  if(pw==='Leo2026'){
+    document.cookie='hermes_auth='+TOKEN+';path=/;max-age=31536000;SameSite=Lax';
+    const redirect=new URLSearchParams(location.search).get('r')||'/hermes.html';
+    location.href=redirect;
+  } else {
+    document.getElementById('error').style.display='block';
+  }
+}
+</script>
+</body>
+</html>
