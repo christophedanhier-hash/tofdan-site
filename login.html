@@ -40,6 +40,9 @@ function login(){
 }
 </script>
 
-  <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
+  <script>
+(function(){var b=document.getElementById("theme-toggle");if(b){var s=localStorage.getItem("tofdan-theme");document.documentElement.setAttribute("data-theme",s||"light");b.textContent=(s==="dark")?"🌙":"☀️";b.addEventListener("click",function(){var c=document.documentElement.getAttribute("data-theme"),n=c==="light"?"dark":"light";document.documentElement.setAttribute("data-theme",n);localStorage.setItem("tofdan-theme",n);b.textContent=n==="dark"?"🌙":"☀️"})}})();
+</script>
+<button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
 </body>
 </html>

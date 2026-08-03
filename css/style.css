@@ -40,6 +40,13 @@
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
   --transition-slow: 400ms ease;
+  /* Alias pour compatibilité pages HTML */
+  --bg-card: var(--color-bg-card);
+  --bg: var(--color-bg);
+  --border: var(--color-border);
+  --text: var(--color-text);
+  --text-muted: var(--color-text-muted);
+  --card: var(--color-bg-card);
 }
 
 /* ===== THÈME CLAIR (JOUR) ===== */
@@ -64,6 +71,12 @@
   --gradient-hero: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 50%, #f8fafc 100%);
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08);
   --shadow-glow: 0 0 40px rgba(79, 70, 229, 0.08);
+  --bg-card: var(--color-bg-card);
+  --bg: var(--color-bg);
+  --border: var(--color-border);
+  --text: var(--color-text);
+  --text-muted: var(--color-text-muted);
+  --card: var(--color-bg-card);
 }
 
 /* ===== BOUTON JOUR/NUIT ===== */
