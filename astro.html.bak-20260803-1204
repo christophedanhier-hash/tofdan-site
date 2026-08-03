@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contactez-nous — Une question, une remarque ou juste envie d'échanger sur l'astronomie ?">
-  <title>Contact — Tofdan</title>
+  <meta name="description" content="Notre passion pour l'astronomie et l'astrophotographie — Présentation, philosophie et site d'observation.">
+  <title>Astronomie — Tofdan</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -50,20 +50,31 @@
 
     <div class="page-header">
       <div class="container">
-        <h1 class="page-header__title">Contact</h1>
-        <p class="page-header__subtitle">Une question, une remarque, ou simplement l'envie d'échanger sur l'astronomie ? Écrivez-nous !</p>
+        <h1 class="page-header__title">Notre Passion</h1>
+        <p class="page-header__subtitle">L'astronomie et l'astrophotographie : une fenêtre ouverte sur l'infini.</p>
       </div>
     </div>
 
     <section class="section" style="padding-top: 0;">
       <div class="container">
-
-        <div class="construction-notice">
-          <div class="construction-notice__icon">🚧</div>
-          <h2 class="construction-notice__title">Formulaire en construction</h2>
-          <p class="construction-notice__text">Le formulaire de contact n'est pas encore disponible.<br>En attendant, retrouvez-nous sur <a href="https://www.facebook.com/tofdan" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+        <div class="prose">
+          <p>Depuis notre plus tendre enfance, l'observation du ciel étoilé a toujours été une source d'émerveillement. Cette fascination pour l'univers, nous l'avons transformée en une véritable passion que nous souhaitons aujourd'hui partager avec vous.</p>
+          <p>L'astrophotographie est bien plus qu'une simple technique : c'est l'art de capturer la lumière qui a voyagé pendant des millions, voire des milliards d'années, pour venir frapper le capteur de notre appareil photo. Chaque image raconte l'histoire d'un photon, né au cœur d'une étoile lointaine, ayant traversé l'immensité du cosmos pour finir sa course dans notre objectif.</p>
+          <p>Que ce soit la surface cratérisée de la Lune, les taches solaires qui dansent à la surface de notre étoile, les anneaux majestueux de Saturne ou les nébuleuses aux couleurs irréelles, chaque objet céleste nous rappelle à quel point l'univers est vaste, beau et mystérieux.</p>
+          <p>Nous pratiquons l'observation et la photographie astronomique depuis notre jardin, dans la région de Villers-la-Ville, en Belgique. Malgré la pollution lumineuse, nous parvenons à capturer des images d'une qualité satisfaisante grâce à un équipement adapté et des techniques de traitement numérique avancées.</p>
+          <p>Ce site a pour vocation de partager nos plus belles images, nos conseils techniques, et notre enthousiasme pour cette discipline exigeante mais infiniment gratifiante. Nous espérons qu'il saura vous inspirer et, qui sait, peut-être éveiller en vous une nouvelle passion.</p>
+          <p class="signature">Syl &amp; Tof</p>
         </div>
 
+        <div class="info-box" style="max-width: 720px; margin: 32px auto 0;">
+          <span class="info-box__icon">📍</span>
+          <p class="info-box__text">
+            <strong>Coordonnées du site d'observation :</strong><br>
+            <span class="info-box__highlight">Latitude : 50°32' N</span> —
+            <span class="info-box__highlight">Longitude : 4°36' E</span><br>
+            Villers-la-Ville, Belgique
+          </p>
+        </div>
       </div>
     </section>
 
@@ -85,7 +96,5 @@
   <button class="back-to-top" aria-label="Retour en haut">↑</button>
 
   <script src="js/main.js"></script>
-
-  <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
 </body>
 </html>

@@ -187,7 +187,5 @@
 
   <script src="js/main.js"></script>
   <script src="js/meteo.js"></script>
-
-  <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
 </body>
 </html>

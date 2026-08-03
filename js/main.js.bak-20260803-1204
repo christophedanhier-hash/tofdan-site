@@ -85,35 +85,4 @@
     });
   }
 
-  /* ===== Thème Jour/Nuit ===== */
-  var THEME_KEY = 'tofdan-theme';
-  var saved = localStorage.getItem(THEME_KEY);
-  
-  if (!saved) {
-    // Défaut : jour
-    document.documentElement.setAttribute('data-theme', 'light');
-    updateToggleIcon('light');
-  } else {
-    document.documentElement.setAttribute('data-theme', saved);
-    updateToggleIcon(saved);
-  }
-
-  var toggleBtn = document.getElementById('theme-toggle');
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', function() {
-      var current = document.documentElement.getAttribute('data-theme');
-      var next = current === 'light' ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem(THEME_KEY, next);
-      updateToggleIcon(next);
-    });
-  }
-
-  function updateToggleIcon(theme) {
-    if (toggleBtn) {
-      toggleBtn.textContent = theme === 'light' ? '☀️' : '🌙';
-      toggleBtn.setAttribute('aria-label', theme === 'light' ? 'Passer en mode nuit' : 'Passer en mode jour');
-    }
-  }
-
 })();
