@@ -47,6 +47,7 @@
   --text: #e2e8f0;
   --text-muted: #94a3b8;
   --card: #141432;
+  --header-bg: rgba(10, 10, 26, 0.85);
 }
 
 /* ===== THÈME CLAIR (JOUR) ===== */
@@ -78,6 +79,7 @@
   --text: #1e293b;
   --text-muted: #475569;
   --card: #ffffff;
+  --header-bg: rgba(248, 250, 252, 0.85);
 }
 
 /* ===== BOUTON JOUR/NUIT ===== */
@@ -166,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(10, 10, 26, 0.85);
+  background: var(--header-bg);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--color-border);
