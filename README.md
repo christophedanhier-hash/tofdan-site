@@ -29,6 +29,7 @@ tofdan-site/
 │   ├── main.js             Navigation mobile, menu actif, formulaire, back-to-top
 │   └── meteo.js            Module météo : API Open-Meteo, géocodage, géoloc, lune (627 lignes)
 └── docs/
+    ├── CHANGELOG-dev.md     Journal de développement (trace de reprise)
     └── analyse-meteo.md    Audit complet de l'application
 ```
 
@@ -120,6 +121,17 @@ tofdan-site/
 
 - Grille d'articles responsive avec date, titre, extrait et lien "Lire la suite"
 - 4 articles d'exemple (juin 2025 à mars 2025)
+
+## Documentation
+
+| Fichier | Contenu |
+|---------|---------|
+| `README.md` | Identité, arborescence, fonctionnalités, déploiement |
+| `docs/CHANGELOG-dev.md` | Journal de développement — trace de reprise (quoi, pourquoi, coût) |
+| `docs/analyse-meteo.md` | Audit complet de l'application météo |
+| `docs/audit-2026-06.md` | Audit technique initial (stack, état) |
+
+La vue transversale des projets (index BAVI) est dans le wiki BAVI : `bureau-leo/index-projets`.
 
 ## Déploiement
 
