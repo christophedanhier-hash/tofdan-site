@@ -2,6 +2,34 @@
 
 Journal de développement du site www.tofdan.be. Chaque entrée documente une itération : quoi, pourquoi, comment, qui, coût.
 
+## 2026-08-03 — Document d'architecture (2e chantier doc délégué à Copilot)
+
+**Contexte :** Suite de la séquence documentaire (audit → architecture). 2e test de délégation documentaire à Copilot CLI.
+
+**Réalisé par :** Copilot CLI (production) + LEO (brief, vérification) + Christophe (validation)
+
+**Livrable :** `docs/architecture-2026-08.md` (391 lignes, 23.5 Ko)
+
+**Contenu :**
+- §1 Vue d'ensemble : diagramme ASCII des 2 volets (Astro public / Hermes privé)
+- §2 **10 décisions ADR** (ADR-001 à 010) : statique pur, HTML dupliqué, CSS BEM, JS ES5, thème data-theme, cache-busting, Google Fonts link, auth client (choix assumé), Open-Meteo, déploiement git
+- §3 Composants (3 couches + météo avec fonctions réelles)
+- §4 Flux de données (4 flux)
+- §5 Sécurité (frontière nginx, M1 documenté, XSS)
+- §6 Performance (poids réels 146 Ko total)
+- §7 Roadmap : Option A (statique, recommandée) vs Option B (migration Astro)
+- Annexe : vérification de cohérence avec l'audit
+
+**Qualité vérifiée par LEO :** fonctions citées réelles (`calcMoonPhase`, `fetchWeather`, `saveRecent`), clés réelles (`THEME_KEY`, `LS_KEY`), poids exacts (wc -c), cohérence audit (R2-R5 = FAIT, M1 = choix).
+
+**Coût :** 39.2 AI credits (3 min 0 s).
+
+**Vérification :** structure 7 sections + annexe, ADR justifiés avec alternatives, 0 contradiction avec l'audit. Commit `5a23b2e`.
+
+**État :** ✅ Livré et déployé
+
+---
+
 ## 2026-08-03 — Corrections recommandations audit (R2-R5) — via Copilot CLI
 
 **Contexte :** Suite de l'audit technique août 2026 (produit par Copilot CLI). Application des recommandations 2 à 5.
