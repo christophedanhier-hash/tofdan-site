@@ -608,6 +608,157 @@
     }
 
     /* -------------------------------------------------------------
+       CONTRACTUALISATION SECTION
+    ------------------------------------------------------------- */
+    .contracts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      margin-bottom: 36px;
+    }
+
+    .contract-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px 24px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      transition: all 0.25s ease;
+    }
+
+    .contract-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-border);
+    }
+
+    .contract-card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .contract-icon-box {
+      width: 50px;
+      height: 50px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-accent-soft);
+      border: 1px solid var(--primary-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+
+    .contract-card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.3;
+    }
+
+    .contract-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .contract-details {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+
+    .contract-detail-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+
+    .contract-detail-icon {
+      font-size: 14px;
+      line-height: 1.4;
+      flex-shrink: 0;
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    .contract-detail-content {
+      color: var(--text-muted);
+    }
+
+    .contract-detail-content strong {
+      color: var(--text-main);
+    }
+
+    .contract-tag {
+      display: inline-block;
+      align-self: flex-start;
+      margin-top: 18px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: var(--radius-full);
+      background: var(--bg-subtle);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    .contract-tag.highlight {
+      background: var(--bg-accent-soft);
+      color: var(--primary);
+      border-color: var(--primary-border);
+    }
+
+    .trust-box {
+      background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+      border: 1px solid #bfdbfe;
+      border-left: 4px solid var(--primary);
+      border-radius: var(--radius-lg);
+      padding: 28px 28px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .trust-box-icon {
+      font-size: 26px;
+      line-height: 1;
+      padding: 10px;
+      background: var(--bg-surface);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--primary-border);
+      box-shadow: var(--shadow-sm);
+      flex-shrink: 0;
+    }
+
+    .trust-box-content h3 {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .trust-box-content p {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* -------------------------------------------------------------
        ABOUT SECTION
     ------------------------------------------------------------- */
     .about-layout {
@@ -985,6 +1136,12 @@
       .contact-card {
         padding: 24px;
       }
+
+      .trust-box {
+        flex-direction: column;
+        padding: 22px 20px;
+        gap: 16px;
+      }
     }
   </style>
 </head>
@@ -1007,6 +1164,7 @@
         <ul class="nav-links" id="nav-links">
           <li><a href="#services" class="nav-link">Services</a></li>
           <li><a href="#approche" class="nav-link">Approche</a></li>
+          <li><a href="#contractualisation" class="nav-link">Contractualisation</a></li>
           <li><a href="#a-propos" class="nav-link">À propos</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
           <li><a href="index.html" class="nav-link" style="color: var(--text-soft); font-size: 13px;">← Hub Tofdan</a></li>
@@ -1224,9 +1382,115 @@
   </section>
 
   <!-- ============================================================
-       5. À PROPOS SECTION
+       5. CONTRACTUALISATION TRANSPARENTE SECTION (3 SOLUTIONS)
   ============================================================ -->
-  <section class="section section-alt" id="a-propos">
+  <section class="section section-alt" id="contractualisation">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Transparence &amp; Confiance</span>
+        <h2 class="section-title">Une contractualisation transparente</h2>
+        <p class="section-desc">
+          Chaque projet CDC est contractualisé avec des solutions claires et sans engagement caché. Vous choisissez le mode qui vous convient :
+        </p>
+      </div>
+
+      <div class="contracts-grid">
+        <!-- Solution A -->
+        <div class="contract-card">
+          <div class="contract-card-header">
+            <div class="contract-icon-box">🛡️</div>
+            <h3 class="contract-card-title">Solution A — Contrat piloté par CDC</h3>
+          </div>
+          <p class="contract-desc">
+            CDC gère l'ensemble des services (hébergement, VPS, licences) avec un engagement aligné sur la durée du contrat.
+          </p>
+          <div class="contract-details">
+            <div class="contract-detail-item">
+              <span class="contract-detail-icon">✓</span>
+              <div class="contract-detail-content">
+                <strong>Avantage client :</strong> un seul interlocuteur, prix garantis sur la durée, zéro gestion technique.
+              </div>
+            </div>
+            <div class="contract-detail-item">
+              <span class="contract-detail-icon">ℹ️</span>
+              <div class="contract-detail-content">
+                <strong>Transparence :</strong> la durée d'engagement est clairement définie au départ ; en cas d'arrêt anticipé, la durée restante est due (alignée sur les engagements fournisseurs de CDC).
+              </div>
+            </div>
+          </div>
+          <span class="contract-tag highlight">Pilotage intégral &amp; Sérénité</span>
+        </div>
+
+        <!-- Solution B -->
+        <div class="contract-card">
+          <div class="contract-card-header">
+            <div class="contract-icon-box">🤝</div>
+            <h3 class="contract-card-title">Solution B — Vous contractez directement</h3>
+          </div>
+          <p class="contract-desc">
+            Pour les services optionnels (hébergement, VPS, domaines), vous pouvez contracter directement chez le fournisseur partenaire.
+          </p>
+          <div class="contract-details">
+            <div class="contract-detail-item">
+              <span class="contract-detail-icon">✓</span>
+              <div class="contract-detail-content">
+                <strong>Avantage client :</strong> aucune contrainte d'engagement via CDC, vous gardez la main sur vos contrats.
+              </div>
+            </div>
+            <div class="contract-detail-item">
+              <span class="contract-detail-icon">ℹ️</span>
+              <div class="contract-detail-content">
+                <strong>Transparence :</strong> CDC facture alors uniquement la mise en place et la gestion.
+              </div>
+            </div>
+          </div>
+          <span class="contract-tag">Autonomie &amp; Flexibilité totale</span>
+        </div>
+
+        <!-- Solution C -->
+        <div class="contract-card">
+          <div class="contract-card-header">
+            <div class="contract-icon-box">🤖</div>
+            <h3 class="contract-card-title">Solution C — Services IA en fourchettes + prépaiement</h3>
+          </div>
+          <p class="contract-desc">
+            Pour les services d'intelligence artificielle (tokens API), les volumes sont encadrés par des fourchettes mensuelles avec un crédit initial prépayé.
+          </p>
+          <div class="contract-details">
+            <div class="contract-detail-item">
+              <span class="contract-detail-icon">✓</span>
+              <div class="contract-detail-content">
+                <strong>Avantage client :</strong> budget maîtrisé, pas de facture surprise — les volumes au-delà de la fourchette sont facturés au dépassement, avec plafond.
+              </div>
+            </div>
+            <div class="contract-detail-item">
+              <span class="contract-detail-icon">ℹ️</span>
+              <div class="contract-detail-content">
+                <strong>Transparence :</strong> prépaiement initial défini au contrat.
+              </div>
+            </div>
+          </div>
+          <span class="contract-tag highlight">Budget maîtrisé &amp; Plafonné</span>
+        </div>
+      </div>
+
+      <!-- Encadré de confiance -->
+      <div class="trust-box">
+        <div class="trust-box-icon">💡</div>
+        <div class="trust-box-content">
+          <h3>Pourquoi cette approche ?</h3>
+          <p>
+            CDC applique le principe de responsabilité : nos engagements fournisseurs sont toujours alignés sur vos contrats, et les services à volume variable (IA) sont toujours prépayés et encadrés. Aucun engagement caché, aucune surprise. Notre objectif : une relation de confiance sur le long terme.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. À PROPOS SECTION
+  ============================================================ -->
+  <section class="section" id="a-propos">
     <div class="container">
       <div class="about-layout">
         <div class="about-content">
@@ -1273,7 +1537,7 @@
   </section>
 
   <!-- ============================================================
-       6. CONTACT SECTION
+       7. CONTACT SECTION
   ============================================================ -->
   <section class="section" id="contact">
     <div class="container">
@@ -1339,7 +1603,7 @@
   </section>
 
   <!-- ============================================================
-       7. FOOTER
+       8. FOOTER
   ============================================================ -->
   <footer class="footer">
     <div class="container">
@@ -1352,6 +1616,7 @@
         <ul class="footer-links">
           <li><a href="#services">Services</a></li>
           <li><a href="#approche">Approche</a></li>
+          <li><a href="#contractualisation">Contractualisation</a></li>
           <li><a href="#a-propos">À propos</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="index.html">Accueil Tofdan</a></li>
@@ -1363,6 +1628,7 @@
         <div>
           <p>© 2026 Christophe Danhier Consulting. Tous droits réservés.</p>
           <p style="font-size: 12px; margin-top: 4px;">Activité complémentaire — Siège : Rue Gironfontaine 3, 5140 Sombreffe, Belgique — Création de société prévue Q4 2026.</p>
+          <p style="font-size: 12px; margin-top: 4px; color: var(--text-soft);">Contractualisation transparente — 3 solutions au choix : contrat piloté CDC, client direct, IA en fourchettes prépayées.</p>
         </div>
         <div class="footer-legal-tag">
           Facturation Peppol BIS 3.0 conforme
