@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Christophe Danhier Consulting (CDC) — Conseil IT &amp; IA, solutions agentiques, hébergement et API LLM managées pour les PME en Belgique.">
+  <title>Christophe Danhier Consulting — Conseil IT &amp; IA</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tofdan.be/cdc.html">
+  <meta property="og:title" content="Christophe Danhier Consulting — Conseil IT &amp; IA">
+  <meta property="og:description" content="Accompagnement pragmatique des PME dans leur transformation digitale : stratégie IT/IA, agents autonomes, hébergement et API managées.">
+  
+  <!-- Favicon SVG corporate -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Ctext x='16' y='21' font-family='system-ui, -apple-system, sans-serif' font-size='14' font-weight='800' fill='%23ffffff' text-anchor='middle'%3ECDC%3C/text%3E%3C/svg%3E">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Christophe Danhier Consulting (CDC)",
+    "url": "https://tofdan.be/cdc.html",
+    "email": "leodanhieria@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rue Gironfontaine 3",
+      "postalCode": "5140",
+      "addressLocality": "Sombreffe",
+      "addressCountry": "BE"
+    },
+    "description": "Conseil IT & IA, solutions agentiques, hébergement et gestion d'API LLM pour les entreprises.",
+    "priceRange": "650 EUR",
+    "areaServed": "BE",
+    "openingHours": "Mo-Fr 09:00-18:00"
+  }
+  </script>
+
+  <style>
+    /* -------------------------------------------------------------
+       VARIABLES & RESET (Style CLAIR / CORPORATE)
+    ------------------------------------------------------------- */
+    :root {
+      --bg-page: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-subtle: #f1f5f9;
+      --bg-accent-soft: #eff6ff;
+      --text-main: #0f172a;
+      --text-muted: #334155;
+      --text-soft: #64748b;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --primary-border: #bfdbfe;
+      --accent-emerald: #059669;
+      --accent-emerald-soft: #ecfdf5;
+      --border: #e2e8f0;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
+      --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.08);
+      --shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.1);
+      --font-stack: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --container-max: 1100px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--bg-page);
+      color: var(--text-main);
+      font-family: var(--font-stack);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    a:hover {
+      color: var(--primary-hover);
+    }
+
+    .container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* -------------------------------------------------------------
+       HEADER & NAVIGATION STICKY
+    ------------------------------------------------------------- */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      transition: box-shadow 0.2s ease;
+    }
+
+    .header.scrolled {
+      box-shadow: var(--shadow-sm);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      border-radius: var(--radius-sm);
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.35);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.2;
+    }
+
+    .brand-tagline {
+      font-size: 12px;
+      color: var(--text-soft);
+      font-weight: 500;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-muted);
+      padding: 6px 0;
+      position: relative;
+    }
+
+    .nav-link:hover {
+      color: var(--primary);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--primary);
+      transition: width 0.2s ease;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      color: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn-secondary {
+      background: var(--bg-surface);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-subtle);
+      border-color: #cbd5e1;
+      color: var(--text-main);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline-primary {
+      background: var(--bg-accent-soft);
+      color: var(--primary);
+      border: 1px solid var(--primary-border);
+    }
+
+    .btn-outline-primary:hover {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 8px;
+      cursor: pointer;
+      color: var(--text-main);
+    }
+
+    .mobile-menu-btn svg {
+      display: block;
+      width: 22px;
+      height: 22px;
+    }
+
+    /* -------------------------------------------------------------
+       HERO SECTION
+    ------------------------------------------------------------- */
+    .hero {
+      padding: 70px 0 60px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+
+    .badge-primary {
+      background: var(--bg-accent-soft);
+      border-color: var(--primary-border);
+      color: var(--primary);
+    }
+
+    .badge-success {
+      background: var(--accent-emerald-soft);
+      border-color: #a7f3d0;
+      color: var(--accent-emerald);
+    }
+
+    .hero-title {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.18;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+      max-width: 860px;
+    }
+
+    .hero-title .highlight {
+      color: var(--primary);
+      position: relative;
+      display: inline-block;
+    }
+
+    .hero-subtitle {
+      font-size: 19px;
+      line-height: 1.6;
+      color: var(--text-muted);
+      max-width: 780px;
+      margin-bottom: 32px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 40px;
+    }
+
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    .metric-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .metric-icon {
+      font-size: 22px;
+      line-height: 1;
+      padding: 8px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-subtle);
+    }
+
+    .metric-content h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 2px;
+    }
+
+    .metric-content p {
+      font-size: 12px;
+      color: var(--text-soft);
+      line-height: 1.4;
+    }
+
+    /* -------------------------------------------------------------
+       SECTION STYLES (COMMON)
+    ------------------------------------------------------------- */
+    .section {
+      padding: 80px 0;
+    }
+
+    .section-alt {
+      background-color: var(--bg-surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 50px;
+    }
+
+    .section-kicker {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.01em;
+      margin-bottom: 14px;
+    }
+
+    .section-desc {
+      font-size: 16px;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    /* -------------------------------------------------------------
+       SERVICES SECTION
+    ------------------------------------------------------------- */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+
+    .service-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px 24px;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-border);
+    }
+
+    .service-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-accent-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+      border: 1px solid var(--primary-border);
+    }
+
+    .service-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+
+    .service-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .service-features {
+      list-style: none;
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+    }
+
+    .service-features li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .service-features li::before {
+      content: "✓";
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    .service-badge {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: var(--radius-full);
+      background: var(--bg-subtle);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+    }
+
+    .service-badge.highlight-price {
+      background: var(--bg-accent-soft);
+      color: var(--primary);
+      border-color: var(--primary-border);
+    }
+
+    /* -------------------------------------------------------------
+       APPROACH SECTION
+    ------------------------------------------------------------- */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      margin-bottom: 48px;
+    }
+
+    .step-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 28px 20px;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-full);
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+
+    .step-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .step-desc {
+      font-size: 13.5px;
+      color: var(--text-soft);
+      line-height: 1.5;
+    }
+
+    .difference-box {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: center;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .difference-box h3 {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
+
+    .difference-box p {
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.6;
+      max-width: 720px;
+    }
+
+    .difference-badge {
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid rgba(191, 219, 254, 0.3);
+      color: #93c5fd;
+      padding: 6px 14px;
+      border-radius: var(--radius-full);
+      font-size: 12px;
+      font-weight: 700;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    /* -------------------------------------------------------------
+       ABOUT SECTION
+    ------------------------------------------------------------- */
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-content h3 {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+
+    .about-content p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .value-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      display: flex;
+      gap: 16px;
+      box-shadow: var(--shadow-sm);
+      transition: border-color 0.2s ease;
+    }
+
+    .value-card:hover {
+      border-color: var(--primary-border);
+    }
+
+    .value-icon {
+      font-size: 24px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .value-info h4 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .value-info p {
+      font-size: 13.5px;
+      color: var(--text-soft);
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+
+    /* -------------------------------------------------------------
+       CONTACT SECTION
+    ------------------------------------------------------------- */
+    .contact-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 44px;
+      box-shadow: var(--shadow-md);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .contact-info-title {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    .contact-info-desc {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .contact-items {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .contact-item-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-accent-soft);
+      border: 1px solid var(--primary-border);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .contact-item-details h5 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-soft);
+      margin-bottom: 2px;
+    }
+
+    .contact-item-details p, .contact-item-details a {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .contact-item-details a:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+
+    .contact-action-panel {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 30px 24px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .contact-action-panel h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .contact-action-panel p {
+      font-size: 14px;
+      color: var(--text-soft);
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .copy-email-btn {
+      margin-top: 10px;
+      background: none;
+      border: none;
+      color: var(--text-soft);
+      font-size: 12px;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .copy-email-btn:hover {
+      color: var(--primary);
+    }
+
+    /* -------------------------------------------------------------
+       FOOTER
+    ------------------------------------------------------------- */
+    .footer {
+      background-color: var(--bg-subtle);
+      border-top: 1px solid var(--border);
+      padding: 50px 0 30px;
+      font-size: 14px;
+      color: var(--text-soft);
+    }
+
+    .footer-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .footer-links a:hover {
+      color: var(--primary);
+    }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      font-size: 13px;
+    }
+
+    .footer-legal-tag {
+      display: inline-block;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* -------------------------------------------------------------
+       BACK TO TOP & TOAST
+    ------------------------------------------------------------- */
+    .back-to-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-full);
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-md);
+      transition: all 0.2s ease;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 900;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-to-top:hover {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #0f172a;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: var(--radius-full);
+      font-size: 14px;
+      font-weight: 500;
+      box-shadow: var(--shadow-lg);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 1100;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* -------------------------------------------------------------
+       RESPONSIVE DESIGN (Mobile First Adjustments)
+    ------------------------------------------------------------- */
+    @media (max-width: 900px) {
+      .hero-title {
+        font-size: 34px;
+      }
+      .about-layout {
+        grid-template-columns: 1fr;
+      }
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+      .difference-box {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: #ffffff;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 24px;
+        gap: 16px;
+        border-bottom: 1px solid var(--border);
+        box-shadow: var(--shadow-md);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .header-cta-desktop {
+        display: none;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .hero {
+        padding: 40px 0;
+      }
+
+      .hero-title {
+        font-size: 28px;
+      }
+
+      .hero-subtitle {
+        font-size: 16px;
+      }
+
+      .section {
+        padding: 50px 0;
+      }
+
+      .section-title {
+        font-size: 26px;
+      }
+
+      .contact-card {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       1. HEADER STICKY
+  ============================================================ -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="cdc.html" class="brand" aria-label="Christophe Danhier Consulting">
+        <div class="brand-badge">CDC</div>
+        <div class="brand-text">
+          <span class="brand-name">Christophe Danhier Consulting</span>
+          <span class="brand-tagline">Conseil IT &amp; IA · Solutions Agentiques</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#approche" class="nav-link">Approche</a></li>
+          <li><a href="#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="index.html" class="nav-link" style="color: var(--text-soft); font-size: 13px;">← Hub Tofdan</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-desktop">
+        <a href="#contact" class="btn btn-primary">Discutons de votre projet</a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu de navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       2. HERO SECTION
+  ============================================================ -->
+  <section class="hero" id="accueil">
+    <div class="container">
+      <div class="hero-badges">
+        <span class="badge badge-primary">🇧🇪 Belgique (Sombreffe)</span>
+        <span class="badge badge-success">✓ Facturation électronique conforme Peppol BIS 3.0</span>
+        <span class="badge">🗓️ Disponible Q4 2026</span>
+      </div>
+
+      <h1 class="hero-title">
+        Conseil IT &amp; IA — vos projets <span class="highlight">pilotés de A à Z</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Christophe Danhier Consulting accompagne les PME dans leur transformation digitale : cadrage stratégique, solutions agentiques sur mesure, hébergement sécurisé et API d'intelligence artificielle.
+      </p>
+
+      <div class="hero-actions">
+        <a href="mailto:leodanhieria@gmail.com?subject=Contact%20projet%20CDC%20Consulting" class="btn btn-primary">
+          <span>✉️ Prendre contact</span>
+        </a>
+        <a href="#services" class="btn btn-secondary">
+          <span>Explorer les expertises</span>
+        </a>
+      </div>
+
+      <div class="hero-metrics">
+        <div class="metric-card">
+          <div class="metric-icon">💼</div>
+          <div class="metric-content">
+            <h4>Tarif Journalier</h4>
+            <p><strong>650 € HTVA</strong> / jour d'intervention</p>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">📑</div>
+          <div class="metric-content">
+            <h4>Peppol BIS 3.0</h4>
+            <p>Conforme aux obligations de facturation B2B</p>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">⚡</div>
+          <div class="metric-content">
+            <h4>Plateforme Hermes</h4>
+            <p>Méthode agentique propriétaire éprouvée</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. SERVICES SECTION (4 CARTES)
+  ============================================================ -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Offre de services</span>
+        <h2 class="section-title">Nos Domaines d'Expertise</h2>
+        <p class="section-desc">
+          Une consultance pragmatique pour moderniser votre système d'information et intégrer l'intelligence artificielle au cœur de vos flux opérationnels.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon-box">🧠</div>
+          <h3 class="service-title">Conseil IT &amp; IA</h3>
+          <p class="service-desc">
+            Cadrage de vos besoins, audit technique, stratégie d'adoption de l'intelligence artificielle et accompagnement de vos équipes dans la conduite du changement.
+          </p>
+          <ul class="service-features">
+            <li>Cadrage stratégique &amp; feuille de route</li>
+            <li>Choix d'architectures et d'outils</li>
+            <li>Gouvernance de projet et delivery</li>
+          </ul>
+          <span class="service-badge highlight-price">TJ : 650 € HTVA</span>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon-box">🤖</div>
+          <h3 class="service-title">Solutions Agentiques</h3>
+          <p class="service-desc">
+            Conception d'assistants IA et d'agents autonomes sur mesure pour automatiser le traitement documentaire, la recherche interne et les tâches répétitives.
+          </p>
+          <ul class="service-features">
+            <li>Expertise issue de la plateforme Hermes</li>
+            <li>Agents conversationnels &amp; automatisations</li>
+            <li>Intégration fluide dans vos outils existants</li>
+          </ul>
+          <span class="service-badge">Sur mesure / Projet</span>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon-box">☁️</div>
+          <h3 class="service-title">Hébergement &amp; VPS</h3>
+          <p class="service-desc">
+            Fourniture, configuration et gestion d'hébergements web belges et européens, serveurs VPS dédiés et gestion complète des noms de domaine.
+          </p>
+          <ul class="service-features">
+            <li>Partenaires : Hostinger, OVHcloud, Easyhost</li>
+            <li>Serveurs VPS &amp; hébergement haute disponibilité</li>
+            <li>Sécurisation SSL, DNS et sauvegardes</li>
+          </ul>
+          <span class="service-badge">Partenaires Certifiés</span>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon-box">🔑</div>
+          <h3 class="service-title">Accès API LLM Managés</h3>
+          <p class="service-desc">
+            Mise en place de packs de clés API managées pour exploiter les meilleurs modèles de langage sans friction technique, avec suivi de consommation.
+          </p>
+          <ul class="service-features">
+            <li>Fournisseurs : DeepSeek, OpenRouter, Google Gemini</li>
+            <li>Monitoring des quotas et proxy sécurisé</li>
+            <li>Facturation claire sous forfait mensuel</li>
+          </ul>
+          <span class="service-badge">Forfait &amp; Monitoring</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. APPROCHE SECTION
+  ============================================================ -->
+  <section class="section" id="approche">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Méthodologie</span>
+        <h2 class="section-title">Comment Nous Travaillons</h2>
+        <p class="section-desc">
+          Une approche structurée en 4 étapes claires, orientée vers l'impact immédiat et la transparence totale à chaque phase du projet.
+        </p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Cadrage des besoins</h3>
+          <p class="step-desc">
+            Analyse approfondie de vos objectifs, identification des points de friction et définition des indicateurs de succès.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Plan &amp; Budget</h3>
+          <p class="step-desc">
+            Élaboration d'une feuille de route réaliste, chiffrage transparent sans coût caché et choix des solutions techniques adaptées.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Exécution pilotée par IA</h3>
+          <p class="step-desc">
+            Développement agile et configuration accélérée grâce à notre assistant agentique (LEO / Hermes) pour un déploiement fluide.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <h3 class="step-title">Suivi &amp; Évolution</h3>
+          <p class="step-desc">
+            Mise en service, documentation complète, transfert de compétences et ajustements continus selon vos retours d'usage.
+          </p>
+        </div>
+      </div>
+
+      <!-- Bloc Différence CDC -->
+      <div class="difference-box">
+        <div>
+          <span class="difference-badge">Notre Différenciation</span>
+          <h3>La différence CDC : une gestion augmentée par l'IA</h3>
+          <p>
+            Chaque mission est orchestrée à l'aide de notre plateforme agentique propriétaire <strong>Hermes</strong>. Cet écosystème coordonne le suivi de projet, la documentation technique, le contrôle qualité et la facturation. Vous bénéficiez ainsi d'une réactivité accrue, d'une traçabilité exemplaire et de livrables d'une rigueur constante.
+          </p>
+        </div>
+        <div>
+          <a href="#contact" class="btn btn-outline-primary" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.3); color: #ffffff;">
+            Échanger sur vos enjeux →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. À PROPOS SECTION
+  ============================================================ -->
+  <section class="section section-alt" id="a-propos">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-content">
+          <span class="section-kicker">Expérience &amp; Vision</span>
+          <h3>À propos de Christophe Danhier</h3>
+          <p>
+            Consultant indépendant en technologies de l'information et solutions d'intelligence artificielle, j'exerce en <strong>activité complémentaire</strong> en Belgique avec une création de société programmée pour le <strong>quatrième trimestre 2026</strong>.
+          </p>
+          <p>
+            <strong>Une preuve concrète d'efficacité :</strong> l'ensemble de l'infrastructure de CDC a été conçu et déployé avec la plateforme <strong>Hermes</strong> — de l'idée initiale au portail opérationnel, incluant la gestion de projet, les flux de comptabilité et la conformité de facturation électronique Peppol BIS 3.0.
+          </p>
+          <p>
+            Ce que nous recommandons à nos clients est exactement ce que nous éprouvons et améliorons chaque jour dans notre propre fonctionnement.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">🎯</div>
+            <div class="value-info">
+              <h4>Simplicité &amp; Clarté</h4>
+              <p>Pas de complexité superflue. Des architectures lisibles et des explications limpides sans jargon inutile.</p>
+            </div>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">🔄</div>
+            <div class="value-info">
+              <h4>Méthode Itérative</h4>
+              <p>Des livraisons d'étapes rapides pour tester concrètement les solutions et ajuster le cap sans attendre la fin du projet.</p>
+            </div>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">📈</div>
+            <div class="value-info">
+              <h4>Résultats Concrets</h4>
+              <p>Une orientation stricte vers le retour sur investissement opérationnel et le gain de temps effectif pour vos équipes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. CONTACT SECTION
+  ============================================================ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-grid">
+          <div>
+            <span class="section-kicker">Disponibilité &amp; Devis</span>
+            <h2 class="contact-info-title">Démarrons votre prochain projet</h2>
+            <p class="contact-info-desc">
+              Vous préparez une évolution de vos outils, souhaitez explorer le potentiel des agents IA ou sécuriser votre infrastructure ? Envoyez-nous un message pour convenir d'un premier échange exploratoire.
+            </p>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-item-icon">📧</div>
+                <div class="contact-item-details">
+                  <h5>Email direct</h5>
+                  <p><a href="mailto:leodanhieria@gmail.com?subject=Demande%20de%20renseignement%20CDC">leodanhieria@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">📍</div>
+                <div class="contact-item-details">
+                  <h5>Localisation</h5>
+                  <p>Rue Gironfontaine 3, 5140 Sombreffe — Belgique</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">⏱️</div>
+                <div class="contact-item-details">
+                  <h5>Délai de réponse</h5>
+                  <p>Réponse garantie sous 48 heures ouvrées</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">📜</div>
+                <div class="contact-item-details">
+                  <h5>Facturation &amp; Statut</h5>
+                  <p>Facturation électronique Peppol BIS 3.0 conforme · Disponible Q4 2026</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-action-panel">
+            <h4>Prendre contact directement</h4>
+            <p>
+              Cliquez ci-dessous pour ouvrir votre client mail avec un modèle pré-rempli pour votre projet.
+            </p>
+            <a href="mailto:leodanhieria@gmail.com?subject=Contact%20projet%20CDC%20Consulting&amp;body=Bonjour%20Christophe,%0D%0A%0D%0AJe%20souhaite%20%C3%A9changer%20avec%20vous%20concernant%20un%20projet%20:%0D%0A-%20Type%20de%20besoin%20(Conseil%20/%20Agents%20IA%20/%20H%C3%A9bergement%20/%20API)%20:%0D%0A-%20D%C3%A9lais%20envisag%C3%A9s%20:%0D%0A-%20Br%C3%A8ve%20description%20:%0D%0A%0D%0ABien%20%C3%A0%20vous," class="btn btn-primary" style="width: 100%; padding: 14px 20px;">
+              ✉️ Envoyer un message
+            </a>
+            <button class="copy-email-btn" id="copy-email-btn" type="button">
+              📋 Copier l'adresse email (leodanhieria@gmail.com)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-badge" style="width: 32px; height: 32px; font-size: 13px;">CDC</span>
+          <span>Christophe Danhier Consulting</span>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approche">Approche</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Accueil Tofdan</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <p>© 2026 Christophe Danhier Consulting. Tous droits réservés.</p>
+          <p style="font-size: 12px; margin-top: 4px;">Activité complémentaire — Siège : Rue Gironfontaine 3, 5140 Sombreffe, Belgique — Création de société prévue Q4 2026.</p>
+        </div>
+        <div class="footer-legal-tag">
+          Facturation Peppol BIS 3.0 conforme
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Retour en haut de la page">↑</button>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">Adresse email copiée dans le presse-papier !</div>
+
+  <!-- ============================================================
+       MINIMAL INLINE JAVASCRIPT (No external lib)
+  ============================================================ -->
+  <script>
+    // Header shadow on scroll
+    const header = document.getElementById('header');
+    const backToTop = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+
+      if (window.scrollY > 400) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Mobile navigation toggle
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const navLinks = document.getElementById('nav-links');
+
+    if (menuBtn && navLinks) {
+      menuBtn.addEventListener('click', () => {
+        const isOpen = navLinks.classList.toggle('open');
+        menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      // Close menu on link click
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('open');
+          menuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // Copy email to clipboard with toast notification
+    const copyBtn = document.getElementById('copy-email-btn');
+    const toast = document.getElementById('toast');
+
+    if (copyBtn && toast) {
+      copyBtn.addEventListener('click', () => {
+        const email = 'leodanhieria@gmail.com';
+        navigator.clipboard.writeText(email).then(() => {
+          toast.classList.add('show');
+          setTimeout(() => {
+            toast.classList.remove('show');
+          }, 3000);
+        }).catch(() => {
+          prompt('Copiez l'adresse email :', email);
+        });
+      });
+    }
+  </script>
+</body>
+</html>
