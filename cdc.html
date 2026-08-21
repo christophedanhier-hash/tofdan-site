@@ -124,7 +124,11 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 72px;
+      min-height: 72px;
+      height: auto;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      gap: 20px;
     }
 
     .brand {
@@ -153,6 +157,7 @@
     .brand-text {
       display: flex;
       flex-direction: column;
+      min-width: 0;
     }
 
     .brand-name {
@@ -160,12 +165,15 @@
       font-weight: 700;
       color: var(--text-main);
       line-height: 1.2;
+      white-space: nowrap;
     }
 
     .brand-tagline {
       font-size: 12px;
       color: var(--text-soft);
       font-weight: 500;
+      line-height: 1.25;
+      white-space: nowrap;
     }
 
     .nav-links {
@@ -173,6 +181,7 @@
       align-items: center;
       gap: 28px;
       list-style: none;
+      flex-shrink: 1;
     }
 
     .nav-link {
@@ -181,6 +190,7 @@
       color: var(--text-muted);
       padding: 6px 0;
       position: relative;
+      white-space: nowrap;
     }
 
     .nav-link:hover {
@@ -1266,6 +1276,25 @@
     /* -------------------------------------------------------------
        RESPONSIVE DESIGN (Mobile First Adjustments)
     ------------------------------------------------------------- */
+    @media (max-width: 1100px) and (min-width: 769px) {
+      .nav-container {
+        gap: 12px;
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+
+      .brand-tagline {
+        font-size: 10px;
+      }
+
+      .header-cta-desktop .btn {
+        padding: 9px 13px;
+        font-size: 13px;
+      }
+    }
+
     @media (max-width: 900px) {
       .hero-title {
         font-size: 34px;
