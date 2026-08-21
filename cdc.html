@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Christophe Danhier Consulting (CDC) — Conseil IT &amp; IA, solutions agentiques, développement d'applications et de sites, formations, hébergement et API LLM managées pour les PME en Belgique.">
-  <title>Christophe Danhier Consulting — Conseil IT &amp; IA</title>
+  <meta name="description" content="Christophe Danhier Consulting (CDC) — 4 packs structurants (Diagnostic IT &amp; IA, Automatisation &amp; Agents IA, Applications &amp; Sites, Formations) pour les PME en Belgique. Facturation au forfait, jalons et livrables définis.">
+  <title>Christophe Danhier Consulting — Conseil IT &amp; IA · Packs &amp; Solutions</title>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tofdan.be/cdc.html">
-  <meta property="og:title" content="Christophe Danhier Consulting — Conseil IT &amp; IA">
-  <meta property="og:description" content="Accompagnement pragmatique des PME dans leur transformation digitale : stratégie IT/IA, agents autonomes, développement d'applications et de sites, formations, hébergement et API managées.">
+  <meta property="og:title" content="Christophe Danhier Consulting — Conseil IT &amp; IA · Packs &amp; Solutions">
+  <meta property="og:description" content="Accompagnement pragmatique des PME dans leur transformation digitale : packs au forfait (Diagnostic, Agents IA, Applications, Formations), hébergement et API managées.">
   
   <!-- Favicon SVG corporate -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Ctext x='16' y='21' font-family='system-ui, -apple-system, sans-serif' font-size='14' font-weight='800' fill='%23ffffff' text-anchor='middle'%3ECDC%3C/text%3E%3C/svg%3E">
@@ -30,7 +30,7 @@
       "addressLocality": "Sombreffe",
       "addressCountry": "BE"
     },
-    "description": "Conseil IT & IA, solutions agentiques, développement d'applications et de sites, formations, hébergement et gestion d'API LLM pour les entreprises.",
+    "description": "Conseil IT & IA, packs structurés (Diagnostic IT & IA, Automatisation & Agents IA, Applications & Sites, Formations), hébergement sécurisé et API LLM managées pour les entreprises.",
     "priceRange": "€€",
     "areaServed": "BE",
     "openingHours": "Mo-Fr 09:00-18:00"
@@ -521,6 +521,181 @@
       background: var(--bg-accent-soft);
       color: var(--primary);
       border-color: var(--primary-border);
+    }
+
+    /* -------------------------------------------------------------
+       PACKS COMMERCIAUX SECTION
+    ------------------------------------------------------------- */
+    .packs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    .pack-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 28px 22px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      transition: all 0.25s ease;
+    }
+
+    .pack-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-border);
+    }
+
+    .pack-card.pack-highlight {
+      border: 2px solid var(--primary);
+    }
+
+    .pack-badge-top {
+      position: absolute;
+      top: -12px;
+      right: 18px;
+      background: var(--primary);
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .pack-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .pack-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-accent-soft);
+      border: 1px solid var(--primary-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .pack-title {
+      font-size: 17.5px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.25;
+    }
+
+    .pack-desc {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .pack-phases-box {
+      background: var(--bg-subtle);
+      border-radius: var(--radius-sm);
+      padding: 12px 14px;
+      margin-bottom: 14px;
+      border: 1px solid var(--border);
+    }
+
+    .pack-phases-title {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-soft);
+      margin-bottom: 8px;
+    }
+
+    .pack-phases-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .pack-phases-list li {
+      font-size: 12px;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pack-phases-list li::before {
+      content: "➔";
+      color: var(--primary);
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    .pack-jalons-box {
+      margin-bottom: 16px;
+    }
+
+    .pack-jalons-title {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-soft);
+      margin-bottom: 8px;
+    }
+
+    .pack-jalons-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .pack-jalons-list li {
+      font-size: 12px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      line-height: 1.4;
+    }
+
+    .pack-jalons-list li span.flag {
+      color: var(--accent-emerald);
+      flex-shrink: 0;
+      font-size: 12px;
+    }
+
+    .pack-footer {
+      margin-top: auto;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .pack-billing-badge {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-emerald);
+      background: var(--accent-emerald-soft);
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      display: inline-block;
+      align-self: flex-start;
     }
 
     /* -------------------------------------------------------------
@@ -1162,8 +1337,9 @@
 
       <nav>
         <ul class="nav-links" id="nav-links">
-          <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#approche" class="nav-link">Approche</a></li>
+          <li><a href="#packs" class="nav-link">Packs</a></li>
+          <li><a href="#services" class="nav-link">Expertises</a></li>
+          <li><a href="#approche" class="nav-link">Méthodologie</a></li>
           <li><a href="#contractualisation" class="nav-link">Contractualisation</a></li>
           <li><a href="#a-propos" class="nav-link">À propos</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -1206,11 +1382,11 @@
       </p>
 
       <div class="hero-actions">
-        <a href="mailto:leodanhieria@gmail.com?subject=Contact%20projet%20CDC%20Consulting" class="btn btn-primary">
-          <span>✉️ Prendre contact</span>
+        <a href="mailto:leodanhieria@gmail.com?subject=Demande%20de%20Diagnostic%20IT%20%26%20IA%20-%20Christophe%20Danhier%20Consulting&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20un%20premier%20contact%20pour%20un%20Diagnostic%20IT%20%26%20IA.%0A%0AEntreprise%20%3A%0ABesoin%20%3A%0AT%C3%A9l%C3%A9phone%20%3A%0A%0ACordialement%2C" class="btn btn-primary">
+          <span>✉️ Demander un Diagnostic IT &amp; IA</span>
         </a>
-        <a href="#services" class="btn btn-secondary">
-          <span>Explorer les expertises</span>
+        <a href="#packs" class="btn btn-secondary">
+          <span>Découvrir les 4 Packs</span>
         </a>
       </div>
 
@@ -1241,13 +1417,200 @@
   </section>
 
   <!-- ============================================================
-       3. SERVICES SECTION (5 CARTES)
+       3. PACKS COMMERCIAUX SECTION (4 PACKS STRUCTURES)
+  ============================================================ -->
+  <section class="section" id="packs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Offres Structurantes</span>
+        <h2 class="section-title">Nos 4 Packs Commerciaux</h2>
+        <p class="section-desc">
+          Des forfaits packagés pour apporter une lisibilité totale dès le premier jour : chaque mission comprend un cadrage clair, des phases chronologiques, des jalons stratégiques et des livrables concrets validés conjointement.
+        </p>
+      </div>
+
+      <div class="packs-grid">
+        <!-- Pack 1 : Diagnostic IT & IA -->
+        <div class="pack-card pack-highlight">
+          <span class="pack-badge-top">Recommandé</span>
+          <div class="pack-header">
+            <div class="pack-icon">🔍</div>
+            <div>
+              <h3 class="pack-title">Diagnostic IT &amp; IA</h3>
+            </div>
+          </div>
+          <p class="pack-desc">
+            Audit complet du système d'information, analyse d'éligibilité IA, identification des leviers de ROI et feuille de route opérationnelle.
+          </p>
+          <div class="pack-phases-box">
+            <div class="pack-phases-title">4 Phases de la mission :</div>
+            <ul class="pack-phases-list">
+              <li>Cadrage &amp; objectifs</li>
+              <li>Collecte &amp; analyse des flux</li>
+              <li>Recommandations &amp; architecture</li>
+              <li>Restitution exécutive</li>
+            </ul>
+          </div>
+          <div class="pack-jalons-box">
+            <div class="pack-jalons-title">Jalons &amp; Livrables clés :</div>
+            <ul class="pack-jalons-list">
+              <li><span class="flag">🚩</span> <span><strong>Cadrage validé :</strong> Note &amp; calendrier</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Analyse terminée :</strong> Matrice de valeur</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Restitution livrée :</strong> Rapport complet &amp; feuille de route</span></li>
+            </ul>
+          </div>
+          <div class="pack-footer">
+            <span class="pack-billing-badge">Mode préconisé : Forfait</span>
+            <a href="mailto:leodanhieria@gmail.com?subject=Pack%20Diagnostic%20IT%20%26%20IA%20-%20CDC&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20un%20devis%20pour%20le%20Pack%20Diagnostic%20IT%20%26%20IA.%0A%0AEntreprise%20%3A%0ABesoin%20%3A%0A%0ACordialement%2C" class="btn btn-primary btn-sm" style="text-align: center;">
+              Demander un diagnostic →
+            </a>
+          </div>
+        </div>
+
+        <!-- Pack 2 : Automatisation & Agent IA -->
+        <div class="pack-card">
+          <div class="pack-header">
+            <div class="pack-icon">🤖</div>
+            <div>
+              <h3 class="pack-title">Automatisation &amp; Agent IA</h3>
+            </div>
+          </div>
+          <p class="pack-desc">
+            Conception, développement et mise en production d'agents autonomes sur mesure et flux automatisés (plateforme Hermes).
+          </p>
+          <div class="pack-phases-box">
+            <div class="pack-phases-title">7 Phases de la mission :</div>
+            <ul class="pack-phases-list">
+              <li>Besoin &amp; KPIs de précision</li>
+              <li>Cartographie du workflow</li>
+              <li>Conception &amp; prompts</li>
+              <li>Implémentation &amp; connecteurs</li>
+              <li>Tests &amp; robustesse</li>
+              <li>Mise en production sécurisée</li>
+              <li>Suivi &amp; optimisations</li>
+            </ul>
+          </div>
+          <div class="pack-jalons-box">
+            <div class="pack-jalons-title">Jalons &amp; Livrables clés :</div>
+            <ul class="pack-jalons-list">
+              <li><span class="flag">🚩</span> <span><strong>Processus validé :</strong> Workflow modélisé</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Prototype validé :</strong> Démo fonctionnelle</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Agent accepté :</strong> PV de recette</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Production :</strong> Agent actif monitoré</span></li>
+            </ul>
+          </div>
+          <div class="pack-footer">
+            <span class="pack-billing-badge">Mode préconisé : Forfait</span>
+            <a href="mailto:leodanhieria@gmail.com?subject=Pack%20Automatisation%20%26%20Agent%20IA%20-%20CDC&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20un%20devis%20pour%20le%20Pack%20Automatisation%20%26%20Agent%20IA.%0A%0AEntreprise%20%3A%0AProcessus%20%C3%A0%20automatiser%20%3A%0A%0ACordialement%2C" class="btn btn-secondary btn-sm" style="text-align: center;">
+              Concevoir un agent →
+            </a>
+          </div>
+        </div>
+
+        <!-- Pack 3 : Application ou site métier -->
+        <div class="pack-card">
+          <div class="pack-header">
+            <div class="pack-icon">💻</div>
+            <div>
+              <h3 class="pack-title">Application ou site métier</h3>
+            </div>
+          </div>
+          <p class="pack-desc">
+            Conception et développement d'applications web sur mesure, portails d'entreprise ou sites vitrines professionnels haute performance.
+          </p>
+          <div class="pack-phases-box">
+            <div class="pack-phases-title">6 Phases de la mission :</div>
+            <ul class="pack-phases-list">
+              <li>Cadrage &amp; cahier des charges</li>
+              <li>Conception UX/UI &amp; base SQL</li>
+              <li>Développement backend &amp; SPA</li>
+              <li>Recette conjointe utilisateur</li>
+              <li>Livraison serveur, DNS &amp; SSL</li>
+              <li>Suivi &amp; accompagnement</li>
+            </ul>
+          </div>
+          <div class="pack-jalons-box">
+            <div class="pack-jalons-title">Jalons &amp; Livrables clés :</div>
+            <ul class="pack-jalons-list">
+              <li><span class="flag">🚩</span> <span><strong>Cahier des charges :</strong> Spécifications</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Conception :</strong> Maquettes approuvées</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Bêta disponible :</strong> Version de test</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Recette &amp; Livraison :</strong> Mise en ligne</span></li>
+            </ul>
+          </div>
+          <div class="pack-footer">
+            <span class="pack-billing-badge">Mode préconisé : Forfait</span>
+            <a href="mailto:leodanhieria@gmail.com?subject=Pack%20Application%20ou%20site%20metier%20-%20CDC&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20un%20devis%20pour%20le%20Pack%20Application%20ou%20site%20m%C3%A9tier.%0A%0AEntreprise%20%3A%0ANature%20du%20projet%20%3A%0A%0ACordialement%2C" class="btn btn-secondary btn-sm" style="text-align: center;">
+              Lancer une application →
+            </a>
+          </div>
+        </div>
+
+        <!-- Pack 4 : Formation & transmission -->
+        <div class="pack-card">
+          <div class="pack-header">
+            <div class="pack-icon">🎓</div>
+            <div>
+              <h3 class="pack-title">Formation &amp; transmission</h3>
+            </div>
+          </div>
+          <p class="pack-desc">
+            Sessions de formation et ateliers pratiques sur mesure en IT, Intelligence Artificielle et Gestion de projet.
+          </p>
+          <div class="pack-phases-box">
+            <div class="pack-phases-title">5 Phases de la mission :</div>
+            <ul class="pack-phases-list">
+              <li>Objectifs &amp; niveau d'entrée</li>
+              <li>Préparation des supports &amp; cas</li>
+              <li>Sessions interactives animées</li>
+              <li>Exercices pratiques &amp; évaluation</li>
+              <li>Support &amp; kit pédagogique</li>
+            </ul>
+          </div>
+          <div class="pack-jalons-box">
+            <div class="pack-jalons-title">Jalons &amp; Livrables clés :</div>
+            <ul class="pack-jalons-list">
+              <li><span class="flag">🚩</span> <span><strong>Objectifs validés :</strong> Programme</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Support prêt :</strong> Fiches pratiques</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Sessions réalisées :</strong> Ateliers</span></li>
+              <li><span class="flag">🚩</span> <span><strong>Évaluation :</strong> Bilan &amp; attestations</span></li>
+            </ul>
+          </div>
+          <div class="pack-footer">
+            <span class="pack-billing-badge">Mode préconisé : Forfait</span>
+            <a href="mailto:leodanhieria@gmail.com?subject=Pack%20Formation%20%26%20Transmission%20-%20CDC&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20des%20informations%20sur%20le%20Pack%20Formation%20%26%20Transmission.%0A%0AEntreprise%20%3A%0ATh%C3%A9matique%20souhait%C3%A9e%20%3A%0APublic%20(individuel%2Fgroupe)%20%3A%0A%0ACordialement%2C" class="btn btn-secondary btn-sm" style="text-align: center;">
+              Planifier une formation →
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bandeau CTA Diagnostic Initial -->
+      <div class="cta-diagnostic-banner" style="background: linear-gradient(135deg, #1e3a8a, #0f172a); border-radius: var(--radius-lg); padding: 36px 32px; color: #ffffff; margin-top: 40px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; box-shadow: var(--shadow-lg);">
+        <div style="max-width: 680px;">
+          <span style="background: rgba(59, 130, 246, 0.3); color: #93c5fd; padding: 4px 12px; border-radius: var(--radius-full); font-size: 12px; font-weight: 700; display: inline-block; margin-bottom: 12px;">Démarrage Recommandé</span>
+          <h3 style="font-size: 22px; font-weight: 800; margin-bottom: 8px; color: #ffffff;">Vous avez un projet ou souhaitez évaluer votre potentiel IA ?</h3>
+          <p style="font-size: 14.5px; color: #cbd5e1; line-height: 1.6;">
+            Démarrez par un <strong>Diagnostic IT &amp; IA</strong> : un cadrage clair, des phases définies et des jalons avec livrables validés pour décider en toute sérénité.
+          </p>
+        </div>
+        <div>
+          <a href="mailto:leodanhieria@gmail.com?subject=Demande%20de%20Diagnostic%20IT%20%26%20IA%20-%20Christophe%20Danhier%20Consulting&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20un%20premier%20contact%20pour%20un%20Diagnostic%20IT%20%26%20IA%20pour%20notre%20structure.%0A%0AEntreprise%20%3A%0ABesoin%20principal%20%3A%0ACoordonn%C3%A9es%20%3A%0A%0ACordialement%2C" class="btn btn-primary" style="background: #ffffff; color: #1e3a8a; font-weight: 800; padding: 14px 24px; box-shadow: 0 4px 14px rgba(0,0,0,0.2);">
+            Demander un diagnostic initial →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. SERVICES SECTION (6 EXPERTISES)
   ============================================================ -->
   <section class="section section-alt" id="services">
     <div class="container">
       <div class="section-header">
-        <span class="section-kicker">Offre de services</span>
-        <h2 class="section-title">Nos Domaines d'Expertise</h2>
+        <span class="section-kicker">Expertises Complémentaires</span>
+        <h2 class="section-title">Nos Domaines d'Expertise IT &amp; IA</h2>
         <p class="section-desc">
           Une consultance pragmatique pour moderniser votre système d'information et intégrer l'intelligence artificielle au cœur de vos flux opérationnels.
         </p>
@@ -1351,48 +1714,48 @@
   </section>
 
   <!-- ============================================================
-       4. APPROCHE SECTION
+       5. APPROCHE SECTION
   ============================================================ -->
   <section class="section" id="approche">
     <div class="container">
       <div class="section-header">
-        <span class="section-kicker">Méthodologie</span>
-        <h2 class="section-title">Comment Nous Travaillons</h2>
+        <span class="section-kicker">Méthodologie &amp; Delivery</span>
+        <h2 class="section-title">Comment Nous Pilotons Chaque Mission</h2>
         <p class="section-desc">
-          Une approche structurée en 4 étapes claires, orientée vers l'impact immédiat et la transparence totale à chaque phase du projet.
+          Une approche rigoureuse et transparente : chaque mission est découpée en phases chronologiques, jalonnée par des livrables contractuels précis et validée à chaque étape avec vous.
         </p>
       </div>
 
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-number">1</div>
-          <h3 class="step-title">Cadrage des besoins</h3>
+          <h3 class="step-title">Cadrage &amp; Périmètre</h3>
           <p class="step-desc">
-            Analyse approfondie de vos objectifs, identification des points de friction et définition des indicateurs de succès.
+            Alignement stratégique, recueil des irritants opérationnels, définition des critères de succès et calendrier d'intervention.
           </p>
         </div>
 
         <div class="step-card">
           <div class="step-number">2</div>
-          <h3 class="step-title">Plan &amp; Budget</h3>
+          <h3 class="step-title">Phases &amp; Jalons clés</h3>
           <p class="step-desc">
-            Élaboration d'une feuille de route réaliste, chiffrage transparent sans coût caché et choix des solutions techniques adaptées.
+            Découpage clair du projet en étapes séquentielles avec dates cibles, jalons stratégiques et livrables intermédiaires identifiés.
           </p>
         </div>
 
         <div class="step-card">
           <div class="step-number">3</div>
-          <h3 class="step-title">Exécution pilotée par IA</h3>
+          <h3 class="step-title">Exécution &amp; Livrables</h3>
           <p class="step-desc">
-            Développement agile et configuration accélérée grâce à notre assistant agentique (LEO / Hermes) pour un déploiement fluide.
+            Développement accéléré et implémentation rigoureuse assistée par l'IA (LEO / Hermes) garantissant qualité et respect des délais.
           </p>
         </div>
 
         <div class="step-card">
           <div class="step-number">4</div>
-          <h3 class="step-title">Suivi &amp; Évolution</h3>
+          <h3 class="step-title">Recette &amp; Transmission</h3>
           <p class="step-desc">
-            Mise en service, documentation complète, transfert de compétences et ajustements continus selon vos retours d'usage.
+            Validation conjointe des livrables (PV de recette), mise en production sécurisée, transfert de compétences et suivi post-lancement.
           </p>
         </div>
       </div>
