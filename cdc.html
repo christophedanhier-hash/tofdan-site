@@ -344,6 +344,27 @@
       margin-bottom: 40px;
     }
 
+    /* Bandeau CTA : le texte et le bouton restent distincts sur mobile. */
+    .cta-diagnostic-banner {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .cta-diagnostic-banner__content {
+      flex: 1 1 420px;
+      min-width: 0;
+      max-width: 680px;
+    }
+
+    .cta-diagnostic-banner__action {
+      flex: 0 0 auto;
+      min-width: 0;
+    }
+
+    .cta-diagnostic-banner__action .btn {
+      white-space: nowrap;
+    }
+
     .hero-metrics {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1317,6 +1338,34 @@
         padding: 22px 20px;
         gap: 16px;
       }
+
+      .cta-diagnostic-banner {
+        align-items: stretch !important;
+        padding: 28px 22px !important;
+        gap: 18px !important;
+      }
+
+      .cta-diagnostic-banner__content {
+        flex-basis: 100%;
+        max-width: none;
+      }
+
+      .cta-diagnostic-banner__content h3 {
+        font-size: 20px !important;
+        line-height: 1.3;
+      }
+
+      .cta-diagnostic-banner__action {
+        flex-basis: 100%;
+      }
+
+      .cta-diagnostic-banner__action .btn {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        white-space: normal;
+        text-align: center;
+      }
     }
   </style>
 </head>
@@ -1587,14 +1636,14 @@
 
       <!-- Bandeau CTA Diagnostic Initial -->
       <div class="cta-diagnostic-banner" style="background: linear-gradient(135deg, #1e3a8a, #0f172a); border-radius: var(--radius-lg); padding: 36px 32px; color: #ffffff; margin-top: 40px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; box-shadow: var(--shadow-lg);">
-        <div style="max-width: 680px;">
+        <div class="cta-diagnostic-banner__content">
           <span style="background: rgba(59, 130, 246, 0.3); color: #93c5fd; padding: 4px 12px; border-radius: var(--radius-full); font-size: 12px; font-weight: 700; display: inline-block; margin-bottom: 12px;">Démarrage Recommandé</span>
           <h3 style="font-size: 22px; font-weight: 800; margin-bottom: 8px; color: #ffffff;">Vous avez un projet ou souhaitez évaluer votre potentiel IA ?</h3>
           <p style="font-size: 14.5px; color: #cbd5e1; line-height: 1.6;">
             Démarrez par un <strong>Diagnostic IT &amp; IA</strong> : un cadrage clair, des phases définies et des jalons avec livrables validés pour décider en toute sérénité.
           </p>
         </div>
-        <div>
+        <div class="cta-diagnostic-banner__action">
           <a href="mailto:leodanhieria@gmail.com?subject=Demande%20de%20Diagnostic%20IT%20%26%20IA%20-%20Christophe%20Danhier%20Consulting&body=Bonjour%20Christophe%2C%0A%0AJe%20souhaite%20un%20premier%20contact%20pour%20un%20Diagnostic%20IT%20%26%20IA%20pour%20notre%20structure.%0A%0AEntreprise%20%3A%0ABesoin%20principal%20%3A%0ACoordonn%C3%A9es%20%3A%0A%0ACordialement%2C" class="btn btn-primary" style="background: #ffffff; color: #1e3a8a; font-weight: 800; padding: 14px 24px; box-shadow: 0 4px 14px rgba(0,0,0,0.2);">
             Demander un diagnostic initial →
           </a>
