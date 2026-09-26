@@ -65,82 +65,145 @@
       </div>
     </div>
 
+    <style>
+      .gallery__item img { width: 100%; height: 100%; object-fit: cover; }
+      .gallery__item figcaption { margin: 0; }
+      @media (max-width: 768px) {
+        .gallery__overlay { opacity: 1; }
+      }
+    </style>
+
     <section class="section" style="padding-top: 0;">
       <div class="container">
 
         <h2 class="section__title">🌙 La Lune</h2>
         <div class="section__divider"></div>
         <div class="gallery">
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌕<span>Lune gibbeuse</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Lune gibbeuse — 200 mm</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌓<span>Premier quartier</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Premier quartier — Mosaïque 4 panneaux</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌑<span>Détail cratères</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Cratère Copernic — Barlow 2x</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌖<span>Dernier quartier</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Dernier quartier — 127 mm</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌒<span>Croissant de Lune</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Croissant — Lumière cendrée visible</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌕<span>Pleine Lune</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Super Lune — Lunette 80ED</span></div>
-          </div>
+          <figure class="gallery__item">
+            <img src="images/album/lune-gibbeuse.jpg" alt="Lune gibbeuse croissante, mers et cratères visibles" loading="eager" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Lune gibbeuse — 25 février 2026</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/lune-jour.jpg" alt="Lune de jour sur ciel bleu, terminateur et reliefs" loading="eager" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Lune de jour — 28 décembre 2025</span></figcaption>
+          </figure>
         </div>
 
         <h2 class="section__title" style="margin-top: 48px;">☀️ Le Soleil</h2>
         <div class="section__divider"></div>
         <div class="gallery">
-          <div class="gallery__item">
-            <div class="gallery__placeholder">☀️<span>Soleil lumière blanche</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Taches solaires — Filtre Astrosolar</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🔴<span>Soleil H-alpha</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Chromosphère — Lunt LS50</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌅<span>Transit</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Transit ISS devant le Soleil</span></div>
-          </div>
+          <figure class="gallery__item">
+            <img src="images/album/soleil.jpg" alt="Disque solaire avec taches solaires visibles" loading="eager" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Soleil — taches solaires, 15 février 2026</span></figcaption>
+          </figure>
         </div>
 
-        <h2 class="section__title" style="margin-top: 48px;">🌌 Ciel Profond</h2>
+        <h2 class="section__title" style="margin-top: 48px;">🪐 Planètes</h2>
         <div class="section__divider"></div>
         <div class="gallery">
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌀<span>M31 Andromède</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Galaxie d'Andromède — 80ED</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">✨<span>M42 Orion</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Nébuleuse d'Orion — 200PDS</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">💫<span>M45 Pléiades</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Pléiades — Lunette 80ED</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌠<span>M13 Hercule</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Amas d'Hercule — 200PDS</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🔵<span>M57 Lyre</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Nébuleuse de la Lyre — Barlow 2x</span></div>
-          </div>
-          <div class="gallery__item">
-            <div class="gallery__placeholder">🌌<span>M51 Whirlpool</span></div>
-            <div class="gallery__overlay"><span class="gallery__label">Galaxie du Tourbillon — 200PDS</span></div>
-          </div>
+          <figure class="gallery__item">
+            <img src="images/album/jupiter-lunes.jpg" alt="Jupiter surexposée entourée de ses quatre lunes galiléennes alignées" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Jupiter et ses 4 lunes — 3 janvier 2026</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/jupiter.jpg" alt="Jupiter, disque brillant" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Jupiter — 21 poses de 10 s, 4 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/saturne.jpg" alt="Saturne et ses anneaux" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Saturne — 6 poses de 10 s, 30 novembre 2025</span></figcaption>
+          </figure>
+        </div>
+
+        <h2 class="section__title" style="margin-top: 48px;">✨ Ciel profond — Nébuleuses</h2>
+        <div class="section__divider"></div>
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="images/album/m42-orion.jpg" alt="Nébuleuse d'Orion M42" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 42 — Nébuleuse d'Orion · 35 poses de 30 s (LP), 25 février 2026</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m1-crabe.jpg" alt="Nébuleuse du Crabe M1" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 1 — Nébuleuse du Crabe · 201 poses de 10 s (LP), 24 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/ic434-tete-cheval.jpg" alt="Nébuleuse de la Tête de Cheval, IC 434" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">IC 434 — Tête de Cheval · 4 poses de 10 s (LP), 24 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/ic1805-coeur.jpg" alt="Nébuleuse du Cœur IC 1805" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">IC 1805 — Nébuleuse du Cœur · 241 poses de 30 s (LP), 4 janvier 2026</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/ngc281-pacman.jpg" alt="Nébuleuse Pacman NGC 281" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">NGC 281 — Pacman · 26 poses de 10 s (LP), 30 novembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m78.jpg" alt="Nébuleuse par réflexion M78" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 78 — nébuleuse par réflexion · 7 poses de 10 s, 19 décembre 2025</span></figcaption>
+          </figure>
+        </div>
+
+        <h2 class="section__title" style="margin-top: 48px;">🌀 Ciel profond — Galaxies</h2>
+        <div class="section__divider"></div>
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="images/album/m31-andromede.jpg" alt="Galaxie d'Andromède M31, noyau et disque étendu" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 31 — Galaxie d'Andromède · 27 poses de 10 s, 30 novembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m51-tourbillon.jpg" alt="Galaxie du Tourbillon M51 et sa compagne NGC 5195" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 51 — Galaxie du Tourbillon · 33 poses de 10 s, 4 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m81-bode.jpg" alt="Galaxie de Bode M81" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 81 — Galaxie de Bode · 89 poses de 10 s, 24 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/ngc891.jpg" alt="Galaxie NGC 891 vue par la tranche" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">NGC 891 — galaxie vue par la tranche · 133 poses de 10 s, 22 décembre 2025</span></figcaption>
+          </figure>
+        </div>
+
+        <h2 class="section__title" style="margin-top: 48px;">⭐ Ciel profond — Amas &amp; étoiles</h2>
+        <div class="section__divider"></div>
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="images/album/m45-pleiades.jpg" alt="Amas des Pléiades M45" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 45 — les Pléiades · 27 poses de 10 s, 30 novembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m44-gerard.jpg" alt="Amas ouvert M44, la Crèche" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 44 — la Crèche · 30 poses de 10 s, 4 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m35.jpg" alt="Amas ouvert M35" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 35 — amas ouvert · 47 poses de 10 s, 4 janvier 2026</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/ngc1893.jpg" alt="Amas ouvert et nébuleuse NGC 1893" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">NGC 1893 — amas et nébuleuse · 262 poses de 10 s (LP), 24 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/m33-triangle.jpg" alt="Galaxie du Triangle M33" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">M 33 — Galaxie du Triangle · 13 poses de 10 s, 19 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/aldebaran.jpg" alt="Étoile Aldébaran" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Aldébaran — étoile de la constellation du Taureau · 26 poses de 10 s, 19 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/capella.jpg" alt="Étoile Capella" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">Capella — étoile de la constellation du Cocher · 9 poses de 10 s, 5 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/c39-ngc1893.jpg" alt="Amas NGC 1893, également catalogué Caldwell 39" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">C 39 (NGC 1893) — même objet, autre séance · 9 poses de 10 s, 22 décembre 2025</span></figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/album/c23-ngc891.jpg" alt="Galaxie NGC 891, également cataloguée Caldwell 23" loading="lazy" width="800" height="800">
+            <figcaption class="gallery__overlay"><span class="gallery__label">C 23 (NGC 891) — même objet, autre séance · 1 pose de 10 s, 30 novembre 2025</span></figcaption>
+          </figure>
         </div>
 
       </div>
