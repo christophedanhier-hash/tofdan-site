@@ -69,67 +69,13 @@
       border-bottom: 1px solid #2a2a4a;
       padding-bottom: 8px;
     }
-
-    /* ── Menu utilisateur (calqué sur ma-bibliotheque) ────────────── */
-    .user-menu {
-      position: relative;
-      margin-left: 12px;
-    }
-    .user-menu__btn {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      background: none;
-      border: 1px solid #2a2a4a;
-      border-radius: 20px;
-      padding: 6px 12px;
-      color: inherit;
-      font-size: 13px;
-      cursor: pointer;
-    }
-    .user-menu__btn:hover {
-      border-color: #58a6ff;
-    }
-    .user-menu__dropdown {
-      display: none;
-      position: absolute;
-      right: 0;
-      top: calc(100% + 6px);
-      background: var(--bg-card, #1a1a2e);
-      border: 1px solid #2a2a4a;
-      border-radius: 8px;
-      min-width: 200px;
-      box-shadow: 0 8px 24px rgba(0,0,0,.4);
-      z-index: 50;
-      overflow: hidden;
-    }
-    .user-menu.open .user-menu__dropdown {
-      display: block;
-    }
-    .user-menu__email {
-      padding: 10px 14px;
-      font-size: 12px;
-      color: #8b949e;
-      border-bottom: 1px solid #2a2a4a;
-      word-break: break-all;
-    }
-    .user-menu__logout {
-      display: block;
-      padding: 10px 14px;
-      color: #f85149;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    .user-menu__logout:hover {
-      background: rgba(248,81,73,.1);
-    }
   </style>
 </head>
 <body>
 
   <header class="header">
     <div class="header__inner">
-      <a href="/hermes/" class="header__logo">
+      <a href="/" class="header__logo">
         <span class="header__logo-icon">🤖</span>
         LEO — Votre Majordome Digital
         <span style="font-size:11px;color:#8b949e;display:block;margin-top:2px">Assistant IA autonome · Planification · Monitoring · Bureaux Virtuels</span>
@@ -148,16 +94,6 @@
           <li><a href="voyages/" class="nav__link">🧭 Voyages</a></li>
         </ul>
       </nav>
-      <div class="user-menu" id="user-menu" hidden>
-        <button class="user-menu__btn" id="user-menu-btn" type="button" aria-haspopup="true" aria-expanded="false">
-          <span aria-hidden="true">👤</span>
-          <span id="user-menu-email"></span>
-        </button>
-        <div class="user-menu__dropdown">
-          <div class="user-menu__email" id="user-menu-email-full"></div>
-          <a href="#" class="user-menu__logout" id="user-menu-logout">🚪 Déconnexion</a>
-        </div>
-      </div>
     </div>
   </header>
 
@@ -263,47 +199,6 @@
 
   <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
   <script src="/js/main.js?v=1785752541"></script>
-  <script>
-    // ── Menu utilisateur (identité + déconnexion), calqué sur ma-bibliotheque.
-    // /bibliotheque/auth/me répond TOUJOURS en JSON (même sans session),
-    // contrairement à /bibliotheque/api/* qui exige l'authentification.
-    (function () {
-      var menu = document.getElementById('user-menu');
-      var btn = document.getElementById('user-menu-btn');
-      var emailShort = document.getElementById('user-menu-email');
-      var emailFull = document.getElementById('user-menu-email-full');
-      var logout = document.getElementById('user-menu-logout');
-
-      fetch('/bibliotheque/auth/me', { credentials: 'same-origin' })
-        .then(function (r) { return r.json(); })
-        .then(function (d) {
-          if (d && d.authentifie && d.email) {
-            emailShort.textContent = d.email.split('@')[0];
-            emailFull.textContent = d.email;
-            menu.hidden = false;
-          } else {
-            menu.hidden = true;
-          }
-        })
-        .catch(function () { menu.hidden = true; });
-
-      btn.addEventListener('click', function (e) {
-        e.stopPropagation();
-        var ouvert = menu.classList.toggle('open');
-        btn.setAttribute('aria-expanded', ouvert ? 'true' : 'false');
-      });
-      document.addEventListener('click', function () {
-        menu.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-      });
-
-      logout.addEventListener('click', function (e) {
-        e.preventDefault();
-        if (!confirm('Fermer la session sur ce navigateur ?')) return;
-        location.href = '/bibliotheque/auth/logout';
-      });
-    })();
-  </script>
 
 </body>
 </html>
