@@ -171,17 +171,23 @@ h1, h2, h3, h4, h5, h6 {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--color-border);
-  height: var(--header-height);
+  /* min-height au lieu d'une hauteur figée : le bloc marque a 2 lignes
+     (titre + sous-titre) et débordait d'un header à hauteur fixe, ce qui
+     rognait le haut du texte. */
+  min-height: var(--header-height);
 }
 
 .header__inner {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 20px;
-  height: 100%;
+  /* min-height reprend la valeur de .header : un `height: 100%` ne résout
+     plus rien dès lors que son parent est en min-height. */
+  min-height: var(--header-height);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .header__logo {
@@ -193,6 +199,39 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   gap: 10px;
+  /* Le libellé doit rester d'un seul tenant. Sur un <header> en flex, un texte
+     long se comprime mot à mot jusqu'à tenir — « LEO — Votre Majordome
+     Digital » se retrouvait ainsi étalé sur 3 lignes avec débordement vertical.
+     nowrap + min-width:0 sur le parent laissent la place au titre et rognent
+     l'espace du sous-titre, qui est du texte secondaire. */
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+/* Bloc titre + sous-titre empilés verticalement (l'icône reste centrée à côté).
+   Le sous-titre porte sa propre ligne : la hauteur du <header> s'y adapte, au
+   lieu de rogner le texte comme le faisait l'ancien <span style="display:block">. */
+.header__logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  line-height: 1.15;
+}
+
+.header__logo-title {
+  white-space: nowrap;
+}
+
+.header__logo-sub {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #8b949e;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .header__logo-icon {
@@ -338,6 +377,13 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
   position: relative;
   z-index: 1;
+  /* Même châssis que .header__inner : sans ces 3 lignes, les sections posées
+     directement dans <main> (portail /hermes/, entre autres) s'accrochent au
+     bord de l'écran et laissent un vide à droite sur grand écran. */
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .container {
