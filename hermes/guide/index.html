@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guide d'utilisation de la plateforme Hermes LEO">
+  <title>Guide — Hermes</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a1a'/%3E%3Cpath d='M20 8a10 10 0 1 1-12 12 7 7 0 0 0 12-12z' fill='%237c3aed'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/css/style.css?v=1785757465">
+  <style>
+    .guide-wrap { max-width: 860px; margin: 0 auto; padding: 8px 16px 64px; }
+
+    .guide-entete { padding: 32px 0 24px; border-bottom: 1px solid var(--border, #2a2a4a); margin-bottom: 32px; }
+    .guide-entete h1 { font-size: 28px; font-weight: 700; margin: 0 0 10px; }
+    .guide-entete p { font-size: 15px; color: #8b949e; margin: 0; line-height: 1.6; }
+
+    .guide-compte {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 16px; padding: 8px 14px;
+      background: rgba(88, 166, 255, .10); border: 1px solid rgba(88, 166, 255, .25);
+      border-radius: 999px; font-size: 13px; color: #58a6ff;
+    }
+    .guide-compte__point { width: 7px; height: 7px; border-radius: 50%; background: #3fb950; flex: none; }
+
+    .guide-sommaire {
+      background: var(--bg-card, #1a1a2e); border: 1px solid var(--border, #2a2a4a);
+      border-radius: 10px; padding: 20px 24px; margin-bottom: 36px;
+    }
+    .guide-sommaire h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: #8b949e; margin: 0 0 12px; font-weight: 600; }
+    .guide-sommaire ol { margin: 0; padding-left: 20px; }
+    .guide-sommaire li { margin: 6px 0; }
+    .guide-sommaire a { color: #58a6ff; text-decoration: none; font-size: 14px; }
+    .guide-sommaire a:hover { text-decoration: underline; }
+
+    .guide-section { margin-bottom: 40px; scroll-margin-top: 90px; }
+    .guide-section h2 {
+      font-size: 19px; font-weight: 600; margin: 0 0 6px; color: #58a6ff;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .guide-section__sous { font-size: 13px; color: #6e7681; margin: 0 0 18px; }
+    .guide-section p { font-size: 14.5px; line-height: 1.7; color: #c9d1d9; margin: 12px 0; }
+    .guide-section ul { font-size: 14.5px; line-height: 1.8; color: #c9d1d9; padding-left: 22px; }
+    .guide-section a { color: #58a6ff; }
+
+    .guide-etapes { counter-reset: etape; list-style: none; padding: 0; margin: 16px 0; }
+    .guide-etapes li {
+      counter-increment: etape; position: relative;
+      padding: 12px 16px 12px 52px; margin: 8px 0;
+      background: var(--bg-card, #1a1a2e); border: 1px solid var(--border, #2a2a4a);
+      border-radius: 8px; font-size: 14px; line-height: 1.6; color: #c9d1d9;
+    }
+    .guide-etapes li::before {
+      content: counter(etape);
+      position: absolute; left: 14px; top: 12px;
+      width: 24px; height: 24px; border-radius: 50%;
+      background: rgba(88, 166, 255, .15); color: #58a6ff;
+      font-size: 12px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .guide-note {
+      display: flex; gap: 12px;
+      padding: 14px 16px; margin: 16px 0;
+      border-left: 3px solid #58a6ff;
+      background: rgba(88, 166, 255, .07);
+      border-radius: 0 8px 8px 0;
+      font-size: 13.5px; line-height: 1.65; color: #c9d1d9;
+    }
+    .guide-note__icon { flex: none; font-size: 16px; line-height: 1.4; }
+    .guide-note--attention { border-left-color: #d29922; background: rgba(210, 153, 34, .08); }
+
+    .guide-services { display: grid; gap: 12px; margin: 18px 0; }
+    .guide-service {
+      display: flex; gap: 14px; align-items: flex-start;
+      padding: 16px; border-radius: 10px;
+      background: var(--bg-card, #1a1a2e); border: 1px solid var(--border, #2a2a4a);
+      text-decoration: none; color: inherit;
+      transition: transform .18s, border-color .18s;
+    }
+    .guide-service:hover { transform: translateY(-2px); border-color: #58a6ff; }
+    .guide-service__icon { font-size: 22px; flex: none; }
+    .guide-service__titre { font-weight: 600; font-size: 15px; margin-bottom: 3px; }
+    .guide-service__desc { font-size: 13px; color: #8b949e; line-height: 1.55; }
+
+    .guide-retour {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 8px; padding: 10px 18px;
+      background: rgba(88, 166, 255, .12); border: 1px solid rgba(88, 166, 255, .3);
+      border-radius: 8px; color: #58a6ff; text-decoration: none;
+      font-size: 14px; font-weight: 500;
+    }
+    .guide-retour:hover { background: rgba(88, 166, 255, .2); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="/" class="header__logo">
+        <span class="header__logo-icon">🤖</span>
+        LEO — Votre Majordome Digital
+        <span style="font-size:11px;color:#8b949e;display:block;margin-top:2px">Assistant IA autonome · Planification · Monitoring · Bureaux Virtuels</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="/hermes/" class="nav__link">🏠 Accueil</a></li>
+          <li><a href="/hermes/bavi/" class="nav__link">🏛️ BAVI</a></li>
+          <li><a href="/hermes/docs/" class="nav__link">📚 Docs</a></li>
+          <li><a href="/hermes/dashboard/" class="nav__link">📊 Dashboard</a></li>
+          <li><a href="/hermes/voyages/" class="nav__link">🧭 Voyages</a></li>
+          <li><a href="/hermes/guide/" class="nav__link nav__link--active">📖 Guide</a></li>
+          <li class="nav__separateur" role="separator"></li>
+          <li><a href="/hermes/auth/logout" class="nav__link nav__link--danger">🚪 Déconnexion</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="guide-wrap">
+
+      <div class="guide-entete">
+        <h1>📖 Guide d'utilisation</h1>
+        <p>Tout ce que contient la plateforme Hermes et comment s'y retrouver.</p>
+        <div class="guide-compte" id="guide-compte" hidden>
+          <span class="guide-compte__point"></span>
+          <span>Connecté : <strong id="guide-email">…</strong></span>
+        </div>
+      </div>
+
+      <nav class="guide-sommaire" aria-label="Sommaire">
+        <h2>Sommaire</h2>
+        <ol>
+          <li><a href="#acces">Comment se connecter</a></li>
+          <li><a href="#services">Les services disponibles</a></li>
+          <li><a href="#menu">Le menu et la déconnexion</a></li>
+          <li><a href="#perimetres">Où la connexion est demandée</a></li>
+          <li><a href="#aide">Besoin d'aide</a></li>
+        </ol>
+      </nav>
+
+      <section class="guide-section" id="acces">
+        <h2>🔑 Comment se connecter</h2>
+        <p class="guide-section__sous">Une seule connexion, valable 7 jours</p>
+        <p>
+          L'accès à la plateforme se fait par votre <strong>compte Google</strong>. Seules les
+          adresses autorisées peuvent entrer : la connexion est vérifiée à chaque visite.
+        </p>
+        <ol class="guide-etapes">
+          <li>Ouvrez <a href="https://www.tofdan.be/hermes/">www.tofdan.be/hermes/</a> depuis un navigateur.</li>
+          <li>Vous êtes redirigé vers la page de connexion Google.</li>
+          <li>Choisissez votre compte autorisé (ou saisissez-le).</li>
+          <li>Vous arrivez sur le portail — la connexion reste active <strong>7 jours</strong>.</li>
+        </ol>
+        <div class="guide-note">
+          <span class="guide-note__icon">💡</span>
+          <span>Vous n'avez à vous connecter qu'une fois par semaine : ensuite, la plateforme vous reconnaît automatiquement.</span>
+        </div>
+      </section>
+
+      <section class="guide-section" id="services">
+        <h2>🧭 Les services disponibles</h2>
+        <p class="guide-section__sous">Sept outils, regroupés par usage</p>
+
+        <p><strong>Wikis publics</strong> — consultables sans connexion :</p>
+        <div class="guide-services">
+          <a class="guide-service" href="https://christophedanhier-hash.github.io/hermes-wiki/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">📖</span>
+            <span>
+              <span class="guide-service__titre">Wiki Hermes</span>
+              <span class="guide-service__desc">Documentation de l'infrastructure — procédures, sauvegardes, dépannage.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="https://christophedanhier-hash.github.io/emile-wiki/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">🎓</span>
+            <span>
+              <span class="guide-service__titre">Wiki Émile</span>
+              <span class="guide-service__desc">Espace pédagogique — mémoire de fin d'études et ressources.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="https://christophedanhier-hash.github.io/wiki-oca/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">🔭</span>
+            <span>
+              <span class="guide-service__titre">Wiki OCA — T600</span>
+              <span class="guide-service__desc">Observatoire Centre Ardennes — documentation du télescope.</span>
+            </span>
+          </a>
+        </div>
+
+        <p><strong>Espaces privés</strong> — réservés aux comptes autorisés :</p>
+        <div class="guide-services">
+          <a class="guide-service" href="/hermes/bavi/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">🏛️</span>
+            <span>
+              <span class="guide-service__titre">BAVI LEO</span>
+              <span class="guide-service__desc">Bureaux agentiques — analyses, benchmarks, stratégie, roadbooks.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="/hermes/voyages/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">🧭</span>
+            <span>
+              <span class="guide-service__titre">Wiki Voyages</span>
+              <span class="guide-service__desc">Roadbooks et carnets — Scandinavie, Italie et à venir.</span>
+            </span>
+          </a>
+        </div>
+
+        <p><strong>Outils</strong> — dashboards et applications interactives :</p>
+        <div class="guide-services">
+          <a class="guide-service" href="/hermes/dashboard/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">📊</span>
+            <span>
+              <span class="guide-service__titre">Dashboard LEO</span>
+              <span class="guide-service__desc">Monitoring en temps réel — crons, modèles utilisés, budget, benchmarks.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="/hermes/docs/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">📚</span>
+            <span>
+              <span class="guide-service__titre">Explorateur de documents</span>
+              <span class="guide-service__desc">Parcourir tous les documents markdown de la plateforme, avec liens croisés.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="/hermes/leo-chat/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">💬</span>
+            <span>
+              <span class="guide-service__titre">Leo Chat</span>
+              <span class="guide-service__desc">Conversation avec les modèles IA — DeepSeek, GPT, Gemini, Ollama.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="/hermes/leo-kast/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">🎙️</span>
+            <span>
+              <span class="guide-service__titre">Leo Kast — Assistant vocal</span>
+              <span class="guide-service__desc">Dialogue à la voix, transcription et traduction en direct.</span>
+            </span>
+          </a>
+          <a class="guide-service" href="/hermes/dsh-go/" target="_blank" rel="noopener">
+            <span class="guide-service__icon">🧠</span>
+            <span>
+              <span class="guide-service__titre">DeepSeek Harness</span>
+              <span class="guide-service__desc">Agent de développement modulaire, avec mode Creator.</span>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="guide-section" id="menu">
+        <h2>☰ Le menu et la déconnexion</h2>
+        <p class="guide-section__sous">Tout est accessible depuis l'icône ☰ en haut à droite</p>
+        <p>
+          Le menu regroupe tous les espaces de la plateforme. Selon la taille de votre écran :
+        </p>
+        <ul>
+          <li><strong>Sur ordinateur</strong> — le menu se déploie sous l'en-tête, en haut à droite.</li>
+          <li><strong>Sur téléphone ou tablette</strong> — le menu s'ouvre en plein écran.</li>
+        </ul>
+        <p>Il contient, de haut en bas : Accueil, BAVI, Docs, Dashboard, Voyages, <strong>Guide</strong>, puis la <strong>Déconnexion</strong>.</p>
+        <div class="guide-note guide-note--attention">
+          <span class="guide-note__icon">⚠️</span>
+          <span>
+            <strong>Déconnexion</strong> met fin à votre session et supprime le souvenir de votre
+            connexion. À utiliser sur un appareil partagé, ou pour changer de compte. Sinon,
+            vous restez connecté automatiquement pendant 7 jours.
+          </span>
+        </div>
+      </section>
+
+      <section class="guide-section" id="perimetres">
+        <h2>🌐 Où la connexion est demandée</h2>
+        <p class="guide-section__sous">La sécurité au bon endroit, sans friction inutile</p>
+        <p>
+          La connexion Google est exigée <strong>uniquement depuis Internet</strong>. Sur le réseau
+          domestique ou via Tailscale, l'accès est direct — ce sont déjà des réseaux de
+          confiance, et exiger une connexion supplémentaire n'apporterait aucune sécurité.
+        </p>
+        <ul>
+          <li><strong>Depuis Internet</strong> (4G, réseau public) → connexion Google obligatoire.</li>
+          <li><strong>Sur le réseau maison</strong> → accès libre.</li>
+          <li><strong>Via Tailscale</strong> → accès libre.</li>
+        </ul>
+        <div class="guide-note">
+          <span class="guide-note__icon">💡</span>
+          <span>Si vous voulez vérifier que la connexion fonctionne, testez depuis votre téléphone en 4G, wifi désactivé. Sur le réseau maison, aucune page de connexion n'apparaît — c'est normal.</span>
+        </div>
+      </section>
+
+      <section class="guide-section" id="aide">
+        <h2>🆘 Besoin d'aide</h2>
+        <p class="guide-section__sous">Les problèmes les plus fréquents</p>
+        <p>
+          <strong>La page tourne en boucle ou revient à la connexion.</strong> Videz les cookies
+          du site et réessayez : une session ancienne peut être restée en mémoire.
+        </p>
+        <p>
+          <strong>« Accès refusé » après avoir choisi mon compte.</strong> Votre adresse n'est pas
+          dans la liste des comptes autorisés — signalez-le à l'administrateur.
+        </p>
+        <p>
+          <strong>Rien ne change après la connexion.</strong> Videz le cache du navigateur
+          (Ctrl+Maj+Suppr) puis rechargez la page.
+        </p>
+        <p>
+          <strong>Une application affiche une page blanche.</strong> Vérifiez que vous n'avez pas
+          de bloqueur de publicité trop strict, puis rechargez.
+        </p>
+        <div class="guide-note">
+          <span class="guide-note__icon">📬</span>
+          <span>Pour toute autre question, contactez Christophe directement — il vous orientera.</span>
+        </div>
+      </section>
+
+      <a class="guide-retour" href="/hermes/">← Retour au portail</a>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__copyright">(C) Tofdan — 2026</p>
+      <div class="footer__links">
+        <a href="/mentions-legales.html" class="footer__link">Mentions légales</a>
+        <a href="/cgu.html" class="footer__link">Conditions d'utilisation</a>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/tofdan" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Retour en haut">↑</button>
+
+  <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
+  <script src="/js/main.js?v=1785752541"></script>
+  <script>
+    // Affiche l'adresse du compte connecte. La route est servie par la meme app
+    // que l auth : le cookie de session circule, /auth/me repond en JSON.
+    (function () {
+      fetch('/hermes/auth/me', { credentials: 'same-origin' })
+        .then(function (r) { return r.json(); })
+        .then(function (d) {
+          if (d && d.authentifie && d.email) {
+            document.getElementById('guide-email').textContent = d.email;
+            document.getElementById('guide-compte').hidden = false;
+          }
+        })
+        .catch(function () { /* silencieux : le guide reste lisible */ });
+    })();
+  </script>
+
+</body>
+</html>

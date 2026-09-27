@@ -219,6 +219,64 @@ h1, h2, h3, h4, h5, h6 {
   gap: 4px;
 }
 
+/* ── Menu déroulant (desktop ≥768px) ────────────────────────────────────────
+   Le burger est visible à toutes les tailles ; sur desktop le panneau se
+   déploie SOUS l'en-tête au lieu de couvrir l'écran (comportement mobile,
+   défini plus bas dans la media query). */
+@media (min-width: 768px) {
+  .nav__list {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    min-width: 240px;
+    padding: 8px;
+    background: var(--bg-card, #1a1a2e);
+    border: 1px solid var(--border, #2a2a4a);
+    border-radius: 10px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .45);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity .18s ease, transform .18s ease, visibility .18s;
+    z-index: 1000;
+  }
+
+  .nav--open .nav__list {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .nav {
+    position: relative;   /* ancre le panneau sous le burger */
+  }
+
+  .nav__link {
+    padding: 11px 14px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+
+  /* Séparateur avant la déconnexion */
+  .nav__separateur {
+    height: 1px;
+    margin: 4px 6px;
+    background: var(--border, #2a2a4a);
+  }
+
+  .nav__link--danger {
+    color: #f87171;
+  }
+
+  .nav__link--danger:hover {
+    color: #fca5a5;
+    background: rgba(248, 113, 113, 0.12);
+  }
+}
+
 .nav__link {
   display: block;
   padding: 8px 14px;
@@ -241,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__toggle {
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 5px;
   background: none;
