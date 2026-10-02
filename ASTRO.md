@@ -6,13 +6,14 @@
 > ressemblance de noms (`biblio.html` ≠ la bibliothèque `/bibliotheque/` ;
 > `chat.html` ≠ Leo Chat `/leo-chat/`). Classer par nom ne vaut pas mesurer.
 
-## ✅ Périmètre ASTRO — propriétaire : Gérard (13 fichiers)
+## ✅ Périmètre ASTRO — propriétaire : Gérard (14 fichiers)
 
 **Fichiers de travail (9)** — tu peux les modifier :
 astro.html, app-astro.html, album.html, materiel.html,
 meteo-astro.html, news.html, js/meteo.js, css/style.css, js/main.js
 
-**Pages astro publiques supplémentaires (4)** — mêmes règles, elles sont à toi :
+**Pages astro publiques supplémentaires (5)** — mêmes règles, elles sont à toi :
+index.html   (racine du site — page d'accueil astro, servie par nginx sur « / »)
 biblio.html  (page « Bibliographie » — recommandations de livres astro)
 chat.html    (page « Contact » — formulaire de contact)
 cgu.html, mentions-legales.html
@@ -43,7 +44,18 @@ Infrastructure : `docs/`, `README.md`, `robots.txt`, `sitemap.xml`
 > | `astro.html` (ton hub) | `/hermes.html` (portail Hermes protégé) |
 
 ## ⚠️ Fichiers PARTAGÉS — consultation libre, modification interdite sans accord
-index.html   (porte la double identité « deux univers, un seul site »)
+
+> **⚠️ CORRIGÉ le 02/10/2026 par Gérard, sur clarification explicite de Christophe.**
+> `index.html` était listé ici comme « partagé ». **C'EST FAUX.**
+> Christophe : « *Toi Gérard tu es en responsabilité du site tofdan.be sur le sujet
+> astro, et Hermes est dans les mains de Michel. Il y a un DNS tofdan.be avec
+> plusieurs propriétaires, et toi tu joues sur l'astronomie.* »
+> **`index.html` = racine servie par nginx = page ASTRO, propriété de Gérard.**
+> Hermes vit dans ses propres chemins (`/hermes/`, `/dashboard/`, `/docs/`,
+> `/bavi/`, `/leo-chat/`, `/voyages/`, `/emile/`) — **aucun recouvrement d'octets.**
+
+**Aucun fichier partagé restant.** Les 13 fichiers de la liste + `index.html`
+= 14 fichiers sous responsabilité astro.
 
 ## ⚠️ Contrainte connue
 Les pages astro contiennent une barre de navigation avec des liens vers
