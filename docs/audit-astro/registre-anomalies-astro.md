@@ -113,6 +113,84 @@
 
 ---
 
+## A-15 — ✅ RÉSOLU (02/10/2026) — `index.html` : 2 liens morts `href="#"`
+
+- **Statut** : **CORRIGÉ** — commit `f7b4c88`
+- **Description** : le pied de page pointait vers `href="#"` pour « Mentions légales »
+  et « Conditions d'utilisation », **alors que les 2 cibles existent** dans le dépôt.
+  `astro.html` faisait déjà correctement le lien — seule la page d'accueil était cassée.
+- **Correction** : `href="#"` → `mentions-legales.html` / `cgu.html`.
+- **Vérification** : `href="#"` restants = **0** en production.
+
+## A-16 — ✅ RÉSOLU (02/10/2026) — `index.html` sans `og:image`
+
+- **Statut** : **CORRIGÉ** — commit `f7b4c88`
+- **Description** : la page d'accueil était la **seule** sans `<meta property="og:image">`
+  (les 12 autres en avaient un, cassé — cf. A-06). C'est pourtant la page la plus partagée.
+- **Correction** : ajout des 4 balises `og:*` (`type`, `url`, `title`, `description`, `image`).
+
+## A-17 — ✅ RÉSOLU (02/10/2026) — `index.html` chargé sans versionnement
+
+- **Statut** : **CORRIGÉ** — commit `f7b4c88` (complète A-08)
+- **Description** : `css/style.css` était appelé **sans `?v=`** — la page était donc
+  la seule à ne bénéficier d'aucun cache-bust. Même famille de risque que A-08,
+  mais **plus grave** : sans `?v=` du tout, aucun moyen d'invalider le cache.
+- **Correction** : `style.css?v=1790954759`, comme les 10 autres pages.
+
+## A-18 — ✅ RÉSOLU (02/10/2026) — Espaces insécables absentes (typographie française)
+
+- **Statut** : **CORRIGÉ** — commit `f7b4c88`
+- **Description** : aucune page ne respectait la règle française d'espace insécable
+  avant `; ! ? : »` et après `«`. Détecté au **rendu** : le `!` de « Bonne visite ! »
+  passait seul à la ligne. **11 cas** répartis sur 5 pages.
+- **Correction** : espace fine insécable `U+202F` avant `; ! ?`,
+  espace insécable `U+00A0` avant `: »` et après `«` — appliquée à 10 pages.
+- **Contrôle** : 13 fichiers HTML, **0 erreur de parsing**, 0 cas restant.
+  Concerne aussi 2 attributs `<meta content>` de `chat.html` (valide en UTF-8).
+
+## A-19 — ✅ RÉSOLU (02/10/2026) — `ASTRO.md` : périmètre faux sur `index.html`
+
+- **Statut** : **CORRIGÉ** — commit `f7b4c88`
+- **Description** : `ASTRO.md` classait `index.html` en « fichier PARTAGÉ —
+  modification interdite sans accord » et le décrivait comme la page
+  « deux univers, un seul site ». **Les deux affirmations étaient fausses** :
+  `index.html` est la page d'accueil **astro** servie par nginx sur `/`.
+  *(Le contenu réel ne correspondait pas non plus à la description : c'est bien
+  une page astro — hero « ASTRO PHOTOGRAPHIE », bandeau, « En Vedette ».)*
+- **Cause** : le document datait d'avant la restauration de l'accueil (commit
+  `87a1f32`, 26/09) et n'avait pas été mis à jour.
+- **Correction** : clarification explicite de Christophe le 02/10/2026 ;
+  périmètre porté à **14 fichiers** (13 + `index.html`), plus aucun fichier partagé.
+- **Leçon** : un document de périmètre se vérifie comme du code — `ASTRO.md`
+  portait une affirmation non mesurée, et c'est ce qui m'a fait m'arrêter à tort.
+
+## A-20 — ℹ️ OUVERT — `hermes.html` reste en `?v=1785757465`
+
+- **Statut** : **SIGNALÉ** (zone Michel, message Hive `20261002T201732-5e842a`)
+- **Description** : les 11 pages astro sont alignées sur `?v=1790954759`,
+  `hermes.html` porte encore l'ancienne valeur. Même piège de cache qu'A-08.
+- **Action** : aucune de mon côté — zone Hermes. **Signalé à Michel.**
+
+## A-21 — ℹ️ OUVERT — Application hébergée hors domaine
+
+- **Statut** : **SIGNALÉ à Christophe** — aucune action décidée
+- **Description** : `app-astro.html` (bouton « 🚀 Lancer l'application ») pointe vers
+  `christophedanhier-hash.github.io/Projet-Astro/www/index.html` — **hors de tofdan.be**.
+- **Mesuré le 02/10/2026** : le lien répond **HTTP 200** (il fonctionne).
+- **Risque** : si le compte GitHub renomme, passe privé ou supprime le dépôt,
+  le lien casse **sans préavis**. L'application n'est pas sous contrôle de tofdan.be.
+- **Décision attendue** : conserver tel quel / rapatrier sous tofdan.be / laisser.
+
+## A-22 — ℹ️ OBSERVATION — Poids de `js/meteo.js`
+
+- **Statut** : **OBSERVÉ**
+- **Description** : `js/meteo.js` = **21 330 octets (632 lignes)**, soit ~16 % du poids
+  total du site — et il n'est utilisé **que** par `meteo-astro.html`.
+- **Piste** : chargement `defer` (probablement déjà le cas) ou découpage.
+  **Non prioritaire.**
+
+---
+
 ## Synthèse
 
 - **🔴 Grave** : 1 (A-01)
@@ -122,13 +200,36 @@
 - **Découverte de cet audit** : A-07 (lien mort SAL) — non relevé par Copilot
 - **Faux positif écarté** : A-11
 
-**Total : 14 entrées** — dont 1 infirmée et 2 observations.
+**Total : 22 entrées** — dont 1 infirmée et 2 observations.
+
+### ✅ Résolues le 02/10/2026 (commit `f7b4c88`)
+
+| Anomalie | Objet | Preuve |
+|---|---|---|
+| **A-06** | `og-image.jpg` 404 sur 14 pages | fichier créé 1200×630, 68 Ko, **200 en production** |
+| **A-08** | cache-bust divergent | **11/11** pages alignées sur `?v=1790954759` |
+| **A-15** | `href="#"` sur l'accueil | **0** lien mort en production |
+| **A-16** | accueil sans `og:image` | 4 balises `og:*` ajoutées |
+| **A-17** | accueil sans `?v=` | `?v=1790954759` |
+| **A-18** | espaces insécables | 10 pages, **0** cas restant |
+| **A-19** | `ASTRO.md` périmé | périmètre corrigé à 14 fichiers |
+
+**Restent ouvertes** : A-01 (partiel), A-02, A-03, A-04, A-05, A-09, A-10,
+A-14 (décision), A-20 (Michel), A-21 (décision Christophe), A-22 (mineur).
 
 ### Ce que l'audit ne dit PAS
 
-- ❌ Aucune ligne de code n'a été modifiée — `git status` vide, vérifié avant et après.
-- ❌ Aucune des anomalies ci-dessus n'a été corrigée.
-- ⚠️ Les « correctifs identifiés » (A-07) sont des **pistes vérifiées en ligne**, pas des modifications appliquées.
+> **⚠️ Mise à jour du 02/10/2026** — ce paragraphe décrivait l'état **au moment de
+> l'audit initial**. Il était exact alors ; il ne l'est plus aujourd'hui.
+
+- ❌ **À la date de l'audit** : aucune ligne de code n'avait été modifiée
+  (`git status` vide, vérifié avant et après).
+- ❌ **À la date de l'audit** : aucune des anomalies ci-dessus n'était corrigée.
+- ⚠️ Les « correctifs identifiés » (A-07) sont des **pistes vérifiées en ligne**,
+  pas des modifications appliquées. *(A-07 n'est toujours pas appliqué.)*
+- ✅ **Le 02/10/2026, 7 anomalies ont depuis été corrigées** (A-06, A-08, A-15,
+  A-16, A-17, A-18, A-19) — commit `f7b4c88`, déployé et vérifié en production.
+  Voir le tableau « Résolues le 02/10/2026 » ci-dessus.
 
 ### Ordre de traitement suggéré (à valider)
 
@@ -140,4 +241,4 @@
 
 ---
 
-**Sources** : audit Copilot CLI (`copilot-audit-astro.md`, 39,28 crédits, 932 k tokens) + mesures directes Gérard (grep, `sha256sum`, `git status`, `curl`) + `inventaire-photos-seestar.md`.
+**Sources** : audit Copilot CLI (`copilot-audit-astro.md`, 39,28 crédits, 932 k tokens) + mesures directes Gérard (grep, `sha256sum`, `git status`, `curl`) + `inventaire-photos-seestar.md` + **audit Pi du 02/10/2026** (mesures de tailles/lignes corroborées à 6/6 ; ses constats négatifs NON retenus — Pi a affirmé « `<footer>` : 0 » alors que les 8 pages en ont un).
