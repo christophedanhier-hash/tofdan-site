@@ -10,6 +10,7 @@
 <meta property="og:title" content="Hermes — Accès — Tofdan">
 <meta property="og:description" content="Accès restreint à la plateforme LEO Hermes.">
 <meta property="og:image" content="https://tofdan.be/og-image.jpg">
+<meta name="robots" content="noindex, nofollow">
 <style>
 :root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#c9d1d9;--accent:#58a6ff}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -33,15 +34,29 @@ body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSy
   <div class="error" id="error">Mot de passe incorrect</div>
 </div>
 <script>
-const TOKEN='hermes-leo-2026';
-function login(){
+/* Aucun secret n'est present dans ce fichier (public).
+   Le mot de passe est verifie cote serveur par /hermes/_gate ; la reponse
+   contient le cookie de session a poser. Voir hermes-gate.py. */
+async function login(){
   const pw=document.getElementById('pw').value;
-  if(pw==='Leo2026'){
-    document.cookie='hermes_auth='+TOKEN+';path=/;max-age=31536000;SameSite=Lax';
-    const redirect=new URLSearchParams(location.search).get('r')||'/hermes/';
-    location.href=redirect;
-  } else {
-    document.getElementById('error').style.display='block';
+  const err=document.getElementById('error');
+  err.style.display='none';
+  try{
+    const r=await fetch('/hermes/_gate',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({pw:pw})
+    });
+    if(r.ok){
+      const d=await r.json();
+      document.cookie='hermes_auth='+d.token+';path=/;max-age=31536000;SameSite=Lax';
+      const redirect=new URLSearchParams(location.search).get('r')||'/hermes/';
+      location.href=redirect;
+    } else {
+      err.style.display='block';
+    }
+  } catch(e){
+    err.style.display='block';
   }
 }
 </script>
