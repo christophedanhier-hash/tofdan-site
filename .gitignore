@@ -4,3 +4,6 @@
 # Divers
 .DS_Store
 *.swp
+
+# Sauvegardes locales (ne pas versionner)
+backups/
