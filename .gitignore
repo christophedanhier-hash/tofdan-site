@@ -1,0 +1,6 @@
+# Sauvegardes locales créées par tools/generate-nav.py --apply
+*.bak-*
+
+# Divers
+.DS_Store
+*.swp

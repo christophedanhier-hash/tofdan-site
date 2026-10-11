@@ -6,17 +6,22 @@
 > ressemblance de noms (`biblio.html` ≠ la bibliothèque `/bibliotheque/` ;
 > `chat.html` ≠ Leo Chat `/leo-chat/`). Classer par nom ne vaut pas mesurer.
 
-## ✅ Périmètre ASTRO — propriétaire : Gérard (14 fichiers)
+## ✅ Périmètre ASTRO — propriétaire : Gérard (11 pages + 4 assets + 2 outils)
 
-**Fichiers de travail (9)** — tu peux les modifier :
-astro.html, app-astro.html, album.html, materiel.html,
-meteo-astro.html, news.html, js/meteo.js, css/style.css, js/main.js
+**Pages HTML (11)** — tu peux les modifier :
+astro.html, app-astro.html, album.html, materiel.html, meteo-astro.html, news.html,
+index.html, biblio.html, chat.html, cgu.html, mentions-legales.html
 
-**Pages astro publiques supplémentaires (5)** — mêmes règles, elles sont à toi :
-index.html   (racine du site — page d'accueil astro, servie par nginx sur « / »)
-biblio.html  (page « Bibliographie » — recommandations de livres astro)
-chat.html    (page « Contact » — formulaire de contact)
-cgu.html, mentions-legales.html
+**Assets (4)** : js/meteo.js, css/style.css, js/main.js, og-image.jpg
+
+**Outils (2)** — ajoutés le 02/10/2026 :
+tools/generate-nav.py  (génère header/footer uniques pour les 11 pages)
+app/                   (Application Astro rapatriée sous le domaine — 10 fichiers, 1,5 Mo)
+
+> **NOTE du 02/10/2026** — `app/` (ex-`Projet-Astro` sur GitHub Pages de Christophe)
+> a été rapatriée sous `tofdan.be/app/`. Le lien de `app-astro.html` pointe désormais
+> en relatif (`app/index.html`) : **plus aucune dépendance à un domaine tiers.**
+> L'app est autonome (Three.js embarqué, 0 CDN).
 
 > Vérifié le 26/09/2026 par `curl` anonyme depuis Internet :
 > `biblio.html` → 200 `Bibliographie — Tofdan`
@@ -56,6 +61,23 @@ Infrastructure : `docs/`, `README.md`, `robots.txt`, `sitemap.xml`
 
 **Aucun fichier partagé restant.** Les 13 fichiers de la liste + `index.html`
 = 14 fichiers sous responsabilité astro.
+
+## 🔒 RÈGLE D'OR — ne plus jamais éditer un header à la main
+
+Depuis le 02/10/2026, les **11 pages** partagent **un header et un footer uniques**,
+générés par `tools/generate-nav.py`.
+
+**Pour modifier la navigation (ajouter un lien, changer le logo…) :**
+1. Éditer le modèle dans `tools/generate-nav.py` (constantes `HEADER` / `FOOTER`)
+2. Lancer `python3 tools/generate-nav.py` → **dry-run** (montre ce qui changerait)
+3. Relancer avec `--apply` → écrit + crée des `.bak-<horodatage>` (ignorés par git)
+4. Vérifier : `git diff` ne doit toucher QUE header/footer
+
+**NE JAMAIS** éditer `<header>` ou `<footer>` directement dans une page :
+la prochaine génération écraserait la modification, et la divergence reviendrait.
+
+Le script refuse de toucher une page où `<header>`/`<footer>` n'est pas unique
+(elle est SIGNALÉE, non modifiée) et ne touche **jamais** la zone Hermes.
 
 ## ⚠️ Contrainte connue
 Les pages astro contiennent une barre de navigation avec des liens vers

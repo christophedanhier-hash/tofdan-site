@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observations Astronomiques</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #020205; 
+            color: #ffffff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        h1 { color: #4da8da; }
+        nav { 
+            margin: 40px auto; 
+            max-width: 800px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            padding: 0 15px;
+        }
+        .bouton-astro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4da8da;
+            color: #020205;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            margin: 0;
+            transition: 0.3s;
+            border: 2px solid #4da8da;
+        }
+        .bouton-astro:hover {
+            background-color: transparent;
+            color: #4da8da;
+        }
+        /* Le bouton Guide prend toute la largeur */
+        #open-guide {
+            grid-column: 1 / -1;
+        }
+        @media (max-width: 600px) {
+            nav { grid-template-columns: 1fr; }
+        }
+
+        /* Styles pour le Modal du Guide */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; top: 0; 
+            width: 100%; height: 100%; 
+            background-color: rgba(0,0,0,0.85); 
+            backdrop-filter: blur(5px);
+        }
+        .modal-content {
+            background-color: #0a0f1e;
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid #4da8da;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 15px;
+            max-height: 80vh;
+            overflow-y: auto;
+            text-align: left;
+            line-height: 1.6;
+        }
+        .close-btn { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
+        .close-btn:hover { color: #4da8da; }
+        .modal-content h2 { color: #4da8da; border-bottom: 1px solid rgba(77,168,218,0.3); padding-bottom: 10px; margin-top: 25px; }
+        .modal-content h3 { color: #79c2ea; margin-top: 20px; }
+        .modal-content ul { padding-left: 20px; }
+        .modal-content li { margin-bottom: 8px; }
+
+        /* Style pour la barre de recherche */
+        .search-container { position: relative; width: 100%; margin: 15px 0; }
+        #guide-search {
+            width: 100%;
+            padding: 12px;
+            padding-right: 40px; /* Espace pour le bouton effacer */
+            border: 1px solid #4da8da;
+            border-radius: 8px;
+            background: #1a2535;
+            color: white;
+            font-size: 1rem;
+            box-sizing: border-box;
+            outline: none;
+        }
+        #guide-search:focus { box-shadow: 0 0 8px rgba(77, 168, 218, 0.5); }
+        
+        #clear-search {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            display: none; /* Caché par défaut */
+            transition: color 0.2s;
+        }
+        #clear-search:hover { color: #4da8da; }
+
+        /* Styles pour la prévisualisation Galaxie */
+        #galaxy-preview-container {
+            margin-top: 40px; 
+            position: relative; 
+            display: inline-block; 
+            padding: 25px; 
+            background: rgba(10,15,30,0.4); 
+            border-radius: 20px; 
+            border: 1px solid rgba(77,168,218,0.2); 
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+        #galaxy-preview-canvas {
+            border-radius: 50%; 
+            background: radial-gradient(circle, #0a0f1e 0%, #020205 100%);
+        }
+        #solar-system-marker {
+            position: absolute; 
+            pointer-events: none; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            transform: translate(-50%, -100%);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Découverte de notre Système Solaire</h1>
+        <p>Astro.tofdan.be - (c) 2026 - v3.1 (Mars 2026)</p>
+    </header>
+
+    <nav>
+        <a href="Simulateur_2D.html" class="bouton-astro">🔭 Explorer le Système Solaire en 2D</a>
+        <a href="Simulateur_3D.html" class="bouton-astro">🌌 Explorer le Système Solaire en 3D</a>
+        <a href="Simulateur_Lune_3D.html" class="bouton-astro">🌑 Explorer la Lune</a>
+        <a href="Simulateur_Terre.html" class="bouton-astro">🌍 Terre & Saisons</a>
+        <button id="open-guide" class="bouton-astro" style="background-color: #3a4a5a; border-color: #3a4a5a; color: white;">📖 Guide d'utilisation</button>
+    </nav>
+
+    <main>
+        <p>Bienvenue sur mon espace dédié à l'astronomie. Choisissez un simulateur ci-dessus pour explorer le système solaire !</p>
+
+        <!-- Représentation de la Galaxie et position du Système Solaire -->
+        <div id="galaxy-preview-container">
+            <h3 style="color: #79c2ea; margin-bottom: 20px; font-size: 1.2rem;">Notre situation dans la Voie Lactée</h3>
+            <div style="position: relative; width: 400px; height: 400px; margin: 0 auto;">
+                <canvas id="galaxy-preview-canvas" width="400" height="400"></canvas>
+                <div id="solar-system-marker">
+                    <span style="font-size: 0.75rem; white-space: nowrap; background: #ffcc00; color: #050510; padding: 2px 8px; border-radius: 4px; font-weight: bold; margin-bottom: 4px; box-shadow: 0 0 10px #ffcc00;">📍 Système Solaire (Bras d'Orion)</span>
+                    <span style="font-size: 1.5rem; filter: drop-shadow(0 0 5px black);">🚩</span>
+                </div>
+            </div>
+            <p style="font-size: 0.85rem; color: #666; margin-top: 15px; font-style: italic;">Schéma simplifié de la structure spirale de notre galaxie</p>
+        </div>
+    </main>
+
+    <!-- Fenêtre Modal du Guide -->
+    <div id="guide-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h1 style="color: #4da8da; text-align: center;">🌌 Guide de l'Utilisateur</h1>
+
+            <div class="search-container">
+                <input type="text" id="guide-search" placeholder="🔍 Rechercher une fonction (ex: zoom, nuit, éclipse...)...">
+                <span id="clear-search" title="Effacer la recherche">&times;</span>
+            </div>
+            
+            <h2 style="color: #ffcc00; border-color: rgba(255, 204, 0, 0.3);">✨ Nouveautés v3.1 (Mars 2026)</h2>
+            <ul>
+                <li><strong>Performances Graphiques (60 FPS)</strong> : Moteur WebGL repensé avec le Cache Texture Global. Chargement instantané des astres en mémoire RAM et nettoyage automatique pour prolonger la durée de vie de la batterie sur les téléphones mobiles.</li>
+                <li><strong>Génération Adaptative (Énergie)</strong> : Le GPU (Pixel Ratio) s'ajuste dynamiquement pour empêcher la surchauffe thermique (idéal pour les longues sessions nocturnes au télescope).</li>
+                <li><strong>100% Hors-ligne</strong> : L'application est désormais totalement autonome et fonctionne sans connexion internet (idéal pour le terrain).</li>
+                <li><strong>Exploration Lunaire 3D</strong> : Un tout nouveau module dédié à l'étude de la Lune, de ses phases et des phénomènes de syzygie.</li>
+                <li><strong>Vue Galactique Réaliste</strong> : Le Système Solaire est désormais positionné avec précision au sein du Bras d'Orion dans la Voie Lactée.</li>
+                <li><strong>Terre Photoréaliste</strong> : Le module Terre bénéficie désormais de textures HD, de relief, de reflets océaniques, de nuages animés et d'une atmosphère volumétrique.</li>
+            </ul>
+
+            <h2>🏠 1. Page d'Accueil</h2>
+            <p>Votre centre de commande pour accéder aux simulateurs et au journal d'observation.</p>
+
+            <h2>🔭 2. Simulateur 2D</h2>
+            <h3>Navigation</h3>
+            <ul>
+                <li><strong>Zoom</strong> : Molette, boutons +/- ou pincement tactile.</li>
+                <li><strong>Sélection</strong> : Cliquez sur un astre pour sa fiche technique.</li>
+            </ul>
+            <h3>Fonctions</h3>
+            <ul>
+                <li><strong>Mode Nuit</strong> : Filtre rouge pour l'observation réelle.</li>
+                <li><strong>Indicateurs</strong> : Opposition (ligne blanche) et Élongation (Mercure/Vénus).</li>
+            </ul>
+
+            <h2>🌌 3. Simulateur 3D</h2>
+            <ul>
+                <li><strong>Immersion</strong> : Visualisation des orbites elliptiques avec traînées (trails).</li>
+                <li><strong>Vue Galactique</strong> : Bouton pour situer le Soleil dans le Bras d'Orion de la Voie Lactée.</li>
+                <li><strong>Constellations</strong> : Activez les repères célestes (Grande Ourse, Orion...) pour mieux appréhender l'orientation dans l'espace.</li>
+            </ul>
+
+            <h2>🌑 4. Exploration Lunaire 3D</h2>
+            <ul>
+                <li><strong>Phases</strong> : Slider manuel ou suivi temps réel de l'alignement.</li>
+                <li><strong>Auto-alignement</strong> : Un bouton magique pour aligner automatiquement la Lune, la Terre et le Soleil (Syzygie).</li>
+                <li><strong>Syzygie</strong> : Simulation d'éclipse lunaire (Lune rouge) lors d'un alignement parfait.</li>
+                <li><strong>Géologie</strong> : Marqueurs cliquables pour identifier les mers lunaires.</li>
+            </ul>
+
+            <h2>🌍 5. Simulateur Terre & Saisons</h2>
+            <ul>
+                <li><strong>Mécanique des Saisons</strong> : Visualisez comment l'inclinaison fixe de 23.5° crée les saisons lorsque la Terre tourne autour du Soleil.</li>
+                <li><strong>Contrôle du Tilt</strong> : Modifiez l'inclinaison de l'axe (de 0° à 180°) pour voir ce qui se passerait si la Terre était "droite" ou "couchée".</li>
+                <li><strong>Géolocalisation</strong> : Placez un marqueur sur votre position réelle pour voir l'ensoleillement chez vous.</li>
+                <li><strong>Rendu Réaliste</strong> : Profitez d'une vue imprenable avec atmosphère, nuages dynamiques et cycle jour/nuit précis.</li>
+                <li><strong>Dates Clés</strong> : Affichez les dates exactes des solstices et équinoxes de l'année en cours.</li>
+            </ul>
+
+            <h2>✨ 6. Astuces d'observation</h2>
+            <ul>
+                <li>Utilisez l'indicateur d'<strong>Opposition</strong> pour savoir quand une planète est au plus proche de la Terre.</li>
+                <li>Consultez la <strong>Visibilité</strong> pour savoir si l'astre est au-dessus de l'horizon à Sombreffe.</li>
+            </ul>
+
+            <p style="text-align: center; margin-top: 30px; font-size: 0.8rem; color: #666;">Astro.TofDan.be - (c) 2026</p>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("guide-modal");
+        const btn = document.getElementById("open-guide");
+        const span = document.getElementsByClassName("close-btn")[0];
+        const searchInput = document.getElementById("guide-search");
+        const clearBtn = document.getElementById("clear-search");
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden"; // Empêche le défilement de la page de fond
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        }
+
+        // Logique de recherche
+        searchInput.oninput = function() {
+            const term = this.value.toLowerCase();
+            
+            // Affiche ou cache le bouton effacer
+            clearBtn.style.display = term.length > 0 ? "block" : "none";
+
+            const contentParts = modal.querySelectorAll('h2, h3, p, li');
+            
+            contentParts.forEach(item => {
+                const text = item.innerText.toLowerCase();
+                if (text.includes(term)) {
+                    item.style.display = ""; // Affiche l'élément
+                } else {
+                    item.style.display = "none"; // Cache l'élément
+                }
+            });
+        };
+
+        // Logique pour effacer la recherche
+        clearBtn.onclick = function() {
+            searchInput.value = "";
+            searchInput.oninput(); // Déclenche le filtrage pour tout réafficher
+            searchInput.focus();   // Redonne le focus au champ
+        };
+
+        // Dessin de la galaxie sur l'index
+        function drawGalaxyPreview() {
+            const canvas = document.getElementById('galaxy-preview-canvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+
+            // Centre galactique (Bulbe)
+            const grd = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, 60);
+            grd.addColorStop(0, "rgba(255, 255, 220, 0.8)");
+            grd.addColorStop(0.4, "rgba(255, 200, 100, 0.3)");
+            grd.addColorStop(1, "rgba(255, 200, 100, 0)");
+            ctx.fillStyle = grd;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, 60, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Bras spiraux (4 bras principaux)
+            const arms = 4;
+            const steps = 200;
+            const armColors = ["rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)", "rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)"];
+            const armNames = ["Bras de Persée", "Bras du Sagittaire", "Bras de l'Écu-Croix", "Bras de la Règle-Cygne"];
+            
+            for (let j = 0; j < arms; j++) {
+                ctx.beginPath();
+                ctx.strokeStyle = armColors[j];
+                ctx.lineWidth = 15;
+                ctx.lineCap = "round";
+                
+                for (let i = 0; i < steps; i++) {
+                    let r = (i / steps) * 180;
+                    let angle = (j * Math.PI * 2 / arms) + (r * 0.035);
+                    let x = centerX + Math.cos(angle) * r;
+                    let y = centerY + Math.sin(angle) * r;
+                    
+                    if (i === 0) ctx.moveTo(x, y);
+                    else ctx.lineTo(x, y);
+                }
+                ctx.stroke();
+
+                // Ajout des noms des bras
+                ctx.fillStyle = "rgba(255, 255, 255, 0.4)";
+                ctx.font = "10px sans-serif";
+                ctx.textAlign = "center";
+                let labelAngle = (j * Math.PI * 2 / arms) + (140 * 0.035);
+                ctx.fillText(armNames[j], centerX + Math.cos(labelAngle) * 155, centerY + Math.sin(labelAngle) * 155);
+            }
+
+            // Positionnement du drapeau (Bras d'Orion)
+            const marker = document.getElementById('solar-system-marker');
+            const rSun = 115; // Distance du centre
+            const angleSun = 2.45; // Angle pour tomber dans le bras d'Orion
+            const markerX = centerX + Math.cos(angleSun) * rSun;
+            const markerY = centerY + Math.sin(angleSun) * rSun;
+            
+            marker.style.left = markerX + 'px';
+            marker.style.top = markerY + 'px';
+        }
+        drawGalaxyPreview();
+    </script>
+</body>
+</html>

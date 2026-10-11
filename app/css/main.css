@@ -1,0 +1,59 @@
+/* ============================================
+   CSS PARTAGÉ - Projet AstroTofdan v3.1
+   Styles communs aux simulateurs
+   ============================================ */
+
+html,body{width:100%;height:100%;margin:0;padding:0;overflow:hidden;background:#020205;font-family:sans-serif;color:#fff;touch-action:none;color-scheme:dark}
+
+/* --- UI Container --- */
+#ui-container{position:absolute;top:10px;left:10px;background:rgba(10,15,30,.85);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.2);z-index:10;backdrop-filter:blur(4px);max-width:240px;max-height:85vh;overflow-y:auto}
+h1{margin:0 0 10px;font-size:1rem;color:#4da8da;text-transform:uppercase}
+.control-group{margin-bottom:10px;display:flex;flex-direction:column;gap:5px}
+.checkbox-group{flex-direction:row;align-items:center;cursor:pointer;font-size:.9rem}
+.btn-group{display:flex;gap:5px}
+
+/* --- Inputs --- */
+input[type=range]{width:100%;cursor:pointer}
+input[type=date], select{background:#1a2535;color:#ffffff;border:1px solid rgba(77,168,218,0.5);padding:5px;border-radius:5px;font-family:inherit;width:100%;outline:none;cursor:pointer;color-scheme:dark}
+
+/* --- Boutons --- */
+button{background:#4da8da;color:#050510;border:none;padding:6px;border-radius:5px;cursor:pointer;font-weight:bold;flex:1;transition:0.3s}
+button:hover{background:#79c2ea}
+#toggle-ui-btn{background:#3a4a5a;color:#fff;margin-top:5px;width:100%}
+
+/* --- Info Box --- */
+.info-box{background:rgba(255,255,255,0.05);padding:10px;border-radius:8px;font-size:0.85rem;line-height:1.4;border:1px solid rgba(77,168,218,0.2)}
+.highlight{color:#4da8da;font-weight:bold}
+
+/* --- Canvas --- */
+canvas{display:block;width:100%;height:100%}
+
+/* --- Night Mode Overlay --- */
+#red-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(255,0,0,.7);mix-blend-mode:multiply;pointer-events:none;z-index:9998}
+
+/* --- Tooltip --- */
+#tooltip{position:absolute;background:rgba(0,0,0,.9);border:1px solid #4da8da;padding:10px;border-radius:8px;pointer-events:none;opacity:0;z-index:20;transition:opacity 0.1s}
+#tooltip .value{color:#4da8da;font-weight:bold}
+
+/* --- Info Panel (Fiche astre) --- */
+#info-panel{position:absolute;bottom:-100%;left:50%;transform:translateX(-50%);background:rgba(10,15,30,0.92);padding:20px;border-radius:15px 15px 0 0;border:1px solid rgba(77,168,218,0.4);border-bottom:none;z-index:15;backdrop-filter:blur(8px);color:white;width:90%;max-width:450px;transition:bottom 0.4s cubic-bezier(0.175,0.885,0.32,1.275);text-align:center;box-shadow:0 -5px 20px rgba(0,0,0,0.5)}
+#info-panel.active{bottom:0}
+#info-panel h2{margin:0 0 15px 0;font-size:1.4rem;letter-spacing:1px}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:0.9rem;text-align:left}
+.info-grid div{background:rgba(255,255,255,0.05);padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.05)}
+.info-grid span{color:#4da8da;font-weight:bold;display:block;font-size:0.75rem;text-transform:uppercase;margin-bottom:3px}
+#close-info{position:absolute;top:15px;right:20px;cursor:pointer;color:#888;font-weight:bold;font-size:1.2rem;transition:0.2s}
+#close-info:hover{color:white;transform:scale(1.1)}
+
+/* --- Calendrier Personnalisé --- */
+#calendar-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:999}
+#custom-calendar{display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#1a2535;border:1px solid #4da8da;border-radius:10px;padding:15px;z-index:1000;width:280px;box-shadow:0 0 25px rgba(0,0,0,0.8);font-family:sans-serif}
+#custom-calendar-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}
+#custom-calendar-header button{background:#3a4a5a;color:white;border:1px solid rgba(255,255,255,0.2);padding:5px 12px;cursor:pointer;border-radius:4px;font-weight:bold}
+#custom-calendar-header button:hover{background:#4da8da;color:#000}
+#custom-calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.calendar-day-header{font-weight:bold;color:#4da8da;font-size:0.8rem;padding-bottom:5px}
+.calendar-day{padding:8px 0;cursor:pointer;border-radius:4px;color:#ddd;font-size:0.9rem}
+.calendar-day:hover{background:#3a4a5a;color:#fff}
+.calendar-day.selected{background:#4da8da;color:#050510;font-weight:bold;box-shadow:0 0 10px rgba(77,168,218,0.4)}
+.calendar-day.empty{cursor:default;background:transparent}

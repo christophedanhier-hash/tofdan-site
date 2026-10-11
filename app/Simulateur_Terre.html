@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Projet Astro - Saisons & Terre</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        /* Styles spécifiques Simulateur Terre */
+        .info-box { margin-bottom: 10px; }
+        .season-text { color: #ffcc00; font-weight: bold; font-size: 1rem; margin-top: 5px; display: block; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div id="ui-container">
+        <div id="ui-content">
+            <h1>🌍 Terre & Saisons</h1>
+            
+            <div class="info-box">
+                <span class="highlight">Inclinaison :</span> <span id="tilt-display">23.45°</span><br>
+                <span class="highlight">Position Soleil :</span> <span id="sun-angle">--</span><br>
+                <span class="highlight">Distance au Soleil :</span> <span id="sun-dist">--</span> UA<br>
+                <span id="saison-display" class="season-text">--</span>
+            </div>
+
+            <div class="control-group">
+                <label style="font-size: 0.9rem;">🗓️ Date : <span id="date-display" style="color:#4da8da;font-weight:bold;"></span></label>
+                <div style="display:flex; gap:5px;">
+                    <input type="text" id="date-input" readonly style="text-align:center; cursor:pointer;" placeholder="Cliquez pour changer">
+                    <button id="today-btn" title="Revenir à aujourd'hui" style="flex: 0 0 auto; padding: 5px 10px;">📅</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label style="font-size: 0.9rem;">Vitesse : <span id="speed-display">Pause</span></label>
+                <input type="range" id="speed-slider" min="0" max="5" step="0.1" value="0">
+            </div>
+
+            <div class="control-group">
+                <label style="font-size: 0.9rem;">Inclinaison (Tilt) :</label>
+                <input type="range" id="tilt-slider" min="0" max="180" step="0.05" value="23.45">
+                <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:#aaa;">
+                    <span>0°</span><span>23.45°</span><span>90°</span><span>180°</span>
+                </div>
+                <button id="reset-tilt" style="margin-top:5px; font-size:0.8rem; padding:4px;">Rétablir 23.45°</button>
+            </div>
+
+            <div class="control-group">
+                <div class="btn-group">
+                    <button id="zoom-in-btn">🔍 +</button>
+                    <button id="zoom-out-btn">🔍 -</button>
+                    <button id="reset-all-btn" style="background:#d63031;" title="Réinitialiser la simulation">♻️</button>
+                </div>
+                <div class="btn-group" style="margin-top:5px;">
+                    <button id="anim-view-btn" style="font-size:0.8rem;">🔄 Vue</button>
+                    <button id="geoloc-btn" style="background:#2a9d8f; font-size:0.8rem;">📍 Moi</button>
+                    <button id="seasons-btn" style="background:#e67e22; font-size:0.8rem;">📅 Saisons</button>
+                    <button id="texture-btn" style="background:#2c3e50; font-size:0.8rem;">🌃 Nuit</button>
+                </div>
+            </div>
+
+            <details style="margin-bottom:10px; border:1px solid rgba(255,255,255,0.2); border-radius:5px; padding:5px; background:rgba(0,0,0,0.2);">
+                <summary style="cursor:pointer; font-size:0.9rem; color:#4da8da; font-weight:bold; outline:none;">👁️ Options d'affichage</summary>
+                <div class="control-group checkbox-group" style="margin-top:5px;"><input type="checkbox" id="toggle-markers" checked><label for="toggle-markers">Tropiques & Équateur</label></div>
+                <div class="control-group checkbox-group"><input type="checkbox" id="toggle-orbit" checked><label for="toggle-orbit">Orbite du Soleil</label></div>
+                <div class="control-group checkbox-group"><input type="checkbox" id="toggle-axis" checked><label for="toggle-axis">Axe de rotation</label></div>
+                <div class="control-group checkbox-group"><input type="checkbox" id="toggle-terminator"><label for="toggle-terminator">Ligne jour/nuit</label></div>
+                <div class="control-group checkbox-group"><input type="checkbox" id="toggle-grid"><label for="toggle-grid">Grille Lat/Lon</label></div>
+            </details>
+
+            <a href="index.html" style="text-decoration:none;"><button id="home-btn" style="background:#3a4a5a; color:#fff; margin-top:10px; width:100%">🏠 Accueil</button></a>
+            <div style="font-size: 0.7rem; color: #666; text-align: center; margin-top: 8px;">Version 3.1 (Mars 2026)</div>
+        </div>
+        <button id="toggle-ui-btn">👁️ Masquer l'interface</button>
+    </div>
+
+    <!-- Structure du Calendrier Custom -->
+    <div id="calendar-overlay"></div>
+    <div id="custom-calendar">
+        <div id="custom-calendar-header">
+            <button id="cal-prev">&lt;</button>
+            <span id="cal-month-year" style="font-weight:bold; color:white; font-size:1.1rem;"></span>
+            <button id="cal-next">&gt;</button>
+        </div>
+        <div id="custom-calendar-grid"></div>
+        <button id="cal-close" style="margin-top:15px; width:100%; background:#882222; border:1px solid #ff4444;">Fermer</button>
+    </div>
+
+    <!-- Panneau Dates Saisons -->
+    <div id="seasons-panel" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background:rgba(10,15,30,0.95); padding:20px; border:1px solid #4da8da; border-radius:10px; z-index:1001; text-align:center; min-width:280px; box-shadow: 0 0 30px rgba(0,0,0,0.8);">
+        <h3 style="color:#4da8da; margin-top:0; border-bottom:1px solid rgba(77,168,218,0.3); padding-bottom:10px;">📅 Saisons <span id="seasons-year"></span></h3>
+        <div style="text-align:left; margin-bottom:15px; line-height:1.8; font-size:0.95rem;">
+            <div style="border-bottom:1px solid rgba(255,255,255,0.1);">🌱 Équinoxe Mars : <span id="date-march" style="color:#fff; font-weight:bold; float:right;"></span></div>
+            <div style="border-bottom:1px solid rgba(255,255,255,0.1);">☀️ Solstice Juin : <span id="date-june" style="color:#fff; font-weight:bold; float:right;"></span></div>
+            <div style="border-bottom:1px solid rgba(255,255,255,0.1);">🍂 Équinoxe Sept. : <span id="date-sept" style="color:#fff; font-weight:bold; float:right;"></span></div>
+            <div>❄️ Solstice Déc. : <span id="date-dec" style="color:#fff; font-weight:bold; float:right;"></span></div>
+        </div>
+        <button id="close-seasons" style="background:#882222; border:1px solid #ff4444; width:100%;">Fermer</button>
+    </div>
+
+    <!-- IMPORT MAP : Redirection vers les fichiers locaux -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./js/libs/three.module.js",
+                "three/addons/": "./js/libs/"
+            }
+        }
+    </script>
+
+    <!-- Script Principal -->
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/OrbitControls.js';
+        import { TextureCache } from './astro-logic.js';
+        import { initCalendar, initToggleUI, initCameraZoom, initGarbageCollector, initWebGLContextHandling, createStarField, MS_PER_DAY } from './js/modules/ui-utils.js';
+
+        // --- Configuration ---
+        const CONFIG = {
+            tilt: 23.45 * (Math.PI / 180), // Conversion en radians
+            rotationSpeed: 0.005,
+            // Textures locales
+            textureUrl: './assets/textures/earth_day.jpg',
+            normalUrl: './assets/textures/earth_normal.jpg',
+            specularUrl: './assets/textures/earth_specular.jpg',
+            textureUrlNight: './assets/textures/earth_night.png',
+            sunDistance: 8 // Distance de la lumière pour la visualisation
+        };
+
+        // --- Variables Globales ---
+        let scene, camera, renderer, controls;
+        let earthMesh, earthGroup, sunLight;
+        let axisHelper, markersGroup, labelsGroup, orbitGroup, terminatorLine, userMarker, gridGroup;
+
+        // --- Variables Temporelles ---
+        let simulatedDate = new Date();
+        let timeSpeed = 0; // Vitesse de défilement (jours par frame)
+
+        // --- Variables Animation Caméra ---
+        let viewMode = 'EQUATOR';
+        let isViewAnimating = false;
+        let targetCameraPos = new THREE.Vector3();
+
+        // --- Éléments UI ---
+        const dateInput = document.getElementById('date-input');
+        const dateDisplay = document.getElementById('date-display');
+        const speedSlider = document.getElementById('speed-slider');
+        const speedDisplay = document.getElementById('speed-display');
+
+        init();
+        animate();
+
+        function init() {
+            // 1. Scène
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x050510); // Fond spatial sombre
+
+            // 2. Caméra
+            camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 0, 6); // Face à la Terre
+
+            // 3. Rendu
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+            renderer.outputColorSpace = THREE.SRGBColorSpace; // Correction couleur comme Simu 3D
+            document.body.appendChild(renderer.domElement);
+
+            // 4. Contrôles (Orbit)
+            controls = new OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.minDistance = 1.5;
+            controls.maxDistance = 20;
+
+            // 5. Création de la Terre
+            createEarth();
+            createStars();
+
+            // 6. Lumière (Le Soleil)
+            sunLight = new THREE.DirectionalLight(0xffffff, 2.5);
+            sunLight.position.set(CONFIG.sunDistance, 0, 0); 
+            scene.add(sunLight);
+
+            // Représentation visuelle de l'orbite et du Soleil
+            createSunVisuals();
+
+            // Lumière ambiante faible (pour voir la face nuit légèrement)
+            const ambientLight = new THREE.AmbientLight(0x333333);
+            scene.add(ambientLight);
+
+            // Ligne du terminateur (Jour/Nuit)
+            const termGeo = new THREE.BufferGeometry();
+            const termPoints = [];
+            for (let i = 0; i <= 128; i++) {
+                const theta = (i / 128) * Math.PI * 2;
+                termPoints.push(new THREE.Vector3(Math.cos(theta) * 1.02, Math.sin(theta) * 1.02, 0));
+            }
+            termGeo.setFromPoints(termPoints);
+            terminatorLine = new THREE.Line(termGeo, new THREE.LineBasicMaterial({ color: 0xff3333, transparent: true, opacity: 0.7 }));
+            terminatorLine.visible = false;
+            scene.add(terminatorLine);
+
+            // Gestion du redimensionnement
+            window.addEventListener('resize', onWindowResize);
+
+            // --- Gestion de l'UI ---
+            updateDateDisplay();
+
+            speedSlider.addEventListener('input', (e) => { 
+                timeSpeed = parseFloat(e.target.value);
+                speedDisplay.innerText = timeSpeed === 0 ? "Pause" : timeSpeed + " j/frame";
+            });
+
+            // Gestion du Tilt
+            const tiltSlider = document.getElementById('tilt-slider');
+            const tiltDisplay = document.getElementById('tilt-display');
+            const resetTiltBtn = document.getElementById('reset-tilt');
+
+            const updateTilt = (val) => {
+                tiltDisplay.innerText = val.toFixed(2) + '°';
+                if (earthGroup) earthGroup.rotation.z = val * (Math.PI / 180);
+            };
+
+            tiltSlider.addEventListener('input', (e) => updateTilt(parseFloat(e.target.value)));
+            resetTiltBtn.addEventListener('click', () => { tiltSlider.value = 23.45; updateTilt(23.45); });
+
+            // Boutons Zoom
+            initCameraZoom(THREE, camera, controls);
+            
+            // Bouton Animation Vue
+            document.getElementById('anim-view-btn').addEventListener('click', () => {
+                const dist = camera.position.distanceTo(controls.target);
+                if (viewMode === 'EQUATOR') {
+                    targetCameraPos.set(0, dist, 0.1); // Vue Polaire (quasi zénith)
+                    viewMode = 'POLAR';
+                } else {
+                    targetCameraPos.set(0, 0, dist); // Vue Équatoriale
+                    viewMode = 'EQUATOR';
+                }
+                isViewAnimating = true;
+            });
+            
+            // Bouton Géolocalisation
+            document.getElementById('geoloc-btn').addEventListener('click', () => {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition((pos) => {
+                        const lat = pos.coords.latitude;
+                        const lon = pos.coords.longitude;
+                        createLocationMarker(lat, lon);
+                        alert(`Position marquée : ${lat.toFixed(2)}°, ${lon.toFixed(2)}°`);
+                    }, (err) => {
+                        console.warn("Géolocalisation : " + err.message);
+                    });
+                } else {
+                    console.warn("Géolocalisation non supportée.");
+                }
+            });
+            
+            // Bouton Saisons
+            document.getElementById('seasons-btn').addEventListener('click', () => {
+                const year = simulatedDate.getFullYear();
+                document.getElementById('seasons-year').innerText = year;
+                
+                const seasons = getSeasons(year);
+                const options = { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' };
+                
+                document.getElementById('date-march').innerText = seasons.march.toLocaleDateString('fr-FR', options);
+                document.getElementById('date-june').innerText = seasons.june.toLocaleDateString('fr-FR', options);
+                document.getElementById('date-sept').innerText = seasons.sept.toLocaleDateString('fr-FR', options);
+                document.getElementById('date-dec').innerText = seasons.dec.toLocaleDateString('fr-FR', options);
+                
+                document.getElementById('seasons-panel').style.display = 'block';
+            });
+
+            // Bouton Texture (Vue Nuit)
+            let isNightTexture = false;
+            document.getElementById('texture-btn').addEventListener('click', (e) => {
+                isNightTexture = !isNightTexture;
+                const btn = e.target;
+                if (isNightTexture) {
+                    btn.innerText = "☀️ Jour";
+                    btn.style.background = "#f1c40f";
+                    btn.style.color = "#000";
+                    TextureCache.get(CONFIG.textureUrlNight, (tex) => {
+                        earthMesh.material.map = tex;
+                        earthMesh.material.needsUpdate = true;
+                    });
+                } else {
+                    btn.innerText = "🌃 Nuit";
+                    btn.style.background = "#2c3e50";
+                    btn.style.color = "#fff";
+                    TextureCache.get(CONFIG.textureUrl, (tex) => {
+                        earthMesh.material.map = tex;
+                        earthMesh.material.needsUpdate = true;
+                    });
+                }
+            });
+            
+            document.getElementById('close-seasons').addEventListener('click', () => {
+                document.getElementById('seasons-panel').style.display = 'none';
+            });
+            
+            // Bouton Reset
+            document.getElementById('reset-all-btn').addEventListener('click', () => {
+                // Reset Date
+                simulatedDate = new Date();
+                updateDateDisplay();
+                // Reset Vitesse
+                timeSpeed = 0;
+                speedSlider.value = 0;
+                speedDisplay.innerText = "Pause";
+                // Reset Tilt
+                tiltSlider.value = 23.45;
+                updateTilt(23.45);
+                // Reset Caméra
+                controls.reset();
+                camera.position.set(0, 0, 6);
+            });
+
+            // Toggles
+            document.getElementById('toggle-markers').addEventListener('change', (e) => { 
+                markersGroup.visible = e.target.checked; 
+                if(labelsGroup) labelsGroup.visible = e.target.checked;
+            });
+            document.getElementById('toggle-orbit').addEventListener('change', (e) => { orbitGroup.visible = e.target.checked; });
+            document.getElementById('toggle-axis').addEventListener('change', (e) => { axisHelper.visible = e.target.checked; });
+            document.getElementById('toggle-terminator').addEventListener('change', (e) => { terminatorLine.visible = e.target.checked; });
+            document.getElementById('toggle-grid').addEventListener('change', (e) => { if(gridGroup) gridGroup.visible = e.target.checked; });
+
+            // Toggle UI
+            initToggleUI();
+
+            // Initialisation du Calendrier
+            initCalendar({
+                getSimulatedDate: () => simulatedDate,
+                setSimulatedDate: (d) => { simulatedDate = d; },
+                onDateChange: () => { updateDateDisplay(); }
+            });
+
+            // Bouton Aujourd'hui
+            document.getElementById('today-btn').addEventListener('click', () => {
+                simulatedDate = new Date();
+                updateDateDisplay();
+            });
+        }
+
+        function createEarth() {
+            // Groupe pour gérer l'inclinaison (Tilt)
+            earthGroup = new THREE.Group();
+            
+            // Appliquer l'inclinaison de 23.5 degrés sur l'axe Z
+            earthGroup.rotation.z = CONFIG.tilt; 
+            
+            scene.add(earthGroup);
+
+            // Géométrie et Matériau
+            const geometry = new THREE.SphereGeometry(1, 64, 64);
+            const textureLoader = new THREE.TextureLoader();
+            TextureCache.init(textureLoader); // Init Cache
+
+            // Utilisation de MeshPhongMaterial pour mieux gérer la brillance des océans (Specular Map)
+            const material = new THREE.MeshPhongMaterial({
+                color: 0xffffff,
+                specular: 0x333333,
+                shininess: 15
+            });
+
+            // 1. Texture de couleur (Jour)
+            TextureCache.get(CONFIG.textureUrl, (tex) => {
+                material.map = tex;
+                material.needsUpdate = true;
+            });
+
+            // 2. Normal Map (Relief)
+            TextureCache.get(CONFIG.normalUrl, (tex) => {
+                material.normalMap = tex;
+                material.normalScale.set(0.85, 0.85);
+            });
+
+            // 3. Specular Map (Reflets océans)
+            TextureCache.get(CONFIG.specularUrl, (tex) => {
+                material.specularMap = tex;
+            });
+
+            earthMesh = new THREE.Mesh(geometry, material);
+            earthGroup.add(earthMesh);
+
+            // Axe de rotation visuel (Ligne rouge traversant les pôles)
+            const axisGeo = new THREE.BufferGeometry().setFromPoints([
+                new THREE.Vector3(0, -1.5, 0),
+                new THREE.Vector3(0, 1.5, 0)
+            ]);
+            const axisMat = new THREE.LineBasicMaterial({ color: 0xff0000 });
+            axisHelper = new THREE.Line(axisGeo, axisMat);
+            earthGroup.add(axisHelper);
+
+            // Marqueurs géographiques (Équateur, Tropiques)
+            createEarthMarkers();
+
+            // Grille Lat/Lon
+            createGrid();
+
+            // Marqueur de Géolocalisation (Par défaut : Sombreffe)
+            createLocationMarker(50.518, 4.596);
+        }
+
+        function createStars() {
+            scene.add(createStarField(THREE, 2000, 50, 0.1));
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function createSunVisuals() {
+            orbitGroup = new THREE.Group();
+            scene.add(orbitGroup);
+
+            // 1. Ligne de l'orbite (Écliptique)
+            const orbitGeo = new THREE.BufferGeometry();
+            const points = [];
+            const steps = 128;
+            const startMs = Date.UTC(2026, 0, 1, 12, 0, 0); // Base pour tracer l'ellipse annuelle
+            for (let i = 0; i <= steps; i++) {
+                const stepDate = new Date(startMs + (i / steps) * 365.25 * MS_PER_DAY);
+                const pos = getSunPosition(stepDate); // Réutilise la logique avec l'excentricité e=0.017
+                points.push(new THREE.Vector3(pos.x, 0, -pos.z));
+            }
+            orbitGeo.setFromPoints(points);
+            const orbitMat = new THREE.LineBasicMaterial({ color: 0xffcc00, transparent: true, opacity: 0.3 });
+            const orbitLine = new THREE.Line(orbitGeo, orbitMat);
+            orbitGroup.add(orbitLine);
+
+            // 2. Corps du Soleil (Sphère visuelle à l'emplacement de la lumière)
+            const sunMesh = new THREE.Mesh(
+                new THREE.SphereGeometry(0.3, 16, 16),
+                new THREE.MeshBasicMaterial({ color: 0xffff00 })
+            );
+            sunLight.add(sunMesh); // Le mesh suivra automatiquement la lumière
+        }
+
+        function createEarthMarkers() {
+            markersGroup = new THREE.Group();
+            earthMesh.add(markersGroup);
+            
+            // Groupe pour les textes (attaché à earthGroup pour ne pas tourner avec la surface)
+            labelsGroup = new THREE.Group();
+            earthGroup.add(labelsGroup);
+
+            const rad = 1.01; // Légèrement au-dessus de la surface
+            
+            // Fonction utilitaire pour créer un cercle de latitude
+            function createLatLine(latDeg, color, isDashed = false) {
+                const latRad = latDeg * (Math.PI / 180);
+                const r = Math.cos(latRad) * rad;
+                const y = Math.sin(latRad) * rad;
+                
+                const points = [];
+                const segments = 64;
+                for(let i=0; i<=segments; i++) {
+                    const theta = (i/segments) * Math.PI * 2;
+                    points.push(new THREE.Vector3(Math.cos(theta)*r, y, Math.sin(theta)*r));
+                }
+                const geo = new THREE.BufferGeometry().setFromPoints(points);
+                const mat = isDashed 
+                    ? new THREE.LineDashedMaterial({ color: color, dashSize: 0.1, gapSize: 0.05, transparent: true, opacity: 0.8 })
+                    : new THREE.LineBasicMaterial({ color: color, transparent: true, opacity: 0.6 });
+                
+                const line = new THREE.Line(geo, mat);
+                if (isDashed) line.computeLineDistances();
+                return line;
+            }
+
+            // Équateur (Cyan #4da8da - Couleur UI principale)
+            markersGroup.add(createLatLine(0, 0x4da8da));
+
+            // Tropiques (+/- 23.5°) (Orange #ffaa00 - Couleur solaire)
+            markersGroup.add(createLatLine(23.5, 0xffaa00, true)); // Cancer
+            markersGroup.add(createLatLine(-23.5, 0xffaa00, true)); // Capricorne
+            
+            // Étiquettes Textuelles
+            function createLabel(text, color) {
+                const canvas = document.createElement('canvas'); canvas.width = 512; canvas.height = 128;
+                const ctx = canvas.getContext('2d');
+                ctx.font = 'bold 24px sans-serif'; ctx.fillStyle = color; ctx.textAlign = 'center';
+                ctx.shadowColor = 'black'; ctx.shadowBlur = 4;
+                ctx.fillText(text, 256, 70);
+                const texture = new THREE.CanvasTexture(canvas);
+                const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map: texture, transparent: true, depthTest: false }));
+                sprite.scale.set(1.5, 0.375, 1);
+                return sprite;
+            }
+            
+            const lblEquator = createLabel("Équateur", "#4da8da"); lblEquator.position.set(1.2, 0, 0);
+            const lblCancer = createLabel("Tropique du Cancer", "#ffaa00"); lblCancer.position.set(1.2, 0.4, 0);
+            const lblCapricorn = createLabel("Tropique du Capricorne", "#ffaa00"); lblCapricorn.position.set(1.2, -0.4, 0);
+            
+            labelsGroup.add(lblEquator, lblCancer, lblCapricorn);
+        }
+
+        function createGrid() {
+            gridGroup = new THREE.Group();
+            earthMesh.add(gridGroup);
+            gridGroup.visible = false;
+
+            const mat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.15 });
+            const rad = 1.005; // Légèrement au-dessus de la surface
+
+            // Parallèles (Latitude)
+            for (let lat = -80; lat <= 80; lat += 10) {
+                if (lat === 0) continue; // On a déjà l'équateur en couleur
+                const latRad = lat * (Math.PI / 180);
+                const r = Math.cos(latRad) * rad;
+                const y = Math.sin(latRad) * rad;
+                const points = [];
+                for (let i = 0; i <= 64; i++) {
+                    const theta = (i / 64) * Math.PI * 2;
+                    points.push(new THREE.Vector3(Math.cos(theta) * r, y, Math.sin(theta) * r));
+                }
+                gridGroup.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), mat));
+            }
+
+            // Méridiens (Longitude)
+            for (let lon = 0; lon < 360; lon += 15) {
+                const lonRad = lon * (Math.PI / 180);
+                const points = [];
+                for (let i = 0; i <= 64; i++) {
+                    const lat = (i / 64) * Math.PI - Math.PI / 2;
+                    const x = Math.cos(lat) * Math.cos(lonRad) * rad;
+                    const y = Math.sin(lat) * rad;
+                    const z = Math.cos(lat) * Math.sin(lonRad) * rad;
+                    points.push(new THREE.Vector3(x, y, z));
+                }
+                gridGroup.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(points), mat));
+            }
+        }
+
+        function createLocationMarker(lat, lon) {
+            // Supprimer l'ancien marqueur s'il existe
+            if (userMarker) earthMesh.remove(userMarker);
+
+            // Conversion Lat/Lon vers Coordonnées Sphériques 3D
+            // Note : Ajustement des angles pour correspondre au mapping standard des textures Three.js
+            const phi = (90 - lat) * (Math.PI / 180);
+            const theta = (lon + 180) * (Math.PI / 180); // Décalage de 180° souvent nécessaire selon la texture
+            const r = 1.01; // Légèrement au-dessus de la surface
+
+            const x = -r * Math.sin(phi) * Math.cos(theta);
+            const z = r * Math.sin(phi) * Math.sin(theta);
+            const y = r * Math.cos(phi);
+
+            // Création du marqueur (Petit point rouge)
+            const geometry = new THREE.SphereGeometry(0.015, 16, 16);
+            const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+            
+            userMarker = new THREE.Mesh(geometry, material);
+            userMarker.position.set(x, y, z);
+            
+            earthMesh.add(userMarker);
+        }
+
+        function getSunPosition(date) {
+            // Calcul simplifié de la position du Soleil sur l'écliptique
+            const start = new Date(Date.UTC(2000, 0, 1, 12, 0, 0));
+            const days = (date - start) / MS_PER_DAY;
+            
+            const L = (280.460 + 0.9856474 * days) % 360;
+            const g = (357.528 + 0.9856003 * days) % 360;
+            const radG = g * (Math.PI / 180);
+            
+            // Équation du centre
+            const C = 1.915 * Math.sin(radG) + 0.020 * Math.sin(2 * radG);
+            const lambda = L + C;
+            const radLambda = lambda * (Math.PI / 180);
+
+            // Anomalie vraie (theta) avec l'équation du centre
+            const theta = g + C;
+            const radTheta = theta * (Math.PI / 180);
+
+            // Rayon orbital dynamique basé sur e = 0.017
+            const a = 1.0;
+            const e = 0.017;
+            const distUA = a * (1 - e * e) / (1 + e * Math.cos(radTheta));
+
+            // Position visuelle 3D calculée avec la vraie distance simulée
+            const x = Math.cos(radLambda) * CONFIG.sunDistance * distUA;
+            const z = Math.sin(radLambda) * CONFIG.sunDistance * distUA;
+
+            return { x, z, lambda: lambda % 360, distUA: distUA };
+        }
+
+        // Calcul astronomique simplifié des saisons (Algorithme de Meeus)
+        function getSeasons(year) {
+            const Y = (year - 2000) / 1000;
+            const jd_march = 2451623.80984 + 365242.37404 * Y + 0.05169 * Y*Y - 0.00411 * Y*Y*Y - 0.00057 * Y*Y*Y*Y;
+            const jd_june = 2451716.56767 + 365241.62603 * Y + 0.00325 * Y*Y + 0.00888 * Y*Y*Y - 0.00030 * Y*Y*Y*Y;
+            const jd_sept = 2451810.21715 + 365242.01767 * Y - 0.11575 * Y*Y + 0.00337 * Y*Y*Y + 0.00078 * Y*Y*Y*Y;
+            const jd_dec = 2451900.05952 + 365242.74049 * Y - 0.06223 * Y*Y - 0.00823 * Y*Y*Y + 0.00032 * Y*Y*Y*Y;
+
+            function jdToDate(jd) {
+                const z = Math.floor(jd + 0.5);
+                const f = jd + 0.5 - z;
+                let alpha = Math.floor((z - 1867216.25) / 36524.25);
+                let a = z + 1 + alpha - Math.floor(alpha / 4);
+                let b = a + 1524;
+                let c = Math.floor((b - 122.1) / 365.25);
+                let d = Math.floor(365.25 * c);
+                let e = Math.floor((b - d) / 30.6001);
+                let day = b - d - Math.floor(30.6001 * e) + f;
+                let month = e < 14 ? e - 1 : e - 13;
+                let year = month > 2 ? c - 4716 : c - 4715;
+                return new Date(Date.UTC(year, month - 1, Math.floor(day), Math.floor((day % 1) * 24), Math.floor((((day % 1) * 24) % 1) * 60)));
+            }
+
+            return {
+                march: jdToDate(jd_march),
+                june: jdToDate(jd_june),
+                sept: jdToDate(jd_sept),
+                dec: jdToDate(jd_dec)
+            };
+        }
+
+        function animate() {
+            if (document.hidden) {
+                setTimeout(animate, 500); // Mode économie d'énergie
+                return;
+            }
+            requestAnimationFrame(animate);
+
+            if (isViewAnimating) {
+                camera.position.lerp(targetCameraPos, 0.05);
+                if (camera.position.distanceTo(targetCameraPos) < 0.1) {
+                    isViewAnimating = false;
+                }
+            }
+
+            // Avancement du temps
+            if (timeSpeed > 0) {
+                simulatedDate.setTime(simulatedDate.getTime() + (timeSpeed * MS_PER_DAY));
+                updateDateDisplay();
+            }
+
+            // Rotation de la Terre sur elle-même (Cycle Jour/Nuit)
+            if (earthMesh) {
+                earthMesh.rotation.y += CONFIG.rotationSpeed;
+            }
+
+            // Mise à jour position Soleil
+            const sunPos = getSunPosition(simulatedDate);
+            sunLight.position.set(sunPos.x, 0, -sunPos.z);
+
+            // Mise à jour du terminateur (toujours face au soleil)
+            if (terminatorLine) terminatorLine.lookAt(sunLight.position);
+
+            controls.update();
+            renderer.render(scene, camera);
+            updateUI(sunPos.lambda, sunPos.distUA);
+        }
+
+        function updateUI(lambda, distUA) {
+            const sunAngleDisplay = document.getElementById('sun-angle');
+            const sunDistDisplay = document.getElementById('sun-dist');
+            const saisonDisplay = document.getElementById('saison-display');
+            
+            // Détermination de la saison (Approximation Hémisphère Nord)
+            let saison = "";
+            if (lambda >= 330 || lambda < 60) saison = "Hiver ❄️ / Printemps 🌱";
+            else if (lambda >= 60 && lambda < 150) saison = "Printemps 🌱 / Été ☀️";
+            else if (lambda >= 150 && lambda < 240) saison = "Été ☀️ / Automne 🍂";
+            else saison = "Automne 🍂 / Hiver ❄️";
+
+            if(saisonDisplay) saisonDisplay.innerText = saison;
+            if(sunAngleDisplay) sunAngleDisplay.innerText = `Long. Écliptique : ${Math.round(lambda)}°`;
+            
+            if (sunDistDisplay) {
+                sunDistDisplay.innerText = distUA.toFixed(3);
+                if (distUA < 0.985) sunDistDisplay.style.color = "#00ffff"; // Périhélie (plus proche, froid dans Nord)
+                else if (distUA > 1.015) sunDistDisplay.style.color = "#ff6666"; // Aphélie (plus loin, chaud dans l'Nord)
+                else sunDistDisplay.style.color = "#ffffff";
+            }
+        }
+
+        // --- LOGIQUE CALENDRIER (Identique au Simu 3D) ---
+        function updateDateDisplay() {
+            dateInput.value = simulatedDate.toISOString().split('T')[0];
+            dateDisplay.innerText = simulatedDate.toLocaleDateString('fr-FR');
+        }
+
+        // --- GARBAGE COLLECTOR & WEBGL CONTEXT HANDLING ---
+        initGarbageCollector(scene, renderer);
+        initWebGLContextHandling(renderer, animate);
+    </script>
+
+</body>
+</html>
