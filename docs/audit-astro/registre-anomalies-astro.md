@@ -40,12 +40,25 @@
   de header auparavant). **RÈGLE D'OR** inscrite dans `ASTRO.md` : ne plus jamais éditer un
   `<header>`/`<footer>` à la main.
 
-## A-04 — 🟠 `album.html` : galerie entièrement vide
+## A-04 — ✅ INFIRMÉE le 11/10/2026 — `album.html` est REMPLIE (25 photos)
 
-- **Statut** : CONFIRMÉ
-- **Description** : la galerie ne contient que des blocs `gallery__placeholder` avec emojis. **Aucune photographie réelle.**
-- **Élément nouveau** : 25 photos Seestar S50 vérifiées et exploitables sont désormais disponibles (voir `inventaire-photos-seestar.md`). Le blocage n'est plus technique.
-- **Décision attendue** : intégrer les photos, assumer l'état « démo », ou retirer la galerie.
+- **Statut initial** : CONFIRMÉ — « la galerie ne contient que des blocs `gallery__placeholder` avec emojis. Aucune photographie réelle. »
+- **RECTIFICATION (11/10/2026)** : **le constat est FAUX**. Mesures :
+  - `images/album/` → **25 fichiers `.jpg`**, **2,1 Mo** au total.
+  - `album.html` → **25 balises `<img>`**, **toutes** pointant vers `images/album/…`.
+  - **0 doublon** : les 25 empreintes MD5 sont **toutes distinctes** (les ressemblances
+    `c23-ngc891.jpg` / `ngc891.jpg` sont des **versions différentes**, pas des copies).
+  - **6 catégories** présentes (Lune, Soleil, Planètes, Ciel profond, …), `alt` descriptifs,
+    dates d'observation, vignettes cliquables.
+  - Vérifié **en production** : `tofdan.be/album.html` affiche bien les 25 figures.
+- **Cause de l'erreur** : le constat datait de septembre 2026 ; **la galerie a été remplie
+  depuis**, mais le registre n'a pas été mis à jour. J'ai moi-même relayé ce constat périmé
+  le 11/10 avant de le vérifier — **c'est l'erreur que cette entrée corrige**.
+- **⚠️ Conséquence méthodologique** : ne jamais présenter une anomalie de registre comme
+  actuelle **sans la re-mesurer**. Un registre qui n'est pas re-vérifié devient une source
+  de fausses croyances.
+- **Action** : **aucune** — la galerie est fonctionnelle. Seule piste d'amélioration :
+  le poids (2,1 Mo) et l'absence de miniatures redimensionnées.
 
 ## A-05 — ✅ RÉSOLU (11/10/2026) — `chat.html` : aucun moyen réel de contacter
 
@@ -92,9 +105,11 @@
 
 ## A-09 — 🟡 `js/meteo.js` jamais versionné
 
-- **Statut** : CONFIRMÉ
-- **Description** : `meteo.js` est référencé sans `?v=` sur toutes les pages qui l'utilisent, contrairement à `main.js`.
-- **Impact** : une correction dans `meteo.js` peut ne pas atteindre les visiteurs ayant le fichier en cache.
+- **Statut** : CONFIRMÉ — **re-mesuré le 11/10/2026**
+- **Description** : `meteo.js` est référencé sans `?v=` sur les pages qui l'utilisent, contrairement à `main.js` (`?v=1785752541`, cohérent sur 11 pages).
+- **Mesure du 11/10/2026** : `grep -o "meteo.js?v=[0-9]*" *.html` → **0 occurrence**. Le fichier pèse **21 330 o** (632 lignes).
+- **Impact** : une correction dans `meteo.js` peut ne pas atteindre les visiteurs ayant le fichier en cache. Même classe de défaut que `contact-chat.js` (corrigé le jour même).
+- **Correctif** : ajouter `?v=<timestamp>` sur les références de `meteo.js`. ⚠️ Non appliqué — à faire dans un lot dédié (le fichier n'est pas dans la liste des fichiers touchés par le Lot 5).
 
 ## A-10 — 🟡 Neuf blocs `<script>` inline, dupliqués
 
@@ -189,15 +204,18 @@
   `hermes.html` porte encore l'ancienne valeur. Même piège de cache qu'A-08.
 - **Action** : aucune de mon côté — zone Hermes. **Signalé à Michel.**
 
-## A-21 — ℹ️ OUVERT — Application hébergée hors domaine
+## A-21 — ✅ RÉSOLUE le 11/10/2026 — Application rapatriée sous tofdan.be
 
-- **Statut** : **SIGNALÉ à Christophe** — aucune action décidée
-- **Description** : `app-astro.html` (bouton « 🚀 Lancer l'application ») pointe vers
+- **Statut** : **RÉSOLUE** — l'application est désormais servie par `tofdan.be`
+- **Description initiale** : `app-astro.html` (bouton « 🚀 Lancer l'application ») pointait vers
   `christophedanhier-hash.github.io/Projet-Astro/www/index.html` — **hors de tofdan.be**.
-- **Mesuré le 02/10/2026** : le lien répond **HTTP 200** (il fonctionne).
-- **Risque** : si le compte GitHub renomme, passe privé ou supprime le dépôt,
-  le lien casse **sans préavis**. L'application n'est pas sous contrôle de tofdan.be.
-- **Décision attendue** : conserver tel quel / rapatrier sous tofdan.be / laisser.
+- **Résolution** : l'application a été **rapatriée** dans `app/` (10 fichiers, 1,5 Mo,
+  autonome).  Le bouton pointe désormais vers **`app/index.html`**.
+- **Vérifié le 11/10/2026** : `tofdan.be/app/` → **10/10 fichiers en HTTP 200** ;
+  canvas **1280×633**, **WebGL 2.0 actif**, **0 erreur JS** ; **0 référence `github.io`**
+  subsistante sur le site. Commit `52f8c7a`.
+- **Bénéfice** : l'application est désormais **sous contrôle de tofdan.be** ; le risque de
+  rupture silencieuse (renommage / suppression du dépôt GitHub) est **écarté**.
 
 ## A-22 — ℹ️ OBSERVATION — Poids de `js/meteo.js`
 
@@ -249,7 +267,9 @@ Lot 4 — décisions de Christophe : « 1) option A 2) Option A 3) Option A ».
 > **8 pages sur 11 n'avaient aucun lien vers Hermes** — avec 3 écritures différentes
 > (« absent », « Hermès », « 🤖 Hermes »). Le header unique les harmonise.
 
-**Restent ouvertes** : A-09, A-14 (décision), A-20 (Michel), A-21 (décision Christophe), A-22 (mineur).
+**Restent ouvertes** : A-04 (à re-qualifier), A-09 (cache-bust `meteo.js`), A-10 (scripts inline), A-14 (décision), A-20 (Michel), A-22 (mineur).
+**✅ Résolues** : A-01, A-02, A-03, A-05, A-06, A-08, A-11 (infirmée), A-12, A-15, A-16, A-17, A-18, A-19, A-21.
+**⚠️ Écart corrigé le 11/10/2026** : cette ligne listait A-01, A-02 et A-05 comme ouvertes **alors que le registre les donnait résolues depuis les commits `52f8c7a`/`904ab00`**. La synthèse était périmée par rapport au corps du document. A-21 est passée « en attente de décision » → **résolue** (application rapatriée).
 
 ### ✅ Résolues le 11/10/2026 — Lot 5 « contact » (délégation Copilot)
 
