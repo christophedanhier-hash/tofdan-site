@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
+# Zones privées — non indexables (défense en profondeur, correctif Gérard 11/10/2026)
+Disallow: /hermes/
+Disallow: /hermes.html
+Disallow: /login.html
+Disallow: /dashboard/
+Disallow: /docs/
+Disallow: /bavi/
+Disallow: /emile/
+Disallow: /leo-chat/
 
 Sitemap: https://tofdan.be/sitemap.xml
