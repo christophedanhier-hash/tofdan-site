@@ -49,6 +49,12 @@
   --header-bg: rgba(10, 10, 26, 0.85);
 }
 
+/* Thème sombre (défaut, sans data-theme="light") : primaire/accent éclaircis pour WCAG AA */
+:root:not([data-theme="light"]) {
+  --color-primary: #7872e5;
+  --color-accent: #9765ed;
+}
+
 /* ===== THÈME CLAIR (JOUR) ===== */
 [data-theme="light"] {
   --color-bg: #f8fafc;
