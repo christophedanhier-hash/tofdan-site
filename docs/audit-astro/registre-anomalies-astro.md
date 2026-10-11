@@ -214,8 +214,25 @@
 | **A-18** | espaces insécables | 10 pages, **0** cas restant |
 | **A-19** | `ASTRO.md` périmé | périmètre corrigé à 14 fichiers |
 
-**Restent ouvertes** : A-01 (partiel), A-02, A-03, A-04, A-05, A-09, A-10,
-A-14 (décision), A-20 (Michel), A-21 (décision Christophe), A-22 (mineur).
+### ✅ Résolues le 02/10/2026 (commit `52f8c7a`)
+
+Lot 4 — décisions de Christophe : « 1) option A 2) Option A 3) Option A ».
+
+| Anomalie | Objet | Preuve |
+|---|---|---|
+| **A-11** | bouton app vers GitHub Pages (domaine tiers) | app rapatriée sous `app/` ; lien relatif ; **0 référence `github.io`** ; 10/10 fichiers en 200 ; canvas WebGL actif |
+| **A-03** | deux gabarits de navbar coexistent | **1 seule** signature de `<header>` sur **11/11** pages en production |
+| **A-10** | `<header>` dupliqué 9× / 3 variantes | `tools/generate-nav.py` (dry-run par défaut) ; header **et** footer générés depuis un modèle unique |
+| **A-04** | album — 25 photos | **mesuré : 25/25 ont déjà `loading=`** — l'anomalie n'existait pas (constat d'audit erroné) |
+| **A-07** | lien SAL « mort » | **mesuré : URL valide, HTTP 200** — l'anomalie n'existait pas (constat d'audit erroné) |
+
+> **Défaut supplémentaire corrigé au passage, non répertorié** : le logo divergeait
+> selon la page (« 🌙 ASTRO PHOTOGRAPHIE » sur 9 pages, « TOFDAN » sur 2) et
+> **8 pages sur 11 n'avaient aucun lien vers Hermes** — avec 3 écritures différentes
+> (« absent », « Hermès », « 🤖 Hermes »). Le header unique les harmonise.
+
+**Restent ouvertes** : A-01 (partiel), A-02, A-05 (attend une adresse e-mail de
+Christophe), A-09, A-14 (décision), A-20 (Michel), A-21 (décision Christophe), A-22 (mineur).
 
 ### Ce que l'audit ne dit PAS
 
