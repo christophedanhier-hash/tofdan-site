@@ -6,6 +6,14 @@
 **Développement** : Copilot CLI, modèle `claude-sonnet-5.5`, dans le dépôt
 **Commit final** : `85a6109` — déployé et vérifié en production
 
+### ✅ Validation Christophe — 11/10/2026, 21h06 CEST
+
+> « je valide, je viens de parcourir le site »
+
+**Validation faite sur le site en production lui-même**, après parcours réel des pages
+— et non sur le rapport de livraison. C'est la validation qui compte : l'utilisateur
+a vu le résultat de ses yeux.
+
 ---
 
 ## Résultat
