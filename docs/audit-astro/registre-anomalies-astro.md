@@ -14,28 +14,31 @@
 
 ---
 
-## A-01 — 🔴 Navbar non stylée sur `cgu.html` et `mentions-legales.html`
+## A-01 — ✅ RÉSOLU (11/10/2026) — Navbar non stylée sur `cgu.html` et `mentions-legales.html`
 
-- **Statut** : CONFIRMÉ
-- **Ouvert par** : Copilot CLI, revérifié par mesure directe
-- **Description** : ces deux pages utilisent un gabarit de navigation abandonné. La feuille `css/style.css` ne contient **aucune** règle `.header__nav` ni `.header__nav-link` (0 occurrence vérifiée). Les liens s'affichent donc avec le style navigateur par défaut.
-- **Écarts mesurés** : 5 liens au lieu de 9 · pas de bouton burger mobile · pas de bouton thème jour/nuit · **`main.js` non chargé**
-- **Impact** : rupture visuelle franche quand un visiteur quitte l'univers astro ; ces pages paraissent « cassées ».
-- **Note de périmètre** : ces deux fichiers figurent dans la liste ASTRO.md, mais leur correction **touche à la navigation cross-zone** (voir A-02) → validation préalable requise.
+- **Statut** : **CORRIGÉ** — commits `52f8c7a` (header unifié) et *à venir* (contact)
+- **Cause** : ces deux pages utilisaient un gabarit de navigation abandonné (« TOFDAN » nu, 5 liens, sans burger ni bouton thème, `main.js` non chargé).
+- **Correction** : `tools/generate-nav.py` a réécrit `<header>` et `<footer>` depuis un modèle unique sur les 11 pages → ces deux pages ont désormais **le header astro complet** (burger, thème, 10 liens).
+- **Preuve** : **1 seule signature de `<header>` sur 11/11 pages** ; `main.js` désormais chargé sur les 2 pages.
+- **Reste** : sur `mentions-legales.html`, la phrase « vous pouvez contacter l'éditeur via le site » est **vague mais vraie** depuis l'ajout du formulaire (elle était fausse avant).
 
-## A-02 — 🟠 Lien vers `hermes.html` depuis les pages publiques
+## A-02 — ✅ RÉSOLU (11/10/2026) — Lien vers `hermes.html` depuis les pages publiques
 
-- **Statut** : CONFIRMÉ
-- **Description** : `cgu.html` et `mentions-legales.html` pointent vers `hermes.html`, qui se trouve derrière authentification par cookie.
-- **Impact** : un visiteur non authentifié qui clique est renvoyé vers une page protégée (302), au lieu du point de contact public.
-- **Dépendance** : le remplacement du lien est **indissociable** de A-01 (même gabarit). Décision à confirmer avec Christophe et LEO.
+- **Statut** : **CORRIGÉ** — commit `52f8c7a`
+- **Correction** : le header unique pointe vers **`/hermes/`** (URL canonique) sur les 11 pages,
+  au lieu du lien mort/erroné vers `hermes.html`. Vérifié : `hermes.html` et `/hermes/` mènent
+  tous deux au même écran d'authentification (302 → `/hermes/auth/google`).
+- **Note** : le libellé est désormais **`🤖 Hermes`** partout (3 écritures coexistaient : absent,
+  « Hermès » accentué, « 🤖 Hermes »).
 
-## A-03 — 🟠 Deux gabarits de navbar coexistent dans le dépôt
+## A-03 — ✅ RÉSOLU (11/10/2026) — Deux gabarits de navbar coexistent dans le dépôt
 
-- **Statut** : CONFIRMÉ
-- **Description** : dérive de gabarit classique — un modèle « astro » (9 liens, burger, thème) et un modèle « ancien » (5 liens, nu). Aucun système de template : le bloc header+nav est **répliqué à l'identique dans 8 fichiers**.
-- **Cause racine** : absence de factorisation.
-- **Conséquence** : toute évolution de navigation doit être répétée manuellement 8 fois, avec risque d'oubli — c'est exactement ce qui a produit A-01.
+- **Statut** : **CORRIGÉ** — commit `52f8c7a`
+- **Correction** : `tools/generate-nav.py` (193 lignes) = **source unique** de `<header>` et
+  `<footer>` pour les 11 pages astro. Mode **dry-run par défaut** ; `--apply` écrit et crée un `.bak`.
+- **Preuve** : **1 seule signature** de header **et** de footer sur les 11 pages (contre 3 variantes
+  de header auparavant). **RÈGLE D'OR** inscrite dans `ASTRO.md` : ne plus jamais éditer un
+  `<header>`/`<footer>` à la main.
 
 ## A-04 — 🟠 `album.html` : galerie entièrement vide
 
@@ -44,12 +47,27 @@
 - **Élément nouveau** : 25 photos Seestar S50 vérifiées et exploitables sont désormais disponibles (voir `inventaire-photos-seestar.md`). Le blocage n'est plus technique.
 - **Décision attendue** : intégrer les photos, assumer l'état « démo », ou retirer la galerie.
 
-## A-05 — 🟠 `chat.html` : message « formulaire en construction », aucun formulaire réel
+## A-05 — ✅ RÉSOLU (11/10/2026) — `chat.html` : aucun moyen réel de contacter
 
-- **Statut** : CONFIRMÉ
-- **Description** : la page annonce un formulaire mais ne contient **aucune balise `<form>`**.
-- **Conséquence mesurable** : tout le code de validation présent dans `main.js` (`#contact-form`, `#name`, `#email`, `#message`) est **du code mort** — il ne peut jamais s'exécuter.
-- **Impact** : un visiteur ne peut pas contacter Christophe depuis cette page.
+- **Statut** : **CORRIGÉ**
+- **⚠️ Correction du constat initial** : j'avais écrit « la page annonce un formulaire mais ne
+  contient aucune `<form>` ». **Faux après vérification** : la page affichait honnêtement
+  « Formulaire en construction » et renvoyait vers Facebook. Ce n'était pas un mensonge,
+  **c'était un aveu** — mais le visiteur n'avait effectivement **aucun moyen d'écrire**,
+  et `mentions-legales.html` affirmait à tort qu'un formulaire existait.
+- **Correction apportée** : formulaire de contact réel (nom, e-mail, message) → à la soumission,
+  ouverture du **client mail** du visiteur, pré-rempli (objet + corps).
+- **Décisions de Christophe** : adresse `christophe.danhier@gmail.com` ; mécanisme **mailto**.
+- **Anti-spam** : l'adresse **n'est pas présente en clair** dans le HTML servi
+  (`occurrences de « danhier@gmail » = 0`). Elle est assemblée par le JavaScript.
+- **Réutilisation** : le code de validation de `main.js` (`#contact-form`, `#name`, `#email`,
+  `#message`) **n'était pas mort par accident** — il attendait exactement ce formulaire.
+  Il est désormais **actif** (vérifié : validation à vide → 3 erreurs affichées ;
+  valide → formulaire masqué + message de succès + `mailto:` construit).
+- **Correction associée** : `mentions-legales.html` disait « Contact : via le formulaire
+  disponible sur le site » **alors qu'aucun formulaire n'existait** — indication fausse dans
+  une page légale. Remplacée par l'adresse (obfusquée) **et** un lien vers la page Contact.
+- **Livré par** : Copilot CLI (`claude-sonnet-5.5`), brief et vérification par Gérard.
 
 ## A-06 — 🟠 `og:image` pointe vers un fichier absent
 
@@ -231,8 +249,47 @@ Lot 4 — décisions de Christophe : « 1) option A 2) Option A 3) Option A ».
 > **8 pages sur 11 n'avaient aucun lien vers Hermes** — avec 3 écritures différentes
 > (« absent », « Hermès », « 🤖 Hermes »). Le header unique les harmonise.
 
-**Restent ouvertes** : A-01 (partiel), A-02, A-05 (attend une adresse e-mail de
-Christophe), A-09, A-14 (décision), A-20 (Michel), A-21 (décision Christophe), A-22 (mineur).
+**Restent ouvertes** : A-09, A-14 (décision), A-20 (Michel), A-21 (décision Christophe), A-22 (mineur).
+
+### ✅ Résolues le 11/10/2026 — Lot 5 « contact » (délégation Copilot)
+
+Travail **délégué à Copilot CLI** (`claude-sonnet-5.5`) et **vérifié par Gérard** —
+premier chantier mené en délégation complète, dans le dépôt, conformément à la
+consigne de Christophe (« tu délègues complètement le dev et tu orchestres »).
+
+| Anomalie | Objet | Preuve |
+|---|---|---|
+| **A-05** | `chat.html` sans moyen de contact | formulaire réel (3 champs) ; validation active ; `mailto:` construit ; adresse **absente du HTML servi** |
+| **A-01** | navbar non stylée (2 pages) | header astro complet ; `main.js` chargé ; **1 signature `<header>` sur 11 pages** |
+| **A-02** | lien vers `hermes.html` | pointe vers **`/hermes/`** (canonique) sur les 11 pages |
+
+> **Ce que Copilot a livré :** HTML conforme aux IDs attendus par `main.js` (contrainte la plus
+> subtile du brief) ; `main.js` **intact** ; obfuscation de l'adresse (`gm`+`ail`) ; structure
+> `.form__error` correcte (le CSS fonctionne).
+>
+> **Ce que Copilot a raté :** 1 tâche sur 4 **inachevée** au 1er passage (balise `<script>` ajoutée
+> aux mentions légales **sans corriger la phrase fausse**) ; **son résumé était faux**
+> (`+36 -0` annoncé, `+32 -4` réel). Corrigé au 2ᵉ passage (reprise de session).
+>
+> **Leçon confirmée** : un « c'est fait » d'agent **n'est pas une preuve**. Sans relecture,
+> une page légale aurait continué à indiquer un formulaire inexistant.
+
+### 🚨 Faux positifs de Gérard écartés le 11/10/2026
+
+Trois constats alarmants se sont révélés **faux** — tous de la même famille : **l'instrument
+de mesure, pas le code**.
+
+1. **« Les erreurs du formulaire ne s'affichent pas »** → faux : mon regex de contrôle était
+   incorrect. Vérification manuelle : la structure `.form__error` est conforme, le CSS fonctionne.
+2. **« Le formulaire accepte une soumission vide »** → faux : mon clic sur le bouton
+   **ne déclenchait pas** le `submit` natif dans le navigateur headless. Avec `requestSubmit()`,
+   la validation fonctionne parfaitement.
+3. **« `<strong></strong>` vides dans les mentions légales »** → faux : l'arbre d'accessibilité
+   du navigateur headless **n'affiche pas** le contenu des `<strong>`. Le HTML réel contient
+   bien `tofdan.be` et `LEO Server`.
+
+> **Leçon n°2, trois fois dans la même journée** : « tout est cassé » est presque toujours
+> **mon test qui est cassé**. Ne jamais conclure d'une seule mesure ni d'un seul outil.
 
 ### Ce que l'audit ne dit PAS
 

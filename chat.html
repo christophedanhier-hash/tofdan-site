@@ -69,10 +69,36 @@
     <section class="section" style="padding-top: 0;">
       <div class="container">
 
-        <div class="construction-notice">
-          <div class="construction-notice__icon">🚧</div>
-          <h2 class="construction-notice__title">Formulaire en construction</h2>
-          <p class="construction-notice__text">Le formulaire de contact n'est pas encore disponible.<br>En attendant, retrouvez-nous sur <a href="https://www.facebook.com/tofdan" target="_blank" rel="noopener noreferrer">Facebook</a>.</p>
+        <div class="card">
+          <h2 class="card__title">Envoyer un message</h2>
+          <p>Vous pouvez aussi écrire directement à l'adresse suivante : <span id="contact-adresse"></span></p>
+          <form class="form" id="contact-form" novalidate aria-label="Formulaire de contact">
+            <div class="form__group">
+              <label class="form__label" for="name">Nom</label>
+              <input class="form__input" type="text" id="name" name="name" autocomplete="name" required>
+              <p class="form__error" role="alert">Veuillez indiquer votre nom.</p>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Adresse e-mail</label>
+              <input class="form__input" type="email" id="email" name="email" autocomplete="email" required>
+              <p class="form__error" role="alert">Veuillez saisir une adresse e-mail valide.</p>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="subject">Objet</label>
+              <input class="form__input" type="text" id="subject" name="subject">
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Message</label>
+              <textarea class="form__input form__textarea" id="message" name="message" rows="6" required></textarea>
+              <p class="form__error" role="alert">Veuillez écrire un message.</p>
+            </div>
+            <div class="form__actions">
+              <button type="submit" class="btn btn--primary">Envoyer</button>
+            </div>
+          </form>
+          <div class="form__success" id="form-success" role="status">
+            <p class="form__success-text">Votre logiciel de messagerie va s'ouvrir pour envoyer le message. Merci !</p>
+          </div>
         </div>
 
       </div>
@@ -97,6 +123,7 @@
 
   <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
   <script src="js/main.js?v=1785752541"></script>
+  <script src="js/contact-chat.js?v=1790954759"></script>
 
 </body>
 </html>
