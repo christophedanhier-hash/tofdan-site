@@ -68,7 +68,7 @@
 | **ADR-005** | **Thème jour/nuit via attribut `data-theme` sur `<html>` + `localStorage`** | Solution CSS-native : deux jeux de custom properties (`:root` sombre par défaut, `[data-theme="light"]` clair), persistance locale, basculement instantané sans rechargement | Media query `prefers-color-scheme` seule (pas de bascule manuelle), cookies (inutilement complexe) |
 | **ADR-006** | **Cache-busting manuel `?v=timestamp`** | Invalide le cache navigateur sans infrastructure (pas de hash de build) ; cohérent avec ADR-001 | Hash de contenu (nécessite un build), versioning sémantique (moins précis), headers `Cache-Control` nginx uniquement |
 | **ADR-007** | **Google Fonts via `<link rel="stylesheet">` dans `<head>` + `preconnect` + `preload`** | Suppression de l'ancien `@import` render-blocking (correctif R5 du 03/08/2026) ; `preconnect fonts.googleapis.com` + `preload` accélèrent la résolution ; `display=swap` dans l'URL GFonts | Auto-hébergement des polices (maintenance supplémentaire), polices système seules (perte du design) |
-| **ADR-008** | **Auth Hermes côté client dans `login.html`** — mot de passe `Leo2026` et cookie `hermes_auth` en JS | **Choix assumé par Christophe (03/08/2026)** : Nginx reste le vrai rempart via la validation du cookie sur les routes `/dashboard/`, `/docs/`, `/bavi/`, `/voyages/`. Le password JS est un second niveau volontaire, non critique, lisible dans la source | Auth serveur complète (effort backend disproportionné pour un usage personnel), suppression de la protection JS (régression UX) |
+| **ADR-008** | **Auth Hermes côté client dans `login.html`** — mot de passe `[secret-retire-le-2026-10-11]` et cookie `hermes_auth` en JS | **Choix assumé par Christophe (03/08/2026)** : Nginx reste le vrai rempart via la validation du cookie sur les routes `/dashboard/`, `/docs/`, `/bavi/`, `/voyages/`. Le password JS est un second niveau volontaire, non critique, lisible dans la source | Auth serveur complète (effort backend disproportionné pour un usage personnel), suppression de la protection JS (régression UX) |
 | **ADR-009** | **API Open-Meteo sans clé d'API** (gratuit, quota ~10 000 req/jour) | Zéro coût, zéro configuration serveur, accès immédiat aux données météo et de géocodage ; Nominatim/OSM pour le reverse geocoding | OpenWeatherMap (clé payante au-delà d'un quota), Météo-France (API non publique), implémentation serveur propre |
 | **ADR-010** | **Déploiement via clone git dans `/var/www/tofdan.be/`** | Traçabilité (chaque état = commit), rollback trivial (`git checkout`), cohérence entre le dépôt et le serveur ; `sudo chown -R www-data:www-data` + `reload nginx` suffit | FTP (pas de traçabilité), pipeline CI/CD (surcharge pour un seul développeur), rsync (perte du lien git) |
 
@@ -213,7 +213,7 @@ Navigateur (meteo-astro.html)
 ```
 Visiteur ──► login.html
   │  JS inline : hash(password) comparé à la valeur attendue
-  │  Si OK : document.cookie = 'hermes_auth=hermes-leo-2026; path=/'
+  │  Si OK : document.cookie = 'hermes_auth=[token-retire-le-2026-10-11]; path=/'
   │
   └──► hermes.html (hub LEO)
          Tuiles :
@@ -248,7 +248,7 @@ Clic #theme-toggle
 La protection réelle est entièrement assurée **par Nginx côté serveur** :
 
 ```
-Location /dashboard/ { require cookie hermes_auth=hermes-leo-2026 }
+Location /dashboard/ { require cookie hermes_auth=[token-retire-le-2026-10-11] }
 Location /docs/      { idem }
 Location /bavi/      { idem }
 Location /voyages/   { idem }
@@ -260,8 +260,8 @@ Sans cookie valide, Nginx renvoie 401/403 — indépendamment du JS client.
 
 | Élément | État |
 |---|---|
-| Mot de passe `Leo2026` | ⚠️ **En clair dans le JS** (visible via "Afficher le source") |
-| Token `hermes-leo-2026` | ⚠️ **En clair dans le JS** |
+| Mot de passe `[secret-retire-le-2026-10-11]` | ⚠️ **En clair dans le JS** (visible via "Afficher le source") |
+| Token `[token-retire-le-2026-10-11]` | ⚠️ **En clair dans le JS** |
 | Contournement | Trivial (cookie posable manuellement) |
 | **Décision** | **Choix assumé par Christophe (03/08/2026)** — Nginx = vrai rempart ; le password JS est un filtre de confort volontaire, non une vraie barrière de sécurité |
 
