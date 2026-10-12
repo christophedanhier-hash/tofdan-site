@@ -228,14 +228,54 @@
       "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
     }
   ],
-  "questions_observation": [],
-  "questions_guide": [],
+  "questions_observation": [
+    {
+      "q": "Quelle étoile est la plus facile à repérer ?",
+      "r": "Rigel (β Ori, mag 0,13), la plus brillante — mais Bételgeuse (α Ori, 0,42) est aussi immédiate à cause de sa teinte rouge-orangée caractéristique."
+    },
+    {
+      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
+      "r": "Les trois étoiles de la ceinture : Alnitak – Alnilam – Mintaka. Elles sont alignées à 0,01° près et brillent toutes autour de la magnitude 2."
+    },
+    {
+      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
+      "r": "Le contraste est spectaculaire : Bételgeuse rouge-orangée face à Rigel bleu-blanc. On peut le percevoir à l'œil nu, ce qui rend Orion idéale pour expliquer la couleur des étoiles."
+    },
+    {
+      "q": "La forme est-elle évidente à l'œil nu ?",
+      "r": "Oui, c'est l'une des figures les plus lisibles du ciel : un sablier avec une ceinture de trois étoiles en son milieu."
+    },
+    {
+      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
+      "r": "M 42, la nébuleuse d'Orion, est déjà perceptible à l'œil nu comme une tache floue — et spectaculaire aux jumelles. M 78 et les autres objets demandent un instrument."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Pourquoi Orion est-elle considérée comme la constellation de référence de l'hiver ?",
+      "r": "Parce qu'elle est très lumineuse (Rigel mag 0,13 et Bételgeuse mag 0,42), très étendue, et que ses trois étoiles de ceinture forment un alignement immédiatement reconnaissable."
+    },
+    {
+      "q": "Que trouve-t-on sous la ceinture d'Orion ?",
+      "r": "Les trois étoiles de la ceinture pointent vers le bas de la constellation, où se trouve l'épée : c'est là que se situe M 42, la grande nébuleuse d'Orion."
+    },
+    {
+      "q": "Pourquoi Bételgeuse et Rigel sont-elles de couleurs si différentes ?",
+      "r": "Bételgeuse est une supergéante rouge (type M1-M2Ia), Rigel une supergéante bleue (B8Ia). La couleur traduit la température de surface : Rigel est bien plus chaude que Bételgeuse."
+    }
+  ],
   "message_animation": "Orion est la constellation la plus riche du ciel d'hiver. On peut commencer par la ceinture — trois étoiles parfaitement alignées — puis montrer que la même zone contient la nébuleuse M42, des amas et des étoiles de luminosités très contrastées.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Orion » (074-orion.txt)",
     "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
     "manquantes": [],
-    "figure_pedagogique": "le sablier"
+    "figure_pedagogique": "le sablier",
+    "questions": {
+      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
+      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
+      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
+      "statut": "à relire par Christophe avant diffusion"
+    }
   }
 }

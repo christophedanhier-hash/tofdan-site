@@ -410,7 +410,7 @@
 
   function ecran5() {
     var d = etat.data;
-    var guide = d.questions_guide.map(function (qr) {
+    function blocQuestion(qr) {
       var rep = el('p', { class: 'reponse', text: qr.r });
       rep.hidden = true;
       var btn = el('button', { class: 'btn btn--outline', text: 'Voir la réponse', onclick: function () {
@@ -418,12 +418,14 @@
         btn.textContent = rep.hidden ? 'Voir la réponse' : 'Masquer la réponse';
       } });
       return el('div', { class: 'question' }, [el('p', null, [el('strong', { text: qr.q })]), btn, rep]);
-    });
+    }
+    var guide = (d.questions_guide || []).map(blocQuestion);
+    var observation = (d.questions_observation || []).map(blocQuestion);
     return el('section', null, [
       el('h1', { class: 'titre', text: 'Questions — ' + d.nom_fr }),
       el('div', { class: 'questions' }, guide),
       el('h2', { class: 'sous', text: "Questions d'observation" }),
-      el('ul', { class: 'observation' }, d.questions_observation.map(function (q) { return el('li', { text: q }); })),
+      el('div', { class: 'observation' }, observation),
       el('div', { class: 'nav-etapes' }, [
         boutonEtape('← Précédent', 4, 'btn--outline'),
         el('button', { class: 'btn btn--primary', text: 'Recommencer', onclick: function () { etat.traits = []; aller(1); } })

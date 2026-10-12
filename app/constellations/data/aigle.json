@@ -226,12 +226,30 @@
   }
  ],
  "questions_observation": [
-  "Quelle est l'étoile la plus facile à repérer ?",
-  "Quelles étoiles forment le groupe le plus reconnaissable ?",
-  "Quelle différence de couleur observes-tu entre les étoiles ?",
-  "La forme de l'Aigle est-elle évidente à l'œil nu ?",
-  "Quelles étoiles disparaissent lorsque le ciel devient plus lumineux ?",
-  "Quels objets nécessitent des jumelles ou un télescope ?"
+  {
+   "q": "Quelle est l'étoile la plus facile à repérer ?",
+   "r": "Altaïr (α Aql), magnitude 0,76 : c'est de loin la plus brillante de la constellation. Elle est encadrée par Tarazed (γ, mag 2,71) et Alshain (β, mag 3,87) — le trio dit « d'Altaïr »."
+  },
+  {
+   "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
+   "r": "Les trois étoiles alignées Tarazed – Altaïr – Alshain. Altaïr se situe presque exactement sur la ligne qui joint les deux autres."
+  },
+  {
+   "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
+   "r": "Altaïr est blanche (type A7V), Tarazed orangée (K3II), Alshain jaune (G8IV). La couleur d'une étoile traduit sa température de surface : les plus bleues sont les plus chaudes."
+  },
+  {
+   "q": "La forme de l'Aigle est-elle évidente à l'œil nu ?",
+   "r": "Non. Seul le trio central est immédiat ; la figure complète (le corps et la queue) demande de repérer des étoiles plus faibles comme η et θ Aql (mag 3,49 et 3,26)."
+  },
+  {
+   "q": "Quelles étoiles disparaissent lorsque le ciel devient plus lumineux ?",
+   "r": "Les moins brillantes d'abord : Alshain (3,87) et η Aql (3,49) avant Altaïr (0,76). Sous un ciel pollué, seule la partie centrale reste visible."
+  },
+  {
+   "q": "Quels objets nécessitent des jumelles ou un télescope ?",
+   "r": "Les objets du ciel profond de la constellation : ils sont bien plus faibles que les étoiles. Les jumelles suffisent pour les plus brillants ; un télescope est nécessaire pour les autres."
+  }
  ],
  "questions_guide": [
   {
@@ -268,6 +286,12 @@
    "NGC 6751 et NGC 6738 : distance ou magnitude non indiquée par l'Atlas",
    "Eta Aql est variable : magnitude non stable",
    "Figure : aucune carte IAU officielle n'impose un tracé unique. Le tracé retenu est documenté comme un choix."
-  ]
+  ],
+  "questions": {
+   "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
+   "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
+   "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
+   "statut": "à relire par Christophe avant diffusion"
+  }
  }
 }

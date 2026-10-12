@@ -491,11 +491,9 @@ table.fiche th {
 }
 
 .observation {
-  margin: 0;
-  padding-left: 20px;
-  font-size: 0.84rem;
-  color: var(--color-text-muted);
-  columns: 2 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 8px;
 }
 
 /* --- Petits ecrans (telephone) : empilement et defilement naturel ---------- */

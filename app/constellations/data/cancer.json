@@ -146,14 +146,54 @@
       "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
     }
   ],
-  "questions_observation": [],
-  "questions_guide": [],
+  "questions_observation": [
+    {
+      "q": "Quelle étoile est la plus facile à repérer dans le Cancer ?",
+      "r": "Tarf (β Cnc), magnitude 3,52 — la plus brillante de la constellation. Elle marque l'une des extrémités du dessin."
+    },
+    {
+      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
+      "r": "Pour un observateur débutant, ce n'est pas une étoile mais M 44, la Crèche : la tache laiteuse au centre de la constellation. Les étoiles du Cancer, elles, sont faibles et dispersées."
+    },
+    {
+      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
+      "r": "Tarf est orangée (type K4III), Asellus Borealis blanche (A1Va), Iota Cancri jaune (G8III). Ces oppositions de couleur sont plus faciles à percevoir sur les étoiles brillantes."
+    },
+    {
+      "q": "La constellation est-elle évidente à l'œil nu ?",
+      "r": "Non — c'est l'une des plus discrètes du zodiaque. Sans M 44 comme point de départ, il est difficile de relier ses étoiles entre elles."
+    },
+    {
+      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
+      "r": "M 44 est déjà perceptible à l'œil nu mais se résout en étoiles aux jumelles. M 67, NGC 6791 et la galaxie NGC 2775 demandent un instrument."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Quel objet permet de repérer le Cancer, et pourquoi ?",
+      "r": "M 44, l'amas de la Crèche (« Praesepe »). Il est visible à l'œil nu sous un bon ciel, comme une tache laiteuse, alors que les étoiles de la constellation sont faibles : c'est le repère le plus sûr pour la trouver."
+    },
+    {
+      "q": "Pourquoi dit-on que le Cancer est une constellation « faible » ?",
+      "r": "Ses étoiles les plus brillantes sont de magnitude 3,52 à 4,65 — soit bien moins lumineuses que celles des constellations voisines. Sous un ciel pollué, elle devient difficile à voir."
+    },
+    {
+      "q": "Quelle différence y a-t-il entre un amas ouvert et une galaxie dans cette constellation ?",
+      "r": "M 44 et M 67 sont des amas ouverts : des groupes d'étoiles proches, liés par la gravitation, à l'intérieur de notre propre Galaxie. NGC 2775 est une galaxie : un ensemble d'étoiles situé bien au-delà de la Voie lactée."
+    }
+  ],
   "message_animation": "Le Cancer est une constellation discrète, idéale pour apprendre à repérer par un objet plutôt que par ses étoiles. On peut commencer par M44, l'amas de la Crèche, visible à l'œil nu sous un bon ciel, puis chercher les étoiles faibles qui l'entourent.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Cancer » (011-cancer.txt)",
     "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
     "manquantes": [],
-    "figure_pedagogique": "le Y (constellation faible)"
+    "figure_pedagogique": "le Y (constellation faible)",
+    "questions": {
+      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
+      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
+      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
+      "statut": "à relire par Christophe avant diffusion"
+    }
   }
 }

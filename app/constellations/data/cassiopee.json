@@ -171,14 +171,54 @@
       "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
     }
   ],
-  "questions_observation": [],
-  "questions_guide": [],
+  "questions_observation": [
+    {
+      "q": "Quelle étoile est la plus facile à repérer ?",
+      "r": "Les cinq étoiles du W se voient toutes à l'œil nu. Schedar (α Cas, mag 2,23) est la plus brillante du groupe, suivie de près par Caph (β, 2,27)."
+    },
+    {
+      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
+      "r": "Les cinq étoiles du W : Caph – Schedar – Gamma Cas – Ruchbah – Segin. C'est ce tracé qui rend la constellation identifiable au premier coup d'œil."
+    },
+    {
+      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
+      "r": "Gamma Cas est bleu-blanc (type B0.5IV), Schedar orangée (K0-IIIa), Caph jaune-blanc (F2III), Ruchbah blanche (A5IV). Le contraste est net à l'œil nu."
+    },
+    {
+      "q": "La forme est-elle évidente à l'œil nu ?",
+      "r": "Oui, c'est l'une des figures les plus lisibles du ciel : le W se reconnaît immédiatement, sans instrument, même depuis un site moyennement pollué."
+    },
+    {
+      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
+      "r": "Les amas et nébuleuses de la constellation (M52, M103, NGC 457, NGC 7635…) : NGC 457 est le plus accessible, les autres demandent un instrument."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Pourquoi Cassiopée est-elle si facile à retrouver dans le ciel ?",
+      "r": "Parce que sa forme en « W » (β, α, γ, δ, ε Cas) est très caractéristique et qu'elle est circumpolaire : depuis la Belgique, elle ne se couche jamais."
+    },
+    {
+      "q": "Quel rôle Cassiopée joue-t-elle pour trouver le nord ?",
+      "r": "Elle fait face à la Grande Ourse de part et d'autre de l'étoile polaire. La ligne qui la relie au W de la Grande Ourse passe à peu près par le pôle céleste."
+    },
+    {
+      "q": "Pourquoi trouve-t-on ici beaucoup d'amas et de nébuleuses ?",
+      "r": "Parce que la constellation est traversée par la Voie lactée : dans cette direction, notre regard longe le plan de la Galaxie, où se concentrent étoiles, amas et nuages de gaz."
+    }
+  ],
   "message_animation": "Cassiopée se reconnaît immédiatement à son W. On peut d'abord tracer la ligne brisée des cinq étoiles principales, puis montrer que la même zone contient des amas ouverts et des restes de supernova, très différents par leur nature et leur distance.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Cassiopée » (014-cassiop-e.txt)",
     "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
     "manquantes": [],
-    "figure_pedagogique": "le W"
+    "figure_pedagogique": "le W",
+    "questions": {
+      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
+      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
+      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
+      "statut": "à relire par Christophe avant diffusion"
+    }
   }
 }

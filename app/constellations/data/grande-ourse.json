@@ -198,14 +198,54 @@
       "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
     }
   ],
-  "questions_observation": [],
-  "questions_guide": [],
+  "questions_observation": [
+    {
+      "q": "Quelle étoile est la plus facile à repérer ?",
+      "r": "Alioth (ε UMa, mag 1,77), la plus brillante de la constellation, à la jonction entre la casserole et son manche. Dubhe (1,79) et Alkaid (1,86) sont tout proches en éclat."
+    },
+    {
+      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
+      "r": "Les sept étoiles du grand chariot : Dubhe, Merak, Phecda et Megrez pour le corps, Alioth, Mizar et Alkaid pour le manche."
+    },
+    {
+      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
+      "r": "La plupart sont blanches (A0 à A2). Dubhe tranche avec une teinte jaune (G9III). Le contraste le plus visible, à Mizar, est la présence de son compagnon Alcor."
+    },
+    {
+      "q": "La forme est-elle évidente à l'œil nu ?",
+      "r": "Oui : le grand chariot est probablement l'astérisme le plus connu du ciel boréal, visible toute l'année depuis la Belgique."
+    },
+    {
+      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
+      "r": "Les galaxies (M 81, M 82, M 101, M 108, M 109) et la nébuleuse planétaire M 97 : toutes demandent un instrument — ce sont des objets faibles et étendus."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Comment la Grande Ourse permet-elle de trouver l'étoile polaire ?",
+      "r": "En prolongeant environ cinq fois la ligne qui joint Merak à Dubhe — les deux étoiles du bord de la « casserole » — on arrive sur l'étoile polaire."
+    },
+    {
+      "q": "Qu'est-ce que le « manche de la Casserole » ?",
+      "r": "Les trois étoiles alignées Alioth – Mizar – Alkaid, qui forment la queue de la Grande Ourse. En les prolongeant, on arrive vers Arcturus, dans le Bouvier."
+    },
+    {
+      "q": "Pourquoi la constellation change-t-elle de position au fil de la nuit ?",
+      "r": "Comme la Grande Ourse est circumpolaire, elle tourne autour du pôle céleste sans se coucher : sa position par rapport à l'horizon dépend donc de l'heure."
+    }
+  ],
   "message_animation": "La Grande Ourse sert de point de départ à tout le ciel. On peut commencer par la Casserole, puis prolonger la ligne Dubhe–Merak pour trouver l'étoile polaire, et remarquer que la même zone contient des galaxies externes.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Grande Ourse » (050-grande-ourse.txt)",
     "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
     "manquantes": [],
-    "figure_pedagogique": "la Grande Casserole"
+    "figure_pedagogique": "la Grande Casserole",
+    "questions": {
+      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
+      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
+      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
+      "statut": "à relire par Christophe avant diffusion"
+    }
   }
 }
