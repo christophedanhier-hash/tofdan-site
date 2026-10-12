@@ -1,0 +1,211 @@
+{
+  "id": "grande-ourse",
+  "slug": "grande-ourse",
+  "nom_fr": "Grande Ourse",
+  "nom_latin": "Ursa Major",
+  "genitif": "Ursae Majoris",
+  "abreviation_iau": "UMa",
+  "source_atlas": "Fiche Atlas « Grande Ourse » (050-grande-ourse.txt)",
+  "saison": "Printemps",
+  "voie_lactee": false,
+  "repere_principal": "Le manche de la Casserole (δ, ε, ζ UMa) prolonge la ligne Dubhe–Merak qui pointe vers l'étoile polaire",
+  "constellations_voisines": [],
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Dubhe",
+      "bayer": "alf UMa",
+      "ra_deg": 165.93196,
+      "dec_deg": 61.75103,
+      "mag": 1.79,
+      "role": "Bord avant du bol",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Merak",
+      "bayer": "bet UMa",
+      "ra_deg": 165.46033,
+      "dec_deg": 56.38243,
+      "mag": 2.37,
+      "role": "Bord avant du bol",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 2,
+      "nom": "Phecda",
+      "bayer": "gam UMa",
+      "ra_deg": 178.4577,
+      "dec_deg": 53.69476,
+      "mag": 2.44,
+      "role": "Bord arrière du bol",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 3,
+      "nom": "Megrez",
+      "bayer": "del UMa",
+      "ra_deg": 183.8565,
+      "dec_deg": 57.03262,
+      "mag": 3.32,
+      "role": "Jonction bol/manche",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 4,
+      "nom": "Alioth",
+      "bayer": "eps UMa",
+      "ra_deg": 193.50729,
+      "dec_deg": 55.95982,
+      "mag": 1.77,
+      "role": "Manche — 1ʳᵉ étoile",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 5,
+      "nom": "Mizar",
+      "bayer": "zet01 UMa",
+      "ra_deg": 200.98143,
+      "dec_deg": 54.92536,
+      "mag": 2.22,
+      "role": "Manche — Mizar (couple avec Alcor)",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 6,
+      "nom": "Alkaid",
+      "bayer": "eta UMa",
+      "ra_deg": 206.88516,
+      "dec_deg": 49.31327,
+      "mag": 1.86,
+      "role": "Bout du manche",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE, explicitement assume. Figure etablie depuis les coordonnees SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "liaisons": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "commentaire": "Forme retenue : la Grande Casserole — le bol fermé à quatre côtés (Dubhe–Merak–Phecda–Megrez) prolongé par le manche de trois étoiles (Megrez–Alioth–Mizar–Alkaid).",
+    "note_geometrie": "Le manche est presque parfaitement rectiligne : Alioth–Mizar–Alkaid s'alignent à 0,008° près. Megrez est la jonction entre le bol et le manche (trois liaisons). La ligne Dubhe–Merak prolongée d'environ cinq fois sa longueur pointe vers l'étoile polaire : c'est le repère le plus utilisé du ciel.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+  },
+  "distances_angulaires_deg": {
+    "Dubhe–Merak": 5.37,
+    "Merak–Phecda": 7.9,
+    "Phecda–Megrez": 4.53,
+    "Megrez–Dubhe": 10.23,
+    "Megrez–Alioth": 5.43,
+    "Alioth–Mizar": 4.36,
+    "Mizar–Alkaid": 6.68
+  },
+  "objets_ciel_profond": [
+    {
+      "nom": "M 97",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "M 81",
+      "type": "galaxie",
+      "mag": null
+    },
+    {
+      "nom": "M 82",
+      "type": "galaxie",
+      "mag": null
+    },
+    {
+      "nom": "NGC 3077",
+      "type": "galaxie",
+      "mag": null
+    },
+    {
+      "nom": "M 101",
+      "type": "galaxie",
+      "mag": null
+    },
+    {
+      "nom": "M 109",
+      "type": "galaxie",
+      "mag": null
+    },
+    {
+      "nom": "M 108",
+      "type": "galaxie",
+      "mag": null
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [],
+  "questions_guide": [],
+  "message_animation": "La Grande Ourse sert de point de départ à tout le ciel. On peut commencer par la Casserole, puis prolonger la ligne Dubhe–Merak pour trouver l'étoile polaire, et remarquer que la même zone contient des galaxies externes.",
+  "tracabilite": {
+    "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
+    "objets": "Fiche Atlas « Grande Ourse » (050-grande-ourse.txt)",
+    "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
+    "manquantes": [],
+    "figure_pedagogique": "la Grande Casserole"
+  }
+}

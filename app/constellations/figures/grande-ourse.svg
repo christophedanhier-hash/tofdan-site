@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Grande Ourse">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="246.7" y1="352.3" x2="298.7" y2="382.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="298.7" y1="382.0" x2="359.0" y2="308.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="359.0" y1="308.3" x2="323.1" y2="266.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="323.1" y1="266.4" x2="246.7" y2="352.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="323.1" y1="266.4" x2="331.7" y2="202.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="331.7" y1="202.3" x2="329.8" y2="149.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="329.8" y1="149.8" x2="373.3" y2="78.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="246.7" cy="352.3" r="5" fill="#222"/>
+<text x="233.7" y="342.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Dubhe</text>
+<circle cx="298.7" cy="382.0" r="5" fill="#222"/>
+<text x="311.7" y="399.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Merak</text>
+<circle cx="359.0" cy="308.3" r="5" fill="#222"/>
+<text x="372.0" y="298.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Phecda</text>
+<circle cx="323.1" cy="266.4" r="5" fill="#222"/>
+<text x="336.1" y="256.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Megrez</text>
+<circle cx="331.7" cy="202.3" r="5" fill="#222"/>
+<text x="344.7" y="192.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alioth</text>
+<circle cx="329.8" cy="149.8" r="5" fill="#222"/>
+<text x="316.8" y="139.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Mizar</text>
+<circle cx="373.3" cy="78.0" r="5" fill="#222"/>
+<text x="386.3" y="68.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alkaid</text>
+</svg>

@@ -1,0 +1,159 @@
+{
+  "id": "cancer",
+  "slug": "cancer",
+  "nom_fr": "Cancer",
+  "nom_latin": "Cancer",
+  "genitif": "Cancri",
+  "abreviation_iau": "Cnc",
+  "source_atlas": "Fiche Atlas « Cancer » (011-cancer.txt)",
+  "saison": "Printemps",
+  "voie_lactee": false,
+  "repere_principal": "La constellation est faible : la repérer d'abord par M44, l'amas de la Crèche, visible à l'œil nu sous un bon ciel",
+  "constellations_voisines": [],
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Acubens",
+      "bayer": "alf Cnc",
+      "ra_deg": 134.62168,
+      "dec_deg": 11.85768,
+      "mag": 4.249,
+      "role": "Branche sud du Y",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Asellus Australis",
+      "bayer": "del Cnc",
+      "ra_deg": 131.17125,
+      "dec_deg": 18.15431,
+      "mag": 3.94,
+      "role": "Centre du Y — âne du sud",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 2,
+      "nom": "Asellus Borealis",
+      "bayer": "gam Cnc",
+      "ra_deg": 130.82145,
+      "dec_deg": 21.4685,
+      "mag": 4.652,
+      "role": "Centre du Y — âne du nord",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 3,
+      "nom": "Tarf",
+      "bayer": "bet Cnc",
+      "ra_deg": 124.12884,
+      "dec_deg": 9.18554,
+      "mag": 3.52,
+      "role": "Branche ouest du Y",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 4,
+      "nom": "Iota Cancri",
+      "bayer": "iot Cnc",
+      "ra_deg": 131.67425,
+      "dec_deg": 28.75989,
+      "mag": 4.018,
+      "role": "Branche nord du Y",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE, explicitement assume. Figure etablie depuis les coordonnees SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "liaisons": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "commentaire": "Forme retenue : le Y — un centre (δ Cnc) d'où partent trois branches vers β Tarf, γ Asellus Borealis et ι Cnc.",
+    "note_geometrie": "Constellation faible et dispersée : la chaîne la plus courte reliant ses étoiles mesurables est β–α–δ–γ–ι (28,4° au total) et correspond au schéma classique. Un Y se reconnaît à son centre de degré 3 (ici δ Cnc), pas à une ligne brisée. C'est un cas pédagogique volontaire : on repère d'abord M44, l'amas de la Crèche, puis les étoiles faibles autour.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+  },
+  "distances_angulaires_deg": {
+    "Asellus Australis–Asellus Borealis": 3.33,
+    "Acubens–Asellus Australis": 7.12,
+    "Asellus Borealis–Tarf": 13.87,
+    "Asellus Borealis–Iota Cancri": 7.33
+  },
+  "objets_ciel_profond": [
+    {
+      "nom": "M 44",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "M 67",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "NGC 6791",
+      "type": "objet",
+      "mag": null
+    },
+    {
+      "nom": "NGC 2775",
+      "type": "galaxie",
+      "mag": "11.4"
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [],
+  "questions_guide": [],
+  "message_animation": "Le Cancer est une constellation discrète, idéale pour apprendre à repérer par un objet plutôt que par ses étoiles. On peut commencer par M44, l'amas de la Crèche, visible à l'œil nu sous un bon ciel, puis chercher les étoiles faibles qui l'entourent.",
+  "tracabilite": {
+    "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
+    "objets": "Fiche Atlas « Cancer » (011-cancer.txt)",
+    "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
+    "manquantes": [],
+    "figure_pedagogique": "le Y (constellation faible)"
+  }
+}

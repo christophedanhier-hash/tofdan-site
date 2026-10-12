@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Cancer">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="316.3" y1="179.3" x2="237.6" y2="188.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="474.3" y1="84.1" x2="316.3" y2="179.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="237.6" y1="188.0" x2="542.0" y2="375.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="237.6" y1="188.0" x2="78.0" y2="173.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="474.3" cy="84.1" r="5" fill="#222"/>
+<text x="487.3" y="74.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Acubens</text>
+<circle cx="316.3" cy="179.3" r="5" fill="#222"/>
+<text x="303.3" y="169.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Asellus Australis</text>
+<circle cx="237.6" cy="188.0" r="5" fill="#222"/>
+<text x="224.6" y="205.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Asellus Borealis</text>
+<circle cx="542.0" cy="375.9" r="5" fill="#222"/>
+<text x="555.0" y="365.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Tarf</text>
+<circle cx="78.0" cy="173.9" r="5" fill="#222"/>
+<text x="91.0" y="163.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Iota Cancri</text>
+</svg>

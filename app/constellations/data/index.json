@@ -5,7 +5,40 @@
       "nom_fr": "Aigle",
       "nom_latin": "Aquila",
       "abreviation": "Aql",
-      "fichier": "aigle.json"
+      "fichier": "aigle.json",
+      "figure_svg": "figures/aigle.svg"
+    },
+    {
+      "id": "cassiopee",
+      "nom_fr": "Cassiopée",
+      "nom_latin": "Cassiopeia",
+      "abreviation": "Cas",
+      "fichier": "cassiopee.json",
+      "figure_svg": "figures/cassiopee.svg"
+    },
+    {
+      "id": "orion",
+      "nom_fr": "Orion",
+      "nom_latin": "Orion",
+      "abreviation": "Ori",
+      "fichier": "orion.json",
+      "figure_svg": "figures/orion.svg"
+    },
+    {
+      "id": "grande-ourse",
+      "nom_fr": "Grande Ourse",
+      "nom_latin": "Ursa Major",
+      "abreviation": "UMa",
+      "fichier": "grande-ourse.json",
+      "figure_svg": "figures/grande-ourse.svg"
+    },
+    {
+      "id": "cancer",
+      "nom_fr": "Cancer",
+      "nom_latin": "Cancer",
+      "abreviation": "Cnc",
+      "fichier": "cancer.json",
+      "figure_svg": "figures/cancer.svg"
     }
   ]
 }

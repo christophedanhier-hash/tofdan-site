@@ -122,14 +122,40 @@
     var d = etat.data;
     var liste = el('ul', { class: 'liste-const' });
     etat.index.constellations.forEach(function (c) {
-      liste.appendChild(el('li', { text: c.nom_fr + ' (' + c.nom_latin + ', ' + c.abreviation + ')' + (c.id === etat.id ? ' — sélectionnée' : '') }));
+      var actif = (c.id === etat.id);
+      var item = el('li', actif ? { class: 'active' } : null);
+      if (actif) {
+        item.appendChild(el('span', { text: c.nom_fr + ' (' + c.nom_latin + ', ' + c.abreviation + ')' }));
+        item.appendChild(el('span', { class: 'badge', text: ' sélectionnée' }));
+      } else {
+        // rendre chaque constellation du catalogue réellement sélectionnable :
+        // on reste à l'étape 1 pour montrer la figure et la fiche d'accueil.
+        // C'est le bouton « Commencer » qui lance le parcours.
+        item.appendChild(el('button', {
+          class: 'btn-lien',
+          text: c.nom_fr + ' (' + c.nom_latin + ', ' + c.abreviation + ')',
+          onclick: function () {
+            charger(c.id, c.fichier).then(function () {
+              etat.etape = 1;
+              rendre();
+            });
+          }
+        }));
+      }
+      liste.appendChild(item);
     });
     return el('section', null, [
       el('h1', { text: 'Apprendre les constellations' }),
-      el('div', { class: 'carte' }, [
-        el('h2', { text: d.nom_fr }),
-        el('p', { text: d.nom_latin + ' — ' + d.abreviation_iau }),
-        el('button', { class: 'btn', text: 'Commencer', onclick: function () { aller(2); } })
+      el('div', { class: 'carte carte-const' }, [
+        el('div', { class: 'carte-txt' }, [
+          el('h2', { text: d.nom_fr }),
+          el('p', { text: d.nom_latin + ' — ' + d.abreviation_iau }),
+          el('p', { class: 'petit', text: d.saison + (d.voie_lactee ? ' · traversée par la Voie lactée' : '') }),
+          el('button', { class: 'btn', text: 'Commencer', onclick: function () { aller(2); } })
+        ]),
+        el('div', { class: 'carte-fig' }, [
+          el('img', { src: (etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {}).figure_svg || '', alt: 'Figure de ' + d.nom_fr, class: 'figure-const' })
+        ])
       ]),
       el('h2', { text: 'Constellations disponibles' }),
       liste
@@ -299,7 +325,28 @@
       ariane.appendChild(el('span', { class: i === etat.etape ? 'actif' : '', text: 'étape ' + i + '/' + TOTAL }));
     }
     ecran.textContent = '';
-    ecran.appendChild([null, ecran1, ecran2, ecran3, ecran4, ecran5][etat.etape]());
+    var section;
+    try {
+      section = [null, ecran1, ecran2, ecran3, ecran4, ecran5][etat.etape]();
+    } catch (e) {
+      // Un ecran qui plante ne doit JAMAIS laisser la page vide et muette.
+      afficherErreur('L\'écran ' + etat.etape + ' n\'a pas pu s\'afficher : ' + e.message);
+      return;
+    }
+    if (!section) {
+      afficherErreur('L\'écran ' + etat.etape + ' n\'a rien renvoyé (données incomplètes).');
+      return;
+    }
+    ecran.appendChild(section);
+  }
+
+  function afficherErreur(msg) {
+    erreur.textContent = msg + ' — reviens au début avec le bouton ci-dessous.';
+    erreur.hidden = false;
+    var barre = el('div', { class: 'carte' }, [
+      el('button', { class: 'btn', text: '← Retour au début', onclick: function () { erreur.hidden = true; aller(1); } })
+    ]);
+    ecran.appendChild(barre);
   }
 
   fetch('data/index.json').then(function (r) {

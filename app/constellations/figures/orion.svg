@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Orion">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="78.0" y1="93.4" x2="106.0" y2="268.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="78.0" y1="93.4" x2="273.8" y2="230.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="273.8" y1="230.7" x2="106.0" y2="268.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="491.3" y1="366.6" x2="542.0" y2="112.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="491.3" y1="366.6" x2="317.8" y2="171.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="317.8" y1="171.9" x2="542.0" y2="112.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="273.8" y1="230.7" x2="298.1" y2="202.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="298.1" y1="202.9" x2="317.8" y2="171.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="78.0" cy="93.4" r="5" fill="#222"/>
+<text x="91.0" y="83.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Bételgeuse</text>
+<circle cx="106.0" cy="268.4" r="5" fill="#222"/>
+<text x="93.0" y="258.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Bellatrix</text>
+<circle cx="491.3" cy="366.6" r="5" fill="#222"/>
+<text x="504.3" y="356.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Rigel</text>
+<circle cx="542.0" cy="112.9" r="5" fill="#222"/>
+<text x="555.0" y="102.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Saiph</text>
+<circle cx="273.8" cy="230.7" r="5" fill="#222"/>
+<text x="286.8" y="247.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Mintaka</text>
+<circle cx="298.1" cy="202.9" r="5" fill="#222"/>
+<text x="285.1" y="192.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alnilam</text>
+<circle cx="317.8" cy="171.9" r="5" fill="#222"/>
+<text x="304.8" y="161.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alnitak</text>
+</svg>

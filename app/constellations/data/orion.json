@@ -1,0 +1,241 @@
+{
+  "id": "orion",
+  "slug": "orion",
+  "nom_fr": "Orion",
+  "nom_latin": "Orion",
+  "genitif": "Orionis",
+  "abreviation_iau": "Ori",
+  "source_atlas": "Fiche Atlas « Orion » (074-orion.txt)",
+  "saison": "Hiver",
+  "voie_lactee": false,
+  "repere_principal": "Les trois étoiles de la ceinture (Alnitak, Alnilam, Mintaka), alignées à 0,01° près — le repère le plus reconnaissable du ciel d'hiver",
+  "constellations_voisines": [],
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Bételgeuse",
+      "bayer": "alf Ori",
+      "ra_deg": 88.79294,
+      "dec_deg": 7.40706,
+      "mag": 0.42,
+      "role": "Épaule droite — supergéante rouge",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Bellatrix",
+      "bayer": "gam Ori",
+      "ra_deg": 81.28276,
+      "dec_deg": 6.3497,
+      "mag": 1.64,
+      "role": "Épaule gauche — supergéante bleue",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 2,
+      "nom": "Rigel",
+      "bayer": "bet Ori",
+      "ra_deg": 78.63447,
+      "dec_deg": -8.20164,
+      "mag": 0.13,
+      "role": "Pied gauche — la plus brillante du ciel",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 3,
+      "nom": "Saiph",
+      "bayer": "kap Ori",
+      "ra_deg": 86.93912,
+      "dec_deg": -9.6696,
+      "mag": 2.06,
+      "role": "Pied droit",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 4,
+      "nom": "Mintaka",
+      "bayer": "del Ori",
+      "ra_deg": 83.00167,
+      "dec_deg": -0.2991,
+      "mag": 2.41,
+      "role": "Ceinture — étoile ouest",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 5,
+      "nom": "Alnilam",
+      "bayer": "eps Ori",
+      "ra_deg": 84.05339,
+      "dec_deg": -1.20192,
+      "mag": 1.69,
+      "role": "Ceinture — étoile centrale",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 6,
+      "nom": "Alnitak",
+      "bayer": "zet Ori",
+      "ra_deg": 85.18969,
+      "dec_deg": -1.94257,
+      "mag": 1.77,
+      "role": "Ceinture — étoile est",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE, explicitement assume. Figure etablie depuis les coordonnees SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "liaisons": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "commentaire": "Forme retenue : le sablier — épaules (Bételgeuse–Bellatrix), ceinture (Alnitak–Alnilam–Mintaka), puis les deux sommets vers Rigel et Saiph.",
+    "note_geometrie": "Les trois étoiles de la ceinture sont alignées à 0,006° près (Alnitak→Alnilam 1,39°, Alnilam→Mintaka 1,36°, et 2,74° en direct) : c'est l'alignement le plus rectiligne du ciel. Les épaules sont à Dec +7,4° et +6,3°, la ceinture à −1,9° et −0,3°, les pieds à −8,2° et −9,7° : la figure s'empile verticalement, ce qui referme le sablier.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+  },
+  "distances_angulaires_deg": {
+    "Bételgeuse–Bellatrix": 7.53,
+    "Bételgeuse–Mintaka": 9.63,
+    "Mintaka–Bellatrix": 6.87,
+    "Rigel–Saiph": 8.33,
+    "Rigel–Alnitak": 9.04,
+    "Alnitak–Saiph": 7.92,
+    "Mintaka–Alnilam": 1.39,
+    "Alnilam–Alnitak": 1.36
+  },
+  "objets_ciel_profond": [
+    {
+      "nom": "M 42",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "M 43",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 1980",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "NGC 1977",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 1975",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 1973",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 1981",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "M 78",
+      "type": "nébuleuse",
+      "mag": "8.0"
+    },
+    {
+      "nom": "IC 434",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 2112",
+      "type": "objet",
+      "mag": null
+    },
+    {
+      "nom": "NGC 2186",
+      "type": "objet",
+      "mag": "8.70"
+    },
+    {
+      "nom": "NGC 2194",
+      "type": "amas",
+      "mag": "8.50"
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [],
+  "questions_guide": [],
+  "message_animation": "Orion est la constellation la plus riche du ciel d'hiver. On peut commencer par la ceinture — trois étoiles parfaitement alignées — puis montrer que la même zone contient la nébuleuse M42, des amas et des étoiles de luminosités très contrastées.",
+  "tracabilite": {
+    "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
+    "objets": "Fiche Atlas « Orion » (074-orion.txt)",
+    "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
+    "manquantes": [],
+    "figure_pedagogique": "le sablier"
+  }
+}

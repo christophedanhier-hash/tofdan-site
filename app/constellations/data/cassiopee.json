@@ -1,0 +1,184 @@
+{
+  "id": "cassiopee",
+  "slug": "cassiopee",
+  "nom_fr": "Cassiopée",
+  "nom_latin": "Cassiopeia",
+  "genitif": "Cassiopeiae",
+  "abreviation_iau": "Cas",
+  "source_atlas": "Fiche Atlas « Cassiopée » (014-cassiop-e.txt)",
+  "saison": "Automne",
+  "voie_lactee": true,
+  "repere_principal": "Le W de Cassiopée (β, α, γ, δ, ε Cas), repère polaire facile à trouver toute l'année depuis la Belgique",
+  "constellations_voisines": [],
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Caph",
+      "bayer": "bet Cas",
+      "ra_deg": 2.29452,
+      "dec_deg": 59.14978,
+      "mag": 2.27,
+      "role": "Extrémité ouest du W",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Schedar",
+      "bayer": "alf Cas",
+      "ra_deg": 10.12685,
+      "dec_deg": 56.53733,
+      "mag": 2.23,
+      "role": "Sommet ouest du W",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 2,
+      "nom": "Gamma Cas",
+      "bayer": "gam Cas",
+      "ra_deg": 14.17721,
+      "dec_deg": 60.71674,
+      "mag": 2.39,
+      "role": "Sommet central du W",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 3,
+      "nom": "Ruchbah",
+      "bayer": "del Cas",
+      "ra_deg": 21.45396,
+      "dec_deg": 60.23528,
+      "mag": 2.68,
+      "role": "Creux est du W",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 4,
+      "nom": "Segin",
+      "bayer": "eps Cas",
+      "ra_deg": 28.59889,
+      "dec_deg": 63.6701,
+      "mag": 3.37,
+      "role": "Extrémité est du W",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE, explicitement assume. Figure etablie depuis les coordonnees SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "liaisons": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "commentaire": "Forme retenue : le W — les cinq étoiles principales reliées dans l'ordre du zigzag (β Caph → α Schedar → γ → δ Ruchbah → ε Segin).",
+    "note_geometrie": "Les cinq étoiles forment un zigzag régulier : les segments mesurent 4,91° / 4,68° / 3,62° / 4,80° et les déclinaisons passent alternativement de +56° à +64°. C'est cette alternance qui donne le W. Aucune liaison n'est ambiguë : chacune est la plus courte entre deux étoiles voisines de la chaîne.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+  },
+  "distances_angulaires_deg": {
+    "Caph–Schedar": 4.91,
+    "Schedar–Gamma Cas": 4.68,
+    "Gamma Cas–Ruchbah": 3.62,
+    "Ruchbah–Segin": 4.8
+  },
+  "objets_ciel_profond": [
+    {
+      "nom": "M52",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "M 103",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "NGC 457",
+      "type": "amas",
+      "mag": "6.40"
+    },
+    {
+      "nom": "NGC 7789",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "IC 59",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "IC 63",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 7635",
+      "type": "nébuleuse",
+      "mag": null
+    },
+    {
+      "nom": "NGC 281",
+      "type": "amas",
+      "mag": null
+    },
+    {
+      "nom": "IC 1590",
+      "type": "objet",
+      "mag": null
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [],
+  "questions_guide": [],
+  "message_animation": "Cassiopée se reconnaît immédiatement à son W. On peut d'abord tracer la ligne brisée des cinq étoiles principales, puis montrer que la même zone contient des amas ouverts et des restes de supernova, très différents par leur nature et leur distance.",
+  "tracabilite": {
+    "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
+    "objets": "Fiche Atlas « Cassiopée » (014-cassiop-e.txt)",
+    "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
+    "manquantes": [],
+    "figure_pedagogique": "le W"
+  }
+}

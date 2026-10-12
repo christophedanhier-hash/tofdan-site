@@ -43,4 +43,27 @@ summary { cursor: pointer; }
 .reponse { margin: 6px 0 0; padding: 8px 12px; background: #eef4fb; border-left: 3px solid #1a4f8b; }
 .erreur { color: #a11; background: #fde8e8; padding: 10px; border-radius: 6px; }
 .liste-const { list-style: none; padding: 0; }
-.liste-const li { padding: 4px 0; }
+.liste-const li { padding: 4px 0; border-bottom: 1px solid #f0ece0; }
+.liste-const li:last-child { border-bottom: 0; }
+/* Catalogue : chaque constellation non sélectionnée est un bouton-lien */
+.btn-lien {
+  background: none; border: 0; padding: 4px 0; margin: 0;
+  font: inherit; font-size: .97rem; color: #1a4f8b;
+  text-align: left; cursor: pointer; text-decoration: none;
+  text-underline-offset: 2px;
+}
+.btn-lien:hover { color: #143d6c; text-decoration: underline; }
+.btn-lien:focus-visible { outline: 2px solid #1a4f8b; outline-offset: 2px; border-radius: 3px; }
+.liste-const li.active > span:first-child { font-weight: 600; color: #17365c; }
+.badge {
+  display: inline-block; margin-left: 6px; padding: 1px 7px;
+  font-size: .78rem; border-radius: 10px;
+  background: #e3edf8; color: #1a4f8b; vertical-align: middle;
+}
+/* Carte de tete : texte a gauche, figure de la constellation a droite */
+.carte-const { display: grid; grid-template-columns: 1fr minmax(240px, 380px); gap: 20px; align-items: center; }
+.carte-txt { min-width: 0; }
+.carte-fig { display: flex; justify-content: center; }
+.figure-const { width: 100%; max-width: 380px; height: auto; display: block; background: #fbf9f4; border: 1px solid #e5ded0; border-radius: 8px; }
+.petit { font-size: .86rem; color: #6b6b6b; margin: 2px 0 12px; }
+@media (max-width: 720px) { .carte-const { grid-template-columns: 1fr; } }
