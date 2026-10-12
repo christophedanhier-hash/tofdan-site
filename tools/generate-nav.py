@@ -32,7 +32,11 @@ USAGE
 
 SOURCE DE VÉRITÉ : Gérard, 2026-10-11. Décisions de Christophe :
   - logo « 🌙 ASTRO PHOTOGRAPHIE » partout
-  - lien « 🤖 Hermes » vers /hermes/ sur les 11 pages
+  - ⛔ AUCUN lien vers /hermes/ dans la navigation astro (retiré le
+    11/10/2026 sur demande de Christophe : « il y a un lien sur hermes
+    retire cela pas possible »). L'espace Hermes est un espace privé
+    protégé par cookie, il ne doit pas être exposé dans la navigation
+    publique du site astro.
 """
 
 import argparse
@@ -87,7 +91,6 @@ HEADER = """\
           <li><a href="meteo-astro.html" class="nav__link">Météo</a></li>
           <li><a href="biblio.html" class="nav__link">Biblio</a></li>
           <li><a href="chat.html" class="nav__link">Contact</a></li>
-          <li><a href="/hermes/" class="nav__link">🤖 Hermes</a></li>
         </ul>
       </nav>
     </div>
