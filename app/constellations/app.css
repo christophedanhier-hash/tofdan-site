@@ -748,3 +748,20 @@ table.objets .instr {
     min-height: 220px;
   }
 }
+
+/* ---- Bandeau « Observer ce soir » (écran 1) ---- */
+.obs-bandeau { border: 1px solid var(--border, rgba(255,255,255,.15)); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; }
+.obs-bandeau h3 { margin: 0 0 10px; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; }
+.obs-champs { display: grid; grid-template-columns: auto 1fr; gap: 8px 12px; align-items: center; max-width: 520px; }
+.obs-champs select, .obs-champs input { padding: 6px 8px; border-radius: 6px; font: inherit; max-width: 100%; }
+.obs-modes { margin-top: 12px; display: grid; gap: 6px; }
+.obs-mode { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.obs-n { margin-left: auto; min-width: 2em; text-align: center; padding: 0 8px; border-radius: 999px; background: rgba(124,58,237,.35); }
+.obs-mode { max-width: 520px; }
+.obs-note { margin: 10px 0 0; font-size: .85rem; opacity: .8; font-style: italic; }
+.obs-badge { display: block; margin-top: 4px; font-size: .75rem; }
+.obs-badge--ok { color: #4ade80; }
+.obs-badge--non { opacity: .65; }
+.obs-badge--na { color: #fbbf24; }
+.obs-erreur { margin: 8px 0 0; min-height: 1.2em; font-size: .85rem; color: #fbbf24; }
+.obs-erreur:empty { display: none; }

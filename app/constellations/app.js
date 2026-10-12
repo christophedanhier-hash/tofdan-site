@@ -321,11 +321,162 @@
     return el('div', { class: 'encart lumi referentiel' }, kids);
   }
 
+
+  /* ---------- Visibilité (position + date) ---------- */
+  var LIEU_DEFAUT = { nom: 'Observatoire Centre Ardenne', lat: 49.90, lon: 5.00 };
+  var SEUIL = 20, DUREE_MIN = 60, NUIT_DEBUT = 21, NUIT_FIN = 4, PAS_MIN = 10;
+
+  function hauteur(raDeg, decDeg, dateUTC, latDeg, lonDeg) {
+    var jd = dateUTC.getTime() / 86400000 + 2440587.5;
+    var T = (jd - 2451545.0) / 36525.0;
+    var gmst = 280.46061837 + 360.98564736629 * (jd - 2451545.0) + 0.000387933 * T * T - (T * T * T) / 38710000.0;
+    var lst = ((gmst + lonDeg) % 360 + 360) % 360;
+    var Ha = (((lst - raDeg) % 360) + 360) % 360 * Math.PI / 180;
+    var d = decDeg * Math.PI / 180, l = latDeg * Math.PI / 180;
+    var sn = Math.sin(d) * Math.sin(l) + Math.cos(d) * Math.cos(l) * Math.cos(Ha);
+    return Math.asin(Math.max(-1, Math.min(1, sn))) * 180 / Math.PI;
+  }
+
+  function centre(etoiles) {
+    var pts = (etoiles || []).filter(function (s) { return typeof s.ra_deg === 'number' && typeof s.dec_deg === 'number'; });
+    if (!pts.length) return null;
+    var x = 0, y = 0, dec = 0;
+    pts.forEach(function (s) { x += Math.cos(s.ra_deg * DEG); y += Math.sin(s.ra_deg * DEG); dec += s.dec_deg; });
+    var ra = Math.atan2(y, x) / DEG;
+    return { ra: (ra + 360) % 360, dec: dec / pts.length };
+  }
+
+  // iso = 'AAAA-MM-JJ' (soirée de départ). Renvoie { minutes, debut, fin }
+  function visibilite(c, iso, lieu) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
+    if (!c || !m || !lieu) return null;
+    var an = +m[1], mo = +m[2], jo = +m[3];
+    // instants réels ; l'heure locale (DST inclus) est gérée par Date du navigateur
+    var minutes = 0, debut = null, fin = null;
+    var depart = new Date(an, mo - 1, jo - 1, 12, 0).getTime();
+    for (var t = depart; t < depart + 48 * 3600000; t += PAS_MIN * 60000) {
+      var hl = new Date(t).getHours();
+      var nuit = hl >= NUIT_DEBUT || hl < NUIT_FIN;
+      var j = new Date(t - NUIT_FIN * 3600000);
+      if (!nuit || j.getFullYear() !== an || j.getMonth() !== mo - 1 || j.getDate() !== jo) continue;
+      if (hauteur(c.ra, c.dec, new Date(t), lieu.lat, lieu.lon) >= SEUIL) {
+        minutes += PAS_MIN;
+        if (debut === null) debut = t;
+        fin = t + PAS_MIN * 60000;
+      }
+    }
+    return { minutes: minutes, observable: minutes >= DUREE_MIN, debut: debut, fin: fin };
+  }
+
+  function heureLocale(t) {
+    var d = new Date(t);
+    return d.getHours() + 'h' + ('0' + d.getMinutes()).slice(-2);
+  }
+  function aujourdhui() {
+    var d = new Date();
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  }
+
+  window.ConstVisibilite = { hauteur: hauteur, centre: centre, visibilite: visibilite };
+
+  // Réglages d'observation (clé séparée : la progression reste intacte)
+  var CLE_OBS = 'constellations.observation';
+  var obs = { nom: LIEU_DEFAUT.nom, sLat: String(LIEU_DEFAUT.lat), sLon: String(LIEU_DEFAUT.lon), date: aujourdhui(), mode: 'observables', msg: '' };
+  try {
+    var o0 = JSON.parse(localStorage.getItem(CLE_OBS)) || {};
+    if (typeof o0.nom === 'string') obs.nom = o0.nom;
+    if (typeof o0.lat === 'number' && typeof o0.lon === 'number') { obs.sLat = String(o0.lat); obs.sLon = String(o0.lon); }
+    if (o0.mode === 'toutes') obs.mode = 'toutes';
+  } catch (e) { /* ignoré */ }
+  function sauverObs() {
+    var l = lieuCourant();
+    if (!l) return;
+    try { localStorage.setItem(CLE_OBS, JSON.stringify({ nom: obs.nom, lat: l.lat, lon: l.lon, mode: obs.mode })); } catch (e) { /* ignoré */ }
+  }
+  function nombre(s, min, max) {
+    var t = String(s).trim().replace(',', '.');
+    if (!/^[+-]?\d+(\.\d+)?$/.test(t)) return null;
+    var v = parseFloat(t);
+    return (v >= min && v <= max) ? v : null;
+  }
+  // null si la saisie est invalide : aucun calcul sur une valeur fausse
+  function lieuCourant() {
+    var lat = nombre(obs.sLat, -90, 90), lon = nombre(obs.sLon, -180, 180);
+    return (lat === null || lon === null) ? null : { nom: obs.nom, lat: lat, lon: lon };
+  }
+
+  // Charge les coordonnées de chaque fiche ; null si absentes/illisibles (jamais de coordonnées inventées)
+  function chargerCentres(idx) {
+    etat.centres = {};
+    return Promise.all(idx.constellations.map(function (c) {
+      return fetch('data/' + c.fichier).then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) { etat.centres[c.id] = d ? centre(d.etoiles) : null; })
+        .catch(function () { etat.centres[c.id] = null; });
+    }));
+  }
+
+  function bandeauObservation(infos, nbObs, nbTotal) {
+    function radio(val, texte, n) {
+      var r = el('input', { type: 'radio', name: 'mode-obs', value: val });
+      r.checked = (obs.mode === val);
+      r.addEventListener('change', function () { obs.mode = val; sauverObs(); rendre(); });
+      return el('label', { class: 'obs-mode' }, [r, el('span', { text: texte }), el('b', { class: 'obs-n', text: String(n) })]);
+    }
+    function champ(id, cle, ph) {
+      var i = el('input', { type: 'text', id: id, inputmode: 'decimal', value: obs[cle], placeholder: ph });
+      i.addEventListener('change', function () { obs[cle] = i.value; obs.msg = ''; sauverObs(); rendre(); });
+      return i;
+    }
+    var nom = el('input', { type: 'text', id: 'obs-nom', value: obs.nom, placeholder: 'Nom du lieu (facultatif)' });
+    nom.addEventListener('change', function () { obs.nom = nom.value; sauverObs(); });
+    var geo = el('button', { type: 'button', class: 'btn btn--outline', text: 'Utiliser ma position' });
+    geo.addEventListener('click', function () {
+      if (!navigator.geolocation) { obs.msg = 'La géolocalisation n’est pas disponible : saisissez latitude et longitude.'; rendre(); return; }
+      navigator.geolocation.getCurrentPosition(function (p) {
+        obs.sLat = p.coords.latitude.toFixed(4); obs.sLon = p.coords.longitude.toFixed(4);
+        if (obs.nom === LIEU_DEFAUT.nom) obs.nom = 'Ma position';
+        obs.msg = ''; sauverObs(); rendre();
+      }, function () {
+        obs.msg = 'Position refusée ou indisponible : saisissez latitude et longitude à la main.'; rendre();
+      }, { timeout: 10000 });
+    });
+    var dt = el('input', { type: 'date', id: 'obs-date', value: obs.date });
+    dt.addEventListener('change', function () { if (dt.value) { obs.date = dt.value; rendre(); } });
+    var erreur = lieuCourant() ? obs.msg : 'Latitude (−90 à 90) ou longitude (−180 à 180) invalide : visibilité non calculable.';
+    return el('div', { class: 'obs-bandeau' }, [
+      el('h3', { text: 'Observer ce soir' }),
+      el('div', { class: 'obs-champs' }, [
+        el('label', { for: 'obs-lat', text: 'Latitude' }), champ('obs-lat', 'sLat', '49.90'),
+        el('label', { for: 'obs-lon', text: 'Longitude' }), champ('obs-lon', 'sLon', '5.00'),
+        el('span'), geo,
+        el('label', { for: 'obs-nom', text: 'Nom' }), nom,
+        el('label', { for: 'obs-date', text: 'Date' }), dt
+      ]),
+      el('p', { class: 'obs-erreur', role: 'alert', text: erreur || '' }),
+      el('div', { class: 'obs-modes' }, [
+        radio('observables', 'Constellations observables ce soir', nbObs),
+        radio('toutes', 'Toutes les constellations', nbTotal)
+      ]),
+      el('p', { class: 'obs-note', text: 'Hauteur calculée pour un horizon dégagé — ne tient pas compte du relief ni des bâtiments. Critère : au moins 60 min au-dessus de 20° entre 21 h et 4 h (heure locale).' })
+    ]);
+  }
+
   function ecran1() {
     var d = etat.data;
     var courant = etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {};
-    var liste = el('ul', { class: 'liste-const', 'aria-label': 'Constellations disponibles' });
+    var lieu = lieuCourant();
+    var infos = {}, nbObs = 0;
     etat.index.constellations.forEach(function (c) {
+      var v = visibilite((etat.centres || {})[c.id], obs.date, lieu);
+      infos[c.id] = v;
+      if (v && v.observable) nbObs++;
+    });
+    var bandeau = bandeauObservation(infos, nbObs, etat.index.constellations.length);
+    var liste = el('ul', { class: 'liste-const', 'aria-label': 'Constellations disponibles' });
+    etat.index.constellations.filter(function (c) {
+      // sans coordonnées : jamais écartée à tort
+      return obs.mode === 'toutes' || !infos[c.id] || infos[c.id].observable;
+    }).forEach(function (c) {
       var actif = (c.id === etat.id);
       var attrs = {
         class: 'btn-lien', 'aria-current': actif ? 'true' : 'false',
@@ -340,8 +491,12 @@
           });
         }
       };
+      var v = infos[c.id], badge;
+      if (!v) badge = el('span', { class: 'obs-badge obs-badge--na', text: 'visibilité non calculable' });
+      else if (v.observable) badge = el('span', { class: 'obs-badge obs-badge--ok', text: 'observable · ' + v.minutes + ' min · ' + heureLocale(v.debut) + ' – ' + heureLocale(v.fin) });
+      else badge = el('span', { class: 'obs-badge obs-badge--non', text: 'non observable ce soir (' + v.minutes + ' min)' });
       liste.appendChild(el('li', null, [el('button', attrs, [
-        c.nom_fr, el('small', { text: c.nom_latin + ' · ' + c.abreviation })
+        c.nom_fr, el('small', { text: c.nom_latin + ' · ' + c.abreviation }), badge
       ])]));
     });
 
@@ -356,6 +511,7 @@
       (d.voie_lactee ? ' · Voie lactée' : '');
 
     return el('section', null, [
+      bandeau,
       el('div', { class: 'accueil' }, [
         liste,
         el('div', { class: 'carte-const' }, [
@@ -758,6 +914,8 @@
     return r.json();
   }).then(function (idx) {
     etat.index = idx;
+    return chargerCentres(idx).then(function () { return idx; });
+  }).then(function (idx) {
     var prog = lireProgression();
     // On rouvre toujours sur l'ACCUEIL (etape 1) : un visiteur qui revient doit
     // voir le catalogue, jamais atterrir au milieu d'un parcours. On restaure
