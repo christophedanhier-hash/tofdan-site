@@ -345,7 +345,7 @@
                 ? ["rgba(79, 70, 229, 0.55)", "rgba(124, 58, 237, 0.45)", "rgba(79, 70, 229, 0.55)", "rgba(124, 58, 237, 0.45)"]
                 : ["rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)", "rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)"];
             const armNames = ["Bras de Persée", "Bras du Sagittaire", "Bras de l'Écu-Croix", "Bras de la Règle-Cygne"];
-            const labelColor = clair ? "rgba(30, 41, 59, 0.85)" : "rgba(255, 255, 255, 0.4)";
+            const labelColor = clair ? "rgba(30, 41, 59, 0.9)" : "rgba(255, 255, 255, 0.85)";
 
             for (let j = 0; j < arms; j++) {
                 ctx.beginPath();
@@ -367,14 +367,44 @@
                 // Ajout des noms des bras
                 // Le libelle est centre sur un rayon fixe, mais sa largeur varie :
                 // on le ramene dans le canvas pour eviter toute troncature au bord.
+                // Les libelles croisent les bandes des bras spiraux : une pastille
+                // semi-opaque les detache proprement (le halo seul ne suffisait pas,
+                // l'ombre sombre se confondait avec le fond bleu nuit).
                 ctx.fillStyle = labelColor;
-                ctx.font = "10px sans-serif";
+                ctx.font = "600 10px sans-serif";
                 ctx.textAlign = "center";
                 let labelAngle = (j * Math.PI * 2 / arms) + (140 * 0.035);
                 let labelX = centerX + Math.cos(labelAngle) * 155;
                 let labelY = centerY + Math.sin(labelAngle) * 155;
                 const demiLargeur = ctx.measureText(armNames[j]).width / 2;
                 labelX = Math.min(Math.max(labelX, demiLargeur + 2), canvas.width - demiLargeur - 2);
+
+                // Tout le texte du canvas est dessine en gras : la police par
+                // defaut du canvas est trop fine pour un rendu net a 10px.
+                // Pastille de fond derriere le texte (bordure fine : sans elle,
+                // une pastille sombre se confond avec le fond bleu nuit).
+                const padX = 5, padY = 3, h = 12;
+                ctx.fillStyle = clair ? "rgba(255, 255, 255, 0.92)" : "rgba(15, 23, 42, 0.92)";
+                ctx.strokeStyle = clair ? "rgba(30, 41, 59, 0.35)" : "rgba(148, 163, 184, 0.45)";
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                const rx = labelX - demiLargeur - padX, ry = labelY - h / 2 - padY + 1;
+                const rw = demiLargeur * 2 + padX * 2, rh = h + padY * 2 - 2, rad = 5;
+                ctx.moveTo(rx + rad, ry);
+                ctx.lineTo(rx + rw - rad, ry);
+                ctx.quadraticCurveTo(rx + rw, ry, rx + rw, ry + rad);
+                ctx.lineTo(rx + rw, ry + rh - rad);
+                ctx.quadraticCurveTo(rx + rw, ry + rh, rx + rw - rad, ry + rh);
+                ctx.lineTo(rx + rad, ry + rh);
+                ctx.quadraticCurveTo(rx, ry + rh, rx, ry + rh - rad);
+                ctx.lineTo(rx, ry + rad);
+                ctx.quadraticCurveTo(rx, ry, rx + rad, ry);
+                ctx.closePath();
+                ctx.fill();
+                ctx.stroke();
+
+                // Texte par-dessus
+                ctx.fillStyle = labelColor;
                 ctx.fillText(armNames[j], labelX, labelY);
             }
 
