@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f6f4ee;
+  color: #222;
+  line-height: 1.5;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 16px; }
+.retour { color: #1a4f8b; text-decoration: none; font-size: .95rem; }
+.retour:hover { text-decoration: underline; }
+.ariane { margin: 12px 0; font-size: .85rem; color: #777; }
+.ariane span { margin-right: 10px; }
+.ariane .actif { color: #1a4f8b; font-weight: 700; }
+h1, h2 { color: #17365c; margin: .4em 0; }
+.carte { background: #fff; border: 1px solid #ddd8c9; border-radius: 8px; padding: 16px; margin: 12px 0; }
+.btn {
+  background: #1a4f8b; color: #fff; border: 0; border-radius: 6px;
+  padding: 9px 16px; font-size: 1rem; cursor: pointer; margin: 4px 4px 4px 0;
+}
+.btn:hover { background: #143d6c; }
+.btn.sec { background: #e8e4d6; color: #222; border: 1px solid #cfc9b6; }
+.btn.sec:hover { background: #ddd8c6; }
+.btn.actif { outline: 2px solid #1a4f8b; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border: 1px solid #ddd8c9; padding: 6px 10px; text-align: left; vertical-align: top; }
+th { background: #ece8d9; }
+.alerte { color: #8a5a00; font-size: .85rem; }
+.barre { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
+.barre label { font-size: .9rem; }
+canvas {
+  width: 100%; height: auto; display: block;
+  background: #fbf9f3; border: 1px solid #cfc9b6; border-radius: 6px;
+  touch-action: none;
+}
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.duo figcaption { font-weight: 600; margin-bottom: 4px; }
+.duo figure { margin: 0; }
+@media (max-width: 640px) { .duo { grid-template-columns: 1fr; } }
+details { margin: 8px 0; }
+summary { cursor: pointer; }
+.reponse { margin: 6px 0 0; padding: 8px 12px; background: #eef4fb; border-left: 3px solid #1a4f8b; }
+.erreur { color: #a11; background: #fde8e8; padding: 10px; border-radius: 6px; }
+.liste-const { list-style: none; padding: 0; }
+.liste-const li { padding: 4px 0; }

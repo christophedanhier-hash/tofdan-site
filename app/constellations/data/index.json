@@ -1,0 +1,11 @@
+{
+  "constellations": [
+    {
+      "id": "aigle",
+      "nom_fr": "Aigle",
+      "nom_latin": "Aquila",
+      "abreviation": "Aql",
+      "fichier": "aigle.json"
+    }
+  ]
+}
