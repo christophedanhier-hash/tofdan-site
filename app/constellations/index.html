@@ -12,9 +12,9 @@
   <!-- CSS du site (variables, header, footer, boutons) : source unique d'identite visuelle -->
   <link rel="stylesheet" href="../../css/style.css?v=1790954759">
   <!-- CSS propre a l'application (complementaire, s'appuie sur les variables du site) -->
-  <link rel="stylesheet" href="app.css?v=9">
+  <link rel="stylesheet" href="app.css?v=19">
 </head>
-<body>
+<body class="app-outil">
 
   <header class="header">
     <div class="header__inner">
@@ -24,12 +24,15 @@
       </a>
       <nav class="nav" aria-label="Navigation principale">
         <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
-          <span></span><span></span><span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
         <ul class="nav__list">
           <li><a href="../../index.html" class="nav__link">Accueil</a></li>
           <li><a href="../../astro.html" class="nav__link">Astro</a></li>
           <li><a href="../../app-astro.html" class="nav__link">App Astro</a></li>
+          <li><a href="../../app/constellations/index.html" class="nav__link">Constellations</a></li>
           <li><a href="../../news.html" class="nav__link">News</a></li>
           <li><a href="../../materiel.html" class="nav__link">Matériel</a></li>
           <li><a href="../../album.html" class="nav__link">Album</a></li>
@@ -37,43 +40,27 @@
           <li><a href="../../biblio.html" class="nav__link">Biblio</a></li>
           <li><a href="../../chat.html" class="nav__link">Contact</a></li>
         </ul>
-        <button id="theme-toggle" class="theme-toggle" aria-label="Basculer le thème">
-          <span class="theme-toggle__icon">🌙</span>
-        </button>
       </nav>
     </div>
   </header>
 
   <main class="main">
-    <div class="page-header">
-      <div class="container">
-        <h1 class="page-header__title">Apprendre les constellations</h1>
-        <p class="page-header__subtitle">Repérer, comprendre et dessiner les figures du ciel — étape par étape.</p>
-      </div>
-    </div>
-
-    <!-- zone de l'application : app.js remplit #ecran -->
-    <section class="section" style="padding-top:0;">
-      <div class="container">
-        <div id="ariane" class="ariane" aria-label="Progression"></div>
-        <div id="erreur" class="erreur" hidden></div>
-        <div id="ecran"></div>
-      </div>
-    </section>
+    <!-- zone de l'application : app.js remplit #ariane et #ecran -->
+    <nav id="ariane" class="ariane" aria-label="Progression"></nav>
+    <div id="erreur" class="erreur" role="alert" hidden></div>
+    <div id="ecran"></div>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__inner">
-      <p class="footer__copy">© 2026 Christophe Danhier — Observatoire Centre Ardenne</p>
-      <ul class="footer__links">
-        <li><a href="../../mentions-legales.html">Mentions légales</a></li>
-        <li><a href="../../cgu.html">Conditions d'utilisation</a></li>
-        <li><a href="../../app-astro.html">Retour au site</a></li>
-      </ul>
-    </div>
+  <footer class="footer footer--compact">
+    <p class="footer__copy">© 2026 Christophe Danhier — Observatoire Centre Ardenne</p>
+    <ul class="footer__links">
+      <li><a href="../../mentions-legales.html">Mentions légales</a></li>
+      <li><a href="../../cgu.html">Conditions d'utilisation</a></li>
+    </ul>
   </footer>
 
+  <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
   <script src="../../js/main.js?v=1790954759"></script>
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=21"></script>
 </body>
 </html>

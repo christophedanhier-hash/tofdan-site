@@ -64,6 +64,12 @@ PAGES = [
     "mentions-legales.html",
 ]
 
+# Pages-outils en sous-dossier : seul le <header> est généré (liens préfixés
+# selon la profondeur) ; leur pied de page compact leur est propre.
+PAGES_OUTILS = [
+    "app/constellations/index.html",
+]
+
 # Pages explicitement INTERDITES (zone Michel) — garde-fou
 INTERDITES = {"hermes.html", "login.html"}
 
@@ -85,6 +91,7 @@ HEADER = """\
           <li><a href="index.html" class="nav__link">Accueil</a></li>
           <li><a href="astro.html" class="nav__link">Astro</a></li>
           <li><a href="app-astro.html" class="nav__link">App Astro</a></li>
+          <li><a href="app/constellations/index.html" class="nav__link">Constellations</a></li>
           <li><a href="news.html" class="nav__link">News</a></li>
           <li><a href="materiel.html" class="nav__link">Matériel</a></li>
           <li><a href="album.html" class="nav__link">Album</a></li>
@@ -112,6 +119,13 @@ FOOTER = """\
 
 RE_HEADER = re.compile(r"[ \t]*<header\b.*?</header>", re.S | re.I)
 RE_FOOTER = re.compile(r"[ \t]*<footer\b.*?</footer>", re.S | re.I)
+RE_HREF_LOCAL = re.compile(r'href="(?![a-z]+:|#|/)([^"]*)"')
+
+
+def header_pour(page: str) -> str:
+    """HEADER avec les liens relatifs préfixés selon la profondeur de la page."""
+    prefixe = "../" * page.count("/")
+    return RE_HREF_LOCAL.sub(lambda m: f'href="{prefixe}{m.group(1)}"', HEADER)
 
 
 def traiter(page: str, apply: bool) -> dict:
@@ -136,13 +150,15 @@ def traiter(page: str, apply: bool) -> dict:
     nh = len(RE_HEADER.findall(src))
     nf = len(RE_FOOTER.findall(src))
 
-    if nh != 1 or nf != 1:
+    outil = page in PAGES_OUTILS
+    if nh != 1 or (nf != 1 and not outil):
         r["statut"] = "SIGNALÉ"
         r["detail"] = f"{nh} <header>, {nf} <footer> — attendu 1 et 1 (non modifié)"
         return r
 
-    nouveau = RE_HEADER.sub(HEADER, src, count=1)
-    nouveau = RE_FOOTER.sub(FOOTER, nouveau, count=1)
+    nouveau = RE_HEADER.sub(lambda _: header_pour(page), src, count=1)
+    if not outil:
+        nouveau = RE_FOOTER.sub(lambda _: FOOTER, nouveau, count=1)
 
     if nouveau == src:
         r["statut"] = "IDENTIQUE"
@@ -174,7 +190,7 @@ def main():
     print(f"Racine : {RACINE}")
     print("=" * 68)
 
-    rapports = [traiter(p, args.apply) for p in PAGES]
+    rapports = [traiter(p, args.apply) for p in PAGES + PAGES_OUTILS]
 
     largeur = max(len(r["page"]) for r in rapports)
     for r in rapports:

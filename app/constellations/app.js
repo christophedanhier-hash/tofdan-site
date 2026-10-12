@@ -82,8 +82,8 @@
     return etat.data._pos;
   }
 
-  function nouveauCanvas() {
-    var c = el('canvas', { width: W, height: H });
+  function nouveauCanvas(classe) {
+    var c = el('canvas', { width: W, height: H, class: classe || '' });
     return c;
   }
 
@@ -169,56 +169,100 @@
     dessinerTraits(ctx);
   }
 
+  // ---------- Mise en page : mesure de l'espace REELLEMENT disponible ----------
+  var LARGEUR_MIN = 820;   // en dessous : une colonne, defilement naturel
+  var HAUTEUR_MIN = 300;   // en dessous : on ne ecrase pas l'ecran, on laisse defiler
+
+  function ajuster() {
+    var zones = ecran.querySelectorAll('.zone');
+    var travail = etat.etape === 1 || etat.etape === 3 || etat.etape === 4;
+    ecran.classList.remove('fixe');
+    ecran.style.height = '';
+    Array.prototype.forEach.call(zones, function (z) { z.style.height = ''; });
+
+    var large = window.innerWidth >= LARGEUR_MIN;
+    if (travail && large) {
+      var pied = document.querySelector('.footer');
+      var piedH = pied && pied.offsetParent !== null ? pied.offsetHeight : 0;
+      var haut = ecran.getBoundingClientRect().top + window.pageYOffset;
+      var dispo = Math.floor(window.innerHeight - haut - piedH - 8);
+      if (dispo >= HAUTEUR_MIN) {
+        ecran.style.height = dispo + 'px';
+        ecran.classList.add('fixe');
+      }
+    }
+    var fixe = ecran.classList.contains('fixe');
+
+    Array.prototype.forEach.call(zones, function (z) {
+      var c = z.querySelector('canvas');
+      if (!c) return;
+      var w = z.clientWidth, h;
+      if (fixe) {
+        h = z.clientHeight;
+      } else {
+        h = Math.min(w * 3 / 4, window.innerHeight * 0.8);
+        z.style.height = Math.round(h) + 'px';
+      }
+      // ratio 4/3 conserve : la plus petite des deux contraintes decide
+      var cw = Math.max(80, Math.min(w, h * 4 / 3));
+      c.style.width = Math.round(cw) + 'px';
+      c.style.height = Math.round(cw * 3 / 4) + 'px';
+    });
+  }
+
   // ---------- Écrans ----------
+  function boutonEtape(texte, cible, classe) {
+    return el('button', { class: 'btn ' + classe, text: texte, onclick: function () { aller(cible); } });
+  }
+
   function ecran1() {
     var d = etat.data;
-    var liste = el('ul', { class: 'liste-const' });
+    var courant = etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {};
+    var liste = el('ul', { class: 'liste-const', 'aria-label': 'Constellations disponibles' });
     etat.index.constellations.forEach(function (c) {
       var actif = (c.id === etat.id);
-      var item = el('li', actif ? { class: 'active' } : null);
-      if (actif) {
-        item.appendChild(el('span', { text: c.nom_fr + ' (' + c.nom_latin + ', ' + c.abreviation + ')' }));
-        item.appendChild(el('span', { class: 'badge', text: ' sélectionnée' }));
-      } else {
-        // rendre chaque constellation du catalogue réellement sélectionnable :
-        // on reste à l'étape 1 pour montrer la figure et la fiche d'accueil.
-        // C'est le bouton « Commencer » qui lance le parcours.
-        item.appendChild(el('button', {
-          class: 'btn-lien',
-          text: c.nom_fr + ' (' + c.nom_latin + ', ' + c.abreviation + ')',
-          onclick: function () {
-            charger(c.id, c.fichier).then(function () {
-              etat.etape = 1;
-              rendre();
-            });
-          }
-        }));
-      }
-      liste.appendChild(item);
+      var attrs = {
+        class: 'btn-lien', 'aria-current': actif ? 'true' : 'false',
+        onclick: function () {
+          if (actif) return;
+          charger(c.id, c.fichier).then(function () {
+            var n = Number(lireProgression()[c.id]);
+            etat.reprise = (n >= 2 && n <= TOTAL) ? n : 0;
+            etat.etape = 1;
+            etat.traits = [];
+            rendre();
+          });
+        }
+      };
+      liste.appendChild(el('li', null, [el('button', attrs, [
+        c.nom_fr, el('small', { text: c.nom_latin + ' · ' + c.abreviation })
+      ])]));
     });
-    var blocTxt = [
-      el('h2', { text: d.nom_fr }),
-      el('p', { text: d.nom_latin + ' — ' + d.abreviation_iau }),
-      el('p', { class: 'petit', text: d.saison + (d.voie_lactee ? ' · traversée par la Voie lactée' : '') }),
-      el('button', { class: 'btn btn--primary', text: 'Commencer', onclick: function () { aller(2); } })
-    ];
-    // si une progression est memorisee pour cette constellation, proposer de reprendre
+
+    var btns = [el('button', { class: 'btn btn--primary', text: 'Commencer', onclick: function () { aller(2); } })];
     if (etat.reprise && etat.reprise >= 2) {
-      blocTxt.push(el('button', {
-        class: 'btn btn--outline sec',
-        text: '↻ Reprendre à l\'étape ' + etat.reprise,
+      btns.push(el('button', {
+        class: 'btn btn--outline', text: '↻ Reprendre (étape ' + etat.reprise + ')',
         onclick: function () { aller(etat.reprise); }
       }));
     }
+    var meta = d.nom_latin + ' (' + d.abreviation_iau + ') · ' + d.saison +
+      (d.voie_lactee ? ' · Voie lactée' : '');
+
     return el('section', null, [
-      el('div', { class: 'carte carte-const' }, [
-        el('div', { class: 'carte-txt' }, blocTxt),
-        el('div', { class: 'carte-fig' }, [
-          el('img', { src: (etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {}).figure_svg || '', alt: 'Figure de ' + d.nom_fr, class: 'figure-const' })
+      el('div', { class: 'accueil' }, [
+        liste,
+        el('div', { class: 'carte-const' }, [
+          el('div', { class: 'entete-const' }, [
+            el('h2', { text: d.nom_fr }),
+            el('span', { class: 'meta', text: meta }),
+            el('div', { class: 'btns' }, btns)
+          ]),
+          el('div', { class: 'fig' }, [
+            el('img', { src: courant.figure_svg || '', alt: 'Figure de la constellation ' + d.nom_fr })
+          ])
         ])
-      ]),
-      el('h2', { text: 'Constellations disponibles' }),
-      liste
+      ])
     ]);
   }
 
@@ -235,25 +279,26 @@
     });
     var thead = el('thead', null, [el('tr', null,
       ['Nom', 'Bayer', 'Magnitude', 'Rôle', 'Visibilité'].map(function (t) { return el('th', { text: t }); }))]);
-    var voisines = el('ul', null, d.constellations_voisines.map(function (v) { return el('li', { text: v }); }));
     return el('section', null, [
-      el('h1', { text: 'Fiche élève — ' + d.nom_fr }),
-      el('div', { class: 'table-wrap' }, [el('table', null, [thead, tbody])]),
-      el('div', { class: 'carte' }, [
+      el('h1', { class: 'titre', text: 'Fiche élève — ' + d.nom_fr }),
+      el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche' }, [thead, tbody])]),
+      el('div', { class: 'encart' }, [
         el('p', null, [el('strong', { text: 'Repère principal : ' }), d.repere_principal]),
         el('p', { text: d.message_animation }),
-        el('p', null, [el('strong', { text: 'Constellations voisines :' })]),
-        voisines
+        el('p', null, [el('strong', { text: 'Constellations voisines : ' }), d.constellations_voisines.join(' · ')])
       ]),
-      el('button', { class: 'btn btn--outline sec', text: '← Précédent', onclick: function () { aller(1); } }),
-      el('button', { class: 'btn btn--primary', text: 'Dessiner', onclick: function () { aller(3); } })
+      el('div', { class: 'nav-etapes' }, [
+        boutonEtape('← Précédent', 1, 'btn--outline'),
+        boutonEtape('Dessiner →', 3, 'btn--primary')
+      ])
     ]);
   }
 
   function ecran3() {
     var canvas = nouveauCanvas();
+    canvas.setAttribute('aria-label', 'Zone de dessin de la constellation');
     var btnRep = el('button', {
-      class: 'btn sec' + (etat.reperes ? ' actif' : ''),
+      class: 'btn btn--outline' + (etat.reperes ? ' actif' : ''),
       text: etat.reperes ? 'Masquer les repères' : 'Afficher les repères',
       onclick: function () {
         etat.reperes = !etat.reperes;
@@ -278,14 +323,19 @@
     etat.couleur = selCo.value;
 
     var barre = el('div', { class: 'barre' }, [
-      el('button', { class: 'btn sec', text: 'Effacer', onclick: function () { etat.traits = []; redessiner(canvas); } }),
-      el('button', { class: 'btn sec', text: 'Annuler le dernier trait', onclick: function () { etat.traits.pop(); redessiner(canvas); } }),
+      el('strong', { class: 'petit', text: 'Dessine ' + etat.data.nom_fr }),
+      el('button', { class: 'btn btn--outline', text: 'Effacer', onclick: function () { etat.traits = []; redessiner(canvas); } }),
+      el('button', { class: 'btn btn--outline', text: 'Annuler', onclick: function () { etat.traits.pop(); redessiner(canvas); } }),
       el('label', { for: 'ep', text: 'Épaisseur' }), selEp,
       el('label', { for: 'co', text: 'Couleur' }), selCo,
-      btnRep
+      btnRep,
+      el('span', { class: 'espace' }),
+      boutonEtape('← Précédent', 2, 'btn--outline'),
+      boutonEtape('Comparer au corrigé →', 4, 'btn--primary')
     ]);
 
     var courant = null;
+    // coordonnees ecran -> coordonnees internes 800x600, quelle que soit la taille affichee
     function pos(e) {
       var r = canvas.getBoundingClientRect();
       return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height };
@@ -307,17 +357,14 @@
     canvas.addEventListener('pointercancel', fin);
 
     redessiner(canvas);
-    return el('section', null, [
-      el('h1', { text: 'Dessine la constellation' }),
-      barre, canvas,
-      el('button', { class: 'btn btn--outline sec', text: '← Précédent', onclick: function () { aller(2); } }),
-      el('button', { class: 'btn btn--primary', text: 'Comparer au corrigé', onclick: function () { aller(4); } })
-    ]);
+    return el('section', null, [barre, el('div', { class: 'zone' }, [canvas])]);
   }
 
   function ecran4() {
     var d = etat.data;
-    var cu = nouveauCanvas(), cc = nouveauCanvas();
+    var cu = nouveauCanvas('fige'), cc = nouveauCanvas('fige');
+    cu.setAttribute('role', 'img'); cu.setAttribute('aria-label', 'Ton dessin');
+    cc.setAttribute('role', 'img'); cc.setAttribute('aria-label', 'Corrigé de la constellation ' + d.nom_fr);
     var pos = positions();
 
     var ctx = cu.getContext('2d');
@@ -342,18 +389,22 @@
     });
 
     return el('section', null, [
-      el('h1', { text: 'Comparaison' }),
-      el('div', { class: 'duo' }, [
-        el('figure', null, [el('figcaption', { text: 'Ton dessin' }), cu]),
-        el('figure', null, [el('figcaption', { text: 'Corrigé (une construction possible)' }), cc])
+      el('div', { class: 'barre' }, [
+        el('strong', { class: 'petit', text: 'Comparaison — ' + d.nom_fr }),
+        el('span', { class: 'espace' }),
+        boutonEtape('← Précédent', 3, 'btn--outline'),
+        boutonEtape('Questions →', 5, 'btn--primary')
       ]),
-      el('div', { class: 'carte' }, [
-        el('p', null, [el('strong', { text: 'Géométrie : ' }), d.figure.note_geometrie]),
-        el('p', null, [el('strong', { text: 'Tracé retenu : ' }), d.figure.commentaire]),
-        el('p', null, [el('em', { text: d.figure.mode_libre })])
-      ]),
-      el('button', { class: 'btn btn--outline sec', text: '← Précédent', onclick: function () { aller(3); } }),
-      el('button', { class: 'btn btn--primary', text: 'Questions', onclick: function () { aller(5); } })
+      el('div', { class: 'comparaison' }, [
+        el('figure', null, [el('figcaption', { text: 'Ton dessin' }), el('div', { class: 'zone' }, [cu])]),
+        el('figure', null, [el('figcaption', { text: 'Corrigé (une construction possible)' }), el('div', { class: 'zone' }, [cc])]),
+        el('aside', { class: 'synthese', tabindex: '0', 'aria-label': 'Synthèse' }, [
+          el('h2', { text: 'Pour comprendre' }),
+          el('p', null, [el('strong', { text: 'Géométrie : ' }), d.figure.note_geometrie]),
+          el('p', null, [el('strong', { text: 'Tracé retenu : ' }), d.figure.commentaire]),
+          el('p', null, [el('em', { text: d.figure.mode_libre })])
+        ])
+      ])
     ]);
   }
 
@@ -362,27 +413,38 @@
     var guide = d.questions_guide.map(function (qr) {
       var rep = el('p', { class: 'reponse', text: qr.r });
       rep.hidden = true;
-      var btn = el('button', { class: 'btn sec', text: 'Voir la réponse', onclick: function () {
+      var btn = el('button', { class: 'btn btn--outline', text: 'Voir la réponse', onclick: function () {
         rep.hidden = !rep.hidden;
         btn.textContent = rep.hidden ? 'Voir la réponse' : 'Masquer la réponse';
       } });
-      return el('div', { class: 'carte' }, [el('p', null, [el('strong', { text: qr.q })]), btn, rep]);
+      return el('div', { class: 'question' }, [el('p', null, [el('strong', { text: qr.q })]), btn, rep]);
     });
     return el('section', null, [
-      el('h1', { text: 'Questions' }),
-      el('h2', { text: 'Questions du guide' })
-    ].concat(guide, [
-      el('h2', { text: "Questions d'observation" }),
-      el('ul', null, d.questions_observation.map(function (q) { return el('li', { text: q }); })),
-      el('button', { class: 'btn btn--outline sec', text: '← Précédent', onclick: function () { aller(4); } }),
-      el('button', { class: 'btn', text: 'Recommencer', onclick: function () { etat.traits = []; aller(1); } })
-    ]));
+      el('h1', { class: 'titre', text: 'Questions — ' + d.nom_fr }),
+      el('div', { class: 'questions' }, guide),
+      el('h2', { class: 'sous', text: "Questions d'observation" }),
+      el('ul', { class: 'observation' }, d.questions_observation.map(function (q) { return el('li', { text: q }); })),
+      el('div', { class: 'nav-etapes' }, [
+        boutonEtape('← Précédent', 4, 'btn--outline'),
+        el('button', { class: 'btn btn--primary', text: 'Recommencer', onclick: function () { etat.traits = []; aller(1); } })
+      ])
+    ]);
   }
+
+  var LIBELLES = ['', 'Catalogue', 'Fiche', 'Dessin', 'Comparaison', 'Questions'];
 
   function rendre() {
     ariane.textContent = '';
+    erreur.hidden = true;
+    /* Marque l'ecran courant sur <body> : le CSS masque le pied de page
+       pendant l'exercice (ecrans 3 et 4). */
+    document.body.setAttribute('data-ecran', String(etat.etape));
     for (var i = 1; i <= TOTAL; i++) {
-      ariane.appendChild(el('span', { class: i === etat.etape ? 'actif' : '', text: 'étape ' + i + '/' + TOTAL }));
+      (function (n) {
+        var b = el('button', { type: 'button', text: n + ' · ' + LIBELLES[n], onclick: function () { aller(n); } });
+        if (n === etat.etape) b.setAttribute('aria-current', 'step');
+        ariane.appendChild(b);
+      })(i);
     }
     ecran.textContent = '';
     var section;
@@ -398,7 +460,16 @@
       return;
     }
     ecran.appendChild(section);
+    window.scrollTo(0, 0);
+    ajuster();
   }
+
+  window.addEventListener('resize', ajuster);
+
+  // Le menu du site ne connait pas cette page (sous-dossier) : on marque « Constellations »
+  Array.prototype.forEach.call(document.querySelectorAll('.nav__link'), function (a) {
+    if (a.href === window.location.href.split(/[?#]/)[0]) a.classList.add('nav__link--active');
+  });
 
   function afficherErreur(msg) {
     erreur.textContent = msg + ' — reviens au début avec le bouton ci-dessous.';
