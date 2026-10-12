@@ -3,7 +3,7 @@
 **Date** : 12/10/2026
 **Demandeur** : Christophe (verbatim 1 : « *Peux tu voir ici pour que la page soit dans le meme pattern design du site et avoir un bouton pour revenir a la page https://www.tofdan.be/app-astro.html* » ; verbatim 2 : « *avant je veux que tu regarde et nous devons etre cohérent en claire par defaut et le bouton n'est aps sur la page* »)
 **Périmètre** : Gérard (zone astro). **1 fichier modifié** : `app/index.html`.
-**Commits** : `96583ca` (habillage + retour) · `701b2ed` (lisibilité du schéma) · `68ee66b` (thème clair par défaut + bouton visible)
+**Commits** : `96583ca` (habillage + retour) · `701b2ed` (lisibilité du schéma) · `68ee66b` (thème clair par défaut + bouton visible) · `920e979` (doc) · `fae58ee` (retrait du drapeau redondant + date v3.2 Octobre 2026)
 **Statut** : ✅ déployé et vérifié en production.
 
 ---
@@ -115,3 +115,32 @@ Deux demandes successives de Christophe :
   par la vérification indépendante, dont 3 invisibles au CR de Copilot.
 - Règle appliquée : **une mesure qui contredit l'écran est à vérifier deux fois** — le bug du
   clic inerte a été trouvé parce que le test portait sur le **comportement**, pas sur le code.
+
+---
+
+## 9. Suite — retrait du repère redondant + mise à jour de date (même jour)
+
+**Demande Christophe (verbatim)** : « *non les simulateurs reste en sombre rien a changer pour eux, pour le reste retire un des repére qui n'est pas correste et modifie la date a octobre 2026* »
+
+Cadrage demandé et obtenu **avant d'agir** (la consigne « modifie la date » pouvait inclure les
+simulateurs — 5 mentions de « Mars 2026 » au total) :
+
+| Question | Réponse Christophe |
+|---|---|
+| Jusqu'où corriger la date ? | **`app/index.html` uniquement** — les 4 simulateurs gardent « Version 3.1 (Mars 2026) » |
+| Quel libellé exact ? | **« v3.2 (Octobre 2026) »** — la date change **et** la version s'incrémente |
+
+**Repère fautif identifié par mesure** (pas au jugé) : le `.marker-label` contient déjà
+**« 📍 Système Solaire (Bras d'Orion) »**, et un second `<span class="marker-flag">🚩</span>`
+était **empilé dessous** (`flex-direction: column`). Deux symboles pour un seul point ⇒ le
+drapeau était **le redondant**. Retiré (balise **et** règle CSS `.marker-flag` devenue orpheline).
+
+**Point de vigilance vérifié** : le marqueur passe de **66 px à 27 px** de hauteur. Étant positionné
+en absolu avec un `translate`, un décalage était possible. **Mesuré après coup** : le badge reste
+aligné sur le bras de la galaxie, aucun chevauchement. Contraste du badge : **13.41:1** (AA = 4.5),
+identique dans les 2 thèmes.
+
+- Fichier : `app/index.html` — **+2 −4** (drapeau retiré, CSS orphelin nettoyé, 2 dates corrigées)
+- **4 simulateurs, `main.js`, `style.css` : intacts** (vérifié par `git status`)
+- Commit `fae58ee`, poussé et déployé ; **vérifié en production** : `v3.2 (Octobre 2026)`,
+  **0 occurrence** de « Mars 2026 » dans la page, drapeau **absent du code servi**
