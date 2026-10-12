@@ -1,306 +1,273 @@
 {
-  "id": "aigle",
-  "slug": "aigle",
-  "nom_fr": "Aigle",
-  "nom_latin": "Aquila",
-  "genitif": "Aquilae",
-  "abreviation_iau": "Aql",
-  "source_atlas": {
-    "pdf": "Atlas observation.pdf",
-    "pages": [
-      1,
-      2
-    ]
+ "id": "aigle",
+ "slug": "aigle",
+ "nom_fr": "Aigle",
+ "nom_latin": "Aquila",
+ "genitif": "Aquilae",
+ "abreviation_iau": "Aql",
+ "source_atlas": {
+  "pdf": "Atlas observation.pdf",
+  "pages": [
+   1,
+   2
+  ]
+ },
+ "saison": "été–début automne",
+ "voie_lactee": true,
+ "repere_principal": "Altaïr, membre du Triangle d'été (avec Véga et Deneb)",
+ "constellations_voisines": [
+  "La Flèche",
+  "Hercule",
+  "Le Serpent",
+  "L'Écu",
+  "Le Sagittaire",
+  "Le Capricorne",
+  "Le Verseau",
+  "Le Dauphin"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "Altaïr",
+   "bayer": "α Aql",
+   "ra_deg": 297.69583,
+   "dec_deg": 8.86832,
+   "mag": 0.76,
+   "role": "Étoile centrale, la plus brillante. Repère absolu du débutant.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos I311 via Wikipedia"
   },
-  "saison": "été–début automne",
-  "voie_lactee": true,
-  "repere_principal": "Altaïr, membre du Triangle d'été (avec Véga et Deneb)",
-  "constellations_voisines": [
-    "La Flèche",
-    "Hercule",
-    "Le Serpent",
-    "L'Écu",
-    "Le Sagittaire",
-    "Le Capricorne",
-    "Le Verseau",
-    "Le Dauphin"
-  ],
-  "etoiles": [
-    {
-      "i": 0,
-      "nom": "Altaïr",
-      "bayer": "α Aql",
-      "ra_deg": 297.69583,
-      "dec_deg": 8.86832,
-      "mag": 0.76,
-      "role": "Étoile centrale, la plus brillante. Repère absolu du débutant.",
-      "visibilite": "œil nu",
-      "src": "Hipparcos I311 via Wikipedia"
-    },
-    {
-      "i": 1,
-      "nom": "Tarazed",
-      "bayer": "γ Aql",
-      "ra_deg": 296.56492,
-      "dec_deg": 10.61326,
-      "mag": 2.712,
-      "role": "Trio d'Altaïr — sommet nord.",
-      "visibilite": "œil nu",
-      "src": "SAAO via Wikipedia"
-    },
-    {
-      "i": 2,
-      "nom": "Alshain",
-      "bayer": "β Aql",
-      "ra_deg": 298.8283,
-      "dec_deg": 6.40676,
-      "mag": 3.87,
-      "role": "Trio d'Altaïr — sommet sud.",
-      "visibilite": "œil nu",
-      "src": "Gaia DR3 via Wikipedia"
-    },
-    {
-      "i": 3,
-      "nom": "Deneb Okab",
-      "bayer": "δ Aql",
-      "ra_deg": 291.37459,
-      "dec_deg": 3.11478,
-      "mag": 3.365,
-      "role": "Prolongement de l'axe — aile ouest.",
-      "visibilite": "œil nu",
-      "src": "SAAO via Wikipedia"
-    },
-    {
-      "i": 4,
-      "nom": "Al Thalimain",
-      "bayer": "λ Aql",
-      "ra_deg": 286.56225,
-      "dec_deg": -4.88256,
-      "mag": 3.43,
-      "role": "Partie sud, proche de l'horizon.",
-      "visibilite": "œil nu (ciel dégagé au sud)",
-      "src": "Hipparcos I311 via Wikipedia"
-    },
-    {
-      "i": 5,
-      "nom": "Okab",
-      "bayer": "ζ Aql",
-      "ra_deg": 286.35253,
-      "dec_deg": 13.86348,
-      "mag": 2.983,
-      "role": "Aile nord de la figure.",
-      "visibilite": "œil nu",
-      "src": "Hipparcos via Wikipedia"
-    },
-    {
-      "i": 6,
-      "nom": "Eta Aql",
-      "bayer": "η Aql",
-      "ra_deg": 298.1182,
-      "dec_deg": 1.00566,
-      "mag": 3.49,
-      "role": "4e maillon de la queue : Alshain → Eta → Theta.",
-      "visibilite": "œil nu",
-      "src": "Wikipedia (variable 3,49–4,3) — À TRAITER AVEC PRUDENCE",
-      "alerte": "Étoile variable : la magnitude change. Ne pas l'utiliser pour comparer la luminosité."
-    },
-    {
-      "i": 7,
-      "nom": "Theta Aql",
-      "bayer": "θ Aql",
-      "ra_deg": 302.82619,
-      "dec_deg": -0.82146,
-      "mag": 3.26,
-      "role": "Extrémité basse de la queue (Alshain → Eta → Theta).",
-      "visibilite": "œil nu",
-      "src": "Hipparcos via Wikipedia"
-    }
-  ],
-  "figure": {
-    "statut": "CHOIX PEDAGOGIQUE, explicitement assume. Les cartes IAU/Sky & Telescope relient classiquement Altaïr-Tarazed-Alshain puis la queue. Mesure faite : Altaïr, Tarazed et Alshain sont alignées à 0,01° près (ce n'est donc PAS un triangle malgré la description de l'Atlas). La liaison Tarazed-Alshain a été retirée car redondante avec Altaïr-Tarazed + Altaïr-Alshain et source de segments superposés.",
-    "liaisons": [
-      [
-        0,
-        1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        2,
-        6
-      ],
-      [
-        6,
-        7
-      ]
-    ],
-    "commentaire": "Tracé retenu : la ligne Altaïr-Tarazed-Alshain (le trio serré, 2,07° / 2,71°), puis la queue Alshain-Eta-Theta (5,45° / 5,05°). Les ailes (Okab à 12,2°, Deneb Okab à 8,5°, Al Thalimain à 17,7°) ne sont PAS reliées : elles sont trop écartées et leur liaison relèverait d'un choix graphique arbitraire, non d'une évidence d'observation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée.",
-    "note_geometrie": "Les trois étoiles du trio (Altaïr, Tarazed, Alshain) sont alignées à 0,01° près. En revanche la queue Alshain → Eta → Theta n'est PAS alignée : Alshain–Eta = 5,45°, Eta–Theta = 5,05°, mais Alshain–Theta = 8,26° seulement. La somme 10,50° diffère donc de 8,26° — c'est normal, les deux segments forment un angle."
+  {
+   "i": 1,
+   "nom": "Tarazed",
+   "bayer": "γ Aql",
+   "ra_deg": 296.56492,
+   "dec_deg": 10.61326,
+   "mag": 2.712,
+   "role": "Trio d'Altaïr — sommet nord.",
+   "visibilite": "œil nu",
+   "src": "SAAO via Wikipedia"
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Altair-Tarazed": 2.07,
-    "Altair-Alshain": 2.71,
-    "Tarazed-Alshain": 4.76,
-    "Alshain-EtaAql": 5.45,
-    "EtaAql-ThetaAql": 5.05
+  {
+   "i": 2,
+   "nom": "Alshain",
+   "bayer": "β Aql",
+   "ra_deg": 298.8283,
+   "dec_deg": 6.40676,
+   "mag": 3.87,
+   "role": "Trio d'Altaïr — sommet sud.",
+   "visibilite": "œil nu",
+   "src": "Gaia DR3 via Wikipedia"
   },
-  "objets_ciel_profond": [
-    {
-      "id": "NGC 6709",
-      "nature": "amas ouvert",
-      "mag": 6.7,
-      "distance_al": 3000,
-      "note": "région NO de l'Aigle, riche d'une quarantaine d'étoiles",
-      "instrument": "jumelles",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6738",
-      "nature": "amas ouvert",
-      "mag": 8.3,
-      "distance_al": null,
-      "note": "modeste",
-      "instrument": "lunette",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6755",
-      "nature": "amas ouvert",
-      "mag": 7.5,
-      "distance_al": 5000,
-      "note": "une centaine d'étoiles au petit télescope",
-      "instrument": "petit télescope",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6756",
-      "nature": "amas ouvert",
-      "mag": 10.6,
-      "distance_al": 4900,
-      "note": "très concentré",
-      "instrument": "télescope",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6760",
-      "nature": "amas globulaire",
-      "mag": 9.55,
-      "distance_al": 70000,
-      "note": "diamètre apparent ~2′ ; AD=19h11m12.06s, déc=+01°01′49.7″",
-      "instrument": "télescope",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6741",
-      "nature": "nébuleuse planétaire",
-      "mag": 10.8,
-      "distance_al": null,
-      "note": "étoile centrale de magnitude 16",
-      "instrument": "télescope",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6751",
-      "nature": "nébuleuse planétaire",
-      "mag": null,
-      "distance_al": 6500,
-      "note": "diamètre < 1 a.l. (~600 × le Système solaire)",
-      "instrument": "télescope",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6790",
-      "nature": "nébuleuse planétaire",
-      "mag": 10.2,
-      "distance_al": null,
-      "note": "enveloppe en expansion à 40 km/s ; étoile centrale mag 10,50",
-      "instrument": "télescope",
-      "src": "Atlas p.2"
-    },
-    {
-      "id": "NGC 6804",
-      "nature": "nébuleuse planétaire",
-      "mag": 11.3,
-      "distance_al": null,
-      "note": "diamètre angulaire ≈ Jupiter au plus loin ; étoile centrale mag 14",
-      "instrument": "grand télescope",
-      "src": "Atlas p.2"
-    }
-  ],
-  "codification_luminosite": [
-    {
-      "code": 1,
-      "libelle": "très brillante",
-      "desc": "visible immédiatement"
-    },
-    {
-      "code": 2,
-      "libelle": "brillante",
-      "desc": "facile à repérer"
-    },
-    {
-      "code": 3,
-      "libelle": "moyenne",
-      "desc": "visible dans un bon ciel"
-    },
-    {
-      "code": 4,
-      "libelle": "faible",
-      "desc": "demande une attention particulière"
-    },
-    {
-      "code": 5,
-      "libelle": "limite",
-      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-    }
-  ],
-  "questions_observation": [
-    "Quelle est l'étoile la plus facile à repérer ?",
-    "Quelles étoiles forment le groupe le plus reconnaissable ?",
-    "Quelle différence de couleur observes-tu entre les étoiles ?",
-    "La forme de l'Aigle est-elle évidente à l'œil nu ?",
-    "Quelles étoiles disparaissent lorsque le ciel devient plus lumineux ?",
-    "Quels objets nécessitent des jumelles ou un télescope ?"
-  ],
-  "questions_guide": [
-    {
-      "q": "Pourquoi l'Aigle contient-il beaucoup d'objets ?",
-      "r": "Parce que sa région traverse une partie riche de la Voie lactée."
-    },
-    {
-      "q": "Un objet de magnitude 6,70 est-il toujours visible à l'œil nu ?",
-      "r": "Pas nécessairement : la brillance de surface, la pollution lumineuse et la transparence du ciel interviennent."
-    },
-    {
-      "q": "Pourquoi une nébuleuse planétaire ne concerne-t-elle pas une planète ?",
-      "r": "Le terme historique désigne une enveloppe de gaz expulsée par une étoile, dont l'aspect circulaire rappelait une planète dans les instruments anciens."
-    },
-    {
-      "q": "Que montre NGC 6760 ?",
-      "r": "Un amas globulaire : une concentration dense et sphérique d'étoiles."
-    },
-    {
-      "q": "Que faut-il expliquer à propos des photos ?",
-      "r": "Elles utilisent souvent des poses longues et des traitements qui révèlent des détails invisibles ou très difficiles à percevoir à l'oculaire."
-    }
-  ],
-  "message_animation": "L'Aigle est une constellation située dans une région riche de la Voie lactée. On peut commencer avec le trio Altaïr–Tarazed–Alshain, puis montrer que la même zone contient des amas d'étoiles et des nébuleuses planétaires, très différents par leur nature et leur distance.",
-  "tracabilite": {
-    "source_principale": "Atlas observation.pdf, pages 1–2 (fourni par Christophe)",
-    "archive_texte": "atlas-observation-source/001-aigle.txt",
-    "etendue_wiki": "wiki-oca/docs/formation-guide-astro/constellations-et-objets.md §5",
-    "fiche_pilote": "wiki-oca/docs/formation-guide-astro/fiches-atlas/aigle-fiche-pilote.md",
-    "coordonnees": "Hipparcos I311 / Gaia DR3, via fiches Wikipedia citées",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "Aucune carte/image extraite : les visuels sont à générer depuis les coordonnées (SVG)",
-      "NGC 6751 et NGC 6738 : distance ou magnitude non indiquée par l'Atlas",
-      "Eta Aql est variable : magnitude non stable",
-      "Figure : aucune carte IAU officielle n'impose un tracé unique. Le tracé retenu est documenté comme un choix."
-    ]
+  {
+   "i": 3,
+   "nom": "Eta Aql",
+   "bayer": "η Aql",
+   "ra_deg": 298.1182,
+   "dec_deg": 1.00566,
+   "mag": 3.49,
+   "role": "4e maillon de la queue : Alshain → Eta → Theta.",
+   "visibilite": "œil nu",
+   "src": "Wikipedia (variable 3,49–4,3) — À TRAITER AVEC PRUDENCE",
+   "alerte": "Étoile variable : la magnitude change. Ne pas l'utiliser pour comparer la luminosité."
+  },
+  {
+   "i": 4,
+   "nom": "Theta Aql",
+   "bayer": "θ Aql",
+   "ra_deg": 302.82619,
+   "dec_deg": -0.82146,
+   "mag": 3.26,
+   "role": "Extrémité basse de la queue (Alshain → Eta → Theta).",
+   "visibilite": "œil nu",
+   "src": "Hipparcos via Wikipedia"
   }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assume (decision Christophe, 12/10/2026). La figure classique de l'Aigle est la ligne du fleau (Tarazed-Altaïr-Alshain) prolongee par la queue (Alshain-Eta-Theta). Les illustrations traditionnelles ne tracent PAS les ailes : elles sont seulement symbolisees par le trio. Trois etoiles de la fiche (delta, lambda, zeta) n'appartiennent donc a AUCUN trace : elles ont ete retirees pour que l'app n'affiche que des etoiles reliees. Aucune etoile orpheline.",
+  "liaisons": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "commentaire": "Trace retenu : la ligne Altaïr-Tarazed-Alshain (le trio serre du fleau, 2,07 deg / 2,71 deg), puis la queue Alshain-Eta-Theta (5,45 deg / 5,05 deg). Les ailes ne sont pas tracees — conformement aux illustrations classiques ou ces trois etoiles symbolisent la ligne du fleau sans que les ailes soient dessinees.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée.",
+  "note_geometrie": "Les trois etoiles du trio (Altaïr, Tarazed, Alshain) sont alignees a 0,01 deg pres. En revanche la queue Alshain -> Eta -> Theta n'est PAS alignee : Alshain-Eta = 5,45 deg, Eta-Theta = 5,05 deg, mais Alshain-Theta = 8,26 deg seulement. La somme 10,50 deg differe donc de 8,26 deg — c'est normal, les deux segments forment un angle."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "Altair-Tarazed": 2.07,
+  "Altair-Alshain": 2.71,
+  "Tarazed-Alshain": 4.76,
+  "Alshain-EtaAql": 5.45,
+  "EtaAql-ThetaAql": 5.05
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 6709",
+   "nature": "amas ouvert",
+   "mag": 6.7,
+   "distance_al": 3000,
+   "note": "région NO de l'Aigle, riche d'une quarantaine d'étoiles",
+   "instrument": "jumelles",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6738",
+   "nature": "amas ouvert",
+   "mag": 8.3,
+   "distance_al": null,
+   "note": "modeste",
+   "instrument": "lunette",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6755",
+   "nature": "amas ouvert",
+   "mag": 7.5,
+   "distance_al": 5000,
+   "note": "une centaine d'étoiles au petit télescope",
+   "instrument": "petit télescope",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6756",
+   "nature": "amas ouvert",
+   "mag": 10.6,
+   "distance_al": 4900,
+   "note": "très concentré",
+   "instrument": "télescope",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6760",
+   "nature": "amas globulaire",
+   "mag": 9.55,
+   "distance_al": 70000,
+   "note": "diamètre apparent ~2′ ; AD=19h11m12.06s, déc=+01°01′49.7″",
+   "instrument": "télescope",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6741",
+   "nature": "nébuleuse planétaire",
+   "mag": 10.8,
+   "distance_al": null,
+   "note": "étoile centrale de magnitude 16",
+   "instrument": "télescope",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6751",
+   "nature": "nébuleuse planétaire",
+   "mag": null,
+   "distance_al": 6500,
+   "note": "diamètre < 1 a.l. (~600 × le Système solaire)",
+   "instrument": "télescope",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6790",
+   "nature": "nébuleuse planétaire",
+   "mag": 10.2,
+   "distance_al": null,
+   "note": "enveloppe en expansion à 40 km/s ; étoile centrale mag 10,50",
+   "instrument": "télescope",
+   "src": "Atlas p.2"
+  },
+  {
+   "id": "NGC 6804",
+   "nature": "nébuleuse planétaire",
+   "mag": 11.3,
+   "distance_al": null,
+   "note": "diamètre angulaire ≈ Jupiter au plus loin ; étoile centrale mag 14",
+   "instrument": "grand télescope",
+   "src": "Atlas p.2"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  "Quelle est l'étoile la plus facile à repérer ?",
+  "Quelles étoiles forment le groupe le plus reconnaissable ?",
+  "Quelle différence de couleur observes-tu entre les étoiles ?",
+  "La forme de l'Aigle est-elle évidente à l'œil nu ?",
+  "Quelles étoiles disparaissent lorsque le ciel devient plus lumineux ?",
+  "Quels objets nécessitent des jumelles ou un télescope ?"
+ ],
+ "questions_guide": [
+  {
+   "q": "Pourquoi l'Aigle contient-il beaucoup d'objets ?",
+   "r": "Parce que sa région traverse une partie riche de la Voie lactée."
+  },
+  {
+   "q": "Un objet de magnitude 6,70 est-il toujours visible à l'œil nu ?",
+   "r": "Pas nécessairement : la brillance de surface, la pollution lumineuse et la transparence du ciel interviennent."
+  },
+  {
+   "q": "Pourquoi une nébuleuse planétaire ne concerne-t-elle pas une planète ?",
+   "r": "Le terme historique désigne une enveloppe de gaz expulsée par une étoile, dont l'aspect circulaire rappelait une planète dans les instruments anciens."
+  },
+  {
+   "q": "Que montre NGC 6760 ?",
+   "r": "Un amas globulaire : une concentration dense et sphérique d'étoiles."
+  },
+  {
+   "q": "Que faut-il expliquer à propos des photos ?",
+   "r": "Elles utilisent souvent des poses longues et des traitements qui révèlent des détails invisibles ou très difficiles à percevoir à l'oculaire."
+  }
+ ],
+ "message_animation": "L'Aigle est une constellation située dans une région riche de la Voie lactée. On peut commencer avec le trio Altaïr–Tarazed–Alshain, puis montrer que la même zone contient des amas d'étoiles et des nébuleuses planétaires, très différents par leur nature et leur distance.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 1–2 (fourni par Christophe)",
+  "archive_texte": "atlas-observation-source/001-aigle.txt",
+  "etendue_wiki": "wiki-oca/docs/formation-guide-astro/constellations-et-objets.md §5",
+  "fiche_pilote": "wiki-oca/docs/formation-guide-astro/fiches-atlas/aigle-fiche-pilote.md",
+  "coordonnees": "Hipparcos I311 / Gaia DR3, via fiches Wikipedia citées",
+  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+  "lacunes": [
+   "Aucune carte/image extraite : les visuels sont à générer depuis les coordonnées (SVG)",
+   "NGC 6751 et NGC 6738 : distance ou magnitude non indiquée par l'Atlas",
+   "Eta Aql est variable : magnitude non stable",
+   "Figure : aucune carte IAU officielle n'impose un tracé unique. Le tracé retenu est documenté comme un choix."
+  ]
+ }
 }

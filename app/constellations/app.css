@@ -1,69 +1,291 @@
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  background: #f6f4ee;
-  color: #222;
-  line-height: 1.5;
+/* ==========================================================================
+   Application « Apprendre les constellations »
+   --------------------------------------------------------------------------
+   Ce fichier est COMPLEMENTAIRE a css/style.css (charge avant lui par
+   index.html). Il ne definit AUCUNE couleur en dur : il s'appuie
+   exclusivement sur les variables du site (--color-*, --radius-*, --shadow-*)
+   afin que l'application partage l'identite visuelle de tofdan.be et suive
+   automatiquement le theme clair / sombre.
+   ========================================================================== */
+
+/* --- Enveloppe de l'application ------------------------------------------ */
+
+.ariane {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 24px;
 }
-.wrap { max-width: 960px; margin: 0 auto; padding: 16px; }
-.retour { color: #1a4f8b; text-decoration: none; font-size: .95rem; }
-.retour:hover { text-decoration: underline; }
-.ariane { margin: 12px 0; font-size: .85rem; color: #777; }
-.ariane span { margin-right: 10px; }
-.ariane .actif { color: #1a4f8b; font-weight: 700; }
-h1, h2 { color: #17365c; margin: .4em 0; }
-.carte { background: #fff; border: 1px solid #ddd8c9; border-radius: 8px; padding: 16px; margin: 12px 0; }
-.btn {
-  background: #1a4f8b; color: #fff; border: 0; border-radius: 6px;
-  padding: 9px 16px; font-size: 1rem; cursor: pointer; margin: 4px 4px 4px 0;
+
+.ariane span {
+  font-size: 0.78rem;
+  color: var(--color-text-dim);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  transition: color var(--transition-base), border-color var(--transition-base);
 }
-.btn:hover { background: #143d6c; }
-.btn.sec { background: #e8e4d6; color: #222; border: 1px solid #cfc9b6; }
-.btn.sec:hover { background: #ddd8c6; }
-.btn.actif { outline: 2px solid #1a4f8b; }
-.table-wrap { overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; background: #fff; }
-th, td { border: 1px solid #ddd8c9; padding: 6px 10px; text-align: left; vertical-align: top; }
-th { background: #ece8d9; }
-.alerte { color: #8a5a00; font-size: .85rem; }
-.barre { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
-.barre label { font-size: .9rem; }
-canvas {
-  width: 100%; height: auto; display: block;
-  background: #fbf9f3; border: 1px solid #cfc9b6; border-radius: 6px;
-  touch-action: none;
+
+.ariane span.actif {
+  color: var(--color-text);
+  border-color: var(--color-primary);
+  background: var(--color-bg-card);
 }
-.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.duo figcaption { font-weight: 600; margin-bottom: 4px; }
-.duo figure { margin: 0; }
-@media (max-width: 640px) { .duo { grid-template-columns: 1fr; } }
-details { margin: 8px 0; }
-summary { cursor: pointer; }
-.reponse { margin: 6px 0 0; padding: 8px 12px; background: #eef4fb; border-left: 3px solid #1a4f8b; }
-.erreur { color: #a11; background: #fde8e8; padding: 10px; border-radius: 6px; }
-.liste-const { list-style: none; padding: 0; }
-.liste-const li { padding: 4px 0; border-bottom: 1px solid #f0ece0; }
-.liste-const li:last-child { border-bottom: 0; }
-/* Catalogue : chaque constellation non sélectionnée est un bouton-lien */
+
+/* --- Messages ------------------------------------------------------------ */
+
+.erreur {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-error);
+  border-left: 4px solid var(--color-error);
+  border-radius: var(--radius-md, 8px);
+  color: var(--color-text);
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  font-size: 0.92rem;
+}
+
+/* --- Cartes -------------------------------------------------------------- */
+
+.carte {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 20px;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.carte:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: var(--shadow-glow);
+}
+
+.carte h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.carte h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 18px 0 8px;
+}
+
+.carte p {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* Carte d'accueil : texte + figure cote a cote */
+.modele-carte {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  align-items: start;
+}
+
+@media (max-width: 720px) {
+  .modele-carte {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Figure de constellation (SVG) --------------------------------------- */
+
+.bloc-fig {
+  margin-top: 18px;
+}
+
+.figure-const {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 10px;
+}
+
+.figure-const img {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  display: block;
+}
+
+/* --- Catalogue des constellations ---------------------------------------- */
+
+.liste-const {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.liste-const li {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.liste-const li:last-child {
+  border-bottom: none;
+}
+
 .btn-lien {
-  background: none; border: 0; padding: 4px 0; margin: 0;
-  font: inherit; font-size: .97rem; color: #1a4f8b;
-  text-align: left; cursor: pointer; text-decoration: none;
-  text-underline-offset: 2px;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.98rem;
+  font-family: inherit;
+  padding: 11px 4px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  transition: color var(--transition-base);
 }
-.btn-lien:hover { color: #143d6c; text-decoration: underline; }
-.btn-lien:focus-visible { outline: 2px solid #1a4f8b; outline-offset: 2px; border-radius: 3px; }
-.liste-const li.active > span:first-child { font-weight: 600; color: #17365c; }
+
+.btn-lien:hover {
+  color: var(--color-primary);
+}
+
+.btn-lien:hover .badge {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
 .badge {
-  display: inline-block; margin-left: 6px; padding: 1px 7px;
-  font-size: .78rem; border-radius: 10px;
-  background: #e3edf8; color: #1a4f8b; vertical-align: middle;
+  font-size: 0.74rem;
+  color: var(--color-text-dim);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 2px 9px;
+  white-space: nowrap;
+  transition: color var(--transition-base), border-color var(--transition-base);
 }
-/* Carte de tete : texte a gauche, figure de la constellation a droite */
-.carte-const { display: grid; grid-template-columns: 1fr minmax(240px, 380px); gap: 20px; align-items: center; }
-.carte-txt { min-width: 0; }
-.carte-fig { display: flex; justify-content: center; }
-.figure-const { width: 100%; max-width: 380px; height: auto; display: block; background: #fbf9f4; border: 1px solid #e5ded0; border-radius: 8px; }
-.petit { font-size: .86rem; color: #6b6b6b; margin: 2px 0 12px; }
-@media (max-width: 720px) { .carte-const { grid-template-columns: 1fr; } }
+
+/* --- Boutons de progression ---------------------------------------------- */
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+/* --- Questionnaires ------------------------------------------------------ */
+
+.choix {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+}
+
+.choix li {
+  margin-bottom: 10px;
+}
+
+.choix button {
+  width: 100%;
+  text-align: left;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md, 8px);
+  color: var(--color-text);
+  padding: 13px 16px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: border-color var(--transition-base), background var(--transition-base);
+}
+
+.choix button:hover {
+  border-color: var(--color-border-hover);
+  background: var(--color-bg-card-hover);
+}
+
+.choix button.bon {
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+
+.choix button.mauvais {
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+
+/* --- Dessin (canvas) ----------------------------------------------------- */
+
+.dessin {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 10px;
+  margin-top: 18px;
+}
+
+.dessin canvas {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--radius-md, 8px);
+  touch-action: none;
+  cursor: crosshair;
+}
+
+/* --- Tableaux (fiches objets) -------------------------------------------- */
+
+.carte table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 0.92rem;
+}
+
+.carte th,
+.carte td {
+  text-align: left;
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.carte th {
+  color: var(--color-text-dim);
+  font-weight: 600;
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.carte td {
+  color: var(--color-text-muted);
+}
+
+.carte tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* --- Divers -------------------------------------------------------------- */
+
+.note {
+  color: var(--color-text-dim);
+  font-size: 0.88rem;
+  font-style: italic;
+  margin-top: 14px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.76rem;
+  color: var(--color-text-dim);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 3px 10px;
+  margin: 0 6px 6px 0;
+}

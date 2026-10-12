@@ -2,18 +2,78 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Apprendre les constellations — tofdan.be</title>
-  <link rel="stylesheet" href="app.css?v=5">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apprendre les constellations — outil interactif d'observation du ciel, avec figures, fiches et questions.">
+  <title>Apprendre les constellations — Tofdan</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a1a'/%3E%3Cpath d='M20 8a10 10 0 1 1-12 12 7 7 0 0 0 12-12z' fill='%237c3aed'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+  <!-- CSS du site (variables, header, footer, boutons) : source unique d'identite visuelle -->
+  <link rel="stylesheet" href="../../css/style.css?v=1790954759">
+  <!-- CSS propre a l'application (complementaire, s'appuie sur les variables du site) -->
+  <link rel="stylesheet" href="app.css?v=9">
 </head>
 <body>
-  <main class="wrap">
-    <a class="retour" href="../../app-astro.html">← Retour au site</a>
-    <nav class="ariane" id="ariane" aria-label="Progression"></nav>
-    <div id="ecran" aria-live="polite"></div>
-    <p class="erreur" id="erreur" hidden></p>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="../../index.html" class="header__logo">
+        <span class="header__logo-icon">🌙</span>
+        ASTRO PHOTOGRAPHIE
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__list">
+          <li><a href="../../index.html" class="nav__link">Accueil</a></li>
+          <li><a href="../../astro.html" class="nav__link">Astro</a></li>
+          <li><a href="../../app-astro.html" class="nav__link">App Astro</a></li>
+          <li><a href="../../news.html" class="nav__link">News</a></li>
+          <li><a href="../../materiel.html" class="nav__link">Matériel</a></li>
+          <li><a href="../../album.html" class="nav__link">Album</a></li>
+          <li><a href="../../meteo-astro.html" class="nav__link">Météo</a></li>
+          <li><a href="../../biblio.html" class="nav__link">Biblio</a></li>
+          <li><a href="../../chat.html" class="nav__link">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Basculer le thème">
+          <span class="theme-toggle__icon">🌙</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="page-header">
+      <div class="container">
+        <h1 class="page-header__title">Apprendre les constellations</h1>
+        <p class="page-header__subtitle">Repérer, comprendre et dessiner les figures du ciel — étape par étape.</p>
+      </div>
+    </div>
+
+    <!-- zone de l'application : app.js remplit #ecran -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div id="ariane" class="ariane" aria-label="Progression"></div>
+        <div id="erreur" class="erreur" hidden></div>
+        <div id="ecran"></div>
+      </div>
+    </section>
   </main>
-  <noscript><p class="erreur">JavaScript est nécessaire pour cette application.</p></noscript>
-  <script src="app.js?v=7"></script>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Christophe Danhier — Observatoire Centre Ardenne</p>
+      <ul class="footer__links">
+        <li><a href="../../mentions-legales.html">Mentions légales</a></li>
+        <li><a href="../../cgu.html">Conditions d'utilisation</a></li>
+        <li><a href="../../app-astro.html">Retour au site</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js?v=1790954759"></script>
+  <script src="app.js?v=12"></script>
 </body>
 </html>
