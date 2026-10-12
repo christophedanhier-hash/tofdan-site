@@ -20,6 +20,20 @@
         .retour-site { margin-top: 20px; }
         .accueil { text-align: center; }
 
+        /* Le bouton « Retour au site » doit rester visible dans les deux themes.
+           .btn--outline est transparent : en theme sombre sa bordure grise se
+           confond avec le fond bleu nuit (constat Christophe 12/10/2026). */
+        .retour-site .btn--outline,
+        .accueil > p .btn--outline {
+            border-color: var(--color-border-hover);
+            background: var(--color-bg-card);
+        }
+        .retour-site .btn--outline:hover,
+        .accueil > p .btn--outline:hover {
+            border-color: var(--color-primary);
+            background: rgba(79, 70, 229, 0.12);
+        }
+
         /* Grille 2 colonnes des simulateurs */
         .bouton-astro {
             max-width: 800px;
@@ -426,5 +440,13 @@
             drawGalaxyPreview();
         }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
     </script>
+
+    <button class="back-to-top" aria-label="Retour en haut">&uarr;</button>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Passer en mode nuit">☀️</button>
+
+    <!-- main.js doit venir APRES le bouton #theme-toggle : il cable l'ecouteur
+         de bascule de theme au chargement (sinon le bouton reste inerte). -->
+    <script src="../js/main.js?v=1785752541"></script>
 </body>
 </html>
