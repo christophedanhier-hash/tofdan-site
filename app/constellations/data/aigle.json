@@ -165,7 +165,7 @@
    "id": "NGC 6741",
    "nature": "nébuleuse planétaire",
    "mag": 9.6,
-   "distance_al": 12159,
+   "distance_al": 12200,
    "note": "étoile centrale de magnitude 16",
    "instrument": "télescope",
    "src": "SIMBAD (mag) + Wikidata (distance)"
@@ -174,7 +174,7 @@
    "id": "NGC 6751",
    "nature": "nébuleuse planétaire",
    "mag": 15.48,
-   "distance_al": 8432,
+   "distance_al": 8430,
    "note": "diamètre < 1 a.l. (~600 × le Système solaire)",
    "instrument": "télescope",
    "src": "SIMBAD (mag) + Wikidata (distance)"

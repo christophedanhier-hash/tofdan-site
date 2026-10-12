@@ -234,7 +234,24 @@
 
   // ---------- Formats et jointures sur les données ----------
   function fmtNum(v) { return String(v).replace('.', ','); }
-  function fmtAL(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202F'); }
+  // Distance lisible, 3 chiffres significatifs au maximum (unité incluse) :
+  //   < 1 000 a.l.        : entier
+  //   1 000 à < 10 000    : arrondi à la dizaine
+  //   10 000 à < 1 million: arrondi au millier
+  //   >= 1 million        : en millions d'a.l., 2 chiffres significatifs
+  //                         (1 décimale en dessous de 10 millions)
+  function fmtAL(n) {
+    var d = Number(n), v, m, txt;
+    function sep(x) { return String(x).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202F'); }
+    if (d < 1000) v = Math.round(d);
+    else if (d < 10000) v = Math.round(d / 10) * 10;
+    else v = Math.round(d / 1000) * 1000;
+    if (v < 1000000) return sep(v) + '\u00A0a.l.';
+    m = d / 1000000;
+    m = m >= 10 ? Math.round(m) : Math.round(m * 10) / 10;
+    txt = sep(String(m).replace('.', ','));
+    return txt + '\u00A0' + (m === 1 ? 'million' : 'millions') + '\u00A0d\'a.l.';
+  }
   function norm(t) {
     return String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
   }
@@ -582,7 +599,7 @@
       }
       tds.push(el('td', { class: 'oid', text: o.id }), el('td', { text: o.nature || '' }));
       if (avecMag) tds.push(el('td', { class: 'num', text: valide(o.mag) ? fmtNum(o.mag) : '' }));
-      if (avecDist) tds.push(el('td', { class: 'num', text: valide(o.dist) ? fmtAL(o.dist) + '\u00A0a.l.' : '' }));
+      if (avecDist) tds.push(el('td', { class: 'num', text: valide(o.dist) ? fmtAL(o.dist) : '' }));
       if (avecNote) tds.push(el('td', { class: 'note', text: o.note || '' }));
       if (avecSrc) tds.push(el('td', { class: 'src', text: o.src || '' }));
       tbody.appendChild(el('tr', null, tds));

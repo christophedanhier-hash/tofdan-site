@@ -102,7 +102,7 @@
       "id": "M52",
       "nature": "amas ouvert",
       "mag": 6.9,
-      "distance_al": 5472,
+      "distance_al": 5470,
       "note": "Amas ouvert dense et riche, en fourmilière serrée. Aisé aux jumelles, il se résout en étoiles dans une petite lunette. À 5° du célèbre NGC 7635 (Bulle).",
       "instrument": "jumelles",
       "src": "OpenNGC + Wikidata"
@@ -111,7 +111,7 @@
       "id": "M 103",
       "nature": "amas ouvert",
       "mag": 7.4,
-      "distance_al": 8744,
+      "distance_al": 8740,
       "note": "Petit amas ouvert en triangle, un des derniers du catalogue Messier. Quelques étoiles brillantes dominent un fond de faibles étoiles ; très joli à la lunette.",
       "instrument": "jumelles",
       "src": "OpenNGC + Wikidata"
@@ -120,7 +120,7 @@
       "id": "NGC 457",
       "nature": "amas ouvert",
       "mag": 6.4,
-      "distance_al": 10256,
+      "distance_al": 10300,
       "note": "Amas ouvert du Hibou (ou E.T.) : deux étoiles brillantes figurent les yeux, et sa forme évoque une chouette. Très spectaculaire aux jumelles et en lunette.",
       "instrument": "œil nu",
       "src": "OpenNGC + Wikidata"
@@ -150,7 +150,7 @@
       "distance_al": null,
       "note": "Nébuleuse en émission faible, voisine d'IC 59 et excitée par γ Cassiopeiae. À photographier, hors de portée de l'œil.",
       "instrument": "télescope",
-      "src": "OpenNGC (magnitude B) + Wikidata"
+      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée"
     },
     {
       "id": "NGC 7635",
@@ -174,7 +174,7 @@
       "id": "IC 1590",
       "nature": "amas + nébuleuse",
       "mag": null,
-      "distance_al": 9621,
+      "distance_al": 9620,
       "note": "Amas très jeune noyé dans la nébuleuse NGC 281 ; aucune magnitude publiée séparément pour l'amas.",
       "instrument": null,
       "src": "Wikidata ; magnitude non publiée"
