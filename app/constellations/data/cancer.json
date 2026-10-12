@@ -105,7 +105,8 @@
       "distance_al": 610,
       "note": "Amas ouvert le plus proche du ciel boréal — à l'œil nu, une tache laiteuse dans le Cancer. Amas de la Crèche (Praesepe) : ~1 000 étoiles dont une dizaine de 6ᵉ–7ᵉ grandeur.",
       "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "M 67",
@@ -114,7 +115,8 @@
       "distance_al": 2880,
       "note": "Un des amas ouverts les plus vieux connus (~4 milliards d'années, soit l'âge du Soleil). Riche en étoiles jaunes, il ressemble à un petit amas globulaire aux jumelles.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "NGC 6791",
@@ -123,7 +125,8 @@
       "distance_al": 17000,
       "note": "Amas ouvert très vieux et très riche (~8 milliards d'années), l'un des plus âgés de la Galaxie. Étoiles faibles et serrées : il faut un instrument pour le distinguer du fond.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "NGC 2775",
@@ -132,7 +135,8 @@
       "distance_al": 61200000,
       "note": "Galaxie spirale vue de face, au noyau brillant entouré de bras peu contrastés. Objet difficile en visuel : sa magnitude 10 le réserve aux instruments.",
       "instrument": "lunette",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     }
   ],
   "codification_luminosite": [
@@ -211,5 +215,54 @@
       "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
       "statut": "à relire par Christophe avant diffusion"
     }
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
   }
 }

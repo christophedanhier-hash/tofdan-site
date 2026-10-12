@@ -147,7 +147,8 @@
       "distance_al": 1340,
       "note": "La nébuleuse d'Orion : la plus célèbre du ciel, visible à l'œil nu dans l'Épée. Un immense nuage de gaz où naissent des étoiles, illuminé par le trapèze d'Orion.",
       "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "M 43",
@@ -156,7 +157,8 @@
       "distance_al": 1600,
       "note": "« Nébuleuse de Mairan » : petite nébuleuse accolée à M 42, dont elle est séparée par une bande sombre. Elle a son propre cœur lumineux.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "NGC 1980",
@@ -165,7 +167,8 @@
       "distance_al": 1260,
       "note": "Amas ouvert serré illuminant la base de l'Épée d'Orion, autour de l'étoile ι Orionis. Riche et brillant, il prolonge l'observation de M 42.",
       "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "NGC 1977",
@@ -174,7 +177,8 @@
       "distance_al": 1290,
       "note": "Nébuleuse de l'Homme qui court, illuminée par plusieurs étoiles chaudes ; aucune magnitude globale publiée, elle s'observe en grand champ autour de M 42.",
       "instrument": null,
-      "src": "Wikidata ; magnitude non publiée"
+      "src": "Wikidata ; magnitude non publiée",
+      "code": "W1†"
     },
     {
       "id": "NGC 1975",
@@ -183,7 +187,8 @@
       "distance_al": null,
       "note": "Faible nébuleuse diffuse au nord de M 42, dans le même groupe que 1973 et 1977. Objet de photographie, invisible à l'œil.",
       "instrument": "jumelles",
-      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée"
+      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée",
+      "code": "O2‡"
     },
     {
       "id": "NGC 1973",
@@ -192,7 +197,8 @@
       "distance_al": null,
       "note": "Petite nébuleuse diffuse du groupe de l'Homme qui court, à l'est de M 42. Sans magnitude publiée : à réserver à la photographie.",
       "instrument": "jumelles",
-      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée"
+      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée",
+      "code": "O2‡"
     },
     {
       "id": "NGC 1981",
@@ -201,7 +207,8 @@
       "distance_al": 1280,
       "note": "Amas ouvert de l'Épée d'Orion, au nord de la nébuleuse, formant un V d'étoiles brillantes. Visible à l'œil nu dans la Voie lactée d'Orion.",
       "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "M 78",
@@ -210,7 +217,8 @@
       "distance_al": 1600,
       "note": "Nébuleuse par réflexion dans Orion, bleutée : duo de petites nébuleuses éclairées par deux étoiles dans un champ poussiéreux. Facile aux jumelles.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "IC 434",
@@ -219,7 +227,8 @@
       "distance_al": 1500,
       "note": "Nébuleuse de la Tête de Cheval : une silhouette noire d'encensoir découpée dans une longue bande rouge. Exige un filtre Hβ et un ciel parfait à l'œil ; superbe en photo.",
       "instrument": "lunette",
-      "src": "OpenNGC (magnitude B) + Wikidata"
+      "src": "OpenNGC (magnitude B) + Wikidata",
+      "code": "O2"
     },
     {
       "id": "NGC 2112",
@@ -228,7 +237,8 @@
       "distance_al": 3720,
       "note": "Amas ouvert modeste du nord d'Orion, peu concentré, dans un champ pauvre. À voir à la lunette.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "NGC 2186",
@@ -237,7 +247,8 @@
       "distance_al": 7900,
       "note": "Petit amas ouvert d'Orion, dans un riche champ de la Voie lactée, non loin de Bételgeuse. Modeste mais facile.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     },
     {
       "id": "NGC 2194",
@@ -246,7 +257,8 @@
       "distance_al": 12400,
       "note": "Amas ouvert riche et compact d'Orion, aux étoiles faibles serrées. Un des plus beaux amas ouverts de la région pour un télescope.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata"
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
     }
   ],
   "codification_luminosite": [
@@ -325,5 +337,54 @@
       "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
       "statut": "à relire par Christophe avant diffusion"
     }
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
   }
 }

@@ -302,6 +302,25 @@
     return el('div', { class: 'encart lumi' }, kids);
   }
 
+  // Référentiel des codes Source, tel que dans les données
+  function encartReferentiel() {
+    var r = etat.data.referentiel_sources;
+    if (!r) return el('div');
+    function ligne(l) {
+      var kids = [el('span', { class: 'code code-ref', text: String(l.code) }),
+        el('span', null, [el('strong', { text: l.texte || '' })])];
+      if (l.detail) kids[1].appendChild(el('small', { class: 'ref-detail', text: l.detail }));
+      return el('li', null, kids);
+    }
+    var kids = [];
+    if (r.titre) kids.push(el('h2', { text: r.titre }));
+    if (r.intro) kids.push(el('p', { text: r.intro }));
+    if ((r.lignes || []).length) kids.push(el('ul', { class: 'codes ref-liste' }, r.lignes.map(ligne)));
+    if ((r.marqueurs || []).length) kids.push(el('ul', { class: 'codes ref-liste' }, r.marqueurs.map(ligne)));
+    if (r.note_fin) kids.push(el('p', { class: 'ref-fin', text: r.note_fin }));
+    return el('div', { class: 'encart lumi referentiel' }, kids);
+  }
+
   function ecran1() {
     var d = etat.data;
     var courant = etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {};
@@ -560,7 +579,7 @@
     var objets = (d.objets_ciel_profond || []).map(function (o, i) {
       return {
         i: i, id: o.id || o.nom, nature: o.nature || o.type, mag: o.mag, dist: o.distance_al,
-        note: o.note, instrument: o.instrument, src: o.src
+        note: o.note, instrument: o.instrument, src: o.src, code: o.code
       };
     }).filter(function (o) { return valide(o.id); });
 
@@ -579,7 +598,7 @@
     var avecInstr = objets.some(function (o) { return valide(o.instrument); });
     var avecDist = objets.some(function (o) { return valide(o.dist); });
     var avecNote = objets.some(function (o) { return valide(o.note); });
-    var avecSrc = objets.some(function (o) { return valide(o.src); });
+    var avecSrc = objets.some(function (o) { return valide(o.src) || valide(o.code); });
     var avecMag = objets.some(function (o) { return valide(o.mag); });
 
     var cols = [];
@@ -601,13 +620,25 @@
       if (avecMag) tds.push(el('td', { class: 'num', text: valide(o.mag) ? fmtNum(o.mag) : '' }));
       if (avecDist) tds.push(el('td', { class: 'num', text: valide(o.dist) ? fmtAL(o.dist) : '' }));
       if (avecNote) tds.push(el('td', { class: 'note', text: o.note || '' }));
-      if (avecSrc) tds.push(el('td', { class: 'src', text: o.src || '' }));
+      if (avecSrc) {
+        var attrsCode = { class: 'code-src', text: valide(o.code) ? String(o.code) : (o.src || '') };
+        if (valide(o.src)) attrsCode.title = String(o.src);
+        tds.push(el('td', { class: 'src' }, [el('span', attrsCode)]));
+      }
       tbody.appendChild(el('tr', null, tds));
     });
     var thead = el('thead', null, [el('tr', null, cols.map(function (t) { return el('th', { text: t }); }))]);
 
+    // largeurs minimales mesurées (px) — la Note, sans largeur, prend tout le reste
+    var LARGEURS_MIN = { 'À observer avec': 124, 'Objet': 85, 'Nature': 164, 'Magnitude': 89, 'Distance': 83, 'Source': 66 };
+    var colgroup = el('colgroup', null, cols.map(function (c) {
+      var col = el('col');
+      if (LARGEURS_MIN[c]) { col.style.width = LARGEURS_MIN[c] + 'px'; }
+      return col;
+    }));
+
     var corps = objets.length
-      ? el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche objets' }, [thead, tbody])])
+      ? el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche objets' }, [colgroup, thead, tbody])])
       : el('p', { class: 'encart', text: 'Aucun objet du ciel profond renseigné pour cette constellation.' });
 
     return el('section', null, [
@@ -615,7 +646,7 @@
       el('p', { class: 'petit', text: avecInstr
         ? 'Classés du plus accessible (œil nu, jumelles) au plus exigeant (télescope).'
         : 'Amas, nébuleuses et galaxies de la constellation.' }),
-      el('div', { class: 'duo duo--objets' }, [corps, encartLuminosite()]),
+      el('div', { class: 'duo duo--objets' }, [corps, el('div', { class: 'cote-objets' }, [encartLuminosite(), encartReferentiel()])]),
       el('div', { class: 'nav-etapes' }, [
         boutonEtape('← Précédent', 4, 'btn--outline'),
         boutonEtape('Questions →', 6, 'btn--primary')

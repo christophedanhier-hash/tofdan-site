@@ -478,7 +478,7 @@ table.fiche th {
 }
 
 .duo--objets {
-  grid-template-columns: 1fr minmax(260px, 340px);
+  grid-template-columns: minmax(0, 1fr) 280px;
 }
 
 #ecran table.fiche td,
@@ -513,12 +513,70 @@ table.fiche th {
 
 table.objets {
   font-size: 0.8rem;
+  table-layout: fixed;
+  width: 100%;
+  min-width: 730px;
+}
+
+table.objets th {
+  white-space: nowrap;
+}
+
+table.objets th,
+table.objets td {
+  overflow-wrap: anywhere;
+  vertical-align: top;
+}
+
+.cote-objets {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.code-src {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  color: #fff;
+  background: var(--color-primary);
+  cursor: help;
+}
+
+.referentiel p {
+  margin: 0 0 4px;
+  font-size: 0.8rem;
+}
+
+.referentiel .ref-liste {
+  margin-bottom: 4px;
+}
+
+.referentiel .code-ref {
+  padding: 0 6px;
+  flex: none;
+  white-space: nowrap;
+}
+
+.referentiel .ref-detail {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--color-text-dim);
+}
+
+.referentiel .ref-fin {
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--color-text-dim);
 }
 
 table.objets td.oid {
   font-weight: 600;
   color: var(--color-text);
-  white-space: nowrap;
 }
 
 table.objets td.num {
@@ -528,7 +586,6 @@ table.objets td.num {
 table.objets td.src {
   font-size: 0.72rem;
   color: var(--color-text-dim);
-  white-space: nowrap;
 }
 
 .instr {
@@ -540,6 +597,10 @@ table.objets td.src {
   white-space: nowrap;
   border: 1px solid var(--color-primary);
   color: var(--color-primary);
+}
+
+table.objets .instr {
+  white-space: nowrap;
 }
 
 .instr.r0,
