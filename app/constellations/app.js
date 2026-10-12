@@ -2,14 +2,14 @@
   'use strict';
 
   var CLE = 'constellations.progression';
-  var W = 800, H = 600, MARGE = 60, TOTAL = 5;
+  var W = 800, H = 600, MARGE = 60, TOTAL = 6;
   var DEG = Math.PI / 180;
 
   var ecran = document.getElementById('ecran');
   var ariane = document.getElementById('ariane');
   var erreur = document.getElementById('erreur');
 
-  var etat = { index: null, data: null, id: null, etape: 1, reprise: 0, traits: [], reperes: true, couleur: '#1a4f8b', epaisseur: 3 };
+  var etat = { index: null, data: null, id: null, etape: 1, reprise: 0, tirage: null, segment: null, traits: [], reperes: true, couleur: '#1a4f8b', epaisseur: 3 };
 
   function el(tag, attrs, kids) {
     var n = document.createElement(tag);
@@ -34,7 +34,24 @@
     } catch (e) { /* stockage indisponible */ }
   }
 
+  function melanger(t) {
+    var a = t.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1)), x = a[i]; a[i] = a[j]; a[j] = x;
+    }
+    return a;
+  }
+
   function aller(n) {
+    // nouveau tirage des questions à chaque arrivée sur l'écran 6 (stable ensuite)
+    if (n === 6 && etat.etape !== 6) {
+      etat.tirage = {
+        guide: melanger(etat.data.questions_guide || []),
+        observation: melanger(etat.data.questions_observation || []),
+        vues: {}
+      };
+    }
+    etat.segment = null;
     etat.etape = n;
     if (etat.id) sauver();
     rendre();
@@ -215,6 +232,59 @@
     return el('button', { class: 'btn ' + classe, text: texte, onclick: function () { aller(cible); } });
   }
 
+  // ---------- Formats et jointures sur les données ----------
+  function fmtNum(v) { return String(v).replace('.', ','); }
+  function fmtAL(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202F'); }
+  function norm(t) {
+    return String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+  function valide(v) { return v !== null && v !== undefined && v !== ''; }
+
+  // distance angulaire réelle d'une liaison (index a, b) ; null si absente
+  function distanceLiaison(a, b) {
+    var dist = etat.data.distances_angulaires_deg, e = etat.data.etoiles;
+    if (!dist || !e[a] || !e[b]) return null;
+    var na = norm(e[a].nom), nb = norm(e[b].nom);
+    var cles = Object.keys(dist);
+    for (var k = 0; k < cles.length; k++) {
+      if (typeof dist[cles[k]] !== 'number') continue;
+      var p = cles[k].split(/[\u2013\u2014-]/);
+      if (p.length !== 2) continue;
+      var x = norm(p[0]), y = norm(p[1]);
+      if ((x === na && y === nb) || (x === nb && y === na)) return dist[cles[k]];
+    }
+    return null;
+  }
+
+  // Légende de l'échelle : libellés et descriptions des 5 codes, tels que dans les données
+  function legendeCodes() {
+    var codes = etat.data.codification_luminosite || [];
+    return el('ol', { class: 'codes' }, codes.map(function (c) {
+      return el('li', null, [
+        el('span', { class: 'code c' + c.code, text: String(c.code) }),
+        el('span', null, [el('strong', { text: c.libelle }), c.desc ? ' — ' + c.desc : ''])
+      ]);
+    }));
+  }
+
+  function encartLuminosite() {
+    var e = etat.data.etoiles.filter(function (s) { return typeof s.mag === 'number'; });
+    var kids = [
+      el('h2', { text: 'Lire la luminosité' }),
+      el('p', null, [el('strong', { text: 'Plus la magnitude est PETITE, plus l\'astre est BRILLANT.' })])
+    ];
+    if (e.length > 1) {
+      var tri = e.slice().sort(function (a, b) { return a.mag - b.mag; });
+      var h = tri[0], b = tri[tri.length - 1];
+      kids.push(el('p', null, [
+        'Ici : ', el('strong', { text: h.nom }), ' (magnitude ' + fmtNum(h.mag) + ') est la plus brillante de la fiche ; ',
+        el('strong', { text: b.nom }), ' (magnitude ' + fmtNum(b.mag) + ') est la plus faible.'
+      ]));
+    }
+    if ((etat.data.codification_luminosite || []).length) kids.push(legendeCodes());
+    return el('div', { class: 'encart lumi' }, kids);
+  }
+
   function ecran1() {
     var d = etat.data;
     var courant = etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {};
@@ -282,10 +352,13 @@
     return el('section', null, [
       el('h1', { class: 'titre', text: 'Fiche élève — ' + d.nom_fr }),
       el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche' }, [thead, tbody])]),
-      el('div', { class: 'encart' }, [
-        el('p', null, [el('strong', { text: 'Repère principal : ' }), d.repere_principal]),
-        el('p', { text: d.message_animation }),
-        el('p', null, [el('strong', { text: 'Constellations voisines : ' }), d.constellations_voisines.join(' · ')])
+      el('div', { class: 'duo' }, [
+        el('div', { class: 'encart' }, [
+          el('p', null, [el('strong', { text: 'Repère principal : ' }), d.repere_principal]),
+          el('p', { text: d.message_animation }),
+          el('p', null, [el('strong', { text: 'Constellations voisines : ' }), d.constellations_voisines.join(' · ')])
+        ]),
+        encartLuminosite()
       ]),
       el('div', { class: 'nav-etapes' }, [
         boutonEtape('← Précédent', 1, 'btn--outline'),
@@ -370,70 +443,220 @@
     var ctx = cu.getContext('2d');
     fond(ctx); dessinerTraits(ctx);
 
-    ctx = cc.getContext('2d');
-    fond(ctx);
-    ctx.strokeStyle = '#1a4f8b'; ctx.lineWidth = 3; ctx.lineCap = 'round';
-    d.figure.liaisons.forEach(function (l) {
-      var a = pos[l[0]], b = pos[l[1]];
-      if (!a || !b) return;
-      ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+    var liaisons = d.figure.liaisons;
+    var info = el('p', { class: 'info-seg', 'aria-live': 'polite' });
+
+    function texteSegment(k) {
+      var l = liaisons[k], dist = distanceLiaison(l[0], l[1]);
+      var nom = d.etoiles[l[0]].nom + ' – ' + d.etoiles[l[1]].nom;
+      return nom + (dist === null ? '' : ' : ' + fmtNum(dist) + '°');
+    }
+    function choisir(k) {
+      etat.segment = k;
+      dessinerCorrige();
+      info.textContent = k === null ? 'Survole ou clique un segment du corrigé pour voir sa distance angulaire réelle.' : texteSegment(k);
+    }
+    function dessinerCorrige() {
+      var g = cc.getContext('2d');
+      fond(g);
+      g.lineCap = 'round';
+      liaisons.forEach(function (l, k) {
+        var a = pos[l[0]], b = pos[l[1]];
+        if (!a || !b) return;
+        var sel = etat.segment === k;
+        g.strokeStyle = sel ? '#c0392b' : '#1a4f8b'; g.lineWidth = sel ? 6 : 3;
+        g.beginPath(); g.moveTo(a.x, a.y); g.lineTo(b.x, b.y); g.stroke();
+      });
+      g.font = '16px system-ui, sans-serif';
+      d.etoiles.forEach(function (s, i) {
+        var p = pos[i];
+        g.fillStyle = '#222';
+        g.beginPath(); g.arc(p.x, p.y, 5, 0, 2 * Math.PI); g.fill();
+        var droite = p.x < W - 160;
+        g.textAlign = droite ? 'left' : 'right';
+        g.fillText(s.nom, p.x + (droite ? 10 : -10), p.y - 8);
+      });
+      var k = etat.segment;
+      if (k !== null) {
+        var l = liaisons[k], a = pos[l[0]], b = pos[l[1]];
+        var dist = distanceLiaison(l[0], l[1]);
+        if (a && b && dist !== null) {
+          var t = fmtNum(dist) + '°', mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+          g.font = 'bold 18px system-ui, sans-serif';
+          g.textAlign = 'center'; g.textBaseline = 'middle';
+          var w = g.measureText(t).width + 14;
+          g.fillStyle = '#fff'; g.strokeStyle = '#c0392b'; g.lineWidth = 2;
+          g.fillRect(mx - w / 2, my - 14, w, 28); g.strokeRect(mx - w / 2, my - 14, w, 28);
+          g.fillStyle = '#c0392b'; g.fillText(t, mx, my);
+          g.textBaseline = 'alphabetic';
+        }
+      }
+      g.textAlign = 'left';
+    }
+    function segmentProche(e) {
+      var r = cc.getBoundingClientRect();
+      var x = (e.clientX - r.left) * W / r.width, y = (e.clientY - r.top) * H / r.height;
+      var best = null, bd = 14 * W / r.width;
+      liaisons.forEach(function (l, k) {
+        var a = pos[l[0]], b = pos[l[1]];
+        if (!a || !b) return;
+        var vx = b.x - a.x, vy = b.y - a.y, n = vx * vx + vy * vy || 1;
+        var t = Math.max(0, Math.min(1, ((x - a.x) * vx + (y - a.y) * vy) / n));
+        var dd = Math.hypot(x - (a.x + t * vx), y - (a.y + t * vy));
+        if (dd < bd) { bd = dd; best = k; }
+      });
+      return best;
+    }
+    cc.addEventListener('pointermove', function (e) {
+      var k = segmentProche(e);
+      cc.style.cursor = k === null ? 'default' : 'pointer';
+      if (k !== null && k !== etat.segment) choisir(k);
     });
-    ctx.font = '16px system-ui, sans-serif';
-    d.etoiles.forEach(function (s, i) {
-      var p = pos[i];
-      ctx.fillStyle = '#222';
-      ctx.beginPath(); ctx.arc(p.x, p.y, 5, 0, 2 * Math.PI); ctx.fill();
-      var droite = p.x < W - 160;
-      ctx.textAlign = droite ? 'left' : 'right';
-      ctx.fillText(s.nom, p.x + (droite ? 10 : -10), p.y - 8);
-    });
+    cc.addEventListener('click', function (e) { var k = segmentProche(e); if (k !== null) choisir(k); });
+
+    choisir(null);
+    etat.segment = null;
 
     return el('section', null, [
       el('div', { class: 'barre' }, [
         el('strong', { class: 'petit', text: 'Comparaison — ' + d.nom_fr }),
         el('span', { class: 'espace' }),
         boutonEtape('← Précédent', 3, 'btn--outline'),
-        boutonEtape('Questions →', 5, 'btn--primary')
+        boutonEtape('Objets du ciel profond →', 5, 'btn--primary')
       ]),
       el('div', { class: 'comparaison' }, [
         el('figure', null, [el('figcaption', { text: 'Ton dessin' }), el('div', { class: 'zone' }, [cu])]),
-        el('figure', null, [el('figcaption', { text: 'Corrigé (une construction possible)' }), el('div', { class: 'zone' }, [cc])]),
+        el('figure', null, [el('figcaption', { text: 'Corrigé (une construction possible)' }), el('div', { class: 'zone' }, [cc]), info]),
         el('aside', { class: 'synthese', tabindex: '0', 'aria-label': 'Synthèse' }, [
           el('h2', { text: 'Pour comprendre' }),
           el('p', null, [el('strong', { text: 'Géométrie : ' }), d.figure.note_geometrie]),
-          el('p', null, [el('strong', { text: 'Tracé retenu : ' }), d.figure.commentaire]),
-          el('p', null, [el('em', { text: d.figure.mode_libre })])
+          el('p', null, [el('strong', { text: 'Tracé retenu : ' }), String(d.figure.commentaire || '').replace(/^(Tracé retenu|Forme retenue)\s*:\s*/i, '')]),
         ])
       ])
     ]);
   }
 
+  var RANG_INSTRUMENT = { 'œil nu': 0, 'oeil nu': 0, 'jumelles': 1, 'lunette': 2, 'petit télescope': 3, 'télescope': 4, 'grand télescope': 5 };
+
   function ecran5() {
     var d = etat.data;
-    function blocQuestion(qr) {
-      var rep = el('p', { class: 'reponse', text: qr.r });
-      rep.hidden = true;
-      var btn = el('button', { class: 'btn btn--outline', text: 'Voir la réponse', onclick: function () {
-        rep.hidden = !rep.hidden;
-        btn.textContent = rep.hidden ? 'Voir la réponse' : 'Masquer la réponse';
-      } });
-      return el('div', { class: 'question' }, [el('p', null, [el('strong', { text: qr.q })]), btn, rep]);
+    var objets = (d.objets_ciel_profond || []).map(function (o, i) {
+      return {
+        i: i, id: o.id || o.nom, nature: o.nature || o.type, mag: o.mag, dist: o.distance_al,
+        note: o.note, instrument: o.instrument, src: o.src
+      };
+    }).filter(function (o) { return valide(o.id); });
+
+    function rang(o) {
+      var r = RANG_INSTRUMENT[String(o.instrument || '').toLowerCase()];
+      return r === undefined ? 99 : r;
     }
-    var guide = (d.questions_guide || []).map(blocQuestion);
-    var observation = (d.questions_observation || []).map(blocQuestion);
+    // du plus facile au plus exigeant ; à instrument égal : par nature, puis magnitude croissante (= du plus brillant)
+    objets.sort(function (a, b) {
+      var m = function (o) { var v = parseFloat(o.mag); return isNaN(v) ? 99 : v; };
+      return rang(a) - rang(b) ||
+        String(a.nature || '').localeCompare(String(b.nature || ''), 'fr') ||
+        m(a) - m(b) || a.i - b.i;
+    });
+
+    var avecInstr = objets.some(function (o) { return valide(o.instrument); });
+    var avecDist = objets.some(function (o) { return valide(o.dist); });
+    var avecNote = objets.some(function (o) { return valide(o.note); });
+    var avecSrc = objets.some(function (o) { return valide(o.src); });
+    var avecMag = objets.some(function (o) { return valide(o.mag); });
+
+    var cols = [];
+    if (avecInstr) cols.push('À observer avec');
+    cols.push('Objet', 'Nature');
+    if (avecMag) cols.push('Magnitude');
+    if (avecDist) cols.push('Distance');
+    if (avecNote) cols.push('Note');
+    if (avecSrc) cols.push('Source');
+
+    var tbody = el('tbody');
+    objets.forEach(function (o) {
+      var tds = [];
+      if (avecInstr) {
+        tds.push(el('td', null, valide(o.instrument)
+          ? [el('span', { class: 'instr r' + Math.min(rang(o), 6), text: o.instrument })] : []));
+      }
+      tds.push(el('td', { class: 'oid', text: o.id }), el('td', { text: o.nature || '' }));
+      if (avecMag) tds.push(el('td', { class: 'num', text: valide(o.mag) ? fmtNum(o.mag) : '' }));
+      if (avecDist) tds.push(el('td', { class: 'num', text: valide(o.dist) ? fmtAL(o.dist) + '\u00A0a.l.' : '' }));
+      if (avecNote) tds.push(el('td', { class: 'note', text: o.note || '' }));
+      if (avecSrc) tds.push(el('td', { class: 'src', text: o.src || '' }));
+      tbody.appendChild(el('tr', null, tds));
+    });
+    var thead = el('thead', null, [el('tr', null, cols.map(function (t) { return el('th', { text: t }); }))]);
+
+    var corps = objets.length
+      ? el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche objets' }, [thead, tbody])])
+      : el('p', { class: 'encart', text: 'Aucun objet du ciel profond renseigné pour cette constellation.' });
+
     return el('section', null, [
-      el('h1', { class: 'titre', text: 'Questions — ' + d.nom_fr }),
-      el('div', { class: 'questions' }, guide),
-      el('h2', { class: 'sous', text: "Questions d'observation" }),
-      el('div', { class: 'observation' }, observation),
+      el('h1', { class: 'titre', text: 'Objets du ciel profond — ' + d.nom_fr }),
+      el('p', { class: 'petit', text: avecInstr
+        ? 'Classés du plus accessible (œil nu, jumelles) au plus exigeant (télescope).'
+        : 'Amas, nébuleuses et galaxies de la constellation.' }),
+      el('div', { class: 'duo duo--objets' }, [corps, encartLuminosite()]),
       el('div', { class: 'nav-etapes' }, [
         boutonEtape('← Précédent', 4, 'btn--outline'),
+        boutonEtape('Questions →', 6, 'btn--primary')
+      ])
+    ]);
+  }
+
+  function ecran6() {
+    var d = etat.data;
+    var t = etat.tirage;
+    if (!t) {
+      t = etat.tirage = { guide: d.questions_guide || [], observation: d.questions_observation || [], vues: {} };
+    }
+    var total = t.guide.length + t.observation.length;
+    var compteur = el('p', { class: 'compteur', 'aria-live': 'polite' });
+    function maj() {
+      var n = Object.keys(t.vues).length;
+      compteur.textContent = n + ' question' + (n > 1 ? 's' : '') + ' consultée' + (n > 1 ? 's' : '') + ' sur ' + total;
+    }
+    function blocQuestion(qr, cle) {
+      var rep = el('p', { class: 'reponse', text: qr.r });
+      rep.hidden = true;
+      var btn = el('button', { type: 'button', class: 'btn btn--outline', 'aria-expanded': 'false',
+        text: 'Voir la réponse', onclick: function () {
+          rep.hidden = !rep.hidden;
+          btn.textContent = rep.hidden ? 'Voir la réponse' : 'Masquer la réponse';
+          btn.setAttribute('aria-expanded', rep.hidden ? 'false' : 'true');
+          if (!rep.hidden) t.vues[cle] = true;
+          maj();
+        } });
+      return el('div', { class: 'question' }, [
+        el('div', { class: 'q-tete' }, [el('p', null, [el('strong', { text: qr.q })]), btn]), rep]);
+    }
+    var guide = t.guide.map(function (q, i) { return blocQuestion(q, 'g' + (q.q || i)); });
+    var observation = t.observation.map(function (q, i) { return blocQuestion(q, 'o' + (q.q || i)); });
+    maj();
+    return el('section', null, [
+      el('div', { class: 'barre-q' }, [el('h1', { class: 'titre', text: 'Questions — ' + d.nom_fr }), compteur]),
+      el('div', { class: 'colonnes-q' }, [
+        el('section', { class: 'bloc-q guide', 'aria-label': 'Questions du guide' }, [
+          el('h2', { class: 'sous', text: 'Questions du guide' }),
+          el('p', { class: 'petit', text: 'Ce que la fiche et la figure t\'ont appris.' }),
+          el('div', { class: 'liste-q' }, guide)
+        ]),
+        el('section', { class: 'bloc-q observation', 'aria-label': 'Questions d\'observation' }, [
+          el('h2', { class: 'sous', text: "Questions d'observation" }),
+          el('p', { class: 'petit', text: 'À vérifier avec le ciel, des jumelles ou un instrument.' }),
+          el('div', { class: 'liste-q' }, observation)
+        ])
+      ]),
+      el('div', { class: 'nav-etapes' }, [
+        boutonEtape('← Précédent', 5, 'btn--outline'),
         el('button', { class: 'btn btn--primary', text: 'Recommencer', onclick: function () { etat.traits = []; aller(1); } })
       ])
     ]);
   }
 
-  var LIBELLES = ['', 'Catalogue', 'Fiche', 'Dessin', 'Comparaison', 'Questions'];
+  var LIBELLES = ['', 'Catalogue', 'Fiche', 'Dessin', 'Comparaison', 'Objets', 'Questions'];
 
   function rendre() {
     ariane.textContent = '';
@@ -451,7 +674,7 @@
     ecran.textContent = '';
     var section;
     try {
-      section = [null, ecran1, ecran2, ecran3, ecran4, ecran5][etat.etape]();
+      section = [null, ecran1, ecran2, ecran3, ecran4, ecran5, ecran6][etat.etape]();
     } catch (e) {
       // Un ecran qui plante ne doit JAMAIS laisser la page vide et muette.
       afficherErreur('L\'écran ' + etat.etape + ' n\'a pas pu s\'afficher : ' + e.message);

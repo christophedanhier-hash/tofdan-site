@@ -84,7 +84,7 @@
   }
  ],
  "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assume (decision Christophe, 12/10/2026). La figure classique de l'Aigle est la ligne du fleau (Tarazed-Altaïr-Alshain) prolongee par la queue (Alshain-Eta-Theta). Les illustrations traditionnelles ne tracent PAS les ailes : elles sont seulement symbolisees par le trio. Trois etoiles de la fiche (delta, lambda, zeta) n'appartiennent donc a AUCUN trace : elles ont ete retirees pour que l'app n'affiche que des etoiles reliees. Aucune etoile orpheline.",
+  "statut": "CHOIX PEDAGOGIQUE assumé (décision Christophe, 12/10/2026). La figure classique de l'Aigle est la ligne du fléau (Tarazed-Altaïr-Alshain) prolongée par la queue (Alshain-Eta-Theta). Les illustrations traditionnelles ne tracent PAS les ailes : elles sont seulement symbolisees par le trio. Trois étoiles de la fiche (delta, lambda, zeta) n'appartiennent donc a AUCUN trace : elles ont été retirees pour que l'app n'affiche que des étoiles reliees. Aucune étoile orpheline.",
   "liaisons": [
    [
     0,
@@ -103,9 +103,9 @@
     4
    ]
   ],
-  "commentaire": "Trace retenu : la ligne Altaïr-Tarazed-Alshain (le trio serre du fleau, 2,07 deg / 2,71 deg), puis la queue Alshain-Eta-Theta (5,45 deg / 5,05 deg). Les ailes ne sont pas tracees — conformement aux illustrations classiques ou ces trois etoiles symbolisent la ligne du fleau sans que les ailes soient dessinees.",
+  "commentaire": "Tracé retenu : la ligne Altaïr-Tarazed-Alshain (le trio serre du fléau, 2,07° / 2,71°), puis la queue Alshain-Eta-Theta (5,45° / 5,05°). Les ailes ne sont pas tracées — conformément aux illustrations classiques ou ces trois étoiles symbolisent la ligne du fléau sans que les ailes soient dessinees.",
   "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée.",
-  "note_geometrie": "Les trois etoiles du trio (Altaïr, Tarazed, Alshain) sont alignees a 0,01 deg pres. En revanche la queue Alshain -> Eta -> Theta n'est PAS alignee : Alshain-Eta = 5,45 deg, Eta-Theta = 5,05 deg, mais Alshain-Theta = 8,26 deg seulement. La somme 10,50 deg differe donc de 8,26 deg — c'est normal, les deux segments forment un angle."
+  "note_geometrie": "Les trois étoiles du trio (Altaïr, Tarazed, Alshain) sont alignées à 0,01° près. En revanche la queue Alshain -> Eta -> Theta n'est PAS alignée : Alshain-Eta = 5,45°, Eta-Theta = 5,05°, mais Alshain-Theta = 8,26° seulement. La somme 10,50° differe donc de 8,26° — c'est normal, les deux segments forment un angle."
  },
  "distances_angulaires_deg": {
   "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",

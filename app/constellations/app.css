@@ -451,55 +451,235 @@ table.fiche th {
   margin: 0 0 6px;
 }
 
-/* --- Ecran 5 : questions -------------------------------------------------- */
+/* --- Luminosite (fiche et objets) ------------------------------------------ */
 
-.questions {
+.lumi h2 {
+  font-family: var(--font-display);
+  font-size: 0.86rem;
+  margin: 0 0 3px;
+  color: var(--color-text);
+}
+
+.codes {
+  list-style: none;
+  margin: 2px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.8rem;
+}
+
+.duo {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
+  align-items: start;
+}
+
+.duo--objets {
+  grid-template-columns: 1fr minmax(260px, 340px);
+}
+
+#ecran table.fiche td,
+#ecran table.fiche th {
+  padding: 2px 8px;
+}
+
+.codes li {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.code {
+  display: inline-block;
+  min-width: 1.3em;
+  text-align: center;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--color-primary);
+}
+
+.code.c1 { opacity: 1; }
+.code.c2 { opacity: .85; }
+.code.c3 { opacity: .7; }
+.code.c4 { opacity: .55; }
+.code.c5 { opacity: .45; }
+
+/* --- Ecran 5 : objets du ciel profond ---------------------------------------- */
+
+table.objets {
+  font-size: 0.8rem;
+}
+
+table.objets td.oid {
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+table.objets td.num {
+  white-space: nowrap;
+}
+
+table.objets td.src {
+  font-size: 0.72rem;
+  color: var(--color-text-dim);
+  white-space: nowrap;
+}
+
+.instr {
+  display: inline-block;
+  padding: 1px 9px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.instr.r0,
+.instr.r1 {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* --- Ecran 4 : segments et distances ----------------------------------------- */
+
+.info-seg {
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  min-height: 1.2em;
+}
+
+.sous-synth {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  margin: 8px 0 4px;
+  color: var(--color-text);
+}
+
+.segments {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.synthese .segments .btn {
+  padding: 2px 8px;
+  font-size: 0.78rem;
+  text-align: left;
+}
+
+/* --- Ecran 6 : questions --------------------------------------------------- */
+
+.barre-q {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.compteur {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--color-text-dim);
+}
+
+/* deux colonnes : pas de trou, quel que soit le nombre de cartes */
+.colonnes-q {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.bloc-q {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 6px 10px 8px;
+  border-radius: var(--radius-md);
+  border-top: 4px solid var(--color-primary);
+  background: var(--color-bg-alt);
+}
+
+.bloc-q.observation {
+  border-top-color: #b7791f;
+}
+
+.bloc-q h2.sous {
+  margin: 0;
+}
+
+.bloc-q .petit {
+  font-size: 0.8rem;
+}
+
+.liste-q {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .question {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  padding: 5px 10px;
   font-size: 0.86rem;
 }
 
 .question p {
-  margin: 0 0 6px;
+  margin: 0;
 }
 
-.question .btn {
+.q-tete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.q-tete .btn {
+  flex: none;
   padding: 3px 10px;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
 }
 
 .reponse {
-  margin-top: 6px;
-  padding: 6px 10px;
+  margin-top: 5px !important;
+  padding: 5px 10px;
   border-left: 3px solid var(--color-primary);
   background: var(--color-bg-alt);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   color: var(--color-text-muted);
+}
+
+.observation .reponse {
+  border-left-color: #b7791f;
 }
 
 .reponse[hidden] {
   display: none;
 }
 
-.observation {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 8px;
-}
-
 /* --- Petits ecrans (telephone) : empilement et defilement naturel ---------- */
 
 @media (max-width: 820px) {
   .accueil,
+  .colonnes-q,
+  .duo,
+  .duo--objets,
   .comparaison {
     grid-template-columns: 1fr;
   }

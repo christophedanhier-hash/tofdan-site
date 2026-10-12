@@ -68,7 +68,7 @@
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE, explicitement assume. Figure etablie depuis les coordonnees SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "statut": "CHOIX PEDAGOGIQUE, explicitement assumé. Figure etablie depuis les coordonnées SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
     "liaisons": [
       [
         0,
@@ -211,7 +211,7 @@
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Cassiopée » (014-cassiop-e.txt)",
-    "figure": "Geometrie IAU verifiee par mesure (cf. distances_angulaires_deg)",
+    "figure": "Géométrie IAU vérifiée par mesure (cf. distances_angulaires_deg)",
     "manquantes": [],
     "figure_pedagogique": "le W",
     "questions": {
