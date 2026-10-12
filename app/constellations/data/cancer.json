@@ -99,24 +99,40 @@
   },
   "objets_ciel_profond": [
     {
-      "nom": "M 44",
-      "type": "amas",
-      "mag": null
+      "id": "M 44",
+      "nature": "amas ouvert",
+      "mag": 3.1,
+      "distance_al": 607,
+      "note": "Amas ouvert le plus proche du ciel boréal — à l'œil nu, une tache laiteuse dans le Cancer. Amas de la Crèche (Praesepe) : ~1 000 étoiles dont une dizaine de 6ᵉ–7ᵉ grandeur.",
+      "instrument": "œil nu",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 67",
-      "type": "amas",
-      "mag": null
+      "id": "M 67",
+      "nature": "amas ouvert",
+      "mag": 6.9,
+      "distance_al": 2880,
+      "note": "Un des amas ouverts les plus vieux connus (~4 milliards d'années, soit l'âge du Soleil). Riche en étoiles jaunes, il ressemble à un petit amas globulaire aux jumelles.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 6791",
-      "type": "objet",
-      "mag": null
+      "id": "NGC 6791",
+      "nature": "amas ouvert",
+      "mag": 9.5,
+      "distance_al": 16987,
+      "note": "Amas ouvert très vieux et très riche (~8 milliards d'années), l'un des plus âgés de la Galaxie. Étoiles faibles et serrées : il faut un instrument pour le distinguer du fond.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 2775",
-      "type": "galaxie",
-      "mag": "11.4"
+      "id": "NGC 2775",
+      "nature": "galaxie",
+      "mag": 10.24,
+      "distance_al": 61154250,
+      "note": "Galaxie spirale vue de face, au noyau brillant entouré de bras peu contrastés. Objet difficile en visuel : sa magnitude 10 le réserve aux instruments.",
+      "instrument": "lunette",
+      "src": "OpenNGC + Wikidata"
     }
   ],
   "codification_luminosite": [

@@ -132,7 +132,7 @@
    "distance_al": null,
    "note": "modeste",
    "instrument": "lunette",
-   "src": "Atlas p.2"
+   "src": "Atlas p.2 ; distance non publiee"
   },
   {
    "id": "NGC 6755",
@@ -164,38 +164,38 @@
   {
    "id": "NGC 6741",
    "nature": "nébuleuse planétaire",
-   "mag": 10.8,
-   "distance_al": null,
+   "mag": 9.6,
+   "distance_al": 12159,
    "note": "étoile centrale de magnitude 16",
    "instrument": "télescope",
-   "src": "Atlas p.2"
+   "src": "SIMBAD (mag) + Wikidata (distance)"
   },
   {
    "id": "NGC 6751",
    "nature": "nébuleuse planétaire",
-   "mag": null,
-   "distance_al": 6500,
+   "mag": 15.48,
+   "distance_al": 8432,
    "note": "diamètre < 1 a.l. (~600 × le Système solaire)",
    "instrument": "télescope",
-   "src": "Atlas p.2"
+   "src": "SIMBAD (mag) + Wikidata (distance)"
   },
   {
    "id": "NGC 6790",
    "nature": "nébuleuse planétaire",
-   "mag": 10.2,
+   "mag": 10.5,
    "distance_al": null,
    "note": "enveloppe en expansion à 40 km/s ; étoile centrale mag 10,50",
    "instrument": "télescope",
-   "src": "Atlas p.2"
+   "src": "SIMBAD (mag) ; distance non publiee"
   },
   {
    "id": "NGC 6804",
    "nature": "nébuleuse planétaire",
-   "mag": 11.3,
+   "mag": 13.4,
    "distance_al": null,
    "note": "diamètre angulaire ≈ Jupiter au plus loin ; étoile centrale mag 14",
    "instrument": "grand télescope",
-   "src": "Atlas p.2"
+   "src": "SIMBAD (mag) ; distance non publiee"
   }
  ],
  "codification_luminosite": [

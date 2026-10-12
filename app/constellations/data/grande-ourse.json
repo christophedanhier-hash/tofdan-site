@@ -136,39 +136,67 @@
   },
   "objets_ciel_profond": [
     {
-      "nom": "M 97",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "M 97",
+      "nature": "nébuleuse planétaire",
+      "mag": 9.9,
+      "distance_al": 2642,
+      "note": "Nébuleuse du Hibou : une nébuleuse planétaire aux deux zones sombres figurant les yeux d'une chouette. Visible comme disque grisâtre à la lunette ~100 mm.",
+      "instrument": "lunette",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 81",
-      "type": "galaxie",
-      "mag": null
+      "id": "M 81",
+      "nature": "galaxie",
+      "mag": 6.92,
+      "distance_al": 11919731,
+      "note": "Galaxie de Bode : grande spirale brillante, la plus facile du groupe M81/M82, avec un noyau net et des bras visibles au petit télescope. Très proche de M 82.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 82",
-      "type": "galaxie",
-      "mag": null
+      "id": "M 82",
+      "nature": "galaxie",
+      "mag": 8.3,
+      "distance_al": 12343734,
+      "note": "Galaxie du Cigare : galaxie irrégulière traversée de bandes de poussière. Se voit dans le MÊME CHAMP que M 81 — un des couples de galaxies les plus célèbres.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 3077",
-      "type": "galaxie",
-      "mag": null
+      "id": "NGC 3077",
+      "nature": "galaxie",
+      "mag": 9.88,
+      "distance_al": 12426544,
+      "note": "Petite galaxie irrégulière, troisième membre du groupe de M 81, dans le même champ étendu. Difficile : il faut un ciel sombre et un instrument.",
+      "instrument": "lunette",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 101",
-      "type": "galaxie",
-      "mag": null
+      "id": "M 101",
+      "nature": "galaxie",
+      "mag": 7.9,
+      "distance_al": 22667842,
+      "note": "Galaxie du Moulinet : grande spirale vue de face, parfaitement symétrique. Faible en contraste : superbe en photographie, exigeante en visuel.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 109",
-      "type": "galaxie",
-      "mag": null
+      "id": "M 109",
+      "nature": "galaxie",
+      "mag": 9.88,
+      "distance_al": 77298972,
+      "note": "Galaxie spirale barrée au centre d'un triangle formé avec Phad (γ UMa) et l'étoile 5 UMa. Bras faibles : objet de télescope.",
+      "instrument": "lunette",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 108",
-      "type": "galaxie",
-      "mag": null
+      "id": "M 108",
+      "nature": "galaxie",
+      "mag": 10.05,
+      "distance_al": 32615600,
+      "note": "Galaxie spirale vue par la tranche (« Surfboard »), tout en longueur, avec des bandes de poussière. Difficile en visuel, à réserver au télescope.",
+      "instrument": "lunette",
+      "src": "OpenNGC + Wikidata"
     }
   ],
   "codification_luminosite": [

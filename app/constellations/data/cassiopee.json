@@ -99,49 +99,85 @@
   },
   "objets_ciel_profond": [
     {
-      "nom": "M52",
-      "type": "amas",
-      "mag": null
+      "id": "M52",
+      "nature": "amas ouvert",
+      "mag": 6.9,
+      "distance_al": 5472,
+      "note": "Amas ouvert dense et riche, en fourmilière serrée. Aisé aux jumelles, il se résout en étoiles dans une petite lunette. À 5° du célèbre NGC 7635 (Bulle).",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 103",
-      "type": "amas",
-      "mag": null
+      "id": "M 103",
+      "nature": "amas ouvert",
+      "mag": 7.4,
+      "distance_al": 8744,
+      "note": "Petit amas ouvert en triangle, un des derniers du catalogue Messier. Quelques étoiles brillantes dominent un fond de faibles étoiles ; très joli à la lunette.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 457",
-      "type": "amas",
-      "mag": "6.40"
+      "id": "NGC 457",
+      "nature": "amas ouvert",
+      "mag": 6.4,
+      "distance_al": 10256,
+      "note": "Amas ouvert du Hibou (ou E.T.) : deux étoiles brillantes figurent les yeux, et sa forme évoque une chouette. Très spectaculaire aux jumelles et en lunette.",
+      "instrument": "œil nu",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 7789",
-      "type": "amas",
-      "mag": null
+      "id": "NGC 7789",
+      "nature": "amas ouvert",
+      "mag": 6.7,
+      "distance_al": 7200,
+      "note": "Amas ouvert très riche des « Roseaux » — une rose de faibles étoiles serrées. Un des plus beaux amas ouverts pour un télescope de 100 mm et plus.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "IC 59",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "IC 59",
+      "nature": "nébuleuse par réflexion",
+      "mag": null,
+      "distance_al": null,
+      "note": "Aucune magnitude publiée pour cette nébuleuse diffuse ; elle se repère à sa position, à 1° environ de γ Cassiopeiae.",
+      "instrument": null,
+      "src": "Wikidata ; magnitude et distance non publiées"
     },
     {
-      "nom": "IC 63",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "IC 63",
+      "nature": "nébuleuse en émission",
+      "mag": 13.33,
+      "distance_al": null,
+      "note": "Nébuleuse en émission faible, voisine d'IC 59 et excitée par γ Cassiopeiae. À photographier, hors de portée de l'œil.",
+      "instrument": "télescope",
+      "src": "OpenNGC (magnitude B) + Wikidata"
     },
     {
-      "nom": "NGC 7635",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "NGC 7635",
+      "nature": "nébuleuse en émission",
+      "mag": 11.0,
+      "distance_al": 7860,
+      "note": "Nébuleuse de la Bulle : une sphère de gaz soufflée par une étoile chaude. Sa magnitude en bande B (11) la rend exigeante ; très belle en photo à fort grossissement.",
+      "instrument": "lunette",
+      "src": "OpenNGC (magnitude B) + Wikidata"
     },
     {
-      "nom": "NGC 281",
-      "type": "amas",
-      "mag": null
+      "id": "NGC 281",
+      "nature": "nébuleuse en émission",
+      "mag": null,
+      "distance_al": 9500,
+      "note": "Aucune magnitude publiée pour cette nébuleuse diffuse (dite « Pacman ») ; on la repère au filtre UHC, autour de l'amas IC 1590.",
+      "instrument": null,
+      "src": "Wikidata ; magnitude non publiée"
     },
     {
-      "nom": "IC 1590",
-      "type": "objet",
-      "mag": null
+      "id": "IC 1590",
+      "nature": "amas + nébuleuse",
+      "mag": null,
+      "distance_al": 9621,
+      "note": "Amas très jeune noyé dans la nébuleuse NGC 281 ; aucune magnitude publiée séparément pour l'amas.",
+      "instrument": null,
+      "src": "Wikidata ; magnitude non publiée"
     }
   ],
   "codification_luminosite": [

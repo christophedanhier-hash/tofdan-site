@@ -141,64 +141,112 @@
   },
   "objets_ciel_profond": [
     {
-      "nom": "M 42",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "M 42",
+      "nature": "amas + nébuleuse",
+      "mag": 4.0,
+      "distance_al": 1345,
+      "note": "La nébuleuse d'Orion : la plus célèbre du ciel, visible à l'œil nu dans l'Épée. Un immense nuage de gaz où naissent des étoiles, illuminé par le trapèze d'Orion.",
+      "instrument": "œil nu",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 43",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "M 43",
+      "nature": "nébuleuse en émission",
+      "mag": 9.0,
+      "distance_al": 1600,
+      "note": "« Nébuleuse de Mairan » : petite nébuleuse accolée à M 42, dont elle est séparée par une bande sombre. Elle a son propre cœur lumineux.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 1980",
-      "type": "amas",
-      "mag": null
+      "id": "NGC 1980",
+      "nature": "amas + nébuleuse",
+      "mag": 2.5,
+      "distance_al": 1261,
+      "note": "Amas ouvert serré illuminant la base de l'Épée d'Orion, autour de l'étoile ι Orionis. Riche et brillant, il prolonge l'observation de M 42.",
+      "instrument": "œil nu",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 1977",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "NGC 1977",
+      "nature": "amas + nébuleuse",
+      "mag": null,
+      "distance_al": 1294,
+      "note": "Nébuleuse de l'Homme qui court, illuminée par plusieurs étoiles chaudes ; aucune magnitude globale publiée, elle s'observe en grand champ autour de M 42.",
+      "instrument": null,
+      "src": "Wikidata ; magnitude non publiée"
     },
     {
-      "nom": "NGC 1975",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "NGC 1975",
+      "nature": "nébuleuse",
+      "mag": 7.0,
+      "distance_al": null,
+      "note": "Faible nébuleuse diffuse au nord de M 42, dans le même groupe que 1973 et 1977. Objet de photographie, invisible à l'œil.",
+      "instrument": "jumelles",
+      "src": "OpenNGC (magnitude B) + Wikidata"
     },
     {
-      "nom": "NGC 1973",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "NGC 1973",
+      "nature": "nébuleuse",
+      "mag": 7.0,
+      "distance_al": null,
+      "note": "Petite nébuleuse diffuse du groupe de l'Homme qui court, à l'est de M 42. Sans magnitude publiée : à réserver à la photographie.",
+      "instrument": "jumelles",
+      "src": "OpenNGC (magnitude B) + Wikidata"
     },
     {
-      "nom": "NGC 1981",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "NGC 1981",
+      "nature": "amas + nébuleuse",
+      "mag": 4.2,
+      "distance_al": 1285,
+      "note": "Amas ouvert de l'Épée d'Orion, au nord de la nébuleuse, formant un V d'étoiles brillantes. Visible à l'œil nu dans la Voie lactée d'Orion.",
+      "instrument": "œil nu",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "M 78",
-      "type": "nébuleuse",
-      "mag": "8.0"
+      "id": "M 78",
+      "nature": "nébuleuse par réflexion",
+      "mag": 8.0,
+      "distance_al": 1600,
+      "note": "Nébuleuse par réflexion dans Orion, bleutée : duo de petites nébuleuses éclairées par deux étoiles dans un champ poussiéreux. Facile aux jumelles.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "IC 434",
-      "type": "nébuleuse",
-      "mag": null
+      "id": "IC 434",
+      "nature": "nébuleuse en émission",
+      "mag": 11.0,
+      "distance_al": 1500,
+      "note": "Nébuleuse de la Tête de Cheval : une silhouette noire d'encensoir découpée dans une longue bande rouge. Exige un filtre Hβ et un ciel parfait à l'œil ; superbe en photo.",
+      "instrument": "lunette",
+      "src": "OpenNGC (magnitude B) + Wikidata"
     },
     {
-      "nom": "NGC 2112",
-      "type": "objet",
-      "mag": null
+      "id": "NGC 2112",
+      "nature": "amas ouvert",
+      "mag": 9.1,
+      "distance_al": 3719,
+      "note": "Amas ouvert modeste du nord d'Orion, peu concentré, dans un champ pauvre. À voir à la lunette.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 2186",
-      "type": "objet",
-      "mag": "8.70"
+      "id": "NGC 2186",
+      "nature": "amas ouvert",
+      "mag": 8.7,
+      "distance_al": 7897,
+      "note": "Petit amas ouvert d'Orion, dans un riche champ de la Voie lactée, non loin de Bételgeuse. Modeste mais facile.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     },
     {
-      "nom": "NGC 2194",
-      "type": "amas",
-      "mag": "8.50"
+      "id": "NGC 2194",
+      "nature": "amas ouvert",
+      "mag": 8.5,
+      "distance_al": 12401,
+      "note": "Amas ouvert riche et compact d'Orion, aux étoiles faibles serrées. Un des plus beaux amas ouverts de la région pour un télescope.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata"
     }
   ],
   "codification_luminosite": [
