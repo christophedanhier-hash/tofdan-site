@@ -630,7 +630,7 @@
     var thead = el('thead', null, [el('tr', null, cols.map(function (t) { return el('th', { text: t }); }))]);
 
     // largeurs minimales mesurées (px) — la Note, sans largeur, prend tout le reste
-    var LARGEURS_MIN = { 'À observer avec': 124, 'Objet': 85, 'Nature': 164, 'Magnitude': 89, 'Distance': 83, 'Source': 66 };
+    var LARGEURS_MIN = { 'À observer avec': 124, 'Objet': 85, 'Nature': 164, 'Magnitude': 89, 'Distance': 105, 'Source': 66 };
     var colgroup = el('colgroup', null, cols.map(function (c) {
       var col = el('col');
       if (LARGEURS_MIN[c]) { col.style.width = LARGEURS_MIN[c] + 'px'; }
