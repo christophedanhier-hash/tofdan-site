@@ -427,8 +427,87 @@
       i.addEventListener('change', function () { obs[cle] = i.value; obs.msg = ''; sauverObs(); rendre(); });
       return i;
     }
-    var nom = el('input', { type: 'text', id: 'obs-nom', value: obs.nom, placeholder: 'Nom du lieu (facultatif)' });
-    nom.addEventListener('change', function () { obs.nom = nom.value; sauverObs(); });
+    var nom = el('input', { type: 'text', id: 'obs-nom', value: obs.nom, placeholder: 'Nom du lieu (facultatif)', autocomplete: 'off', role: 'combobox', 'aria-autocomplete': 'list', 'aria-expanded': 'false', 'aria-controls': 'obs-nom-liste' });
+    var props = el('ul', { class: 'obs-props', id: 'obs-nom-liste', role: 'listbox', hidden: '' });
+    var aide = el('p', { class: 'obs-aide', hidden: '' });
+    var boite = el('div', { class: 'obs-nom-boite' }, [nom, props, aide]);
+    var minuteur = null, requete = 0, choix = -1, ctrl = null;
+    function fermer() {
+      props.hidden = true; props.textContent = ''; choix = -1;
+      nom.setAttribute('aria-expanded', 'false'); nom.removeAttribute('aria-activedescendant');
+    }
+    function surligner(n) {
+      var lis = props.children;
+      if (!lis.length) return;
+      choix = (n + lis.length) % lis.length;
+      for (var k = 0; k < lis.length; k++) {
+        lis[k].setAttribute('aria-selected', k === choix ? 'true' : 'false');
+        lis[k].classList.toggle('actif', k === choix);
+      }
+      nom.setAttribute('aria-activedescendant', lis[choix].id);
+      lis[choix].scrollIntoView({ block: 'nearest' });
+    }
+    function choisir(r) {
+      obs.nom = r.name; obs.sLat = String(r.latitude); obs.sLon = String(r.longitude);
+      obs.msg = ''; fermer(); sauverObs(); rendre();
+    }
+    function libelle(r) {
+      var det = [r.admin1, r.country].filter(function (x) { return x && x !== r.name; }).join(', ');
+      return det ? r.name + ' (' + det + ')' : r.name;
+    }
+    function afficher(res) {
+      fermer();
+      aide.hidden = true;
+      res.forEach(function (r, k) {
+        var li = el('li', { id: 'obs-prop-' + k, role: 'option', 'aria-selected': 'false', text: libelle(r) });
+        // mousedown : évite la perte de focus avant le clic
+        li.addEventListener('mousedown', function (e) { e.preventDefault(); choisir(r); });
+        props.appendChild(li);
+      });
+      props.hidden = false;
+      nom.setAttribute('aria-expanded', 'true');
+      props._res = res;
+    }
+    function aideTexte(t) { aide.textContent = t; aide.hidden = !t; }
+    function chercher(q) {
+      var n = ++requete;
+      if (ctrl) ctrl.abort();
+      ctrl = (typeof AbortController === 'function') ? new AbortController() : null;
+      var fin = setTimeout(function () { if (ctrl) ctrl.abort(); }, 5000);
+      var url = 'https://geocoding-api.open-meteo.com/v1/search?name=' + encodeURIComponent(q) + '&count=5&language=fr&format=json';
+      fetch(url, ctrl ? { signal: ctrl.signal } : {})
+        .then(function (r) { if (!r.ok) throw new Error('http'); return r.json(); })
+        .then(function (d) {
+          clearTimeout(fin);
+          if (n !== requete) return;
+          var res = (d && d.results || []).filter(function (r) { return r && typeof r.latitude === 'number' && typeof r.longitude === 'number' && r.name; });
+          if (res.length) afficher(res);
+          else { fermer(); aideTexte('Lieu non trouvé — saisissez latitude et longitude à la main.'); }
+        })
+        .catch(function () {
+          clearTimeout(fin);
+          if (n !== requete) return;
+          fermer(); aideTexte('Lieu non trouvé — saisissez latitude et longitude à la main.');
+        });
+    }
+    nom.addEventListener('input', function () {
+      obs.nom = nom.value; sauverObs();
+      clearTimeout(minuteur); requete++; fermer(); aideTexte('');
+      var q = nom.value.trim();
+      if (q.length >= 3) minuteur = setTimeout(function () { chercher(q); }, 400);
+    });
+    nom.addEventListener('keydown', function (e) {
+      var ouverte = !props.hidden;
+      if (e.key === 'ArrowDown' && ouverte) { e.preventDefault(); surligner(choix + 1); }
+      else if (e.key === 'ArrowUp' && ouverte) { e.preventDefault(); surligner(choix - 1); }
+      else if (e.key === 'Enter' && ouverte && choix >= 0) { e.preventDefault(); choisir(props._res[choix]); }
+      else if (e.key === 'Escape' && ouverte) { e.preventDefault(); fermer(); }
+    });
+    function dehors(e) {
+      if (!boite.isConnected) { document.removeEventListener('click', dehors); return; }
+      if (!boite.contains(e.target)) fermer();
+    }
+    document.addEventListener('click', dehors);
     var geo = el('button', { type: 'button', class: 'btn btn--outline', text: 'Utiliser ma position' });
     geo.addEventListener('click', function () {
       if (!navigator.geolocation) { obs.msg = 'La géolocalisation n’est pas disponible : saisissez latitude et longitude.'; rendre(); return; }
@@ -449,7 +528,7 @@
         el('label', { for: 'obs-lat', text: 'Latitude' }), champ('obs-lat', 'sLat', '49.90'),
         el('label', { for: 'obs-lon', text: 'Longitude' }), champ('obs-lon', 'sLon', '5.00'),
         el('span'), geo,
-        el('label', { for: 'obs-nom', text: 'Nom' }), nom,
+        el('label', { for: 'obs-nom', text: 'Nom' }), boite,
         el('label', { for: 'obs-date', text: 'Date' }), dt
       ]),
       el('p', { class: 'obs-erreur', role: 'alert', text: erreur || '' }),

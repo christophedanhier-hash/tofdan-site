@@ -765,3 +765,12 @@ table.objets .instr {
 .obs-badge--na { color: #fbbf24; }
 .obs-erreur { margin: 8px 0 0; min-height: 1.2em; font-size: .85rem; color: #fbbf24; }
 .obs-erreur:empty { display: none; }
+.obs-nom-boite { position: relative; min-width: 0; }
+.obs-nom-boite input { width: 100%; box-sizing: border-box; }
+.obs-props { position: absolute; left: 0; right: 0; top: 100%; z-index: 20; margin: 2px 0 0; padding: 4px 0; list-style: none; max-height: 14em; overflow-y: auto; background: var(--color-bg-card); color: var(--color-text); border: 1px solid var(--color-border); border-radius: 6px; box-shadow: var(--shadow-card); }
+.obs-props[hidden], .obs-aide[hidden] { display: none; }
+.obs-props li { padding: 8px 10px; cursor: pointer; overflow-wrap: anywhere; }
+.obs-props li { border-left: 3px solid transparent; }
+.obs-props li:hover { background: var(--color-bg-card-hover); }
+.obs-props li.actif { background: color-mix(in srgb, var(--color-accent) 25%, var(--color-bg-card)); border-left-color: var(--color-accent); }
+.obs-aide { margin: 4px 0 0; font-size: .8rem; opacity: .8; font-style: italic; }
