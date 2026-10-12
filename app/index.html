@@ -3,180 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Observations Astronomiques</title>
+    <meta name="description" content="Application Astro interactive — Outil en ligne pour les astronomes amateurs.">
+    <title>Observations Astronomiques — Tofdan</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a1a'/%3E%3Cpath d='M20 8a10 10 0 1 1-12 12 7 7 0 0 0 12-12z' fill='%237c3aed'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tofdan.be/app/index.html">
+    <meta property="og:title" content="Observations Astronomiques — Tofdan">
+    <meta property="og:description" content="Application Astro interactive — Outil en ligne pour les astronomes amateurs.">
+    <meta property="og:image" content="https://tofdan.be/og-image.jpg">
+    <link rel="stylesheet" href="../css/style.css?v=1790954759">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #020205; 
-            color: #ffffff;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        h1 { color: #4da8da; }
-        nav { 
-            margin: 40px auto; 
+        .retour-site { margin-top: 20px; }
+        .accueil { text-align: center; }
+
+        /* Grille 2 colonnes des simulateurs */
+        .bouton-astro {
             max-width: 800px;
+            margin: 32px auto;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 15px;
-            padding: 0 15px;
         }
-        .bouton-astro {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #4da8da;
-            color: #020205;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 8px;
-            margin: 0;
-            transition: 0.3s;
-            border: 2px solid #4da8da;
-        }
-        .bouton-astro:hover {
-            background-color: transparent;
-            color: #4da8da;
-        }
+        .bouton-astro .btn { white-space: normal; text-align: center; }
         /* Le bouton Guide prend toute la largeur */
-        #open-guide {
-            grid-column: 1 / -1;
-        }
+        #open-guide { grid-column: 1 / -1; }
         @media (max-width: 600px) {
-            nav { grid-template-columns: 1fr; }
+            .bouton-astro { grid-template-columns: 1fr; }
         }
 
         /* Styles pour le Modal du Guide */
         .modal {
-            display: none; 
-            position: fixed; 
-            z-index: 1000; 
-            left: 0; top: 0; 
-            width: 100%; height: 100%; 
-            background-color: rgba(0,0,0,0.85); 
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.85);
             backdrop-filter: blur(5px);
         }
         .modal-content {
-            background-color: #0a0f1e;
+            background-color: var(--color-bg-card);
+            color: var(--color-text);
             margin: 5% auto;
             padding: 30px;
-            border: 1px solid #4da8da;
+            border: 1px solid var(--color-border-hover);
             width: 90%;
             max-width: 800px;
-            border-radius: 15px;
+            border-radius: var(--radius-lg);
             max-height: 80vh;
             overflow-y: auto;
             text-align: left;
             line-height: 1.6;
         }
-        .close-btn { color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
-        .close-btn:hover { color: #4da8da; }
-        .modal-content h2 { color: #4da8da; border-bottom: 1px solid rgba(77,168,218,0.3); padding-bottom: 10px; margin-top: 25px; }
-        .modal-content h3 { color: #79c2ea; margin-top: 20px; }
+        .close-btn { color: var(--color-text-muted); float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
+        .close-btn:hover { color: var(--color-primary); }
+        .modal-content h1 { text-align: center; }
+        .modal-content h2 { color: var(--color-primary); border-bottom: 1px solid var(--color-border); padding-bottom: 10px; margin-top: 25px; }
+        .modal-content h3 { color: var(--color-accent); margin-top: 20px; }
         .modal-content ul { padding-left: 20px; }
         .modal-content li { margin-bottom: 8px; }
 
-        /* Style pour la barre de recherche */
+        /* Barre de recherche */
         .search-container { position: relative; width: 100%; margin: 15px 0; }
         #guide-search {
             width: 100%;
             padding: 12px;
             padding-right: 40px; /* Espace pour le bouton effacer */
-            border: 1px solid #4da8da;
-            border-radius: 8px;
-            background: #1a2535;
-            color: white;
+            border: 1px solid var(--color-border-hover);
+            border-radius: var(--radius-md);
+            background: var(--color-bg-alt);
+            color: var(--color-text);
+            font-family: var(--font-sans);
             font-size: 1rem;
             box-sizing: border-box;
             outline: none;
         }
-        #guide-search:focus { box-shadow: 0 0 8px rgba(77, 168, 218, 0.5); }
-        
+        #guide-search:focus { border-color: var(--color-primary); box-shadow: var(--shadow-glow); }
+
         #clear-search {
             position: absolute;
             right: 12px;
             top: 50%;
             transform: translateY(-50%);
-            color: #aaa;
+            color: var(--color-text-muted);
             font-size: 22px;
             font-weight: bold;
             cursor: pointer;
             display: none; /* Caché par défaut */
             transition: color 0.2s;
         }
-        #clear-search:hover { color: #4da8da; }
+        #clear-search:hover { color: var(--color-primary); }
 
-        /* Styles pour la prévisualisation Galaxie */
+        /* Prévisualisation Galaxie */
         #galaxy-preview-container {
-            margin-top: 40px; 
-            position: relative; 
-            display: inline-block; 
-            padding: 25px; 
-            background: rgba(10,15,30,0.4); 
-            border-radius: 20px; 
-            border: 1px solid rgba(77,168,218,0.2); 
-            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            margin-top: 40px;
+            position: relative;
+            display: inline-block;
+            max-width: 100%;
+            padding: 25px;
+            background: var(--color-bg-card);
+            border-radius: var(--radius-xl);
+            border: 1px solid var(--color-border);
+            box-shadow: var(--shadow-card);
         }
         #galaxy-preview-canvas {
-            border-radius: 50%; 
-            background: radial-gradient(circle, #0a0f1e 0%, #020205 100%);
+            border-radius: 50%;
+            background: radial-gradient(circle, var(--color-bg-card) 0%, var(--color-bg) 100%);
         }
         #solar-system-marker {
-            position: absolute; 
-            pointer-events: none; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
+            position: absolute;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             transform: translate(-50%, -100%);
         }
+        .galaxie-titre { color: var(--color-accent); margin-bottom: 20px; font-size: 1.2rem; }
+        .galaxie-zone { position: relative; width: 400px; max-width: 100%; height: 400px; margin: 0 auto; }
+        .marker-label {
+            font-size: 0.75rem; white-space: nowrap; background: #ffcc00; color: #050510;
+            padding: 2px 8px; border-radius: 4px; font-weight: bold; margin-bottom: 4px;
+            box-shadow: 0 0 10px #ffcc00;
+        }
+        .marker-flag { font-size: 1.5rem; filter: drop-shadow(0 0 5px black); }
+        .galaxie-legende { font-size: 0.85rem; color: var(--color-text-muted); margin-top: 15px; font-style: italic; }
+        .guide-nouveautes { color: #b45309; border-color: rgba(180, 83, 9, 0.3) !important; }
+        :root:not([data-theme="light"]) .guide-nouveautes { color: #ffcc00; border-color: rgba(255, 204, 0, 0.3) !important; }
+        .guide-credit { text-align: center; margin-top: 30px; font-size: 0.8rem; color: var(--color-text-muted); }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Découverte de notre Système Solaire</h1>
-        <p>Astro.tofdan.be - (c) 2026 - v3.1 (Mars 2026)</p>
-    </header>
-
-    <nav>
-        <a href="Simulateur_2D.html" class="bouton-astro">🔭 Explorer le Système Solaire en 2D</a>
-        <a href="Simulateur_3D.html" class="bouton-astro">🌌 Explorer le Système Solaire en 3D</a>
-        <a href="Simulateur_Lune_3D.html" class="bouton-astro">🌑 Explorer la Lune</a>
-        <a href="Simulateur_Terre.html" class="bouton-astro">🌍 Terre & Saisons</a>
-        <button id="open-guide" class="bouton-astro" style="background-color: #3a4a5a; border-color: #3a4a5a; color: white;">📖 Guide d'utilisation</button>
-    </nav>
-
-    <main>
-        <p>Bienvenue sur mon espace dédié à l'astronomie. Choisissez un simulateur ci-dessus pour explorer le système solaire !</p>
-
-        <!-- Représentation de la Galaxie et position du Système Solaire -->
-        <div id="galaxy-preview-container">
-            <h3 style="color: #79c2ea; margin-bottom: 20px; font-size: 1.2rem;">Notre situation dans la Voie Lactée</h3>
-            <div style="position: relative; width: 400px; height: 400px; margin: 0 auto;">
-                <canvas id="galaxy-preview-canvas" width="400" height="400"></canvas>
-                <div id="solar-system-marker">
-                    <span style="font-size: 0.75rem; white-space: nowrap; background: #ffcc00; color: #050510; padding: 2px 8px; border-radius: 4px; font-weight: bold; margin-bottom: 4px; box-shadow: 0 0 10px #ffcc00;">📍 Système Solaire (Bras d'Orion)</span>
-                    <span style="font-size: 1.5rem; filter: drop-shadow(0 0 5px black);">🚩</span>
-                </div>
+    <main class="main">
+        <div class="page-header">
+            <div class="container">
+                <h1 class="page-header__title">Découverte de notre Système Solaire</h1>
+                <p class="page-header__subtitle">Astro.tofdan.be — v3.1 (Mars 2026)</p>
+                <p class="retour-site"><a href="../app-astro.html" class="btn btn--outline">← Retour au site</a></p>
             </div>
-            <p style="font-size: 0.85rem; color: #666; margin-top: 15px; font-style: italic;">Schéma simplifié de la structure spirale de notre galaxie</p>
         </div>
+
+        <section class="section">
+            <div class="container accueil">
+                <p>Bienvenue sur mon espace dédié à l'astronomie. Choisissez un simulateur ci-dessous pour explorer le système solaire !</p>
+
+                <nav class="bouton-astro" aria-label="Simulateurs">
+                    <a href="Simulateur_2D.html" class="btn btn--primary btn--lg">🔭 Explorer le Système Solaire en 2D</a>
+                    <a href="Simulateur_3D.html" class="btn btn--primary btn--lg">🌌 Explorer le Système Solaire en 3D</a>
+                    <a href="Simulateur_Lune_3D.html" class="btn btn--primary btn--lg">🌑 Explorer la Lune</a>
+                    <a href="Simulateur_Terre.html" class="btn btn--primary btn--lg">🌍 Terre &amp; Saisons</a>
+                    <button id="open-guide" class="btn btn--outline btn--lg">📖 Guide d'utilisation</button>
+                </nav>
+
+                <!-- Représentation de la Galaxie et position du Système Solaire -->
+                <div id="galaxy-preview-container">
+                    <h3 class="galaxie-titre">Notre situation dans la Voie Lactée</h3>
+                    <div class="galaxie-zone">
+                        <canvas id="galaxy-preview-canvas" width="400" height="400" aria-label="Schéma de la Voie Lactée"></canvas>
+                        <div id="solar-system-marker">
+                            <span class="marker-label">📍 Système Solaire (Bras d'Orion)</span>
+                            <span class="marker-flag">🚩</span>
+                        </div>
+                    </div>
+                    <p class="galaxie-legende">Schéma simplifié de la structure spirale de notre galaxie</p>
+                </div>
+
+                <p style="margin-top: 40px;"><a href="../app-astro.html" class="btn btn--outline">← Retour au site</a></p>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__copyright">(C) Tofdan — 2026</p>
+            <div class="footer__links">
+                <a href="../mentions-legales.html" class="footer__link">Mentions légales</a>
+                <a href="../cgu.html" class="footer__link">Conditions d'utilisation</a>
+            </div>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/tofdan" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+            </div>
+        </div>
+    </footer>
 
     <!-- Fenêtre Modal du Guide -->
     <div id="guide-modal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>
-            <h1 style="color: #4da8da; text-align: center;">🌌 Guide de l'Utilisateur</h1>
+            <h1>🌌 Guide de l'Utilisateur</h1>
 
             <div class="search-container">
-                <input type="text" id="guide-search" placeholder="🔍 Rechercher une fonction (ex: zoom, nuit, éclipse...)...">
+                <input type="text" id="guide-search" placeholder="🔍 Rechercher une fonction (ex: zoom, nuit, éclipse...)..." aria-label="Rechercher dans le guide">
                 <span id="clear-search" title="Effacer la recherche">&times;</span>
             </div>
-            
-            <h2 style="color: #ffcc00; border-color: rgba(255, 204, 0, 0.3);">✨ Nouveautés v3.1 (Mars 2026)</h2>
+
+            <h2 class="guide-nouveautes">✨ Nouveautés v3.1 (Mars 2026)</h2>
             <ul>
                 <li><strong>Performances Graphiques (60 FPS)</strong> : Moteur WebGL repensé avec le Cache Texture Global. Chargement instantané des astres en mémoire RAM et nettoyage automatique pour prolonger la durée de vie de la batterie sur les téléphones mobiles.</li>
                 <li><strong>Génération Adaptative (Énergie)</strong> : Le GPU (Pixel Ratio) s'ajuste dynamiquement pour empêcher la surchauffe thermique (idéal pour les longues sessions nocturnes au télescope).</li>
@@ -231,7 +256,7 @@
                 <li>Consultez la <strong>Visibilité</strong> pour savoir si l'astre est au-dessus de l'horizon à Sombreffe.</li>
             </ul>
 
-            <p style="text-align: center; margin-top: 30px; font-size: 0.8rem; color: #666;">Astro.TofDan.be - (c) 2026</p>
+            <p class="guide-credit">Astro.TofDan.be - (c) 2026</p>
         </div>
     </div>
 
@@ -286,12 +311,22 @@
         };
 
         // Dessin de la galaxie sur l'index
+        // Les couleurs du canvas doivent s'adapter au thème du site (sombre/clair) :
+        // le canvas ne connait pas les variables CSS var(--color-*), il faut donc
+        // les resoudre en JS et redessiner au changement de thème.
+        function estThemeClair() {
+            return document.documentElement.getAttribute('data-theme') === 'light';
+        }
+
         function drawGalaxyPreview() {
             const canvas = document.getElementById('galaxy-preview-canvas');
             if (!canvas) return;
             const ctx = canvas.getContext('2d');
             const centerX = canvas.width / 2;
             const centerY = canvas.height / 2;
+
+            const clair = estThemeClair();
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             // Centre galactique (Bulbe)
             const grd = ctx.createRadialGradient(centerX, centerY, 0, centerX, centerY, 60);
@@ -303,18 +338,21 @@
             ctx.arc(centerX, centerY, 60, 0, Math.PI * 2);
             ctx.fill();
 
-            // Bras spiraux (4 bras principaux)
+            // Bras spiraux (4 bras principaux) — plus soutenus en thème clair
             const arms = 4;
             const steps = 200;
-            const armColors = ["rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)", "rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)"];
+            const armColors = clair
+                ? ["rgba(79, 70, 229, 0.55)", "rgba(124, 58, 237, 0.45)", "rgba(79, 70, 229, 0.55)", "rgba(124, 58, 237, 0.45)"]
+                : ["rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)", "rgba(77, 168, 218, 0.25)", "rgba(121, 194, 234, 0.2)"];
             const armNames = ["Bras de Persée", "Bras du Sagittaire", "Bras de l'Écu-Croix", "Bras de la Règle-Cygne"];
-            
+            const labelColor = clair ? "rgba(30, 41, 59, 0.85)" : "rgba(255, 255, 255, 0.4)";
+
             for (let j = 0; j < arms; j++) {
                 ctx.beginPath();
                 ctx.strokeStyle = armColors[j];
                 ctx.lineWidth = 15;
                 ctx.lineCap = "round";
-                
+
                 for (let i = 0; i < steps; i++) {
                     let r = (i / steps) * 180;
                     let angle = (j * Math.PI * 2 / arms) + (r * 0.035);
@@ -327,11 +365,17 @@
                 ctx.stroke();
 
                 // Ajout des noms des bras
-                ctx.fillStyle = "rgba(255, 255, 255, 0.4)";
+                // Le libelle est centre sur un rayon fixe, mais sa largeur varie :
+                // on le ramene dans le canvas pour eviter toute troncature au bord.
+                ctx.fillStyle = labelColor;
                 ctx.font = "10px sans-serif";
                 ctx.textAlign = "center";
                 let labelAngle = (j * Math.PI * 2 / arms) + (140 * 0.035);
-                ctx.fillText(armNames[j], centerX + Math.cos(labelAngle) * 155, centerY + Math.sin(labelAngle) * 155);
+                let labelX = centerX + Math.cos(labelAngle) * 155;
+                let labelY = centerY + Math.sin(labelAngle) * 155;
+                const demiLargeur = ctx.measureText(armNames[j]).width / 2;
+                labelX = Math.min(Math.max(labelX, demiLargeur + 2), canvas.width - demiLargeur - 2);
+                ctx.fillText(armNames[j], labelX, labelY);
             }
 
             // Positionnement du drapeau (Bras d'Orion)
@@ -345,6 +389,12 @@
             marker.style.top = markerY + 'px';
         }
         drawGalaxyPreview();
+
+        // Redessiner la galaxie quand le thème change (le canvas ne suit pas le CSS).
+        // L'attribut data-theme est posé par js/main.js sur <html> ; on l'observe.
+        new MutationObserver(function () {
+            drawGalaxyPreview();
+        }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
     </script>
 </body>
 </html>
