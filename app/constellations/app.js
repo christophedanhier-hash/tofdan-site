@@ -618,7 +618,8 @@
       ])]));
     });
 
-    var btns = [el('button', { class: 'btn btn--primary', text: 'Commencer', onclick: function () { aller(2); } })];
+    var btns = [el('button', { class: 'btn btn--primary', text: 'Commencer', onclick: function () { aller(2); } }),
+      el('button', { class: 'btn btn--outline', text: '🗺️ Carte du ciel', onclick: ouvrirCarte })];
     if (etat.reprise && etat.reprise >= 2) {
       btns.push(el('button', {
         class: 'btn btn--outline', text: '↻ Reprendre (étape ' + etat.reprise + ')',
@@ -981,6 +982,438 @@
     ]);
   }
 
+  /* ---------- Carte du ciel (étape 7) : carte polaire + zoom local ---------- */
+  var ECRAN_CARTE = 7;
+  var CS = 720;                 // taille interne des deux canvas (carrés)
+  var CARTE = { fiches: {}, promesse: null, nb: 0, echecs: 0, minutes: 240, precedent: 1 };
+
+  function p2(n) { return ('0' + n).slice(-2); }
+  function fmtHeure(d) { return p2(d.getHours()) + 'h' + p2(d.getMinutes()); }
+  function fmtDate(d) { return p2(d.getDate()) + '/' + p2(d.getMonth() + 1) + '/' + d.getFullYear(); }
+
+  // Charge les fiches manquantes UNE fois (cache module) ; ne rejette jamais.
+  function chargerFiches(surProgres) {
+    var manquantes = etat.index.constellations.filter(function (c) { return !CARTE.fiches[c.id]; });
+    if (!manquantes.length) { CARTE.echecs = 0; return Promise.resolve(); }
+    if (CARTE.promesse) { CARTE.surProgres = surProgres; return CARTE.promesse; }
+    CARTE.surProgres = surProgres;
+    CARTE.nb = 0;
+    CARTE.echecs = 0;
+    CARTE.promesse = Promise.all(manquantes.map(function (c) {
+      return fetch('data/' + c.fichier).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      }).then(function (d) {
+        if (!d || !d.etoiles || !d.etoiles.length) throw new Error('fiche vide');
+        CARTE.fiches[c.id] = d;
+      }).catch(function () {
+        CARTE.echecs++;
+      }).then(function () {
+        CARTE.nb++;
+        if (CARTE.surProgres) { try { CARTE.surProgres(CARTE.nb, manquantes.length); } catch (e) { /* écran quitté */ } }
+      });
+    })).then(function () { CARTE.promesse = null; }, function () { CARTE.promesse = null; });
+    return CARTE.promesse;
+  }
+
+  function valeurEtoile(s) { return (s && typeof s.ra_deg === 'number' && typeof s.dec_deg === 'number'); }
+  function magEtoile(s) { return typeof s.mag === 'number' ? s.mag : 6; }
+  function rayonEtoile(s) { return Math.max(0.6, (6.2 - magEtoile(s)) * 0.75); }
+  function nomEtoile(s) { return valide(s.nom) ? String(s.nom) : (valide(s.bayer) ? String(s.bayer) : ''); }
+  function sepAngulaire(ra1, d1, ra2, d2) {
+    var c = Math.sin(d1 * DEG) * Math.sin(d2 * DEG) + Math.cos(d1 * DEG) * Math.cos(d2 * DEG) * Math.cos((ra1 - ra2) * DEG);
+    return Math.acos(Math.max(-1, Math.min(1, c))) / DEG;
+  }
+
+  // Latitude/longitude d'observation ; valeurs par défaut si saisie invalide
+  function lieuCarte() {
+    var l = lieuCourant();
+    return l ? { lat: l.lat, lon: l.lon } : { lat: LIEU_DEFAUT.lat, lon: LIEU_DEFAUT.lon };
+  }
+  // Instant affiché : soirée de obs.date, 18h00 + minutes
+  function instantCarte(minutes) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(obs.date || '');
+    var a = m ? new Date(+m[1], +m[2] - 1, +m[3], 18, 0) : new Date();
+    if (!m) a.setHours(18, 0, 0, 0);
+    return new Date(a.getTime() + minutes * 60000);
+  }
+
+  // Courbe hauteur()==0 : pour chaque AD, déclinaison trouvée par dichotomie sur hauteur().
+  // Symétrie (dec, lat) -> (-dec, -lat) à angle horaire égal : on travaille en hémisphère nord.
+  function courbeHorizon(date, lat, lon) {
+    var pts = [], sg = lat >= 0 ? 1 : -1, la = Math.max(0.01, Math.abs(lat));
+    for (var ra = 0; ra < 360; ra += 3) {
+      // un seul changement de signe entre -90° (h<0) et +90° (h>0)
+      var lo = -90, hi = 90;
+      for (var k = 0; k < 30; k++) {
+        var mid = (lo + hi) / 2;
+        if (hauteur(ra, mid, date, la, lon) < 0) lo = mid; else hi = mid;
+      }
+      pts.push({ ra: ra, dec: sg * (lo + hi) / 2 });
+    }
+    return pts;
+  }
+
+  // Bornes d'affichage du pôle Nord à declinaison dmin
+  function dmin(lat) { return lat >= 0 ? Math.max(-90, lat - 90 - 12) : -90; }
+
+  function dessinerPolaire(canvas, ctx, date, lieu, sel) {
+    var M = 44, R = CS / 2 - M, cx = CS / 2, cy = CS / 2;
+    var dm = dmin(lieu.lat), k = R / (90 - dm);
+    function P(ra, dec) {
+      var r = (90 - dec) * k;
+      return { x: cx + r * Math.cos(ra * DEG), y: cy - r * Math.sin(ra * DEG), r: r };
+    }
+    var pts = [];
+    ctx.clearRect(0, 0, CS, CS);
+    ctx.fillStyle = '#07101f'; ctx.fillRect(0, 0, CS, CS);
+    ctx.fillStyle = '#0d1b33';
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, 2 * Math.PI); ctx.fill();
+
+    // grille : cercles de déclinaison (30°) et méridiens d'AD (30° = 2 h)
+    ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(150,170,210,0.22)';
+    ctx.fillStyle = 'rgba(170,185,215,0.7)'; ctx.font = '11px sans-serif';
+    ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+    for (var dd = 60; dd > dm; dd -= 30) {
+      ctx.beginPath(); ctx.arc(cx, cy, (90 - dd) * k, 0, 2 * Math.PI); ctx.stroke();
+      var pl = P(20, dd);
+      ctx.fillText((dd > 0 ? '+' : '') + dd + '°', pl.x + 3, pl.y - 6);
+    }
+    ctx.textAlign = 'center';
+    for (var a = 0; a < 360; a += 30) {
+      var p0 = P(a, 90), p1 = P(a, dm);
+      ctx.beginPath(); ctx.moveTo(p0.x, p0.y); ctx.lineTo(p1.x, p1.y); ctx.stroke();
+      var ex = cx + (R + 18) * Math.cos(a * DEG), ey = cy - (R + 18) * Math.sin(a * DEG);
+      ctx.fillText((a / 15) + ' h', ex, ey);
+    }
+
+    // zone sous l'horizon assombrie, puis cercle d'horizon (hauteur() == 0)
+    var hz = courbeHorizon(date, lieu.lat, lieu.lon);
+    ctx.save();
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, 2 * Math.PI); ctx.clip();
+    ctx.beginPath();
+    if (lieu.lat >= 0) { ctx.arc(cx, cy, R + 2, 0, 2 * Math.PI); }
+    hz.forEach(function (q, i) { var p = P(q.ra, q.dec); if (i) ctx.lineTo(p.x, p.y); else ctx.moveTo(p.x, p.y); });
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.fill('evenodd');
+    ctx.beginPath();
+    hz.forEach(function (q, i) { var p = P(q.ra, q.dec); if (i) ctx.lineTo(p.x, p.y); else ctx.moveTo(p.x, p.y); });
+    ctx.closePath();
+    ctx.strokeStyle = '#f0a040'; ctx.lineWidth = 2; ctx.stroke();
+
+    // tracés
+    etat.index.constellations.forEach(function (c) {
+      var d = CARTE.fiches[c.id];
+      if (!d) return;
+      var actif = (c.id === sel);
+      ctx.strokeStyle = actif ? 'rgba(255,210,90,0.9)' : 'rgba(90,140,235,0.5)';
+      ctx.lineWidth = actif ? 1.8 : 1;
+      ctx.beginPath();
+      ((d.figure && d.figure.liaisons) || []).forEach(function (l) {
+        var s1 = d.etoiles[l[0]], s2 = d.etoiles[l[1]];
+        if (!s1 || !s2 || !valeurEtoile(s1) || !valeurEtoile(s2)) return;
+        var q1 = P(s1.ra_deg, s1.dec_deg), q2 = P(s2.ra_deg, s2.dec_deg);
+        ctx.moveTo(q1.x, q1.y); ctx.lineTo(q2.x, q2.y);
+      });
+      ctx.stroke();
+    });
+    // étoiles
+    etat.index.constellations.forEach(function (c) {
+      var d = CARTE.fiches[c.id];
+      if (!d) return;
+      d.etoiles.forEach(function (s) {
+        if (!valeurEtoile(s)) return;
+        var q = P(s.ra_deg, s.dec_deg);
+        if (q.r > R) return;
+        ctx.fillStyle = s.role ? '#ffffff' : 'rgba(190,200,220,0.6)';
+        ctx.beginPath(); ctx.arc(q.x, q.y, rayonEtoile(s), 0, 2 * Math.PI); ctx.fill();
+        pts.push({ x: q.x, y: q.y, s: s, c: c });
+      });
+    });
+    ctx.restore();
+
+    // nom de la constellation sélectionnée, gardé dans le canvas
+    var cs = sel && CARTE.fiches[sel] ? centre(CARTE.fiches[sel].etoiles) : null;
+    if (cs) {
+      var pc = P(cs.ra, cs.dec), txt = String(CARTE.fiches[sel].nom_fr || '');
+      ctx.font = 'bold 13px sans-serif'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
+      var w = ctx.measureText(txt).width;
+      var tx = Math.max(4, Math.min(CS - w - 4, pc.x + 8)), ty = Math.max(10, Math.min(CS - 10, pc.y - 10));
+      ctx.fillStyle = 'rgba(7,16,31,0.7)'; ctx.fillRect(tx - 2, ty - 8, w + 4, 16);
+      ctx.fillStyle = '#ffd25a'; ctx.fillText(txt, tx, ty);
+    }
+    return pts;
+  }
+
+  function dessinerZoom(ctx, sel) {
+    var M = 30, half = CS / 2 - M, cx = CS / 2, cy = CS / 2;
+    ctx.clearRect(0, 0, CS, CS);
+    ctx.fillStyle = '#07101f'; ctx.fillRect(0, 0, CS, CS);
+    var d0 = CARTE.fiches[sel], pts = [];
+    if (!d0) return pts;
+    var c0 = centre(d0.etoiles);
+    if (!c0) return pts;
+    var ext = 0;
+    d0.etoiles.forEach(function (s) { if (valeurEtoile(s)) ext = Math.max(ext, sepAngulaire(c0.ra, c0.dec, s.ra_deg, s.dec_deg)); });
+    var vue = Math.min(60, Math.max(ext * 1.3 + 8, 20));
+    var ech = half / (2 * Math.tan(vue * DEG / 2));
+    function P(ra, dec) {
+      var l = (ra - c0.ra) * DEG, p = dec * DEG, p0 = c0.dec * DEG;
+      var kk = 2 / (1 + Math.sin(p0) * Math.sin(p) + Math.cos(p0) * Math.cos(p) * Math.cos(l));
+      return {
+        x: cx - ech * kk * Math.cos(p) * Math.sin(l),
+        y: cy - ech * kk * (Math.cos(p0) * Math.sin(p) - Math.sin(p0) * Math.cos(p) * Math.cos(l))
+      };
+    }
+    function dedans(q) { return q.x >= M && q.x <= CS - M && q.y >= M && q.y <= CS - M; }
+    var voisines = etat.index.constellations.filter(function (c) {
+      var d = CARTE.fiches[c.id], cc = d ? centre(d.etoiles) : null;
+      return c.id !== sel && cc && sepAngulaire(c0.ra, c0.dec, cc.ra, cc.dec) <= vue + 8;
+    });
+    var liste = voisines.concat([etat.index.constellations.filter(function (c) { return c.id === sel; })[0]]);
+    var rects = [], ancres = {};
+    function libre(r) {
+      if (r.x < 3 || r.y < 3 || r.x + r.w > CS - 3 || r.y + r.h > CS - 3) return false;
+      for (var i = 0; i < rects.length; i++) {
+        var o = rects[i];
+        if (r.x < o.x + o.w && r.x + r.w > o.x && r.y < o.y + o.h && r.y + r.h > o.y) return false;
+      }
+      return true;
+    }
+
+    ctx.save();
+    ctx.beginPath(); ctx.rect(M, M, CS - 2 * M, CS - 2 * M); ctx.clip();
+    ctx.fillStyle = '#0d1b33'; ctx.fillRect(M, M, CS - 2 * M, CS - 2 * M);
+    liste.forEach(function (c) {
+      var d = CARTE.fiches[c.id];
+      if (!d) return;
+      var net = (c.id === sel), sx = 0, sy = 0, n = 0;
+      ctx.strokeStyle = net ? 'rgba(255,210,90,0.95)' : 'rgba(90,140,235,0.4)';
+      ctx.lineWidth = net ? 2 : 1;
+      ctx.beginPath();
+      ((d.figure && d.figure.liaisons) || []).forEach(function (l) {
+        var s1 = d.etoiles[l[0]], s2 = d.etoiles[l[1]];
+        if (!s1 || !s2 || !valeurEtoile(s1) || !valeurEtoile(s2)) return;
+        var q1 = P(s1.ra_deg, s1.dec_deg), q2 = P(s2.ra_deg, s2.dec_deg);
+        ctx.moveTo(q1.x, q1.y); ctx.lineTo(q2.x, q2.y);
+      });
+      ctx.stroke();
+      d.etoiles.forEach(function (s) {
+        if (!valeurEtoile(s)) return;
+        var q = P(s.ra_deg, s.dec_deg);
+        if (!dedans(q)) return;
+        sx += q.x; sy += q.y; n++;
+        var r = rayonEtoile(s) * (net ? 1.5 : 1.1);
+        ctx.fillStyle = net ? '#ffffff' : 'rgba(190,200,220,0.6)';
+        ctx.beginPath(); ctx.arc(q.x, q.y, r, 0, 2 * Math.PI); ctx.fill();
+        pts.push({ x: q.x, y: q.y, s: s, c: c });
+        rects.push({ x: q.x - r - 1, y: q.y - r - 1, w: 2 * r + 2, h: 2 * r + 2 });
+      });
+      if (n) ancres[c.id] = { x: sx / n, y: sy / n };
+    });
+    ctx.restore();
+
+    // étiquettes : étoiles de la sélection (les plus brillantes d'abord), sans chevauchement
+    ctx.font = '12px sans-serif'; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+    var noms = pts.filter(function (p) { return p.c.id === sel && nomEtoile(p.s); })
+      .sort(function (a, b) { return magEtoile(a.s) - magEtoile(b.s); });
+    noms.forEach(function (p) {
+      var t = nomEtoile(p.s), w = ctx.measureText(t).width;
+      var essais = [{ x: p.x + 7, y: p.y - 6 }, { x: p.x - w - 7, y: p.y - 6 }, { x: p.x + 7, y: p.y + 8 }, { x: p.x - w - 7, y: p.y + 8 }];
+      for (var i = 0; i < essais.length; i++) {
+        var r = { x: essais[i].x, y: essais[i].y - 7, w: w, h: 14 };
+        if (r.x >= M && r.x + r.w <= CS - M && r.y >= M && r.y + r.h <= CS - M && libre(r)) {
+          rects.push(r);
+          ctx.fillStyle = '#ffe9a8'; ctx.fillText(t, r.x, essais[i].y);
+          return;
+        }
+      }
+    });
+    // abréviations IAU des voisines (même règle d'absence de chevauchement)
+    ctx.font = 'bold 12px sans-serif'; ctx.textAlign = 'center';
+    voisines.forEach(function (c) {
+      var an = ancres[c.id];
+      if (!an) return;
+      var t = String(c.abreviation), w = ctx.measureText(t).width;
+      var dy = [0, -16, 16, -30, 30];
+      for (var i = 0; i < dy.length; i++) {
+        var r = { x: an.x - w / 2, y: an.y + dy[i] - 7, w: w, h: 14 };
+        if (r.x >= M && r.x + r.w <= CS - M && r.y >= M && r.y + r.h <= CS - M && libre(r)) {
+          rects.push(r);
+          ctx.fillStyle = 'rgba(150,185,255,0.95)'; ctx.fillText(t, an.x, an.y + dy[i]);
+          pts.push({ x: an.x, y: an.y + dy[i], c: c, abr: true });
+          return;
+        }
+      }
+    });
+    return pts;
+  }
+
+  // Survol (infobulle DOM) et clic sur un canvas, à partir de la liste de points dessinés
+  function brancherCanvas(canvas, boite, tip, obtenirPts, surChoix) {
+    function plusProche(ev, rayon) {
+      var rc = canvas.getBoundingClientRect();
+      if (!rc.width) return null;
+      var f = CS / rc.width, x = (ev.clientX - rc.left) * f, y = (ev.clientY - rc.top) * f, best = null, bd = rayon * rayon;
+      obtenirPts().forEach(function (p) {
+        var dx = p.x - x, dy = p.y - y, dist = dx * dx + dy * dy;
+        if (dist <= bd) { bd = dist; best = p; }
+      });
+      return best ? { p: best, px: (ev.clientX - rc.left), py: (ev.clientY - rc.top) } : null;
+    }
+    canvas.addEventListener('mousemove', function (ev) {
+      var h = plusProche(ev, 12);
+      canvas.style.cursor = h ? 'pointer' : 'default';
+      if (!h) { tip.hidden = true; return; }
+      var t;
+      if (h.p.abr) t = h.p.c.nom_fr + ' (' + h.p.c.abreviation + ')';
+      else t = (nomEtoile(h.p.s) || 'étoile sans nom') + ' · ' + h.p.c.nom_fr + ' · mag. ' + fmtNum(magEtoile(h.p.s));
+      tip.textContent = t; tip.hidden = false;
+      var bw = boite.clientWidth;
+      tip.style.left = Math.max(0, Math.min(bw - tip.offsetWidth, h.px + 12)) + 'px';
+      tip.style.top = Math.max(0, h.py - 30) + 'px';
+    });
+    canvas.addEventListener('mouseleave', function () { tip.hidden = true; });
+    canvas.addEventListener('click', function (ev) {
+      var h = plusProche(ev, 16);
+      if (h) surChoix(h.p.c);
+    });
+  }
+
+  function choisirDepuisCarte(c, msg) {
+    if (c.id === etat.id && etat.data) { etat.etape = 1; etat.traits = []; rendre(); return; }
+    charger(c.id, c.fichier).then(function () {
+      var n = Number(lireProgression()[c.id]);
+      etat.reprise = (n >= 2 && n <= TOTAL) ? n : 0;
+      etat.etape = 1;
+      etat.traits = [];
+      rendre();
+    }).catch(function () {
+      msg.textContent = 'La fiche « ' + c.nom_fr + ' » n\'a pas pu être chargée.';
+    });
+  }
+
+  function ouvrirCarte() {
+    if (etat.etape !== ECRAN_CARTE) CARTE.precedent = etat.etape;
+    etat.segment = null;
+    etat.etape = ECRAN_CARTE;
+    rendre();
+  }
+
+  function ecranCarte() {
+    var lieu = lieuCarte(), sel = etat.id || null;
+    var msg = el('p', { class: 'carte-msg', role: 'status', 'aria-live': 'polite' });
+    var corps = el('div', { class: 'carte-ciel-corps', id: 'carte-ciel-corps' });
+    var racine = el('section', { class: 'carte-ciel', 'aria-label': 'Carte du ciel' }, [
+      el('div', { class: 'barre-q' }, [
+        el('h1', { class: 'titre', text: 'Carte du ciel' }),
+        el('button', { type: 'button', class: 'btn btn--outline', text: '← Retour', onclick: function () {
+          var p = CARTE.precedent;
+          etat.etape = (p >= 1 && p <= TOTAL && (p === 1 || etat.data)) ? p : 1;
+          rendre();
+        } })
+      ]),
+      msg, corps
+    ]);
+
+    function remplir() {
+      corps.textContent = '';
+      var manque = etat.index.constellations.filter(function (c) { return !CARTE.fiches[c.id]; }).length;
+      var total = etat.index.constellations.length;
+      var etatTxt = el('p', { class: 'carte-etat', role: 'status', text: manque ? manque + ' constellation' + (manque > 1 ? 's' : '') + ' non chargée' + (manque > 1 ? 's' : '') + '.' : '' });
+      if (manque) {
+        etatTxt.appendChild(document.createTextNode(' '));
+        etatTxt.appendChild(el('button', { type: 'button', class: 'btn btn--outline', text: 'Réessayer', onclick: function () { demarrer(); } }));
+      }
+
+      // (a) carte polaire
+      var cvP = el('canvas', { width: CS, height: CS, class: 'carte-canvas', role: 'img' });
+      var ctxP = cvP.getContext ? cvP.getContext('2d') : null;
+      var tipP = el('div', { class: 'carte-tip', hidden: '' });
+      var boiteP = el('div', { class: 'carte-boite' }, [cvP, tipP]);
+      var heure = el('p', { class: 'carte-heure', 'aria-live': 'polite' });
+      var curseur = el('input', { type: 'range', id: 'carte-heure', min: '0', max: '720', step: '15', value: String(CARTE.minutes), 'aria-label': 'Heure de la carte, de 18h à 6h' });
+      var alt = el('ul', { class: 'carte-liste' });
+      var ptsP = [];
+      function majPolaire() {
+        var m = +curseur.value;
+        CARTE.minutes = m;
+        var t = instantCarte(m);
+        var h = fmtHeure(t);
+        curseur.setAttribute('aria-valuetext', h);
+        heure.textContent = 'Carte valable le ' + fmtDate(t) + ' à ' + h;
+        var nl = lieu.lat >= 0 ? 'N' : 'S';
+        cvP.setAttribute('aria-label', 'Carte polaire du ciel au ' + fmtDate(t) + ' à ' + h + ', latitude ' + fmtNum(Math.abs(lieu.lat)) + '° ' + nl + ', ' + (total - manque) + ' constellations. Le cercle orange est l\'horizon ; ' + (lieu.lat >= 0 ? 'l\'intérieur' : 'l\'extérieur') + ' est au-dessus de l\'horizon.');
+        if (ctxP) ptsP = dessinerPolaire(cvP, ctxP, t, lieu, sel);
+        alt.textContent = '';
+        var vis = 0;
+        etat.index.constellations.forEach(function (c) {
+          var d = CARTE.fiches[c.id], cc = d ? centre(d.etoiles) : null;
+          if (!cc || hauteur(cc.ra, cc.dec, t, lieu.lat, lieu.lon) <= 0) return;
+          vis++;
+          alt.appendChild(el('li', null, [el('button', { type: 'button', class: 'carte-lien', text: c.nom_fr + ' (' + c.abreviation + ')', onclick: function () { choisirDepuisCarte(c, msg); } })]));
+        });
+        altTitre.textContent = 'Constellations au-dessus de l\'horizon à ' + h + ' (' + vis + ')';
+      }
+      var altTitre = el('summary', { text: '' });
+      var altBloc = el('details', { class: 'carte-alt' }, [altTitre, alt]);
+      curseur.addEventListener('input', majPolaire);
+      brancherCanvas(cvP, boiteP, tipP, function () { return ptsP; }, function (c) { choisirDepuisCarte(c, msg); });
+
+      var blocP = el('section', { class: 'carte-vue', 'aria-label': 'Carte polaire' }, [
+        el('h2', { class: 'sous', text: 'Carte polaire' }),
+        el('p', { class: 'petit', text: 'Centrée sur le pôle Nord céleste. Cercle orange = horizon à ' + fmtNum(lieu.lat) + '° ; la zone assombrie est sous l\'horizon.' }),
+        boiteP, heure,
+        el('div', { class: 'carte-curseur' }, [
+          el('label', { for: 'carte-heure', text: 'Heure' }),
+          el('span', { class: 'petit', text: '18h' }), curseur, el('span', { class: 'petit', text: '6h' })
+        ]),
+        altBloc
+      ]);
+
+      // (b) zoom local
+      var blocZ = el('section', { class: 'carte-vue', 'aria-label': 'Zoom local' }, [el('h2', { class: 'sous', text: 'Zoom local' })]);
+      var dSel = sel ? CARTE.fiches[sel] : null;
+      if (!sel) {
+        blocZ.appendChild(el('p', { class: 'carte-vide', text: 'Aucune constellation sélectionnée : choisis-en une dans le catalogue ou clique sur une constellation de la carte polaire.' }));
+      } else if (!dSel) {
+        blocZ.appendChild(el('p', { class: 'carte-vide', text: 'La fiche de la constellation sélectionnée n\'est pas disponible.' }));
+      } else {
+        var cvZ = el('canvas', { width: CS, height: CS, class: 'carte-canvas', role: 'img',
+          'aria-label': 'Zoom sur la constellation ' + dSel.nom_fr + ' et ses voisines' });
+        var tipZ = el('div', { class: 'carte-tip', hidden: '' });
+        var boiteZ = el('div', { class: 'carte-boite' }, [cvZ, tipZ]);
+        var ptsZ = cvZ.getContext ? dessinerZoom(cvZ.getContext('2d'), sel) : [];
+        brancherCanvas(cvZ, boiteZ, tipZ, function () { return ptsZ; }, function (c) { choisirDepuisCarte(c, msg); });
+        blocZ.appendChild(el('p', { class: 'petit', text: dSel.nom_fr + ' (trait net) et constellations voisines (trait pâle, abréviation IAU).' }));
+        blocZ.appendChild(boiteZ);
+        blocZ.appendChild(el('button', { type: 'button', class: 'btn btn--primary', text: 'Ouvrir la fiche « ' + dSel.nom_fr + ' »', onclick: function () {
+          var c = etat.index.constellations.filter(function (x) { return x.id === sel; })[0];
+          if (c) choisirDepuisCarte(c, msg);
+        } }));
+      }
+      corps.appendChild(etatTxt);
+      corps.appendChild(el('div', { class: 'carte-grille' }, [blocP, blocZ]));
+      majPolaire();
+    }
+
+    var coque = null;
+    function demarrer() {
+      var fini = false;
+      corps.textContent = '';
+      var barre = el('progress', { max: '100', value: '0', 'aria-label': 'Chargement des constellations' });
+      var chargement = el('div', { class: 'carte-chargement', role: 'status' }, [el('p', { text: 'Chargement des constellations…' }), barre]);
+      var minuteur = setTimeout(function () { if (!fini && document.body.contains(corps)) corps.appendChild(chargement); }, 200);
+      chargerFiches(function (n, tot) { barre.value = Math.round(100 * n / tot); }).then(function () {
+        fini = true; clearTimeout(minuteur);
+        if (!document.body.contains(racine)) return; // l'utilisateur a quitté l'écran
+        try { remplir(); } catch (e) { corps.textContent = ''; msg.textContent = 'La carte n\'a pas pu être dessinée.'; }
+      });
+    }
+    demarrer();
+    return racine;
+  }
+
   var LIBELLES = ['', 'Catalogue', 'Fiche', 'Dessin', 'Comparaison', 'Objets', 'Questions'];
 
   function rendre() {
@@ -996,10 +1429,13 @@
         ariane.appendChild(b);
       })(i);
     }
+    var bc = el('button', { type: 'button', text: '🗺️ Carte du ciel', onclick: ouvrirCarte });
+    if (etat.etape === ECRAN_CARTE) bc.setAttribute('aria-current', 'step');
+    ariane.appendChild(bc);
     ecran.textContent = '';
     var section;
     try {
-      section = [null, ecran1, ecran2, ecran3, ecran4, ecran5, ecran6][etat.etape]();
+      section = [null, ecran1, ecran2, ecran3, ecran4, ecran5, ecran6, ecranCarte][etat.etape]();
     } catch (e) {
       // Un ecran qui plante ne doit JAMAIS laisser la page vide et muette.
       afficherErreur('L\'écran ' + etat.etape + ' n\'a pas pu s\'afficher : ' + e.message);
