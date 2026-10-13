@@ -1,0 +1,512 @@
+{
+ "id": "ophiuchus",
+ "slug": "ophiuchus",
+ "nom_fr": "Ophiuchus",
+ "nom_latin": "Ophiuchus",
+ "genitif": "Ophiuchi",
+ "abreviation_iau": "Oph",
+ "source_atlas": "Atlas observation.pdf, pages 70–71–72 (fiche Atlas « Ophiuchus »)",
+ "saison": "été",
+ "voie_lactee": false,
+ "repere_principal": "Le porteur du Serpent, au carrefour de la Voie lactée",
+ "constellations_voisines": [
+  "Hercule",
+  "Serpent",
+  "Aigle",
+  "Sagittaire",
+  "Scorpion",
+  "Balance",
+  "Aigle"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "hip": 79593,
+   "nom": "Yed Prior",
+   "etiq": "Yed Prior",
+   "bayer": "del Oph",
+   "ra_deg": 243.587,
+   "dec_deg": -3.694,
+   "mag": 2.73,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 79593)/ IAU"
+  },
+  {
+   "i": 1,
+   "hip": 79882,
+   "nom": "Yed Posterior",
+   "etiq": "Yed Posterior",
+   "bayer": "eps Oph",
+   "ra_deg": 244.58,
+   "dec_deg": -4.693,
+   "mag": 3.23,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 79882)/ IAU"
+  },
+  {
+   "i": 2,
+   "hip": 80343,
+   "nom": "ψ Oph",
+   "etiq": "ψ",
+   "bayer": "psi Oph",
+   "ra_deg": 246.026,
+   "dec_deg": -20.037,
+   "mag": 4.48,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 80343)"
+  },
+  {
+   "i": 3,
+   "hip": 80473,
+   "nom": "ρ Oph",
+   "etiq": "ρ",
+   "bayer": "rho Oph",
+   "ra_deg": 246.396,
+   "dec_deg": -23.447,
+   "mag": 4.57,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 80473)"
+  },
+  {
+   "i": 4,
+   "hip": 80569,
+   "nom": "χ Oph",
+   "etiq": "χ",
+   "bayer": "chi Oph",
+   "ra_deg": 246.756,
+   "dec_deg": -18.456,
+   "mag": 4.22,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 80569)"
+  },
+  {
+   "i": 5,
+   "hip": 80628,
+   "nom": "υ Oph",
+   "etiq": "υ",
+   "bayer": "ups Oph",
+   "ra_deg": 246.951,
+   "dec_deg": -8.372,
+   "mag": 4.62,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 80628)"
+  },
+  {
+   "i": 6,
+   "hip": 80883,
+   "nom": "Marfik",
+   "etiq": "Marfik",
+   "bayer": "lam Oph",
+   "ra_deg": 247.729,
+   "dec_deg": 1.984,
+   "mag": 3.82,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 80883)/ IAU"
+  },
+  {
+   "i": 7,
+   "hip": 80894,
+   "nom": "φ Oph",
+   "etiq": "φ",
+   "bayer": "phi Oph",
+   "ra_deg": 247.785,
+   "dec_deg": -16.613,
+   "mag": 4.29,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 80894)"
+  },
+  {
+   "i": 8,
+   "hip": 81377,
+   "nom": "ζ Oph",
+   "etiq": "ζ",
+   "bayer": "zet Oph",
+   "ra_deg": 249.29,
+   "dec_deg": -10.567,
+   "mag": 2.54,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 81377)"
+  },
+  {
+   "i": 9,
+   "hip": 83000,
+   "nom": "κ Oph",
+   "etiq": "κ",
+   "bayer": "kap Oph",
+   "ra_deg": 254.418,
+   "dec_deg": 9.375,
+   "mag": 3.19,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 83000)"
+  },
+  {
+   "i": 10,
+   "hip": 84012,
+   "nom": "Sabik",
+   "etiq": "Sabik",
+   "bayer": "eta Oph",
+   "ra_deg": 257.594,
+   "dec_deg": -15.725,
+   "mag": 2.43,
+   "role": "",
+   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "src": "Hipparcos (HIP 84012)/ IAU"
+  },
+  {
+   "i": 11,
+   "hip": 84970,
+   "nom": "θ Oph",
+   "etiq": "θ",
+   "bayer": "the Oph",
+   "ra_deg": 260.502,
+   "dec_deg": -24.999,
+   "mag": 3.27,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 84970)"
+  },
+  {
+   "i": 12,
+   "hip": 85423,
+   "nom": "45 Oph",
+   "etiq": "45",
+   "bayer": "d Oph",
+   "ra_deg": 261.839,
+   "dec_deg": -29.867,
+   "mag": 4.28,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 85423)"
+  },
+  {
+   "i": 13,
+   "hip": 86032,
+   "nom": "Rasalhague",
+   "etiq": "Rasalhague",
+   "bayer": "alf Oph",
+   "ra_deg": 263.733,
+   "dec_deg": 12.561,
+   "mag": 2.08,
+   "role": "",
+   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "src": "Hipparcos (HIP 86032)/ IAU"
+  },
+  {
+   "i": 14,
+   "hip": 86742,
+   "nom": "Cebalrai",
+   "etiq": "Cebalrai",
+   "bayer": "bet Oph",
+   "ra_deg": 265.868,
+   "dec_deg": 4.567,
+   "mag": 2.76,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 86742)/ IAU"
+  },
+  {
+   "i": 15,
+   "hip": 87108,
+   "nom": "γ Oph",
+   "etiq": "γ",
+   "bayer": "gam Oph",
+   "ra_deg": 266.973,
+   "dec_deg": 2.707,
+   "mag": 3.75,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 87108)"
+  },
+  {
+   "i": 16,
+   "hip": 88048,
+   "nom": "64 Oph",
+   "etiq": "64",
+   "bayer": "nu. Oph",
+   "ra_deg": 269.757,
+   "dec_deg": -9.773,
+   "mag": 3.32,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 88048)"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    16,
+    15,
+    14,
+    13,
+    9,
+    6,
+    0,
+    1,
+    5,
+    8,
+    10,
+    14
+   ],
+   [
+    10,
+    11,
+    12
+   ],
+   [
+    9,
+    8,
+    7,
+    4,
+    2,
+    3
+   ]
+  ],
+  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 17 étoiles reliées par 18 segments.",
+  "note_geometrie": "Figure construite sur 17 étoiles et 18 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Sabik à Cebalrai (21.88°) ; le plus court relie Yed Prior à Yed Posterior (1.41°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "64 Oph–γ Oph": 12.78,
+  "γ Oph–Cebalrai": 2.16,
+  "Cebalrai–Rasalhague": 8.27,
+  "Rasalhague–κ Oph": 9.68,
+  "κ Oph–Marfik": 9.94,
+  "Marfik–Yed Prior": 7.03,
+  "Yed Prior–Yed Posterior": 1.41,
+  "Yed Posterior–υ Oph": 4.37,
+  "υ Oph–ζ Oph": 3.18,
+  "ζ Oph–Sabik": 9.59,
+  "Sabik–Cebalrai": 21.88,
+  "Sabik–θ Oph": 9.67,
+  "θ Oph–45 Oph": 5.01,
+  "κ Oph–ζ Oph": 20.58,
+  "ζ Oph–φ Oph": 6.22,
+  "φ Oph–χ Oph": 2.09,
+  "χ Oph–ψ Oph": 1.72,
+  "ψ Oph–ρ Oph": 3.43
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 6333",
+   "nature": "amas globulaire",
+   "mag": 7.9,
+   "distance_al": null,
+   "note": "NGC 6333 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6254",
+   "nature": "amas globulaire",
+   "mag": 6.6,
+   "distance_al": null,
+   "note": "NGC 6254 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6218",
+   "nature": "amas globulaire",
+   "mag": 6.6,
+   "distance_al": null,
+   "note": "NGC 6218 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6402",
+   "nature": "amas globulaire",
+   "mag": 7.6,
+   "distance_al": null,
+   "note": "NGC 6402 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6273",
+   "nature": "amas globulaire",
+   "mag": 7.2,
+   "distance_al": null,
+   "note": "NGC 6273 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6266",
+   "nature": "amas globulaire",
+   "mag": 6.6,
+   "distance_al": null,
+   "note": "NGC 6266 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6171",
+   "nature": "amas globulaire",
+   "mag": 8.1,
+   "distance_al": null,
+   "note": "NGC 6171 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6633",
+   "nature": "amas ouvert",
+   "mag": 4.6,
+   "distance_al": null,
+   "note": "NGC 6633 — amas ouvert documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "IC 4665",
+   "nature": "amas ouvert",
+   "mag": 4.2,
+   "distance_al": null,
+   "note": "IC 4665 — amas ouvert documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6572",
+   "nature": "nébuleuse planétaire",
+   "mag": 9,
+   "distance_al": null,
+   "note": "NGC 6572 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+   "instrument": "télescope",
+   "src": "N1",
+   "code": "N1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Rasalhague, magnitude 2.08, selon le catalogue Hipparcos (bande V)."
+  },
+  {
+   "q": "Quelles étoiles de la figure demandent un instrument ?",
+   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+  },
+  {
+   "q": "Combien d'objets du ciel profond sont documentés dans Ophiuchus ?",
+   "r": "10 objet(s), d'après la fiche Atlas correspondante."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Comment observer NGC 6333 ?",
+   "r": "NGC 6333 est un(e) amas globulaire de magnitude 7.9. Instrument conseillé : jumelles. NGC 6333 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus."
+  },
+  {
+   "q": "Quand observer Ophiuchus ?",
+   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Le porteur du Serpent, au carrefour de la Voie lactée."
+  }
+ ],
+ "message_animation": "Ophiuchus — 17 étoiles reliées, 10 objet(s) du ciel profond documenté(s). Saison : été.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 70–71–72 (fiche Atlas « Ophiuchus »)",
+  "archive_texte": null,
+  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+  "lacunes": [
+   "Aucune lacune identifiée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

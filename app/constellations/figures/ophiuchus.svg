@@ -1,0 +1,72 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
+<rect width='620' height='460' fill='#0b1020'/>
+<line x1='408.8' y1='233.7' x2='387.8' y2='139.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='387.8' y1='139.1' x2='379.4' y2='125.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='379.4' y1='125.1' x2='363.3' y2='64.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='363.3' y1='64.0' x2='293.0' y2='88.5' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='293.0' y1='88.5' x2='242.5' y2='144.6' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='242.5' y1='144.6' x2='211.2' y2='187.5' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='211.2' y1='187.5' x2='218.7' y2='195.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='218.7' y1='195.1' x2='236.6' y2='223.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='236.6' y1='223.0' x2='254.3' y2='239.8' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='254.3' y1='239.8' x2='317.0' y2='279.8' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='317.0' y1='279.8' x2='379.4' y2='125.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='317.0' y1='279.8' x2='338.9' y2='354.6' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='338.9' y1='354.6' x2='349.0' y2='396.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='293.0' y1='88.5' x2='254.3' y2='239.8' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='254.3' y1='239.8' x2='242.9' y2='286.8' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='242.9' y1='286.8' x2='235.1' y2='301.4' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='235.1' y1='301.4' x2='229.6' y2='314.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='229.6' y1='314.0' x2='232.4' y2='341.7' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='211.2' y1='187.5' x2='187.5' y2='173.8' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='218.7' y1='195.1' x2='191.3' y2='222.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='229.6' y1='314.0' x2='246.0' y2='319.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='232.4' y1='341.7' x2='249.5' y2='341.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='235.1' y1='301.4' x2='252.7' y2='301.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='236.6' y1='223.0' x2='239.3' y2='239.8' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='242.5' y1='144.6' x2='224.2' y2='136.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='242.9' y1='286.8' x2='225.5' y2='287.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='254.3' y1='239.8' x2='274.0' y2='239.8' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='293.0' y1='88.5' x2='311.4' y2='92.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='317.0' y1='279.8' x2='336.8' y2='279.8' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='338.9' y1='354.6' x2='357.7' y2='354.6' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='349.0' y1='396.0' x2='366.4' y2='396.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='363.3' y1='64.0' x2='344.8' y2='55.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='379.4' y1='125.1' x2='403.2' y2='111.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='387.8' y1='139.1' x2='405.9' y2='139.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='408.8' y1='233.7' x2='427.5' y2='233.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<circle cx='211.2' cy='187.5' r='6.5' fill='#e8ecff'/>
+<text x='187.5' y='176.8' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Yed Prior</text>
+<circle cx='218.7' cy='195.1' r='5.8' fill='#e8ecff'/>
+<text x='191.3' y='225.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Yed Posterior</text>
+<circle cx='229.6' cy='314.0' r='4.2' fill='#e8ecff'/>
+<text x='246.0' y='322.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ψ</text>
+<circle cx='232.4' cy='341.7' r='4.1' fill='#e8ecff'/>
+<text x='249.5' y='344.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ρ</text>
+<circle cx='235.1' cy='301.4' r='4.5' fill='#e8ecff'/>
+<text x='252.7' y='304.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>χ</text>
+<circle cx='236.6' cy='223.0' r='4.0' fill='#e8ecff'/>
+<text x='239.3' y='242.8' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>υ</text>
+<circle cx='242.5' cy='144.6' r='5.0' fill='#e8ecff'/>
+<text x='224.2' y='139.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Marfik</text>
+<circle cx='242.9' cy='286.8' r='4.4' fill='#e8ecff'/>
+<text x='225.5' y='290.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>φ</text>
+<circle cx='254.3' cy='239.8' r='6.7' fill='#e8ecff'/>
+<text x='274.0' y='242.8' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ζ</text>
+<circle cx='293.0' cy='88.5' r='5.9' fill='#e8ecff'/>
+<text x='311.4' y='95.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>κ</text>
+<circle cx='317.0' cy='279.8' r='6.8' fill='#e8ecff'/>
+<text x='336.8' y='282.8' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Sabik</text>
+<circle cx='338.9' cy='354.6' r='5.7' fill='#e8ecff'/>
+<text x='357.7' y='357.6' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>θ</text>
+<circle cx='349.0' cy='396.0' r='4.4' fill='#e8ecff'/>
+<text x='366.4' y='399.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>45</text>
+<circle cx='363.3' cy='64.0' r='7.3' fill='#e8ecff'/>
+<text x='344.8' y='58.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Rasalhague</text>
+<circle cx='379.4' cy='125.1' r='6.4' fill='#e8ecff'/>
+<text x='403.2' y='114.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Cebalrai</text>
+<circle cx='387.8' cy='139.1' r='5.1' fill='#e8ecff'/>
+<text x='405.9' y='142.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>γ</text>
+<circle cx='408.8' cy='233.7' r='5.7' fill='#e8ecff'/>
+<text x='427.5' y='236.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>64</text>
+</svg>

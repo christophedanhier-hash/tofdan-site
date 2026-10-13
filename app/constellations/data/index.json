@@ -167,6 +167,134 @@
    "abreviation": "Sge",
    "fichier": "fleche.json",
    "figure_svg": "figures/fleche.svg"
+  },
+  {
+   "id": "gemini",
+   "nom_fr": "Gémeaux",
+   "nom_latin": "Gemini",
+   "abreviation": "Gem",
+   "fichier": "gemini.json",
+   "figure_svg": "figures/gemini.svg"
+  },
+  {
+   "id": "grand-chien",
+   "nom_fr": "Grand Chien",
+   "nom_latin": "Canis Major",
+   "abreviation": "CMa",
+   "fichier": "grand-chien.json",
+   "figure_svg": "figures/grand-chien.svg"
+  },
+  {
+   "id": "girafe",
+   "nom_fr": "Girafe",
+   "nom_latin": "Camelopardalis",
+   "abreviation": "Cam",
+   "fichier": "girafe.json",
+   "figure_svg": "figures/girafe.svg"
+  },
+  {
+   "id": "hercule",
+   "nom_fr": "Hercule",
+   "nom_latin": "Hercules",
+   "abreviation": "Her",
+   "fichier": "hercule.json",
+   "figure_svg": "figures/hercule.svg"
+  },
+  {
+   "id": "hydre",
+   "nom_fr": "Hydre",
+   "nom_latin": "Hydra",
+   "abreviation": "Hya",
+   "fichier": "hydre.json",
+   "figure_svg": "figures/hydre.svg"
+  },
+  {
+   "id": "lezard",
+   "nom_fr": "Lézard",
+   "nom_latin": "Lacerta",
+   "abreviation": "Lac",
+   "fichier": "lezard.json",
+   "figure_svg": "figures/lezard.svg"
+  },
+  {
+   "id": "licorne",
+   "nom_fr": "Licorne",
+   "nom_latin": "Monoceros",
+   "abreviation": "Mon",
+   "fichier": "licorne.json",
+   "figure_svg": "figures/licorne.svg"
+  },
+  {
+   "id": "lievre",
+   "nom_fr": "Lièvre",
+   "nom_latin": "Lepus",
+   "abreviation": "Lep",
+   "fichier": "lievre.json",
+   "figure_svg": "figures/lievre.svg"
+  },
+  {
+   "id": "lynx",
+   "nom_fr": "Lynx",
+   "nom_latin": "Lynx",
+   "abreviation": "Lyn",
+   "fichier": "lynx.json",
+   "figure_svg": "figures/lynx.svg"
+  },
+  {
+   "id": "lyre",
+   "nom_fr": "Lyre",
+   "nom_latin": "Lyra",
+   "abreviation": "Lyr",
+   "fichier": "lyre.json",
+   "figure_svg": "figures/lyre.svg"
+  },
+  {
+   "id": "ophiuchus",
+   "nom_fr": "Ophiuchus",
+   "nom_latin": "Ophiuchus",
+   "abreviation": "Oph",
+   "fichier": "ophiuchus.json",
+   "figure_svg": "figures/ophiuchus.svg"
+  },
+  {
+   "id": "petite-ourse",
+   "nom_fr": "Petite Ourse",
+   "nom_latin": "Ursa Minor",
+   "abreviation": "UMi",
+   "fichier": "petite-ourse.json",
+   "figure_svg": "figures/petite-ourse.svg"
+  },
+  {
+   "id": "pegase",
+   "nom_fr": "Pégase",
+   "nom_latin": "Pegasus",
+   "abreviation": "Peg",
+   "fichier": "pegase.json",
+   "figure_svg": "figures/pegase.svg"
+  },
+  {
+   "id": "persee",
+   "nom_fr": "Persée",
+   "nom_latin": "Perseus",
+   "abreviation": "Per",
+   "fichier": "persee.json",
+   "figure_svg": "figures/persee.svg"
+  },
+  {
+   "id": "petit-cheval",
+   "nom_fr": "Petit Cheval",
+   "nom_latin": "Equuleus",
+   "abreviation": "Equ",
+   "fichier": "petit-cheval.json",
+   "figure_svg": "figures/petit-cheval.svg"
+  },
+  {
+   "id": "petit-chien",
+   "nom_fr": "Petit Chien",
+   "nom_latin": "Canis Minor",
+   "abreviation": "CMi",
+   "fichier": "petit-chien.json",
+   "figure_svg": "figures/petit-chien.svg"
   }
  ]
 }

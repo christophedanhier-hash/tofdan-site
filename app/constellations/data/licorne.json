@@ -1,0 +1,341 @@
+{
+ "id": "licorne",
+ "slug": "licorne",
+ "nom_fr": "Licorne",
+ "nom_latin": "Monoceros",
+ "genitif": "Monocerotis",
+ "abreviation_iau": "Mon",
+ "source_atlas": "Atlas observation.pdf, pages 61–62 (fiche Atlas « Licorne »)",
+ "saison": "hiver",
+ "voie_lactee": true,
+ "repere_principal": "La Licorne, discrète mais riche en nébuleuses",
+ "constellations_voisines": [
+  "Grand Chien",
+  "Petit Chien",
+  "Orion",
+  "Lièvre",
+  "Hydre",
+  "Poupe",
+  "Girafe",
+  "Gémeaux"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "hip": 29651,
+   "nom": "γ Mon",
+   "etiq": "γ",
+   "bayer": "gam Mon",
+   "ra_deg": 93.714,
+   "dec_deg": -6.275,
+   "mag": 3.99,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 29651)"
+  },
+  {
+   "i": 1,
+   "hip": 30419,
+   "nom": "ε Mon",
+   "etiq": "ε",
+   "bayer": "eps Mon",
+   "ra_deg": 95.942,
+   "dec_deg": 4.593,
+   "mag": 4.39,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 30419)"
+  },
+  {
+   "i": 2,
+   "hip": 30867,
+   "nom": "β Mon",
+   "etiq": "β",
+   "bayer": "bet Mon",
+   "ra_deg": 97.204,
+   "dec_deg": -7.033,
+   "mag": 3.76,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 30867)"
+  },
+  {
+   "i": 3,
+   "hip": 31216,
+   "nom": "13 Mon",
+   "etiq": "13",
+   "bayer": "",
+   "ra_deg": 98.226,
+   "dec_deg": 7.333,
+   "mag": 4.47,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 31216)"
+  },
+  {
+   "i": 4,
+   "hip": 31978,
+   "nom": "15 Mon",
+   "etiq": "15",
+   "bayer": "S Mon",
+   "ra_deg": 100.244,
+   "dec_deg": 9.896,
+   "mag": 4.66,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 31978)"
+  },
+  {
+   "i": 5,
+   "hip": 32578,
+   "nom": "18 Mon",
+   "etiq": "18",
+   "bayer": "",
+   "ra_deg": 101.965,
+   "dec_deg": 2.412,
+   "mag": 4.48,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 32578)"
+  },
+  {
+   "i": 6,
+   "hip": 34769,
+   "nom": "δ Mon",
+   "etiq": "δ",
+   "bayer": "del Mon",
+   "ra_deg": 107.966,
+   "dec_deg": -0.493,
+   "mag": 4.15,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 34769)"
+  },
+  {
+   "i": 7,
+   "hip": 37447,
+   "nom": "α Mon",
+   "etiq": "α",
+   "bayer": "alf Mon",
+   "ra_deg": 115.312,
+   "dec_deg": -9.551,
+   "mag": 3.94,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 37447)"
+  },
+  {
+   "i": 8,
+   "hip": 39863,
+   "nom": "ζ Mon",
+   "etiq": "ζ",
+   "bayer": "zet Mon",
+   "ra_deg": 122.149,
+   "dec_deg": -2.984,
+   "mag": 4.36,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 39863)"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    4,
+    3,
+    1,
+    5,
+    3
+   ],
+   [
+    5,
+    6,
+    2,
+    0
+   ],
+   [
+    6,
+    8,
+    7
+   ]
+  ],
+  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 9 étoiles reliées par 9 segments.",
+  "note_geometrie": "Figure construite sur 9 étoiles et 9 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie δ Mon à ζ Mon (14.39°) ; le plus court relie 15 Mon à 13 Mon (3.25°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "15 Mon–13 Mon": 3.25,
+  "13 Mon–ε Mon": 3.56,
+  "ε Mon–18 Mon": 6.39,
+  "18 Mon–13 Mon": 6.17,
+  "18 Mon–δ Mon": 6.67,
+  "δ Mon–β Mon": 12.57,
+  "β Mon–γ Mon": 3.55,
+  "δ Mon–ζ Mon": 14.39,
+  "ζ Mon–α Mon": 9.45
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 2261",
+   "nature": "nébuleuse",
+   "mag": null,
+   "distance_al": null,
+   "note": "NGC 2261 — nébuleuse documenté(e) dans la fiche Atlas de Licorne.",
+   "instrument": "instrument non déterminé",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 2264",
+   "nature": "amas avec nébulosité",
+   "mag": 3.9,
+   "distance_al": null,
+   "note": "NGC 2264 — amas avec nébulosité documenté(e) dans la fiche Atlas de Licorne.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 2244",
+   "nature": "amas ouvert",
+   "mag": 4.8,
+   "distance_al": null,
+   "note": "NGC 2244 — amas ouvert documenté(e) dans la fiche Atlas de Licorne.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 2323",
+   "nature": "amas ouvert",
+   "mag": 5.9,
+   "distance_al": null,
+   "note": "NGC 2323 — amas ouvert documenté(e) dans la fiche Atlas de Licorne.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 2525",
+   "nature": "galaxie",
+   "mag": 11.6,
+   "distance_al": null,
+   "note": "NGC 2525 — galaxie documenté(e) dans la fiche Atlas de Licorne.",
+   "instrument": "télescope",
+   "src": "N1",
+   "code": "N1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "β Mon, magnitude 3.76, selon le catalogue Hipparcos (bande V)."
+  },
+  {
+   "q": "Quelles étoiles de la figure demandent un instrument ?",
+   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+  },
+  {
+   "q": "Combien d'objets du ciel profond sont documentés dans Licorne ?",
+   "r": "5 objet(s), d'après la fiche Atlas correspondante."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Comment observer NGC 2261 ?",
+   "r": "NGC 2261 est un(e) nébuleuse (magnitude non renseignée). Instrument conseillé : instrument non déterminé. NGC 2261 — nébuleuse documenté(e) dans la fiche Atlas de Licorne."
+  },
+  {
+   "q": "Quand observer Licorne ?",
+   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La Licorne, discrète mais riche en nébuleuses."
+  }
+ ],
+ "message_animation": "Licorne — 9 étoiles reliées, 5 objet(s) du ciel profond documenté(s). Saison : hiver.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 61–62 (fiche Atlas « Licorne »)",
+  "archive_texte": null,
+  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+  "lacunes": [
+   "NGC 2525 : Cité dans la fiche Atlas « Licorne » ; le catalogue NGC le situe dans la Poupe (Pup). Attribution à revoir."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

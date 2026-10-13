@@ -1,0 +1,31 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
+<rect width='620' height='460' fill='#0b1020'/>
+<line x1='279.3' y1='309.9' x2='295.1' y2='372.4' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='295.1' y1='372.4' x2='170.0' y2='396.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='170.0' y1='396.0' x2='168.5' y2='323.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='168.5' y1='323.0' x2='279.3' y2='309.9' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='279.3' y1='309.9' x2='378.9' y2='250.9' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='378.9' y1='250.9' x2='428.2' y2='153.9' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='428.2' y1='153.9' x2='451.5' y2='64.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='451.5' y1='64.0' x2='432.8' y2='55.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='168.5' y1='323.0' x2='148.6' y2='327.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='170.0' y1='396.0' x2='187.0' y2='404.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='279.3' y1='309.9' x2='296.7' y2='309.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='295.1' y1='372.4' x2='312.1' y2='372.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='378.9' y1='250.9' x2='396.4' y2='250.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='428.2' y1='153.9' x2='449.6' y2='155.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<circle cx='451.5' cy='64.0' r='7.4' fill='#e8ecff'/>
+<text x='432.8' y='58.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Polaris</text>
+<circle cx='168.5' cy='323.0' r='7.3' fill='#e8ecff'/>
+<text x='148.6' y='330.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Kochab</text>
+<circle cx='170.0' cy='396.0' r='6.1' fill='#e8ecff'/>
+<text x='187.0' y='407.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Pherkad</text>
+<circle cx='279.3' cy='309.9' r='4.4' fill='#e8ecff'/>
+<text x='296.7' y='312.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ζ</text>
+<circle cx='295.1' cy='372.4' r='4.0' fill='#e8ecff'/>
+<text x='312.1' y='375.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>η</text>
+<circle cx='378.9' cy='250.9' r='4.5' fill='#e8ecff'/>
+<text x='396.4' y='253.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ε</text>
+<circle cx='428.2' cy='153.9' r='4.3' fill='#e8ecff'/>
+<text x='449.6' y='158.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Yildun</text>
+</svg>

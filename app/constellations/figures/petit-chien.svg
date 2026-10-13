@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
+<rect width='620' height='460' fill='#0b1020'/>
+<line x1='473.6' y1='396.0' x2='146.4' y2='64.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='146.4' y1='64.0' x2='135.9' y2='80.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='473.6' y1='396.0' x2='494.6' y2='404.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<circle cx='146.4' cy='64.0' r='6.2' fill='#e8ecff'/>
+<text x='135.9' y='83.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Gomeisa</text>
+<circle cx='473.6' cy='396.0' r='9.5' fill='#e8ecff'/>
+<text x='494.6' y='407.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Procyon</text>
+</svg>

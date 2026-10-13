@@ -1,0 +1,268 @@
+{
+ "id": "lyre",
+ "slug": "lyre",
+ "nom_fr": "Lyre",
+ "nom_latin": "Lyra",
+ "genitif": "Lyrae",
+ "abreviation_iau": "Lyr",
+ "source_atlas": "Atlas observation.pdf, pages 68–69 (fiche Atlas « Lyre »)",
+ "saison": "été",
+ "voie_lactee": false,
+ "repere_principal": "Vega, la cinquième étoile du ciel, et M 57",
+ "constellations_voisines": [
+  "Dragon",
+  "Hercule",
+  "Petit Renard",
+  "Cygne"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "hip": 91262,
+   "nom": "Vega",
+   "etiq": "Vega",
+   "bayer": "alf Lyr",
+   "ra_deg": 279.234,
+   "dec_deg": 38.783,
+   "mag": 0.03,
+   "role": "",
+   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "src": "Hipparcos (HIP 91262)/ IAU"
+  },
+  {
+   "i": 1,
+   "hip": 91926,
+   "nom": "5 Lyr",
+   "etiq": "5",
+   "bayer": "eps02 Lyr",
+   "ra_deg": 281.095,
+   "dec_deg": 39.613,
+   "mag": 4.59,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 91926)"
+  },
+  {
+   "i": 2,
+   "hip": 91971,
+   "nom": "6 Lyr",
+   "etiq": "6",
+   "bayer": "zet01 Lyr",
+   "ra_deg": 281.193,
+   "dec_deg": 37.605,
+   "mag": 4.34,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 91971)"
+  },
+  {
+   "i": 3,
+   "hip": 92420,
+   "nom": "β Lyr",
+   "etiq": "β",
+   "bayer": "bet Lyr",
+   "ra_deg": 282.52,
+   "dec_deg": 33.363,
+   "mag": 3.52,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 92420)"
+  },
+  {
+   "i": 4,
+   "hip": 92791,
+   "nom": "12 Lyr",
+   "etiq": "12",
+   "bayer": "del02 Lyr",
+   "ra_deg": 283.626,
+   "dec_deg": 36.899,
+   "mag": 4.22,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 92791)"
+  },
+  {
+   "i": 5,
+   "hip": 93194,
+   "nom": "Sulafat",
+   "etiq": "Sulafat",
+   "bayer": "gam Lyr",
+   "ra_deg": 284.736,
+   "dec_deg": 32.69,
+   "mag": 3.25,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 93194)/ IAU"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    2,
+    0,
+    1,
+    2,
+    3,
+    5,
+    4,
+    2
+   ]
+  ],
+  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 6 étoiles reliées par 7 segments.",
+  "note_geometrie": "Figure construite sur 6 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie 6 Lyr à β Lyr (4.38°) ; le plus court relie Vega à 5 Lyr (1.66°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "6 Lyr–Vega": 1.94,
+  "Vega–5 Lyr": 1.66,
+  "5 Lyr–6 Lyr": 2.01,
+  "6 Lyr–β Lyr": 4.38,
+  "β Lyr–Sulafat": 1.98,
+  "Sulafat–12 Lyr": 4.31,
+  "12 Lyr–6 Lyr": 2.06
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 6720",
+   "nature": "nébuleuse planétaire",
+   "mag": 9,
+   "distance_al": null,
+   "note": "NGC 6720 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Lyre.",
+   "instrument": "télescope",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6779",
+   "nature": "amas globulaire",
+   "mag": 8.3,
+   "distance_al": null,
+   "note": "NGC 6779 — amas globulaire documenté(e) dans la fiche Atlas de Lyre.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6791",
+   "nature": "amas ouvert",
+   "mag": 9.5,
+   "distance_al": null,
+   "note": "NGC 6791 — amas ouvert documenté(e) dans la fiche Atlas de Lyre.",
+   "instrument": "télescope",
+   "src": "N1",
+   "code": "N1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Vega, magnitude 0.03, selon le catalogue Hipparcos (bande V)."
+  },
+  {
+   "q": "Quelles étoiles de la figure demandent un instrument ?",
+   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+  },
+  {
+   "q": "Combien d'objets du ciel profond sont documentés dans Lyre ?",
+   "r": "3 objet(s), d'après la fiche Atlas correspondante."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Comment observer NGC 6720 ?",
+   "r": "NGC 6720 est un(e) nébuleuse planétaire de magnitude 9. Instrument conseillé : télescope. NGC 6720 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Lyre."
+  },
+  {
+   "q": "Quand observer Lyre ?",
+   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Vega, la cinquième étoile du ciel, et M 57."
+  }
+ ],
+ "message_animation": "Lyre — 6 étoiles reliées, 3 objet(s) du ciel profond documenté(s). Saison : été.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 68–69 (fiche Atlas « Lyre »)",
+  "archive_texte": null,
+  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+  "lacunes": [
+   "Aucune lacune identifiée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

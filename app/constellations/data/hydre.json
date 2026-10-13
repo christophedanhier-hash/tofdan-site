@@ -1,0 +1,521 @@
+{
+ "id": "hydre",
+ "slug": "hydre",
+ "nom_fr": "Hydre",
+ "nom_latin": "Hydra",
+ "genitif": "Hydrae",
+ "abreviation_iau": "Hya",
+ "source_atlas": "Atlas observation.pdf, pages 56–57–58 (fiche Atlas « Hydre »)",
+ "saison": "printemps",
+ "voie_lactee": false,
+ "repere_principal": "Alphard, le cœur solitaire du long serpent d'eau",
+ "constellations_voisines": [
+  "Vierge",
+  "Corbeau",
+  "Coupe",
+  "Sextant",
+  "Lion",
+  "Cancer",
+  "Petit Chien",
+  "Poupe",
+  "Machine pneumatique",
+  "Centaure",
+  "Balance",
+  "Loup",
+  "Scorpion"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "hip": 42313,
+   "nom": "δ Hya",
+   "etiq": "δ",
+   "bayer": "del Hya",
+   "ra_deg": 129.414,
+   "dec_deg": 5.704,
+   "mag": 4.14,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 42313)"
+  },
+  {
+   "i": 1,
+   "hip": 42402,
+   "nom": "Minchir",
+   "etiq": "Minchir",
+   "bayer": "sig Hya",
+   "ra_deg": 129.689,
+   "dec_deg": 3.341,
+   "mag": 4.45,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 42402)/ IAU"
+  },
+  {
+   "i": 2,
+   "hip": 42799,
+   "nom": "η Hya",
+   "etiq": "η",
+   "bayer": "eta Hya",
+   "ra_deg": 130.806,
+   "dec_deg": 3.399,
+   "mag": 4.3,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 42799)"
+  },
+  {
+   "i": 3,
+   "hip": 43109,
+   "nom": "Ashlesha",
+   "etiq": "Ashlesha",
+   "bayer": "eps Hya",
+   "ra_deg": 131.694,
+   "dec_deg": 6.419,
+   "mag": 3.38,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 43109)/ IAU"
+  },
+  {
+   "i": 4,
+   "hip": 43234,
+   "nom": "ρ Hya",
+   "etiq": "ρ",
+   "bayer": "rho Hya",
+   "ra_deg": 132.108,
+   "dec_deg": 5.838,
+   "mag": 4.35,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 43234)"
+  },
+  {
+   "i": 5,
+   "hip": 43813,
+   "nom": "ζ Hya",
+   "etiq": "ζ",
+   "bayer": "zet Hya",
+   "ra_deg": 133.849,
+   "dec_deg": 5.946,
+   "mag": 3.11,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 43813)"
+  },
+  {
+   "i": 6,
+   "hip": 45336,
+   "nom": "θ Hya",
+   "etiq": "θ",
+   "bayer": "the Hya",
+   "ra_deg": 138.591,
+   "dec_deg": 2.315,
+   "mag": 3.89,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 45336)"
+  },
+  {
+   "i": 7,
+   "hip": 46390,
+   "nom": "Alphard",
+   "etiq": "Alphard",
+   "bayer": "alf Hya",
+   "ra_deg": 141.897,
+   "dec_deg": -8.659,
+   "mag": 1.99,
+   "role": "",
+   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "src": "Hipparcos (HIP 46390)/ IAU"
+  },
+  {
+   "i": 8,
+   "hip": 47431,
+   "nom": "Ukdah",
+   "etiq": "Ukdah",
+   "bayer": "iot Hya",
+   "ra_deg": 144.964,
+   "dec_deg": -1.143,
+   "mag": 3.9,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 47431)/ IAU"
+  },
+  {
+   "i": 9,
+   "hip": 48356,
+   "nom": "39 Hya",
+   "etiq": "39",
+   "bayer": "ups01 Hya",
+   "ra_deg": 147.87,
+   "dec_deg": -14.847,
+   "mag": 4.11,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 48356)"
+  },
+  {
+   "i": 10,
+   "hip": 49402,
+   "nom": "40 Hya",
+   "etiq": "40",
+   "bayer": "ups02 Hya",
+   "ra_deg": 151.281,
+   "dec_deg": -13.065,
+   "mag": 4.6,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 49402)"
+  },
+  {
+   "i": 11,
+   "hip": 49841,
+   "nom": "λ Hya",
+   "etiq": "λ",
+   "bayer": "lam Hya",
+   "ra_deg": 152.647,
+   "dec_deg": -12.354,
+   "mag": 3.61,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 49841)"
+  },
+  {
+   "i": 12,
+   "hip": 51069,
+   "nom": "42 Hya",
+   "etiq": "42",
+   "bayer": "mu. Hya",
+   "ra_deg": 156.523,
+   "dec_deg": -16.836,
+   "mag": 3.83,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 51069)"
+  },
+  {
+   "i": 13,
+   "hip": 52943,
+   "nom": "HIP 52943",
+   "etiq": "HIP 52943",
+   "bayer": "nu. Hya",
+   "ra_deg": 162.406,
+   "dec_deg": -16.194,
+   "mag": 3.11,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 52943)"
+  },
+  {
+   "i": 14,
+   "hip": 53740,
+   "nom": "Alkes",
+   "etiq": "Alkes",
+   "bayer": "alf Crt",
+   "ra_deg": 164.945,
+   "dec_deg": -18.299,
+   "mag": 4.08,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 53740)/ IAU [constellation réelle : Crt]"
+  },
+  {
+   "i": 15,
+   "hip": 54682,
+   "nom": "β Crt",
+   "etiq": "β Crt",
+   "bayer": "bet Crt",
+   "ra_deg": 167.915,
+   "dec_deg": -22.826,
+   "mag": 4.46,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 54682) [constellation réelle : Crt]"
+  },
+  {
+   "i": 16,
+   "hip": 56343,
+   "nom": "ξ Hya",
+   "etiq": "ξ",
+   "bayer": "ksi Hya",
+   "ra_deg": 173.251,
+   "dec_deg": -31.858,
+   "mag": 3.54,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 56343)"
+  },
+  {
+   "i": 17,
+   "hip": 57936,
+   "nom": "β Hya",
+   "etiq": "β Hya",
+   "bayer": "bet Hya",
+   "ra_deg": 178.227,
+   "dec_deg": -33.908,
+   "mag": 4.29,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 57936)"
+  },
+  {
+   "i": 18,
+   "hip": 64962,
+   "nom": "γ Hya",
+   "etiq": "γ",
+   "bayer": "gam Hya",
+   "ra_deg": 199.73,
+   "dec_deg": -23.171,
+   "mag": 2.99,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 64962)"
+  },
+  {
+   "i": 19,
+   "hip": 68895,
+   "nom": "π Hya",
+   "etiq": "π",
+   "bayer": "pi. Hya",
+   "ra_deg": 211.593,
+   "dec_deg": -26.682,
+   "mag": 3.25,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 68895)"
+  },
+  {
+   "i": 20,
+   "hip": 72571,
+   "nom": "58 Hya",
+   "etiq": "58",
+   "bayer": "E Hya",
+   "ra_deg": 222.573,
+   "dec_deg": -27.96,
+   "mag": 4.42,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 72571)"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    3,
+    4,
+    2,
+    1,
+    0,
+    3,
+    5,
+    6,
+    8,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  ],
+  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 21 étoiles reliées par 20 segments.",
+  "note_geometrie": "Figure construite sur 21 étoiles et 20 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie β Hya à γ Hya (21.66°) ; le plus court relie Ashlesha à ρ Hya (0.71°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "Ashlesha–ρ Hya": 0.71,
+  "ρ Hya–η Hya": 2.76,
+  "η Hya–Minchir": 1.12,
+  "Minchir–δ Hya": 2.38,
+  "δ Hya–Ashlesha": 2.38,
+  "Ashlesha–ζ Hya": 2.19,
+  "ζ Hya–θ Hya": 5.96,
+  "θ Hya–Ukdah": 7.25,
+  "Ukdah–Alphard": 8.11,
+  "Alphard–39 Hya": 8.51,
+  "39 Hya–40 Hya": 3.76,
+  "40 Hya–λ Hya": 1.51,
+  "λ Hya–42 Hya": 5.84,
+  "42 Hya–HIP 52943": 5.68,
+  "HIP 52943–Alkes": 3.21,
+  "β Crt–ξ Hya": 10.2,
+  "ξ Hya–β Hya": 4.65,
+  "β Hya–γ Hya": 21.66,
+  "γ Hya–π Hya": 11.31,
+  "π Hya–58 Hya": 9.84
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 2548",
+   "nature": "amas ouvert",
+   "mag": 5.8,
+   "distance_al": null,
+   "note": "NGC 2548 — amas ouvert documenté(e) dans la fiche Atlas de Hydre.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 3242",
+   "nature": "nébuleuse planétaire",
+   "mag": 9,
+   "distance_al": null,
+   "note": "NGC 3242 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Hydre.",
+   "instrument": "télescope",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 4590",
+   "nature": "amas globulaire",
+   "mag": 8.2,
+   "distance_al": null,
+   "note": "NGC 4590 — amas globulaire documenté(e) dans la fiche Atlas de Hydre.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 5236",
+   "nature": "galaxie",
+   "mag": 7.6,
+   "distance_al": null,
+   "note": "NGC 5236 — galaxie documenté(e) dans la fiche Atlas de Hydre.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 3717",
+   "nature": "galaxie",
+   "mag": 12,
+   "distance_al": null,
+   "note": "NGC 3717 — galaxie documenté(e) dans la fiche Atlas de Hydre.",
+   "instrument": "télescope",
+   "src": "N1",
+   "code": "N1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Alphard, magnitude 1.99, selon le catalogue Hipparcos (bande V)."
+  },
+  {
+   "q": "Quelles étoiles de la figure demandent un instrument ?",
+   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+  },
+  {
+   "q": "Combien d'objets du ciel profond sont documentés dans Hydre ?",
+   "r": "5 objet(s), d'après la fiche Atlas correspondante."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Comment observer NGC 2548 ?",
+   "r": "NGC 2548 est un(e) amas ouvert de magnitude 5.8. Instrument conseillé : œil nu. NGC 2548 — amas ouvert documenté(e) dans la fiche Atlas de Hydre."
+  },
+  {
+   "q": "Quand observer Hydre ?",
+   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en printemps. Repère principal : Alphard, le cœur solitaire du long serpent d'eau."
+  }
+ ],
+ "message_animation": "Hydre — 21 étoiles reliées, 5 objet(s) du ciel profond documenté(s). Saison : printemps.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 56–57–58 (fiche Atlas « Hydre »)",
+  "archive_texte": null,
+  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+  "lacunes": [
+   "Aucune lacune identifiée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

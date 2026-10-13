@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
+<rect width='620' height='460' fill='#0b1020'/>
+<line x1='127.0' y1='68.0' x2='124.6' y2='177.4' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='124.6' y1='177.4' x2='64.0' y2='389.3' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='64.0' y1='389.3' x2='248.7' y2='333.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='248.7' y1='333.1' x2='285.1' y2='232.2' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='178.4' y1='75.9' x2='124.6' y2='177.4' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='124.6' y1='177.4' x2='285.1' y2='232.2' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='285.1' y1='232.2' x2='400.4' y2='130.8' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='400.4' y1='130.8' x2='477.0' y2='108.9' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='477.0' y1='108.9' x2='556.0' y2='134.6' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='556.0' y1='134.6' x2='435.7' y2='337.2' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='435.7' y1='337.2' x2='380.2' y2='392.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='380.2' y1='392.0' x2='248.7' y2='333.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='64.0' y1='389.3' x2='82.4' y2='393.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='124.6' y1='177.4' x2='137.1' y2='191.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='127.0' y1='68.0' x2='144.3' y2='68.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='178.4' y1='75.9' x2='195.8' y2='75.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='248.7' y1='333.1' x2='256.6' y2='350.8' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='285.1' y1='232.2' x2='304.0' y2='237.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='380.2' y1='392.0' x2='398.5' y2='392.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='400.4' y1='130.8' x2='418.3' y2='134.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='435.7' y1='337.2' x2='453.9' y2='337.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='477.0' y1='108.9' x2='489.1' y2='122.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='556.0' y1='134.6' x2='573.0' y2='134.6' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<circle cx='64.0' cy='389.3' r='5.9' fill='#e8ecff'/>
+<text x='82.4' y='396.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ε</text>
+<circle cx='124.6' cy='177.4' r='5.7' fill='#e8ecff'/>
+<text x='137.1' y='194.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>5</text>
+<circle cx='127.0' cy='68.0' r='4.3' fill='#e8ecff'/>
+<text x='144.3' y='71.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>κ</text>
+<circle cx='178.4' cy='75.9' r='4.4' fill='#e8ecff'/>
+<text x='195.8' y='78.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>λ</text>
+<circle cx='248.7' cy='333.1' r='6.3' fill='#e8ecff'/>
+<text x='256.6' y='353.8' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Nihal</text>
+<circle cx='285.1' cy='232.2' r='6.6' fill='#e8ecff'/>
+<text x='304.0' y='240.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Arneb</text>
+<circle cx='380.2' cy='392.0' r='5.3' fill='#e8ecff'/>
+<text x='398.5' y='395.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>γ</text>
+<circle cx='400.4' cy='130.8' r='5.4' fill='#e8ecff'/>
+<text x='418.3' y='137.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ζ</text>
+<circle cx='435.7' cy='337.2' r='5.1' fill='#e8ecff'/>
+<text x='453.9' y='340.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>δ</text>
+<circle cx='477.0' cy='108.9' r='5.2' fill='#e8ecff'/>
+<text x='489.1' y='125.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>η</text>
+<circle cx='556.0' cy='134.6' r='4.0' fill='#e8ecff'/>
+<text x='573.0' y='137.6' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>θ</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
+<rect width='620' height='460' fill='#0b1020'/>
+<line x1='264.8' y1='396.0' x2='256.5' y2='355.5' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='256.5' y1='355.5' x2='323.2' y2='282.3' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='323.2' y1='282.3' x2='363.5' y2='256.7' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='363.5' y1='256.7' x2='319.4' y2='177.2' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='319.4' y1='177.2' x2='326.5' y2='114.1' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='326.5' y1='114.1' x2='295.4' y2='64.0' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='295.4' y1='64.0' x2='299.2' y2='134.2' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='299.2' y1='134.2' x2='319.4' y2='177.2' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='319.4' y1='177.2' x2='285.2' y2='204.9' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='285.2' y1='204.9' x2='323.2' y2='282.3' stroke='#4a7fb5' stroke-width='1.6'/>
+<line x1='256.5' y1='355.5' x2='235.4' y2='338.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='264.8' y1='396.0' x2='282.5' y2='396.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='285.2' y1='204.9' x2='302.3' y2='204.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='295.4' y1='64.0' x2='312.6' y2='64.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='299.2' y1='134.2' x2='316.3' y2='134.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='319.4' y1='177.2' x2='336.8' y2='177.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='323.2' y1='282.3' x2='340.3' y2='283.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='326.5' y1='114.1' x2='344.6' y2='114.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<line x1='363.5' y1='256.7' x2='380.7' y2='256.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
+<circle cx='256.5' cy='355.5' r='4.1' fill='#e8ecff'/>
+<text x='235.4' y='341.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>HIP 109754</text>
+<circle cx='264.8' cy='396.0' r='4.6' fill='#e8ecff'/>
+<text x='282.5' y='399.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>1</text>
+<circle cx='285.2' cy='204.9' r='4.1' fill='#e8ecff'/>
+<text x='302.3' y='207.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>2</text>
+<circle cx='295.4' cy='64.0' r='4.3' fill='#e8ecff'/>
+<text x='312.6' y='67.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>β</text>
+<circle cx='299.2' cy='134.2' r='4.1' fill='#e8ecff'/>
+<text x='316.3' y='137.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>4</text>
+<circle cx='319.4' cy='177.2' r='4.4' fill='#e8ecff'/>
+<text x='336.8' y='180.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>5</text>
+<circle cx='323.2' cy='282.3' r='4.1' fill='#e8ecff'/>
+<text x='340.3' y='286.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>6</text>
+<circle cx='326.5' cy='114.1' r='5.1' fill='#e8ecff'/>
+<text x='344.6' y='117.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>α</text>
+<circle cx='363.5' cy='256.7' r='4.1' fill='#e8ecff'/>
+<text x='380.7' y='259.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>11</text>
+</svg>

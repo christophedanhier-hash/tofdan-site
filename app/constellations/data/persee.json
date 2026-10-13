@@ -1,0 +1,561 @@
+{
+ "id": "persee",
+ "slug": "persee",
+ "nom_fr": "Persée",
+ "nom_latin": "Perseus",
+ "genitif": "Persei",
+ "abreviation_iau": "Per",
+ "source_atlas": "Atlas observation.pdf, pages 82–83–84 (fiche Atlas « Persée »)",
+ "saison": "automne",
+ "voie_lactee": true,
+ "repere_principal": "Algol, l'étoile démon, et les amas doubles h et χ",
+ "constellations_voisines": [
+  "Cassiopée",
+  "Andromède",
+  "Triangle",
+  "Bélier",
+  "Taureau",
+  "Cocher",
+  "Girafe"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "hip": 12777,
+   "nom": "θ Per",
+   "etiq": "θ",
+   "bayer": "the Per",
+   "ra_deg": 41.049,
+   "dec_deg": 49.229,
+   "mag": 4.1,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 12777)"
+  },
+  {
+   "i": 1,
+   "hip": 13268,
+   "nom": "Miram",
+   "etiq": "Miram",
+   "bayer": "eta Per",
+   "ra_deg": 42.674,
+   "dec_deg": 55.896,
+   "mag": 3.77,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 13268)/ IAU"
+  },
+  {
+   "i": 2,
+   "hip": 13531,
+   "nom": "τ Per",
+   "etiq": "τ",
+   "bayer": "tau Per",
+   "ra_deg": 43.564,
+   "dec_deg": 52.762,
+   "mag": 3.93,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 13531)"
+  },
+  {
+   "i": 3,
+   "hip": 14328,
+   "nom": "γ Per",
+   "etiq": "γ",
+   "bayer": "gam Per",
+   "ra_deg": 46.199,
+   "dec_deg": 53.506,
+   "mag": 2.91,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 14328)"
+  },
+  {
+   "i": 4,
+   "hip": 14354,
+   "nom": "ρ Per",
+   "etiq": "ρ",
+   "bayer": "rho Per",
+   "ra_deg": 46.294,
+   "dec_deg": 38.841,
+   "mag": 3.32,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 14354)"
+  },
+  {
+   "i": 5,
+   "hip": 14576,
+   "nom": "β Per",
+   "etiq": "β",
+   "bayer": "bet Per",
+   "ra_deg": 47.042,
+   "dec_deg": 40.956,
+   "mag": 2.09,
+   "role": "",
+   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "src": "Hipparcos (HIP 14576)"
+  },
+  {
+   "i": 6,
+   "hip": 14632,
+   "nom": "ι Per",
+   "etiq": "ι",
+   "bayer": "iot Per",
+   "ra_deg": 47.262,
+   "dec_deg": 49.614,
+   "mag": 4.05,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 14632)"
+  },
+  {
+   "i": 7,
+   "hip": 14668,
+   "nom": "Misam",
+   "etiq": "Misam",
+   "bayer": "kap Per",
+   "ra_deg": 47.373,
+   "dec_deg": 44.858,
+   "mag": 3.79,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 14668)/ IAU"
+  },
+  {
+   "i": 8,
+   "hip": 15863,
+   "nom": "Mirfak",
+   "etiq": "Mirfak",
+   "bayer": "alf Per",
+   "ra_deg": 51.081,
+   "dec_deg": 49.861,
+   "mag": 1.79,
+   "role": "",
+   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "src": "Hipparcos (HIP 15863)/ IAU"
+  },
+  {
+   "i": 9,
+   "hip": 17358,
+   "nom": "δ Per",
+   "etiq": "δ",
+   "bayer": "del Per",
+   "ra_deg": 55.731,
+   "dec_deg": 47.788,
+   "mag": 3.01,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 17358)"
+  },
+  {
+   "i": 10,
+   "hip": 17448,
+   "nom": "Atik",
+   "etiq": "Atik",
+   "bayer": "omi Per",
+   "ra_deg": 56.08,
+   "dec_deg": 32.288,
+   "mag": 3.84,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 17448)/ IAU"
+  },
+  {
+   "i": 11,
+   "hip": 18246,
+   "nom": "ζ Per",
+   "etiq": "ζ",
+   "bayer": "zet Per",
+   "ra_deg": 58.533,
+   "dec_deg": 31.884,
+   "mag": 2.84,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 18246)"
+  },
+  {
+   "i": 12,
+   "hip": 18532,
+   "nom": "ε Per",
+   "etiq": "ε",
+   "bayer": "eps Per",
+   "ra_deg": 59.463,
+   "dec_deg": 40.01,
+   "mag": 2.9,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 18532)"
+  },
+  {
+   "i": 13,
+   "hip": 18614,
+   "nom": "Menkib",
+   "etiq": "Menkib",
+   "bayer": "ksi Per",
+   "ra_deg": 59.741,
+   "dec_deg": 35.791,
+   "mag": 3.98,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 18614)/ IAU"
+  },
+  {
+   "i": 14,
+   "hip": 19167,
+   "nom": "λ Per",
+   "etiq": "λ",
+   "bayer": "lam Per",
+   "ra_deg": 61.646,
+   "dec_deg": 50.351,
+   "mag": 4.25,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 19167)"
+  },
+  {
+   "i": 15,
+   "hip": 19343,
+   "nom": "48 Per",
+   "etiq": "48",
+   "bayer": "c Per",
+   "ra_deg": 62.165,
+   "dec_deg": 47.713,
+   "mag": 3.96,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 19343)"
+  },
+  {
+   "i": 16,
+   "hip": 19812,
+   "nom": "51 Per",
+   "etiq": "51",
+   "bayer": "mu. Per",
+   "ra_deg": 63.724,
+   "dec_deg": 48.409,
+   "mag": 4.12,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 19812)"
+  },
+  {
+   "i": 17,
+   "hip": 20070,
+   "nom": "HIP 20070",
+   "etiq": "HIP 20070",
+   "bayer": "b Per",
+   "ra_deg": 64.561,
+   "dec_deg": 50.296,
+   "mag": 4.6,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 20070)"
+  },
+  {
+   "i": 18,
+   "hip": 8068,
+   "nom": "φ Per",
+   "etiq": "φ",
+   "bayer": "phi Per",
+   "ra_deg": 25.915,
+   "dec_deg": 50.689,
+   "mag": 4.01,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 8068)"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    10,
+    11,
+    13,
+    12,
+    5,
+    4
+   ],
+   [
+    5,
+    7,
+    6,
+    0,
+    18
+   ],
+   [
+    12,
+    9
+   ],
+   [
+    14,
+    17,
+    16,
+    15,
+    9,
+    8,
+    6,
+    2,
+    1,
+    3,
+    2
+   ],
+   [
+    3,
+    8
+   ]
+  ],
+  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 19 étoiles reliées par 21 segments.",
+  "note_geometrie": "Figure construite sur 19 étoiles et 21 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie θ Per à φ Per (9.83°) ; le plus court relie 51 Per à 48 Per (1.25°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "Atik–ζ Per": 2.12,
+  "ζ Per–Menkib": 4.03,
+  "Menkib–ε Per": 4.22,
+  "ε Per–β Per": 9.49,
+  "β Per–ρ Per": 2.19,
+  "β Per–Misam": 3.91,
+  "Misam–ι Per": 4.76,
+  "ι Per–θ Per": 4.06,
+  "θ Per–φ Per": 9.83,
+  "ε Per–δ Per": 8.23,
+  "λ Per–HIP 20070": 1.86,
+  "HIP 20070–51 Per": 1.96,
+  "51 Per–48 Per": 1.25,
+  "48 Per–δ Per": 4.33,
+  "δ Per–Mirfak": 3.7,
+  "Mirfak–ι Per": 2.48,
+  "ι Per–τ Per": 3.91,
+  "τ Per–Miram": 3.18,
+  "Miram–γ Per": 3.14,
+  "γ Per–τ Per": 1.75,
+  "γ Per–Mirfak": 4.74
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 869",
+   "nature": "amas ouvert",
+   "mag": 4,
+   "distance_al": null,
+   "note": "NGC 869 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 884",
+   "nature": "amas ouvert",
+   "mag": 4,
+   "distance_al": null,
+   "note": "NGC 884 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1039",
+   "nature": "amas ouvert",
+   "mag": 5.2,
+   "distance_al": null,
+   "note": "NGC 1039 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "œil nu",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1490",
+   "nature": "galaxie",
+   "mag": null,
+   "distance_al": null,
+   "note": "NGC 1490 — galaxie documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "instrument non déterminé",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1528",
+   "nature": "amas ouvert",
+   "mag": 6.4,
+   "distance_al": null,
+   "note": "NGC 1528 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1545",
+   "nature": "amas ouvert",
+   "mag": 6.2,
+   "distance_al": null,
+   "note": "NGC 1545 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1513",
+   "nature": "amas ouvert",
+   "mag": 8.4,
+   "distance_al": null,
+   "note": "NGC 1513 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "IC 348",
+   "nature": "amas avec nébulosité",
+   "mag": 7.3,
+   "distance_al": null,
+   "note": "IC 348 — amas avec nébulosité documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1499",
+   "nature": "nébuleuse",
+   "mag": null,
+   "distance_al": null,
+   "note": "NGC 1499 — nébuleuse documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "instrument non déterminé",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 6853",
+   "nature": "nébuleuse planétaire",
+   "mag": 8.1,
+   "distance_al": null,
+   "note": "NGC 6853 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "jumelles",
+   "src": "N1",
+   "code": "N1"
+  },
+  {
+   "id": "NGC 1579",
+   "nature": "nébuleuse",
+   "mag": null,
+   "distance_al": null,
+   "note": "NGC 1579 — nébuleuse documenté(e) dans la fiche Atlas de Persée.",
+   "instrument": "instrument non déterminé",
+   "src": "N1",
+   "code": "N1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Mirfak, magnitude 1.79, selon le catalogue Hipparcos (bande V)."
+  },
+  {
+   "q": "Quelles étoiles de la figure demandent un instrument ?",
+   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+  },
+  {
+   "q": "Combien d'objets du ciel profond sont documentés dans Persée ?",
+   "r": "11 objet(s), d'après la fiche Atlas correspondante."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Comment observer NGC 869 ?",
+   "r": "NGC 869 est un(e) amas ouvert de magnitude 4. Instrument conseillé : œil nu. NGC 869 — amas ouvert documenté(e) dans la fiche Atlas de Persée."
+  },
+  {
+   "q": "Quand observer Persée ?",
+   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : Algol, l'étoile démon, et les amas doubles h et χ."
+  }
+ ],
+ "message_animation": "Persée — 19 étoiles reliées, 11 objet(s) du ciel profond documenté(s). Saison : automne.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 82–83–84 (fiche Atlas « Persée »)",
+  "archive_texte": null,
+  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+  "lacunes": [
+   "NGC 1490 : Désignation douteuse dans la fiche Atlas (« nébuleuse gazeuse nichée dans M 34 ») ; le catalogue NGC le situe dans le Réticule (Ret) comme galaxie. Ambiguïté non tranchée.",
+   "NGC 6853 : Cité dans la fiche Atlas « Persée » ; le catalogue NGC le situe dans le Petit Renard (Vul). Retenu par prudence, attribution à revoir."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

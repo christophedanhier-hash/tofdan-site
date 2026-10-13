@@ -1,0 +1,168 @@
+{
+ "id": "petit-cheval",
+ "slug": "petit-cheval",
+ "nom_fr": "Petit Cheval",
+ "nom_latin": "Equuleus",
+ "genitif": "Equulei",
+ "abreviation_iau": "Equ",
+ "source_atlas": "Atlas observation.pdf, pages 85 (fiche Atlas « Petit Cheval »)",
+ "saison": "automne",
+ "voie_lactee": false,
+ "repere_principal": "La tête du petit cheval, minuscule mais ancienne",
+ "constellations_voisines": [
+  "Pégase",
+  "Dauphin",
+  "Verseau"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "hip": 104858,
+   "nom": "δ Equ",
+   "etiq": "δ",
+   "bayer": "del Equ",
+   "ra_deg": 318.62,
+   "dec_deg": 10.008,
+   "mag": 4.47,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 104858)"
+  },
+  {
+   "i": 1,
+   "hip": 104987,
+   "nom": "Kitalpha",
+   "etiq": "Kitalpha",
+   "bayer": "alf Equ",
+   "ra_deg": 318.956,
+   "dec_deg": 5.248,
+   "mag": 3.92,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 104987)/ IAU"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    1,
+    0
+   ]
+  ],
+  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 2 étoiles reliées par 1 segments.",
+  "note_geometrie": "Figure construite sur 2 étoiles et 1 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Kitalpha à δ Equ (4.77°) ; le plus court relie Kitalpha à δ Equ (4.77°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "Kitalpha–δ Equ": 4.77
+ },
+ "objets_ciel_profond": [],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Kitalpha, magnitude 3.92, selon le catalogue Hipparcos (bande V)."
+  },
+  {
+   "q": "Quelles étoiles de la figure demandent un instrument ?",
+   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+  },
+  {
+   "q": "Combien d'objets du ciel profond sont documentés dans Petit Cheval ?",
+   "r": "0 objet(s), d'après la fiche Atlas correspondante."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Quand observer Petit Cheval ?",
+   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : La tête du petit cheval, minuscule mais ancienne."
+  }
+ ],
+ "message_animation": "Petit Cheval — 2 étoiles reliées, 0 objet(s) du ciel profond documenté(s). Saison : automne.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 85 (fiche Atlas « Petit Cheval »)",
+  "archive_texte": null,
+  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+  "lacunes": [
+   "Aucune lacune identifiée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}
