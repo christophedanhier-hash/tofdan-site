@@ -71,6 +71,7 @@
    ]
   ],
   "commentaire": "Tracé retenu : la ligne Diadem–Beta Com–Gamma Com, qui dessine une barre allongée de trois étoiles.",
+  "note_geometrie": "La figure officielle de cette constellation est une simple barre de trois étoiles, sans aucune branche : Diadem–Beta Com 10,36° puis Beta Com–Gamma Com 9,92°. Les deux segments sont de longueur presque identique (écart de 0,4°), ce qui donne à l'ensemble l'aspect d'un trait régulier. C'est volontairement minimal : la richesse de la Chevelure de Bérénice n'est pas dans ses étoiles (aucune ne dépasse la magnitude 4,25) mais dans ses objets du ciel profond.",
   "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
  },
  "distances_angulaires_deg": {

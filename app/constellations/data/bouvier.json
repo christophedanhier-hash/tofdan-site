@@ -133,6 +133,7 @@
    ]
   ],
   "commentaire": "Tracé retenu : l'axe Muphrid–Arcturus–Izar–Delta Boo–Nekkar–Seginus, avec la branche Arcturus–Zeta Boo.",
+  "note_geometrie": "Un cerf-volant articulé autour d'Arcturus, qui porte à lui seul trois liaisons. Le manche part vers le sud : Arcturus–Muphrid 5,03° (la plus courte), puis Arcturus–Izar 10,37° (la plus longue de la figure). La boucle se ferme par Izar–Delta Boo 9,07°, Nekkar–Delta Boo 7,58° et Nekkar–Seginus 6,14°. La branche Arcturus–Zeta Boo (8,19°) reste isolée.",
   "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
  },
  "distances_angulaires_deg": {

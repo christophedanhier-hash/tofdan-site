@@ -136,6 +136,7 @@
    ]
   ],
   "commentaire": "Tracé retenu : la ligne principale Alpheratz–Delta And–Pi And–Mirach prolongée vers Almach, avec la branche Mirach–Mu And–Nu And qui mène à la galaxie M 31.",
+  "note_geometrie": "La chaîne principale Alpheratz–Delta And–Mirach est presque rectiligne : ses segments mesurent 6,93° et 7,94°, et Alpheratz–Mirach en direct 14,48° contre 14,87° par Delta And — soit un écart de 0,4° seulement pour un détour de deux segments. La branche qui mène à la galaxie M 31 est la plus courte de la figure : Mirach–Mu And 3,87° puis Mu And–Nu And 2,90°. Les liaisons Mirach–Almach (12,46°) et Delta And–Pi And (2,90°) ferment la figure.",
   "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
  },
  "distances_angulaires_deg": {

@@ -575,7 +575,7 @@
       else if (v.observable) badge = el('span', { class: 'obs-badge obs-badge--ok', text: 'observable · ' + v.minutes + ' min · ' + heureLocale(v.debut) + ' – ' + heureLocale(v.fin) });
       else badge = el('span', { class: 'obs-badge obs-badge--non', text: 'non observable ce soir (' + v.minutes + ' min)' });
       liste.appendChild(el('li', null, [el('button', attrs, [
-        c.nom_fr, el('small', { text: c.nom_latin + ' · ' + c.abreviation }), badge
+        valide(c.nom_fr) ? String(c.nom_fr) : '—', el('small', { text: c.nom_latin + ' · ' + c.abreviation }), badge
       ])]));
     });
 
@@ -625,9 +625,12 @@
       el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche' }, [thead, tbody])]),
       el('div', { class: 'duo' }, [
         el('div', { class: 'encart' }, [
-          el('p', null, [el('strong', { text: 'Repère principal : ' }), d.repere_principal]),
-          el('p', { text: d.message_animation }),
-          el('p', null, [el('strong', { text: 'Constellations voisines : ' }), d.constellations_voisines.join(' · ')])
+          el('p', null, [el('strong', { text: 'Repère principal : ' }), valide(d.repere_principal) ? String(d.repere_principal) : '—']),
+          el('p', { text: valide(d.message_animation) ? String(d.message_animation) : '' }),
+          el('p', null, [el('strong', { text: 'Constellations voisines : ' }),
+            Array.isArray(d.constellations_voisines) && d.constellations_voisines.length
+              ? d.constellations_voisines.join(' · ')
+              : '—'])
         ]),
         encartLuminosite()
       ]),
@@ -800,7 +803,7 @@
         el('figure', null, [el('figcaption', { text: 'Corrigé (une construction possible)' }), el('div', { class: 'zone' }, [cc]), info]),
         el('aside', { class: 'synthese', tabindex: '0', 'aria-label': 'Synthèse' }, [
           el('h2', { text: 'Pour comprendre' }),
-          el('p', null, [el('strong', { text: 'Géométrie : ' }), d.figure.note_geometrie]),
+          el('p', null, [el('strong', { text: 'Géométrie : ' }), valide(d.figure.note_geometrie) ? String(d.figure.note_geometrie) : '—']),
           el('p', null, [el('strong', { text: 'Tracé retenu : ' }), String(d.figure.commentaire || '').replace(/^(Tracé retenu|Forme retenue)\s*:\s*/i, '')]),
         ])
       ])

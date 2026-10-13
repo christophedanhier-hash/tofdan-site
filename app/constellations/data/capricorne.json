@@ -129,6 +129,7 @@
    ]
   ],
   "commentaire": "Tracé retenu : une chaîne ouverte Algedi–Dabih–Psi Cap–Omega Cap–Zeta Cap–Deneb Algedi–Nashira, qui dessine le croissant bien connu.",
+  "note_geometrie": "Chaîne ouverte en croissant, du nord-ouest vers le sud-est. Deux paires très serrées l'encadrent : Algedi–Dabih 2,35° au nord, Nashira–Deneb Algedi 1,75° au sud (le segment le plus court). Entre les deux, la figure s'étire par Dabih–Psi Cap 12,03°, la liaison la plus longue, puis Omega Cap–Psi Cap 2,09°, Zeta Cap–Omega Cap 9,11° et Deneb Algedi–Zeta Cap 7,91°. Aucune de ces étoiles n'est alignée avec une autre : la forme tient à l'alternance des distances.",
   "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
  },
  "distances_angulaires_deg": {

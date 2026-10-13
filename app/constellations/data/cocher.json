@@ -70,7 +70,7 @@
   {
    "i": 4,
    "nom": "Theta Aur",
-   "bayer": null,
+   "bayer": "the Aur",
    "ra_deg": 89.93029,
    "dec_deg": 37.21258,
    "mag": 2.62,
@@ -134,6 +134,7 @@
    ]
   ],
   "commentaire": "Tracé retenu : le pentagone Capella–Menkalinan–Theta Aur–Elnath–Hassaleh–Eta Aur, avec la branche Capella–Almaaz.",
+  "note_geometrie": "Pentagone ouvert, très dissymétrique. Trois segments courts partent de Capella : Almaaz 3,39° (le plus court), Eta Aur 5,11° et Menkalinan 7,58°. Le contour se poursuit par Menkalinan–Theta Aur 7,73°, Theta Aur–Elnath 11,09° (la liaison la plus longue de la figure) et Elnath–Hassaleh 7,76°, avant de refermer par Hassaleh–Eta Aur 8,29°. Capella est le nœud de la figure : trois liaisons y aboutissent.",
   "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
  },
  "distances_angulaires_deg": {
