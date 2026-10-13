@@ -29,7 +29,7 @@
    "dec_deg": -3.694,
    "mag": 2.73,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 79593)/ IAU"
   },
   {
@@ -42,7 +42,7 @@
    "dec_deg": -4.693,
    "mag": 3.23,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 79882)/ IAU"
   },
   {
@@ -55,7 +55,7 @@
    "dec_deg": -20.037,
    "mag": 4.48,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 80343)"
   },
   {
@@ -68,7 +68,7 @@
    "dec_deg": -23.447,
    "mag": 4.57,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 80473)"
   },
   {
@@ -81,7 +81,7 @@
    "dec_deg": -18.456,
    "mag": 4.22,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 80569)"
   },
   {
@@ -94,7 +94,7 @@
    "dec_deg": -8.372,
    "mag": 4.62,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 80628)"
   },
   {
@@ -107,7 +107,7 @@
    "dec_deg": 1.984,
    "mag": 3.82,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 80883)/ IAU"
   },
   {
@@ -120,7 +120,7 @@
    "dec_deg": -16.613,
    "mag": 4.29,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 80894)"
   },
   {
@@ -133,7 +133,7 @@
    "dec_deg": -10.567,
    "mag": 2.54,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 81377)"
   },
   {
@@ -146,7 +146,7 @@
    "dec_deg": 9.375,
    "mag": 3.19,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 83000)"
   },
   {
@@ -159,7 +159,7 @@
    "dec_deg": -15.725,
    "mag": 2.43,
    "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 84012)/ IAU"
   },
   {
@@ -172,7 +172,7 @@
    "dec_deg": -24.999,
    "mag": 3.27,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 84970)"
   },
   {
@@ -185,7 +185,7 @@
    "dec_deg": -29.867,
    "mag": 4.28,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 85423)"
   },
   {
@@ -198,7 +198,7 @@
    "dec_deg": 12.561,
    "mag": 2.08,
    "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 86032)/ IAU"
   },
   {
@@ -211,7 +211,7 @@
    "dec_deg": 4.567,
    "mag": 2.76,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 86742)/ IAU"
   },
   {
@@ -224,7 +224,7 @@
    "dec_deg": 2.707,
    "mag": 3.75,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 87108)"
   },
   {
@@ -237,7 +237,7 @@
    "dec_deg": -9.773,
    "mag": 3.32,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 88048)"
   }
  ],

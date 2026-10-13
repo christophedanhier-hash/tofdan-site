@@ -1,0 +1,576 @@
+{
+ "M 74": {
+  "fiche": "poissons",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 628",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 676": {
+  "fiche": "poissons",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 27": {
+  "fiche": "petit-renard",
+  "nature": "nébuleuse planétaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6853",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6823": {
+  "fiche": "petit-renard",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6853": {
+  "fiche": "petit-renard",
+  "nature": "nébuleuse planétaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6885": {
+  "fiche": "petit-renard",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6940": {
+  "fiche": "petit-renard",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 46": {
+  "fiche": "poupe",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 2437",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 47": {
+  "fiche": "poupe",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 2422",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 93": {
+  "fiche": "poupe",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 2447",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 2438": {
+  "fiche": "poupe",
+  "nature": "nébuleuse planétaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": "télescope",
+  "instrument_atlas": "petit télescope"
+ },
+ "NGC 2467": {
+  "fiche": "poupe",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 17": {
+  "fiche": "sagittaire",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6618",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 18": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6613",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 20": {
+  "fiche": "sagittaire",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6514",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 21": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6531",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 22": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6656",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 23": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6494",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 24": {
+  "fiche": "sagittaire",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118) — IC 4715",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 25": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — IC 4725",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 28": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6626",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 54": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6715",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 55": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6809",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 69": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6637",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 70": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6681",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 75": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6864",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 8": {
+  "fiche": "sagittaire",
+  "nature": "nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6523",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6494": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6520": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6530": {
+  "fiche": "sagittaire",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6656": {
+  "fiche": "sagittaire",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6822": {
+  "fiche": "sagittaire",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 4": {
+  "fiche": "scorpion",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6121",
+  "instrument": "jumelles",
+  "instrument_atlas": "jumelles"
+ },
+ "M 6": {
+  "fiche": "scorpion",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6405",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 7": {
+  "fiche": "scorpion",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6475",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 80": {
+  "fiche": "scorpion",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6093",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6093": {
+  "fiche": "scorpion",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6231": {
+  "fiche": "scorpion",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6357": {
+  "fiche": "scorpion",
+  "nature": "nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": "jumelles",
+  "instrument_atlas": "jumelles"
+ },
+ "NGC 6383": {
+  "fiche": "scorpion",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6405": {
+  "fiche": "scorpion",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 16": {
+  "fiche": "serpent",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6611",
+  "instrument": "télescope",
+  "instrument_atlas": "télescope"
+ },
+ "M 5": {
+  "fiche": "serpent",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 5904",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6604": {
+  "fiche": "serpent",
+  "nature": "amas + nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 3115": {
+  "fiche": "sextant",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 3166": {
+  "fiche": "sextant",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 1": {
+  "fiche": "taureau",
+  "nature": "nébuleuse",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 1952",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 45": {
+  "fiche": "taureau",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — Melotte 22",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 1514": {
+  "fiche": "taureau",
+  "nature": "nébuleuse planétaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 1587": {
+  "fiche": "taureau",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 1589": {
+  "fiche": "taureau",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 33": {
+  "fiche": "triangle",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 598",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 604": {
+  "fiche": "triangle",
+  "nature": "nébuleuse en émission",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 925": {
+  "fiche": "triangle",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 2": {
+  "fiche": "verseau",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 7089",
+  "instrument": "jumelles",
+  "instrument_atlas": "jumelles"
+ },
+ "M 72": {
+  "fiche": "verseau",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6981",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 73": {
+  "fiche": "verseau",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 6994",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 6994": {
+  "fiche": "verseau",
+  "nature": "amas ouvert",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 7009": {
+  "fiche": "verseau",
+  "nature": "nébuleuse planétaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": "télescope",
+  "instrument_atlas": "télescope"
+ },
+ "NGC 7293": {
+  "fiche": "verseau",
+  "nature": "nébuleuse planétaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": "télescope",
+  "instrument_atlas": "petit télescope"
+ },
+ "M 104": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4594",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 49": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4472",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 58": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4579",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 59": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4621",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 60": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4649",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 61": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4303",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 84": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4374",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 86": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4406",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 87": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4486",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 89": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4552",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 90": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 4569",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 4526": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 4697": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 4699": {
+  "fiche": "vierge",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 5634": {
+  "fiche": "vierge",
+  "nature": "amas globulaire",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 105": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 3379",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 65": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 3623",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 66": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 3627",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 95": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 3351",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "M 96": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118) — NGC 3368",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 2903": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ },
+ "NGC 3628": {
+  "fiche": "lion",
+  "nature": "galaxie",
+  "source_nature": "NGC 2000.0 (VII/118)",
+  "instrument": null,
+  "instrument_atlas": null
+ }
+}

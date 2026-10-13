@@ -1,437 +1,442 @@
 {
- "id": "cephee",
- "slug": "cephee",
- "nom_fr": "Céphée",
- "nom_latin": "Cepheus",
- "genitif": "Cephei",
- "abreviation_iau": "Cep",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   25,
-   26
-  ]
- },
- "saison": "automne",
- "voie_lactee": true,
- "repere_principal": "La « maison » de Céphée : un quadrilatère allongé (Errai, Alderamin, μ Cep, ε Cep, ζ Cep, δ Cep) prolongé par un toit pointu vers β Cep et Errai.",
- "constellations_voisines": [
-  "Petite Ourse",
-  "Dragon",
-  "Cygne",
-  "Lézard",
-  "Cassiopée",
-  "Girafe",
-  "Carré de Pégase"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "θ Cep",
-   "bayer": "tet Cep",
-   "ra_deg": 307.3951,
-   "dec_deg": 62.9941,
-   "mag": 4.21,
-   "role": "Magnitude 4,21.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  "id": "cephee",
+  "slug": "cephee",
+  "nom_fr": "Céphée",
+  "nom_latin": "Cepheus",
+  "genitif": "Cephei",
+  "abreviation_iau": "Cep",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      25,
+      26
+    ]
   },
-  {
-   "i": 1,
-   "nom": "η Cep",
-   "bayer": "eta Cep",
-   "ra_deg": 311.322,
-   "dec_deg": 61.8368,
-   "mag": 3.41,
-   "role": "Magnitude 3,41.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 2,
-   "nom": "Alderamin",
-   "bayer": "alf Cep",
-   "ra_deg": 319.6441,
-   "dec_deg": 62.5855,
-   "mag": 2.45,
-   "role": "Nom officiel IAU. Magnitude 2,45.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 3,
-   "nom": "μ Cep",
-   "bayer": "mu. Cep",
-   "ra_deg": 325.8769,
-   "dec_deg": 58.7801,
-   "mag": 4.23,
-   "role": "Magnitude 4,23.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 4,
-   "nom": "ε Cep",
-   "bayer": "eps Cep",
-   "ra_deg": 333.757,
-   "dec_deg": 57.0435,
-   "mag": 4.18,
-   "role": "Magnitude 4,18.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 5,
-   "nom": "ζ Cep",
-   "bayer": "zet Cep",
-   "ra_deg": 332.7136,
-   "dec_deg": 58.2012,
-   "mag": 3.39,
-   "role": "Magnitude 3,39.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 6,
-   "nom": "δ Cep",
-   "bayer": "del Cep",
-   "ra_deg": 337.2927,
-   "dec_deg": 58.4152,
-   "mag": 4.07,
-   "role": "Magnitude 4,07.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 7,
-   "nom": "ι Cep",
-   "bayer": "iot Cep",
-   "ra_deg": 342.4205,
-   "dec_deg": 66.2007,
-   "mag": 3.5,
-   "role": "Magnitude 3,5.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 8,
-   "nom": "β Cep",
-   "bayer": "bet Cep",
-   "ra_deg": 322.1649,
-   "dec_deg": 70.5607,
-   "mag": 3.23,
-   "role": "Magnitude 3,23.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 9,
-   "nom": "Errai",
-   "bayer": "gam Cep",
-   "ra_deg": 354.8374,
-   "dec_deg": 77.632,
-   "mag": 3.21,
-   "role": "Nom officiel IAU. Magnitude 3,21.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    0,
-    1
-   ],
-   [
-    1,
-    2
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    3,
-    4
-   ],
-   [
-    4,
-    5
-   ],
-   [
-    5,
-    6
-   ],
-   [
-    6,
-    7
-   ],
-   [
-    7,
-    8
-   ],
-   [
-    8,
-    2
-   ],
-   [
-    7,
-    9
-   ],
-   [
-    9,
-    8
-   ]
+  "saison": "automne",
+  "voie_lactee": true,
+  "repere_principal": "La « maison » de Céphée : un quadrilatère allongé (Errai, Alderamin, μ Cep, ε Cep, ζ Cep, δ Cep) prolongé par un toit pointu vers β Cep et Errai.",
+  "constellations_voisines": [
+    "Petite Ourse",
+    "Dragon",
+    "Cygne",
+    "Lézard",
+    "Cassiopée",
+    "Girafe",
+    "Carré de Pégase"
   ],
-  "commentaire": "Tracé retenu : la « maison » de Céphée (Errai–Alderamin–μ Cep–ε Cep–ζ Cep–δ Cep), prolongée par le toit pointu δ Cep–ι Cep–β Cep et fermée par les grandes diagonales ι Cep–Errai et β Cep–Errai.",
-  "note_geometrie": "Céphée se lit en deux parties. La « maison » forme un quadrilatère à cinq sommets : Errai (γ) – Alderamin (α) – μ Cep – ε Cep – ζ Cep – δ Cep, dont les côtés mesurent de 2,15° à 4,87°. Les deux plus courts segments (ε Cep–ζ Cep 1,29° puis ζ Cep–δ Cep 2,41°) ferment le fond de la maison. Le « toit » est la partie spectaculaire : il monte de δ Cep à ι Cep (8,14°), puis à β Cep (8,58°) et redescend sur Errai depuis ι Cep (12,00°) — la plus longue liaison de la figure — ou depuis β Cep (11,15°). Entre β Cep et Alderamin, 8,04° : c'est la base du toit, presque aussi longue que la pente ι Cep–β Cep. La figure est donc très étirée du nord (Errai, la plus au nord et la plus à l'est) au sud-ouest (θ Cep), sur environ 20,6° : c'est une constellation d'automne qu'on ne voit jamais entière d'un seul coup d'œil dans un petit champ.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-  "θ Cep–η Cep": 2.15,
-  "η Cep–Alderamin": 3.95,
-  "Alderamin–μ Cep": 4.87,
-  "μ Cep–ε Cep": 4.53,
-  "ε Cep–ζ Cep": 1.29,
-  "ζ Cep–δ Cep": 2.41,
-  "δ Cep–ι Cep": 8.14,
-  "ι Cep–β Cep": 8.58,
-  "β Cep–Alderamin": 8.04,
-  "ι Cep–Errai": 12.0,
-  "Errai–β Cep": 11.15
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 188",
-   "nature": "amas ouvert",
-   "mag": 8.1,
-   "distance_al": 6460,
-   "note": "Amas ouvert très ancien, l'un des plus vieux de la Voie lactée (plusieurs milliards d'années).",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 6939",
-   "nature": "amas ouvert",
-   "mag": 7.8,
-   "distance_al": 6450,
-   "note": "Amas ouvert riche, voisin de la galaxie NGC 6946 dans le champ.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 7510",
-   "nature": "amas ouvert",
-   "mag": 7.9,
-   "distance_al": 9620,
-   "note": "Petit amas ouvert compact, en forme de coin.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 7762",
-   "nature": "amas ouvert",
-   "mag": null,
-   "distance_al": 2930,
-   "note": "Amas ouvert modeste, dans une région riche en étoiles.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 7129",
-   "nature": "amas ouvert + nébuleuse",
-   "mag": 11.5,
-   "distance_al": 3000,
-   "note": "Amas jeune encore enveloppé de la nébuleuse qui l'a vu naître.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 7822",
-   "nature": "nébuleuse en émission",
-   "mag": null,
-   "distance_al": null,
-   "note": "Vaste région de formation d'étoiles, riche en gaz ionisé. Sa magnitude intégrée n'est pas définie : c'est un objet étendu.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 7023",
-   "nature": "amas ouvert + nébuleuse par réflexion",
-   "mag": 7.2,
-   "distance_al": 1120,
-   "note": "Nébuleuse par réflexion (nébuleuse de l'Iris) éclairée par une étoile jeune, dans un amas ouvert.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 40",
-   "nature": "nébuleuse planétaire",
-   "mag": 11.89,
-   "distance_al": 5120,
-   "note": "Nébuleuse planétaire (la « cravate ») : l'enveloppe d'une étoile mourante.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "Barnard 150",
-   "nature": "nébuleuse sombre",
-   "mag": null,
-   "distance_al": 1200,
-   "note": "Nébuleuse sombre : un nuage de poussière qui masque les étoiles situées derrière lui.",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "IC 1396",
-   "nature": "amas ouvert + nébuleuse",
-   "mag": null,
-   "distance_al": 3060,
-   "note": "Vaste amas ouvert baignant dans une nébuleuse en émission (la nébuleuse de l'Éléphant).",
-   "instrument": "instrument",
-   "src": "O1",
-   "code": "O1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Alderamin (α Cep), magnitude 2,45. Elle est suivie de près par Errai (γ Cep, 3,21) puis β Cep (3,23)."
-  },
-  {
-   "q": "Pourquoi la figure de Céphée est-elle si étirée ?",
-   "r": "Parce qu'elle couvre environ 20,6° du nord au sud. Les deux étoiles les plus éloignées du tracé sont ι Cep et Errai, séparées de 12,00°."
-  },
-  {
-   "q": "Comment reconnaître la « maison » de Céphée ?",
-   "r": "Elle a la forme d'un quadrilatère allongé, prolongé par un toit pointu vers la droite. Le fond de la maison est marqué par deux segments très courts (1,29° et 2,41°) qui se suivent entre ε Cep, ζ Cep et δ Cep."
-  },
-  {
-   "q": "Quelles étoiles de la figure n'ont pas de nom propre ?",
-   "r": "Sept sur dix : θ, η, μ, ε, ζ, δ, ι, β Cep. Seules Alderamin (α), Errai (γ) et β Cep (Alfirk) sont officiellement nommées — et Alfirk n'apparaît pas dans le tracé de la figure. L'IAU n'a officiellement approuvé que 640 noms d'étoiles au total."
-  },
-  {
-   "q": "Quelle est la plus longue liaison de la figure ?",
-   "r": "ι Cep–Errai, 12,00° : c'est la grande diagonale qui remonte du pied du toit jusqu'au sommet."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Pourquoi δ Cephei est-elle une étoile célèbre ?",
-   "r": "C'est une variable céphéide prototype : sa luminosité varie régulièrement, avec une période liée à sa luminosité intrinsèque. Cette relation, découverte par Henrietta Swan Leavitt en 1912, a permis de mesurer les distances dans le cosmos. δ Cephei a servi d'étalon à toute l'échelle des distances extragalactiques."
-  },
-  {
-   "q": "Que voit-on dans NGC 7023 ?",
-   "r": "Une nébuleuse par réflexion — la lumière d'une étoile jeune se réfléchit sur les poussières du nuage. Elle ne brille pas par elle-même : elle renvoie la lumière d'une autre, comme un nuage éclairé par une lampe."
-  },
-  {
-   "q": "Pourquoi NGC 7822 n'a-t-elle pas de magnitude ?",
-   "r": "C'est une nébuleuse étendue : sa lumière est répartie sur une très grande surface, donc une « magnitude intégrée » n'est pas définie de façon comparable à celle d'une étoile ponctuelle. Sa distance non plus n'est pas retenue, faute de mesure publiée fiable."
-  },
-  {
-   "q": "Quelle est la différence entre NGC 40 et NGC 7023 ?",
-   "r": "NGC 40 est une nébuleuse planétaire : une étoile mourante a expulsé son enveloppe et l'éclaire de l'intérieur. NGC 7023 est une nébuleuse par réflexion : elle ne fait que renvoyer la lumière d'une étoile voisine. Le premier émet, le second réfléchit."
-  }
- ],
- "message_animation": "Céphée, constellation d'automne, dessine la maison du roi éthiopien de la légende d'Andromède. Alderamin, Errai et β Cep forment le toit pointu ; δ Cephei, la céphéide qui a donné son nom à toute une famille de variables et servi d'étalon aux distances cosmiques, ferme le fond de la maison.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 25–26 (fiche Atlas « Céphée »)",
-  "archive_texte": "atlas-observation-source/025-c-ph-e.txt",
-  "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-  "lacunes": [
-   "La fiche Atlas cite M 67 (Amas du Crabe) en comparaison ; M 67 appartient au Cancer et n'est pas retenu ici.",
-   "NGC 6946 est décrite dans la fiche Atlas comme située en Céphée ; OpenNGC et Wikipedia FR la situent dans le Cygne — elle est donc rattachée au Cygne.",
-   "NGC 7762, NGC 7822, Barnard 150 et IC 1396 : magnitude intégrée non définie (objets étendus).",
-   "NGC 7822 : aucune distance publiée fiable retenue.",
-   "Sept étoiles sur dix du tracé n'ont pas de nom propre approuvé par l'IAU ; elles sont désignées par leur lettre grecque."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "θ Cep",
+      "bayer": "tet Cep",
+      "ra_deg": 307.3951,
+      "dec_deg": 62.9941,
+      "mag": 4.21,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 1,
+      "nom": "η Cep",
+      "bayer": "eta Cep",
+      "ra_deg": 311.322,
+      "dec_deg": 61.8368,
+      "mag": 3.41,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 2,
+      "nom": "Alderamin",
+      "bayer": "alf Cep",
+      "ra_deg": 319.6441,
+      "dec_deg": 62.5855,
+      "mag": 2.45,
+      "role": "Nom officiel IAU. Magnitude 2,45.",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 3,
+      "nom": "μ Cep",
+      "bayer": "mu. Cep",
+      "ra_deg": 325.8769,
+      "dec_deg": 58.7801,
+      "mag": 4.23,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 4,
+      "nom": "ε Cep",
+      "bayer": "eps Cep",
+      "ra_deg": 333.757,
+      "dec_deg": 57.0435,
+      "mag": 4.18,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 5,
+      "nom": "ζ Cep",
+      "bayer": "zet Cep",
+      "ra_deg": 332.7136,
+      "dec_deg": 58.2012,
+      "mag": 3.39,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 6,
+      "nom": "δ Cep",
+      "bayer": "del Cep",
+      "ra_deg": 337.2927,
+      "dec_deg": 58.4152,
+      "mag": 4.07,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 7,
+      "nom": "ι Cep",
+      "bayer": "iot Cep",
+      "ra_deg": 342.4205,
+      "dec_deg": 66.2007,
+      "mag": 3.5,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 8,
+      "nom": "β Cep",
+      "bayer": "bet Cep",
+      "ra_deg": 322.1649,
+      "dec_deg": 70.5607,
+      "mag": 3.23,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 9,
+      "nom": "Errai",
+      "bayer": "gam Cep",
+      "ra_deg": 354.8374,
+      "dec_deg": 77.632,
+      "mag": 3.21,
+      "role": "Nom officiel IAU. Magnitude 3,21.",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        9,
+        8
+      ]
+    ],
+    "commentaire": "Tracé retenu : la « maison » de Céphée (Errai–Alderamin–μ Cep–ε Cep–ζ Cep–δ Cep), prolongée par le toit pointu δ Cep–ι Cep–β Cep et fermée par les grandes diagonales ι Cep–Errai et β Cep–Errai.",
+    "note_geometrie": "Céphée se lit en deux parties. La « maison » forme un quadrilatère à cinq sommets : Errai (γ) – Alderamin (α) – μ Cep – ε Cep – ζ Cep – δ Cep, dont les côtés mesurent de 2,15° à 4,87°. Les deux plus courts segments (ε Cep–ζ Cep 1,29° puis ζ Cep–δ Cep 2,41°) ferment le fond de la maison. Le « toit » est la partie spectaculaire : il monte de δ Cep à ι Cep (8,14°), puis à β Cep (8,58°) et redescend sur Errai depuis ι Cep (12,00°) — la plus longue liaison de la figure — ou depuis β Cep (11,15°). Entre β Cep et Alderamin, 8,04° : c'est la base du toit, presque aussi longue que la pente ι Cep–β Cep. La figure est donc très étirée du nord (Errai, la plus au nord et la plus à l'est) au sud-ouest (θ Cep), sur environ 20,6° : c'est une constellation d'automne qu'on ne voit jamais entière d'un seul coup d'œil dans un petit champ.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
+    "θ Cep–η Cep": 2.15,
+    "η Cep–Alderamin": 3.95,
+    "Alderamin–μ Cep": 4.87,
+    "μ Cep–ε Cep": 4.53,
+    "ε Cep–ζ Cep": 1.29,
+    "ζ Cep–δ Cep": 2.41,
+    "δ Cep–ι Cep": 8.14,
+    "ι Cep–β Cep": 8.58,
+    "β Cep–Alderamin": 8.04,
+    "ι Cep–Errai": 12.0,
+    "Errai–β Cep": 11.15
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 188",
+      "nature": "amas ouvert",
+      "mag": 8.1,
+      "distance_al": 6460,
+      "note": "Amas ouvert très ancien, l'un des plus vieux de la Voie lactée (plusieurs milliards d'années).",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 6939",
+      "nature": "amas ouvert",
+      "mag": 7.8,
+      "distance_al": 6450,
+      "note": "Amas ouvert riche, voisin de la galaxie NGC 6946 dans le champ.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 7510",
+      "nature": "amas ouvert",
+      "mag": 7.9,
+      "distance_al": 9620,
+      "note": "Petit amas ouvert compact, en forme de coin.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 7762",
+      "nature": "amas ouvert",
+      "mag": null,
+      "distance_al": 2930,
+      "note": "Amas ouvert modeste, dans une région riche en étoiles.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 7129",
+      "nature": "amas ouvert + nébuleuse",
+      "mag": 11.5,
+      "distance_al": 3000,
+      "note": "Amas jeune encore enveloppé de la nébuleuse qui l'a vu naître.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 7822",
+      "nature": "nébuleuse en émission",
+      "mag": null,
+      "distance_al": null,
+      "note": "Vaste région de formation d'étoiles, riche en gaz ionisé. Sa magnitude intégrée n'est pas définie : c'est un objet étendu.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 7023",
+      "nature": "amas ouvert + nébuleuse par réflexion",
+      "mag": 7.2,
+      "distance_al": 1120,
+      "note": "Nébuleuse par réflexion (nébuleuse de l'Iris) éclairée par une étoile jeune, dans un amas ouvert.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 40",
+      "nature": "nébuleuse planétaire",
+      "mag": 11.89,
+      "distance_al": 5120,
+      "note": "Nébuleuse planétaire (la « cravate ») : l'enveloppe d'une étoile mourante.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "Barnard 150",
+      "nature": "nébuleuse sombre",
+      "mag": null,
+      "distance_al": 1200,
+      "note": "Nébuleuse sombre : un nuage de poussière qui masque les étoiles situées derrière lui.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "IC 1396",
+      "nature": "amas ouvert + nébuleuse",
+      "mag": null,
+      "distance_al": 3060,
+      "note": "Vaste amas ouvert baignant dans une nébuleuse en émission (la nébuleuse de l'Éléphant).",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Alderamin (α Cep), magnitude 2,45. Elle est suivie de près par Errai (γ Cep, 3,21) puis β Cep (3,23)."
+    },
+    {
+      "q": "Pourquoi la figure de Céphée est-elle si étirée ?",
+      "r": "Parce qu'elle couvre environ 20,6° du nord au sud. Les deux étoiles les plus éloignées du tracé sont ι Cep et Errai, séparées de 12,00°."
+    },
+    {
+      "q": "Comment reconnaître la « maison » de Céphée ?",
+      "r": "Elle a la forme d'un quadrilatère allongé, prolongé par un toit pointu vers la droite. Le fond de la maison est marqué par deux segments très courts (1,29° et 2,41°) qui se suivent entre ε Cep, ζ Cep et δ Cep."
+    },
+    {
+      "q": "Quelles étoiles de la figure n'ont pas de nom propre ?",
+      "r": "Sept sur dix : θ, η, μ, ε, ζ, δ, ι, β Cep. Seules Alderamin (α), Errai (γ) et β Cep (Alfirk) sont officiellement nommées — et Alfirk n'apparaît pas dans le tracé de la figure. L'IAU n'a officiellement approuvé que 640 noms d'étoiles au total."
+    },
+    {
+      "q": "Quelle est la plus longue liaison de la figure ?",
+      "r": "ι Cep–Errai, 12,00° : c'est la grande diagonale qui remonte du pied du toit jusqu'au sommet."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Pourquoi δ Cephei est-elle une étoile célèbre ?",
+      "r": "C'est une variable céphéide prototype : sa luminosité varie régulièrement, avec une période liée à sa luminosité intrinsèque. Cette relation, découverte par Henrietta Swan Leavitt en 1912, a permis de mesurer les distances dans le cosmos. δ Cephei a servi d'étalon à toute l'échelle des distances extragalactiques."
+    },
+    {
+      "q": "Que voit-on dans NGC 7023 ?",
+      "r": "Une nébuleuse par réflexion — la lumière d'une étoile jeune se réfléchit sur les poussières du nuage. Elle ne brille pas par elle-même : elle renvoie la lumière d'une autre, comme un nuage éclairé par une lampe."
+    },
+    {
+      "q": "Pourquoi NGC 7822 n'a-t-elle pas de magnitude ?",
+      "r": "C'est une nébuleuse étendue : sa lumière est répartie sur une très grande surface, donc une « magnitude intégrée » n'est pas définie de façon comparable à celle d'une étoile ponctuelle. Sa distance non plus n'est pas retenue, faute de mesure publiée fiable."
+    },
+    {
+      "q": "Quelle est la différence entre NGC 40 et NGC 7023 ?",
+      "r": "NGC 40 est une nébuleuse planétaire : une étoile mourante a expulsé son enveloppe et l'éclaire de l'intérieur. NGC 7023 est une nébuleuse par réflexion : elle ne fait que renvoyer la lumière d'une étoile voisine. Le premier émet, le second réfléchit."
+    }
+  ],
+  "message_animation": "Céphée, constellation d'automne, dessine la maison du roi éthiopien de la légende d'Andromède. Alderamin, Errai et β Cep forment le toit pointu ; δ Cephei, la céphéide qui a donné son nom à toute une famille de variables et servi d'étalon aux distances cosmiques, ferme le fond de la maison.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 25–26 (fiche Atlas « Céphée »)",
+    "archive_texte": "atlas-observation-source/025-c-ph-e.txt",
+    "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
+    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+    "lacunes": [
+      "La fiche Atlas cite M 67 (Amas du Crabe) en comparaison ; M 67 appartient au Cancer et n'est pas retenu ici.",
+      "NGC 6946 est décrite dans la fiche Atlas comme située en Céphée ; OpenNGC et Wikipedia FR la situent dans le Cygne — elle est donc rattachée au Cygne.",
+      "NGC 7762, NGC 7822, Barnard 150 et IC 1396 : magnitude intégrée non définie (objets étendus).",
+      "NGC 7822 : aucune distance publiée fiable retenue.",
+      "Sept étoiles sur dix du tracé n'ont pas de nom propre approuvé par l'IAU ; elles sont désignées par leur lettre grecque."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

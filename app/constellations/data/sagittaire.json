@@ -1,401 +1,473 @@
 {
- "id": "sagittaire",
- "slug": "sagittaire",
- "nom_fr": "Sagittaire",
- "nom_latin": "Sagittarius",
- "genitif": "Sagittarii",
- "abreviation_iau": "Sgr",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   94,
-   95,
-   96,
-   97,
-   98,
-   99
-  ]
- },
- "saison": "été",
- "voie_lactee": true,
- "repere_principal": "La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable",
- "constellations_voisines": [
-  "Aigle",
-  "Écu de Sobieski",
-  "Ophiuchus",
-  "Scorpion",
-  "Couronne Australe",
-  "Télescope",
-  "Indien",
-  "Capricorne",
-  "Microscope"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "γ",
-   "bayer": "gam",
-   "ra_deg": 271.45219,
-   "dec_deg": -30.42365,
-   "mag": 3.1356,
-   "role": "Étoile de la figure (mag 3.1356).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+  "id": "sagittaire",
+  "slug": "sagittaire",
+  "nom_fr": "Sagittaire",
+  "nom_latin": "Sagittarius",
+  "genitif": "Sagittarii",
+  "abreviation_iau": "Sgr",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
   },
-  {
-   "i": 1,
-   "nom": "Polis",
-   "bayer": "mu.",
-   "ra_deg": 273.44087,
-   "dec_deg": -21.05883,
-   "mag": 3.8729,
-   "role": "Repère majeur (mag 3.8729).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 2,
-   "nom": "η",
-   "bayer": "eta",
-   "ra_deg": 274.40721,
-   "dec_deg": -36.76128,
-   "mag": 3.1512,
-   "role": "Étoile de la figure (mag 3.1512).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 3,
-   "nom": "Kaus Media",
-   "bayer": "del",
-   "ra_deg": 275.24842,
-   "dec_deg": -29.82804,
-   "mag": 2.8654,
-   "role": "Repère majeur (mag 2.8654).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 4,
-   "nom": "Kaus Australis",
-   "bayer": "eps",
-   "ra_deg": 276.04311,
-   "dec_deg": -34.38432,
-   "mag": 1.7986,
-   "role": "Repère majeur (mag 1.7986).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 5,
-   "nom": "Kaus Borealis",
-   "bayer": "lam",
-   "ra_deg": 276.99279,
-   "dec_deg": -25.42125,
-   "mag": 2.9838,
-   "role": "Repère majeur (mag 2.9838).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 6,
-   "nom": "φ",
-   "bayer": "phi",
-   "ra_deg": 281.41397,
-   "dec_deg": -26.99078,
-   "mag": 3.1339,
-   "role": "Étoile de la figure (mag 3.1339).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 7,
-   "nom": "Nunki",
-   "bayer": "sig",
-   "ra_deg": 283.81632,
-   "dec_deg": -26.29659,
-   "mag": 2.0095,
-   "role": "Repère majeur (mag 2.0095).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 8,
-   "nom": "Ascella",
-   "bayer": "zet",
-   "ra_deg": 285.65301,
-   "dec_deg": -29.88011,
-   "mag": 2.6212,
-   "role": "Repère majeur (mag 2.6212).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 9,
-   "nom": "τ",
-   "bayer": "tau",
-   "ra_deg": 286.73518,
-   "dec_deg": -27.66981,
-   "mag": 3.4689,
-   "role": "Étoile de la figure (mag 3.4689).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
-  "liaisons": [
-   [
-    1,
-    5,
-    6,
-    7,
-    9,
-    8,
-    4,
-    0,
-    3,
-    5
-   ],
-   [
-    8,
-    6,
-    3,
-    4,
-    2
-   ]
+  "saison": "été",
+  "voie_lactee": true,
+  "repere_principal": "La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable",
+  "constellations_voisines": [
+    "Aigle",
+    "Écu de Sobieski",
+    "Ophiuchus",
+    "Scorpion",
+    "Couronne Australe",
+    "Télescope",
+    "Indien",
+    "Capricorne",
+    "Microscope"
   ],
-  "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-  "note_geometrie": "Figure construite sur 10 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Polis–Kaus Media": 8.92,
-  "Polis–Kaus Australis": 13.52,
-  "Polis–Kaus Borealis": 5.45,
-  "Polis–Nunki": 10.84,
-  "Polis–Ascella": 14.1,
-  "Kaus Media–Kaus Australis": 4.61,
-  "Kaus Media–Kaus Borealis": 4.67,
-  "Kaus Media–Nunki": 8.34,
-  "Kaus Media–Ascella": 9.02,
-  "Kaus Australis–Kaus Borealis": 9.0,
-  "Kaus Australis–Nunki": 10.5,
-  "Kaus Australis–Ascella": 9.29,
-  "Kaus Borealis–Nunki": 6.2,
-  "Kaus Borealis–Ascella": 8.87,
-  "Nunki–Ascella": 3.93
- },
- "objets_ciel_profond": [
-  {
-   "id": "M 17",
-   "nature": "objet",
-   "mag": 6,
-   "distance_al": null,
-   "note": "!!!, B, eL, eiF, 2 hooked; = M17"
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "γ",
+      "bayer": "gam",
+      "ra_deg": 271.45219,
+      "dec_deg": -30.42365,
+      "mag": 3.1356,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 1,
+      "nom": "Polis",
+      "bayer": "mu.",
+      "ra_deg": 273.44087,
+      "dec_deg": -21.05883,
+      "mag": 3.8729,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 2,
+      "nom": "η",
+      "bayer": "eta",
+      "ra_deg": 274.40721,
+      "dec_deg": -36.76128,
+      "mag": 3.1512,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 3,
+      "nom": "Kaus Media",
+      "bayer": "del",
+      "ra_deg": 275.24842,
+      "dec_deg": -29.82804,
+      "mag": 2.8654,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 4,
+      "nom": "Kaus Australis",
+      "bayer": "eps",
+      "ra_deg": 276.04311,
+      "dec_deg": -34.38432,
+      "mag": 1.7986,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 5,
+      "nom": "Kaus Borealis",
+      "bayer": "lam",
+      "ra_deg": 276.99279,
+      "dec_deg": -25.42125,
+      "mag": 2.9838,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 6,
+      "nom": "φ",
+      "bayer": "phi",
+      "ra_deg": 281.41397,
+      "dec_deg": -26.99078,
+      "mag": 3.1339,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 7,
+      "nom": "Nunki",
+      "bayer": "sig",
+      "ra_deg": 283.81632,
+      "dec_deg": -26.29659,
+      "mag": 2.0095,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 8,
+      "nom": "Ascella",
+      "bayer": "zet",
+      "ra_deg": 285.65301,
+      "dec_deg": -29.88011,
+      "mag": 2.6212,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 9,
+      "nom": "τ",
+      "bayer": "tau",
+      "ra_deg": 286.73518,
+      "dec_deg": -27.66981,
+      "mag": 3.4689,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "liaisons": [
+      [
+        1,
+        5,
+        6,
+        7,
+        9,
+        8,
+        4,
+        0,
+        3,
+        5
+      ],
+      [
+        8,
+        6,
+        3,
+        4,
+        2
+      ]
+    ],
+    "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
+    "note_geometrie": "Figure construite sur 10 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
   },
-  {
-   "id": "M 18",
-   "nature": "objet",
-   "mag": 6.9,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (M 18). Description non détaillée dans la fiche Atlas."
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Polis–Kaus Media": 8.92,
+    "Polis–Kaus Australis": 13.52,
+    "Polis–Kaus Borealis": 5.45,
+    "Polis–Nunki": 10.84,
+    "Polis–Ascella": 14.1,
+    "Kaus Media–Kaus Australis": 4.61,
+    "Kaus Media–Kaus Borealis": 4.67,
+    "Kaus Media–Nunki": 8.34,
+    "Kaus Media–Ascella": 9.02,
+    "Kaus Australis–Kaus Borealis": 9.0,
+    "Kaus Australis–Nunki": 10.5,
+    "Kaus Australis–Ascella": 9.29,
+    "Kaus Borealis–Nunki": 6.2,
+    "Kaus Borealis–Ascella": 8.87,
+    "Nunki–Ascella": 3.93
   },
-  {
-   "id": "M 20",
-   "nature": "objet",
-   "mag": 6.3,
-   "distance_al": null,
-   "note": "!!! vB, vL, trifid, D* inv; = M20"
+  "objets_ciel_profond": [
+    {
+      "id": "M 17",
+      "nature": "amas + nébuleuse",
+      "mag": 6,
+      "distance_al": null,
+      "note": "Nébuleuse Oméga, située à cheval sur la ligne de séparation entre le Sagittaire et le Serpent.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 18",
+      "nature": "amas ouvert",
+      "mag": 6.9,
+      "distance_al": null,
+      "note": "Petit amas ouvert associé à une nébuleuse brillante.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 20",
+      "nature": "amas + nébuleuse",
+      "mag": 6.3,
+      "distance_al": null,
+      "note": "Nébuleuse Trifide, située dans la même région que M 8.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 21",
+      "nature": "amas ouvert",
+      "mag": 5.9,
+      "distance_al": null,
+      "note": "Amas ouvert bien discret, comparé au précédent.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 22",
+      "nature": "amas globulaire",
+      "mag": 5.1,
+      "distance_al": null,
+      "note": "Très bel amas globulaire (NGC 6656) de magnitude photographique 5,24, parfois comparé à M 13 (Hercule).",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 23",
+      "nature": "amas ouvert",
+      "mag": 5.5,
+      "distance_al": null,
+      "note": "Amas ouvert (NGC 6494) révélant 120 étoiles, rassemblées dans un volume d'une vingtaine d'années-lumière de diamètre.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 24",
+      "nature": "amas + nébuleuse",
+      "mag": null,
+      "distance_al": null,
+      "note": "Amas ouvert riche et compact, immergé dans une nébuleuse.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 25",
+      "nature": "amas ouvert",
+      "mag": null,
+      "distance_al": null,
+      "note": "Amas ouvert très concentré, mais plus pauvre que le précédent.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 28",
+      "nature": "amas globulaire",
+      "mag": 6.9,
+      "distance_al": null,
+      "note": "Amas globulaire relativement brillant mais très compact, de magnitude 7,45.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 54",
+      "nature": "amas globulaire",
+      "mag": 7.7,
+      "distance_al": null,
+      "note": "Amas globulaire de magnitude 7,90.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 55",
+      "nature": "amas globulaire",
+      "mag": 7,
+      "distance_al": null,
+      "note": "Amas globulaire distant de 20 000 années-lumière, moins concentré que les précédents, comptant une centaine de milliers d'étoiles.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 69",
+      "nature": "amas globulaire",
+      "mag": 7.7,
+      "distance_al": null,
+      "note": "Amas globulaire peu spectaculaire de magnitude 8,30, situé à 60 000 années-lumière.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 70",
+      "nature": "amas globulaire",
+      "mag": 8.1,
+      "distance_al": null,
+      "note": "Amas globulaire discret, distant de 70 000 années-lumière.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 75",
+      "nature": "amas globulaire",
+      "mag": 8.6,
+      "distance_al": null,
+      "note": "Amas globulaire assez décevant dans les petits instruments, de magnitude 8,76 et d'un diamètre apparent inférieur à 4', estimé à 150 000 années-lumière.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "M 8",
+      "nature": "nébuleuse",
+      "mag": 5.8,
+      "distance_al": null,
+      "note": "Très bel ensemble nébulaire d'une soixantaine d'années-lumière de diamètre, situé à 4500 années-lumière ; illuminé par l'amas de très jeunes étoiles NGC 6530.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6494",
+      "nature": "amas ouvert",
+      "mag": 5.5,
+      "distance_al": null,
+      "note": "Doublon catalogue de M 23 (NGC 6494) : amas ouvert révélant 120 étoiles.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6520",
+      "nature": "amas ouvert",
+      "mag": 8,
+      "distance_al": null,
+      "note": "Amas ouvert proche d'un gros nuage sombre (poussières), Barnard 86.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6530",
+      "nature": "amas ouvert",
+      "mag": 4.6,
+      "distance_al": null,
+      "note": "Objet du catalogue NGC (NGC 6530). Description non détaillée dans la fiche Atlas.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6656",
+      "nature": "amas globulaire",
+      "mag": 5.1,
+      "distance_al": null,
+      "note": "Doublon catalogue de M 22 (NGC 6656) : très bel amas globulaire de magnitude photographique 5,24.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6822",
+      "nature": "galaxie",
+      "mag": 9,
+      "distance_al": null,
+      "note": "Galaxie de Barnard : galaxie naine irrégulière apparentée aux spirales, de magnitude photographique 9,20, comptant une quinzaine de régions HII. Distante de près de deux millions d'années-lumière, elle appartient au Groupe Local.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 94-99",
+      "code": "N2"
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile en vision directe"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "vue en vision décalée"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "difficile, ciel noir requis"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Kaus Australis, magnitude 1.7986."
+    },
+    {
+      "q": "Comment repérer γ et Polis dans le ciel ?",
+      "r": "La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
+    },
+    {
+      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
+      "r": "NGC 6530 (objet, magnitude 4.6). Voir la fiche pour la description."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Que raconte-t-on au public en pointant γ ?",
+      "r": "Située en saison été. Repère : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
+    },
+    {
+      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
+      "r": "M 17 (objet) : !!!, B, eL, eiF, 2 hooked; = M17"
+    },
+    {
+      "q": "Comment orienter le visiteur sur la carte ?",
+      "r": "Faire partir du repère : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
+    }
+  ],
+  "message_animation": "Sagittaire : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable. Constellation de été (10 étoiles figurées, 20 objet(s) du ciel profond).",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 94–99 (fiche Atlas « Sagittaire »)",
+    "archive_texte": "atlas-observation-source/094-*.txt",
+    "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
+    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
+    "lacunes": [
+      "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
+      "M 24 : magnitude non disponible au catalogue NGC 2000.0.",
+      "M 25 : magnitude non disponible au catalogue NGC 2000.0.",
+      "M 13 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
+      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
+    ]
   },
-  {
-   "id": "M 21",
-   "nature": "objet",
-   "mag": 5.9,
-   "distance_al": null,
-   "note": "Cl, pRi, lC, st 9...12; = M21"
-  },
-  {
-   "id": "M 22",
-   "nature": "objet",
-   "mag": 5.1,
-   "distance_al": null,
-   "note": "!!, glob. cl. , vB, vL, R, vRi, vmC, st 11...15; =M22"
-  },
-  {
-   "id": "M 23",
-   "nature": "objet",
-   "mag": 5.5,
-   "distance_al": null,
-   "note": "Cl, B, vL, pRi, lC, st 10...; = M23"
-  },
-  {
-   "id": "M 24",
-   "nature": "objet",
-   "mag": null,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (M 24). Description non détaillée dans la fiche Atlas."
-  },
-  {
-   "id": "M 25",
-   "nature": "objet",
-   "mag": null,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (M 25). Description non détaillée dans la fiche Atlas."
-  },
-  {
-   "id": "M 28",
-   "nature": "objet",
-   "mag": 6.9,
-   "distance_al": null,
-   "note": "!, glob. cl. , vB, L, R, geCM, rrr, st 14...16; = M28"
-  },
-  {
-   "id": "M 54",
-   "nature": "objet",
-   "mag": 7.7,
-   "distance_al": null,
-   "note": "glob. cl. , vB, L, R, g, smbM, rrr, st 15; = M54"
-  },
-  {
-   "id": "M 55",
-   "nature": "objet",
-   "mag": 7,
-   "distance_al": null,
-   "note": "glob. cl. , pB, L, R, vRi, vgbM, st 12...15; = M55"
-  },
-  {
-   "id": "M 69",
-   "nature": "objet",
-   "mag": 7.7,
-   "distance_al": null,
-   "note": "glob. cl. , B, L, R, rrr, st 14...16; = M69"
-  },
-  {
-   "id": "M 70",
-   "nature": "objet",
-   "mag": 8.1,
-   "distance_al": null,
-   "note": "glob. cl. , B, pL, R, gbM, st 14...17; = M70"
-  },
-  {
-   "id": "M 75",
-   "nature": "objet",
-   "mag": 8.6,
-   "distance_al": null,
-   "note": "glob. cl. , B, pL, R, vmbMBN, rr; = M75"
-  },
-  {
-   "id": "M 8",
-   "nature": "objet",
-   "mag": 5.8,
-   "distance_al": null,
-   "note": "!!! vB, eL, eiF, with L Cl; = M8"
-  },
-  {
-   "id": "NGC 6494",
-   "nature": "objet",
-   "mag": 5.5,
-   "distance_al": null,
-   "note": "Cl, B, vL, pRi, lC, st 10...; = M23"
-  },
-  {
-   "id": "NGC 6520",
-   "nature": "objet",
-   "mag": 8,
-   "distance_al": null,
-   "note": "Cl, pS, Ri, lC, st 9...13"
-  },
-  {
-   "id": "NGC 6530",
-   "nature": "objet",
-   "mag": 4.6,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (NGC 6530). Description non détaillée dans la fiche Atlas."
-  },
-  {
-   "id": "NGC 6656",
-   "nature": "objet",
-   "mag": 5.1,
-   "distance_al": null,
-   "note": "!!, glob. cl. , vB, vL, R, vRi, vmC, st 11...15; =M22"
-  },
-  {
-   "id": "NGC 6822",
-   "nature": "objet",
-   "mag": 9,
-   "distance_al": null,
-   "note": "vF, vS, E, dif; = IC 4895"
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
+    "refs": [],
+    "lignes": [
+      {
+        "code": "N2",
+        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
+        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ]
   }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile en vision directe"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "vue en vision décalée"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "difficile, ciel noir requis"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Kaus Australis, magnitude 1.7986."
-  },
-  {
-   "q": "Comment repérer γ et Polis dans le ciel ?",
-   "r": "La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
-  },
-  {
-   "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-   "r": "NGC 6530 (objet, magnitude 4.6). Voir la fiche pour la description."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Que raconte-t-on au public en pointant γ ?",
-   "r": "Située en saison été. Repère : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
-  },
-  {
-   "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-   "r": "M 17 (objet) : !!!, B, eL, eiF, 2 hooked; = M17"
-  },
-  {
-   "q": "Comment orienter le visiteur sur la carte ?",
-   "r": "Faire partir du repère : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
-  }
- ],
- "message_animation": "Sagittaire : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable. Constellation de été (10 étoiles figurées, 20 objet(s) du ciel profond).",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 94–99 (fiche Atlas « Sagittaire »)",
-  "archive_texte": "atlas-observation-source/094-*.txt",
-  "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-  "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-  "lacunes": [
-   "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-   "M 24 : magnitude non disponible au catalogue NGC 2000.0.",
-   "M 25 : magnitude non disponible au catalogue NGC 2000.0.",
-   "M 13 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-   "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-  "refs": []
- }
 }

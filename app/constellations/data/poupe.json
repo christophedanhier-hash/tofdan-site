@@ -1,286 +1,313 @@
 {
- "id": "poupe",
- "slug": "poupe",
- "nom_fr": "Poupe",
- "nom_latin": "Puppis",
- "genitif": "Puppis",
- "abreviation_iau": "Pup",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   91,
-   92,
-   93
-  ]
- },
- "saison": "hiver",
- "voie_lactee": false,
- "repere_principal": "Naos et Pi Puppis, alignées au sud-est du Grand Chien",
- "constellations_voisines": [
-  "Grand Chien",
-  "Colombe",
-  "Peintre",
-  "Voile",
-  "Carène",
-  "Licorne",
-  "Hydre",
-  "Boussole"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "α",
-   "bayer": "alf",
-   "ra_deg": 95.98788,
-   "dec_deg": -52.69572,
-   "mag": -0.5536,
-   "role": "Étoile de la figure (mag -0.5536).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+  "id": "poupe",
+  "slug": "poupe",
+  "nom_fr": "Poupe",
+  "nom_latin": "Puppis",
+  "genitif": "Puppis",
+  "abreviation_iau": "Pup",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      91,
+      92,
+      93
+    ]
   },
-  {
-   "i": 1,
-   "nom": "ν",
-   "bayer": "nu.",
-   "ra_deg": 99.4403,
-   "dec_deg": -43.19592,
-   "mag": 3.1395,
-   "role": "Étoile de la figure (mag 3.1395).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 2,
-   "nom": "π",
-   "bayer": "pi.",
-   "ra_deg": 109.28568,
-   "dec_deg": -37.09749,
-   "mag": 2.8296,
-   "role": "Étoile de la figure (mag 2.8296).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 3,
-   "nom": "p",
-   "bayer": "p",
-   "ra_deg": 113.84557,
-   "dec_deg": -28.36928,
-   "mag": 4.6109,
-   "role": "Étoile de la figure (mag 4.6109).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 4,
-   "nom": "κ1",
-   "bayer": "kap01",
-   "ra_deg": 114.70784,
-   "dec_deg": -26.80389,
-   "mag": 3.7439,
-   "role": "Étoile de la figure (mag 3.7439).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 5,
-   "nom": "l",
-   "bayer": "l",
-   "ra_deg": 115.95197,
-   "dec_deg": -28.95483,
-   "mag": 4.0152,
-   "role": "Étoile de la figure (mag 4.0152).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 6,
-   "nom": "ο",
-   "bayer": "omi",
-   "ra_deg": 117.02156,
-   "dec_deg": -25.93718,
-   "mag": 4.4428,
-   "role": "Étoile de la figure (mag 4.4428).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 7,
-   "nom": "Azmidi",
-   "bayer": "ksi",
-   "ra_deg": 117.32358,
-   "dec_deg": -24.85978,
-   "mag": 3.5109,
-   "role": "Repère majeur (mag 3.5109).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 8,
-   "nom": "Naos",
-   "bayer": "zet",
-   "ra_deg": 120.89613,
-   "dec_deg": -40.00319,
-   "mag": 2.1364,
-   "role": "Repère majeur (mag 2.1364).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 9,
-   "nom": "Tureis",
-   "bayer": "rho",
-   "ra_deg": 121.88626,
-   "dec_deg": -24.30444,
-   "mag": 2.9157,
-   "role": "Repère majeur (mag 2.9157).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 10,
-   "nom": "γ2",
-   "bayer": "gam02",
-   "ra_deg": 122.38315,
-   "dec_deg": -47.33661,
-   "mag": 1.7034,
-   "role": "Étoile de la figure (mag 1.7034).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
-  "liaisons": [
-   [
-    10,
-    8,
-    9,
-    7,
-    4,
-    3,
-    5,
-    6,
-    7
-   ],
-   [
-    3,
-    2,
-    1,
-    0
-   ]
+  "saison": "hiver",
+  "voie_lactee": false,
+  "repere_principal": "Naos et Pi Puppis, alignées au sud-est du Grand Chien",
+  "constellations_voisines": [
+    "Grand Chien",
+    "Colombe",
+    "Peintre",
+    "Voile",
+    "Carène",
+    "Licorne",
+    "Hydre",
+    "Boussole"
   ],
-  "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-  "note_geometrie": "Figure construite sur 11 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Azmidi–Naos": 15.44,
-  "Azmidi–Tureis": 4.19,
-  "Naos–Tureis": 15.72
- },
- "objets_ciel_profond": [
-  {
-   "id": "M 46",
-   "nature": "objet",
-   "mag": 6.1,
-   "distance_al": null,
-   "note": "!, Cl, vB, vRi, vL, inv PN ; = M46"
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "α",
+      "bayer": "alf",
+      "ra_deg": 95.98788,
+      "dec_deg": -52.69572,
+      "mag": -0.5536,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 1,
+      "nom": "ν",
+      "bayer": "nu.",
+      "ra_deg": 99.4403,
+      "dec_deg": -43.19592,
+      "mag": 3.1395,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 2,
+      "nom": "π",
+      "bayer": "pi.",
+      "ra_deg": 109.28568,
+      "dec_deg": -37.09749,
+      "mag": 2.8296,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 3,
+      "nom": "p",
+      "bayer": "p",
+      "ra_deg": 113.84557,
+      "dec_deg": -28.36928,
+      "mag": 4.6109,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 4,
+      "nom": "κ1",
+      "bayer": "kap01",
+      "ra_deg": 114.70784,
+      "dec_deg": -26.80389,
+      "mag": 3.7439,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 5,
+      "nom": "l",
+      "bayer": "l",
+      "ra_deg": 115.95197,
+      "dec_deg": -28.95483,
+      "mag": 4.0152,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 6,
+      "nom": "ο",
+      "bayer": "omi",
+      "ra_deg": 117.02156,
+      "dec_deg": -25.93718,
+      "mag": 4.4428,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 7,
+      "nom": "Azmidi",
+      "bayer": "ksi",
+      "ra_deg": 117.32358,
+      "dec_deg": -24.85978,
+      "mag": 3.5109,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 8,
+      "nom": "Naos",
+      "bayer": "zet",
+      "ra_deg": 120.89613,
+      "dec_deg": -40.00319,
+      "mag": 2.1364,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 9,
+      "nom": "Tureis",
+      "bayer": "rho",
+      "ra_deg": 121.88626,
+      "dec_deg": -24.30444,
+      "mag": 2.9157,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 10,
+      "nom": "γ2",
+      "bayer": "gam02",
+      "ra_deg": 122.38315,
+      "dec_deg": -47.33661,
+      "mag": 1.7034,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "liaisons": [
+      [
+        10,
+        8,
+        9,
+        7,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
+    "note_geometrie": "Figure construite sur 11 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
   },
-  {
-   "id": "M 47",
-   "nature": "objet",
-   "mag": 4.4,
-   "distance_al": null,
-   "note": "Cl, B, vL, pRi, st L and S; = M47"
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Azmidi–Naos": 15.44,
+    "Azmidi–Tureis": 4.19,
+    "Naos–Tureis": 15.72
   },
-  {
-   "id": "M 93",
-   "nature": "objet",
-   "mag": 6.2,
-   "distance_al": null,
-   "note": "Cl, L, pRi, lC, st 8...13; = M93"
+  "objets_ciel_profond": [
+    {
+      "id": "M 46",
+      "nature": "amas ouvert",
+      "mag": 6.1,
+      "distance_al": null,
+      "note": "Amas ouvert de magnitude globale 9,20, comptant une centaine d'étoiles dans un volume de 3 années-lumière de diamètre.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
+      "code": "N2"
+    },
+    {
+      "id": "M 47",
+      "nature": "amas ouvert",
+      "mag": 4.4,
+      "distance_al": null,
+      "note": "Amas ouvert de magnitude globale 4,5, contenant une cinquantaine d'étoiles assez concentrées.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
+      "code": "N2"
+    },
+    {
+      "id": "M 93",
+      "nature": "amas ouvert",
+      "mag": 6.2,
+      "distance_al": null,
+      "note": "Amas ouvert de magnitude globale 6,20, assez spectaculaire dans un petit télescope ; plusieurs centaines d'étoiles.",
+      "instrument": "télescope",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 2438",
+      "nature": "nébuleuse planétaire",
+      "mag": 10,
+      "distance_al": null,
+      "note": "Nébuleuse planétaire de magnitude 10,10, très proche de M 46 mais sans lien avec lui, difficile à observer.",
+      "instrument": "télescope",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 2467",
+      "nature": "amas + nébuleuse",
+      "mag": 7,
+      "distance_al": null,
+      "note": "Amas ouvert associé à une nébuleuse diffuse.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
+      "code": "N2"
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile en vision directe"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "vue en vision décalée"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "difficile, ciel noir requis"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "α, magnitude -0.5536."
+    },
+    {
+      "q": "Comment repérer α et ν dans le ciel ?",
+      "r": "Naos et Pi Puppis, alignées au sud-est du Grand Chien."
+    },
+    {
+      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
+      "r": "M 47 (objet, magnitude 4.4). Voir la fiche pour la description."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Que raconte-t-on au public en pointant α ?",
+      "r": "Située en saison hiver. Repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
+    },
+    {
+      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
+      "r": "M 46 (objet) : !, Cl, vB, vRi, vL, inv PN ; = M46"
+    },
+    {
+      "q": "Comment orienter le visiteur sur la carte ?",
+      "r": "Faire partir du repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
+    }
+  ],
+  "message_animation": "Poupe : Naos et Pi Puppis, alignées au sud-est du Grand Chien. Constellation de hiver (11 étoiles figurées, 5 objet(s) du ciel profond).",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 91–93 (fiche Atlas « Poupe »)",
+    "archive_texte": "atlas-observation-source/091-*.txt",
+    "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
+    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
+    "lacunes": [
+      "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
+      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
+    ]
   },
-  {
-   "id": "NGC 2438",
-   "nature": "objet",
-   "mag": 10,
-   "distance_al": null,
-   "note": "PN , pB, pS, vlE, r, 3s .75 d"
-  },
-  {
-   "id": "NGC 2467",
-   "nature": "objet",
-   "mag": 7,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (NGC 2467). Description non détaillée dans la fiche Atlas."
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
+    "refs": [],
+    "lignes": [
+      {
+        "code": "N2",
+        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
+        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ]
   }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile en vision directe"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "vue en vision décalée"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "difficile, ciel noir requis"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "α, magnitude -0.5536."
-  },
-  {
-   "q": "Comment repérer α et ν dans le ciel ?",
-   "r": "Naos et Pi Puppis, alignées au sud-est du Grand Chien."
-  },
-  {
-   "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-   "r": "M 47 (objet, magnitude 4.4). Voir la fiche pour la description."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Que raconte-t-on au public en pointant α ?",
-   "r": "Située en saison hiver. Repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
-  },
-  {
-   "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-   "r": "M 46 (objet) : !, Cl, vB, vRi, vL, inv PN ; = M46"
-  },
-  {
-   "q": "Comment orienter le visiteur sur la carte ?",
-   "r": "Faire partir du repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
-  }
- ],
- "message_animation": "Poupe : Naos et Pi Puppis, alignées au sud-est du Grand Chien. Constellation de hiver (11 étoiles figurées, 5 objet(s) du ciel profond).",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 91–93 (fiche Atlas « Poupe »)",
-  "archive_texte": "atlas-observation-source/091-*.txt",
-  "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-  "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-  "lacunes": [
-   "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-   "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-  "refs": []
- }
 }

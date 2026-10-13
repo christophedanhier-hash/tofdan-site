@@ -43,7 +43,7 @@
    "ra_deg": 10.89738,
    "dec_deg": -17.98661,
    "mag": 2.01,
-   "role": "Repère majeur (mag 2,01). Nœud de la figure, relié à Zeta Cet, Tau Cet et Eta Cet.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
   },

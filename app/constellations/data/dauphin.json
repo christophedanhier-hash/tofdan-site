@@ -1,248 +1,253 @@
 {
- "id": "dauphin",
- "slug": "dauphin",
- "nom_fr": "Dauphin",
- "nom_latin": "Delphinus",
- "genitif": "Delphini",
- "abreviation_iau": "Del",
- "source_atlas": "Atlas observation.pdf — fiche « Dauphin »",
- "saison": "été",
- "voie_lactee": false,
- "repere_principal": "Le « Cercueil de Job » : un petit losange d'étoiles serré, prolongé d'une queue.",
- "constellations_voisines": [
-  "Petit Renard",
-  "Flèche",
-  "Aigle",
-  "Pégase",
-  "Écu de Sobieski"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "Aldulfin",
-   "bayer": "eps Del",
-   "ra_deg": 308.3032,
-   "dec_deg": 11.3033,
-   "mag": 4.03,
-   "role": "Magnitude 4,03.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 1,
-   "nom": "η Del",
-   "bayer": "eta Del",
-   "ra_deg": 308.4875,
-   "dec_deg": 13.0272,
-   "mag": 5.39,
-   "role": "Magnitude 5,39.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 2,
-   "nom": "Rotanev",
-   "bayer": "bet Del",
-   "ra_deg": 309.387,
-   "dec_deg": 14.5952,
-   "mag": 3.64,
-   "role": "Magnitude 3,64.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 3,
-   "nom": "α Del",
-   "bayer": "alf Del",
-   "ra_deg": 309.9094,
-   "dec_deg": 15.9121,
-   "mag": 3.77,
-   "role": "Magnitude 3,77.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 4,
-   "nom": "γ2 Del",
-   "bayer": "gam02 Del",
-   "ra_deg": 311.6647,
-   "dec_deg": 16.1248,
-   "mag": 4.27,
-   "role": "Magnitude 4,27.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  },
-  {
-   "i": 5,
-   "nom": "δ Del",
-   "bayer": "del Del",
-   "ra_deg": 310.8648,
-   "dec_deg": 15.0747,
-   "mag": 4.43,
-   "role": "Magnitude 4,43.",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
-  "liaisons": [
-   [
-    0,
-    1
-   ],
-   [
-    1,
-    2
-   ],
-   [
-    2,
-    3
-   ],
-   [
-    3,
-    4
-   ],
-   [
-    4,
-    5
-   ],
-   [
-    5,
-    2
-   ]
+  "id": "dauphin",
+  "slug": "dauphin",
+  "nom_fr": "Dauphin",
+  "nom_latin": "Delphinus",
+  "genitif": "Delphini",
+  "abreviation_iau": "Del",
+  "source_atlas": "Atlas observation.pdf — fiche « Dauphin »",
+  "saison": "été",
+  "voie_lactee": false,
+  "repere_principal": "Le « Cercueil de Job » : un petit losange d'étoiles serré, prolongé d'une queue.",
+  "constellations_voisines": [
+    "Petit Renard",
+    "Flèche",
+    "Aigle",
+    "Pégase",
+    "Écu de Sobieski"
   ],
-  "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-  "note_geometrie": "Le Dauphin tient tout entier dans un mouchoir de poche : toutes ses liaisons sont comprises entre 1,30° et 1,79°. C'est l'une des plus petites figures du ciel, et c'est justement ce qui la rend reconnaissable — un losange serré. Le tracé forme le losange (Rotanev–α Del–γ2 Del–δ Del–Rotanev, côtés de 1,30° à 1,70°) prolongé par une queue : Rotanev → η Del (1,79°) → Aldulfin (1,73°). Le segment le plus court, γ2 Del–δ Del (1,30°), est le côté sud du losange ; le plus long, η Del–Rotanev (1,79°), marque la naissance de la queue.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-  "Aldulfin–η Del": 1.73,
-  "η Del–Rotanev": 1.79,
-  "Rotanev–α Del": 1.41,
-  "α Del–γ2 Del": 1.7,
-  "γ2 Del–δ Del": 1.3,
-  "δ Del–Rotanev": 1.51
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 6934",
-   "nature": "amas globulaire",
-   "mag": 8.83,
-   "distance_al": 51300,
-   "note": "Amas globulaire distant dans le Dauphin : petit et concentré à l'oculaire.",
-   "instrument": "instrument",
-   "src": "O3",
-   "code": "O3"
-  },
-  {
-   "id": "NGC 7006",
-   "nature": "amas globulaire",
-   "mag": 10.46,
-   "distance_al": 128000,
-   "note": "Amas globulaire très excentré, l'un des plus éloignés du halo de notre galaxie.",
-   "instrument": "instrument",
-   "src": "O3",
-   "code": "O3"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  "Reconnais-tu un losange, ou plutôt un « cerf-volant » ?",
-  "Combien d'étoiles vois-tu à l'intérieur du losange ?",
-  "Le losange te paraît-il vraiment petit comparé au Cygne voisin ?",
-  "Distingues-tu la queue qui s'échappe d'un coin du losange ?",
-  "Repères-tu le Dauphin à l'œil nu, sans jumelles ?"
- ],
- "questions_guide": [
-  "Cherche le petit losange serré à gauche de l'Aigle, sous la Flèche.",
-  "C'est l'une des plus petites constellations reconnaissables : si tu vois un mini-parallélogramme, c'est lui.",
-  "Rotanev et Sualocin, ses deux étoiles principales, ont des noms qui se lisent à l'envers — un canular d'astronome devenu officiel.",
-  "Sa queue pointe vers l'est : suis-la jusqu'à Aldulfin."
- ],
- "message_animation": "Le Dauphin est un petit losange serré d'étoiles, prolongé par une queue effilée : surnommé « le Cercueil de Job », c'est l'un des plus petits motifs reconnaissables du ciel d'été.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf — fiche « Dauphin »",
-  "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-  "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
-  "lacunes": [
-   "4 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Aldulfin",
+      "bayer": "eps Del",
+      "ra_deg": 308.3032,
+      "dec_deg": 11.3033,
+      "mag": 4.03,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 1,
+      "nom": "η Del",
+      "bayer": "eta Del",
+      "ra_deg": 308.4875,
+      "dec_deg": 13.0272,
+      "mag": 5.39,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 2,
+      "nom": "Rotanev",
+      "bayer": "bet Del",
+      "ra_deg": 309.387,
+      "dec_deg": 14.5952,
+      "mag": 3.64,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 3,
+      "nom": "α Del",
+      "bayer": "alf Del",
+      "ra_deg": 309.9094,
+      "dec_deg": 15.9121,
+      "mag": 3.77,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 4,
+      "nom": "γ2 Del",
+      "bayer": "gam02 Del",
+      "ra_deg": 311.6647,
+      "dec_deg": 16.1248,
+      "mag": 4.27,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    },
+    {
+      "i": 5,
+      "nom": "δ Del",
+      "bayer": "del Del",
+      "ra_deg": 310.8648,
+      "dec_deg": 15.0747,
+      "mag": 4.43,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "liaisons": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
+    "note_geometrie": "Le Dauphin tient tout entier dans un mouchoir de poche : toutes ses liaisons sont comprises entre 1,30° et 1,79°. C'est l'une des plus petites figures du ciel, et c'est justement ce qui la rend reconnaissable — un losange serré. Le tracé forme le losange (Rotanev–α Del–γ2 Del–δ Del–Rotanev, côtés de 1,30° à 1,70°) prolongé par une queue : Rotanev → η Del (1,79°) → Aldulfin (1,73°). Le segment le plus court, γ2 Del–δ Del (1,30°), est le côté sud du losange ; le plus long, η Del–Rotanev (1,79°), marque la naissance de la queue.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
+    "Aldulfin–η Del": 1.73,
+    "η Del–Rotanev": 1.79,
+    "Rotanev–α Del": 1.41,
+    "α Del–γ2 Del": 1.7,
+    "γ2 Del–δ Del": 1.3,
+    "δ Del–Rotanev": 1.51
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 6934",
+      "nature": "amas globulaire",
+      "mag": 8.83,
+      "distance_al": 51300,
+      "note": "Amas globulaire distant dans le Dauphin : petit et concentré à l'oculaire.",
+      "instrument": "n. d.",
+      "src": "O3",
+      "code": "O3"
+    },
+    {
+      "id": "NGC 7006",
+      "nature": "amas globulaire",
+      "mag": 10.46,
+      "distance_al": 128000,
+      "note": "Amas globulaire très excentré, l'un des plus éloignés du halo de notre galaxie.",
+      "instrument": "n. d.",
+      "src": "O3",
+      "code": "O3"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    "Reconnais-tu un losange, ou plutôt un « cerf-volant » ?",
+    "Combien d'étoiles vois-tu à l'intérieur du losange ?",
+    "Le losange te paraît-il vraiment petit comparé au Cygne voisin ?",
+    "Distingues-tu la queue qui s'échappe d'un coin du losange ?",
+    "Repères-tu le Dauphin à l'œil nu, sans jumelles ?"
+  ],
+  "questions_guide": [
+    "Cherche le petit losange serré à gauche de l'Aigle, sous la Flèche.",
+    "C'est l'une des plus petites constellations reconnaissables : si tu vois un mini-parallélogramme, c'est lui.",
+    "Rotanev et Sualocin, ses deux étoiles principales, ont des noms qui se lisent à l'envers — un canular d'astronome devenu officiel.",
+    "Sa queue pointe vers l'est : suis-la jusqu'à Aldulfin."
+  ],
+  "message_animation": "Le Dauphin est un petit losange serré d'étoiles, prolongé par une queue effilée : surnommé « le Cercueil de Job », c'est l'un des plus petits motifs reconnaissables du ciel d'été.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf — fiche « Dauphin »",
+    "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
+    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
+    "lacunes": [
+      "4 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

@@ -144,7 +144,7 @@
       "mag": null,
       "distance_al": null,
       "note": "Aucune magnitude publiée pour cette nébuleuse diffuse ; elle se repère à sa position, à 1° environ de γ Cassiopeiae.",
-      "instrument": null,
+      "instrument": "n. d.",
       "src": "Wikidata ; magnitude et distance non publiées",
       "code": "W1†‡"
     },
@@ -174,7 +174,7 @@
       "mag": null,
       "distance_al": 9500,
       "note": "Aucune magnitude publiée pour cette nébuleuse diffuse (dite « Pacman ») ; on la repère au filtre UHC, autour de l'amas IC 1590.",
-      "instrument": null,
+      "instrument": "n. d.",
       "src": "Wikidata ; magnitude non publiée",
       "code": "W1†"
     },
@@ -184,7 +184,7 @@
       "mag": null,
       "distance_al": 9620,
       "note": "Amas très jeune noyé dans la nébuleuse NGC 281 ; aucune magnitude publiée séparément pour l'amas.",
-      "instrument": null,
+      "instrument": "n. d.",
       "src": "Wikidata ; magnitude non publiée",
       "code": "W1†"
     }
@@ -299,6 +299,11 @@
         "code": "A1",
         "texte": "Atlas, corrigé page 2",
         "detail": "Valeur reprise de l'atlas de référence du guide."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
       }
     ],
     "marqueurs": [

@@ -30,7 +30,7 @@
    "ra_deg": 79.17233,
    "dec_deg": 45.99799,
    "mag": 0.08,
-   "role": "Repère majeur (mag 0,08). Nœud de la figure, relié à Menkalinan, Almaaz et Eta Aur.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
   },
@@ -41,7 +41,7 @@
    "ra_deg": 89.88218,
    "dec_deg": 44.94743,
    "mag": 1.9,
-   "role": "Repère majeur (mag 1,9). Maillon intermédiaire entre Capella et Theta Aur.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
   },
@@ -52,7 +52,7 @@
    "ra_deg": 81.57297,
    "dec_deg": 28.60745,
    "mag": 1.65,
-   "role": "Repère majeur (mag 1,65). Maillon intermédiaire entre Hassaleh et Theta Aur.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD TAP/ADQL, filtre V (étoile partagée Cocher/Taureau)"
   },

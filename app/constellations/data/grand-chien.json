@@ -1,371 +1,376 @@
 {
- "id": "grand-chien",
- "slug": "grand-chien",
- "nom_fr": "Grand Chien",
- "nom_latin": "Canis Major",
- "genitif": "Canis Majoris",
- "abreviation_iau": "CMa",
- "source_atlas": "Atlas observation.pdf, pages 45–46–47 (fiche Atlas « Grand Chien »)",
- "saison": "hiver",
- "voie_lactee": false,
- "repere_principal": "Sirius, l'étoile la plus brillante du ciel",
- "constellations_voisines": [
-  "Licorne",
-  "Lièvre",
-  "Colombe",
-  "Poupe"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "hip": 30324,
-   "nom": "Mirzam",
-   "etiq": "Mirzam",
-   "bayer": "bet CMa",
-   "ra_deg": 95.675,
-   "dec_deg": -17.956,
-   "mag": 1.98,
-   "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
-   "src": "Hipparcos (HIP 30324)/ IAU"
-  },
-  {
-   "i": 1,
-   "hip": 31592,
-   "nom": "7 CMa",
-   "etiq": "7",
-   "bayer": "nu.02 CMa",
-   "ra_deg": 99.171,
-   "dec_deg": -19.256,
-   "mag": 3.95,
-   "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
-   "src": "Hipparcos (HIP 31592)"
-  },
-  {
-   "i": 2,
-   "hip": 32349,
-   "nom": "Sirius",
-   "etiq": "Sirius",
-   "bayer": "alf CMa",
-   "ra_deg": 101.289,
-   "dec_deg": -16.713,
-   "mag": -1.44,
-   "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
-   "src": "Hipparcos (HIP 32349)/ IAU"
-  },
-  {
-   "i": 3,
-   "hip": 33152,
-   "nom": "16 CMa",
-   "etiq": "16",
-   "bayer": "omi01 CMa",
-   "ra_deg": 103.533,
-   "dec_deg": -24.184,
-   "mag": 3.89,
-   "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
-   "src": "Hipparcos (HIP 33152)"
-  },
-  {
-   "i": 4,
-   "hip": 33160,
-   "nom": "θ CMa",
-   "etiq": "θ",
-   "bayer": "the CMa",
-   "ra_deg": 103.548,
-   "dec_deg": -12.039,
-   "mag": 4.08,
-   "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
-   "src": "Hipparcos (HIP 33160)"
-  },
-  {
-   "i": 5,
-   "hip": 33347,
-   "nom": "ι CMa",
-   "etiq": "ι",
-   "bayer": "iot CMa",
-   "ra_deg": 104.034,
-   "dec_deg": -17.054,
-   "mag": 4.36,
-   "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
-   "src": "Hipparcos (HIP 33347)"
-  },
-  {
-   "i": 6,
-   "hip": 33579,
-   "nom": "Adhara",
-   "etiq": "Adhara",
-   "bayer": "eps CMa",
-   "ra_deg": 104.656,
-   "dec_deg": -28.972,
-   "mag": 1.5,
-   "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
-   "src": "Hipparcos (HIP 33579)/ IAU"
-  },
-  {
-   "i": 7,
-   "hip": 34045,
-   "nom": "Muliphein",
-   "etiq": "Muliphein",
-   "bayer": "gam CMa",
-   "ra_deg": 105.94,
-   "dec_deg": -15.633,
-   "mag": 4.11,
-   "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
-   "src": "Hipparcos (HIP 34045)/ IAU"
-  },
-  {
-   "i": 8,
-   "hip": 34444,
-   "nom": "Wezen",
-   "etiq": "Wezen",
-   "bayer": "del CMa",
-   "ra_deg": 107.098,
-   "dec_deg": -26.393,
-   "mag": 1.83,
-   "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
-   "src": "Hipparcos (HIP 34444)/ IAU"
-  },
-  {
-   "i": 9,
-   "hip": 35904,
-   "nom": "Aludra",
-   "etiq": "Aludra",
-   "bayer": "eta CMa",
-   "ra_deg": 111.024,
-   "dec_deg": -29.303,
-   "mag": 2.45,
-   "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
-   "src": "Hipparcos (HIP 35904)/ IAU"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    9,
-    8,
-    6,
-    3,
-    1,
-    0,
-    2,
-    5,
-    7,
-    4,
-    5
-   ],
-   [
-    2,
-    8
-   ]
+  "id": "grand-chien",
+  "slug": "grand-chien",
+  "nom_fr": "Grand Chien",
+  "nom_latin": "Canis Major",
+  "genitif": "Canis Majoris",
+  "abreviation_iau": "CMa",
+  "source_atlas": "Atlas observation.pdf, pages 45–46–47 (fiche Atlas « Grand Chien »)",
+  "saison": "hiver",
+  "voie_lactee": false,
+  "repere_principal": "Sirius, l'étoile la plus brillante du ciel",
+  "constellations_voisines": [
+    "Licorne",
+    "Lièvre",
+    "Colombe",
+    "Poupe"
   ],
-  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 10 étoiles reliées par 11 segments.",
-  "note_geometrie": "Figure construite sur 10 étoiles et 11 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Sirius à Wezen (11.08°) ; le plus court relie ι CMa à Muliphein (2.32°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Aludra–Wezen": 4.53,
-  "Wezen–Adhara": 3.37,
-  "Adhara–16 CMa": 4.89,
-  "16 CMa–7 CMa": 6.38,
-  "7 CMa–Mirzam": 3.56,
-  "Mirzam–Sirius": 5.5,
-  "Sirius–ι CMa": 2.65,
-  "ι CMa–Muliphein": 2.32,
-  "Muliphein–θ CMa": 4.28,
-  "θ CMa–ι CMa": 5.04,
-  "Sirius–Wezen": 11.08
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 2287",
-   "nature": "amas ouvert",
-   "mag": 4.5,
-   "distance_al": null,
-   "note": "NGC 2287 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "œil nu",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2363",
-   "nature": "galaxie",
-   "mag": null,
-   "distance_al": null,
-   "note": "NGC 2363 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "instrument non déterminé",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2354",
-   "nature": "amas ouvert",
-   "mag": 6.5,
-   "distance_al": null,
-   "note": "NGC 2354 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "jumelles",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2367",
-   "nature": "amas ouvert",
-   "mag": 7.9,
-   "distance_al": null,
-   "note": "NGC 2367 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "jumelles",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2359",
-   "nature": "nébuleuse",
-   "mag": null,
-   "distance_al": null,
-   "note": "NGC 2359 — nébuleuse documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "instrument non déterminé",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2207",
-   "nature": "galaxie",
-   "mag": 10.7,
-   "distance_al": null,
-   "note": "NGC 2207 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "IC 2163",
-   "nature": "galaxie",
-   "mag": null,
-   "distance_al": null,
-   "note": "IC 2163 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
-   "instrument": "instrument non déterminé",
-   "src": "N1",
-   "code": "N1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Sirius, magnitude -1.44, selon le catalogue Hipparcos (bande V)."
-  },
-  {
-   "q": "Quelles étoiles de la figure demandent un instrument ?",
-   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
-  },
-  {
-   "q": "Combien d'objets du ciel profond sont documentés dans Grand Chien ?",
-   "r": "7 objet(s), d'après la fiche Atlas correspondante."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Comment observer NGC 2287 ?",
-   "r": "NGC 2287 est un(e) amas ouvert de magnitude 4.5. Instrument conseillé : œil nu. NGC 2287 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien."
-  },
-  {
-   "q": "Quand observer Grand Chien ?",
-   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Sirius, l'étoile la plus brillante du ciel."
-  }
- ],
- "message_animation": "Grand Chien — 10 étoiles reliées, 7 objet(s) du ciel profond documenté(s). Saison : hiver.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 45–46–47 (fiche Atlas « Grand Chien »)",
-  "archive_texte": null,
-  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-  "lacunes": [
-   "NGC 2363 : Type divergent : la fiche Atlas décrit un amas d'une soixantaine d'étoiles, le catalogue NGC le donne comme galaxie (Gx, Girafe/Cam). Désignation douteuse dans la fiche."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "hip": 30324,
+      "nom": "Mirzam",
+      "etiq": "Mirzam",
+      "bayer": "bet CMa",
+      "ra_deg": 95.675,
+      "dec_deg": -17.956,
+      "mag": 1.98,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 30324)/ IAU"
+    },
+    {
+      "i": 1,
+      "hip": 31592,
+      "nom": "7 CMa",
+      "etiq": "7",
+      "bayer": "nu.02 CMa",
+      "ra_deg": 99.171,
+      "dec_deg": -19.256,
+      "mag": 3.95,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 31592)"
+    },
+    {
+      "i": 2,
+      "hip": 32349,
+      "nom": "Sirius",
+      "etiq": "Sirius",
+      "bayer": "alf CMa",
+      "ra_deg": 101.289,
+      "dec_deg": -16.713,
+      "mag": -1.44,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 32349)/ IAU"
+    },
+    {
+      "i": 3,
+      "hip": 33152,
+      "nom": "16 CMa",
+      "etiq": "16",
+      "bayer": "omi01 CMa",
+      "ra_deg": 103.533,
+      "dec_deg": -24.184,
+      "mag": 3.89,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 33152)"
+    },
+    {
+      "i": 4,
+      "hip": 33160,
+      "nom": "θ CMa",
+      "etiq": "θ",
+      "bayer": "the CMa",
+      "ra_deg": 103.548,
+      "dec_deg": -12.039,
+      "mag": 4.08,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 33160)"
+    },
+    {
+      "i": 5,
+      "hip": 33347,
+      "nom": "ι CMa",
+      "etiq": "ι",
+      "bayer": "iot CMa",
+      "ra_deg": 104.034,
+      "dec_deg": -17.054,
+      "mag": 4.36,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 33347)"
+    },
+    {
+      "i": 6,
+      "hip": 33579,
+      "nom": "Adhara",
+      "etiq": "Adhara",
+      "bayer": "eps CMa",
+      "ra_deg": 104.656,
+      "dec_deg": -28.972,
+      "mag": 1.5,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 33579)/ IAU"
+    },
+    {
+      "i": 7,
+      "hip": 34045,
+      "nom": "Muliphein",
+      "etiq": "Muliphein",
+      "bayer": "gam CMa",
+      "ra_deg": 105.94,
+      "dec_deg": -15.633,
+      "mag": 4.11,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 34045)/ IAU"
+    },
+    {
+      "i": 8,
+      "hip": 34444,
+      "nom": "Wezen",
+      "etiq": "Wezen",
+      "bayer": "del CMa",
+      "ra_deg": 107.098,
+      "dec_deg": -26.393,
+      "mag": 1.83,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 34444)/ IAU"
+    },
+    {
+      "i": 9,
+      "hip": 35904,
+      "nom": "Aludra",
+      "etiq": "Aludra",
+      "bayer": "eta CMa",
+      "ra_deg": 111.024,
+      "dec_deg": -29.303,
+      "mag": 2.45,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 35904)/ IAU"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        9,
+        8,
+        6,
+        3,
+        1,
+        0,
+        2,
+        5,
+        7,
+        4,
+        5
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 10 étoiles reliées par 11 segments.",
+    "note_geometrie": "Figure construite sur 10 étoiles et 11 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Sirius à Wezen (11.08°) ; le plus court relie ι CMa à Muliphein (2.32°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Aludra–Wezen": 4.53,
+    "Wezen–Adhara": 3.37,
+    "Adhara–16 CMa": 4.89,
+    "16 CMa–7 CMa": 6.38,
+    "7 CMa–Mirzam": 3.56,
+    "Mirzam–Sirius": 5.5,
+    "Sirius–ι CMa": 2.65,
+    "ι CMa–Muliphein": 2.32,
+    "Muliphein–θ CMa": 4.28,
+    "θ CMa–ι CMa": 5.04,
+    "Sirius–Wezen": 11.08
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 2287",
+      "nature": "amas ouvert",
+      "mag": 4.5,
+      "distance_al": null,
+      "note": "NGC 2287 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "œil nu",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2363",
+      "nature": "galaxie",
+      "mag": null,
+      "distance_al": null,
+      "note": "NGC 2363 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "n. d.",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2354",
+      "nature": "amas ouvert",
+      "mag": 6.5,
+      "distance_al": null,
+      "note": "NGC 2354 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "jumelles",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2367",
+      "nature": "amas ouvert",
+      "mag": 7.9,
+      "distance_al": null,
+      "note": "NGC 2367 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "jumelles",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2359",
+      "nature": "nébuleuse",
+      "mag": null,
+      "distance_al": null,
+      "note": "NGC 2359 — nébuleuse documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "n. d.",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2207",
+      "nature": "galaxie",
+      "mag": 10.7,
+      "distance_al": null,
+      "note": "NGC 2207 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "IC 2163",
+      "nature": "galaxie",
+      "mag": null,
+      "distance_al": null,
+      "note": "IC 2163 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
+      "instrument": "n. d.",
+      "src": "N1",
+      "code": "N1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Sirius, magnitude -1.44, selon le catalogue Hipparcos (bande V)."
+    },
+    {
+      "q": "Quelles étoiles de la figure demandent un instrument ?",
+      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+    },
+    {
+      "q": "Combien d'objets du ciel profond sont documentés dans Grand Chien ?",
+      "r": "7 objet(s), d'après la fiche Atlas correspondante."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Comment observer NGC 2287 ?",
+      "r": "NGC 2287 est un(e) amas ouvert de magnitude 4.5. Instrument conseillé : œil nu. NGC 2287 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien."
+    },
+    {
+      "q": "Quand observer Grand Chien ?",
+      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Sirius, l'étoile la plus brillante du ciel."
+    }
+  ],
+  "message_animation": "Grand Chien — 10 étoiles reliées, 7 objet(s) du ciel profond documenté(s). Saison : hiver.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 45–46–47 (fiche Atlas « Grand Chien »)",
+    "archive_texte": null,
+    "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "lacunes": [
+      "NGC 2363 : Type divergent : la fiche Atlas décrit un amas d'une soixantaine d'étoiles, le catalogue NGC le donne comme galaxie (Gx, Girafe/Cam). Désignation douteuse dans la fiche."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

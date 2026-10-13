@@ -1,337 +1,355 @@
 {
- "id": "poissons",
- "slug": "poissons",
- "nom_fr": "Poissons",
- "nom_latin": "Pisces",
- "genitif": "Piscium",
- "abreviation_iau": "Psc",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   87,
-   88
-  ]
- },
- "saison": "automne",
- "voie_lactee": false,
- "repere_principal": "L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase",
- "constellations_voisines": [
-  "Verseau",
-  "Baleine",
-  "Pégase",
-  "Andromède",
-  "Triangle",
-  "Bélier",
-  "Céphée",
-  "Lézard"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "δ",
-   "bayer": "del",
-   "ra_deg": 12.1704,
-   "dec_deg": 7.5852,
-   "mag": 4.5555,
-   "role": "Étoile de la figure (mag 4.5555).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+  "id": "poissons",
+  "slug": "poissons",
+  "nom_fr": "Poissons",
+  "nom_latin": "Pisces",
+  "genitif": "Piscium",
+  "abreviation_iau": "Psc",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      87,
+      88
+    ]
   },
-  {
-   "i": 1,
-   "nom": "ε",
-   "bayer": "eps",
-   "ra_deg": 15.73607,
-   "dec_deg": 7.89007,
-   "mag": 4.4267,
-   "role": "Étoile de la figure (mag 4.4267).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 2,
-   "nom": "τ",
-   "bayer": "tau",
-   "ra_deg": 17.91494,
-   "dec_deg": 30.08973,
-   "mag": 4.6751,
-   "role": "Étoile de la figure (mag 4.6751).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 3,
-   "nom": "Revati",
-   "bayer": "zet",
-   "ra_deg": 18.43251,
-   "dec_deg": 7.57549,
-   "mag": 5.2849,
-   "role": "Repère majeur (mag 5.2849).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 4,
-   "nom": "φ",
-   "bayer": "phi",
-   "ra_deg": 18.43723,
-   "dec_deg": 24.58376,
-   "mag": 4.834,
-   "role": "Étoile de la figure (mag 4.834).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 5,
-   "nom": "υ",
-   "bayer": "ups",
-   "ra_deg": 19.86657,
-   "dec_deg": 27.26409,
-   "mag": 4.7736,
-   "role": "Étoile de la figure (mag 4.7736).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 6,
-   "nom": "μ",
-   "bayer": "mu.",
-   "ra_deg": 22.5456,
-   "dec_deg": 6.14393,
-   "mag": 4.9799,
-   "role": "Étoile de la figure (mag 4.9799).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 7,
-   "nom": "Alpherg",
-   "bayer": "eta",
-   "ra_deg": 22.87081,
-   "dec_deg": 15.34583,
-   "mag": 3.7914,
-   "role": "Repère majeur (mag 3.7914).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 8,
-   "nom": "ν",
-   "bayer": "nu.",
-   "ra_deg": 25.35795,
-   "dec_deg": 5.48761,
-   "mag": 4.5914,
-   "role": "Étoile de la figure (mag 4.5914).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 9,
-   "nom": "Torcular",
-   "bayer": "omi",
-   "ra_deg": 26.34829,
-   "dec_deg": 9.15764,
-   "mag": 4.4267,
-   "role": "Repère majeur (mag 4.4267).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 10,
-   "nom": "Alrescha",
-   "bayer": "alf",
-   "ra_deg": 30.51167,
-   "dec_deg": 2.76376,
-   "mag": 3.8281,
-   "role": "Repère majeur (mag 3.8281).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 11,
-   "nom": "γ",
-   "bayer": "gam",
-   "ra_deg": 349.28956,
-   "dec_deg": 3.28225,
-   "mag": 3.8482,
-   "role": "Étoile de la figure (mag 3.8482).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 12,
-   "nom": "κ",
-   "bayer": "kap",
-   "ra_deg": 351.73294,
-   "dec_deg": 1.25584,
-   "mag": 4.9527,
-   "role": "Étoile de la figure (mag 4.9527).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 13,
-   "nom": "θ",
-   "bayer": "the",
-   "ra_deg": 351.99237,
-   "dec_deg": 6.3791,
-   "mag": 4.4401,
-   "role": "Étoile de la figure (mag 4.4401).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 14,
-   "nom": "ι",
-   "bayer": "iot",
-   "ra_deg": 354.98675,
-   "dec_deg": 5.62735,
-   "mag": 4.2373,
-   "role": "Étoile de la figure (mag 4.2373).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 15,
-   "nom": "λ",
-   "bayer": "lam",
-   "ra_deg": 355.51201,
-   "dec_deg": 1.78042,
-   "mag": 4.5578,
-   "role": "Étoile de la figure (mag 4.5578).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 16,
-   "nom": "ω",
-   "bayer": "ome",
-   "ra_deg": 359.82751,
-   "dec_deg": 6.86359,
-   "mag": 4.1219,
-   "role": "Étoile de la figure (mag 4.1219).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
-  "liaisons": [
-   [
-    14,
-    13,
-    11,
-    12,
-    15,
-    14,
-    16,
-    0,
-    1,
-    3,
-    6,
-    8,
-    10,
-    9,
-    7,
-    4,
-    2,
-    5,
-    4
-   ]
+  "saison": "automne",
+  "voie_lactee": false,
+  "repere_principal": "L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase",
+  "constellations_voisines": [
+    "Verseau",
+    "Baleine",
+    "Pégase",
+    "Andromède",
+    "Triangle",
+    "Bélier",
+    "Céphée",
+    "Lézard"
   ],
-  "commentaire": "Tracé IAU officiel (1 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-  "note_geometrie": "Figure construite sur 17 étoiles et 1 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Revati–Alpherg": 8.9,
-  "Revati–Torcular": 7.99,
-  "Revati–Alrescha": 12.95,
-  "Alpherg–Torcular": 7.06,
-  "Alpherg–Alrescha": 14.66,
-  "Torcular–Alrescha": 7.62
- },
- "objets_ciel_profond": [
-  {
-   "id": "M 74",
-   "nature": "objet",
-   "mag": 9.2,
-   "distance_al": null,
-   "note": "glob. cl. , F, vL, R, vg, psmbM, rr; = M74"
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "δ",
+      "bayer": "del",
+      "ra_deg": 12.1704,
+      "dec_deg": 7.5852,
+      "mag": 4.5555,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 1,
+      "nom": "ε",
+      "bayer": "eps",
+      "ra_deg": 15.73607,
+      "dec_deg": 7.89007,
+      "mag": 4.4267,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 2,
+      "nom": "τ",
+      "bayer": "tau",
+      "ra_deg": 17.91494,
+      "dec_deg": 30.08973,
+      "mag": 4.6751,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 3,
+      "nom": "Revati",
+      "bayer": "zet",
+      "ra_deg": 18.43251,
+      "dec_deg": 7.57549,
+      "mag": 5.2849,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 4,
+      "nom": "φ",
+      "bayer": "phi",
+      "ra_deg": 18.43723,
+      "dec_deg": 24.58376,
+      "mag": 4.834,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 5,
+      "nom": "υ",
+      "bayer": "ups",
+      "ra_deg": 19.86657,
+      "dec_deg": 27.26409,
+      "mag": 4.7736,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 6,
+      "nom": "μ",
+      "bayer": "mu.",
+      "ra_deg": 22.5456,
+      "dec_deg": 6.14393,
+      "mag": 4.9799,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 7,
+      "nom": "Alpherg",
+      "bayer": "eta",
+      "ra_deg": 22.87081,
+      "dec_deg": 15.34583,
+      "mag": 3.7914,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 8,
+      "nom": "ν",
+      "bayer": "nu.",
+      "ra_deg": 25.35795,
+      "dec_deg": 5.48761,
+      "mag": 4.5914,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 9,
+      "nom": "Torcular",
+      "bayer": "omi",
+      "ra_deg": 26.34829,
+      "dec_deg": 9.15764,
+      "mag": 4.4267,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 10,
+      "nom": "Alrescha",
+      "bayer": "alf",
+      "ra_deg": 30.51167,
+      "dec_deg": 2.76376,
+      "mag": 3.8281,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 11,
+      "nom": "γ",
+      "bayer": "gam",
+      "ra_deg": 349.28956,
+      "dec_deg": 3.28225,
+      "mag": 3.8482,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 12,
+      "nom": "κ",
+      "bayer": "kap",
+      "ra_deg": 351.73294,
+      "dec_deg": 1.25584,
+      "mag": 4.9527,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 13,
+      "nom": "θ",
+      "bayer": "the",
+      "ra_deg": 351.99237,
+      "dec_deg": 6.3791,
+      "mag": 4.4401,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 14,
+      "nom": "ι",
+      "bayer": "iot",
+      "ra_deg": 354.98675,
+      "dec_deg": 5.62735,
+      "mag": 4.2373,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 15,
+      "nom": "λ",
+      "bayer": "lam",
+      "ra_deg": 355.51201,
+      "dec_deg": 1.78042,
+      "mag": 4.5578,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 16,
+      "nom": "ω",
+      "bayer": "ome",
+      "ra_deg": 359.82751,
+      "dec_deg": 6.86359,
+      "mag": 4.1219,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "liaisons": [
+      [
+        14,
+        13,
+        11,
+        12,
+        15,
+        14,
+        16,
+        0,
+        1,
+        3,
+        6,
+        8,
+        10,
+        9,
+        7,
+        4,
+        2,
+        5,
+        4
+      ]
+    ],
+    "commentaire": "Tracé IAU officiel (1 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
+    "note_geometrie": "Figure construite sur 17 étoiles et 1 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
   },
-  {
-   "id": "NGC 676",
-   "nature": "objet",
-   "mag": 11,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (NGC 676). Description non détaillée dans la fiche Atlas."
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Revati–Alpherg": 8.9,
+    "Revati–Torcular": 7.99,
+    "Revati–Alrescha": 12.95,
+    "Alpherg–Torcular": 7.06,
+    "Alpherg–Alrescha": 14.66,
+    "Torcular–Alrescha": 7.62
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "M 74",
+      "nature": "galaxie",
+      "mag": 9.2,
+      "distance_al": null,
+      "note": "Galaxie spirale (radio) de type Sc, vue de face, dans laquelle on observe près de 200 nuages d'hydrogène ionisé.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 87-88",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 676",
+      "nature": "galaxie",
+      "mag": 11,
+      "distance_al": null,
+      "note": "Galaxie spirale de magnitude 10,50, vue par la tranche.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 87-88",
+      "code": "N2"
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile en vision directe"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "vue en vision décalée"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "difficile, ciel noir requis"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Alpherg, magnitude 3.7914."
+    },
+    {
+      "q": "Comment repérer δ et ε dans le ciel ?",
+      "r": "L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
+    },
+    {
+      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
+      "r": "M 74 (objet, magnitude 9.2). Voir la fiche pour la description."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Que raconte-t-on au public en pointant δ ?",
+      "r": "Située en saison automne. Repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
+    },
+    {
+      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
+      "r": "M 74 (objet) : glob. cl. , F, vL, R, vg, psmbM, rr; = M74"
+    },
+    {
+      "q": "Comment orienter le visiteur sur la carte ?",
+      "r": "Faire partir du repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
+    }
+  ],
+  "message_animation": "Poissons : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase. Constellation de automne (17 étoiles figurées, 2 objet(s) du ciel profond).",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 87–88 (fiche Atlas « Poissons »)",
+    "archive_texte": "atlas-observation-source/087-*.txt",
+    "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
+    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
+    "lacunes": [
+      "Figure : tracé IAU officiel suivi (1 chaîne(s)) ; aucune carte n'impose un tracé unique.",
+      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
+    "refs": [],
+    "lignes": [
+      {
+        "code": "N2",
+        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
+        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ]
   }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile en vision directe"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "vue en vision décalée"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "difficile, ciel noir requis"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Alpherg, magnitude 3.7914."
-  },
-  {
-   "q": "Comment repérer δ et ε dans le ciel ?",
-   "r": "L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
-  },
-  {
-   "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-   "r": "M 74 (objet, magnitude 9.2). Voir la fiche pour la description."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Que raconte-t-on au public en pointant δ ?",
-   "r": "Située en saison automne. Repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
-  },
-  {
-   "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-   "r": "M 74 (objet) : glob. cl. , F, vL, R, vg, psmbM, rr; = M74"
-  },
-  {
-   "q": "Comment orienter le visiteur sur la carte ?",
-   "r": "Faire partir du repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
-  }
- ],
- "message_animation": "Poissons : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase. Constellation de automne (17 étoiles figurées, 2 objet(s) du ciel profond).",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 87–88 (fiche Atlas « Poissons »)",
-  "archive_texte": "atlas-observation-source/087-*.txt",
-  "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-  "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-  "lacunes": [
-   "Figure : tracé IAU officiel suivi (1 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-   "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-  "refs": []
- }
 }

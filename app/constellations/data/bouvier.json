@@ -1,314 +1,319 @@
 {
- "id": "bouvier",
- "slug": "bouvier",
- "nom_fr": "Bouvier",
- "nom_latin": "Boötes",
- "genitif": "Boötis",
- "abreviation_iau": "Boo",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   9,
-   10
-  ]
- },
- "saison": "printemps–été",
- "voie_lactee": false,
- "repere_principal": "Arcturus, étoile orangée très brillante, que l'on trouve en prolongeant l'arc de la queue de la Grande Ourse",
- "constellations_voisines": [
-  "La Grande Ourse",
-  "Les Chiens de Chasse",
-  "La Chevelure de Bérénice",
-  "La Vierge",
-  "Le Serpent",
-  "La Couronne boréale",
-  "Hercule",
-  "Le Dragon"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "Arcturus",
-   "bayer": "alf Boo",
-   "ra_deg": 213.9153,
-   "dec_deg": 19.18241,
-   "mag": -0.05,
-   "role": "Repère majeur (mag -0,05). Nœud de la figure, relié à Izar, Muphrid et Zeta Boo.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  "id": "bouvier",
+  "slug": "bouvier",
+  "nom_fr": "Bouvier",
+  "nom_latin": "Boötes",
+  "genitif": "Boötis",
+  "abreviation_iau": "Boo",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      9,
+      10
+    ]
   },
-  {
-   "i": 1,
-   "nom": "Nekkar",
-   "bayer": "bet Boo",
-   "ra_deg": 225.48651,
-   "dec_deg": 40.39057,
-   "mag": 3.52,
-   "role": "Maillon intermédiaire entre Seginus et Delta Boo.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  },
-  {
-   "i": 2,
-   "nom": "Seginus",
-   "bayer": "gam Boo",
-   "ra_deg": 218.01947,
-   "dec_deg": 38.30825,
-   "mag": 3.02,
-   "role": "Extrémité du tracé, reliée à Nekkar.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  },
-  {
-   "i": 3,
-   "nom": "Izar",
-   "bayer": "eps Boo",
-   "ra_deg": 221.24674,
-   "dec_deg": 27.07422,
-   "mag": 2.45,
-   "role": "Repère majeur (mag 2,45). Maillon intermédiaire entre Arcturus et Delta Boo.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  },
-  {
-   "i": 4,
-   "nom": "Muphrid",
-   "bayer": "eta Boo",
-   "ra_deg": 208.67116,
-   "dec_deg": 18.39772,
-   "mag": 2.68,
-   "role": "Extrémité du tracé, reliée à Arcturus.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  },
-  {
-   "i": 5,
-   "nom": "Delta Boo",
-   "bayer": "del Boo",
-   "ra_deg": 228.87568,
-   "dec_deg": 33.31483,
-   "mag": 3.49,
-   "role": "Maillon intermédiaire entre Nekkar et Izar.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  },
-  {
-   "i": 6,
-   "nom": "Zeta Boo",
-   "bayer": "zet Boo",
-   "ra_deg": 220.2873,
-   "dec_deg": 13.7283,
-   "mag": 3.78,
-   "role": "Extrémité du tracé, reliée à Arcturus.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    0,
-    3
-   ],
-   [
-    0,
-    4
-   ],
-   [
-    0,
-    6
-   ],
-   [
-    1,
-    2
-   ],
-   [
-    1,
-    5
-   ],
-   [
-    3,
-    5
-   ]
+  "saison": "printemps–été",
+  "voie_lactee": false,
+  "repere_principal": "Arcturus, étoile orangée très brillante, que l'on trouve en prolongeant l'arc de la queue de la Grande Ourse",
+  "constellations_voisines": [
+    "La Grande Ourse",
+    "Les Chiens de Chasse",
+    "La Chevelure de Bérénice",
+    "La Vierge",
+    "Le Serpent",
+    "La Couronne boréale",
+    "Hercule",
+    "Le Dragon"
   ],
-  "commentaire": "Tracé retenu : l'axe Muphrid–Arcturus–Izar–Delta Boo–Nekkar–Seginus, avec la branche Arcturus–Zeta Boo.",
-  "note_geometrie": "Un cerf-volant articulé autour d'Arcturus, qui porte à lui seul trois liaisons. Le manche part vers le sud : Arcturus–Muphrid 5,03° (la plus courte), puis Arcturus–Izar 10,37° (la plus longue de la figure). La boucle se ferme par Izar–Delta Boo 9,07°, Nekkar–Delta Boo 7,58° et Nekkar–Seginus 6,14°. La branche Arcturus–Zeta Boo (8,19°) reste isolée.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Arcturus–Izar": 10.37,
-  "Arcturus–Muphrid": 5.03,
-  "Arcturus–Zeta Boo": 8.19,
-  "Nekkar–Seginus": 6.14,
-  "Nekkar–Delta Boo": 7.58,
-  "Izar–Delta Boo": 9.07
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 5466",
-   "nature": "amas globulaire",
-   "mag": 9.7,
-   "distance_al": 52576,
-   "note": "Amas globulaire peu concentré, à environ 52 600 années-lumière (l'Atlas indique 45 000).",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 5600",
-   "nature": "galaxie",
-   "mag": 12.39,
-   "distance_al": 116437692,
-   "note": "Galaxie spirale vue de face, très faible (magnitude 12,39), pour un grand télescope.",
-   "instrument": "grand télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 5248",
-   "nature": "galaxie",
-   "mag": 9.97,
-   "distance_al": 44194138,
-   "note": "Galaxie spirale de type Sc vue de trois quarts, à environ 44 millions d'années-lumière.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 5676",
-   "nature": "galaxie",
-   "mag": 11.22,
-   "distance_al": 111545352,
-   "note": "Galaxie spirale de même type que NGC 5248, de magnitude 11,22 en bande V.",
-   "instrument": "grand télescope",
-   "src": "O1",
-   "code": "O1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus facile à repérer ?",
-   "r": "Arcturus (α Boo), magnitude −0,05 : la plus brillante de la constellation, reliée à trois étoiles (Izar, Muphrid, Zeta Boo)."
-  },
-  {
-   "q": "Pourquoi la magnitude d'Arcturus est-elle négative ?",
-   "r": "Plus une étoile est brillante, plus sa magnitude est petite, et elle devient négative pour les astres les plus éclatants ; Arcturus (−0,05) est bien plus brillante qu'Izar (2,45)."
-  },
-  {
-   "q": "Quelles étoiles forment l'extrémité nord de la figure ?",
-   "r": "Nekkar (β Boo, 3,52) et Seginus (γ Boo, 3,02), distantes de 6,14°."
-  },
-  {
-   "q": "Quels objets nécessitent un télescope ?",
-   "r": "NGC 5466 (magnitude 9,7), NGC 5248 (9,97), NGC 5676 (11,22) et NGC 5600 (12,39), cette dernière demandant un grand télescope."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Quelle est la distance d'Arcturus à Izar sur le ciel ?",
-   "r": "10,37° : un angle voisin d'une main ouverte à bout de bras. Arcturus–Muphrid n'est que de 5,03°."
-  },
-  {
-   "q": "NGC 5466 est-il à 45 000 années-lumière comme le dit l'Atlas ?",
-   "r": "Non : la valeur retenue est d'environ 52 576 années-lumière, d'après Baumgardt & Vasiliev 2021, la référence pour les amas globulaires (erreur de l'ordre de 1 %)."
-  },
-  {
-   "q": "Pourquoi l'Atlas donne-t-il 11,4 pour NGC 5248 alors que le catalogue donne 9,97 ?",
-   "r": "Les deux valeurs ne sont pas mesurées de la même façon (bande V pour OpenNGC, source différente pour l'Atlas). Il faut toujours préciser la bande quand on compare des magnitudes."
-  },
-  {
-   "q": "Que signifie « galaxie vue de face » ?",
-   "r": "Que le disque de la galaxie est presque perpendiculaire à notre ligne de visée : on distingue ses bras spiraux, comme pour NGC 5600."
-  }
- ],
- "message_animation": "Le Bouvier est dominé par Arcturus, d'une magnitude négative (−0,05), l'un des repères les plus faciles du ciel de printemps. Autour de cette étoile s'organise une figure en cerf-volant, puis un amas globulaire (NGC 5466) et plusieurs galaxies faibles.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 9–10 (fiche Atlas « Bouvier »)",
-  "archive_texte": "atlas-observation-source/009-bouvier.txt",
-  "coordonnees": "Hipparcos I311 / Gaia DR3",
-  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-  "lacunes": [
-   "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix.",
-   "NGC 5466 : distance retenue (Baumgardt & Vasiliev 2021) différente de celle de l'Atlas (45 000 a.l.).",
-   "NGC 5248 et NGC 5676 : l'Atlas donne 11,4 et 11,7, OpenNGC 9,97 et 11,22."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Arcturus",
+      "bayer": "alf Boo",
+      "ra_deg": 213.9153,
+      "dec_deg": 19.18241,
+      "mag": -0.05,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Nekkar",
+      "bayer": "bet Boo",
+      "ra_deg": 225.48651,
+      "dec_deg": 40.39057,
+      "mag": 3.52,
+      "role": "Maillon intermédiaire entre Seginus et Delta Boo.",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 2,
+      "nom": "Seginus",
+      "bayer": "gam Boo",
+      "ra_deg": 218.01947,
+      "dec_deg": 38.30825,
+      "mag": 3.02,
+      "role": "Extrémité du tracé, reliée à Nekkar.",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 3,
+      "nom": "Izar",
+      "bayer": "eps Boo",
+      "ra_deg": 221.24674,
+      "dec_deg": 27.07422,
+      "mag": 2.45,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 4,
+      "nom": "Muphrid",
+      "bayer": "eta Boo",
+      "ra_deg": 208.67116,
+      "dec_deg": 18.39772,
+      "mag": 2.68,
+      "role": "Extrémité du tracé, reliée à Arcturus.",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 5,
+      "nom": "Delta Boo",
+      "bayer": "del Boo",
+      "ra_deg": 228.87568,
+      "dec_deg": 33.31483,
+      "mag": 3.49,
+      "role": "Maillon intermédiaire entre Nekkar et Izar.",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 6,
+      "nom": "Zeta Boo",
+      "bayer": "zet Boo",
+      "ra_deg": 220.2873,
+      "dec_deg": 13.7283,
+      "mag": 3.78,
+      "role": "Extrémité du tracé, reliée à Arcturus.",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "commentaire": "Tracé retenu : l'axe Muphrid–Arcturus–Izar–Delta Boo–Nekkar–Seginus, avec la branche Arcturus–Zeta Boo.",
+    "note_geometrie": "Un cerf-volant articulé autour d'Arcturus, qui porte à lui seul trois liaisons. Le manche part vers le sud : Arcturus–Muphrid 5,03° (la plus courte), puis Arcturus–Izar 10,37° (la plus longue de la figure). La boucle se ferme par Izar–Delta Boo 9,07°, Nekkar–Delta Boo 7,58° et Nekkar–Seginus 6,14°. La branche Arcturus–Zeta Boo (8,19°) reste isolée.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Arcturus–Izar": 10.37,
+    "Arcturus–Muphrid": 5.03,
+    "Arcturus–Zeta Boo": 8.19,
+    "Nekkar–Seginus": 6.14,
+    "Nekkar–Delta Boo": 7.58,
+    "Izar–Delta Boo": 9.07
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 5466",
+      "nature": "amas globulaire",
+      "mag": 9.7,
+      "distance_al": 52576,
+      "note": "Amas globulaire peu concentré, à environ 52 600 années-lumière (l'Atlas indique 45 000).",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 5600",
+      "nature": "galaxie",
+      "mag": 12.39,
+      "distance_al": 116437692,
+      "note": "Galaxie spirale vue de face, très faible (magnitude 12,39), pour un grand télescope.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 5248",
+      "nature": "galaxie",
+      "mag": 9.97,
+      "distance_al": 44194138,
+      "note": "Galaxie spirale de type Sc vue de trois quarts, à environ 44 millions d'années-lumière.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 5676",
+      "nature": "galaxie",
+      "mag": 11.22,
+      "distance_al": 111545352,
+      "note": "Galaxie spirale de même type que NGC 5248, de magnitude 11,22 en bande V.",
+      "instrument": "n. d.",
+      "src": "O1",
+      "code": "O1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus facile à repérer ?",
+      "r": "Arcturus (α Boo), magnitude −0,05 : la plus brillante de la constellation, reliée à trois étoiles (Izar, Muphrid, Zeta Boo)."
+    },
+    {
+      "q": "Pourquoi la magnitude d'Arcturus est-elle négative ?",
+      "r": "Plus une étoile est brillante, plus sa magnitude est petite, et elle devient négative pour les astres les plus éclatants ; Arcturus (−0,05) est bien plus brillante qu'Izar (2,45)."
+    },
+    {
+      "q": "Quelles étoiles forment l'extrémité nord de la figure ?",
+      "r": "Nekkar (β Boo, 3,52) et Seginus (γ Boo, 3,02), distantes de 6,14°."
+    },
+    {
+      "q": "Quels objets nécessitent un télescope ?",
+      "r": "NGC 5466 (magnitude 9,7), NGC 5248 (9,97), NGC 5676 (11,22) et NGC 5600 (12,39), cette dernière demandant un grand télescope."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Quelle est la distance d'Arcturus à Izar sur le ciel ?",
+      "r": "10,37° : un angle voisin d'une main ouverte à bout de bras. Arcturus–Muphrid n'est que de 5,03°."
+    },
+    {
+      "q": "NGC 5466 est-il à 45 000 années-lumière comme le dit l'Atlas ?",
+      "r": "Non : la valeur retenue est d'environ 52 576 années-lumière, d'après Baumgardt & Vasiliev 2021, la référence pour les amas globulaires (erreur de l'ordre de 1 %)."
+    },
+    {
+      "q": "Pourquoi l'Atlas donne-t-il 11,4 pour NGC 5248 alors que le catalogue donne 9,97 ?",
+      "r": "Les deux valeurs ne sont pas mesurées de la même façon (bande V pour OpenNGC, source différente pour l'Atlas). Il faut toujours préciser la bande quand on compare des magnitudes."
+    },
+    {
+      "q": "Que signifie « galaxie vue de face » ?",
+      "r": "Que le disque de la galaxie est presque perpendiculaire à notre ligne de visée : on distingue ses bras spiraux, comme pour NGC 5600."
+    }
+  ],
+  "message_animation": "Le Bouvier est dominé par Arcturus, d'une magnitude négative (−0,05), l'un des repères les plus faciles du ciel de printemps. Autour de cette étoile s'organise une figure en cerf-volant, puis un amas globulaire (NGC 5466) et plusieurs galaxies faibles.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 9–10 (fiche Atlas « Bouvier »)",
+    "archive_texte": "atlas-observation-source/009-bouvier.txt",
+    "coordonnees": "Hipparcos I311 / Gaia DR3",
+    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+    "lacunes": [
+      "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix.",
+      "NGC 5466 : distance retenue (Baumgardt & Vasiliev 2021) différente de celle de l'Atlas (45 000 a.l.).",
+      "NGC 5248 et NGC 5676 : l'Atlas donne 11,4 et 11,7, OpenNGC 9,97 et 11,22."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

@@ -27,7 +27,7 @@
    "dec_deg": 59.011,
    "mag": 4.44,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 30060)"
   },
   {
@@ -40,7 +40,7 @@
    "dec_deg": 58.423,
    "mag": 4.35,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 33449)"
   },
   {
@@ -53,7 +53,7 @@
    "dec_deg": 49.212,
    "mag": 4.61,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 36145)"
   },
   {
@@ -66,7 +66,7 @@
    "dec_deg": 43.188,
    "mag": 4.25,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 41075)"
   },
   {
@@ -79,7 +79,7 @@
    "dec_deg": 41.783,
    "mag": 3.96,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 44248) [constellation réelle : UMa]"
   },
   {
@@ -92,7 +92,7 @@
    "dec_deg": 38.452,
    "mag": 4.56,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 44700)"
   },
   {
@@ -105,7 +105,7 @@
    "dec_deg": 36.803,
    "mag": 3.82,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 45688)"
   },
   {
@@ -118,7 +118,7 @@
    "dec_deg": 34.393,
    "mag": 3.14,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 45860)"
   }
  ],

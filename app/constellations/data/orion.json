@@ -176,7 +176,7 @@
       "mag": null,
       "distance_al": 1290,
       "note": "Nébuleuse de l'Homme qui court, illuminée par plusieurs étoiles chaudes ; aucune magnitude globale publiée, elle s'observe en grand champ autour de M 42.",
-      "instrument": null,
+      "instrument": "n. d.",
       "src": "Wikidata ; magnitude non publiée",
       "code": "W1†"
     },
@@ -371,6 +371,11 @@
         "code": "A1",
         "texte": "Atlas, corrigé page 2",
         "detail": "Valeur reprise de l'atlas de référence du guide."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
       }
     ],
     "marqueurs": [

@@ -26,7 +26,7 @@
    "dec_deg": 8.289,
    "mag": 2.89,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 36188)/ IAU"
   },
   {
@@ -39,7 +39,7 @@
    "dec_deg": 5.228,
    "mag": 0.4,
    "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 37279)/ IAU"
   }
  ],

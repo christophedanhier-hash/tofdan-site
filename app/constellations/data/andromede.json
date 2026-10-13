@@ -32,7 +32,7 @@
    "ra_deg": 2.09692,
    "dec_deg": 29.09043,
    "mag": 2.06,
-   "role": "Repère majeur (mag 2,06). Extrémité du tracé, reliée à Delta And.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
   },
@@ -43,7 +43,7 @@
    "ra_deg": 17.43302,
    "dec_deg": 35.62056,
    "mag": 2.05,
-   "role": "Repère majeur (mag 2,05). Nœud de la figure, relié à Almach, Delta And, Pi And et Mu And.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
   },
@@ -54,7 +54,7 @@
    "ra_deg": 30.9748,
    "dec_deg": 42.32973,
    "mag": 2.1,
-   "role": "Repère majeur (mag 2,1). Extrémité du tracé, reliée à Mirach.",
+   "role": "",
    "visibilite": "œil nu",
    "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
   },

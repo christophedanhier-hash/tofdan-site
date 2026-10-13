@@ -35,7 +35,7 @@
    "dec_deg": 5.704,
    "mag": 4.14,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 42313)"
   },
   {
@@ -48,7 +48,7 @@
    "dec_deg": 3.341,
    "mag": 4.45,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 42402)/ IAU"
   },
   {
@@ -61,7 +61,7 @@
    "dec_deg": 3.399,
    "mag": 4.3,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 42799)"
   },
   {
@@ -74,7 +74,7 @@
    "dec_deg": 6.419,
    "mag": 3.38,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 43109)/ IAU"
   },
   {
@@ -87,7 +87,7 @@
    "dec_deg": 5.838,
    "mag": 4.35,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 43234)"
   },
   {
@@ -100,7 +100,7 @@
    "dec_deg": 5.946,
    "mag": 3.11,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 43813)"
   },
   {
@@ -113,7 +113,7 @@
    "dec_deg": 2.315,
    "mag": 3.89,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 45336)"
   },
   {
@@ -126,7 +126,7 @@
    "dec_deg": -8.659,
    "mag": 1.99,
    "role": "",
-   "visibilite": "très brillante, visible toute l'année sous nos latitudes",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 46390)/ IAU"
   },
   {
@@ -139,7 +139,7 @@
    "dec_deg": -1.143,
    "mag": 3.9,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 47431)/ IAU"
   },
   {
@@ -152,7 +152,7 @@
    "dec_deg": -14.847,
    "mag": 4.11,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 48356)"
   },
   {
@@ -165,7 +165,7 @@
    "dec_deg": -13.065,
    "mag": 4.6,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 49402)"
   },
   {
@@ -178,7 +178,7 @@
    "dec_deg": -12.354,
    "mag": 3.61,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 49841)"
   },
   {
@@ -191,7 +191,7 @@
    "dec_deg": -16.836,
    "mag": 3.83,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 51069)"
   },
   {
@@ -204,7 +204,7 @@
    "dec_deg": -16.194,
    "mag": 3.11,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 52943)"
   },
   {
@@ -217,7 +217,7 @@
    "dec_deg": -18.299,
    "mag": 4.08,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 53740)/ IAU [constellation réelle : Crt]"
   },
   {
@@ -230,7 +230,7 @@
    "dec_deg": -22.826,
    "mag": 4.46,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 54682) [constellation réelle : Crt]"
   },
   {
@@ -243,7 +243,7 @@
    "dec_deg": -31.858,
    "mag": 3.54,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 56343)"
   },
   {
@@ -256,7 +256,7 @@
    "dec_deg": -33.908,
    "mag": 4.29,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 57936)"
   },
   {
@@ -269,7 +269,7 @@
    "dec_deg": -23.171,
    "mag": 2.99,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 64962)"
   },
   {
@@ -282,7 +282,7 @@
    "dec_deg": -26.682,
    "mag": 3.25,
    "role": "",
-   "visibilite": "brillante, visible à l'œil nu",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 68895)"
   },
   {
@@ -295,7 +295,7 @@
    "dec_deg": -27.96,
    "mag": 4.42,
    "role": "",
-   "visibilite": "visible à l'œil nu par nuit claire",
+   "visibilite": "œil nu",
    "src": "Hipparcos (HIP 72571)"
   }
  ],

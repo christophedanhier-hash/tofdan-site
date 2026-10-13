@@ -1,464 +1,503 @@
 {
- "id": "scorpion",
- "slug": "scorpion",
- "nom_fr": "Scorpion",
- "nom_latin": "Scorpius",
- "genitif": "Scorpii",
- "abreviation_iau": "Sco",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   100,
-   101,
-   102
-  ]
- },
- "saison": "été",
- "voie_lactee": true,
- "repere_principal": "Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)",
- "constellations_voisines": [
-  "Balance",
-  "Ophiuchus",
-  "Couronne Australe",
-  "Autel",
-  "Loup",
-  "Règle",
-  "Indien"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "Iklil",
-   "bayer": "rho",
-   "ra_deg": 239.22119,
-   "dec_deg": -29.21401,
-   "mag": 3.8095,
-   "role": "Repère majeur (mag 3.8095).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+  "id": "scorpion",
+  "slug": "scorpion",
+  "nom_fr": "Scorpion",
+  "nom_latin": "Scorpius",
+  "genitif": "Scorpii",
+  "abreviation_iau": "Sco",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      100,
+      101,
+      102
+    ]
   },
-  {
-   "i": 1,
-   "nom": "Fang",
-   "bayer": "pi.",
-   "ra_deg": 239.713,
-   "dec_deg": -26.11404,
-   "mag": 2.8274,
-   "role": "Repère majeur (mag 2.8274).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 2,
-   "nom": "Dschubba",
-   "bayer": "del",
-   "ra_deg": 240.08338,
-   "dec_deg": -22.62162,
-   "mag": 2.2617,
-   "role": "Repère majeur (mag 2.2617).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 3,
-   "nom": "Acrab",
-   "bayer": "bet01",
-   "ra_deg": 241.35931,
-   "dec_deg": -19.80539,
-   "mag": 2.594,
-   "role": "Repère majeur (mag 2.594).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 4,
-   "nom": "Jabbah",
-   "bayer": "nu.",
-   "ra_deg": 242.99892,
-   "dec_deg": -19.46065,
-   "mag": 4.0076,
-   "role": "Repère majeur (mag 4.0076).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 5,
-   "nom": "Alniyat",
-   "bayer": "sig",
-   "ra_deg": 245.29718,
-   "dec_deg": -25.59275,
-   "mag": 2.9227,
-   "role": "Repère majeur (mag 2.9227).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 6,
-   "nom": "Antares",
-   "bayer": "alf",
-   "ra_deg": 247.35195,
-   "dec_deg": -26.43195,
-   "mag": 0.9757,
-   "role": "Repère majeur (mag 0.9757).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 7,
-   "nom": "Paikauhale",
-   "bayer": "tau",
-   "ra_deg": 248.97066,
-   "dec_deg": -28.21596,
-   "mag": 2.7374,
-   "role": "Repère majeur (mag 2.7374).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 8,
-   "nom": "Larawag",
-   "bayer": "eps",
-   "ra_deg": 252.54269,
-   "dec_deg": -34.29261,
-   "mag": 2.4532,
-   "role": "Repère majeur (mag 2.4532).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 9,
-   "nom": "μ1",
-   "bayer": "mu.01",
-   "ra_deg": 252.96766,
-   "dec_deg": -38.04733,
-   "mag": 2.9245,
-   "role": "Étoile de la figure (mag 2.9245).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 10,
-   "nom": "ζ2",
-   "bayer": "zet02",
-   "ra_deg": 253.64627,
-   "dec_deg": -42.36076,
-   "mag": 3.7651,
-   "role": "Étoile de la figure (mag 3.7651).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 11,
-   "nom": "η",
-   "bayer": "eta",
-   "ra_deg": 258.03823,
-   "dec_deg": -43.23849,
-   "mag": 3.4149,
-   "role": "Étoile de la figure (mag 3.4149).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 12,
-   "nom": "Lesath",
-   "bayer": "ups",
-   "ra_deg": 262.69099,
-   "dec_deg": -37.29574,
-   "mag": 2.6043,
-   "role": "Repère majeur (mag 2.6043).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 13,
-   "nom": "Shaula",
-   "bayer": "lam",
-   "ra_deg": 263.40219,
-   "dec_deg": -37.10375,
-   "mag": 1.5244,
-   "role": "Repère majeur (mag 1.5244).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 14,
-   "nom": "Sargas",
-   "bayer": "the",
-   "ra_deg": 264.32969,
-   "dec_deg": -42.99782,
-   "mag": 1.9269,
-   "role": "Repère majeur (mag 1.9269).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 15,
-   "nom": "κ",
-   "bayer": "kap",
-   "ra_deg": 265.622,
-   "dec_deg": -39.02992,
-   "mag": 2.3164,
-   "role": "Étoile de la figure (mag 2.3164).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 16,
-   "nom": "ι1",
-   "bayer": "iot01",
-   "ra_deg": 266.89617,
-   "dec_deg": -40.12698,
-   "mag": 3.1092,
-   "role": "Étoile de la figure (mag 3.1092).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  },
-  {
-   "i": 17,
-   "nom": "G",
-   "bayer": "G",
-   "ra_deg": 267.46438,
-   "dec_deg": -37.04337,
-   "mag": 3.3521,
-   "role": "Étoile de la figure (mag 3.3521).",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
-  "liaisons": [
-   [
-    17,
-    13,
-    12,
-    15,
-    16,
-    14,
-    11,
-    10,
-    9,
-    8,
-    7,
-    6,
-    5,
-    2,
-    3,
-    4
-   ],
-   [
-    2,
-    1,
-    0
-   ]
+  "saison": "été",
+  "voie_lactee": true,
+  "repere_principal": "Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)",
+  "constellations_voisines": [
+    "Balance",
+    "Ophiuchus",
+    "Couronne Australe",
+    "Autel",
+    "Loup",
+    "Règle",
+    "Indien"
   ],
-  "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-  "note_geometrie": "Figure construite sur 18 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Iklil–Fang": 3.13,
-  "Iklil–Dschubba": 6.64,
-  "Iklil–Acrab": 9.61,
-  "Iklil–Jabbah": 10.34,
-  "Iklil–Alniyat": 6.5,
-  "Iklil–Antares": 7.71,
-  "Iklil–Paikauhale": 8.61,
-  "Iklil–Larawag": 12.4,
-  "Iklil–Lesath": 21.15,
-  "Iklil–Shaula": 21.65,
-  "Iklil–Sargas": 24.37,
-  "Fang–Dschubba": 3.51,
-  "Fang–Acrab": 6.49,
-  "Fang–Jabbah": 7.31,
-  "Fang–Alniyat": 5.05,
-  "Fang–Antares": 6.86,
-  "Fang–Paikauhale": 8.5,
-  "Fang–Larawag": 13.76,
-  "Fang–Lesath": 22.43,
-  "Fang–Shaula": 22.88,
-  "Fang–Sargas": 26.21,
-  "Dschubba–Acrab": 3.06,
-  "Dschubba–Jabbah": 4.17,
-  "Dschubba–Alniyat": 5.61,
-  "Dschubba–Antares": 7.63,
-  "Dschubba–Paikauhale": 9.78,
-  "Dschubba–Larawag": 15.98,
-  "Dschubba–Lesath": 24.36,
-  "Dschubba–Shaula": 24.76,
-  "Dschubba–Sargas": 28.61,
-  "Acrab–Jabbah": 1.58,
-  "Acrab–Alniyat": 6.83,
-  "Acrab–Antares": 8.62,
-  "Acrab–Paikauhale": 10.91,
-  "Acrab–Larawag": 17.55,
-  "Acrab–Lesath": 25.51,
-  "Acrab–Shaula": 25.85,
-  "Acrab–Sargas": 30.16,
-  "Jabbah–Alniyat": 6.49,
-  "Jabbah–Antares": 8.04,
-  "Jabbah–Paikauhale": 10.31,
-  "Jabbah–Larawag": 17.08,
-  "Jabbah–Lesath": 24.76,
-  "Jabbah–Shaula": 25.07,
-  "Jabbah–Sargas": 29.59,
-  "Alniyat–Antares": 2.03,
-  "Alniyat–Paikauhale": 4.2,
-  "Alniyat–Larawag": 10.72,
-  "Alniyat–Lesath": 18.84,
-  "Alniyat–Shaula": 19.22,
-  "Alniyat–Sargas": 23.34,
-  "Antares–Paikauhale": 2.29,
-  "Antares–Larawag": 9.04,
-  "Antares–Lesath": 16.92,
-  "Antares–Shaula": 17.28,
-  "Antares–Sargas": 21.57,
-  "Paikauhale–Larawag": 6.8,
-  "Paikauhale–Lesath": 14.65,
-  "Paikauhale–Shaula": 15.02,
-  "Paikauhale–Sargas": 19.29,
-  "Larawag–Lesath": 8.76,
-  "Larawag–Shaula": 9.25,
-  "Larawag–Sargas": 12.65,
-  "Lesath–Shaula": 0.6,
-  "Lesath–Sargas": 5.84,
-  "Shaula–Sargas": 5.94
- },
- "objets_ciel_profond": [
-  {
-   "id": "M 4",
-   "nature": "objet",
-   "mag": 5.9,
-   "distance_al": null,
-   "note": "Cl, 8 or 10 B st line, with 5 st, rrr; = M4"
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Iklil",
+      "bayer": "rho",
+      "ra_deg": 239.22119,
+      "dec_deg": -29.21401,
+      "mag": 3.8095,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 1,
+      "nom": "Fang",
+      "bayer": "pi.",
+      "ra_deg": 239.713,
+      "dec_deg": -26.11404,
+      "mag": 2.8274,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 2,
+      "nom": "Dschubba",
+      "bayer": "del",
+      "ra_deg": 240.08338,
+      "dec_deg": -22.62162,
+      "mag": 2.2617,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 3,
+      "nom": "Acrab",
+      "bayer": "bet01",
+      "ra_deg": 241.35931,
+      "dec_deg": -19.80539,
+      "mag": 2.594,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 4,
+      "nom": "Jabbah",
+      "bayer": "nu.",
+      "ra_deg": 242.99892,
+      "dec_deg": -19.46065,
+      "mag": 4.0076,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 5,
+      "nom": "Alniyat",
+      "bayer": "sig",
+      "ra_deg": 245.29718,
+      "dec_deg": -25.59275,
+      "mag": 2.9227,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 6,
+      "nom": "Antares",
+      "bayer": "alf",
+      "ra_deg": 247.35195,
+      "dec_deg": -26.43195,
+      "mag": 0.9757,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 7,
+      "nom": "Paikauhale",
+      "bayer": "tau",
+      "ra_deg": 248.97066,
+      "dec_deg": -28.21596,
+      "mag": 2.7374,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 8,
+      "nom": "Larawag",
+      "bayer": "eps",
+      "ra_deg": 252.54269,
+      "dec_deg": -34.29261,
+      "mag": 2.4532,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 9,
+      "nom": "μ1",
+      "bayer": "mu.01",
+      "ra_deg": 252.96766,
+      "dec_deg": -38.04733,
+      "mag": 2.9245,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 10,
+      "nom": "ζ2",
+      "bayer": "zet02",
+      "ra_deg": 253.64627,
+      "dec_deg": -42.36076,
+      "mag": 3.7651,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 11,
+      "nom": "η",
+      "bayer": "eta",
+      "ra_deg": 258.03823,
+      "dec_deg": -43.23849,
+      "mag": 3.4149,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 12,
+      "nom": "Lesath",
+      "bayer": "ups",
+      "ra_deg": 262.69099,
+      "dec_deg": -37.29574,
+      "mag": 2.6043,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 13,
+      "nom": "Shaula",
+      "bayer": "lam",
+      "ra_deg": 263.40219,
+      "dec_deg": -37.10375,
+      "mag": 1.5244,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 14,
+      "nom": "Sargas",
+      "bayer": "the",
+      "ra_deg": 264.32969,
+      "dec_deg": -42.99782,
+      "mag": 1.9269,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 15,
+      "nom": "κ",
+      "bayer": "kap",
+      "ra_deg": 265.622,
+      "dec_deg": -39.02992,
+      "mag": 2.3164,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 16,
+      "nom": "ι1",
+      "bayer": "iot01",
+      "ra_deg": 266.89617,
+      "dec_deg": -40.12698,
+      "mag": 3.1092,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    },
+    {
+      "i": 17,
+      "nom": "G",
+      "bayer": "G",
+      "ra_deg": 267.46438,
+      "dec_deg": -37.04337,
+      "mag": 3.3521,
+      "role": "",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+    }
+  ],
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "liaisons": [
+      [
+        17,
+        13,
+        12,
+        15,
+        16,
+        14,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        0
+      ]
+    ],
+    "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
+    "note_geometrie": "Figure construite sur 18 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
   },
-  {
-   "id": "M 6",
-   "nature": "objet",
-   "mag": 4.2,
-   "distance_al": null,
-   "note": "Cl, L, iR, lC, st 7, 10...; = M6"
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Iklil–Fang": 3.13,
+    "Iklil–Dschubba": 6.64,
+    "Iklil–Acrab": 9.61,
+    "Iklil–Jabbah": 10.34,
+    "Iklil–Alniyat": 6.5,
+    "Iklil–Antares": 7.71,
+    "Iklil–Paikauhale": 8.61,
+    "Iklil–Larawag": 12.4,
+    "Iklil–Lesath": 21.15,
+    "Iklil–Shaula": 21.65,
+    "Iklil–Sargas": 24.37,
+    "Fang–Dschubba": 3.51,
+    "Fang–Acrab": 6.49,
+    "Fang–Jabbah": 7.31,
+    "Fang–Alniyat": 5.05,
+    "Fang–Antares": 6.86,
+    "Fang–Paikauhale": 8.5,
+    "Fang–Larawag": 13.76,
+    "Fang–Lesath": 22.43,
+    "Fang–Shaula": 22.88,
+    "Fang–Sargas": 26.21,
+    "Dschubba–Acrab": 3.06,
+    "Dschubba–Jabbah": 4.17,
+    "Dschubba–Alniyat": 5.61,
+    "Dschubba–Antares": 7.63,
+    "Dschubba–Paikauhale": 9.78,
+    "Dschubba–Larawag": 15.98,
+    "Dschubba–Lesath": 24.36,
+    "Dschubba–Shaula": 24.76,
+    "Dschubba–Sargas": 28.61,
+    "Acrab–Jabbah": 1.58,
+    "Acrab–Alniyat": 6.83,
+    "Acrab–Antares": 8.62,
+    "Acrab–Paikauhale": 10.91,
+    "Acrab–Larawag": 17.55,
+    "Acrab–Lesath": 25.51,
+    "Acrab–Shaula": 25.85,
+    "Acrab–Sargas": 30.16,
+    "Jabbah–Alniyat": 6.49,
+    "Jabbah–Antares": 8.04,
+    "Jabbah–Paikauhale": 10.31,
+    "Jabbah–Larawag": 17.08,
+    "Jabbah–Lesath": 24.76,
+    "Jabbah–Shaula": 25.07,
+    "Jabbah–Sargas": 29.59,
+    "Alniyat–Antares": 2.03,
+    "Alniyat–Paikauhale": 4.2,
+    "Alniyat–Larawag": 10.72,
+    "Alniyat–Lesath": 18.84,
+    "Alniyat–Shaula": 19.22,
+    "Alniyat–Sargas": 23.34,
+    "Antares–Paikauhale": 2.29,
+    "Antares–Larawag": 9.04,
+    "Antares–Lesath": 16.92,
+    "Antares–Shaula": 17.28,
+    "Antares–Sargas": 21.57,
+    "Paikauhale–Larawag": 6.8,
+    "Paikauhale–Lesath": 14.65,
+    "Paikauhale–Shaula": 15.02,
+    "Paikauhale–Sargas": 19.29,
+    "Larawag–Lesath": 8.76,
+    "Larawag–Shaula": 9.25,
+    "Larawag–Sargas": 12.65,
+    "Lesath–Shaula": 0.6,
+    "Lesath–Sargas": 5.84,
+    "Shaula–Sargas": 5.94
   },
-  {
-   "id": "M 7",
-   "nature": "objet",
-   "mag": 3.3,
-   "distance_al": null,
-   "note": "Cl, vB, pRi, lC, st 7...12; = M7"
+  "objets_ciel_profond": [
+    {
+      "id": "M 4",
+      "nature": "amas globulaire",
+      "mag": 5.9,
+      "distance_al": null,
+      "note": "Amas globulaire de magnitude 6,3, facile à repérer aux jumelles à l'ouest d'Antarès.",
+      "instrument": "jumelles",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "M 6",
+      "nature": "amas ouvert",
+      "mag": 4.2,
+      "distance_al": null,
+      "note": "Amas du Papillon (NGC 6405), amas ouvert de magnitude globale 4,20.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "M 7",
+      "nature": "amas ouvert",
+      "mag": 3.3,
+      "distance_al": null,
+      "note": "Amas relativement peu peuplé, qui se détache sur une région beaucoup plus riche de la Voie lactée.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "M 80",
+      "nature": "amas globulaire",
+      "mag": 7.2,
+      "distance_al": null,
+      "note": "Amas globulaire très ramassé (NGC 6093), éloigné de 60 000 années-lumière.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6093",
+      "nature": "amas globulaire",
+      "mag": 7.2,
+      "distance_al": null,
+      "note": "Doublon catalogue de M 80 (NGC 6093) : amas globulaire très ramassé, éloigné de 60 000 années-lumière.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6231",
+      "nature": "amas + nébuleuse",
+      "mag": 2.6,
+      "distance_al": null,
+      "note": "Modeste amas ouvert, situé à 6500 années-lumière, qui se signale surtout par la singulière relation qu'on lui suppose avec l'amas globulaire NGC 6397 (Autel).",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6357",
+      "nature": "nébuleuse",
+      "mag": null,
+      "distance_al": null,
+      "note": "Nébuleuse renfermant en son centre l'amas ouvert Pismis 24.",
+      "instrument": "jumelles",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6383",
+      "nature": "amas + nébuleuse",
+      "mag": 5.5,
+      "distance_al": null,
+      "note": "Amas ouvert plongé dans une région nébulaire.",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    },
+    {
+      "id": "NGC 6405",
+      "nature": "amas ouvert",
+      "mag": 4.2,
+      "distance_al": null,
+      "note": "Cl, L, iR, lC, st 7, 10...; = M6",
+      "instrument": "n. d.",
+      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
+      "code": "N2"
+    }
+  ],
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile en vision directe"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "vue en vision décalée"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "difficile, ciel noir requis"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Antares, magnitude 0.9757."
+    },
+    {
+      "q": "Comment repérer Iklil et Fang dans le ciel ?",
+      "r": "Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
+    },
+    {
+      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
+      "r": "NGC 6231 (objet, magnitude 2.6). Voir la fiche pour la description."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Que raconte-t-on au public en pointant Iklil ?",
+      "r": "Située en saison été. Repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
+    },
+    {
+      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
+      "r": "M 4 (objet) : Cl, 8 or 10 B st line, with 5 st, rrr; = M4"
+    },
+    {
+      "q": "Comment orienter le visiteur sur la carte ?",
+      "r": "Faire partir du repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
+    }
+  ],
+  "message_animation": "Scorpion : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath). Constellation de été (18 étoiles figurées, 9 objet(s) du ciel profond).",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 100–102 (fiche Atlas « Scorpion »)",
+    "archive_texte": "atlas-observation-source/100-*.txt",
+    "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
+    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
+    "lacunes": [
+      "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
+      "NGC 6357 : magnitude non disponible au catalogue NGC 2000.0.",
+      "IC 4499 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
+      "IC 4666 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
+      "M 1 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
+      "NGC 6397 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
+      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
+    ]
   },
-  {
-   "id": "M 80",
-   "nature": "objet",
-   "mag": 7.2,
-   "distance_al": null,
-   "note": "!! glob. cl. , vB, L, vmbM (var*), rrr, st 14; = M80"
-  },
-  {
-   "id": "NGC 6093",
-   "nature": "objet",
-   "mag": 7.2,
-   "distance_al": null,
-   "note": "!! glob. cl. , vB, L, vmbM (var*), rrr, st 14; = M80"
-  },
-  {
-   "id": "NGC 6231",
-   "nature": "objet",
-   "mag": 2.6,
-   "distance_al": null,
-   "note": "Cl, B, cL, pRi, st 10...13"
-  },
-  {
-   "id": "NGC 6357",
-   "nature": "objet",
-   "mag": null,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (NGC 6357). Description non détaillée dans la fiche Atlas."
-  },
-  {
-   "id": "NGC 6383",
-   "nature": "objet",
-   "mag": 5.5,
-   "distance_al": null,
-   "note": "Objet du catalogue NGC (NGC 6383). Description non détaillée dans la fiche Atlas."
-  },
-  {
-   "id": "NGC 6405",
-   "nature": "objet",
-   "mag": 4.2,
-   "distance_al": null,
-   "note": "Cl, L, iR, lC, st 7, 10...; = M6"
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
+    "refs": [],
+    "lignes": [
+      {
+        "code": "N2",
+        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
+        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+      },
+      {
+        "code": "INSTR",
+        "texte": "n. d. — instrument non déterminé",
+        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+      }
+    ]
   }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile en vision directe"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "vue en vision décalée"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "difficile, ciel noir requis"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Antares, magnitude 0.9757."
-  },
-  {
-   "q": "Comment repérer Iklil et Fang dans le ciel ?",
-   "r": "Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
-  },
-  {
-   "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-   "r": "NGC 6231 (objet, magnitude 2.6). Voir la fiche pour la description."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Que raconte-t-on au public en pointant Iklil ?",
-   "r": "Située en saison été. Repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
-  },
-  {
-   "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-   "r": "M 4 (objet) : Cl, 8 or 10 B st line, with 5 st, rrr; = M4"
-  },
-  {
-   "q": "Comment orienter le visiteur sur la carte ?",
-   "r": "Faire partir du repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
-  }
- ],
- "message_animation": "Scorpion : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath). Constellation de été (18 étoiles figurées, 9 objet(s) du ciel profond).",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 100–102 (fiche Atlas « Scorpion »)",
-  "archive_texte": "atlas-observation-source/100-*.txt",
-  "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-  "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-  "lacunes": [
-   "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-   "NGC 6357 : magnitude non disponible au catalogue NGC 2000.0.",
-   "IC 4499 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-   "IC 4666 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-   "M 1 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-   "NGC 6397 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-   "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-  "refs": []
- }
 }
