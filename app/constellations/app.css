@@ -236,7 +236,7 @@ h2.sous {
 
 .accueil {
   display: grid;
-  grid-template-columns: minmax(220px, 300px) 1fr;
+  grid-template-columns: minmax(300px, 1.1fr) minmax(0, 1fr);
   gap: 12px;
 }
 
@@ -244,27 +244,33 @@ h2.sous {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  min-width: 0;
   overflow-y: auto;
   align-self: start;
   max-height: 100%;
 }
 
 .liste-const li {
-  border-bottom: 1px solid var(--color-border);
-}
-
-.liste-const li:last-child {
-  border-bottom: none;
-}
-
-.btn-lien {
-  width: 100%;
+  min-width: 0;
   display: flex;
-  align-items: baseline;
-  gap: 6px;
+}
+
+.carte-btn {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "p nom duree" ". abr abr";
+  align-items: center;
+  column-gap: 6px;
   background: none;
-  border: none;
+  border: 1px solid var(--color-border);
   border-left: 3px solid transparent;
+  border-radius: 8px;
   color: var(--color-text);
   cursor: pointer;
   font: inherit;
@@ -273,20 +279,25 @@ h2.sous {
   text-align: left;
 }
 
-.btn-lien small {
-  color: var(--color-text-dim);
-  font-size: 0.72rem;
-}
-
-.btn-lien:hover {
+.carte-btn:hover {
   color: var(--color-primary);
 }
 
-.btn-lien[aria-current="true"] {
+.carte-btn:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
+.carte-btn[aria-current="true"] {
   border-left-color: var(--color-primary);
   background: var(--color-bg-card);
-  font-weight: 600;
 }
+
+.pastille { grid-area: p; width: 10px; height: 10px; border-radius: 50%; background: #8b8b8b; }
+.pastille--ok { background: #4ade80; }
+.carte-nom { grid-area: nom; min-width: 0; font-weight: 700; overflow-wrap: break-word; hyphens: none; }
+.carte-abr { grid-area: abr; min-width: 0; color: var(--color-text-dim); font-size: 0.72rem; }
+.carte-duree { grid-area: duree; white-space: nowrap; font-size: 0.75rem; color: var(--color-text-dim); }
 
 .carte-const {
   display: flex;
@@ -750,14 +761,18 @@ table.objets .instr {
 }
 
 /* ---- Bandeau « Observer ce soir » (écran 1) ---- */
-.obs-bandeau { border: 1px solid var(--border, rgba(255,255,255,.15)); border-radius: 10px; padding: 14px 16px; margin-bottom: 16px; }
-.obs-bandeau h3 { margin: 0 0 10px; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; }
-.obs-champs { display: grid; grid-template-columns: auto 1fr; gap: 8px 12px; align-items: center; max-width: 520px; }
+.obs-bandeau { border: 1px solid var(--border, rgba(255,255,255,.15)); border-radius: 10px; padding: 4px 12px; margin-bottom: 8px; }
+.obs-bandeau h3 { margin: 0; font-size: .9rem; letter-spacing: .04em; }
+.obs-barre { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; min-height: 34px; }
+.obs-resume { font-size: .85rem; min-width: 0; overflow-wrap: break-word; }
+.obs-bascule { padding: 2px 10px; font-size: .8rem; }
+.obs-panneau { margin: 6px 0; }
+.obs-panneau[hidden] { display: none; }
+.obs-champs { display: grid; grid-template-columns: auto minmax(0, 360px); gap: 8px 12px; align-items: center; }
 .obs-champs select, .obs-champs input { padding: 6px 8px; border-radius: 6px; font: inherit; max-width: 100%; }
-.obs-modes { margin-top: 12px; display: grid; gap: 6px; }
+.obs-modes { margin: 0 0 0 auto; display: flex; flex-wrap: wrap; gap: 4px 14px; }
 .obs-mode { display: flex; align-items: center; gap: 8px; cursor: pointer; }
 .obs-n { margin-left: auto; min-width: 2em; text-align: center; padding: 0 8px; border-radius: 999px; background: rgba(124,58,237,.35); }
-.obs-mode { max-width: 520px; }
 .obs-note { margin: 10px 0 0; font-size: .85rem; opacity: .8; font-style: italic; }
 .obs-badge { display: block; margin-top: 4px; font-size: .75rem; }
 .obs-badge--ok { color: #4ade80; }

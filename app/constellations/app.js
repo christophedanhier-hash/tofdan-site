@@ -522,8 +522,7 @@
     var dt = el('input', { type: 'date', id: 'obs-date', value: obs.date });
     dt.addEventListener('change', function () { if (dt.value) { obs.date = dt.value; rendre(); } });
     var erreur = lieuCourant() ? obs.msg : 'Latitude (−90 à 90) ou longitude (−180 à 180) invalide : visibilité non calculable.';
-    return el('div', { class: 'obs-bandeau' }, [
-      el('h3', { text: 'Observer ce soir' }),
+    var panneau = el('div', { class: 'obs-panneau', id: 'obs-panneau' }, [
       el('div', { class: 'obs-champs' }, [
         el('label', { for: 'obs-lat', text: 'Latitude' }), champ('obs-lat', 'sLat', '49.90'),
         el('label', { for: 'obs-lon', text: 'Longitude' }), champ('obs-lon', 'sLon', '5.00'),
@@ -531,13 +530,46 @@
         el('label', { for: 'obs-nom', text: 'Nom' }), boite,
         el('label', { for: 'obs-date', text: 'Date' }), dt
       ]),
-      el('p', { class: 'obs-erreur', role: 'alert', text: erreur || '' }),
-      el('div', { class: 'obs-modes' }, [
-        radio('observables', 'Constellations observables ce soir', nbObs),
-        radio('toutes', 'Toutes les constellations', nbTotal)
-      ]),
       el('p', { class: 'obs-note', text: 'Hauteur calculée pour un horizon dégagé — ne tient pas compte du relief ni des bâtiments. Critère : au moins 60 min au-dessus de 20° entre 21 h et 4 h (heure locale).' })
     ]);
+    var ouvert = obsDeplie();
+    panneau.hidden = !ouvert;
+    var bascule = el('button', { type: 'button', class: 'btn btn--outline obs-bascule', 'aria-expanded': ouvert ? 'true' : 'false', 'aria-controls': 'obs-panneau', text: ouvert ? '⚙ Replier' : '⚙ Modifier' });
+    bascule.addEventListener('click', function () {
+      var o = panneau.hidden;
+      panneau.hidden = !o;
+      bascule.setAttribute('aria-expanded', o ? 'true' : 'false');
+      bascule.textContent = o ? '⚙ Replier' : '⚙ Modifier';
+      obsDeplie(o);
+    });
+    var lieuTxt = obs.nom ? String(obs.nom) : '';
+    var ll = lieuCourant();
+    if (ll) lieuTxt = (lieuTxt ? lieuTxt + ' ' : '') + '(' + ll.lat + ', ' + ll.lon + ')';
+    if (!lieuTxt) lieuTxt = 'Lieu non défini';
+    var jj = String(obs.date || '').split('-');
+    var dateTxt = jj.length === 3 ? jj[2] + '/' + jj[1] + '/' + jj[0] : String(obs.date || '');
+    return el('div', { class: 'obs-bandeau' }, [
+      el('div', { class: 'obs-barre' }, [
+        el('h3', { text: '🔭 Observer ce soir' }),
+        el('span', { class: 'obs-resume', text: lieuTxt + ' · ' + dateTxt }),
+        bascule,
+        el('div', { class: 'obs-modes' }, [
+          radio('observables', 'Observables', nbObs),
+          radio('toutes', 'Toutes', nbTotal)
+        ])
+      ]),
+      el('p', { class: 'obs-erreur', role: 'alert', text: erreur || '' }),
+      panneau
+    ]);
+  }
+
+  // Mémorise l'état replié/déplié de la barre de position (replié par défaut)
+  function obsDeplie(val) {
+    var k = 'constellations.obs-deplie';
+    try {
+      if (arguments.length) { localStorage.setItem(k, val ? '1' : '0'); return val; }
+      return localStorage.getItem(k) === '1';
+    } catch (e) { return !!val; }
   }
 
   function ecran1() {
@@ -558,7 +590,7 @@
     }).forEach(function (c) {
       var actif = (c.id === etat.id);
       var attrs = {
-        class: 'btn-lien', 'aria-current': actif ? 'true' : 'false',
+        class: 'carte-btn', type: 'button', 'aria-current': actif ? 'true' : 'false',
         onclick: function () {
           if (actif) return;
           charger(c.id, c.fichier).then(function () {
@@ -570,12 +602,19 @@
           });
         }
       };
-      var v = infos[c.id], badge;
-      if (!v) badge = el('span', { class: 'obs-badge obs-badge--na', text: 'visibilité non calculable' });
-      else if (v.observable) badge = el('span', { class: 'obs-badge obs-badge--ok', text: 'observable · ' + v.minutes + ' min · ' + heureLocale(v.debut) + ' – ' + heureLocale(v.fin) });
-      else badge = el('span', { class: 'obs-badge obs-badge--non', text: 'non observable ce soir (' + v.minutes + ' min)' });
+      var v = infos[c.id], court, long;
+      if (!v) { court = 'non calc.'; long = 'visibilité non calculable'; }
+      else if (v.observable) { court = v.minutes + ' min'; long = 'observable · ' + v.minutes + ' min · ' + heureLocale(v.debut) + ' – ' + heureLocale(v.fin); }
+      else { court = 'non obs.'; long = 'non observable ce soir (' + v.minutes + ' min)'; }
+      var nomFr = valide(c.nom_fr) ? String(c.nom_fr) : '—';
+      var plein = nomFr + ' (' + c.nom_latin + ', ' + c.abreviation + ') : ' + long;
+      attrs.title = plein;
+      attrs['aria-label'] = plein;
       liste.appendChild(el('li', null, [el('button', attrs, [
-        valide(c.nom_fr) ? String(c.nom_fr) : '—', el('small', { text: c.nom_latin + ' · ' + c.abreviation }), badge
+        el('span', { class: 'pastille' + (v && v.observable ? ' pastille--ok' : ''), 'aria-hidden': 'true' }),
+        el('span', { class: 'carte-nom', text: nomFr }),
+        el('small', { class: 'carte-abr', text: String(c.abreviation) }),
+        el('span', { class: 'carte-duree', text: court })
       ])]));
     });
 
