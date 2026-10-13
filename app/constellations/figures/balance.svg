@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Balance">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="415.5" y1="164.9" x2="296.4" y2="35.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="415.5" y1="164.9" x2="210.6" y2="139.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="415.5" y1="164.9" x2="350.6" y2="338.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="296.4" y1="35.0" x2="210.6" y2="139.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="210.6" y1="139.0" x2="210.3" y2="393.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="210.3" y1="393.4" x2="204.5" y2="425.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="415.5" cy="164.9" r="5" fill="#222"/>
+<text x="428.5" y="154.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zubenelgenubi</text>
+<circle cx="296.4" cy="35.0" r="5" fill="#222"/>
+<text x="309.4" y="25.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zubeneschamali</text>
+<circle cx="210.6" cy="139.0" r="5" fill="#222"/>
+<text x="197.6" y="129.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Gamma Lib</text>
+<circle cx="350.6" cy="338.9" r="5" fill="#222"/>
+<text x="363.6" y="328.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Sigma Lib</text>
+<circle cx="210.3" cy="393.4" r="5" fill="#222"/>
+<text x="223.3" y="383.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Upsilon Lib</text>
+<circle cx="204.5" cy="425.0" r="5" fill="#222"/>
+<text x="217.5" y="415.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Tau Lib</text>
+</svg>

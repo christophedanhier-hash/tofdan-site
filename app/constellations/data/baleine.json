@@ -1,0 +1,327 @@
+{
+ "id": "baleine",
+ "slug": "baleine",
+ "nom_fr": "Baleine",
+ "nom_latin": "Cetus",
+ "genitif": "Ceti",
+ "abreviation_iau": "Cet",
+ "source_atlas": {
+  "pdf": "Atlas observation.pdf",
+  "pages": [
+   7,
+   8
+  ]
+ },
+ "saison": "automne",
+ "voie_lactee": false,
+ "repere_principal": "Diphda (β Cet), isolée au sud-ouest du Carré de Pégase, et Menkar à l'autre extrémité de la figure",
+ "constellations_voisines": [
+  "Les Poissons",
+  "Le Bélier",
+  "Le Taureau",
+  "L'Éridan",
+  "Le Fourneau",
+  "Le Sculpteur",
+  "Le Verseau"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "Menkar",
+   "bayer": "alf Cet",
+   "ra_deg": 45.56989,
+   "dec_deg": 4.08974,
+   "mag": 2.53,
+   "role": "Maillon intermédiaire entre Kaffaljidhma et Delta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 1,
+   "nom": "Diphda",
+   "bayer": "bet Cet",
+   "ra_deg": 10.89738,
+   "dec_deg": -17.98661,
+   "mag": 2.01,
+   "role": "Repère majeur (mag 2,01). Nœud de la figure, relié à Zeta Cet, Tau Cet et Eta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 2,
+   "nom": "Kaffaljidhma",
+   "bayer": "gam Cet",
+   "ra_deg": 40.82516,
+   "dec_deg": 3.23582,
+   "mag": 3.47,
+   "role": "Maillon intermédiaire entre Menkar et Delta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 3,
+   "nom": "Delta Cet",
+   "bayer": "del Cet",
+   "ra_deg": 39.87065,
+   "dec_deg": 0.32851,
+   "mag": 4.07,
+   "role": "Nœud de la figure, relié à Menkar, Kaffaljidhma et Zeta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 4,
+   "nom": "Zeta Cet",
+   "bayer": "zet Cet",
+   "ra_deg": 27.86513,
+   "dec_deg": -10.33503,
+   "mag": 3.72,
+   "role": "Nœud de la figure, relié à Diphda, Delta Cet, Tau Cet et Eta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 5,
+   "nom": "Tau Cet",
+   "bayer": "tau Cet",
+   "ra_deg": 26.01701,
+   "dec_deg": -15.93748,
+   "mag": 3.5,
+   "role": "Maillon intermédiaire entre Diphda et Zeta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 6,
+   "nom": "Eta Cet",
+   "bayer": "eta Cet",
+   "ra_deg": 17.14746,
+   "dec_deg": -10.18226,
+   "mag": 3.45,
+   "role": "Maillon intermédiaire entre Diphda et Zeta Cet.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    1,
+    6
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    4,
+    6
+   ]
+  ],
+  "commentaire": "Tracé retenu : la tête Menkar–Kaffaljidhma–Delta Cet reliée à Zeta Cet, qui sert de pivot vers le corps (Diphda, Tau Cet, Eta Cet).",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "Menkar–Kaffaljidhma": 4.81,
+  "Menkar–Delta Cet": 6.82,
+  "Diphda–Zeta Cet": 18.13,
+  "Diphda–Tau Cet": 14.6,
+  "Diphda–Eta Cet": 9.88,
+  "Kaffaljidhma–Delta Cet": 3.06,
+  "Delta Cet–Zeta Cet": 16.01,
+  "Zeta Cet–Tau Cet": 5.88,
+  "Zeta Cet–Eta Cet": 10.55
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 246",
+   "nature": "nébuleuse planétaire",
+   "mag": 10.9,
+   "distance_al": 1813,
+   "note": "Nébuleuse planétaire en forme d'anneau, à environ 1 800 années-lumière, dont l'éclat varie fortement selon la bande de mesure.",
+   "instrument": "télescope",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 247",
+   "nature": "galaxie",
+   "mag": 9.21,
+   "distance_al": 11966502,
+   "note": "Galaxie spirale lointaine de magnitude 9,21, à environ 12 millions d'années-lumière.",
+   "instrument": "lunette",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "WLM",
+   "nature": "galaxie naine irrégulière",
+   "mag": 10.9,
+   "distance_al": 3118164,
+   "note": "Galaxie naine irrégulière du Groupe Local, très diffuse, à environ 3,1 millions d'années-lumière.",
+   "instrument": "télescope",
+   "src": "S1",
+   "code": "S1"
+  },
+  {
+   "id": "M 77",
+   "nature": "galaxie",
+   "mag": 9.29,
+   "distance_al": 60984820,
+   "note": "Galaxie spirale de type Sb vue de face, à environ 61 millions d'années-lumière.",
+   "instrument": "lunette",
+   "src": "O1",
+   "code": "O1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Diphda (β Cet), magnitude 2,01, devant Menkar (α Cet, 2,53). C'est le repère majeur au sud de la figure."
+  },
+  {
+   "q": "Quelle étoile joue le rôle de pivot dans la figure ?",
+   "r": "Zeta Cet (magnitude 3,72) : elle est reliée à quatre autres étoiles (Delta Cet, Diphda, Tau Cet, Eta Cet)."
+  },
+  {
+   "q": "Pourquoi la Baleine est-elle difficile à reconnaître ?",
+   "r": "Elle est très étendue (Diphda–Zeta Cet : 18,13° ; Delta Cet–Zeta Cet : 16,01°) et ses étoiles sont de magnitude 2,01 à 4,07 seulement."
+  },
+  {
+   "q": "Quels objets peut-on viser avec un instrument ?",
+   "r": "M 77 (magnitude 9,29), NGC 247 (9,21), NGC 246 (10,9) et WLM (10,9) : tous demandent une lunette ou un télescope, WLM étant le plus délicat."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "À quelle distance se trouve M 77 comparée à NGC 247 ?",
+   "r": "M 77 est à environ 60 984 820 années-lumière, NGC 247 à environ 11 966 502 : M 77 est cinq fois plus lointaine."
+  },
+  {
+   "q": "Pourquoi NGC 246 a-t-elle deux magnitudes très différentes (8,0 et 10,9) ?",
+   "r": "OpenNGC donne 8,0 en bande B et 10,9 en bande V ; l'Atlas cite 8,0 (photographique). Pour une planétaire, cet écart signale une mesure hétérogène : à signaler."
+  },
+  {
+   "q": "Qu'est-ce que WLM ?",
+   "r": "Une galaxie naine irrégulière appartenant au Groupe Local, à environ 3 118 164 années-lumière : sa faible luminosité de surface la rend très difficile à observer."
+  },
+  {
+   "q": "Pourquoi Diphda est-elle plus brillante que Menkar, qui porte pourtant la lettre alpha ?",
+   "r": "Les lettres de Bayer ne suivent pas toujours l'ordre de luminosité : ici β Cet (2,01) est plus brillante que α Cet (2,53)."
+  }
+ ],
+ "message_animation": "La Baleine est une immense constellation d'automne, étirée sur plus de 34° d'ascension droite. Ses étoiles sont peu brillantes mais elle abrite quatre objets très différents : une planétaire (NGC 246), deux galaxies proches (NGC 247, WLM) et la spirale M 77.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 7–8 (fiche Atlas « Baleine »)",
+  "archive_texte": "atlas-observation-source/007-baleine.txt",
+  "coordonnees": "Hipparcos I311 / Gaia DR3",
+  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+  "lacunes": [
+   "WLM : absente d'OpenNGC ; magnitude V issue de SIMBAD.",
+   "NGC 246 : magnitude V (10,9) plus faible que la magnitude B (8,0), mesure hétérogène à signaler.",
+   "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

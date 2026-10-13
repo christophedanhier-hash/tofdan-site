@@ -1,0 +1,331 @@
+{
+ "id": "andromede",
+ "slug": "andromede",
+ "nom_fr": "Andromède",
+ "nom_latin": "Andromeda",
+ "genitif": "Andromedae",
+ "abreviation_iau": "And",
+ "source_atlas": {
+  "pdf": "Atlas observation.pdf",
+  "pages": [
+   3,
+   4
+  ]
+ },
+ "saison": "automne",
+ "voie_lactee": false,
+ "repere_principal": "Alpheratz, Mirach et Almach : la ligne d'étoiles de magnitude 2 qui part du Carré de Pégase",
+ "constellations_voisines": [
+  "Cassiopée",
+  "Persée",
+  "Le Triangle",
+  "Les Poissons",
+  "Pégase",
+  "Le Lézard",
+  "Céphée"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "Alpheratz",
+   "bayer": "alf And",
+   "ra_deg": 2.09692,
+   "dec_deg": 29.09043,
+   "mag": 2.06,
+   "role": "Repère majeur (mag 2,06). Extrémité du tracé, reliée à Delta And.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 1,
+   "nom": "Mirach",
+   "bayer": "bet And",
+   "ra_deg": 17.43302,
+   "dec_deg": 35.62056,
+   "mag": 2.05,
+   "role": "Repère majeur (mag 2,05). Nœud de la figure, relié à Almach, Delta And, Pi And et Mu And.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 2,
+   "nom": "Almach",
+   "bayer": "gam And",
+   "ra_deg": 30.9748,
+   "dec_deg": 42.32973,
+   "mag": 2.1,
+   "role": "Repère majeur (mag 2,1). Extrémité du tracé, reliée à Mirach.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 3,
+   "nom": "Delta And",
+   "bayer": "del And",
+   "ra_deg": 9.83168,
+   "dec_deg": 30.86098,
+   "mag": 3.28,
+   "role": "Nœud de la figure, relié à Alpheratz, Mirach et Pi And.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 4,
+   "nom": "Pi And",
+   "bayer": "pi And",
+   "ra_deg": 9.22021,
+   "dec_deg": 33.71934,
+   "mag": 4.36,
+   "role": "Maillon intermédiaire entre Mirach et Delta And.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 5,
+   "nom": "Mu And",
+   "bayer": "mu And",
+   "ra_deg": 14.18837,
+   "dec_deg": 38.49933,
+   "mag": 3.87,
+   "role": "Maillon intermédiaire entre Mirach et Nu And.",
+   "visibilite": "œil nu",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  },
+  {
+   "i": 6,
+   "nom": "Nu And",
+   "bayer": "nu And",
+   "ra_deg": 12.45353,
+   "dec_deg": 41.07891,
+   "mag": 4.53,
+   "role": "Extrémité du tracé, reliée à Mu And.",
+   "visibilite": "jumelles",
+   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+  "liaisons": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "commentaire": "Tracé retenu : la ligne principale Alpheratz–Delta And–Pi And–Mirach prolongée vers Almach, avec la branche Mirach–Mu And–Nu And qui mène à la galaxie M 31.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+  "Alpheratz–Delta And": 6.93,
+  "Mirach–Almach": 12.46,
+  "Mirach–Delta And": 7.94,
+  "Mirach–Pi And": 7.01,
+  "Mirach–Mu And": 3.87,
+  "Delta And–Pi And": 2.9,
+  "Mu And–Nu And": 2.9
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "M 31",
+   "nature": "galaxie",
+   "mag": 3.44,
+   "distance_al": 2674479,
+   "note": "Grande galaxie spirale d'Andromède, la vedette de la constellation, visible à l'œil nu sous un ciel sombre.",
+   "instrument": "œil nu",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "M 32",
+   "nature": "galaxie",
+   "mag": 8.13,
+   "distance_al": 2738316,
+   "note": "Petite galaxie elliptique naine, satellite de M 31 ; l'Atlas lui attribue la magnitude 8,70.",
+   "instrument": "lunette",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "M 110",
+   "nature": "galaxie",
+   "mag": 8.15,
+   "distance_al": 2754624,
+   "note": "Autre galaxie naine elliptique satellite de M 31 ; l'Atlas lui attribue la magnitude 9,40.",
+   "instrument": "lunette",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 891",
+   "nature": "galaxie",
+   "mag": 10.01,
+   "distance_al": 32452522,
+   "note": "Galaxie située à l'est de la constellation, bien plus lointaine et plus faible que M 31.",
+   "instrument": "télescope",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 7662",
+   "nature": "nébuleuse planétaire",
+   "mag": 8.3,
+   "distance_al": 5732,
+   "note": "Remarquable nébuleuse planétaire surnommée la Boule de Neige, à environ 5 700 années-lumière.",
+   "instrument": "lunette",
+   "src": "O1",
+   "code": "O1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  {
+   "q": "Quelle est l'étoile la plus brillante de la figure ?",
+   "r": "Mirach (β And), magnitude 2,05, devant Alpheratz (2,06) et Almach (2,10) : les trois étoiles principales sont presque à égalité, ce qui rend le classement difficile à l'œil nu."
+  },
+  {
+   "q": "Comment retrouver la galaxie M 31 à partir de la figure ?",
+   "r": "On part de Mirach et on suit la branche Mirach–Mu And (3,87°)–Nu And (2,90° plus loin) : M 31 se trouve tout près de Nu And. Sa magnitude de 3,44 la rend visible à l'œil nu sous un ciel sans pollution lumineuse."
+  },
+  {
+   "q": "Quelles étoiles de la figure sont les plus faibles ?",
+   "r": "Nu And (magnitude 4,53) et Pi And (4,36). Nu And demande un bon ciel ou des jumelles ; Pi And reste visible à l'œil nu."
+  },
+  {
+   "q": "Quels objets nécessitent un instrument ?",
+   "r": "M 32 (magnitude 8,13) et M 110 (8,15), les deux petites galaxies satellites de M 31, ainsi que NGC 7662 (8,30) et NGC 891 (10,01), qui demandent une lunette ou un télescope."
+  },
+  {
+   "q": "Quelle est la plus longue liaison de la figure ?",
+   "r": "Mirach–Almach, 12,46° : c'est la ligne qui prolonge la figure vers le nord-est."
+  }
+ ],
+ "questions_guide": [
+  {
+   "q": "Pourquoi M 31 paraît-elle si petite sur une photo prise à l'œil ?",
+   "r": "Parce qu'elle est très lointaine : environ 2 674 479 années-lumière. Son diamètre réel est immense, mais vue d'aussi loin, seule sa région centrale brille assez pour être perçue à l'œil nu."
+  },
+  {
+   "q": "Quelle différence de luminosité entre M 31 et NGC 891 ?",
+   "r": "M 31 est de magnitude 3,44 et NGC 891 de 10,01 : un écart de 6,57 magnitudes, soit un rapport de luminosité supérieur à 400. NGC 891 est aussi beaucoup plus loin (environ 32 452 522 années-lumière)."
+  },
+  {
+   "q": "Pourquoi l'Atlas donne-t-il 8,70 pour M 32 alors que le catalogue donne 8,13 ?",
+   "r": "Les deux valeurs ne sont pas mesurées de la même façon : l'Atlas cite une magnitude de source ancienne, OpenNGC une magnitude en bande V. Il faut toujours préciser la bande quand on compare des magnitudes."
+  },
+  {
+   "q": "La planétaire NGC 7662 est-elle une planète ?",
+   "r": "Non : c'est une enveloppe de gaz expulsée par une étoile, située à environ 5 732 années-lumière (l'Atlas indique 5 600). On l'appelle la Boule de Neige."
+  }
+ ],
+ "message_animation": "Andromède est la constellation de l'automne. Trois étoiles de magnitude proche de 2 (Mirach, Alpheratz, Almach) donnent la ligne de base ; la branche Mirach–Mu And–Nu And conduit ensuite à M 31, la galaxie d'Andromède, visible à l'œil nu sous un ciel sombre à plus de 2,6 millions d'années-lumière.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf, pages 3–4 (fiche Atlas « Andromède »)",
+  "archive_texte": "atlas-observation-source/003-androm-de.txt",
+  "coordonnees": "Hipparcos I311 / Gaia DR3",
+  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+  "lacunes": [
+   "Alpheratz, Mirach, Almach : écart de magnitude très faible, classement fragile à l'œil nu.",
+   "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix.",
+   "M 32 et M 110 : l'Atlas donne des magnitudes (8,70 et 9,40) différentes de celles d'OpenNGC (8,13 et 8,15)."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Capricorne">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="525.0" y1="89.6" x2="508.3" y2="133.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="508.3" y1="133.6" x2="382.5" y2="338.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="129.0" y1="170.8" x2="95.0" y2="161.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="95.0" y1="161.9" x2="197.3" y2="282.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="197.3" y1="282.5" x2="356.1" y2="370.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="356.1" y1="370.4" x2="382.5" y2="338.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="525.0" cy="89.6" r="5" fill="#222"/>
+<text x="538.0" y="79.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Algedi</text>
+<circle cx="508.3" cy="133.6" r="5" fill="#222"/>
+<text x="521.3" y="123.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Dabih</text>
+<circle cx="129.0" cy="170.8" r="5" fill="#222"/>
+<text x="142.0" y="160.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Nashira</text>
+<circle cx="95.0" cy="161.9" r="5" fill="#222"/>
+<text x="82.0" y="138.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Deneb Algedi</text>
+<circle cx="197.3" cy="282.5" r="5" fill="#222"/>
+<text x="210.3" y="272.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zeta Cap</text>
+<circle cx="356.1" cy="370.4" r="5" fill="#222"/>
+<text x="369.1" y="387.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Omega Cap</text>
+<circle cx="382.5" cy="338.1" r="5" fill="#222"/>
+<text x="369.5" y="328.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Psi Cap</text>
+</svg>
