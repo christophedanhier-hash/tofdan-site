@@ -1,0 +1,450 @@
+{
+ "id": "cygne",
+ "slug": "cygne",
+ "nom_fr": "Cygne",
+ "nom_latin": "Cygnus",
+ "genitif": "Cygni",
+ "abreviation_iau": "Cyg",
+ "source_atlas": "Atlas observation.pdf — fiche « Cygne »",
+ "saison": "été",
+ "voie_lactee": true,
+ "repere_principal": "La Croix du Nord : Deneb en haut, Sadr au centre, Albireo en bas, les ailes de part et d'autre.",
+ "constellations_voisines": [
+  "Céphée",
+  "Dragon",
+  "Lyre",
+  "Petit Renard",
+  "Pégase",
+  "Lézard"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "β1 Cyg",
+   "bayer": "bet01 Cyg",
+   "ra_deg": 292.6804,
+   "dec_deg": 27.9597,
+   "mag": 3.05,
+   "role": "Magnitude 3,05.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 1,
+   "nom": "φ Cyg",
+   "bayer": "phi Cyg",
+   "ra_deg": 294.8442,
+   "dec_deg": 30.1532,
+   "mag": 4.68,
+   "role": "Magnitude 4,68.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 2,
+   "nom": "η Cyg",
+   "bayer": "eta Cyg",
+   "ra_deg": 299.0767,
+   "dec_deg": 35.0835,
+   "mag": 3.89,
+   "role": "Magnitude 3,89.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 3,
+   "nom": "Sadr",
+   "bayer": "gam Cyg",
+   "ra_deg": 305.5571,
+   "dec_deg": 40.2567,
+   "mag": 2.23,
+   "role": "Magnitude 2,23.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 4,
+   "nom": "Fawaris",
+   "bayer": "del Cyg",
+   "ra_deg": 296.2435,
+   "dec_deg": 45.1307,
+   "mag": 2.86,
+   "role": "Magnitude 2,86.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 5,
+   "nom": "ι Cyg",
+   "bayer": "iot Cyg",
+   "ra_deg": 292.4264,
+   "dec_deg": 51.7295,
+   "mag": 3.76,
+   "role": "Magnitude 3,76.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 6,
+   "nom": "ο2 Cyg",
+   "bayer": "omi02 Cyg",
+   "ra_deg": 303.868,
+   "dec_deg": 47.7142,
+   "mag": 3.96,
+   "role": "Magnitude 3,96.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 7,
+   "nom": "Deneb",
+   "bayer": "alf Cyg",
+   "ra_deg": 310.358,
+   "dec_deg": 45.2803,
+   "mag": 1.25,
+   "role": "Magnitude 1,25.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 8,
+   "nom": "κ Cyg",
+   "bayer": "kap Cyg",
+   "ra_deg": 289.2755,
+   "dec_deg": 53.3682,
+   "mag": 3.8,
+   "role": "Magnitude 3,8.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 9,
+   "nom": "ν Cyg",
+   "bayer": "nu. Cyg",
+   "ra_deg": 314.2934,
+   "dec_deg": 41.1672,
+   "mag": 3.94,
+   "role": "Magnitude 3,94.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 10,
+   "nom": "ζ Cyg",
+   "bayer": "zet Cyg",
+   "ra_deg": 318.2341,
+   "dec_deg": 30.2271,
+   "mag": 3.21,
+   "role": "Magnitude 3,21.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 11,
+   "nom": "ε Cyg",
+   "bayer": "eps Cyg",
+   "ra_deg": 311.5518,
+   "dec_deg": 33.9695,
+   "mag": 2.48,
+   "role": "Magnitude 2,48.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+  "liaisons": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    3
+   ],
+   [
+    8,
+    5
+   ],
+   [
+    7,
+    9
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    11,
+    3
+   ]
+  ],
+  "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
+  "note_geometrie": "Le Cygne se construit autour d'une grande croix. La barre longue suit la Voie lactée : Deneb (α) → Sadr (γ) → η Cyg → φ Cyg → β1 Cyg, avec des segments de 5,09° à 7,28°. La barre transversale est formée par les ailes : Fawaris (δ) et ι Cyg d'un côté, ε Cyg et ζ Cyg de l'autre. Les mesures montrent un tracé très étendu : le segment η Cyg–Sadr atteint 7,28° et ν Cyg–ζ Cyg 11,40°, la plus longue liaison de la figure. Le plus court segment relie κ Cyg et ι Cyg (2,52°). Sadr est le carrefour : cinq liaisons y aboutissent — c'est le cœur du Cygne, au croisement de la croix et des ailes.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
+  "β1 Cyg–φ Cyg": 2.9,
+  "φ Cyg–η Cyg": 6.08,
+  "η Cyg–Sadr": 7.28,
+  "Sadr–Fawaris": 8.39,
+  "Fawaris–ι Cyg": 7.07,
+  "ι Cyg–ο2 Cyg": 8.4,
+  "ο2 Cyg–Deneb": 5.09,
+  "Deneb–Sadr": 6.13,
+  "κ Cyg–ι Cyg": 2.52,
+  "Deneb–ν Cyg": 5.01,
+  "ν Cyg–ζ Cyg": 11.4,
+  "ζ Cyg–ε Cyg": 6.78,
+  "ε Cyg–Sadr": 7.89
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "M 39",
+   "nature": "amas ouvert",
+   "mag": 4.6,
+   "distance_al": 980,
+   "note": "Vaste amas ouvert très dispersé, bien adapté aux jumelles. Compagnon d'été facile à reconnaître.",
+   "instrument": "œil nu",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "M 29",
+   "nature": "amas ouvert",
+   "mag": 6.6,
+   "distance_al": 3000,
+   "note": "Petit amas ouvert compact, dans une région très riche en étoiles et en nébulosités.",
+   "instrument": "instrument",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "IC 5146",
+   "nature": "amas ouvert + nébuleuse",
+   "mag": 7.2,
+   "distance_al": 2690,
+   "note": "La nébuleuse du Cocon : amas jeune niché dans la nébuleuse qui l'a vu naître.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 6888",
+   "nature": "nébuleuse en émission (Croissant)",
+   "mag": 7.44,
+   "distance_al": 5650,
+   "note": "La nébuleuse du Croissant : une étoile de type Wolf-Rayet souffle un vent qui sculpte une coquille de gaz.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 6946",
+   "nature": "galaxie spirale",
+   "mag": 9.05,
+   "distance_al": 20000000,
+   "note": "La « galaxie du Feu d'artifice » : une spirale vue de face, très riche en supernovas observées. Elle est vue à travers la poussière de la Voie lactée, ce qui la rend plus difficile qu'il n'y paraît.",
+   "instrument": "instrument",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 6826",
+   "nature": "nébuleuse planétaire",
+   "mag": 9.44,
+   "distance_al": 4230,
+   "note": "La nébuleuse du Clignotant : nébuleuse planétaire dont l'éclat central « disparaît » quand on regarde à côté (vision décalée).",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 7000",
+   "nature": "nébuleuse en émission",
+   "mag": null,
+   "distance_al": 2590,
+   "note": "La nébuleuse Amérique du Nord : une vaste région d'hydrogène ionisé. Objet étendu : on la voit mieux aux jumelles ou au grand champ qu'au télescope.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "IC 5070",
+   "nature": "nébuleuse en émission (Pélican)",
+   "mag": null,
+   "distance_al": 2590,
+   "note": "La nébuleuse du Pélican : partie de la même grande région que la nébuleuse Amérique du Nord.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 6914",
+   "nature": "nébuleuse par réflexion",
+   "mag": null,
+   "distance_al": 3260,
+   "note": "Nébuleuse par réflexion : elle ne fait que renvoyer la lumière d'étoiles voisines.",
+   "instrument": "instrument",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 6960",
+   "nature": "rémanent de supernova (Dentelles)",
+   "mag": null,
+   "distance_al": 2400,
+   "note": "Les Dentelles du Cygne (partie ouest) : filaments d'un rémanent de supernova vieux de plusieurs milliers d'années.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 6979",
+   "nature": "rémanent de supernova (Dentelles)",
+   "mag": null,
+   "distance_al": null,
+   "note": "Les Dentelles du Cygne (partie centrale) : le Pickering's Triangle, région la plus faible de l'ensemble.",
+   "instrument": "instrument",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 6992",
+   "nature": "rémanent de supernova (Dentelles)",
+   "mag": null,
+   "distance_al": 2400,
+   "note": "Les Dentelles du Cygne (partie est) : la partie la plus brillante et la plus facile du rémanent.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  "Vois-tu clairement la forme d'une croix, ou plutôt d'un oiseau aux ailes déployées ?",
+  "Distingues-tu la couleur d'Albireo, la tête du Cygne ? (Elle est célèbre pour son bleu et son ambre.)",
+  "Le fond du ciel autour du Cygne te paraît-il plus fourni qu'ailleurs ?",
+  "Repères-tu Sadr au croisement, avec cinq directions qui partent d'elle ?",
+  "Arrives-tu à suivre l'axe de la croix dans la longueur, jusqu'à la queue ?"
+ ],
+ "questions_guide": [
+  "Cherche d'abord Deneb : elle forme le grand triangle d'été avec Véga et Altaïr.",
+  "Deneb marque la queue du Cygne. La tête est à l'opposé, en Albireo, au bout de la grande croix.",
+  "Le Cygne « vole » le long de la Voie lactée : sa barre longue est parallèle à la bande laiteuse.",
+  "Sadr, au centre, est le carrefour : c'est là que les ailes croisent le corps."
+ ],
+ "message_animation": "Le Cygne déploie sa grande croix le long de la Voie lactée. Deneb marque la queue, Albireo la tête, et les Dentelles — restes d'une étoile explosée il y a des milliers d'années — se faufilent entre les ailes.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf — fiche « Cygne »",
+  "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
+  "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
+  "lacunes": [
+   "9 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

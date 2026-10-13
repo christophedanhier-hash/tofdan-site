@@ -1,0 +1,273 @@
+{
+ "id": "coupe-cratere",
+ "slug": "coupe-cratere",
+ "nom_fr": "Coupe (Cratère)",
+ "nom_latin": "Crater",
+ "genitif": "Crateris",
+ "abreviation_iau": "Crt",
+ "source_atlas": "fiche Atlas p. 28",
+ "saison": "printemps (hémisphère nord)",
+ "voie_lactee": "hors de la Voie lactée (constellation zodiacale voisine du Lion et de l'Hydre)",
+ "repere_principal": "à l'ouest du Corbeau, sous le Lion",
+ "constellations_voisines": [
+  "Lion",
+  "Corbeau",
+  "Hydre",
+  "Sextant",
+  "Vierge"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "γ",
+   "bayer": "gam Crt",
+   "ra_deg": 179.004,
+   "dec_deg": -17.151,
+   "mag": 5.17,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 58188) / IAU"
+  },
+  {
+   "i": 1,
+   "nom": "δ",
+   "bayer": "del Crt",
+   "ra_deg": 176.191,
+   "dec_deg": -18.351,
+   "mag": 4.71,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 57283) / IAU"
+  },
+  {
+   "i": 2,
+   "nom": "ε",
+   "bayer": "eps Crt",
+   "ra_deg": 171.221,
+   "dec_deg": -17.684,
+   "mag": 4.06,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 55705) / IAU"
+  },
+  {
+   "i": 3,
+   "nom": "ζ",
+   "bayer": "zet Crt",
+   "ra_deg": 167.915,
+   "dec_deg": -22.826,
+   "mag": 4.46,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 54682) / IAU"
+  },
+  {
+   "i": 4,
+   "nom": "Alkes",
+   "bayer": "alf Crt",
+   "ra_deg": 164.945,
+   "dec_deg": -18.299,
+   "mag": 4.08,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 53740) / IAU"
+  },
+  {
+   "i": 5,
+   "nom": "β",
+   "bayer": "bet Crt",
+   "ra_deg": 169.836,
+   "dec_deg": -14.779,
+   "mag": 3.56,
+   "role": "",
+   "visibilite": "brillante, visible à l'œil nu",
+   "src": "Hipparcos (HIP 55282) / IAU"
+  },
+  {
+   "i": 6,
+   "nom": "θ",
+   "bayer": "the Crt",
+   "ra_deg": 171.153,
+   "dec_deg": -10.859,
+   "mag": 4.81,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 55687) / IAU"
+  },
+  {
+   "i": 7,
+   "nom": "η",
+   "bayer": "eta Crt",
+   "ra_deg": 174.171,
+   "dec_deg": -9.802,
+   "mag": 4.7,
+   "role": "",
+   "visibilite": "visible à l'œil nu par nuit claire",
+   "src": "Hipparcos (HIP 56633) / IAU"
+  }
+ ],
+ "figure": {
+  "statut": "tracée d'après la source IAU",
+  "liaisons": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "commentaire": "Figure de la Coupe : la coupe à deux anses, reconnaissable à son corps allongé et à son anse en boucle fermée.",
+  "note_geometrie": "La Coupe s'étale sur environ 6.0° de ciel, entre les deux étoiles les plus éloignées du tracé (ε – ζ). Sa forme est celle d'un vase allongé : un corps que l'on suit d'une extrémité à l'autre, refermé côté nord par une anse en boucle — les étoiles β, ε et ζ forment un petit triangle refermé sur lui-même (3.2° entre ε et β). C'est ce tracé en boucle qui rend la Coupe identifiable, malgré la faible luminosité de ses étoiles : aucune n'atteint la deuxième magnitude, et seule Alkes porte un nom propre officiel.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": [
+  {
+   "entre": "ε – ζ",
+   "deg": 6.0
+  },
+  {
+   "entre": "Alkes – β",
+   "deg": 5.86
+  },
+  {
+   "entre": "ζ – Alkes",
+   "deg": 5.31
+  },
+  {
+   "entre": "δ – ε",
+   "deg": 4.77
+  },
+  {
+   "entre": "β – θ",
+   "deg": 4.12
+  },
+  {
+   "entre": "ε – β",
+   "deg": 3.19
+  },
+  {
+   "entre": "θ – η",
+   "deg": 3.15
+  },
+  {
+   "entre": "γ – δ",
+   "deg": 2.94
+  }
+ ],
+ "objets_ciel_profond": [],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [],
+ "questions_guide": [],
+ "message_animation": "",
+ "tracabilite": {
+  "coordonnees": "Hipparcos (via constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org)",
+  "source_principale": "constellation_lines_iau.dat (Dominic Ford, In-The-Sky.org, © 2015-2025) ; liste des noms IAU (640 noms, sept. 2026)",
+  "statut": "étoiles et figure complètes ; contenu pédagogique NON rédigé",
+  "lacunes": [
+   "Aucun objet du ciel profond : la fiche de l'Atlas (p. 28) ne cite aucun objet pour la Coupe. Conformément à la règle « JSON ⊆ Atlas », aucun objet n'a été ajouté depuis OpenNGC.",
+   "Questions (guide et observation) non rédigées : la fiche Atlas ne fournit aucun élément de contenu.",
+   "message_animation vide pour la même raison."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

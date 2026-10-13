@@ -1,0 +1,247 @@
+{
+ "id": "couronne-boreale",
+ "slug": "couronne-boreale",
+ "nom_fr": "Couronne Boréale",
+ "nom_latin": "Corona Borealis",
+ "genitif": "Coronae Borealis",
+ "abreviation_iau": "CrB",
+ "source_atlas": "Atlas observation.pdf — fiche « Couronne Boréale »",
+ "saison": "été",
+ "voie_lactee": false,
+ "repere_principal": "Un arc de cercle de sept étoiles, ouvert vers le bas — le diadème de la légende d'Ariane.",
+ "constellations_voisines": [
+  "Hercule",
+  "Bouvier",
+  "Serpent"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "θ CrB",
+   "bayer": "tet CrB",
+   "ra_deg": 233.2325,
+   "dec_deg": 31.3592,
+   "mag": 4.14,
+   "role": "Magnitude 4,14.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 1,
+   "nom": "Nusakan",
+   "bayer": "bet CrB",
+   "ra_deg": 231.9577,
+   "dec_deg": 29.1055,
+   "mag": 3.66,
+   "role": "Magnitude 3,66.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 2,
+   "nom": "Alphecca",
+   "bayer": "alf CrB",
+   "ra_deg": 233.6716,
+   "dec_deg": 26.7149,
+   "mag": 2.22,
+   "role": "Magnitude 2,22.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 3,
+   "nom": "γ CrB",
+   "bayer": "gam CrB",
+   "ra_deg": 235.686,
+   "dec_deg": 26.2955,
+   "mag": 3.81,
+   "role": "Magnitude 3,81.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 4,
+   "nom": "δ CrB",
+   "bayer": "del CrB",
+   "ra_deg": 237.3987,
+   "dec_deg": 26.0685,
+   "mag": 4.59,
+   "role": "Magnitude 4,59.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 5,
+   "nom": "ε CrB",
+   "bayer": "eps CrB",
+   "ra_deg": 239.3971,
+   "dec_deg": 26.878,
+   "mag": 4.14,
+   "role": "Magnitude 4,14.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 6,
+   "nom": "ι CrB",
+   "bayer": "iot CrB",
+   "ra_deg": 240.3608,
+   "dec_deg": 29.8511,
+   "mag": 4.98,
+   "role": "Magnitude 4,98.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+  "liaisons": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
+  "note_geometrie": "La Couronne Boréale est un simple arc de sept étoiles, ouvert vers le bas de la figure. L'arc se lit d'un bout à l'autre : θ CrB → Nusakan (β) → Alphecca (α) → γ → δ → ε → ι CrB. Les segments les plus courts se suivent au centre de l'arc (γ CrB–δ CrB 1,55°, puis Alphecca–γ CrB 1,85°, et δ CrB–ε CrB 1,96°) : c'est le creux du diadème, là où les étoiles semblent serrées. Le segment qui remonte vers l'extrémité (ε CrB–ι CrB, 3,09°) est le plus long. Alphecca, l'« étoile gemme », brille exactement au creux de l'arc.",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
+  "θ CrB–Nusakan": 2.51,
+  "Nusakan–Alphecca": 2.83,
+  "Alphecca–γ CrB": 1.85,
+  "γ CrB–δ CrB": 1.55,
+  "δ CrB–ε CrB": 1.96,
+  "ε CrB–ι CrB": 3.09
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "NGC 6131",
+   "nature": "galaxie spirale barrée",
+   "mag": 13.28,
+   "distance_al": 242000000,
+   "note": "Galaxie spirale barrée lointaine, dans un champ pauvre en objets brillants. Un défi de télescope.",
+   "instrument": "instrument",
+   "src": "O4",
+   "code": "O4"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  "Vois-tu la forme d'un arc ouvert, ou d'un cercle presque fermé ?",
+  "Combien d'étoiles distingues-tu à l'œil nu dans l'arc ?",
+  "Alphecca te paraît-elle plus brillante que ses voisines immédiates ?",
+  "Repères-tu le creux du diadème, là où les étoiles se resserrent ?",
+  "La couleur de Nusakan te semble-t-elle rougeâtre ? (C'est une étoile variable.)"
+ ],
+ "questions_guide": [
+  "Repère d'abord l'Arc : entre Hercule à l'ouest et le Bouvier à l'est, une petite traînée d'étoiles en demi-cercle.",
+  "Alphecca est l'étoile la plus brillante : elle occupe le creux de l'arc. Si tu la trouves, tu as la Couronne.",
+  "Compare sa taille à la Grande Ourse : la Couronne est bien plus petite — un simple diadème, pas une casserole.",
+  "Montre-la en été : elle culmine haut dans le ciel les soirs de juillet."
+ ],
+ "message_animation": "La Couronne Boréale est un petit arc de sept étoiles, ouvert vers l'horizon. Alphecca, sa « gemme », brille au creux de l'arc. Un diadème à la portée des jumelles, facile à repérer entre Hercule et le Bouvier.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf — fiche « Couronne Boréale »",
+  "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
+  "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
+  "lacunes": [
+   "5 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

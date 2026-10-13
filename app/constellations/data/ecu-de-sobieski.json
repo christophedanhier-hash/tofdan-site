@@ -1,0 +1,254 @@
+{
+ "id": "ecu-de-sobieski",
+ "slug": "ecu-de-sobieski",
+ "nom_fr": "Écu de Sobieski",
+ "nom_latin": "Scutum",
+ "genitif": "Scuti",
+ "abreviation_iau": "Sct",
+ "source_atlas": "Atlas observation.pdf — fiche « Écu de Sobieski »",
+ "saison": "été",
+ "voie_lactee": true,
+ "repere_principal": "Un petit quadrilatère allongé, dans une région très riche de la Voie lactée.",
+ "constellations_voisines": [
+  "Aigle",
+  "Serpent",
+  "Sagittaire"
+ ],
+ "etoiles": [
+  {
+   "i": 0,
+   "nom": "δ Sct",
+   "bayer": "del Sct",
+   "ra_deg": 280.5684,
+   "dec_deg": -9.0526,
+   "mag": 4.7,
+   "role": "Magnitude 4,7.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 1,
+   "nom": "β Sct",
+   "bayer": "bet Sct",
+   "ra_deg": 281.7937,
+   "dec_deg": -4.7478,
+   "mag": 4.22,
+   "role": "Magnitude 4,22.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 2,
+   "nom": "α Sct",
+   "bayer": "alf Sct",
+   "ra_deg": 278.8018,
+   "dec_deg": -8.2433,
+   "mag": 3.85,
+   "role": "Magnitude 3,85.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  },
+  {
+   "i": 3,
+   "nom": "γ Sct",
+   "bayer": "gam Sct",
+   "ra_deg": 277.2994,
+   "dec_deg": -14.5658,
+   "mag": 4.67,
+   "role": "Magnitude 4,67.",
+   "visibilite": "œil nu",
+   "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+  }
+ ],
+ "figure": {
+  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+  "liaisons": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    3,
+    0
+   ]
+  ],
+  "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
+  "note_geometrie": "L'Écu de Sobieski est un petit quadrilatère allongé, dont les quatre côtés mesurent entre 4,47° et 6,49°. Le tracé suit un quadrilatère régulier : δ Sct → β Sct → α Sct → γ Sct → δ Sct. C'est une figure homogène — aucune arête n'est courte au point de brouiller la lecture — mais elle est modeste en taille et posée dans une région tellement riche de la Voie lactée qu'il faut la chercher. Le plus court côté relie δ Sct et β Sct (4,47°) ; le plus long, α Sct–γ Sct (6,49°).",
+  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+ },
+ "distances_angulaires_deg": {
+  "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
+  "δ Sct–β Sct": 4.47,
+  "β Sct–α Sct": 4.59,
+  "α Sct–γ Sct": 6.49,
+  "γ Sct–δ Sct": 6.37
+ },
+ "objets_ciel_profond": [
+  {
+   "id": "M 11",
+   "nature": "amas ouvert",
+   "mag": 5.8,
+   "distance_al": 6730,
+   "note": "L'amas du Canard sauvage : l'un des amas ouverts les plus riches et les plus beaux du ciel.",
+   "instrument": "œil nu",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 6664",
+   "nature": "amas ouvert",
+   "mag": 7.8,
+   "distance_al": 6340,
+   "note": "Amas ouvert assez dispersé, dans un champ très riche.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 6712",
+   "nature": "amas globulaire",
+   "mag": 8.1,
+   "distance_al": 24100,
+   "note": "Amas globulaire modeste mais bien condensé, dans une région chargée de poussière.",
+   "instrument": "instrument",
+   "src": "O3",
+   "code": "O3"
+  },
+  {
+   "id": "M 26",
+   "nature": "amas ouvert",
+   "mag": 8.87,
+   "distance_al": 5460,
+   "note": "Petit amas ouvert compact, assez détaché du fond riche de la Voie lactée.",
+   "instrument": "instrument",
+   "src": "O5",
+   "code": "O5"
+  },
+  {
+   "id": "NGC 6625",
+   "nature": "amas ouvert",
+   "mag": 9.0,
+   "distance_al": 4360,
+   "note": "Amas ouvert faible et dispersé : objet de patience.",
+   "instrument": "instrument",
+   "src": "O1",
+   "code": "O1"
+  },
+  {
+   "id": "NGC 6683",
+   "nature": "amas ouvert",
+   "mag": 9.4,
+   "distance_al": 4620,
+   "note": "Petit amas ouvert, modeste à l'oculaire.",
+   "instrument": "instrument",
+   "src": "O1",
+   "code": "O1"
+  }
+ ],
+ "codification_luminosite": [
+  {
+   "code": 1,
+   "libelle": "très brillante",
+   "desc": "visible immédiatement"
+  },
+  {
+   "code": 2,
+   "libelle": "brillante",
+   "desc": "facile à repérer"
+  },
+  {
+   "code": 3,
+   "libelle": "moyenne",
+   "desc": "visible dans un bon ciel"
+  },
+  {
+   "code": 4,
+   "libelle": "faible",
+   "desc": "demande une attention particulière"
+  },
+  {
+   "code": 5,
+   "libelle": "limite",
+   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+  }
+ ],
+ "questions_observation": [
+  "Le quadrilatère te paraît-il régulier, ou plus long que large ?",
+  "Le fond du ciel autour de l'Écu te paraît-il plus riche qu'autour de la Couronne ?",
+  "Distingues-tu les quatre étoiles du cadre à l'œil nu ?",
+  "Repères-tu la direction de la Voie lactée qui traverse la région ?",
+  "Ton regard accroche-t-il autre chose dans le champ, à côté du quadrilatère ?"
+ ],
+ "questions_guide": [
+  "Cherche un petit quadrilatère posé dans la Voie lactée, juste au sud de l'Aigle.",
+  "C'est une constellation minuscule et discrète : repère-la d'abord grâce à ses voisines.",
+  "M 11, l'amas du Canard sauvage, s'y trouve — c'est la vraie raison de pointer l'Écu.",
+  "Le motif est un rectangle allongé, plus long que large."
+ ],
+ "message_animation": "L'Écu de Sobieski est une petite constellation discrète posée dans la Voie lactée la plus dense. M 11, l'amas du Canard sauvage, y est l'un des plus beaux amas ouverts du ciel.",
+ "tracabilite": {
+  "source_principale": "Atlas observation.pdf — fiche « Écu de Sobieski »",
+  "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
+  "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
+  "lacunes": [
+   "4 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
+  ]
+ },
+ "referentiel_sources": {
+  "titre": "D'où viennent ces données ?",
+  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+  "lignes": [
+   {
+    "code": "O1",
+    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+   },
+   {
+    "code": "O2",
+    "texte": "OpenNGC, magnitude en bande B",
+    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+   },
+   {
+    "code": "S1",
+    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+   },
+   {
+    "code": "S2",
+    "texte": "SIMBAD (magnitude) seule",
+    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+   },
+   {
+    "code": "W1",
+    "texte": "Wikidata seule",
+    "detail": "Aucune valeur de catalogue disponible pour cet objet."
+   },
+   {
+    "code": "A1",
+    "texte": "Atlas, corrigé page 2",
+    "detail": "Valeur reprise de l'atlas de référence du guide."
+   }
+  ],
+  "marqueurs": [
+   {
+    "code": "†",
+    "texte": "magnitude non publiée",
+    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+   },
+   {
+    "code": "‡",
+    "texte": "distance non publiée",
+    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+   }
+  ],
+  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+ }
+}

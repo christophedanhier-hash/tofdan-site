@@ -1,108 +1,172 @@
 {
-  "constellations": [
-    {
-      "id": "aigle",
-      "nom_fr": "Aigle",
-      "nom_latin": "Aquila",
-      "abreviation": "Aql",
-      "fichier": "aigle.json",
-      "figure_svg": "figures/aigle.svg"
-    },
-    {
-      "id": "andromede",
-      "nom_fr": "Andromède",
-      "nom_latin": "Andromeda",
-      "abreviation": "And",
-      "fichier": "andromede.json",
-      "figure_svg": "figures/andromede.svg"
-    },
-    {
-      "id": "balance",
-      "nom_fr": "Balance",
-      "nom_latin": "Libra",
-      "abreviation": "Lib",
-      "fichier": "balance.json",
-      "figure_svg": "figures/balance.svg"
-    },
-    {
-      "id": "baleine",
-      "nom_fr": "Baleine",
-      "nom_latin": "Cetus",
-      "abreviation": "Cet",
-      "fichier": "baleine.json",
-      "figure_svg": "figures/baleine.svg"
-    },
-    {
-      "id": "bouvier",
-      "nom_fr": "Bouvier",
-      "nom_latin": "Boötes",
-      "abreviation": "Boo",
-      "fichier": "bouvier.json",
-      "figure_svg": "figures/bouvier.svg"
-    },
-    {
-      "id": "cancer",
-      "nom_fr": "Cancer",
-      "nom_latin": "Cancer",
-      "abreviation": "Cnc",
-      "fichier": "cancer.json",
-      "figure_svg": "figures/cancer.svg"
-    },
-    {
-      "id": "capricorne",
-      "nom_fr": "Capricorne",
-      "nom_latin": "Capricornus",
-      "abreviation": "Cap",
-      "fichier": "capricorne.json",
-      "figure_svg": "figures/capricorne.svg"
-    },
-    {
-      "id": "cassiopee",
-      "nom_fr": "Cassiopée",
-      "nom_latin": "Cassiopeia",
-      "abreviation": "Cas",
-      "fichier": "cassiopee.json",
-      "figure_svg": "figures/cassiopee.svg"
-    },
-    {
-      "id": "chevelure-de-berenice",
-      "nom_fr": "Chevelure de Bérénice",
-      "nom_latin": "Coma Berenices",
-      "abreviation": "Com",
-      "fichier": "chevelure-de-berenice.json",
-      "figure_svg": "figures/chevelure-de-berenice.svg"
-    },
-    {
-      "id": "chiens-de-chasse",
-      "nom_fr": "Chiens de Chasse",
-      "nom_latin": "Canes Venatici",
-      "abreviation": "CVn",
-      "fichier": "chiens-de-chasse.json",
-      "figure_svg": "figures/chiens-de-chasse.svg"
-    },
-    {
-      "id": "cocher",
-      "nom_fr": "Cocher",
-      "nom_latin": "Auriga",
-      "abreviation": "Aur",
-      "fichier": "cocher.json",
-      "figure_svg": "figures/cocher.svg"
-    },
-    {
-      "id": "grande-ourse",
-      "nom_fr": "Grande Ourse",
-      "nom_latin": "Ursa Major",
-      "abreviation": "UMa",
-      "fichier": "grande-ourse.json",
-      "figure_svg": "figures/grande-ourse.svg"
-    },
-    {
-      "id": "orion",
-      "nom_fr": "Orion",
-      "nom_latin": "Orion",
-      "abreviation": "Ori",
-      "fichier": "orion.json",
-      "figure_svg": "figures/orion.svg"
-    }
-  ]
+ "constellations": [
+  {
+   "id": "aigle",
+   "nom_fr": "Aigle",
+   "nom_latin": "Aquila",
+   "abreviation": "Aql",
+   "fichier": "aigle.json",
+   "figure_svg": "figures/aigle.svg"
+  },
+  {
+   "id": "andromede",
+   "nom_fr": "Andromède",
+   "nom_latin": "Andromeda",
+   "abreviation": "And",
+   "fichier": "andromede.json",
+   "figure_svg": "figures/andromede.svg"
+  },
+  {
+   "id": "balance",
+   "nom_fr": "Balance",
+   "nom_latin": "Libra",
+   "abreviation": "Lib",
+   "fichier": "balance.json",
+   "figure_svg": "figures/balance.svg"
+  },
+  {
+   "id": "baleine",
+   "nom_fr": "Baleine",
+   "nom_latin": "Cetus",
+   "abreviation": "Cet",
+   "fichier": "baleine.json",
+   "figure_svg": "figures/baleine.svg"
+  },
+  {
+   "id": "bouvier",
+   "nom_fr": "Bouvier",
+   "nom_latin": "Boötes",
+   "abreviation": "Boo",
+   "fichier": "bouvier.json",
+   "figure_svg": "figures/bouvier.svg"
+  },
+  {
+   "id": "cancer",
+   "nom_fr": "Cancer",
+   "nom_latin": "Cancer",
+   "abreviation": "Cnc",
+   "fichier": "cancer.json",
+   "figure_svg": "figures/cancer.svg"
+  },
+  {
+   "id": "capricorne",
+   "nom_fr": "Capricorne",
+   "nom_latin": "Capricornus",
+   "abreviation": "Cap",
+   "fichier": "capricorne.json",
+   "figure_svg": "figures/capricorne.svg"
+  },
+  {
+   "id": "cassiopee",
+   "nom_fr": "Cassiopée",
+   "nom_latin": "Cassiopeia",
+   "abreviation": "Cas",
+   "fichier": "cassiopee.json",
+   "figure_svg": "figures/cassiopee.svg"
+  },
+  {
+   "id": "chevelure-de-berenice",
+   "nom_fr": "Chevelure de Bérénice",
+   "nom_latin": "Coma Berenices",
+   "abreviation": "Com",
+   "fichier": "chevelure-de-berenice.json",
+   "figure_svg": "figures/chevelure-de-berenice.svg"
+  },
+  {
+   "id": "chiens-de-chasse",
+   "nom_fr": "Chiens de Chasse",
+   "nom_latin": "Canes Venatici",
+   "abreviation": "CVn",
+   "fichier": "chiens-de-chasse.json",
+   "figure_svg": "figures/chiens-de-chasse.svg"
+  },
+  {
+   "id": "cocher",
+   "nom_fr": "Cocher",
+   "nom_latin": "Auriga",
+   "abreviation": "Aur",
+   "fichier": "cocher.json",
+   "figure_svg": "figures/cocher.svg"
+  },
+  {
+   "id": "grande-ourse",
+   "nom_fr": "Grande Ourse",
+   "nom_latin": "Ursa Major",
+   "abreviation": "UMa",
+   "fichier": "grande-ourse.json",
+   "figure_svg": "figures/grande-ourse.svg"
+  },
+  {
+   "id": "orion",
+   "nom_fr": "Orion",
+   "nom_latin": "Orion",
+   "abreviation": "Ori",
+   "fichier": "orion.json",
+   "figure_svg": "figures/orion.svg"
+  },
+  {
+   "id": "cephee",
+   "nom_fr": "Céphée",
+   "nom_latin": "Cepheus",
+   "abreviation": "Cep",
+   "fichier": "cephee.json",
+   "figure_svg": "figures/cephee.svg"
+  },
+  {
+   "id": "coupe-cratere",
+   "nom_fr": "Coupe (Cratère)",
+   "nom_latin": "Crater",
+   "abreviation": "Crt",
+   "fichier": "coupe-cratere.json",
+   "figure_svg": "figures/coupe-cratere.svg"
+  },
+  {
+   "id": "couronne-boreale",
+   "nom_fr": "Couronne Boréale",
+   "nom_latin": "Corona Borealis",
+   "abreviation": "CrB",
+   "fichier": "couronne-boreale.json",
+   "figure_svg": "figures/couronne-boreale.svg"
+  },
+  {
+   "id": "cygne",
+   "nom_fr": "Cygne",
+   "nom_latin": "Cygnus",
+   "abreviation": "Cyg",
+   "fichier": "cygne.json",
+   "figure_svg": "figures/cygne.svg"
+  },
+  {
+   "id": "dauphin",
+   "nom_fr": "Dauphin",
+   "nom_latin": "Delphinus",
+   "abreviation": "Del",
+   "fichier": "dauphin.json",
+   "figure_svg": "figures/dauphin.svg"
+  },
+  {
+   "id": "dragon",
+   "nom_fr": "Dragon",
+   "nom_latin": "Draco",
+   "abreviation": "Dra",
+   "fichier": "dragon.json",
+   "figure_svg": "figures/dragon.svg"
+  },
+  {
+   "id": "ecu-de-sobieski",
+   "nom_fr": "Écu de Sobieski",
+   "nom_latin": "Scutum",
+   "abreviation": "Sct",
+   "fichier": "ecu-de-sobieski.json",
+   "figure_svg": "figures/ecu-de-sobieski.svg"
+  },
+  {
+   "id": "fleche",
+   "nom_fr": "Flèche",
+   "nom_latin": "Sagitta",
+   "abreviation": "Sge",
+   "fichier": "fleche.json",
+   "figure_svg": "figures/fleche.svg"
+  }
+ ]
 }

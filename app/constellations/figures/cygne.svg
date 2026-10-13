@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Cygne">
+<rect width="620" height="460" fill="#ffffff"/>
+<line x1="419.8" y1="396.0" x2="398.3" y2="367.3" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="398.3" y1="367.3" x2="356.4" y2="302.9" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="356.4" y1="302.9" x2="292.1" y2="235.3" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="292.1" y1="235.3" x2="384.4" y2="171.6" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="384.4" y1="171.6" x2="422.3" y2="85.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="422.3" y1="85.4" x2="308.9" y2="137.9" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="308.9" y1="137.9" x2="244.6" y2="169.7" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="244.6" y1="169.7" x2="292.1" y2="235.3" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="453.5" y1="64.0" x2="422.3" y2="85.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="244.6" y1="169.7" x2="205.5" y2="223.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="205.5" y1="223.4" x2="166.5" y2="366.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="166.5" y1="366.4" x2="232.7" y2="317.5" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="232.7" y1="317.5" x2="292.1" y2="235.3" stroke="#9bb8d4" stroke-width="1.6"/>
+<circle cx="419.8" cy="396.0" r="4.6" fill="#1b3a5c"/>
+<text x="414.6" y="411.7" font-size="12" font-family="Georgia,serif" fill="#12324f">β1</text>
+<circle cx="398.3" cy="367.3" r="3.4" fill="#1b3a5c"/>
+<text x="385.5" y="382.1" font-size="12" font-family="Georgia,serif" fill="#12324f">φ</text>
+<circle cx="356.4" cy="302.9" r="3.4" fill="#1b3a5c"/>
+<text x="337.9" y="310.9" font-size="12" font-family="Georgia,serif" fill="#12324f">η</text>
+<circle cx="292.1" cy="235.3" r="6.0" fill="#1b3a5c"/>
+<line x1="292.1" y1="235.3" x2="323.1" y2="235.3" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="306.9" y="238.8" font-size="12" font-family="Georgia,serif" fill="#12324f">Sadr</text>
+<circle cx="384.4" cy="171.6" r="4.6" fill="#1b3a5c"/>
+<text x="353.9" y="162.9" font-size="12" font-family="Georgia,serif" fill="#12324f">Fawaris</text>
+<circle cx="422.3" cy="85.4" r="3.4" fill="#1b3a5c"/>
+<text x="409.5" y="77.7" font-size="12" font-family="Georgia,serif" fill="#12324f">ι</text>
+<circle cx="308.9" cy="137.9" r="3.4" fill="#1b3a5c"/>
+<text x="305.8" y="152.6" font-size="12" font-family="Georgia,serif" fill="#12324f">ο2</text>
+<circle cx="244.6" cy="169.7" r="6.0" fill="#1b3a5c"/>
+<line x1="244.6" y1="169.7" x2="233.0" y2="155.9" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="213.5" y="159.4" font-size="12" font-family="Georgia,serif" fill="#12324f">Deneb</text>
+<circle cx="453.5" cy="64.0" r="3.4" fill="#1b3a5c"/>
+<text x="460.2" y="67.5" font-size="12" font-family="Georgia,serif" fill="#12324f">κ</text>
+<circle cx="205.5" cy="223.4" r="3.4" fill="#1b3a5c"/>
+<text x="211.5" y="231.4" font-size="12" font-family="Georgia,serif" fill="#12324f">ν</text>
+<circle cx="166.5" cy="366.4" r="4.6" fill="#1b3a5c"/>
+<text x="164.6" y="382.1" font-size="12" font-family="Georgia,serif" fill="#12324f">ζ</text>
+<circle cx="232.7" cy="317.5" r="6.0" fill="#1b3a5c"/>
+<line x1="232.7" y1="317.5" x2="250.7" y2="317.5" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="244.4" y="321.0" font-size="12" font-family="Georgia,serif" fill="#12324f">ε</text>
+</svg>

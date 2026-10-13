@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Dragon">
+<rect width="620" height="460" fill="#ffffff"/>
+<line x1="170.0" y1="269.7" x2="166.8" y2="316.8" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="166.8" y1="316.8" x2="194.2" y2="309.7" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="194.2" y1="309.7" x2="192.3" y2="284.6" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="192.3" y1="284.6" x2="170.0" y2="269.7" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="170.0" y1="269.7" x2="87.3" y2="175.3" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="87.3" y1="175.3" x2="50.0" y2="152.5" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="87.3" y1="175.3" x2="141.5" y2="143.2" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="141.5" y1="143.2" x2="216.8" y2="192.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="216.8" y1="192.4" x2="263.7" y2="229.1" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="263.7" y1="229.1" x2="286.9" y2="254.9" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="286.9" y1="254.9" x2="325.6" y2="251.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="325.6" y1="251.4" x2="409.9" y2="204.1" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="409.9" y1="204.1" x2="505.0" y2="156.7" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="505.0" y1="156.7" x2="570.0" y2="160.7" stroke="#9bb8d4" stroke-width="1.6"/>
+<circle cx="170.0" cy="269.7" r="3.4" fill="#1b3a5c"/>
+<line x1="170.0" y1="269.7" x2="130.0" y2="269.7" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="103.9" y="273.2" font-size="12" font-family="Georgia,serif" fill="#12324f">Grumium</text>
+<circle cx="166.8" cy="316.8" r="6.0" fill="#1b3a5c"/>
+<line x1="166.8" y1="316.8" x2="129.4" y2="323.4" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="103.3" y="326.9" font-size="12" font-family="Georgia,serif" fill="#12324f">Eltanin</text>
+<circle cx="194.2" cy="309.7" r="4.6" fill="#1b3a5c"/>
+<line x1="194.2" y1="309.7" x2="248.3" y2="300.2" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="218.9" y="303.7" font-size="12" font-family="Georgia,serif" fill="#12324f">Rastaban</text>
+<circle cx="192.3" cy="284.6" r="3.4" fill="#1b3a5c"/>
+<line x1="192.3" y1="284.6" x2="182.0" y2="256.4" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="172.4" y="259.9" font-size="12" font-family="Georgia,serif" fill="#12324f">ν2</text>
+<circle cx="87.3" cy="175.3" r="4.6" fill="#1b3a5c"/>
+<text x="65.6" y="191.8" font-size="12" font-family="Georgia,serif" fill="#12324f">Altais</text>
+<circle cx="50.0" cy="152.5" r="3.4" fill="#1b3a5c"/>
+<text x="42.6" y="169.0" font-size="12" font-family="Georgia,serif" fill="#12324f">ε</text>
+<circle cx="141.5" cy="143.2" r="3.4" fill="#1b3a5c"/>
+<text x="128.7" y="135.4" font-size="12" font-family="Georgia,serif" fill="#12324f">φ</text>
+<circle cx="216.8" cy="192.4" r="4.6" fill="#1b3a5c"/>
+<text x="189.7" y="208.7" font-size="12" font-family="Georgia,serif" fill="#12324f">Aldhibah</text>
+<circle cx="263.7" cy="229.1" r="4.6" fill="#1b3a5c"/>
+<text x="235.5" y="245.6" font-size="12" font-family="Georgia,serif" fill="#12324f">Athebyne</text>
+<circle cx="286.9" cy="254.9" r="3.4" fill="#1b3a5c"/>
+<text x="287.1" y="269.7" font-size="12" font-family="Georgia,serif" fill="#12324f">θ</text>
+<circle cx="325.6" cy="251.4" r="4.6" fill="#1b3a5c"/>
+<text x="303.9" y="267.1" font-size="12" font-family="Georgia,serif" fill="#12324f">Edasich</text>
+<circle cx="409.9" cy="204.1" r="3.4" fill="#1b3a5c"/>
+<line x1="409.9" y1="204.1" x2="422.7" y2="219.4" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
+<text x="399.9" y="222.9" font-size="12" font-family="Georgia,serif" fill="#12324f">Thuban</text>
+<circle cx="505.0" cy="156.7" r="3.4" fill="#1b3a5c"/>
+<text x="505.2" y="171.5" font-size="12" font-family="Georgia,serif" fill="#12324f">κ</text>
+<circle cx="570.0" cy="160.7" r="3.4" fill="#1b3a5c"/>
+<text x="550.4" y="175.5" font-size="12" font-family="Georgia,serif" fill="#12324f">Giausar</text>
+</svg>

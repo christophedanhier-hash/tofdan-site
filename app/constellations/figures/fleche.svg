@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Flèche">
+<rect width="620" height="460" fill="#ffffff"/>
+<line x1="530.9" y1="342.1" x2="363.8" y2="224.4" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="363.8" y1="224.4" x2="556.0" y2="282.3" stroke="#9bb8d4" stroke-width="1.6"/>
+<line x1="363.8" y1="224.4" x2="64.0" y2="117.9" stroke="#9bb8d4" stroke-width="1.6"/>
+<circle cx="530.9" cy="342.1" r="3.4" fill="#1b3a5c"/>
+<text x="537.6" y="345.6" font-size="12" font-family="Georgia,serif" fill="#12324f">β</text>
+<circle cx="363.8" cy="224.4" r="3.4" fill="#1b3a5c"/>
+<text x="355.2" y="240.7" font-size="12" font-family="Georgia,serif" fill="#12324f">δ</text>
+<circle cx="556.0" cy="282.3" r="3.4" fill="#1b3a5c"/>
+<text x="546.3" y="297.0" font-size="12" font-family="Georgia,serif" fill="#12324f">Sham</text>
+<circle cx="64.0" cy="117.9" r="3.4" fill="#1b3a5c"/>
+<text x="60.0" y="134.2" font-size="12" font-family="Georgia,serif" fill="#12324f">γ</text>
+</svg>
