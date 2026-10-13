@@ -258,7 +258,7 @@
       "mag": 9.3,
       "distance_al": null,
       "note": "Galaxie elliptique de magnitude 9,60.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     },
@@ -268,7 +268,7 @@
       "mag": 9.3,
       "distance_al": null,
       "note": "Galaxie spirale de magnitude 9,60, située à 34 millions d'années-lumière ; appartient au triplet du Lion avec sa voisine M 66.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     },
@@ -278,7 +278,7 @@
       "mag": 9,
       "distance_al": null,
       "note": "Même morphologie que M 65, de magnitude 8,90, distante de 27 millions d'années-lumière ; forme le triplet du Lion avec M 65 et NGC 3628.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     },
@@ -288,7 +288,7 @@
       "mag": 9.7,
       "distance_al": null,
       "note": "Galaxie spirale barrée de magnitude 11,20, vue de face, à 28 millions d'années-lumière.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     },
@@ -298,7 +298,7 @@
       "mag": 9.2,
       "distance_al": null,
       "note": "Galaxie spirale de magnitude 10,0, vue de 3/4, éloignée de 35 millions d'années-lumière.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     },
@@ -308,7 +308,7 @@
       "mag": 8.9,
       "distance_al": null,
       "note": "Fait bande à part parmi les galaxies de ce secteur.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     },
@@ -318,7 +318,7 @@
       "mag": 9.5,
       "distance_al": null,
       "note": "Objet du catalogue NGC (NGC 3628). Description non détaillée dans la fiche Atlas.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
       "code": "N2"
     }

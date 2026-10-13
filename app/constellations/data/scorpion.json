@@ -342,7 +342,7 @@
       "mag": 4.2,
       "distance_al": null,
       "note": "Amas du Papillon (NGC 6405), amas ouvert de magnitude globale 4,20.",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     },
@@ -352,7 +352,7 @@
       "mag": 3.3,
       "distance_al": null,
       "note": "Amas relativement peu peuplé, qui se détache sur une région beaucoup plus riche de la Voie lactée.",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     },
@@ -362,7 +362,7 @@
       "mag": 7.2,
       "distance_al": null,
       "note": "Amas globulaire très ramassé (NGC 6093), éloigné de 60 000 années-lumière.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     },
@@ -372,7 +372,7 @@
       "mag": 7.2,
       "distance_al": null,
       "note": "Doublon catalogue de M 80 (NGC 6093) : amas globulaire très ramassé, éloigné de 60 000 années-lumière.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     },
@@ -382,7 +382,7 @@
       "mag": 2.6,
       "distance_al": null,
       "note": "Modeste amas ouvert, situé à 6500 années-lumière, qui se signale surtout par la singulière relation qu'on lui suppose avec l'amas globulaire NGC 6397 (Autel).",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     },
@@ -402,7 +402,7 @@
       "mag": 5.5,
       "distance_al": null,
       "note": "Amas ouvert plongé dans une région nébulaire.",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     },
@@ -412,7 +412,7 @@
       "mag": 4.2,
       "distance_al": null,
       "note": "Cl, L, iR, lC, st 7, 10...; = M6",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
       "code": "N2"
     }

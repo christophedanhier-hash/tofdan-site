@@ -132,7 +132,7 @@
       "mag": 8.83,
       "distance_al": 51300,
       "note": "Amas globulaire distant dans le Dauphin : petit et concentré à l'oculaire.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O3",
       "code": "O3"
     },
@@ -142,7 +142,7 @@
       "mag": 10.46,
       "distance_al": 128000,
       "note": "Amas globulaire très excentré, l'un des plus éloignés du halo de notre galaxie.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "O3",
       "code": "O3"
     }

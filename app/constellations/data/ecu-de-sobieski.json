@@ -108,7 +108,7 @@
       "mag": 7.8,
       "distance_al": 6340,
       "note": "Amas ouvert assez dispersé, dans un champ très riche.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O5",
       "code": "O5"
     },
@@ -118,7 +118,7 @@
       "mag": 8.1,
       "distance_al": 24100,
       "note": "Amas globulaire modeste mais bien condensé, dans une région chargée de poussière.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O3",
       "code": "O3"
     },
@@ -128,7 +128,7 @@
       "mag": 8.87,
       "distance_al": 5460,
       "note": "Petit amas ouvert compact, assez détaché du fond riche de la Voie lactée.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O5",
       "code": "O5"
     },
@@ -138,7 +138,7 @@
       "mag": 9.0,
       "distance_al": 4360,
       "note": "Amas ouvert faible et dispersé : objet de patience.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O1",
       "code": "O1"
     },
@@ -148,7 +148,7 @@
       "mag": 9.4,
       "distance_al": 4620,
       "note": "Petit amas ouvert, modeste à l'oculaire.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O1",
       "code": "O1"
     }

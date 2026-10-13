@@ -1,0 +1,962 @@
+[
+ {
+  "constellation": "Aigle",
+  "fichier": "aigle.json",
+  "id": "NGC 6755",
+  "mag": 7.5,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Aigle",
+  "fichier": "aigle.json",
+  "id": "NGC 6804",
+  "mag": 13.4,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Bouvier",
+  "fichier": "bouvier.json",
+  "id": "NGC 5600",
+  "mag": 12.39,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Bouvier",
+  "fichier": "bouvier.json",
+  "id": "NGC 5676",
+  "mag": 11.22,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cassiopée",
+  "fichier": "cassiopee.json",
+  "id": "IC 59",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cassiopée",
+  "fichier": "cassiopee.json",
+  "id": "NGC 281",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cassiopée",
+  "fichier": "cassiopee.json",
+  "id": "IC 1590",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 188",
+  "mag": 8.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 6939",
+  "mag": 7.8,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 7510",
+  "mag": 7.9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 7762",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 7129",
+  "mag": 11.5,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 7822",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 7023",
+  "mag": 7.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "NGC 40",
+  "mag": 11.89,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "Barnard 150",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Céphée",
+  "fichier": "cephee.json",
+  "id": "IC 1396",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Couronne Boréale",
+  "fichier": "couronne-boreale.json",
+  "id": "NGC 6131",
+  "mag": 13.28,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "M 29",
+  "mag": 6.6,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "IC 5146",
+  "mag": 7.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6888",
+  "mag": 7.44,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6946",
+  "mag": 9.05,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6826",
+  "mag": 9.44,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 7000",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "IC 5070",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6914",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6960",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6979",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Cygne",
+  "fichier": "cygne.json",
+  "id": "NGC 6992",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Dauphin",
+  "fichier": "dauphin.json",
+  "id": "NGC 6934",
+  "mag": 8.83,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Dauphin",
+  "fichier": "dauphin.json",
+  "id": "NGC 7006",
+  "mag": 10.46,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Dragon",
+  "fichier": "dragon.json",
+  "id": "NGC 5866",
+  "mag": 9.89,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Écu de Sobieski",
+  "fichier": "ecu-de-sobieski.json",
+  "id": "NGC 6664",
+  "mag": 7.8,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Écu de Sobieski",
+  "fichier": "ecu-de-sobieski.json",
+  "id": "NGC 6712",
+  "mag": 8.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Écu de Sobieski",
+  "fichier": "ecu-de-sobieski.json",
+  "id": "M 26",
+  "mag": 8.87,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Écu de Sobieski",
+  "fichier": "ecu-de-sobieski.json",
+  "id": "NGC 6625",
+  "mag": 9.0,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Écu de Sobieski",
+  "fichier": "ecu-de-sobieski.json",
+  "id": "NGC 6683",
+  "mag": 9.4,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Flèche",
+  "fichier": "fleche.json",
+  "id": "M 71",
+  "mag": 8.19,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Grand Chien",
+  "fichier": "grand-chien.json",
+  "id": "NGC 2363",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Grand Chien",
+  "fichier": "grand-chien.json",
+  "id": "NGC 2359",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Grand Chien",
+  "fichier": "grand-chien.json",
+  "id": "IC 2163",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Licorne",
+  "fichier": "licorne.json",
+  "id": "NGC 2261",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "M 105",
+  "mag": 9.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "M 65",
+  "mag": 9.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "M 66",
+  "mag": 9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "M 95",
+  "mag": 9.7,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "M 96",
+  "mag": 9.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "NGC 2903",
+  "mag": 8.9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Lion",
+  "fichier": "lion.json",
+  "id": "NGC 3628",
+  "mag": 9.5,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Orion",
+  "fichier": "orion.json",
+  "id": "NGC 1977",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Persée",
+  "fichier": "persee.json",
+  "id": "NGC 1490",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Persée",
+  "fichier": "persee.json",
+  "id": "NGC 1499",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Persée",
+  "fichier": "persee.json",
+  "id": "NGC 1579",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Petit Renard",
+  "fichier": "petit-renard.json",
+  "id": "M 27",
+  "mag": 8.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Petit Renard",
+  "fichier": "petit-renard.json",
+  "id": "NGC 6823",
+  "mag": 7.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Petit Renard",
+  "fichier": "petit-renard.json",
+  "id": "NGC 6853",
+  "mag": 8.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Petit Renard",
+  "fichier": "petit-renard.json",
+  "id": "NGC 6885",
+  "mag": 6,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Petit Renard",
+  "fichier": "petit-renard.json",
+  "id": "NGC 6940",
+  "mag": 6.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Poissons",
+  "fichier": "poissons.json",
+  "id": "M 74",
+  "mag": 9.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Poissons",
+  "fichier": "poissons.json",
+  "id": "NGC 676",
+  "mag": 11,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Poupe",
+  "fichier": "poupe.json",
+  "id": "M 46",
+  "mag": 6.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Poupe",
+  "fichier": "poupe.json",
+  "id": "M 47",
+  "mag": 4.4,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Poupe",
+  "fichier": "poupe.json",
+  "id": "NGC 2467",
+  "mag": 7,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 17",
+  "mag": 6,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 18",
+  "mag": 6.9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 20",
+  "mag": 6.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 21",
+  "mag": 5.9,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 22",
+  "mag": 5.1,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 23",
+  "mag": 5.5,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 24",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 25",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 28",
+  "mag": 6.9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 54",
+  "mag": 7.7,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 55",
+  "mag": 7,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 69",
+  "mag": 7.7,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 70",
+  "mag": 8.1,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 75",
+  "mag": 8.6,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "M 8",
+  "mag": 5.8,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "NGC 6494",
+  "mag": 5.5,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "NGC 6520",
+  "mag": 8,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "NGC 6530",
+  "mag": 4.6,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "NGC 6656",
+  "mag": 5.1,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sagittaire",
+  "fichier": "sagittaire.json",
+  "id": "NGC 6822",
+  "mag": 9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "M 6",
+  "mag": 4.2,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "M 7",
+  "mag": 3.3,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "M 80",
+  "mag": 7.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "NGC 6093",
+  "mag": 7.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "NGC 6231",
+  "mag": 2.6,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "NGC 6383",
+  "mag": 5.5,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Scorpion",
+  "fichier": "scorpion.json",
+  "id": "NGC 6405",
+  "mag": 4.2,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Serpent",
+  "fichier": "serpent.json",
+  "id": "M 5",
+  "mag": 5.8,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Serpent",
+  "fichier": "serpent.json",
+  "id": "NGC 6604",
+  "mag": 6.5,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sextant",
+  "fichier": "sextant.json",
+  "id": "NGC 3115",
+  "mag": 9.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Sextant",
+  "fichier": "sextant.json",
+  "id": "NGC 3166",
+  "mag": 10.6,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Taureau",
+  "fichier": "taureau.json",
+  "id": "M 1",
+  "mag": 8.4,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Taureau",
+  "fichier": "taureau.json",
+  "id": "M 45",
+  "mag": 1.6,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Taureau",
+  "fichier": "taureau.json",
+  "id": "NGC 1514",
+  "mag": 10,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Taureau",
+  "fichier": "taureau.json",
+  "id": "NGC 1587",
+  "mag": 13,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Taureau",
+  "fichier": "taureau.json",
+  "id": "NGC 1589",
+  "mag": 14,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Triangle",
+  "fichier": "triangle.json",
+  "id": "M 33",
+  "mag": 5.7,
+  "instrument": "œil nu",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Triangle",
+  "fichier": "triangle.json",
+  "id": "NGC 604",
+  "mag": null,
+  "instrument": null,
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Triangle",
+  "fichier": "triangle.json",
+  "id": "NGC 925",
+  "mag": 10,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Verseau",
+  "fichier": "verseau.json",
+  "id": "M 72",
+  "mag": 9.4,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Verseau",
+  "fichier": "verseau.json",
+  "id": "M 73",
+  "mag": 9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Verseau",
+  "fichier": "verseau.json",
+  "id": "NGC 6994",
+  "mag": 9,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 104",
+  "mag": 8.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 49",
+  "mag": 8.4,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 58",
+  "mag": 9.8,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 59",
+  "mag": 9.8,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 60",
+  "mag": 8.8,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 61",
+  "mag": 9.7,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 84",
+  "mag": 9.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 86",
+  "mag": 9.2,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 87",
+  "mag": 8.6,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 89",
+  "mag": 9.8,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "M 90",
+  "mag": 9.5,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "NGC 4526",
+  "mag": 9.6,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "NGC 4697",
+  "mag": 9.3,
+  "instrument": "jumelles",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "NGC 4699",
+  "mag": 9.6,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ },
+ {
+  "constellation": "Vierge",
+  "fichier": "vierge.json",
+  "id": "NGC 5634",
+  "mag": 9.6,
+  "instrument": "télescope",
+  "source_mag": "fiche"
+ }
+]

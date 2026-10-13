@@ -69,7 +69,7 @@
       "mag": 8.1,
       "distance_al": null,
       "note": "Nébuleuse de l'Haltère (Dumbbell) = NGC 6853 : l'objet le plus connu du Petit Renard.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 89-90",
       "code": "N2"
     },
@@ -79,7 +79,7 @@
       "mag": 7.1,
       "distance_al": null,
       "note": "Amas ouvert plongé dans une nébulosité, qui concentre dans un volume réduit plusieurs dizaines d'étoiles.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 89-90",
       "code": "N2"
     },
@@ -89,7 +89,7 @@
       "mag": 8.1,
       "distance_al": null,
       "note": "Nébuleuse de l'Haltère (Dumbbell) = M 27 : l'objet le plus connu du Petit Renard.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 89-90",
       "code": "N2"
     },
@@ -99,7 +99,7 @@
       "mag": 6,
       "distance_al": null,
       "note": "Petit amas ouvert d'une trentaine d'étoiles, situé à 2000 années-lumière.",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 89-90",
       "code": "N2"
     },
@@ -109,7 +109,7 @@
       "mag": 6.3,
       "distance_al": null,
       "note": "Amas ouvert de magnitude 6,30, où l'on peut distinguer une soixantaine d'étoiles éparpillées.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 89-90",
       "code": "N2"
     }

@@ -92,7 +92,7 @@
       "mag": 9.2,
       "distance_al": null,
       "note": "Galaxie du Fuseau : galaxie elliptique de type E, de magnitude 10,10.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 106-108",
       "code": "N2"
     },
@@ -102,7 +102,7 @@
       "mag": 10.6,
       "distance_al": null,
       "note": "Galaxie spirale de type S0, de magnitude 11,20, appartenant à un petit groupe de galaxies.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 106-108",
       "code": "N2"
     }

@@ -162,7 +162,7 @@
       "mag": 12.39,
       "distance_al": 116437692,
       "note": "Galaxie spirale vue de face, très faible (magnitude 12,39), pour un grand télescope.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "O1",
       "code": "O1"
     },
@@ -182,7 +182,7 @@
       "mag": 11.22,
       "distance_al": 111545352,
       "note": "Galaxie spirale de même type que NGC 5248, de magnitude 11,22 en bande V.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "O1",
       "code": "O1"
     }

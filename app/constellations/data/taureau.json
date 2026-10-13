@@ -223,7 +223,7 @@
       "mag": 8.4,
       "distance_al": null,
       "note": "Nébuleuse du Crabe, distante de 4000 années-lumière : matière dispersée à la vitesse de 1400 km/s par la supernova de type II observée en Chine en 1054.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
       "code": "N2"
     },
@@ -233,7 +233,7 @@
       "mag": 1.6,
       "distance_al": 444,
       "note": "Les Pléiades, aussi appelées Atlantides par les auteurs de l'Antiquité.",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
       "code": "N2"
     },
@@ -243,7 +243,7 @@
       "mag": 10,
       "distance_al": null,
       "note": "Nébuleuse planétaire de magnitude 10.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
       "code": "N2"
     },
@@ -253,7 +253,7 @@
       "mag": 13,
       "distance_al": null,
       "note": "Objet du catalogue NGC (NGC 1587). Description non détaillée dans la fiche Atlas.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
       "code": "N2"
     },
@@ -263,7 +263,7 @@
       "mag": 14,
       "distance_al": null,
       "note": "Galaxie (en haut sur la photographie, avec NGC 1587).",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
       "code": "N2"
     }

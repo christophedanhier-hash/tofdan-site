@@ -142,7 +142,7 @@
       "mag": 7.5,
       "distance_al": 5000,
       "note": "une centaine d'étoiles au petit télescope",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "Atlas p.2",
       "code": "A1"
     },
@@ -202,7 +202,7 @@
       "mag": 13.4,
       "distance_al": null,
       "note": "diamètre angulaire ≈ Jupiter au plus loin ; étoile centrale mag 14",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "SIMBAD (mag) ; distance non publiée",
       "code": "S2‡"
     }

@@ -209,7 +209,7 @@
       "mag": 8.1,
       "distance_al": 6460,
       "note": "Amas ouvert très ancien, l'un des plus vieux de la Voie lactée (plusieurs milliards d'années).",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O1",
       "code": "O1"
     },
@@ -219,7 +219,7 @@
       "mag": 7.8,
       "distance_al": 6450,
       "note": "Amas ouvert riche, voisin de la galaxie NGC 6946 dans le champ.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O1",
       "code": "O1"
     },
@@ -229,7 +229,7 @@
       "mag": 7.9,
       "distance_al": 9620,
       "note": "Petit amas ouvert compact, en forme de coin.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O1",
       "code": "O1"
     },
@@ -249,7 +249,7 @@
       "mag": 11.5,
       "distance_al": 3000,
       "note": "Amas jeune encore enveloppé de la nébuleuse qui l'a vu naître.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "O1",
       "code": "O1"
     },
@@ -269,7 +269,7 @@
       "mag": 7.2,
       "distance_al": 1120,
       "note": "Nébuleuse par réflexion (nébuleuse de l'Iris) éclairée par une étoile jeune, dans un amas ouvert.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "O1",
       "code": "O1"
     },
@@ -279,7 +279,7 @@
       "mag": 11.89,
       "distance_al": 5120,
       "note": "Nébuleuse planétaire (la « cravate ») : l'enveloppe d'une étoile mourante.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "O1",
       "code": "O1"
     },

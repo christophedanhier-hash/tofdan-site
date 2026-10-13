@@ -259,7 +259,7 @@
       "mag": 9.2,
       "distance_al": null,
       "note": "Galaxie spirale (radio) de type Sc, vue de face, dans laquelle on observe près de 200 nuages d'hydrogène ionisé.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 87-88",
       "code": "N2"
     },
@@ -269,7 +269,7 @@
       "mag": 11,
       "distance_al": null,
       "note": "Galaxie spirale de magnitude 10,50, vue par la tranche.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 87-88",
       "code": "N2"
     }

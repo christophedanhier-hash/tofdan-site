@@ -80,7 +80,7 @@
       "mag": 5.7,
       "distance_al": null,
       "note": "Galaxie du Triangle : très belle galaxie spirale de type Sc, vue de 3/4, d'un diamètre apparent équivalent à celui de la Lune.",
-      "instrument": "n. d.",
+      "instrument": "œil nu",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 112-113",
       "code": "N2"
     },
@@ -100,7 +100,7 @@
       "mag": 10,
       "distance_al": null,
       "note": "Au cœur d'une région assez riche en galaxies, apparaît comme une spirale de type S relativement brillante (magnitude 10,50).",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 112-113",
       "code": "N2"
     }

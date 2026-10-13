@@ -253,7 +253,7 @@
       "mag": 8.3,
       "distance_al": null,
       "note": "Sombrero : magnifique galaxie spirale vue de profil, dont le bulbe important lui donne une allure de chapeau. Magnitude 9,18.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -263,7 +263,7 @@
       "mag": 8.4,
       "distance_al": null,
       "note": "Galaxie elliptique membre d'un système double.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -273,7 +273,7 @@
       "mag": 9.8,
       "distance_al": null,
       "note": "Galaxie spirale de type Sb, de magnitude 11,50, vue de 3/4.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -283,7 +283,7 @@
       "mag": 9.8,
       "distance_al": null,
       "note": "Galaxie elliptique de magnitude 11,0.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -293,7 +293,7 @@
       "mag": 8.8,
       "distance_al": null,
       "note": "Galaxie elliptique de magnitude 10,30, en interaction avec un compagnon.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -303,7 +303,7 @@
       "mag": 9.7,
       "distance_al": null,
       "note": "Jolie spirale barrée vue de face, de magnitude 10,90.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -313,7 +313,7 @@
       "mag": 9.3,
       "distance_al": null,
       "note": "Radiogalaxie elliptique (type Eab) de l'amas Virgo, située à 50 millions d'années-lumière, de magnitude 10,80 ; on y a observé une supernova.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -323,7 +323,7 @@
       "mag": 9.2,
       "distance_al": null,
       "note": "Galaxie elliptique de type Ecd dans la classification de Hubble.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -333,7 +333,7 @@
       "mag": 8.6,
       "distance_al": null,
       "note": "Virgo A, galaxie elliptique géante de magnitude 10,40, en plein centre de l'amas Virgo ; un millier d'amas globulaires dénombrés à sa périphérie.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -343,7 +343,7 @@
       "mag": 9.8,
       "distance_al": null,
       "note": "Galaxie elliptique de magnitude 11,10.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -353,7 +353,7 @@
       "mag": 9.5,
       "distance_al": null,
       "note": "Galaxie spirale de magnitude 11,80, vue de profil, située près du centre de l'amas de Virgo ; appartient à un système double.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -363,7 +363,7 @@
       "mag": 9.6,
       "distance_al": null,
       "note": "Galaxie spirale de magnitude 10,60, dans laquelle on a déjà observé une supernova.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -373,7 +373,7 @@
       "mag": 9.3,
       "distance_al": null,
       "note": "Galaxie elliptique de magnitude 10,40.",
-      "instrument": "n. d.",
+      "instrument": "jumelles",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -383,7 +383,7 @@
       "mag": 9.6,
       "distance_al": null,
       "note": "Galaxie spirale barrée de magnitude 10,20, dans laquelle on a également détecté une supernova.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     },
@@ -393,7 +393,7 @@
       "mag": 9.6,
       "distance_al": null,
       "note": "Amas globulaire de magnitude photographique 10,25.",
-      "instrument": "n. d.",
+      "instrument": "télescope",
       "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 117-120",
       "code": "N2"
     }
