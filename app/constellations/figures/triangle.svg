@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Triangle">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="172.3" y1="112.3" x2="447.7" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="447.7" y1="430.0" x2="265.8" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="265.8" y1="30.0" x2="172.3" y2="112.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="447.7" cy="430.0" r="7.0" fill="#222"/>
+<circle cx="265.8" cy="30.0" r="6.7" fill="#222"/>
+<circle cx="172.3" cy="112.3" r="7.4" fill="#222"/>
+<text x="462.7" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Mothallah</text>
+<text x="280.8" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β</text>
+<text x="187.3" y="116.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
+</svg>

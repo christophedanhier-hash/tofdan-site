@@ -295,6 +295,102 @@
    "abreviation": "CMi",
    "fichier": "petit-chien.json",
    "figure_svg": "figures/petit-chien.svg"
+  },
+  {
+   "id": "poissons",
+   "nom_fr": "Poissons",
+   "nom_latin": "Pisces",
+   "abreviation": "Psc",
+   "fichier": "poissons.json",
+   "figure_svg": "figures/poissons.svg"
+  },
+  {
+   "id": "petit-renard",
+   "nom_fr": "Petit Renard",
+   "nom_latin": "Vulpecula",
+   "abreviation": "Vul",
+   "fichier": "petit-renard.json",
+   "figure_svg": "figures/petit-renard.svg"
+  },
+  {
+   "id": "poupe",
+   "nom_fr": "Poupe",
+   "nom_latin": "Puppis",
+   "abreviation": "Pup",
+   "fichier": "poupe.json",
+   "figure_svg": "figures/poupe.svg"
+  },
+  {
+   "id": "sagittaire",
+   "nom_fr": "Sagittaire",
+   "nom_latin": "Sagittarius",
+   "abreviation": "Sgr",
+   "fichier": "sagittaire.json",
+   "figure_svg": "figures/sagittaire.svg"
+  },
+  {
+   "id": "scorpion",
+   "nom_fr": "Scorpion",
+   "nom_latin": "Scorpius",
+   "abreviation": "Sco",
+   "fichier": "scorpion.json",
+   "figure_svg": "figures/scorpion.svg"
+  },
+  {
+   "id": "serpent",
+   "nom_fr": "Serpent",
+   "nom_latin": "Serpens",
+   "abreviation": "Ser",
+   "fichier": "serpent.json",
+   "figure_svg": "figures/serpent.svg"
+  },
+  {
+   "id": "sextant",
+   "nom_fr": "Sextant",
+   "nom_latin": "Sextans",
+   "abreviation": "Sex",
+   "fichier": "sextant.json",
+   "figure_svg": "figures/sextant.svg"
+  },
+  {
+   "id": "taureau",
+   "nom_fr": "Taureau",
+   "nom_latin": "Taurus",
+   "abreviation": "Tau",
+   "fichier": "taureau.json",
+   "figure_svg": "figures/taureau.svg"
+  },
+  {
+   "id": "triangle",
+   "nom_fr": "Triangle",
+   "nom_latin": "Triangulum",
+   "abreviation": "Tri",
+   "fichier": "triangle.json",
+   "figure_svg": "figures/triangle.svg"
+  },
+  {
+   "id": "verseau",
+   "nom_fr": "Verseau",
+   "nom_latin": "Aquarius",
+   "abreviation": "Aqr",
+   "fichier": "verseau.json",
+   "figure_svg": "figures/verseau.svg"
+  },
+  {
+   "id": "vierge",
+   "nom_fr": "Vierge",
+   "nom_latin": "Virgo",
+   "abreviation": "Vir",
+   "fichier": "vierge.json",
+   "figure_svg": "figures/vierge.svg"
+  },
+  {
+   "id": "lion",
+   "nom_fr": "Lion",
+   "nom_latin": "Leo",
+   "abreviation": "Leo",
+   "fichier": "lion.json",
+   "figure_svg": "figures/lion.svg"
   }
  ]
 }

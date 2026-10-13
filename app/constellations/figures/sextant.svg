@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Sextant">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="202.3" y1="152.8" x2="198.3" y2="43.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="198.3" y1="43.8" x2="321.8" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="321.8" y1="30.0" x2="421.7" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="421.7" cy="430.0" r="8.3" fill="#222"/>
+<circle cx="321.8" cy="30.0" r="7.8" fill="#222"/>
+<circle cx="202.3" cy="152.8" r="8.3" fill="#222"/>
+<circle cx="198.3" cy="43.8" r="8.2" fill="#222"/>
+<text x="436.7" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
+<text x="336.8" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">α</text>
+<text x="217.3" y="157.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">δ</text>
+<text x="214.8" y="31.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β</text>
+</svg>
