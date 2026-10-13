@@ -1735,8 +1735,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Grille fluide : 230px minimum par carte, autant de colonnes que possible. */
 .galerie__grille {
   display: grid;
-  gap: 1.1rem;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  /* Vignettes compactes : la maquette validée par Christophe tenait 5 colonnes
+     serrées sur écran large. Ici le châssis du site plafonne à 1200 px : sans
+     minmax réduit, le navigateur ne pose que 4 colonnes de 277 px et les images
+     montent à 492 px de haut (« photos trop grandes, pas user-friendly »).
+     168 px => 6 colonnes de 179 px et des images de 318 px de haut.
+     auto-fill + 1fr : la grille reste fluide du mobile au grand écran. */
+  gap: .85rem;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
 }
 
 .galerie__carte {
@@ -1755,20 +1761,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .galerie__carte figcaption {
-  padding: .6rem .75rem .75rem;
-  font-size: .86rem;
+  padding: .5rem .6rem .6rem;
+  font-size: .78rem;
   color: var(--color-text);
 }
 
 .galerie__date {
   float: right;
   color: var(--color-text-muted);
-  font-size: .78rem;
+  font-size: .72rem;
 }
 
 .galerie__meta {
   display: block;
   color: var(--color-text-muted);
-  font-size: .78rem;
-  margin-top: .25rem;
+  font-size: .72rem;
+  margin-top: .2rem;
+}
+
+/* Écrans étroits : on resserre encore la maille pour ne pas perdre en densité. */
+@media (max-width: 700px) {
+  .galerie__grille {
+    gap: .6rem;
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  }
+  .galerie__carte figcaption {
+    padding: .4rem .5rem .5rem;
+    font-size: .74rem;
+  }
 }
