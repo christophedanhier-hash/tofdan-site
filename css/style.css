@@ -1703,3 +1703,72 @@ h1, h2, h3, h4, h5, h6 {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+/* ==========================================================================
+   Galerie photo — album.html (archive Seestar S50)
+   Ajouté par Gérard le 2026-10-13. N'utilise QUE les variables de thème
+   existantes : le clair/sombre est donc géré automatiquement par main.js.
+   Les vignettes sont servies par nginx depuis /astro-media/ (hors dépôt).
+   ========================================================================== */
+
+.famille {
+  margin-bottom: 2.6rem;
+}
+
+.famille__titre {
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0 0 1.1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.famille__compte {
+  color: var(--color-text-muted);
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+/* Grille fluide : 230px minimum par carte, autant de colonnes que possible. */
+.galerie__grille {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.galerie__carte {
+  margin: 0;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.galerie__carte img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+.galerie__carte figcaption {
+  padding: .6rem .75rem .75rem;
+  font-size: .86rem;
+  color: var(--color-text);
+}
+
+.galerie__date {
+  float: right;
+  color: var(--color-text-muted);
+  font-size: .78rem;
+}
+
+.galerie__meta {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: .78rem;
+  margin-top: .25rem;
+}

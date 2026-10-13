@@ -49,158 +49,871 @@
 
   <main class="main">
 
-
-    <div class="page-header">
-      <div class="container">
-        <h1 class="page-header__title">Album Photo</h1>
-        <p class="page-header__subtitle">Notre collection d'astrophotographies : Lune, Soleil, ciel profond et planètes.</p>
-      </div>
-    </div>
-
-    <style>
-      .gallery__item img { width: 100%; height: 100%; object-fit: cover; }
-      .gallery__item figcaption { margin: 0; }
-      @media (max-width: 768px) {
-        .gallery__overlay { opacity: 1; }
-      }
-    </style>
-
-    <section class="section" style="padding-top: 0;">
-      <div class="container">
-
-        <h2 class="section__title">🌙 La Lune</h2>
-        <div class="section__divider"></div>
-        <div class="gallery">
-          <figure class="gallery__item">
-            <img src="images/album/lune-gibbeuse.jpg" alt="Lune gibbeuse croissante, mers et cratères visibles" loading="eager" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Lune gibbeuse — 25 février 2026</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/lune-jour.jpg" alt="Lune de jour sur ciel bleu, terminateur et reliefs" loading="eager" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Lune de jour — 28 décembre 2025</span></figcaption>
-          </figure>
-        </div>
-
-        <h2 class="section__title" style="margin-top: 48px;">☀️ Le Soleil</h2>
-        <div class="section__divider"></div>
-        <div class="gallery">
-          <figure class="gallery__item">
-            <img src="images/album/soleil.jpg" alt="Disque solaire avec taches solaires visibles" loading="eager" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Soleil — taches solaires, 15 février 2026</span></figcaption>
-          </figure>
-        </div>
-
-        <h2 class="section__title" style="margin-top: 48px;">🪐 Planètes</h2>
-        <div class="section__divider"></div>
-        <div class="gallery">
-          <figure class="gallery__item">
-            <img src="images/album/jupiter-lunes.jpg" alt="Jupiter surexposée entourée de ses quatre lunes galiléennes alignées" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Jupiter et ses 4 lunes — 3 janvier 2026</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/jupiter.jpg" alt="Jupiter, disque brillant" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Jupiter — 21 poses de 10 s, 4 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/saturne.jpg" alt="Saturne et ses anneaux" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Saturne — 6 poses de 10 s, 30 novembre 2025</span></figcaption>
-          </figure>
-        </div>
-
-        <h2 class="section__title" style="margin-top: 48px;">✨ Ciel profond — Nébuleuses</h2>
-        <div class="section__divider"></div>
-        <div class="gallery">
-          <figure class="gallery__item">
-            <img src="images/album/m42-orion.jpg" alt="Nébuleuse d'Orion M42" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 42 — Nébuleuse d'Orion · 35 poses de 30 s (LP), 25 février 2026</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m1-crabe.jpg" alt="Nébuleuse du Crabe M1" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 1 — Nébuleuse du Crabe · 201 poses de 10 s (LP), 24 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/ic434-tete-cheval.jpg" alt="Nébuleuse de la Tête de Cheval, IC 434" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">IC 434 — Tête de Cheval · 4 poses de 10 s (LP), 24 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/ic1805-coeur.jpg" alt="Nébuleuse du Cœur IC 1805" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">IC 1805 — Nébuleuse du Cœur · 241 poses de 30 s (LP), 4 janvier 2026</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/ngc281-pacman.jpg" alt="Nébuleuse Pacman NGC 281" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">NGC 281 — Pacman · 26 poses de 10 s (LP), 30 novembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m78.jpg" alt="Nébuleuse par réflexion M78" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 78 — nébuleuse par réflexion · 7 poses de 10 s, 19 décembre 2025</span></figcaption>
-          </figure>
-        </div>
-
-        <h2 class="section__title" style="margin-top: 48px;">🌀 Ciel profond — Galaxies</h2>
-        <div class="section__divider"></div>
-        <div class="gallery">
-          <figure class="gallery__item">
-            <img src="images/album/m31-andromede.jpg" alt="Galaxie d'Andromède M31, noyau et disque étendu" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 31 — Galaxie d'Andromède · 27 poses de 10 s, 30 novembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m51-tourbillon.jpg" alt="Galaxie du Tourbillon M51 et sa compagne NGC 5195" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 51 — Galaxie du Tourbillon · 33 poses de 10 s, 4 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m81-bode.jpg" alt="Galaxie de Bode M81" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 81 — Galaxie de Bode · 89 poses de 10 s, 24 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/ngc891.jpg" alt="Galaxie NGC 891 vue par la tranche" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">NGC 891 — galaxie vue par la tranche · 133 poses de 10 s, 22 décembre 2025</span></figcaption>
-          </figure>
-        </div>
-
-        <h2 class="section__title" style="margin-top: 48px;">⭐ Ciel profond — Amas &amp; étoiles</h2>
-        <div class="section__divider"></div>
-        <div class="gallery">
-          <figure class="gallery__item">
-            <img src="images/album/m45-pleiades.jpg" alt="Amas des Pléiades M45" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 45 — les Pléiades · 27 poses de 10 s, 30 novembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m44-gerard.jpg" alt="Amas ouvert M44, la Crèche" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 44 — la Crèche · 30 poses de 10 s, 4 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m35.jpg" alt="Amas ouvert M35" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 35 — amas ouvert · 47 poses de 10 s, 4 janvier 2026</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/ngc1893.jpg" alt="Amas ouvert et nébuleuse NGC 1893" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">NGC 1893 — amas et nébuleuse · 262 poses de 10 s (LP), 24 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/m33-triangle.jpg" alt="Galaxie du Triangle M33" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">M 33 — Galaxie du Triangle · 13 poses de 10 s, 19 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/aldebaran.jpg" alt="Étoile Aldébaran" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Aldébaran — étoile de la constellation du Taureau · 26 poses de 10 s, 19 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/capella.jpg" alt="Étoile Capella" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">Capella — étoile de la constellation du Cocher · 9 poses de 10 s, 5 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/c39-ngc1893.jpg" alt="Amas NGC 1893, également catalogué Caldwell 39" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">C 39 (NGC 1893) — même objet, autre séance · 9 poses de 10 s, 22 décembre 2025</span></figcaption>
-          </figure>
-          <figure class="gallery__item">
-            <img src="images/album/c23-ngc891.jpg" alt="Galaxie NGC 891, également cataloguée Caldwell 23" loading="lazy" width="800" height="800">
-            <figcaption class="gallery__overlay"><span class="gallery__label">C 23 (NGC 891) — même objet, autre séance · 1 pose de 10 s, 30 novembre 2025</span></figcaption>
-          </figure>
-        </div>
-
+    <section class="famille intro">
+      <p>83 images prises avec le Seestar S50, class&eacute;es par famille.
+         Images non retouch&eacute;es, telles que sorties du t&eacute;lescope.</p>
+    </section>
+    <section class="famille">
+      <h2 class="famille__titre">🌕 Lune <span class="famille__compte">28</span></h2>
+      <div class="galerie__grille">
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0001.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0001.jpg" alt="Lune 30/11/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">30/11/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0003.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0003.jpg" alt="Lune 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0009.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0009.jpg" alt="Lune 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0010.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0010.jpg" alt="Lune 05/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">05/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0014.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0014.jpg" alt="Lune 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0015.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0015.jpg" alt="Lune 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0018.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0018.jpg" alt="Lune 28/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">28/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0021.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0021.jpg" alt="Lune 28/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">28/12/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0022.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0022.jpg" alt="Lune 02/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">02/01/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0026.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0026.jpg" alt="Lune 03/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">03/01/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0032.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0032.jpg" alt="Lune 04/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">04/01/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0034.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0034.jpg" alt="Lune 04/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">04/01/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0035.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0035.jpg" alt="Lune 04/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">04/01/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0038.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0038.jpg" alt="Lune 04/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">04/01/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0039.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0039.jpg" alt="Lune 25/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">25/02/2026</span>
+          <span class="galerie__meta">meilleure de 4 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0044.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0044.jpg" alt="Lune 25/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">25/02/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0045.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0045.jpg" alt="Lune 25/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">25/02/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0048.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0048.jpg" alt="Lune 25/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">25/02/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0049.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0049.jpg" alt="Lune 28/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">28/02/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0050.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0050.jpg" alt="Lune 03/03/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">03/03/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0052.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0052.jpg" alt="Lune 22/04/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">22/04/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0054.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0054.jpg" alt="Lune 22/04/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">22/04/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0057.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0057.jpg" alt="Lune 22/04/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">22/04/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0059.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0059.jpg" alt="Lune 01/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">01/05/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0062.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0062.jpg" alt="Lune 01/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">01/05/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0063.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0063.jpg" alt="Lune 18/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">18/05/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0064.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0064.jpg" alt="Lune 22/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">22/05/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0069.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0069.jpg" alt="Lune 26/06/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Lune</strong>
+          <span class="galerie__date">26/06/2026</span>
+          <span class="galerie__meta">meilleure de 5 prises</span>
+        </figcaption>
+      </figure>
       </div>
     </section>
-
+    <section class="famille">
+      <h2 class="famille__titre">☀️ Soleil <span class="famille__compte">24</span></h2>
+      <div class="galerie__grille">
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0168.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0168.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0171.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0171.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0172.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0172.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0173.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0173.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0174.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0174.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0175.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0175.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0179.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0179.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0180.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0180.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0181.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0181.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0182.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0182.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0183.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0183.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0184.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0184.jpg" alt="Soleil 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0187.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0187.jpg" alt="Soleil 05/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">05/12/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0188.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0188.jpg" alt="Soleil 05/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">05/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0189.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0189.jpg" alt="Soleil 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0191.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0191.jpg" alt="Soleil 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0192.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0192.jpg" alt="Soleil 08/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">08/02/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0195.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0195.jpg" alt="Soleil 08/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">08/02/2026</span>
+          <span class="galerie__meta">meilleure de 3 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0196.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0196.jpg" alt="Soleil 08/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">08/02/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0198.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0198.jpg" alt="Soleil 15/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">15/02/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0199.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0199.jpg" alt="Soleil 15/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">15/02/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0201.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0201.jpg" alt="Soleil 11/08/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">11/08/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0202.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0202.jpg" alt="Soleil 11/08/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">11/08/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0203.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0203.jpg" alt="Soleil 12/08/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Soleil</strong>
+          <span class="galerie__date">12/08/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+    <section class="famille">
+      <h2 class="famille__titre">🪐 Planètes <span class="famille__compte">9</span></h2>
+      <div class="galerie__grille">
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0224.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0224.jpg" alt="Saturn 30/11/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Saturn</strong>
+          <span class="galerie__date">30/11/2025</span>
+          <span class="galerie__meta">2 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0226.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0226.jpg" alt="Saturn 30/11/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Saturn</strong>
+          <span class="galerie__date">30/11/2025</span>
+          <span class="galerie__meta">6 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0098.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0098.jpg" alt="Jupiter 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Jupiter</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta">21 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0130.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0130.jpg" alt="Jupiter 22/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Jupiter</strong>
+          <span class="galerie__date">22/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0132.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0132.jpg" alt="Jupiter 03/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Jupiter</strong>
+          <span class="galerie__date">03/01/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0138.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0138.jpg" alt="Uranus 28/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Uranus</strong>
+          <span class="galerie__date">28/02/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0139.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0139.jpg" alt="Jupiter 22/04/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Jupiter</strong>
+          <span class="galerie__date">22/04/2026</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0142.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0142.jpg" alt="Jupiter 18/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Jupiter</strong>
+          <span class="galerie__date">18/05/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0143.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0143.jpg" alt="Jupiter 22/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Jupiter</strong>
+          <span class="galerie__date">22/05/2026</span>
+          <span class="galerie__meta">meilleure de 2 prises</span>
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+    <section class="famille">
+      <h2 class="famille__titre">🌌 Ciel profond <span class="famille__compte">19</span></h2>
+      <div class="galerie__grille">
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0155.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0155.jpg" alt="Nebuleuse Pacman 30/11/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Nebuleuse Pacman</strong>
+          <span class="galerie__date">30/11/2025</span>
+          <span class="galerie__meta">26 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0222.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0222.jpg" alt="Les Pleiades 30/11/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Les Pleiades</strong>
+          <span class="galerie__date">30/11/2025</span>
+          <span class="galerie__meta">27 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0126.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0126.jpg" alt="NGC 891 (Caldwell 23) 30/11/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>NGC 891 (Caldwell 23)</strong>
+          <span class="galerie__date">30/11/2025</span>
+          <span class="galerie__meta">IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0212.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0212.jpg" alt="Amas de la Creche (Praesepe) 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Amas de la Creche (Praesepe)</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta">30 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0104.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0104.jpg" alt="Galaxie du Tourbillon 04/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Galaxie du Tourbillon</strong>
+          <span class="galerie__date">04/12/2025</span>
+          <span class="galerie__meta">33 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0163.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0163.jpg" alt="Galaxie d'Andromede 19/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Galaxie d'Andromede</strong>
+          <span class="galerie__date">19/12/2025</span>
+          <span class="galerie__meta">37 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0122.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0122.jpg" alt="NGC 2392 (Caldwell 39) 22/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>NGC 2392 (Caldwell 39)</strong>
+          <span class="galerie__date">22/12/2025</span>
+          <span class="galerie__meta">9 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0084.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0084.jpg" alt="Galaxie NGC 891 22/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Galaxie NGC 891</strong>
+          <span class="galerie__date">22/12/2025</span>
+          <span class="galerie__meta">133 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0157.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0157.jpg" alt="Galaxie de Bode 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Galaxie de Bode</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">89 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0094.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0094.jpg" alt="Nebuleuse du Crabe 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Nebuleuse du Crabe</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">201 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0100.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0100.jpg" alt="Amas NGC 1893 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Amas NGC 1893</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">262 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0220.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0220.jpg" alt="Tete de Cheval (region) 24/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Tete de Cheval (region)</strong>
+          <span class="galerie__date">24/12/2025</span>
+          <span class="galerie__meta">4 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0106.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0106.jpg" alt="Amas de Gemaux 04/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Amas de Gemaux</strong>
+          <span class="galerie__date">04/01/2026</span>
+          <span class="galerie__meta">47 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0210.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0210.jpg" alt="Coeur de Cassiopee 04/01/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Coeur de Cassiopee</strong>
+          <span class="galerie__date">04/01/2026</span>
+          <span class="galerie__meta">241 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0149.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0149.jpg" alt="Nebuleuse d'Orion 25/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Nebuleuse d'Orion</strong>
+          <span class="galerie__date">25/02/2026</span>
+          <span class="galerie__meta">35 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0082.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0082.jpg" alt="Galaxie du Triangle 28/02/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Galaxie du Triangle</strong>
+          <span class="galerie__date">28/02/2026</span>
+          <span class="galerie__meta">31 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0076.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0076.jpg" alt="Nebuleuse par reflexion M 78 03/03/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Nebuleuse par reflexion M 78</strong>
+          <span class="galerie__date">03/03/2026</span>
+          <span class="galerie__meta">28 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0214.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0214.jpg" alt="Nebuleuse du Hibou 22/04/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Nebuleuse du Hibou</strong>
+          <span class="galerie__date">22/04/2026</span>
+          <span class="galerie__meta">4 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0124.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0124.jpg" alt="Nebuleuse de la Trompe d'Elephant 23/05/2026" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Nebuleuse de la Trompe d'Elephant</strong>
+          <span class="galerie__date">23/05/2026</span>
+          <span class="galerie__meta">292 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+    <section class="famille">
+      <h2 class="famille__titre">🗺️ Mosaïques <span class="famille__compte">2</span></h2>
+      <div class="galerie__grille">
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0167.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0167.jpg" alt="mosaic_M 33 19/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>mosaic_M 33</strong>
+          <span class="galerie__date">19/12/2025</span>
+          <span class="galerie__meta">60 poses &middot; IRCUT</span>
+        </figcaption>
+      </figure>
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0072.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0072.jpg" alt="mosaic_M 1 22/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>mosaic_M 1</strong>
+          <span class="galerie__date">22/12/2025</span>
+          <span class="galerie__meta">95 poses &middot; filtre anti-pollution</span>
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+    <section class="famille">
+      <h2 class="famille__titre">🏔️ Paysage <span class="famille__compte">1</span></h2>
+      <div class="galerie__grille">
+      <figure class="galerie__carte">
+        <a href="/astro-media/vignettes/c0152.jpg" target="_blank" rel="noopener">
+          <img src="/astro-media/vignettes/c0152.jpg" alt="Paysage 28/12/2025" loading="lazy" decoding="async">
+        </a>
+        <figcaption>
+          <strong>Paysage</strong>
+          <span class="galerie__date">28/12/2025</span>
+          <span class="galerie__meta"></span>
+        </figcaption>
+      </figure>
+      </div>
+    </section>
+  
   </main>
 
   <footer class="footer">
