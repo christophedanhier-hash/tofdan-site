@@ -1,28 +1,22 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
-<rect width='620' height='460' fill='#0b1020'/>
-<line x1='279.4' y1='163.4' x2='203.6' y2='105.4' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='203.6' y1='105.4' x2='275.6' y2='64.0' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='275.6' y1='64.0' x2='279.4' y2='163.4' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='279.4' y1='163.4' x2='330.7' y2='365.0' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='330.7' y1='365.0' x2='416.4' y2='396.0' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='416.4' y1='396.0' x2='373.5' y2='197.7' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='373.5' y1='197.7' x2='279.4' y2='163.4' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='203.6' y1='105.4' x2='209.6' y2='127.6' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='275.6' y1='64.0' x2='292.6' y2='64.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='279.4' y1='163.4' x2='290.3' y2='176.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='330.7' y1='365.0' x2='342.3' y2='379.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='373.5' y1='197.7' x2='391.0' y2='197.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='416.4' y1='396.0' x2='433.1' y2='404.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<circle cx='203.6' cy='105.4' r='10.0' fill='#e8ecff'/>
-<text x='209.6' y='130.6' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Vega</text>
-<circle cx='275.6' cy='64.0' r='4.0' fill='#e8ecff'/>
-<text x='292.6' y='67.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>5</text>
-<circle cx='279.4' cy='163.4' r='4.4' fill='#e8ecff'/>
-<text x='290.3' y='179.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>6</text>
-<circle cx='330.7' cy='365.0' r='5.4' fill='#e8ecff'/>
-<text x='342.3' y='382.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>β</text>
-<circle cx='373.5' cy='197.7' r='4.5' fill='#e8ecff'/>
-<text x='391.0' y='200.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>12</text>
-<circle cx='416.4' cy='396.0' r='5.8' fill='#e8ecff'/>
-<text x='433.1' y='407.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Sulafat</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Lyre">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="255.4" y1="142.3" x2="117.4" y2="76.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="117.4" y1="76.1" x2="248.5" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="248.5" y1="30.0" x2="255.4" y2="142.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="255.4" y1="142.3" x2="348.4" y2="389.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="348.4" y1="389.6" x2="502.6" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="502.6" y1="430.0" x2="425.5" y2="182.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="425.5" y1="182.6" x2="255.4" y2="142.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="117.4" cy="76.1" r="4.2" fill="#222"/>
+<circle cx="248.5" cy="30.0" r="7.9" fill="#222"/>
+<circle cx="255.4" cy="142.3" r="7.7" fill="#222"/>
+<circle cx="348.4" cy="389.6" r="7.0" fill="#222"/>
+<circle cx="425.5" cy="182.6" r="7.6" fill="#222"/>
+<circle cx="502.6" cy="430.0" r="6.8" fill="#222"/>
+<text x="117.4" y="62.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">Vega</text>
+<text x="263.5" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">5</text>
+<text x="271.9" y="130.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">6</text>
+<text x="364.9" y="377.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β</text>
+<text x="440.5" y="187.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">12</text>
+<text x="517.6" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Sulafat</text>
 </svg>

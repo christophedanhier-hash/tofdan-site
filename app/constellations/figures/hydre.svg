@@ -1,86 +1,71 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 460' width='620' height='460'>
-<rect width='620' height='460' fill='#0b1020'/>
-<line x1='76.0' y1='117.7' x2='78.2' y2='120.8' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='78.2' y1='120.8' x2='71.4' y2='133.7' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='71.4' y1='133.7' x2='65.5' y2='134.1' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='65.5' y1='134.1' x2='64.0' y2='121.5' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='64.0' y1='121.5' x2='76.0' y2='117.7' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='76.0' y1='117.7' x2='87.4' y2='120.3' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='87.4' y1='120.3' x2='112.5' y2='139.5' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='112.5' y1='139.5' x2='146.1' y2='157.7' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='146.1' y1='157.7' x2='129.9' y2='197.6' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='129.9' y1='197.6' x2='161.5' y2='231.0' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='161.5' y1='231.0' x2='179.5' y2='221.3' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='179.5' y1='221.3' x2='186.7' y2='217.5' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='186.7' y1='217.5' x2='207.2' y2='241.9' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='207.2' y1='241.9' x2='238.2' y2='238.4' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='238.2' y1='238.4' x2='251.6' y2='250.0' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='267.3' y1='275.6' x2='295.5' y2='329.4' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='295.5' y1='329.4' x2='321.8' y2='342.3' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='321.8' y1='342.3' x2='435.4' y2='277.6' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='435.4' y1='277.6' x2='498.0' y2='298.0' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='498.0' y1='298.0' x2='556.0' y2='305.6' stroke='#4a7fb5' stroke-width='1.6'/>
-<line x1='64.0' y1='121.5' x2='52.9' y2='135.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='65.5' y1='134.1' x2='72.0' y2='154.2' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='71.4' y1='133.7' x2='88.5' y2='136.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='76.0' y1='117.7' x2='63.6' y2='103.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='78.2' y1='120.8' x2='96.5' y2='100.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='87.4' y1='120.3' x2='106.4' y2='120.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='112.5' y1='139.5' x2='120.6' y2='155.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='129.9' y1='197.6' x2='117.7' y2='216.4' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='146.1' y1='157.7' x2='164.1' y2='157.7' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='161.5' y1='231.0' x2='173.3' y2='244.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='179.5' y1='221.3' x2='163.3' y2='216.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='186.7' y1='217.5' x2='189.6' y2='235.5' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='207.2' y1='241.9' x2='222.8' y2='250.9' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='238.2' y1='238.4' x2='227.1' y2='223.1' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='251.6' y1='250.0' x2='269.3' y2='250.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='267.3' y1='275.6' x2='250.3' y2='278.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='295.5' y1='329.4' x2='304.7' y2='345.3' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='321.8' y1='342.3' x2='336.9' y2='351.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='435.4' y1='277.6' x2='448.1' y2='291.8' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='498.0' y1='298.0' x2='513.2' y2='309.0' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<line x1='556.0' y1='305.6' x2='573.3' y2='305.6' stroke='#8899bb' stroke-width='0.8' stroke-dasharray='2,2'/>
-<circle cx='64.0' cy='121.5' r='4.6' fill='#e8ecff'/>
-<text x='52.9' y='138.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>δ</text>
-<circle cx='65.5' cy='134.1' r='4.2' fill='#e8ecff'/>
-<text x='72.0' y='157.2' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Minchir</text>
-<circle cx='71.4' cy='133.7' r='4.4' fill='#e8ecff'/>
-<text x='88.5' y='139.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>η</text>
-<circle cx='76.0' cy='117.7' r='5.6' fill='#e8ecff'/>
-<text x='63.6' y='106.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Ashlesha</text>
-<circle cx='78.2' cy='120.8' r='4.3' fill='#e8ecff'/>
-<text x='96.5' y='103.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ρ</text>
-<circle cx='87.4' cy='120.3' r='6.0' fill='#e8ecff'/>
-<text x='106.4' y='123.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ζ</text>
-<circle cx='112.5' cy='139.5' r='4.9' fill='#e8ecff'/>
-<text x='120.6' y='158.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>θ</text>
-<circle cx='129.9' cy='197.6' r='7.4' fill='#e8ecff'/>
-<text x='117.7' y='219.4' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Alphard</text>
-<circle cx='146.1' cy='157.7' r='4.9' fill='#e8ecff'/>
-<text x='164.1' y='160.7' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Ukdah</text>
-<circle cx='161.5' cy='231.0' r='4.7' fill='#e8ecff'/>
-<text x='173.3' y='247.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>39</text>
-<circle cx='179.5' cy='221.3' r='4.0' fill='#e8ecff'/>
-<text x='163.3' y='219.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>40</text>
-<circle cx='186.7' cy='217.5' r='5.3' fill='#e8ecff'/>
-<text x='189.6' y='238.5' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>λ</text>
-<circle cx='207.2' cy='241.9' r='5.0' fill='#e8ecff'/>
-<text x='222.8' y='253.9' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>42</text>
-<circle cx='238.2' cy='238.4' r='6.0' fill='#e8ecff'/>
-<text x='227.1' y='226.1' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>HIP 52943</text>
-<circle cx='251.6' cy='250.0' r='4.7' fill='#e8ecff'/>
-<text x='269.3' y='253.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>Alkes</text>
-<circle cx='267.3' cy='275.6' r='4.2' fill='#e8ecff'/>
-<text x='250.3' y='281.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>β Crt</text>
-<circle cx='295.5' cy='329.4' r='5.4' fill='#e8ecff'/>
-<text x='304.7' y='348.3' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>ξ</text>
-<circle cx='321.8' cy='342.3' r='4.4' fill='#e8ecff'/>
-<text x='336.9' y='354.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>β Hya</text>
-<circle cx='435.4' cy='277.6' r='6.1' fill='#e8ecff'/>
-<text x='448.1' y='294.8' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>γ</text>
-<circle cx='498.0' cy='298.0' r='5.8' fill='#e8ecff'/>
-<text x='513.2' y='312.0' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>π</text>
-<circle cx='556.0' cy='305.6' r='4.3' fill='#e8ecff'/>
-<text x='573.3' y='308.6' font-family='Helvetica,Arial' font-size='9' fill='#c9d6f0' text-anchor='middle'>58</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Hydre">
+<rect width="620" height="460" fill="#fbf9f4"/>
+<line x1="400.8" y1="30.0" x2="397.6" y2="36.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="397.6" y1="36.0" x2="407.8" y2="61.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="407.8" y1="61.4" x2="416.7" y2="62.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="416.7" y1="62.0" x2="418.9" y2="37.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="418.9" y1="37.4" x2="400.8" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="400.8" y1="30.0" x2="384.3" y2="34.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="384.3" y1="34.9" x2="350.1" y2="72.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="350.1" y1="72.7" x2="309.1" y2="108.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="309.1" y1="108.7" x2="328.1" y2="186.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="328.1" y1="186.7" x2="292.3" y2="249.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="292.3" y1="249.8" x2="274.3" y2="231.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="274.3" y1="231.8" x2="267.6" y2="224.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="267.6" y1="224.6" x2="250.3" y2="269.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="250.3" y1="269.8" x2="228.8" y2="263.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="228.8" y1="263.4" x2="221.3" y2="284.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="214.1" y1="328.5" x2="205.0" y2="412.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="205.0" y1="412.1" x2="201.1" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="201.1" y1="430.0" x2="235.9" y2="331.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="235.9" y1="331.8" x2="289.4" y2="365.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="289.4" y1="365.0" x2="358.3" y2="376.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="418.9" cy="37.4" r="7.5" fill="#222"/>
+<circle cx="416.7" cy="62.0" r="7.8" fill="#222"/>
+<circle cx="407.8" cy="61.4" r="7.6" fill="#222"/>
+<circle cx="400.8" cy="30.0" r="6.9" fill="#222"/>
+<circle cx="397.6" cy="36.0" r="7.7" fill="#222"/>
+<circle cx="384.3" cy="34.9" r="6.7" fill="#222"/>
+<circle cx="350.1" cy="72.7" r="7.3" fill="#222"/>
+<circle cx="328.1" cy="186.7" r="5.8" fill="#222"/>
+<circle cx="309.1" cy="108.7" r="7.3" fill="#222"/>
+<circle cx="292.3" cy="249.8" r="7.5" fill="#222"/>
+<circle cx="274.3" cy="231.8" r="7.9" fill="#222"/>
+<circle cx="267.6" cy="224.6" r="7.1" fill="#222"/>
+<circle cx="250.3" cy="269.8" r="7.3" fill="#222"/>
+<circle cx="228.8" cy="263.4" r="6.7" fill="#222"/>
+<circle cx="221.3" cy="284.3" r="7.5" fill="#222"/>
+<circle cx="214.1" cy="328.5" r="7.8" fill="#222"/>
+<circle cx="205.0" cy="412.1" r="7.0" fill="#222"/>
+<circle cx="201.1" cy="430.0" r="7.6" fill="#222"/>
+<circle cx="235.9" cy="331.8" r="6.6" fill="#222"/>
+<circle cx="289.4" cy="365.0" r="6.8" fill="#222"/>
+<circle cx="358.3" cy="376.8" r="7.7" fill="#222"/>
+<text x="386.8" y="65.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">η</text>
+<text x="414.1" y="24.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ρ</text>
+<text x="384.3" y="21.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">ζ</text>
+<text x="433.9" y="41.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">δ</text>
+<text x="431.7" y="66.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Minchir</text>
+<line x1="400.8" y1="30.0" x2="454.8" y2="30.0" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="454.8" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ashlesha</text>
+<text x="265.3" y="274.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">42</text>
+<line x1="350.1" y1="72.7" x2="330.6" y2="53.2" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="330.6" y="57.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">θ</text>
+<line x1="274.3" y1="231.8" x2="254.8" y2="212.3" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="254.8" y="216.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">40</text>
+<text x="284.1" y="212.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">λ</text>
+<line x1="228.8" y1="263.4" x2="209.3" y2="243.9" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="209.3" y="248.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">HIP 52943</text>
+<line x1="221.3" y1="284.3" x2="201.8" y2="264.8" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="201.8" y="269.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alkes</text>
+<text x="307.3" y="254.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">39</text>
+<text x="230.6" y="316.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β Crt</text>
+<line x1="235.9" y1="331.8" x2="289.9" y2="331.8" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="289.9" y="336.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
+<text x="324.1" y="113.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ukdah</text>
+<text x="220.0" y="416.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ξ</text>
+<text x="216.1" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β Hya</text>
+<text x="343.1" y="191.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alphard</text>
+<text x="305.9" y="353.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">π</text>
+<text x="373.3" y="381.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">58</text>
 </svg>
