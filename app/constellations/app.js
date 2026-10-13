@@ -11,6 +11,44 @@
 
   var etat = { index: null, data: null, id: null, etape: 1, reprise: 0, tirage: null, segment: null, traits: [], reperes: true, couleur: '#1a4f8b', epaisseur: 3 };
 
+  var PALETTE_CARTE = {
+    sombre: {
+      fond:         '#07101f',
+      disque:       '#0d1b33',
+      grille:       'rgba(150,170,210,0.22)',
+      grilleTexte:  'rgba(170,185,215,0.7)',
+      sousHorizon:  'rgba(0,0,0,0.5)',
+      horizon:      '#f0a040',
+      trace:        'rgba(90,140,235,0.5)',
+      traceActif:   'rgba(255,210,90,0.9)',
+      etoile:       '#ffffff',
+      etoileFaible: 'rgba(190,200,220,0.6)',
+      etiquette:    'rgba(150,185,255,0.95)',
+      nomSel:       '#ffd25a',
+      nomEtoile:    '#ffe9a8',
+      infoFond:     'rgba(7,16,31,0.7)'
+    },
+    clair: {
+      fond:         '#fbf9f4',
+      disque:       '#f1ecdf',
+      grille:       'rgba(60,60,60,0.22)',
+      grilleTexte:  '#555555',
+      sousHorizon:  'rgba(0,0,0,0.12)',
+      horizon:      '#b45f00',
+      trace:        'rgba(26,79,139,0.6)',
+      traceActif:   '#b8860b',
+      etoile:       '#222222',
+      etoileFaible: 'rgba(102,102,102,0.7)',
+      etiquette:    '#1a4f8b',
+      nomSel:       '#7a5200',
+      nomEtoile:    '#6b4a00',
+      infoFond:     'rgba(251,249,244,0.85)'
+    }
+  };
+  function paletteCarte() {
+    return PALETTE_CARTE[document.documentElement.getAttribute('data-theme') === 'light' ? 'clair' : 'sombre'];
+  }
+
   function el(tag, attrs, kids) {
     var n = document.createElement(tag);
     if (attrs) Object.keys(attrs).forEach(function (k) {
@@ -1064,15 +1102,15 @@
       var r = (90 - dec) * k;
       return { x: cx + r * Math.cos(ra * DEG), y: cy - r * Math.sin(ra * DEG), r: r };
     }
-    var pts = [];
+    var pts = [], pal = paletteCarte();
     ctx.clearRect(0, 0, CS, CS);
-    ctx.fillStyle = '#07101f'; ctx.fillRect(0, 0, CS, CS);
-    ctx.fillStyle = '#0d1b33';
+    ctx.fillStyle = pal.fond; ctx.fillRect(0, 0, CS, CS);
+    ctx.fillStyle = pal.disque;
     ctx.beginPath(); ctx.arc(cx, cy, R, 0, 2 * Math.PI); ctx.fill();
 
     // grille : cercles de déclinaison (30°) et méridiens d'AD (30° = 2 h)
-    ctx.lineWidth = 1; ctx.strokeStyle = 'rgba(150,170,210,0.22)';
-    ctx.fillStyle = 'rgba(170,185,215,0.7)'; ctx.font = '11px sans-serif';
+    ctx.lineWidth = 1; ctx.strokeStyle = pal.grille;
+    ctx.fillStyle = pal.grilleTexte; ctx.font = '11px sans-serif';
     ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
     for (var dd = 60; dd > dm; dd -= 30) {
       ctx.beginPath(); ctx.arc(cx, cy, (90 - dd) * k, 0, 2 * Math.PI); ctx.stroke();
@@ -1095,18 +1133,18 @@
     if (lieu.lat >= 0) { ctx.arc(cx, cy, R + 2, 0, 2 * Math.PI); }
     hz.forEach(function (q, i) { var p = P(q.ra, q.dec); if (i) ctx.lineTo(p.x, p.y); else ctx.moveTo(p.x, p.y); });
     ctx.closePath();
-    ctx.fillStyle = 'rgba(0,0,0,0.5)'; ctx.fill('evenodd');
+    ctx.fillStyle = pal.sousHorizon; ctx.fill('evenodd');
     ctx.beginPath();
     hz.forEach(function (q, i) { var p = P(q.ra, q.dec); if (i) ctx.lineTo(p.x, p.y); else ctx.moveTo(p.x, p.y); });
     ctx.closePath();
-    ctx.strokeStyle = '#f0a040'; ctx.lineWidth = 2; ctx.stroke();
+    ctx.strokeStyle = pal.horizon; ctx.lineWidth = 2; ctx.stroke();
 
     // tracés
     etat.index.constellations.forEach(function (c) {
       var d = CARTE.fiches[c.id];
       if (!d) return;
       var actif = (c.id === sel);
-      ctx.strokeStyle = actif ? 'rgba(255,210,90,0.9)' : 'rgba(90,140,235,0.5)';
+      ctx.strokeStyle = actif ? pal.traceActif : pal.trace;
       ctx.lineWidth = actif ? 1.8 : 1;
       ctx.beginPath();
       ((d.figure && d.figure.liaisons) || []).forEach(function (l) {
@@ -1125,7 +1163,7 @@
         if (!valeurEtoile(s)) return;
         var q = P(s.ra_deg, s.dec_deg);
         if (q.r > R) return;
-        ctx.fillStyle = s.role ? '#ffffff' : 'rgba(190,200,220,0.6)';
+        ctx.fillStyle = s.role ? pal.etoile : pal.etoileFaible;
         ctx.beginPath(); ctx.arc(q.x, q.y, rayonEtoile(s), 0, 2 * Math.PI); ctx.fill();
         pts.push({ x: q.x, y: q.y, s: s, c: c });
       });
@@ -1139,16 +1177,17 @@
       ctx.font = 'bold 13px sans-serif'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
       var w = ctx.measureText(txt).width;
       var tx = Math.max(4, Math.min(CS - w - 4, pc.x + 8)), ty = Math.max(10, Math.min(CS - 10, pc.y - 10));
-      ctx.fillStyle = 'rgba(7,16,31,0.7)'; ctx.fillRect(tx - 2, ty - 8, w + 4, 16);
-      ctx.fillStyle = '#ffd25a'; ctx.fillText(txt, tx, ty);
+      ctx.fillStyle = pal.infoFond; ctx.fillRect(tx - 2, ty - 8, w + 4, 16);
+      ctx.fillStyle = pal.nomSel; ctx.fillText(txt, tx, ty);
     }
     return pts;
   }
 
   function dessinerZoom(ctx, sel) {
     var M = 30, half = CS / 2 - M, cx = CS / 2, cy = CS / 2;
+    var pal = paletteCarte();
     ctx.clearRect(0, 0, CS, CS);
-    ctx.fillStyle = '#07101f'; ctx.fillRect(0, 0, CS, CS);
+    ctx.fillStyle = pal.fond; ctx.fillRect(0, 0, CS, CS);
     var d0 = CARTE.fiches[sel], pts = [];
     if (!d0) return pts;
     var c0 = centre(d0.etoiles);
@@ -1183,12 +1222,12 @@
 
     ctx.save();
     ctx.beginPath(); ctx.rect(M, M, CS - 2 * M, CS - 2 * M); ctx.clip();
-    ctx.fillStyle = '#0d1b33'; ctx.fillRect(M, M, CS - 2 * M, CS - 2 * M);
+    ctx.fillStyle = pal.disque; ctx.fillRect(M, M, CS - 2 * M, CS - 2 * M);
     liste.forEach(function (c) {
       var d = CARTE.fiches[c.id];
       if (!d) return;
       var net = (c.id === sel), sx = 0, sy = 0, n = 0;
-      ctx.strokeStyle = net ? 'rgba(255,210,90,0.95)' : 'rgba(90,140,235,0.4)';
+      ctx.strokeStyle = net ? pal.traceActif : pal.trace;
       ctx.lineWidth = net ? 2 : 1;
       ctx.beginPath();
       ((d.figure && d.figure.liaisons) || []).forEach(function (l) {
@@ -1204,10 +1243,11 @@
         if (!dedans(q)) return;
         sx += q.x; sy += q.y; n++;
         var r = rayonEtoile(s) * (net ? 1.5 : 1.1);
-        ctx.fillStyle = net ? '#ffffff' : 'rgba(190,200,220,0.6)';
+        ctx.fillStyle = net ? pal.etoile : pal.etoileFaible;
         ctx.beginPath(); ctx.arc(q.x, q.y, r, 0, 2 * Math.PI); ctx.fill();
-        pts.push({ x: q.x, y: q.y, s: s, c: c });
-        rects.push({ x: q.x - r - 1, y: q.y - r - 1, w: 2 * r + 2, h: 2 * r + 2 });
+        var rd = { x: q.x - r - 1, y: q.y - r - 1, w: 2 * r + 2, h: 2 * r + 2 };
+        pts.push({ x: q.x, y: q.y, s: s, c: c, rd: rd });
+        rects.push(rd);
       });
       if (n) ancres[c.id] = { x: sx / n, y: sy / n };
     });
@@ -1217,16 +1257,36 @@
     ctx.font = '12px sans-serif'; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
     var noms = pts.filter(function (p) { return p.c.id === sel && nomEtoile(p.s); })
       .sort(function (a, b) { return magEtoile(a.s) - magEtoile(b.s); });
-    noms.forEach(function (p) {
+    var bar = ancres[sel] || { x: cx, y: cy };
+    noms.forEach(function (p, idx) {
       var t = nomEtoile(p.s), w = ctx.measureText(t).width;
-      var essais = [{ x: p.x + 7, y: p.y - 6 }, { x: p.x - w - 7, y: p.y - 6 }, { x: p.x + 7, y: p.y + 8 }, { x: p.x - w - 7, y: p.y + 8 }];
+      var ox = p.x - bar.x, oy = p.y - bar.y, ol = Math.sqrt(ox * ox + oy * oy) || 1;
+      var ux = ox / ol, uy = oy / ol, d = rayonEtoile(p.s) * 1.5 + 6;
+      var ex = p.x + ux * d, ey = p.y + uy * d;
+      var essais = [
+        { x: p.x + 7, y: p.y - 6 }, { x: p.x - w - 7, y: p.y - 6 },
+        { x: p.x + 7, y: p.y + 8 }, { x: p.x - w - 7, y: p.y + 8 },
+        { x: p.x + 7, y: p.y - 18 }, { x: p.x - w - 7, y: p.y - 18 },
+        { x: p.x - w / 2, y: p.y + 16 }, { x: p.x - w / 2, y: p.y - 18 },
+        { x: ux >= 0 ? ex : ex - w, y: ey }
+      ];
+      // le disque de l'étoile n'est pas un obstacle pour sa propre étiquette
+      var k = rects.indexOf(p.rd);
+      if (k >= 0) rects.splice(k, 1);
+      var pose = null;
       for (var i = 0; i < essais.length; i++) {
         var r = { x: essais[i].x, y: essais[i].y - 7, w: w, h: 14 };
-        if (r.x >= M && r.x + r.w <= CS - M && r.y >= M && r.y + r.h <= CS - M && libre(r)) {
-          rects.push(r);
-          ctx.fillStyle = '#ffe9a8'; ctx.fillText(t, r.x, essais[i].y);
-          return;
-        }
+        if (r.x >= M && r.x + r.w <= CS - M && r.y >= M && r.y + r.h <= CS - M && libre(r)) { pose = { r: r, y: essais[i].y }; break; }
+      }
+      // la plus brillante est toujours nommée, même en chevauchement
+      if (!pose && idx === 0) {
+        var f = essais[0], fx = Math.min(Math.max(f.x, M), CS - M - w);
+        pose = { r: { x: fx, y: f.y - 7, w: w, h: 14 }, y: f.y };
+      }
+      if (k >= 0) rects.push(p.rd);
+      if (pose) {
+        rects.push(pose.r);
+        ctx.fillStyle = pal.nomEtoile; ctx.fillText(t, pose.r.x, pose.y);
       }
     });
     // abréviations IAU des voisines (même règle d'absence de chevauchement)
@@ -1240,7 +1300,7 @@
         var r = { x: an.x - w / 2, y: an.y + dy[i] - 7, w: w, h: 14 };
         if (r.x >= M && r.x + r.w <= CS - M && r.y >= M && r.y + r.h <= CS - M && libre(r)) {
           rects.push(r);
-          ctx.fillStyle = 'rgba(150,185,255,0.95)'; ctx.fillText(t, an.x, an.y + dy[i]);
+          ctx.fillStyle = pal.etiquette; ctx.fillText(t, an.x, an.y + dy[i]);
           pts.push({ x: an.x, y: an.y + dy[i], c: c, abr: true });
           return;
         }
@@ -1318,6 +1378,7 @@
 
     function remplir() {
       corps.textContent = '';
+      CARTE.redessinerZoom = null;
       var manque = etat.index.constellations.filter(function (c) { return !CARTE.fiches[c.id]; }).length;
       var total = etat.index.constellations.length;
       var etatTxt = el('p', { class: 'carte-etat', role: 'status', text: manque ? manque + ' constellation' + (manque > 1 ? 's' : '') + ' non chargée' + (manque > 1 ? 's' : '') + '.' : '' });
@@ -1384,6 +1445,7 @@
         var tipZ = el('div', { class: 'carte-tip', hidden: '' });
         var boiteZ = el('div', { class: 'carte-boite' }, [cvZ, tipZ]);
         var ptsZ = cvZ.getContext ? dessinerZoom(cvZ.getContext('2d'), sel) : [];
+        CARTE.redessinerZoom = function () { if (cvZ.getContext) ptsZ = dessinerZoom(cvZ.getContext('2d'), sel); };
         brancherCanvas(cvZ, boiteZ, tipZ, function () { return ptsZ; }, function (c) { choisirDepuisCarte(c, msg); });
         blocZ.appendChild(el('p', { class: 'petit', text: dSel.nom_fr + ' (trait net) et constellations voisines (trait pâle, abréviation IAU).' }));
         blocZ.appendChild(boiteZ);
@@ -1395,6 +1457,7 @@
       corps.appendChild(etatTxt);
       corps.appendChild(el('div', { class: 'carte-grille' }, [blocP, blocZ]));
       majPolaire();
+      CARTE.redessiner = function () { majPolaire(); if (CARTE.redessinerZoom) CARTE.redessinerZoom(); };
     }
 
     var coque = null;
@@ -1451,6 +1514,16 @@
   }
 
   window.addEventListener('resize', ajuster);
+
+  // Redessine la carte quand le thème du site change (attribut data-theme)
+  function themeChange() {
+    if (etat.etape === ECRAN_CARTE && CARTE.redessiner && document.body.contains(ecran.firstChild)) {
+      try { CARTE.redessiner(); } catch (e) { /* carte non affichable : on ignore */ }
+    }
+  }
+  if (window.MutationObserver) {
+    new MutationObserver(themeChange).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  }
 
   // Le menu du site ne connait pas cette page (sous-dossier) : on marque « Constellations »
   Array.prototype.forEach.call(document.querySelectorAll('.nav__link'), function (a) {
