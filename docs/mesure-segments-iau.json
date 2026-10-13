@@ -1,0 +1,399 @@
+{
+ "total_segments_reels": 452,
+ "total_traces_avant": 202,
+ "perte": 250,
+ "fiches": [
+  {
+   "fiche": "aigle",
+   "nom_fr": "Aigle",
+   "segments_reels": 4,
+   "segments_traces_avant": 4,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "andromede",
+   "nom_fr": "Andromède",
+   "segments_reels": 7,
+   "segments_traces_avant": 7,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "balance",
+   "nom_fr": "Balance",
+   "segments_reels": 6,
+   "segments_traces_avant": 6,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "baleine",
+   "nom_fr": "Baleine",
+   "segments_reels": 9,
+   "segments_traces_avant": 9,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "bouvier",
+   "nom_fr": "Bouvier",
+   "segments_reels": 6,
+   "segments_traces_avant": 6,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "cancer",
+   "nom_fr": "Cancer",
+   "segments_reels": 4,
+   "segments_traces_avant": 4,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "capricorne",
+   "nom_fr": "Capricorne",
+   "segments_reels": 6,
+   "segments_traces_avant": 6,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "cassiopee",
+   "nom_fr": "Cassiopée",
+   "segments_reels": 4,
+   "segments_traces_avant": 4,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "cephee",
+   "nom_fr": "Céphée",
+   "segments_reels": 11,
+   "segments_traces_avant": 11,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "chevelure-de-berenice",
+   "nom_fr": "Chevelure de Bérénice",
+   "segments_reels": 2,
+   "segments_traces_avant": 2,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "chiens-de-chasse",
+   "nom_fr": "Chiens de Chasse",
+   "segments_reels": 1,
+   "segments_traces_avant": 1,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "cocher",
+   "nom_fr": "Cocher",
+   "segments_reels": 7,
+   "segments_traces_avant": 7,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "coupe-cratere",
+   "nom_fr": "Coupe (Cratère)",
+   "segments_reels": 8,
+   "segments_traces_avant": 8,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "couronne-boreale",
+   "nom_fr": "Couronne Boréale",
+   "segments_reels": 6,
+   "segments_traces_avant": 6,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "cygne",
+   "nom_fr": "Cygne",
+   "segments_reels": 13,
+   "segments_traces_avant": 13,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "dauphin",
+   "nom_fr": "Dauphin",
+   "segments_reels": 6,
+   "segments_traces_avant": 6,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "dragon",
+   "nom_fr": "Dragon",
+   "segments_reels": 14,
+   "segments_traces_avant": 14,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "ecu-de-sobieski",
+   "nom_fr": "Écu de Sobieski",
+   "segments_reels": 4,
+   "segments_traces_avant": 4,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "fleche",
+   "nom_fr": "Flèche",
+   "segments_reels": 3,
+   "segments_traces_avant": 3,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "gemini",
+   "nom_fr": "Gémeaux",
+   "segments_reels": 16,
+   "segments_traces_avant": 5,
+   "perte": 11,
+   "format": "chaines"
+  },
+  {
+   "fiche": "girafe",
+   "nom_fr": "Girafe",
+   "segments_reels": 7,
+   "segments_traces_avant": 2,
+   "perte": 5,
+   "format": "chaines"
+  },
+  {
+   "fiche": "grand-chien",
+   "nom_fr": "Grand Chien",
+   "segments_reels": 11,
+   "segments_traces_avant": 2,
+   "perte": 9,
+   "format": "mixte"
+  },
+  {
+   "fiche": "grande-ourse",
+   "nom_fr": "Grande Ourse",
+   "segments_reels": 7,
+   "segments_traces_avant": 7,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "hercule",
+   "nom_fr": "Hercule",
+   "segments_reels": 22,
+   "segments_traces_avant": 5,
+   "perte": 17,
+   "format": "chaines"
+  },
+  {
+   "fiche": "hydre",
+   "nom_fr": "Hydre",
+   "segments_reels": 20,
+   "segments_traces_avant": 2,
+   "perte": 18,
+   "format": "chaines"
+  },
+  {
+   "fiche": "lezard",
+   "nom_fr": "Lézard",
+   "segments_reels": 10,
+   "segments_traces_avant": 1,
+   "perte": 9,
+   "format": "chaines"
+  },
+  {
+   "fiche": "licorne",
+   "nom_fr": "Licorne",
+   "segments_reels": 9,
+   "segments_traces_avant": 3,
+   "perte": 6,
+   "format": "chaines"
+  },
+  {
+   "fiche": "lievre",
+   "nom_fr": "Lièvre",
+   "segments_reels": 12,
+   "segments_traces_avant": 2,
+   "perte": 10,
+   "format": "chaines"
+  },
+  {
+   "fiche": "lion",
+   "nom_fr": "Lion",
+   "segments_reels": 17,
+   "segments_traces_avant": 4,
+   "perte": 13,
+   "format": "mixte"
+  },
+  {
+   "fiche": "lynx",
+   "nom_fr": "Lynx",
+   "segments_reels": 7,
+   "segments_traces_avant": 1,
+   "perte": 6,
+   "format": "chaines"
+  },
+  {
+   "fiche": "lyre",
+   "nom_fr": "Lyre",
+   "segments_reels": 7,
+   "segments_traces_avant": 1,
+   "perte": 6,
+   "format": "chaines"
+  },
+  {
+   "fiche": "ophiuchus",
+   "nom_fr": "Ophiuchus",
+   "segments_reels": 18,
+   "segments_traces_avant": 3,
+   "perte": 15,
+   "format": "chaines"
+  },
+  {
+   "fiche": "orion",
+   "nom_fr": "Orion",
+   "segments_reels": 8,
+   "segments_traces_avant": 8,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "pegase",
+   "nom_fr": "Pégase",
+   "segments_reels": 11,
+   "segments_traces_avant": 4,
+   "perte": 7,
+   "format": "chaines"
+  },
+  {
+   "fiche": "persee",
+   "nom_fr": "Persée",
+   "segments_reels": 21,
+   "segments_traces_avant": 5,
+   "perte": 16,
+   "format": "mixte"
+  },
+  {
+   "fiche": "petit-cheval",
+   "nom_fr": "Petit Cheval",
+   "segments_reels": 1,
+   "segments_traces_avant": 1,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "petit-chien",
+   "nom_fr": "Petit Chien",
+   "segments_reels": 1,
+   "segments_traces_avant": 1,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "petit-renard",
+   "nom_fr": "Petit Renard",
+   "segments_reels": 1,
+   "segments_traces_avant": 1,
+   "perte": 0,
+   "format": "paires"
+  },
+  {
+   "fiche": "petite-ourse",
+   "nom_fr": "Petite Ourse",
+   "segments_reels": 7,
+   "segments_traces_avant": 1,
+   "perte": 6,
+   "format": "chaines"
+  },
+  {
+   "fiche": "poissons",
+   "nom_fr": "Poissons",
+   "segments_reels": 18,
+   "segments_traces_avant": 1,
+   "perte": 17,
+   "format": "chaines"
+  },
+  {
+   "fiche": "poupe",
+   "nom_fr": "Poupe",
+   "segments_reels": 11,
+   "segments_traces_avant": 2,
+   "perte": 9,
+   "format": "chaines"
+  },
+  {
+   "fiche": "sagittaire",
+   "nom_fr": "Sagittaire",
+   "segments_reels": 13,
+   "segments_traces_avant": 2,
+   "perte": 11,
+   "format": "chaines"
+  },
+  {
+   "fiche": "scorpion",
+   "nom_fr": "Scorpion",
+   "segments_reels": 17,
+   "segments_traces_avant": 2,
+   "perte": 15,
+   "format": "chaines"
+  },
+  {
+   "fiche": "serpent",
+   "nom_fr": "Serpent",
+   "segments_reels": 11,
+   "segments_traces_avant": 2,
+   "perte": 9,
+   "format": "chaines"
+  },
+  {
+   "fiche": "sextant",
+   "nom_fr": "Sextant",
+   "segments_reels": 3,
+   "segments_traces_avant": 1,
+   "perte": 2,
+   "format": "chaines"
+  },
+  {
+   "fiche": "taureau",
+   "nom_fr": "Taureau",
+   "segments_reels": 11,
+   "segments_traces_avant": 3,
+   "perte": 8,
+   "format": "mixte"
+  },
+  {
+   "fiche": "triangle",
+   "nom_fr": "Triangle",
+   "segments_reels": 3,
+   "segments_traces_avant": 1,
+   "perte": 2,
+   "format": "chaines"
+  },
+  {
+   "fiche": "verseau",
+   "nom_fr": "Verseau",
+   "segments_reels": 17,
+   "segments_traces_avant": 5,
+   "perte": 12,
+   "format": "mixte"
+  },
+  {
+   "fiche": "vierge",
+   "nom_fr": "Vierge",
+   "segments_reels": 14,
+   "segments_traces_avant": 3,
+   "perte": 11,
+   "format": "chaines"
+  }
+ ]
+}

@@ -295,6 +295,16 @@
   }
   function valide(v) { return v !== null && v !== undefined && v !== ''; }
 
+  // aplatit les liaisons (paires ET chaînes de chemin) en paires [a, b]
+  function segmentsFigure(liaisons) {
+    var out = [];
+    (liaisons || []).forEach(function (l) {
+      if (!l || l.length < 2) return;
+      for (var i = 0; i + 1 < l.length; i++) out.push([l[i], l[i + 1]]);
+    });
+    return out;
+  }
+
   // distance angulaire réelle d'une liaison (index a, b) ; null si absente
   function distanceLiaison(a, b) {
     var dist = etat.data.distances_angulaires_deg, e = etat.data.etoiles;
@@ -795,7 +805,7 @@
     var ctx = cu.getContext('2d');
     fond(ctx); dessinerTraits(ctx);
 
-    var liaisons = d.figure.liaisons;
+    var liaisons = segmentsFigure(d.figure.liaisons);
     var info = el('p', { class: 'info-seg', 'aria-live': 'polite' });
 
     function texteSegment(k) {
@@ -1147,7 +1157,7 @@
       ctx.strokeStyle = actif ? pal.traceActif : pal.trace;
       ctx.lineWidth = actif ? 1.8 : 1;
       ctx.beginPath();
-      ((d.figure && d.figure.liaisons) || []).forEach(function (l) {
+      segmentsFigure(d.figure && d.figure.liaisons).forEach(function (l) {
         var s1 = d.etoiles[l[0]], s2 = d.etoiles[l[1]];
         if (!s1 || !s2 || !valeurEtoile(s1) || !valeurEtoile(s2)) return;
         var q1 = P(s1.ra_deg, s1.dec_deg), q2 = P(s2.ra_deg, s2.dec_deg);
@@ -1230,7 +1240,7 @@
       ctx.strokeStyle = net ? pal.traceActif : pal.trace;
       ctx.lineWidth = net ? 2 : 1;
       ctx.beginPath();
-      ((d.figure && d.figure.liaisons) || []).forEach(function (l) {
+      segmentsFigure(d.figure && d.figure.liaisons).forEach(function (l) {
         var s1 = d.etoiles[l[0]], s2 = d.etoiles[l[1]];
         if (!s1 || !s2 || !valeurEtoile(s1) || !valeurEtoile(s2)) return;
         var q1 = P(s1.ra_deg, s1.dec_deg), q2 = P(s2.ra_deg, s2.dec_deg);
