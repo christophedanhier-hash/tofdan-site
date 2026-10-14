@@ -1668,30 +1668,6 @@
     return el('span', { class: 'ariane-impression' }, [bouton, menu]);
   }
 
-  /* P2-4 : fiche PDF pre-generee (voir tools/generer-fiches-pdf.sh) */
-  function boutonPdf() {
-    var b = el('button', { type: 'button', text: '📕 Fiche complète (PDF)' });
-    b.addEventListener('click', function () {
-      if (!etat.id) return;
-      b.disabled = true;
-      b.textContent = '⏳ Téléchargement…';
-      var a = document.createElement('a');
-      a.href = '/astro-pdf/' + etat.id + '.pdf';
-      a.setAttribute('download', etat.id + '.pdf');
-      a.style.display = 'none';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      setTimeout(function () {
-        b.disabled = false;
-        b.textContent = '📕 Fiche complète (PDF)';
-      }, 1500);
-    });
-    // Pas de constellation chargee => bouton inactif (mais TOUJOURS visible).
-    if (!etat.id) { b.disabled = true; b.title = 'Choisis d\'abord une constellation'; }
-    return b;
-  }
-
   var LIBELLES = ['', 'Catalogue', 'Fiche', 'Dessin', 'Comparaison', 'Objets', 'Questions'];
 
   function rendre() {
@@ -1711,7 +1687,6 @@
     if (etat.etape === ECRAN_CARTE) bc.setAttribute('aria-current', 'step');
     ariane.appendChild(bc);
     ariane.appendChild(boutonImprimer());
-    ariane.appendChild(boutonPdf());
     ecran.textContent = '';
     var section;
     try {
