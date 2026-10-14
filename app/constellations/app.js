@@ -987,13 +987,25 @@
     if (!t) {
       t = etat.tirage = { guide: d.questions_guide || [], observation: d.questions_observation || [], vues: {} };
     }
+    function toutChaines(tab) {
+      return tab.length > 0 && tab.every(function (x) { return typeof x === 'string'; });
+    }
+    function nbReponses(tab) {
+      return tab.filter(function (x) { return typeof x !== 'string'; }).length;
+    }
+    var guideChaines = toutChaines(t.guide);
+    var obsChaines = toutChaines(t.observation);
     var total = t.guide.length + t.observation.length;
     var compteur = el('p', { class: 'compteur', 'aria-live': 'polite' });
     function maj() {
+      if (nbReponses(t.guide) + nbReponses(t.observation) === 0) { compteur.hidden = true; return; }
       var n = Object.keys(t.vues).length;
       compteur.textContent = n + ' question' + (n > 1 ? 's' : '') + ' consultée' + (n > 1 ? 's' : '') + ' sur ' + total;
     }
     function blocQuestion(qr, cle) {
+      if (typeof qr === 'string') {
+        return el('div', { class: 'question' }, [el('div', { class: 'q-tete' }, [el('p', { text: qr })])]);
+      }
       var rep = el('p', { class: 'reponse', text: qr.r });
       rep.hidden = true;
       var btn = el('button', { type: 'button', class: 'btn btn--outline', 'aria-expanded': 'false',
@@ -1011,15 +1023,15 @@
     var observation = t.observation.map(function (q, i) { return blocQuestion(q, 'o' + (q.q || i)); });
     maj();
     return el('section', null, [
-      el('div', { class: 'barre-q' }, [el('h1', { class: 'titre', text: 'Questions — ' + d.nom_fr }), compteur]),
+      el('div', { class: 'barre-q' }, [el('h1', { class: 'titre', text: (guideChaines && obsChaines ? 'Guide' : 'Questions') + ' — ' + d.nom_fr }), compteur]),
       el('div', { class: 'colonnes-q' }, [
         el('section', { class: 'bloc-q guide', 'aria-label': 'Questions du guide' }, [
-          el('h2', { class: 'sous', text: 'Questions du guide' }),
-          el('p', { class: 'petit', text: 'Ce que la fiche et la figure t\'ont appris.' }),
+          el('h2', { class: 'sous', text: guideChaines ? 'Consignes de guidage' : 'Questions du guide' }),
+          el('p', { class: 'petit', text: guideChaines ? 'Les repères à suivre pour la retrouver dans le ciel.' : 'Ce que la fiche et la figure t\'ont appris.' }),
           el('div', { class: 'liste-q' }, guide)
         ]),
         el('section', { class: 'bloc-q observation', 'aria-label': 'Questions d\'observation' }, [
-          el('h2', { class: 'sous', text: "Questions d'observation" }),
+          el('h2', { class: 'sous', text: obsChaines ? 'À observer' : "Questions d'observation" }),
           el('p', { class: 'petit', text: 'À vérifier avec le ciel, des jumelles ou un instrument.' }),
           el('div', { class: 'liste-q' }, observation)
         ])
@@ -1583,7 +1595,7 @@
         return [texteOuTiret(o.id), texteOuTiret(o.nature), nombreFr(o.mag), texteOuTiret(o.distance_al), texteOuTiret(o.instrument), texteOuTiret(o.note)];
       }))) : null,
       qo.length ? sectionImp('Questions à l\'observateur', listeQuestions(qo, true, true)) : null,
-      qg.length ? sectionImp('Questions du guide (avec réponses)', listeQuestions(qg, true, false)) : null,
+      qg.length ? sectionImp(typeof qg[0] === 'string' ? 'Consignes de guidage' : 'Questions du guide (avec réponses)', listeQuestions(qg, true, false)) : null,
       el('div', { class: 'imp-notes' }, [el('h3', { class: 'imp-h3', text: 'Annotations' })]),
       cartesImpression(c, d),
       src ? el('p', { class: 'imp-source', text: 'Source : ' + src }) : null
