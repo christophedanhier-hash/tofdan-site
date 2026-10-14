@@ -45,7 +45,8 @@
       infoFond:     'rgba(251,249,244,0.85)'
     }
   };
-  function paletteCarte() {
+  function paletteCarte(force) {
+    if (force === 'clair' || force === 'sombre') return PALETTE_CARTE[force];
     return PALETTE_CARTE[document.documentElement.getAttribute('data-theme') === 'light' ? 'clair' : 'sombre'];
   }
 
@@ -1105,14 +1106,14 @@
   // Bornes d'affichage du pôle Nord à declinaison dmin
   function dmin(lat) { return lat >= 0 ? Math.max(-90, lat - 90 - 12) : -90; }
 
-  function dessinerPolaire(canvas, ctx, date, lieu, sel) {
+  function dessinerPolaire(canvas, ctx, date, lieu, sel, palForcee) {
     var M = 44, R = CS / 2 - M, cx = CS / 2, cy = CS / 2;
     var dm = dmin(lieu.lat), k = R / (90 - dm);
     function P(ra, dec) {
       var r = (90 - dec) * k;
       return { x: cx + r * Math.cos(ra * DEG), y: cy - r * Math.sin(ra * DEG), r: r };
     }
-    var pts = [], pal = paletteCarte();
+    var pts = [], pal = paletteCarte(palForcee);
     ctx.clearRect(0, 0, CS, CS);
     ctx.fillStyle = pal.fond; ctx.fillRect(0, 0, CS, CS);
     ctx.fillStyle = pal.disque;
@@ -1193,12 +1194,12 @@
     return pts;
   }
 
-  function dessinerZoom(ctx, sel) {
+  function dessinerZoom(ctx, sel, fiche, palForcee) {
     var M = 30, half = CS / 2 - M, cx = CS / 2, cy = CS / 2;
-    var pal = paletteCarte();
+    var pal = paletteCarte(palForcee);
     ctx.clearRect(0, 0, CS, CS);
     ctx.fillStyle = pal.fond; ctx.fillRect(0, 0, CS, CS);
-    var d0 = CARTE.fiches[sel], pts = [];
+    var d0 = fiche || CARTE.fiches[sel], pts = [];
     if (!d0) return pts;
     var c0 = centre(d0.etoiles);
     if (!c0) return pts;
@@ -1234,7 +1235,7 @@
     ctx.beginPath(); ctx.rect(M, M, CS - 2 * M, CS - 2 * M); ctx.clip();
     ctx.fillStyle = pal.disque; ctx.fillRect(M, M, CS - 2 * M, CS - 2 * M);
     liste.forEach(function (c) {
-      var d = CARTE.fiches[c.id];
+      var d = c.id === sel ? d0 : CARTE.fiches[c.id];
       if (!d) return;
       var net = (c.id === sel), sx = 0, sy = 0, n = 0;
       ctx.strokeStyle = net ? pal.traceActif : pal.trace;
@@ -1527,6 +1528,29 @@
     }));
   }
 
+  // Date figée : nuit du 15 au 16/01/2027, 20h00-04h00 ; instant = hauteur max dans cette fenêtre
+  function cartesImpression(c, d) {
+    var lieu = lieuCarte(), cc = centre(d.etoiles);
+    if (!cc || !document.createElement('canvas').getContext) return null;
+    var debut = new Date(2027, 0, 15, 20, 0).getTime(), t = new Date(debut), hmax = -91;
+    for (var m = 0; m < 480; m += 5) {
+      var ti = new Date(debut + m * 60000), h = hauteur(cc.ra, cc.dec, ti, lieu.lat, lieu.lon);
+      if (h > hmax) { hmax = h; t = ti; }
+    }
+    var kids = [];
+    if (hmax <= 20) {
+      kids.push(el('p', { class: 'imp-carte-txt', text: 'Non observable à cette date (constellation sous l\'horizon). Meilleure période : ' + (valide(d.saison) ? String(d.saison) : 'été') + '.' }));
+    } else {
+      var cvP = el('canvas', { width: CS, height: CS, class: 'imp-carte-canvas', role: 'img', 'aria-label': 'Carte polaire du ciel le ' + fmtDate(t) + ' à ' + fmtHeure(t) });
+      dessinerPolaire(cvP, cvP.getContext('2d'), t, lieu, c.id, 'clair');
+      kids.push(el('figure', { class: 'imp-carte' }, [cvP, el('figcaption', { text: 'Carte polaire — ' + fmtDate(t) + ' à ' + fmtHeure(t) + ' (culmination)' })]));
+    }
+    var cvZ = el('canvas', { width: CS, height: CS, class: 'imp-carte-canvas', role: 'img', 'aria-label': 'Zoom sur la constellation ' + d.nom_fr });
+    dessinerZoom(cvZ.getContext('2d'), c.id, d, 'clair');
+    kids.push(el('figure', { class: 'imp-carte' }, [cvZ, el('figcaption', { text: 'Zoom local — ' + texteOuTiret(d.nom_fr) })]));
+    return el('div', { class: 'imp-cartes' }, kids);
+  }
+
   function ficheImpression(c, d) {
     var meta = [d.nom_latin, valide(d.genitif) ? '(gén. ' + d.genitif + ')' : '', valide(d.abreviation_iau) ? '— ' + d.abreviation_iau : '']
       .filter(function (t) { return t; }).join(' ');
@@ -1561,6 +1585,7 @@
       qo.length ? sectionImp('Questions à l\'observateur', listeQuestions(qo, true, true)) : null,
       qg.length ? sectionImp('Questions du guide (avec réponses)', listeQuestions(qg, true, false)) : null,
       el('div', { class: 'imp-notes' }, [el('h3', { class: 'imp-h3', text: 'Annotations' })]),
+      cartesImpression(c, d),
       src ? el('p', { class: 'imp-source', text: 'Source : ' + src }) : null
     ];
 
@@ -1596,7 +1621,7 @@
     var cons = etat.index.constellations;
     if (mode === 'une') {
       var c1 = cons.filter(function (c) { return c.id === etat.id; })[0];
-      if (c1 && etat.data) imprimer([{ c: c1, d: etat.data }]);
+      if (c1 && etat.data) chargerFiches().then(function () { imprimer([{ c: c1, d: etat.data }]); });
       return;
     }
     etatMsg.textContent = 'Préparation des fiches…';

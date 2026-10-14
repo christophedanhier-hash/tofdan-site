@@ -989,4 +989,9 @@ table.objets .instr {
 
   .imp-notes { min-height: 20mm; break-inside: avoid; border: 1px dashed #888; padding: 4px 6px; }
   .imp-source { margin: 0; font-size: 8pt; break-before: avoid; }
+  .imp-cartes { display: flex; flex-direction: column; align-items: center; gap: 4mm; margin: 3mm 0; }
+  .imp-carte { margin: 0; text-align: center; break-inside: avoid; }
+  .imp-carte-canvas { display: block; width: 85mm; height: 85mm; margin: 0 auto; border: 1px solid #888; }
+  .imp-carte figcaption { font-size: 8pt; }
+  .imp-carte-txt { margin: 0; font-size: 9pt; font-style: italic; break-inside: avoid; }
 }
