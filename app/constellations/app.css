@@ -959,21 +959,19 @@ table.objets .instr {
   #impression * { color: #000 !important; background: transparent; border-color: #888 !important; }
 
   .imp-const + .imp-const { break-before: page; }
-  .imp-p2 { break-before: page; }
 
-  .imp-page { display: flex; flex-direction: column; gap: 6px; }
-  .imp-p1 { height: 268mm; overflow: hidden; }
-  .imp-p2 { height: 268mm; gap: 4px; }
+  /* pagination libre : aucune hauteur fixe, les blocs s'enchaînent */
+  .imp-page { display: block; }
+  .imp-page > * { margin-bottom: 6px; }
 
   #impression .titre { margin: 0; font-size: 20pt; }
-  .imp-p2 .titre { font-size: 14pt; }
+  #impression .imp-titre-guide { font-size: 14pt; margin-top: 8px; break-before: auto; break-after: avoid; }
   .imp-meta { margin: 0; font-size: 10pt; font-style: italic; }
   .imp-h3 { margin: 0 0 3px; font-size: 11pt; border-bottom: 1px solid #888; }
   .imp-section { break-inside: avoid; }
 
-  /* la figure absorbe l'espace restant de la page 1 */
-  .imp-figure { flex: 1 1 0; min-height: 60mm; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #888; }
-  .imp-figure img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .imp-figure { display: flex; align-items: center; justify-content: center; border: 1px solid #888; break-inside: avoid; }
+  .imp-figure img { max-width: 100%; max-height: 120mm; object-fit: contain; }
 
   #impression .encart { border: 1px solid #888; border-radius: 4px; padding: 5px 8px; font-size: 10pt; break-inside: avoid; }
   #impression .table-wrap { overflow: visible; }
@@ -983,9 +981,12 @@ table.objets .instr {
 
   .imp-questions { margin: 0; padding-left: 18px; }
   .imp-questions { font-size: 9pt; }
-  .imp-questions li { margin-bottom: 3px; break-inside: avoid; }
-  .imp-rep { display: block; font-size: 9pt; }
+  .imp-questions li { margin-bottom: 3px; }
+  .imp-questions li.imp-q-vide { break-inside: avoid; }
+  .imp-rep-vide { box-sizing: border-box; min-height: 15mm; margin: 2px 0 3px 8px; padding: 1px 4px; border: 1px dotted #888; background: #fff; font-size: 8pt; color: #666; break-inside: avoid; }
+  /* la réponse peut se poursuivre sur la page suivante, entre deux lignes */
+  .imp-rep { display: block; font-size: 9pt; margin: 1px 0 0 8px; padding-left: 6px; border-left: 2px solid #4338ca !important; color: #2e2a8c !important; orphans: 2; widows: 2; overflow-wrap: break-word; }
 
-  .imp-notes { flex: 1 1 0; min-height: 20mm; overflow: hidden; border: 1px dashed #888; padding: 4px 6px; }
-  .imp-source { margin: 0; font-size: 8pt; }
+  .imp-notes { min-height: 20mm; break-inside: avoid; border: 1px dashed #888; padding: 4px 6px; }
+  .imp-source { margin: 0; font-size: 8pt; break-before: avoid; }
 }

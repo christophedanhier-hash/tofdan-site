@@ -1518,9 +1518,9 @@
     return el('section', { class: 'imp-section' }, [el('h3', { class: 'imp-h3', text: titre }), contenu]);
   }
 
-  function listeQuestions(qs, avecReponses) {
+  function listeQuestions(qs, avecReponses, cadre) {
     return el('ol', { class: 'imp-questions' }, qs.map(function (x) {
-      if (typeof x === 'string') return el('li', null, [x]); // certaines fiches ont des questions en simple chaîne
+      if (typeof x === 'string') return cadre ? el('li', { class: 'imp-q-vide' }, [x, el('div', { class: 'imp-rep-vide' }, [el('span', { text: 'Réponse :' })])]) : el('li', {}, [x]); // certaines fiches ont des questions en simple chaîne
       var kids = [el('strong', { text: texteOuTiret(x.q) })];
       if (avecReponses && valide(x.r)) kids.push(el('span', { class: 'imp-rep', text: 'Réponse : ' + x.r }));
       return el('li', null, kids);
@@ -1535,7 +1535,7 @@
     if (d.voie_lactee === true) infos.push('Dans la Voie lactée');
     if (d.constellations_voisines && d.constellations_voisines.length) infos.push('Voisines : ' + d.constellations_voisines.join(', '));
 
-    var p1 = el('div', { class: 'imp-page imp-p1' }, [
+    var p1 = [
       el('h2', { class: 'titre', text: texteOuTiret(d.nom_fr) }),
       el('p', { class: 'imp-meta', text: meta }),
       infos.length ? el('p', { class: 'imp-meta', text: infos.join(' · ') }) : null,
@@ -1545,26 +1545,27 @@
       sectionImp('Étoiles principales', tableauImp(['Nom', 'Bayer', 'Mag.', 'Rôle', 'Visibilité'], (d.etoiles || []).map(function (s) {
         return [texteOuTiret(s.nom), texteOuTiret(s.bayer), nombreFr(s.mag), texteOuTiret(s.role) + (valide(s.alerte) ? ' ⚠ ' + s.alerte : ''), texteOuTiret(s.visibilite)];
       })))
-    ].filter(function (n) { return n; }));
+    ];
 
     var codes = d.codification_luminosite || [], profond = d.objets_ciel_profond || [];
     var qo = d.questions_observation || [], qg = d.questions_guide || [];
     var src = texteSource(d.source_atlas);
-    var p2 = el('div', { class: 'imp-page imp-p2' }, [
-      el('h2', { class: 'titre', text: 'Guide d\'animation — ' + texteOuTiret(d.nom_fr) }),
+    var p2 = [
+      el('h2', { class: 'titre imp-titre-guide', text: 'Guide d\'animation — ' + texteOuTiret(d.nom_fr) }),
       codes.length ? sectionImp('Codification de luminosité', tableauImp(['Code', 'Libellé', 'Description'], codes.map(function (k) {
         return [texteOuTiret(k.code), texteOuTiret(k.libelle), texteOuTiret(k.desc)];
       }))) : null,
       profond.length ? sectionImp('Objets du ciel profond', tableauImp(['Objet', 'Nature', 'Mag.', 'Distance (a.l.)', 'Instrument', 'Note'], profond.map(function (o) {
         return [texteOuTiret(o.id), texteOuTiret(o.nature), nombreFr(o.mag), texteOuTiret(o.distance_al), texteOuTiret(o.instrument), texteOuTiret(o.note)];
       }))) : null,
-      qo.length ? sectionImp('Questions à l\'observateur', listeQuestions(qo, false)) : null,
-      qg.length ? sectionImp('Questions du guide (avec réponses)', listeQuestions(qg, true)) : null,
+      qo.length ? sectionImp('Questions à l\'observateur', listeQuestions(qo, true, true)) : null,
+      qg.length ? sectionImp('Questions du guide (avec réponses)', listeQuestions(qg, true, false)) : null,
       el('div', { class: 'imp-notes' }, [el('h3', { class: 'imp-h3', text: 'Annotations' })]),
       src ? el('p', { class: 'imp-source', text: 'Source : ' + src }) : null
-    ].filter(function (n) { return n; }));
+    ];
 
-    return el('article', { class: 'imp-const' }, [p1, p2]);
+    // flux continu : les blocs se répartissent librement sur les pages
+    return el('article', { class: 'imp-const imp-page' }, p1.concat(p2).filter(function (n) { return n; }));
   }
 
   function zoneImpression() {
