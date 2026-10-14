@@ -1487,6 +1487,161 @@
     return racine;
   }
 
+  /* ---------- Impression PDF (window.print + @media print, sans librairie) ---------- */
+
+  // Les trois formes de source_atlas -> texte lisible
+  function texteSource(s) {
+    if (!valide(s)) return '';
+    if (typeof s === 'string') return s;
+    if (typeof s === 'object') {
+      var pages = Array.isArray(s.pages) ? s.pages.join(', ') : (valide(s.pages) ? String(s.pages) : '');
+      var t = valide(s.pdf) ? String(s.pdf) : '';
+      if (pages) t += (t ? ', ' : '') + (Array.isArray(s.pages) && s.pages.length > 1 ? 'pages ' : 'page ') + pages;
+      return t;
+    }
+    return String(s);
+  }
+
+  function majuscule(t) { t = String(t || ''); return t.charAt(0).toUpperCase() + t.slice(1); }
+  function nombreFr(v) { return valide(v) ? String(v).replace('.', ',') : '—'; }
+  function texteOuTiret(v) { return valide(v) ? String(v) : '—'; }
+
+  function tableauImp(entetes, lignes) {
+    var tete = el('tr', null, entetes.map(function (h) { return el('th', { text: h }); }));
+    var corps = lignes.map(function (l) {
+      return el('tr', null, l.map(function (c) { return el('td', { text: c }); }));
+    });
+    return el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche' }, [el('thead', null, [tete]), el('tbody', null, corps)])]);
+  }
+
+  function sectionImp(titre, contenu) {
+    return el('section', { class: 'imp-section' }, [el('h3', { class: 'imp-h3', text: titre }), contenu]);
+  }
+
+  function listeQuestions(qs, avecReponses) {
+    return el('ol', { class: 'imp-questions' }, qs.map(function (x) {
+      if (typeof x === 'string') return el('li', null, [x]); // certaines fiches ont des questions en simple chaîne
+      var kids = [el('strong', { text: texteOuTiret(x.q) })];
+      if (avecReponses && valide(x.r)) kids.push(el('span', { class: 'imp-rep', text: 'Réponse : ' + x.r }));
+      return el('li', null, kids);
+    }));
+  }
+
+  function ficheImpression(c, d) {
+    var meta = [d.nom_latin, valide(d.genitif) ? '(gén. ' + d.genitif + ')' : '', valide(d.abreviation_iau) ? '— ' + d.abreviation_iau : '']
+      .filter(function (t) { return t; }).join(' ');
+    var infos = [];
+    if (valide(d.saison)) infos.push('Saison : ' + majuscule(d.saison));
+    if (d.voie_lactee === true) infos.push('Dans la Voie lactée');
+    if (d.constellations_voisines && d.constellations_voisines.length) infos.push('Voisines : ' + d.constellations_voisines.join(', '));
+
+    var p1 = el('div', { class: 'imp-page imp-p1' }, [
+      el('h2', { class: 'titre', text: texteOuTiret(d.nom_fr) }),
+      el('p', { class: 'imp-meta', text: meta }),
+      infos.length ? el('p', { class: 'imp-meta', text: infos.join(' · ') }) : null,
+      el('div', { class: 'imp-figure' }, [el('img', { src: c.figure_svg || '', alt: 'Figure de la constellation ' + d.nom_fr })]),
+      valide(d.repere_principal) ? el('div', { class: 'encart' }, [el('p', null, [el('strong', { text: 'Repère principal : ' }), String(d.repere_principal)])]) : null,
+      valide(d.message_animation) ? el('div', { class: 'encart' }, [el('p', null, [el('strong', { text: 'Message d\'animation : ' }), String(d.message_animation)])]) : null,
+      sectionImp('Étoiles principales', tableauImp(['Nom', 'Bayer', 'Mag.', 'Rôle', 'Visibilité'], (d.etoiles || []).map(function (s) {
+        return [texteOuTiret(s.nom), texteOuTiret(s.bayer), nombreFr(s.mag), texteOuTiret(s.role) + (valide(s.alerte) ? ' ⚠ ' + s.alerte : ''), texteOuTiret(s.visibilite)];
+      })))
+    ].filter(function (n) { return n; }));
+
+    var codes = d.codification_luminosite || [], profond = d.objets_ciel_profond || [];
+    var qo = d.questions_observation || [], qg = d.questions_guide || [];
+    var src = texteSource(d.source_atlas);
+    var p2 = el('div', { class: 'imp-page imp-p2' }, [
+      el('h2', { class: 'titre', text: 'Guide d\'animation — ' + texteOuTiret(d.nom_fr) }),
+      codes.length ? sectionImp('Codification de luminosité', tableauImp(['Code', 'Libellé', 'Description'], codes.map(function (k) {
+        return [texteOuTiret(k.code), texteOuTiret(k.libelle), texteOuTiret(k.desc)];
+      }))) : null,
+      profond.length ? sectionImp('Objets du ciel profond', tableauImp(['Objet', 'Nature', 'Mag.', 'Distance (a.l.)', 'Instrument', 'Note'], profond.map(function (o) {
+        return [texteOuTiret(o.id), texteOuTiret(o.nature), nombreFr(o.mag), texteOuTiret(o.distance_al), texteOuTiret(o.instrument), texteOuTiret(o.note)];
+      }))) : null,
+      qo.length ? sectionImp('Questions à l\'observateur', listeQuestions(qo, false)) : null,
+      qg.length ? sectionImp('Questions du guide (avec réponses)', listeQuestions(qg, true)) : null,
+      el('div', { class: 'imp-notes' }, [el('h3', { class: 'imp-h3', text: 'Annotations' })]),
+      src ? el('p', { class: 'imp-source', text: 'Source : ' + src }) : null
+    ].filter(function (n) { return n; }));
+
+    return el('article', { class: 'imp-const' }, [p1, p2]);
+  }
+
+  function zoneImpression() {
+    var z = document.getElementById('impression');
+    if (z) z.parentNode.removeChild(z);
+    z = el('div', { id: 'impression', 'aria-hidden': 'true' });
+    document.body.appendChild(z);
+    return z;
+  }
+
+  function imprimer(fiches) {
+    if (!fiches.length) { afficherErreur('Aucune fiche à imprimer.'); return; }
+    var z = zoneImpression();
+    fiches.forEach(function (f) { z.appendChild(ficheImpression(f.c, f.d)); });
+    var imgs = Array.prototype.slice.call(z.querySelectorAll('img'));
+    // window.print() seulement une fois les figures chargées
+    Promise.all(imgs.map(function (im) {
+      return im.complete ? Promise.resolve() : new Promise(function (ok) { im.onload = im.onerror = ok; });
+    })).then(function () { window.print(); });
+  }
+
+  window.addEventListener('afterprint', function () {
+    var z = document.getElementById('impression');
+    if (z) z.parentNode.removeChild(z);
+  });
+
+  function imprimerChoix(mode, etatMsg) {
+    var cons = etat.index.constellations;
+    if (mode === 'une') {
+      var c1 = cons.filter(function (c) { return c.id === etat.id; })[0];
+      if (c1 && etat.data) imprimer([{ c: c1, d: etat.data }]);
+      return;
+    }
+    etatMsg.textContent = 'Préparation des fiches…';
+    chargerFiches().then(function () {
+      var lieu = lieuCarte(), t = instantCarte(CARTE.minutes);
+      var choisies = cons.filter(function (c) {
+        if (mode === 'toutes') return true;
+        var d = CARTE.fiches[c.id], cc = d ? centre(d.etoiles) : null;
+        return cc && hauteur(cc.ra, cc.dec, t, lieu.lat, lieu.lon) > 0; // même critère que la liste de la carte du ciel
+      });
+      var pretes = choisies.filter(function (c) { return CARTE.fiches[c.id]; }).map(function (c) { return { c: c, d: CARTE.fiches[c.id] }; });
+      if (pretes.length < choisies.length) etatMsg.textContent = (choisies.length - pretes.length) + ' fiche(s) illisible(s) ignorée(s).';
+      else etatMsg.textContent = '';
+      imprimer(pretes);
+    });
+  }
+
+  function boutonImprimer() {
+    var msg = el('p', { class: 'imp-msg', role: 'status', 'aria-live': 'polite' });
+    var menu = el('div', { class: 'menu-impression', role: 'menu', hidden: '' });
+    var bouton = el('button', { type: 'button', text: '🖨️ Imprimer', 'aria-haspopup': 'true', 'aria-expanded': 'false' });
+    function fermer() {
+      menu.hidden = true;
+      bouton.setAttribute('aria-expanded', 'false');
+      document.removeEventListener('click', dehors);
+      document.removeEventListener('keydown', touche);
+    }
+    function dehors(e) { if (!menu.contains(e.target) && e.target !== bouton) fermer(); }
+    function touche(e) { if (e.key === 'Escape') { fermer(); bouton.focus(); } }
+    [['une', 'Cette fiche'], ['visibles', 'Les constellations visibles'], ['toutes', 'Les ' + etat.index.constellations.length + ' fiches']].forEach(function (o) {
+      menu.appendChild(el('button', { type: 'button', role: 'menuitem', class: 'btn btn--outline', text: o[1], onclick: function () {
+        fermer();
+        imprimerChoix(o[0], msg);
+      } }));
+    });
+    menu.appendChild(msg);
+    bouton.addEventListener('click', function () {
+      if (!menu.hidden) { fermer(); return; }
+      menu.hidden = false;
+      bouton.setAttribute('aria-expanded', 'true');
+      document.addEventListener('click', dehors);
+      document.addEventListener('keydown', touche);
+    });
+    return el('span', { class: 'ariane-impression' }, [bouton, menu]);
+  }
+
   var LIBELLES = ['', 'Catalogue', 'Fiche', 'Dessin', 'Comparaison', 'Objets', 'Questions'];
 
   function rendre() {
@@ -1505,6 +1660,7 @@
     var bc = el('button', { type: 'button', text: '🗺️ Carte du ciel', onclick: ouvrirCarte });
     if (etat.etape === ECRAN_CARTE) bc.setAttribute('aria-current', 'step');
     ariane.appendChild(bc);
+    ariane.appendChild(boutonImprimer());
     ecran.textContent = '';
     var section;
     try {

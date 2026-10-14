@@ -894,3 +894,98 @@ table.objets .instr {
 }
 
 .carte-msg:empty { display: none; }
+
+/* --- Impression PDF (window.print) ---------------------------------------- */
+
+.ariane-impression {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-impression {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 230px;
+  padding: 8px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.menu-impression[hidden] {
+  display: none;
+}
+
+.ariane .menu-impression button {
+  border-radius: var(--radius-md);
+  padding: 6px 12px;
+  text-align: left;
+  font-size: 0.82rem;
+}
+
+.imp-msg {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--color-text-dim);
+}
+
+.imp-msg:empty {
+  display: none;
+}
+
+#impression {
+  display: none;
+}
+
+@media print {
+  @page { size: A4; margin: 10mm; }
+
+  body > *:not(#impression) { display: none !important; }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #impression { display: block; color: #000; background: #fff; font-size: 10pt; line-height: 1.35; }
+
+  #impression * { color: #000 !important; background: transparent; border-color: #888 !important; }
+
+  .imp-const + .imp-const { break-before: page; }
+  .imp-p2 { break-before: page; }
+
+  .imp-page { display: flex; flex-direction: column; gap: 6px; }
+  .imp-p1 { height: 268mm; overflow: hidden; }
+  .imp-p2 { height: 268mm; gap: 4px; }
+
+  #impression .titre { margin: 0; font-size: 20pt; }
+  .imp-p2 .titre { font-size: 14pt; }
+  .imp-meta { margin: 0; font-size: 10pt; font-style: italic; }
+  .imp-h3 { margin: 0 0 3px; font-size: 11pt; border-bottom: 1px solid #888; }
+  .imp-section { break-inside: avoid; }
+
+  /* la figure absorbe l'espace restant de la page 1 */
+  .imp-figure { flex: 1 1 0; min-height: 60mm; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #888; }
+  .imp-figure img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+  #impression .encart { border: 1px solid #888; border-radius: 4px; padding: 5px 8px; font-size: 10pt; break-inside: avoid; }
+  #impression .table-wrap { overflow: visible; }
+  #impression table.fiche { font-size: 9pt; }
+  #impression table.fiche th, #impression table.fiche td { padding: 2px 5px; }
+  #impression tr { break-inside: avoid; }
+
+  .imp-questions { margin: 0; padding-left: 18px; }
+  .imp-questions { font-size: 9pt; }
+  .imp-questions li { margin-bottom: 3px; break-inside: avoid; }
+  .imp-rep { display: block; font-size: 9pt; }
+
+  .imp-notes { flex: 1 1 0; min-height: 20mm; overflow: hidden; border: 1px dashed #888; padding: 4px 6px; }
+  .imp-source { margin: 0; font-size: 8pt; }
+}
