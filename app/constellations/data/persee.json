@@ -8,267 +8,838 @@
   "source_atlas": "Atlas observation.pdf, pages 82–83–84 (fiche Atlas « Persée »)",
   "saison": "automne",
   "voie_lactee": true,
-  "repere_principal": "Algol, l'étoile démon, et les amas doubles h et χ",
+  "repere_principal": "Repérer Mirfak, puis Algol, dont l’éclat varie par éclipses.",
   "constellations_voisines": [
-    "Cassiopée",
     "Andromède",
-    "Triangle",
     "Bélier",
-    "Taureau",
     "Cocher",
-    "Girafe"
+    "Girafe",
+    "Cassiopée",
+    "Taureau",
+    "Triangle"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 12777,
       "nom": "θ Per",
-      "etiq": "θ",
-      "bayer": "the Per",
+      "etiq": "θ Per",
+      "bayer": "θ Per",
       "ra_deg": 41.049,
       "dec_deg": 49.229,
-      "mag": 4.1,
-      "role": "Le torse — naine jaune-blanc",
+      "mag": 4.11,
+      "role": "En haut du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 12777)"
+      "src": "SIMBAD : * tet Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Per",
+      "type_spectral": "F8V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:111414",
+      "simbad_id": "* tet Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 13268,
       "nom": "Miram",
       "etiq": "Miram",
-      "bayer": "eta Per",
+      "bayer": "η Per",
       "ra_deg": 42.674,
       "dec_deg": 55.896,
-      "mag": 3.77,
-      "role": "La tête — supergéante orange",
+      "mag": 3.79,
+      "role": "En haut du dessin, près de l’axe central — supergéante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 13268)/ IAU"
+      "src": "SIMBAD : * eta Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Miram",
+      "bayer_catalogue": "eta Per",
+      "type_spectral": "K3-Ib-IIa",
+      "nature_stellaire": "Supergéante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:178570",
+      "simbad_id": "* eta Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 13531,
       "nom": "τ Per",
-      "etiq": "τ",
-      "bayer": "tau Per",
+      "etiq": "τ Per",
+      "bayer": "τ Per",
       "ra_deg": 43.564,
       "dec_deg": 52.762,
-      "mag": 3.93,
-      "role": "L'épaule — géante jaune",
+      "mag": 3.96,
+      "role": "En haut du dessin, près de l’axe central — spectre complexe ou composé (G8III+A7V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 13531)"
+      "src": "SIMBAD : * tau Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tau Per",
+      "type_spectral": "G8III+A7V",
+      "nature_stellaire": "Spectre complexe ou composé (G8III+A7V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:138467",
+      "simbad_id": "* tau Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 14328,
       "nom": "γ Per",
-      "etiq": "γ",
-      "bayer": "gam Per",
+      "etiq": "γ Per",
+      "bayer": "γ Per",
       "ra_deg": 46.199,
       "dec_deg": 53.506,
-      "mag": 2.91,
-      "role": "Le cou — géante jaune",
+      "mag": 2.93,
+      "role": "En haut du dessin, près de l’axe central — spectre complexe ou composé (G9III+A2-III:)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 14328)"
+      "src": "SIMBAD : * gam Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Per",
+      "type_spectral": "G9III+A2-III:",
+      "nature_stellaire": "Spectre complexe ou composé (G9III+A2-III:)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:179137",
+      "simbad_id": "* gam Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 14354,
       "nom": "ρ Per",
-      "etiq": "ρ",
-      "bayer": "rho Per",
+      "etiq": "ρ Per",
+      "bayer": "ρ Per",
       "ra_deg": 46.294,
       "dec_deg": 38.841,
-      "mag": 3.32,
-      "role": "La cuisse — géante rouge",
+      "mag": 3.39,
+      "role": "En bas du dessin, près de l’axe central — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 14354)"
+      "src": "SIMBAD : * rho Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "rho Per",
+      "type_spectral": "M4+IIIa",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* rho Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* rho Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:29364",
+      "simbad_id": "* rho Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* rho Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 14576,
-      "nom": "β Per",
-      "etiq": "β",
-      "bayer": "bet Per",
+      "nom": "Algol",
+      "etiq": "Algol",
+      "bayer": "β Per",
       "ra_deg": 47.042,
       "dec_deg": 40.956,
-      "mag": 2.09,
-      "role": "L'œil — naine bleue",
+      "mag": 2.12,
+      "role": "En bas du dessin, près de l’axe central — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 14576)"
+      "src": "SIMBAD : * bet Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Algol",
+      "bayer_catalogue": "bet Per",
+      "type_spectral": "B8V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:51431",
+      "simbad_id": "* bet Per",
+      "alerte": "Étoile variable : la magnitude tabulée est indicative et ne décrit pas son éclat à toute date.",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 14632,
       "nom": "ι Per",
-      "etiq": "ι",
-      "bayer": "iot Per",
+      "etiq": "ι Per",
+      "bayer": "ι Per",
       "ra_deg": 47.262,
       "dec_deg": 49.614,
       "mag": 4.05,
-      "role": "Le bras — naine jaune",
+      "role": "En haut du dessin, près de l’axe central — étoile jaune de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 14632)"
+      "src": "SIMBAD : * iot Per ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Per",
+      "type_spectral": "G0V",
+      "nature_stellaire": "Étoile jaune de la séquence principale",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (HIP 14632)",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:139258",
+      "simbad_id": "* iot Per",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 14668,
       "nom": "Misam",
       "etiq": "Misam",
-      "bayer": "kap Per",
+      "bayer": "κ Per",
       "ra_deg": 47.373,
       "dec_deg": 44.858,
-      "mag": 3.79,
-      "role": "La jambe — géante jaune",
+      "mag": 3.81,
+      "role": "Au milieu du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 14668)/ IAU"
+      "src": "SIMBAD : * kap Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Misam",
+      "bayer_catalogue": "kap Per",
+      "type_spectral": "G9.5IIIb",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:86941",
+      "simbad_id": "* kap Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 15863,
       "nom": "Mirfak",
       "etiq": "Mirfak",
-      "bayer": "alf Per",
+      "bayer": "α Per",
       "ra_deg": 51.081,
       "dec_deg": 49.861,
       "mag": 1.79,
-      "role": "La plus brillante de la figure — supergéante jaune-blanc",
+      "role": "En haut du dessin, côté gauche — supergéante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 15863)/ IAU"
+      "src": "SIMBAD : * alf Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mirfak",
+      "bayer_catalogue": "alf Per",
+      "type_spectral": "F5Ib",
+      "nature_stellaire": "Supergéante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:180100",
+      "simbad_id": "* alf Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 17358,
       "nom": "δ Per",
-      "etiq": "δ",
-      "bayer": "del Per",
+      "etiq": "δ Per",
+      "bayer": "δ Per",
       "ra_deg": 55.731,
       "dec_deg": 47.788,
       "mag": 3.01,
-      "role": "Le torse — géante bleue",
+      "role": "En haut du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 17358)"
+      "src": "SIMBAD : * del Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Per",
+      "type_spectral": "B5III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:193490",
+      "simbad_id": "* del Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "hip": 17448,
       "nom": "Atik",
       "etiq": "Atik",
-      "bayer": "omi Per",
+      "bayer": "ο Per",
       "ra_deg": 56.08,
       "dec_deg": 32.288,
-      "mag": 3.84,
-      "role": "Le pied — géante bleue",
+      "mag": 3.91,
+      "role": "En bas du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 17448)/ IAU"
+      "src": "SIMBAD : * omi Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Atik",
+      "bayer_catalogue": "omi Per",
+      "type_spectral": "B1III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:658091",
+      "simbad_id": "* omi Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "hip": 18246,
       "nom": "ζ Per",
-      "etiq": "ζ",
-      "bayer": "zet Per",
+      "etiq": "ζ Per",
+      "bayer": "ζ Per",
       "ra_deg": 58.533,
       "dec_deg": 31.884,
-      "mag": 2.84,
-      "role": "Le pied — supergéante bleue",
+      "mag": 2.85,
+      "role": "En bas du dessin, côté gauche — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 18246)"
+      "src": "SIMBAD : * zet Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Per",
+      "type_spectral": "B1Ib",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:673752",
+      "simbad_id": "* zet Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "hip": 18532,
       "nom": "ε Per",
-      "etiq": "ε",
-      "bayer": "eps Per",
+      "etiq": "ε Per",
+      "bayer": "ε Per",
       "ra_deg": 59.463,
       "dec_deg": 40.01,
-      "mag": 2.9,
-      "role": "La jambe — géante bleue",
+      "mag": 2.89,
+      "role": "En bas du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 18532)"
+      "src": "SIMBAD : * eps Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Per",
+      "type_spectral": "B0.5III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:688057",
+      "simbad_id": "* eps Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
       "hip": 18614,
       "nom": "Menkib",
       "etiq": "Menkib",
-      "bayer": "ksi Per",
+      "bayer": "ξ Per",
       "ra_deg": 59.741,
       "dec_deg": 35.791,
-      "mag": 3.98,
-      "role": "Le pied — géante bleue",
+      "mag": 4.06,
+      "role": "En bas du dessin, côté gauche — géante bleue",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 18614)/ IAU"
+      "src": "SIMBAD : * ksi Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Menkib",
+      "bayer_catalogue": "ksi Per",
+      "type_spectral": "O7.5III(n)((f))",
+      "nature_stellaire": "Géante bleue",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ksi Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ksi Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:688290",
+      "simbad_id": "* ksi Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ksi Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 14,
       "hip": 19167,
       "nom": "λ Per",
-      "etiq": "λ",
-      "bayer": "lam Per",
+      "etiq": "λ Per",
+      "bayer": "λ Per",
       "ra_deg": 61.646,
       "dec_deg": 50.351,
-      "mag": 4.25,
-      "role": "Le bras — sous-géante blanche",
+      "mag": 4.29,
+      "role": "En haut du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 19167)"
+      "src": "SIMBAD : * lam Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "lam Per",
+      "type_spectral": "A0IVn",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:229403",
+      "simbad_id": "* lam Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 15,
       "hip": 19343,
-      "nom": "48 Per",
-      "etiq": "48",
+      "nom": "c Per",
+      "etiq": "c Per",
       "bayer": "c Per",
       "ra_deg": 62.165,
       "dec_deg": 47.713,
-      "mag": 3.96,
-      "role": "La jambe — naine bleue",
+      "mag": 4.03,
+      "role": "En haut du dessin, côté gauche — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 19343)"
+      "src": "SIMBAD : * c Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "c Per",
+      "type_spectral": "B3Ve",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* c Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20c%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* c Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20c%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:213587",
+      "simbad_id": "* c Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* c Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20c%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 16,
       "hip": 19812,
-      "nom": "51 Per",
-      "etiq": "51",
-      "bayer": "mu. Per",
+      "nom": "μ Per",
+      "etiq": "μ Per",
+      "bayer": "μ Per",
       "ra_deg": 63.724,
       "dec_deg": 48.409,
-      "mag": 4.12,
-      "role": "Le torse — supergéante jaune",
+      "mag": 4.16,
+      "role": "En haut du dessin, côté gauche — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 19812)"
+      "src": "SIMBAD : * mu. Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "mu. Per",
+      "type_spectral": "G0Ib",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:229981",
+      "simbad_id": "* mu. Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 17,
       "hip": 20070,
-      "nom": "HIP 20070",
-      "etiq": "HIP 20070",
+      "nom": "b Per",
+      "etiq": "b Per",
       "bayer": "b Per",
       "ra_deg": 64.561,
       "dec_deg": 50.296,
-      "mag": 4.6,
-      "role": "La hanche — géante blanche",
+      "mag": 4.594,
+      "role": "En haut du dessin, côté gauche — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 20070)"
+      "src": "SIMBAD : * b Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "b Per",
+      "type_spectral": "A1III",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* b Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20b%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* b Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20b%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:245596",
+      "simbad_id": "* b Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* b Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20b%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 18,
       "hip": 8068,
       "nom": "φ Per",
-      "etiq": "φ",
-      "bayer": "phi Per",
+      "etiq": "φ Per",
+      "bayer": "φ Per",
       "ra_deg": 25.915,
       "dec_deg": 50.689,
-      "mag": 4.01,
-      "role": "Le bras — naine bleue",
+      "mag": 4.06,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 8068)"
+      "src": "SIMBAD : * phi Per ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "phi Per",
+      "type_spectral": "B1.5V:e-shell",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* phi Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Per",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* phi Per",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Per",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:11672004",
+      "simbad_id": "* phi Per",
+      "constellation_iau": "Per",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* phi Per",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Per",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         10,
@@ -307,144 +878,388 @@
         8
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 19 étoiles reliées par 21 segments.",
-    "note_geometrie": "Figure construite sur 19 étoiles et 21 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie θ Per à φ Per (9.83°) ; le plus court relie 51 Per à 48 Per (1.25°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Persée : 19 étoiles et 21 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 30,5°. Le segment le plus court relie μ Per à c Per (1,25°). Le plus long relie θ Per à φ Per (9,83°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Atik–ζ Per": 2.12,
-    "ζ Per–Menkib": 4.03,
-    "Menkib–ε Per": 4.22,
-    "ε Per–β Per": 9.49,
-    "β Per–ρ Per": 2.19,
-    "β Per–Misam": 3.91,
-    "Misam–ι Per": 4.76,
-    "ι Per–θ Per": 4.06,
-    "θ Per–φ Per": 9.83,
-    "ε Per–δ Per": 8.23,
-    "λ Per–HIP 20070": 1.86,
-    "HIP 20070–51 Per": 1.96,
-    "51 Per–48 Per": 1.25,
-    "48 Per–δ Per": 4.33,
-    "δ Per–Mirfak": 3.7,
-    "Mirfak–ι Per": 2.48,
-    "ι Per–τ Per": 3.91,
-    "τ Per–Miram": 3.18,
-    "Miram–γ Per": 3.14,
-    "γ Per–τ Per": 1.75,
-    "γ Per–Mirfak": 4.74
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 10,
+      "b": 11,
+      "deg": 2.1172
+    },
+    {
+      "a": 11,
+      "b": 13,
+      "deg": 4.0337
+    },
+    {
+      "a": 13,
+      "b": 12,
+      "deg": 4.2247
+    },
+    {
+      "a": 12,
+      "b": 5,
+      "deg": 9.4865
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "deg": 2.1914
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "deg": 3.9095
+    },
+    {
+      "a": 7,
+      "b": 6,
+      "deg": 4.7566
+    },
+    {
+      "a": 6,
+      "b": 0,
+      "deg": 4.0586
+    },
+    {
+      "a": 0,
+      "b": 18,
+      "deg": 9.8273
+    },
+    {
+      "a": 12,
+      "b": 9,
+      "deg": 8.2271
+    },
+    {
+      "a": 14,
+      "b": 17,
+      "deg": 1.8618
+    },
+    {
+      "a": 17,
+      "b": 16,
+      "deg": 1.9642
+    },
+    {
+      "a": 16,
+      "b": 15,
+      "deg": 1.253
+    },
+    {
+      "a": 15,
+      "b": 9,
+      "deg": 4.3254
+    },
+    {
+      "a": 9,
+      "b": 8,
+      "deg": 3.6962
+    },
+    {
+      "a": 8,
+      "b": 6,
+      "deg": 2.4802
+    },
+    {
+      "a": 6,
+      "b": 2,
+      "deg": 3.9081
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 3.1766
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 3.1394
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "deg": 1.747
+    },
+    {
+      "a": 3,
+      "b": 8,
+      "deg": 4.7357
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 869",
       "nature": "amas ouvert",
-      "mag": 4,
+      "mag": 3.7,
       "distance_al": null,
-      "note": "NGC 869 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 14,40 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC0869, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0869",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0869",
+        "alias_interroge": "NGC0869",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0869",
+        "alias_interroge": "NGC0869",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 884",
       "nature": "amas ouvert",
-      "mag": 4,
+      "mag": 3.8,
       "distance_al": null,
-      "note": "NGC 884 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 10,50 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC0884, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0884",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0884",
+        "alias_interroge": "NGC0884",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0884",
+        "alias_interroge": "NGC0884",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1039",
       "nature": "amas ouvert",
       "mag": 5.2,
       "distance_al": null,
-      "note": "NGC 1039 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
-    },
-    {
-      "id": "NGC 1490",
-      "nature": "galaxie",
-      "mag": null,
-      "distance_al": null,
-      "note": "NGC 1490 — galaxie documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 22,50 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC1039, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1039",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1039",
+        "alias_interroge": "NGC1039",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1039",
+        "alias_interroge": "NGC1039",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1528",
       "nature": "amas ouvert",
       "mag": 6.4,
       "distance_al": null,
-      "note": "NGC 1528 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 9,60 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC1528, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1528",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1528",
+        "alias_interroge": "NGC1528",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1528",
+        "alias_interroge": "NGC1528",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1545",
       "nature": "amas ouvert",
       "mag": 6.2,
       "distance_al": null,
-      "note": "NGC 1545 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 4,20 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC1545, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1545",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1545",
+        "alias_interroge": "NGC1545",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1545",
+        "alias_interroge": "NGC1545",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1513",
       "nature": "amas ouvert",
       "mag": 8.4,
       "distance_al": null,
-      "note": "NGC 1513 — amas ouvert documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 5,10 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1513, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1513",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1513",
+        "alias_interroge": "NGC1513",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1513",
+        "alias_interroge": "NGC1513",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 348",
-      "nature": "amas avec nébulosité",
-      "mag": 7.3,
+      "nature": "amas ouvert et nébuleuse",
+      "mag": null,
       "distance_al": null,
-      "note": "IC 348 — amas avec nébulosité documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert et nébuleuse. Dimension apparente du catalogue : environ 10,00 minutes d’arc. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, IC0348, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "IC0348",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0348",
+        "alias_interroge": "IC0348",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1499",
       "nature": "nébuleuse",
-      "mag": null,
+      "mag": 5.0,
       "distance_al": null,
-      "note": "NGC 1499 — nébuleuse documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
-    },
-    {
-      "id": "NGC 6853",
-      "nature": "nébuleuse planétaire",
-      "mag": 8.1,
-      "distance_al": null,
-      "note": "NGC 6853 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "note": "Nébuleuse. Dimension apparente du catalogue : environ 160,00 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1499, photométrie B ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1499",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1499",
+        "alias_interroge": "NGC1499",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1499",
+        "alias_interroge": "NGC1499",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1579",
-      "nature": "nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": null,
       "distance_al": null,
-      "note": "NGC 1579 — nébuleuse documenté(e) dans la fiche Atlas de Persée.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert et nébuleuse. Dimension apparente du catalogue : environ 10,20 minutes d’arc. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1579, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1579",
+      "constellation_catalogue": "Per",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1579",
+        "alias_interroge": "NGC1579",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -476,91 +1291,96 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Mirfak, magnitude 1.79, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Mirfak, avec 1,79 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "μ Per – c Per : environ 1,25°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Persée ?",
-      "r": "11 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Persée désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 869 ?",
-      "r": "NGC 869 est un(e) amas ouvert de magnitude 4. Instrument conseillé : œil nu. NGC 869 — amas ouvert documenté(e) dans la fiche Atlas de Persée."
+      "q": "Une étoile qui scintille est-elle nécessairement une variable à éclipses ?",
+      "r": "Non. La scintillation vient de l’atmosphère terrestre et change rapidement. Les éclipses d’Algol suivent un cycle régulier sur plusieurs jours ; il faut comparer son éclat à celui d’étoiles de référence à des moments bien choisis."
     },
     {
-      "q": "Quand observer Persée ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : Algol, l'étoile démon, et les amas doubles h et χ."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Persée. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 869 : amas ouvert. Amas ouvert. Dimension apparente du catalogue : environ 14,40 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Persée raconte le héros qui délivra Andromède. On peut partir d'Algol, l'étoile démon, qui faiblit toutes les 2,9 jours : c'est la première variable à éclipses découverte. On termine par les amas doubles h et χ Persée, somptueux aux jumelles, qui se présentent ensemble dans le même champ.",
+  "message_animation": "Repérer Mirfak, puis Algol, dont l’éclat varie par éclipses. Le Double Amas de Persée, h et χ, est un bel objectif pour des jumelles à grand champ. Distinguer une variation d’éclat suivie sur plusieurs nuits d’une simple scintillation atmosphérique.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 82–83–84 (fiche Atlas « Persée »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "NGC 1490 : Désignation douteuse dans la fiche Atlas (« nébuleuse gazeuse nichée dans M 34 ») ; le catalogue NGC le situe dans le Réticule (Ret) comme galaxie. Ambiguïté non tranchée.",
-      "NGC 6853 : Cité dans la fiche Atlas « Persée » ; le catalogue NGC le situe dans le Petit Renard (Vul). Retenu par prudence, attribution à revoir."
-    ]
+      "ι Per : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 1490",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Ret"
+        },
+        {
+          "id": "NGC 6853",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Vul"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

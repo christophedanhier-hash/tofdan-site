@@ -8,84 +8,271 @@
   "source_atlas": "Atlas observation.pdf — fiche « Dauphin »",
   "saison": "été",
   "voie_lactee": false,
-  "repere_principal": "Le « Cercueil de Job » : un petit losange d'étoiles serré, prolongé d'une queue.",
+  "repere_principal": "Chercher le petit losange du Dauphin près de l’Aigle.",
   "constellations_voisines": [
-    "Petit Renard",
-    "Flèche",
     "Aigle",
+    "Verseau",
+    "Petit Cheval",
     "Pégase",
-    "Écu de Sobieski"
+    "Flèche",
+    "Petit Renard"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Aldulfin",
-      "bayer": "eps Del",
+      "bayer": "ε Del",
       "ra_deg": 308.3032,
       "dec_deg": 11.3033,
       "mag": 4.03,
-      "role": "La queue — sous-géante bleue",
+      "role": "Bout de la queue — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eps Del ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Aldulfin",
+      "bayer_catalogue": "eps Del",
+      "type_spectral": "B6IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Del",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Del",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Aldulfin",
+      "identifiant": "simbad:2741174",
+      "simbad_id": "* eps Del",
+      "constellation_iau": "Del",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Del",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Del",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "η Del",
-      "bayer": "eta Del",
+      "bayer": "η Del",
       "ra_deg": 308.4875,
       "dec_deg": 13.0272,
-      "mag": 5.39,
-      "role": "La queue — sous-géante blanche",
+      "mag": 5.38,
+      "role": "Queue, entre le losange et Aldulfin — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eta Del ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Del",
+      "type_spectral": "A3IVs",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Del",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Del",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "η Del",
+      "identifiant": "simbad:2741050",
+      "simbad_id": "* eta Del",
+      "constellation_iau": "Del",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Del",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Del",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Rotanev",
-      "bayer": "bet Del",
+      "bayer": "β Del",
       "ra_deg": 309.387,
       "dec_deg": 14.5952,
-      "mag": 3.64,
-      "role": "La plus brillante de la figure — sous-géante jaune-blanc",
+      "mag": 3.63,
+      "role": "Sommet du losange, départ de la queue — sous-géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * bet Del ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Rotanev",
+      "bayer_catalogue": "bet Del",
+      "type_spectral": "F5IV",
+      "nature_stellaire": "Sous-géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Del",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Del",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Rotanev",
+      "identifiant": "simbad:2757402",
+      "simbad_id": "* bet Del",
+      "constellation_iau": "Del",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Del",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Del",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "α Del",
-      "bayer": "alf Del",
+      "nom": "Sualocin",
+      "bayer": "α Del",
       "ra_deg": 309.9094,
       "dec_deg": 15.9121,
-      "mag": 3.77,
-      "role": "Le nez — sous-géante bleue",
+      "mag": 3.8,
+      "role": "Sommet du losange — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * alf Del ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sualocin",
+      "bayer_catalogue": "alf Del",
+      "type_spectral": "B9IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Del",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Del",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Sualocin",
+      "identifiant": "simbad:2775644",
+      "simbad_id": "* alf Del",
+      "constellation_iau": "Del",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Del",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Del",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "γ2 Del",
-      "bayer": "gam02 Del",
+      "nom": "γ² Del",
+      "bayer": "γ² Del",
       "ra_deg": 311.6647,
       "dec_deg": 16.1248,
-      "mag": 4.27,
-      "role": "La queue — sous-géante orange",
+      "mag": 4.25,
+      "role": "Sommet du losange — sous-géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * gam02 Del ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam02 Del",
+      "type_spectral": "K1IV",
+      "nature_stellaire": "Sous-géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam02 Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam02%20Del",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam02 Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam02%20Del",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ² Del",
+      "identifiant": "simbad:2775724",
+      "simbad_id": "* gam02 Del",
+      "constellation_iau": "Del",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam02 Del",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam02%20Del",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "δ Del",
-      "bayer": "del Del",
+      "bayer": "δ Del",
       "ra_deg": 310.8648,
       "dec_deg": 15.0747,
-      "mag": 4.43,
-      "role": "Le corps — naine blanche",
+      "mag": 4.417,
+      "role": "Sommet du losange — type spectral kA7hF1VmF1pSrEuCr: (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * del Del ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Del",
+      "type_spectral": "kA7hF1VmF1pSrEuCr:",
+      "nature_stellaire": "Type spectral kA7hF1VmF1pSrEuCr: (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Del",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Del",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Del",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ Del",
+      "identifiant": "simbad:2757464",
+      "simbad_id": "* del Del",
+      "constellation_iau": "Del",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Del",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Del",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -112,39 +299,122 @@
         2
       ]
     ],
-    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-    "note_geometrie": "Le Dauphin tient tout entier dans un mouchoir de poche : toutes ses liaisons sont comprises entre 1,30° et 1,79°. C'est l'une des plus petites figures du ciel, et c'est justement ce qui la rend reconnaissable — un losange serré. Le tracé forme le losange (Rotanev–α Del–γ2 Del–δ Del–Rotanev, côtés de 1,30° à 1,70°) prolongé par une queue : Rotanev → η Del (1,79°) → Aldulfin (1,73°). Le segment le plus court, γ2 Del–δ Del (1,30°), est le côté sud du losange ; le plus long, η Del–Rotanev (1,79°), marque la naissance de la queue.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Dauphin : 6 étoiles et 6 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 5,8°. Le segment le plus court relie γ² Del à δ Del (1,3°). Le plus long relie η Del à Rotanev (1,79°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-    "Aldulfin–η Del": 1.73,
-    "η Del–Rotanev": 1.79,
-    "Rotanev–α Del": 1.41,
-    "α Del–γ2 Del": 1.7,
-    "γ2 Del–δ Del": 1.3,
-    "δ Del–Rotanev": 1.51
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 1.7333
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 1.7949
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 1.41
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 1.7005
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 1.3024
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "deg": 1.5069
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6934",
       "nature": "amas globulaire",
-      "mag": 8.83,
-      "distance_al": 51300,
-      "note": "Amas globulaire distant dans le Dauphin : petit et concentré à l'oculaire.",
-      "instrument": "jumelles",
-      "src": "O3",
-      "code": "O3"
+      "mag": 8.74,
+      "distance_al": 51272,
+      "note": "Amas globulaire. Distance au Soleil : environ 51300 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6934, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6934",
+      "constellation_catalogue": "Del",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6934",
+        "alias_interroge": "NGC6934",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6934",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6934",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 15.72,
+        "incertitude_kpc": 0.17,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.03,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7006",
       "nature": "amas globulaire",
-      "mag": 10.46,
-      "distance_al": 128000,
-      "note": "Amas globulaire très excentré, l'un des plus éloignés du halo de notre galaxie.",
+      "mag": 10.69,
+      "distance_al": 128245,
+      "note": "Amas globulaire. Distance au Soleil : environ 128200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "télescope",
-      "src": "O3",
-      "code": "O3"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC7006, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC7006",
+      "constellation_catalogue": "Del",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7006",
+        "alias_interroge": "NGC7006",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 7006",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 7006",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 39.32,
+        "incertitude_kpc": 0.56,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -175,79 +445,83 @@
     }
   ],
   "questions_observation": [
-    "Reconnais-tu un losange, ou plutôt un « cerf-volant » ?",
-    "Combien d'étoiles vois-tu à l'intérieur du losange ?",
-    "Le losange te paraît-il vraiment petit comparé au Cygne voisin ?",
-    "Distingues-tu la queue qui s'échappe d'un coin du losange ?",
-    "Repères-tu le Dauphin à l'œil nu, sans jumelles ?"
+    {
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Rotanev, avec 3,63 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
+    },
+    {
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "γ² Del – δ Del : environ 1,3°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
+    },
+    {
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Dauphin désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
+    }
   ],
   "questions_guide": [
-    "Cherche le petit losange serré à gauche de l'Aigle, sous la Flèche.",
-    "C'est l'une des plus petites constellations reconnaissables : si tu vois un mini-parallélogramme, c'est lui.",
-    "Rotanev et Sualocin, ses deux étoiles principales, ont des noms qui se lisent à l'envers — un canular d'astronome devenu officiel.",
-    "Sa queue pointe vers l'est : suis-la jusqu'à Aldulfin."
+    {
+      "q": "La queue fait-elle partie du losange ?",
+      "r": "Le dessin distingue le losange et sa prolongation : depuis Rotanev, suivre η du Dauphin puis Aldulfin. γ du Dauphin est sur le losange, pas sur cette prolongation."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Dauphin. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6934 : amas globulaire. Amas globulaire. Distance au Soleil : environ 51300 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
+    }
   ],
-  "message_animation": "Le Dauphin est un petit losange serré d'étoiles, prolongé par une queue effilée : surnommé « le Cercueil de Job », c'est l'un des plus petits motifs reconnaissables du ciel d'été.",
+  "message_animation": "Chercher le petit losange du Dauphin près de l’Aigle. Rotanev et Sualocin appartiennent au losange ; une courte prolongation mène vers Aldulfin. Comparer sa taille apparente avec celle du Cygne voisin plutôt que supposer que toutes les constellations ont la même étendue.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf — fiche « Dauphin »",
     "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "4 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

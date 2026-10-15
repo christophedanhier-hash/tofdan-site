@@ -8,95 +8,275 @@
   "source_atlas": "Atlas observation.pdf, pages 68–69 (fiche Atlas « Lyre »)",
   "saison": "été",
   "voie_lactee": false,
-  "repere_principal": "Vega, la cinquième étoile du ciel, et M 57",
+  "repere_principal": "Repérer Véga, puis le petit parallélogramme de la Lyre, dont les sommets usuels sont ζ, δ, γ et β.",
   "constellations_voisines": [
+    "Cygne",
     "Dragon",
     "Hercule",
-    "Petit Renard",
-    "Cygne"
+    "Petit Renard"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 91262,
-      "nom": "Vega",
-      "etiq": "Vega",
-      "bayer": "alf Lyr",
+      "nom": "Véga",
+      "etiq": "Véga",
+      "bayer": "α Lyr",
       "ra_deg": 279.234,
       "dec_deg": 38.783,
       "mag": 0.03,
-      "role": "La plus brillante de la figure — naine blanche",
+      "role": "Repère brillant près du parallélogramme — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 91262)/ IAU"
+      "src": "SIMBAD : * alf Lyr ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Vega",
+      "bayer_catalogue": "alf Lyr",
+      "type_spectral": "A0V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2900336",
+      "simbad_id": "* alf Lyr",
+      "constellation_iau": "Lyr",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Lyr",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lyr",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 91926,
-      "nom": "5 Lyr",
-      "etiq": "5",
-      "bayer": "eps02 Lyr",
+      "nom": "ε² Lyr",
+      "etiq": "ε² Lyr",
+      "bayer": "ε² Lyr",
       "ra_deg": 281.095,
       "dec_deg": 39.613,
       "mag": 4.59,
-      "role": "Le corps — naine blanche",
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (A6Vn+A7Vn)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 91926)"
+      "src": "SIMBAD : * eps02 Lyr ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps02 Lyr",
+      "type_spectral": "A6Vn+A7Vn",
+      "nature_stellaire": "Spectre complexe ou composé (A6Vn+A7Vn)",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (HIP 91926)",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps02 Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps02%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2923757",
+      "simbad_id": "* eps02 Lyr",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Lyr",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps02 Lyr",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps02%20Lyr",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 91971,
-      "nom": "6 Lyr",
-      "etiq": "6",
-      "bayer": "zet01 Lyr",
+      "nom": "ζ¹ Lyr",
+      "etiq": "ζ¹ Lyr",
+      "bayer": "ζ¹ Lyr",
       "ra_deg": 281.193,
       "dec_deg": 37.605,
-      "mag": 4.34,
-      "role": "Le corps — naine blanche",
+      "mag": 4.36,
+      "role": "En haut du dessin, côté droite — type spectral kA5hF0VmF3 (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 91971)"
+      "src": "SIMBAD : * zet01 Lyr ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet01 Lyr",
+      "type_spectral": "kA5hF0VmF3",
+      "nature_stellaire": "Type spectral kA5hF0VmF3 (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet01 Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet01%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet01 Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet01%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2900021",
+      "simbad_id": "* zet01 Lyr",
+      "constellation_iau": "Lyr",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet01 Lyr",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet01%20Lyr",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 92420,
-      "nom": "β Lyr",
-      "etiq": "β",
-      "bayer": "bet Lyr",
+      "nom": "Sheliak",
+      "etiq": "Sheliak",
+      "bayer": "β Lyr",
       "ra_deg": 282.52,
       "dec_deg": 33.363,
-      "mag": 3.52,
-      "role": "Le bord nord — supergéante bleue",
+      "mag": 3.42,
+      "role": "En bas du dessin, près de l’axe central — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 92420)"
+      "src": "SIMBAD : * bet Lyr ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sheliak",
+      "bayer_catalogue": "bet Lyr",
+      "type_spectral": "B8.5Ib-II",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2868583",
+      "simbad_id": "* bet Lyr",
+      "constellation_iau": "Lyr",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Lyr",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lyr",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 92791,
-      "nom": "12 Lyr",
-      "etiq": "12",
-      "bayer": "del02 Lyr",
+      "nom": "δ² Lyr",
+      "etiq": "δ² Lyr",
+      "bayer": "δ² Lyr",
       "ra_deg": 283.626,
       "dec_deg": 36.899,
-      "mag": 4.22,
-      "role": "Le corps de la harpe — géante lumineuse rouge",
+      "mag": 4.3,
+      "role": "Au milieu du dessin, côté gauche — géante lumineuse rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 92791)"
+      "src": "SIMBAD : * del02 Lyr ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del02 Lyr",
+      "type_spectral": "M4II",
+      "nature_stellaire": "Géante lumineuse rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del02 Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del02%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del02 Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del02%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2900492",
+      "simbad_id": "* del02 Lyr",
+      "constellation_iau": "Lyr",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del02 Lyr",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del02%20Lyr",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 93194,
       "nom": "Sulafat",
       "etiq": "Sulafat",
-      "bayer": "gam Lyr",
+      "bayer": "γ Lyr",
       "ra_deg": 284.736,
       "dec_deg": 32.69,
       "mag": 3.25,
-      "role": "Le bord sud — géante lumineuse bleue",
+      "role": "En bas du dessin, côté gauche — géante lumineuse bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 93194)/ IAU"
+      "src": "SIMBAD : * gam Lyr ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sulafat",
+      "bayer_catalogue": "gam Lyr",
+      "type_spectral": "B9.5II-III",
+      "nature_stellaire": "Géante lumineuse bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Lyr",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Lyr",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2843608",
+      "simbad_id": "* gam Lyr",
+      "constellation_iau": "Lyr",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Lyr",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Lyr",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         2,
@@ -109,50 +289,149 @@
         2
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 6 étoiles reliées par 7 segments.",
-    "note_geometrie": "Figure construite sur 6 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie 6 Lyr à β Lyr (4.38°) ; le plus court relie Vega à 5 Lyr (1.66°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Lyre : 6 étoiles et 7 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 7,6°. Le segment le plus court relie Véga à ε² Lyr (1,66°). Le plus long relie ζ¹ Lyr à Sheliak (4,38°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "6 Lyr–Vega": 1.94,
-    "Vega–5 Lyr": 1.66,
-    "5 Lyr–6 Lyr": 2.01,
-    "6 Lyr–β Lyr": 4.38,
-    "β Lyr–Sulafat": 1.98,
-    "Sulafat–12 Lyr": 4.31,
-    "12 Lyr–6 Lyr": 2.06
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 2,
+      "b": 0,
+      "deg": 1.9385
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 1.6639
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 2.0095
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 4.3773
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "deg": 1.976
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "deg": 4.3065
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "deg": 2.0612
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6720",
       "nature": "nébuleuse planétaire",
-      "mag": 9,
+      "mag": 8.8,
       "distance_al": null,
-      "note": "NGC 6720 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Lyre.",
+      "note": "Nébuleuse planétaire de l’Anneau (M 57), entre β et γ de la Lyre. Un télescope et un grossissement adapté sont préférables pour reconnaître sa forme. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC6720, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6720",
+      "constellation_catalogue": "Lyr",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6720",
+        "alias_interroge": "NGC6720",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6720",
+        "alias_interroge": "NGC6720",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6779",
       "nature": "amas globulaire",
-      "mag": 8.3,
-      "distance_al": null,
-      "note": "NGC 6779 — amas globulaire documenté(e) dans la fiche Atlas de Lyre.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "mag": 8.15,
+      "distance_al": 34018,
+      "note": "Amas globulaire. Distance au Soleil : environ 34000 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6779, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6779",
+      "constellation_catalogue": "Lyr",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6779",
+        "alias_interroge": "NGC6779",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6779 M 56",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6779 M 56",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 10.43,
+        "incertitude_kpc": 0.14,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.05,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6791",
       "nature": "amas ouvert",
       "mag": 9.5,
       "distance_al": null,
-      "note": "NGC 6791 — amas ouvert documenté(e) dans la fiche Atlas de Lyre.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 6,30 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC6791, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6791",
+      "constellation_catalogue": "Lyr",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6791",
+        "alias_interroge": "NGC6791",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6791",
+        "alias_interroge": "NGC6791",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -184,85 +463,85 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Vega, magnitude 0.03, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Véga, avec 0,03 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Véga – ε² Lyr : environ 1,66°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Lyre ?",
-      "r": "3 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Lyre désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 6720 ?",
-      "r": "NGC 6720 est un(e) nébuleuse planétaire de magnitude 9. Instrument conseillé : télescope. NGC 6720 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Lyre."
+      "q": "Des jumelles montrent-elles normalement l’anneau de M 57 ?",
+      "r": "Pas comme sur les photographies. M 57 est petite sur le ciel : des jumelles peuvent au mieux en rendre le repérage délicat. Un télescope avec un grossissement adapté permet d’examiner son aspect annulaire sous de bonnes conditions."
     },
     {
-      "q": "Quand observer Lyre ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Vega, la cinquième étoile du ciel, et M 57."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Lyre. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6720 : nébuleuse planétaire. Nébuleuse planétaire de l’Anneau (M 57), entre β et γ de la Lyre. Un télescope et un grossissement adapté sont préférables pour reconnaître sa forme. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "La Lyre est dominée par Véga, cinquième étoile du ciel et sommet du Triangle d'été. On peut partir de Véga, puis montrer le petit parallélogramme formé avec β, γ et δ Lyrae — en réalité deux étoiles doubles célèbres, β Lyrae et ζ Lyrae. On termine par M57, la nébuleuse de l'Anneau, visible aux jumelles comme un petit rond flou.",
+  "message_animation": "Repérer Véga, puis le petit parallélogramme de la Lyre, dont les sommets usuels sont ζ, δ, γ et β. M 57, la nébuleuse de l’Anneau, se cherche entre β et γ ; un télescope et un grossissement adapté sont préférables pour en reconnaître la forme.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 68–69 (fiche Atlas « Lyre »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+      "ε² Lyr : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

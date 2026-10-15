@@ -1,37 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Sagittaire">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="148.4" y1="30.0" x2="251.6" y2="147.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="251.6" y1="147.0" x2="379.0" y2="188.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="379.0" y1="188.1" x2="447.4" y2="170.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="447.4" y1="170.0" x2="529.6" y2="205.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="529.6" y1="205.7" x2="499.3" y2="262.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="499.3" y1="262.3" x2="224.1" y2="373.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="224.1" y1="373.6" x2="90.4" y2="276.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="90.4" y1="276.0" x2="201.0" y2="260.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="201.0" y1="260.9" x2="251.6" y2="147.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="499.3" y1="262.3" x2="379.0" y2="188.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="379.0" y1="188.1" x2="201.0" y2="260.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="201.0" y1="260.9" x2="224.1" y2="373.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="224.1" y1="373.6" x2="176.5" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="90.4" cy="276.0" r="6.7" fill="#222"/>
-<circle cx="148.4" cy="30.0" r="7.3" fill="#222"/>
-<circle cx="176.5" cy="430.0" r="6.7" fill="#222"/>
-<circle cx="201.0" cy="260.9" r="6.5" fill="#222"/>
-<circle cx="224.1" cy="373.6" r="5.6" fill="#222"/>
-<circle cx="251.6" cy="147.0" r="6.6" fill="#222"/>
-<circle cx="379.0" cy="188.1" r="6.7" fill="#222"/>
-<circle cx="447.4" cy="170.0" r="5.8" fill="#222"/>
-<circle cx="499.3" cy="262.3" r="6.3" fill="#222"/>
-<circle cx="529.6" cy="205.7" r="7.0" fill="#222"/>
-<text x="106.9" y="264.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
-<text x="163.4" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Polis</text>
-<text x="191.5" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">η</text>
-<line x1="201.0" y1="260.9" x2="181.5" y2="241.4" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="181.5" y="245.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Kaus Media</text>
-<text x="203.1" y="378.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Kaus Australis</text>
-<text x="268.1" y="135.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Kaus Borealis</text>
-<text x="379.0" y="174.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">φ</text>
-<text x="463.9" y="158.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Nunki</text>
-<text x="514.3" y="266.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ascella</text>
-<text x="544.6" y="210.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">τ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Sagittaire">
+<title>Sagittaire</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="563.798" y1="60.000" x2="460.327" y2="191.194" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="460.327" y1="191.194" x2="339.244" y2="239.837" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="339.244" y1="239.837" x2="272.846" y2="220.767" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="272.846" y1="220.767" x2="195.533" y2="267.196" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="195.533" y1="267.196" x2="228.928" y2="332.984" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="228.928" y1="332.984" x2="480.647" y2="465.812" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="480.647" y1="465.812" x2="604.467" y2="349.653" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="604.467" y1="349.653" x2="504.845" y2="326.919" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="504.845" y1="326.919" x2="460.327" y2="191.194" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="228.928" y1="332.984" x2="339.244" y2="239.837" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="339.244" y1="239.837" x2="504.845" y2="326.919" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="504.845" y1="326.919" x2="480.647" y2="465.812" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="480.647" y1="465.812" x2="519.185" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="604.467" cy="349.653" r="3.21" fill="#222" data-star="simbad:2432279"/>
+<circle cx="563.798" cy="60.000" r="2.52" fill="#222" data-star="simbad:2536242"/>
+<circle cx="519.185" cy="540.000" r="3.11" fill="#222" data-star="simbad:2350972"/>
+<circle cx="504.845" cy="326.919" r="3.47" fill="#222" data-star="simbad:2473749"/>
+<circle cx="480.647" cy="465.812" r="4.15" fill="#222" data-star="simbad:2371233"/>
+<circle cx="460.327" cy="191.194" r="3.35" fill="#222" data-star="simbad:2501824"/>
+<circle cx="339.244" cy="239.837" r="3.09" fill="#222" data-star="simbad:2503301"/>
+<circle cx="272.846" cy="220.767" r="3.95" fill="#222" data-star="simbad:2503532"/>
+<circle cx="228.928" cy="332.984" r="3.53" fill="#222" data-star="simbad:2477592"/>
+<circle cx="195.533" cy="267.196" r="2.95" fill="#222" data-star="simbad:2477543"/>
+<text x="241.93" y="319.98" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Ascella</text>
+<text x="617.47" y="336.65" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alnasl</text>
+<text x="576.80" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Polis</text>
+<text x="532.18" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Sgr</text>
+<text x="352.24" y="226.84" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">φ Sgr</text>
+<text x="285.85" y="207.77" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Nunki</text>
+<text x="208.53" y="254.20" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Sgr</text>
+<text x="517.84" y="313.92" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Kaus</text>
+<text x="493.65" y="452.81" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Kaus</text>
+<text x="473.33" y="178.19" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Kaus</text>
 </svg>

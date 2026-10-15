@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Capricorne">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="525.0" y1="89.6" x2="508.3" y2="133.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="508.3" y1="133.6" x2="382.5" y2="338.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="129.0" y1="170.8" x2="95.0" y2="161.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="95.0" y1="161.9" x2="197.3" y2="282.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="197.3" y1="282.5" x2="356.1" y2="370.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="356.1" y1="370.4" x2="382.5" y2="338.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="525.0" cy="89.6" r="5" fill="#222"/>
-<text x="538.0" y="79.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Algedi</text>
-<circle cx="508.3" cy="133.6" r="5" fill="#222"/>
-<text x="521.3" y="123.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Dabih</text>
-<circle cx="129.0" cy="170.8" r="5" fill="#222"/>
-<text x="142.0" y="160.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Nashira</text>
-<circle cx="95.0" cy="161.9" r="5" fill="#222"/>
-<text x="82.0" y="138.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Deneb Algedi</text>
-<circle cx="197.3" cy="282.5" r="5" fill="#222"/>
-<text x="210.3" y="272.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zeta Cap</text>
-<circle cx="356.1" cy="370.4" r="5" fill="#222"/>
-<text x="369.1" y="387.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Omega Cap</text>
-<circle cx="382.5" cy="338.1" r="5" fill="#222"/>
-<text x="369.5" y="328.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Psi Cap</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Capricorne">
+<title>Capricorne</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="740.000" y1="77.943" x2="713.511" y2="147.667" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="713.511" y1="147.667" x2="514.591" y2="470.919" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="113.699" y1="206.430" x2="60.000" y2="192.492" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="60.000" y1="192.492" x2="221.801" y2="383.115" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="221.801" y1="383.115" x2="472.937" y2="522.057" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="472.937" y1="522.057" x2="514.591" y2="470.919" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="740.000" cy="77.943" r="2.74" fill="#222" data-star="simbad:2577256"/>
+<circle cx="713.511" cy="147.667" r="3.14" fill="#222" data-star="simbad:2556894"/>
+<circle cx="113.699" cy="206.430" r="2.66" fill="#222" data-star="simbad:1282227"/>
+<circle cx="60.000" cy="192.492" r="3.34" fill="#222" data-star="simbad:1292016"/>
+<circle cx="221.801" cy="383.115" r="2.61" fill="#222" data-star="simbad:1251888"/>
+<circle cx="472.937" cy="522.057" r="2.30" fill="#222" data-star="simbad:2376189"/>
+<circle cx="514.591" cy="470.919" r="2.30" fill="#222" data-star="simbad:2398339"/>
+<text x="126.70" y="193.43" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Nashira</text>
+<text x="683.20" y="64.94" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Algedi</text>
+<text x="726.51" y="134.67" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Dabih</text>
+<text x="73.00" y="179.49" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Deneb</text>
+<text x="234.80" y="370.12" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ζ Cap</text>
+<text x="485.94" y="509.06" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ω Cap</text>
+<text x="527.59" y="457.92" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ψ Cap</text>
 </svg>

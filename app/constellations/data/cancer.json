@@ -8,78 +8,239 @@
   "source_atlas": "Fiche Atlas « Cancer » (011-cancer.txt)",
   "saison": "Printemps",
   "voie_lactee": false,
-  "repere_principal": "La constellation est faible : la repérer d'abord par M44, l'amas de la Crèche, visible à l'œil nu sous un bon ciel",
-  "constellations_voisines": [],
+  "repere_principal": "Le Cancer est discret : sous un ciel sombre, chercher d’abord la tache de la Crèche, M 44, puis les étoiles qui l’encadrent.",
+  "constellations_voisines": [
+    "Petit Chien",
+    "Gémeaux",
+    "Hydre",
+    "Lion",
+    "Lynx"
+  ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Acubens",
-      "bayer": "alf Cnc",
+      "bayer": "α Cnc",
       "ra_deg": 134.62168,
       "dec_deg": 11.85768,
       "mag": 4.249,
-      "role": "La pince — naine blanche",
+      "role": "Pince, branche vers le sud-est — type spectral kA7VmF0/2III/IVSr (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf Cnc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Acubens",
+      "bayer_catalogue": "alf Cnc",
+      "type_spectral": "kA7VmF0/2III/IVSr",
+      "nature_stellaire": "Type spectral kA7VmF0/2III/IVSr (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Acubens",
+      "identifiant": "simbad:1131707",
+      "simbad_id": "* alf Cnc",
+      "constellation_iau": "Cnc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Cnc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cnc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
-      "nom": "Asellus Australis",
-      "bayer": "del Cnc",
+      "nom": "Asellus",
+      "bayer": "δ Cnc",
       "ra_deg": 131.17125,
       "dec_deg": 18.15431,
       "mag": 3.94,
-      "role": "Une branche du Y — géante orange",
+      "role": "Centre du Y retenu — géante orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * del Cnc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Asellus",
+      "bayer_catalogue": "del Cnc",
+      "type_spectral": "K0+IIIb",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Asellus",
+      "identifiant": "simbad:1110026",
+      "simbad_id": "* del Cnc",
+      "constellation_iau": "Cnc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Cnc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cnc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "Asellus Borealis",
-      "bayer": "gam Cnc",
+      "nom": "Asellus",
+      "bayer": "γ Cnc",
       "ra_deg": 130.82145,
       "dec_deg": 21.4685,
       "mag": 4.652,
-      "role": "Une branche du Y — naine blanche",
+      "role": "Branche du Y vers le nord — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * gam Cnc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Asellus",
+      "bayer_catalogue": "gam Cnc",
+      "type_spectral": "A1Va",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Asellus",
+      "identifiant": "simbad:1108592",
+      "simbad_id": "* gam Cnc",
+      "constellation_iau": "Cnc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Cnc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cnc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Tarf",
-      "bayer": "bet Cnc",
+      "bayer": "β Cnc",
       "ra_deg": 124.12884,
       "dec_deg": 9.18554,
       "mag": 3.52,
-      "role": "La plus brillante de la figure — géante orange",
+      "role": "Branche du Y vers le sud-ouest — géante orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet Cnc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Tarf",
+      "bayer_catalogue": "bet Cnc",
+      "type_spectral": "K4IIIBa0.5:",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Tarf",
+      "identifiant": "simbad:1066640",
+      "simbad_id": "* bet Cnc",
+      "constellation_iau": "Cnc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Cnc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cnc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "Iota Cancri",
-      "bayer": "iot Cnc",
+      "nom": "ι Cnc",
+      "bayer": "ι Cnc",
       "ra_deg": 131.67425,
       "dec_deg": 28.75989,
       "mag": 4.018,
-      "role": "Une branche du Y — géante jaune",
+      "role": "Prolongement nord du Y — géante jaune",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * iot Cnc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Cnc",
+      "type_spectral": "G8IIIaBa0.2",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Cnc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Cnc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ι Cnc",
+      "identifiant": "simbad:1106610",
+      "simbad_id": "* iot Cnc",
+      "constellation_iau": "Cnc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Cnc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Cnc",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE, explicitement assumé. Figure etablie depuis les coordonnées SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         1,
         2
       ],
       [
-        0,
-        1
+        1,
+        0
       ],
       [
-        2,
+        1,
         3
       ],
       [
@@ -87,26 +248,65 @@
         4
       ]
     ],
-    "commentaire": "Forme retenue : le Y — un centre (δ Cnc) d'où partent trois branches vers β Tarf, γ Asellus Borealis et ι Cnc.",
-    "note_geometrie": "Constellation faible et dispersée : la chaîne la plus courte reliant ses étoiles mesurables est β–α–δ–γ–ι (28,4° au total) et correspond au schéma classique. Un Y se reconnaît à son centre de degré 3 (ici δ Cnc), pas à une ligne brisée. C'est un cas pédagogique volontaire : on repère d'abord M44, l'amas de la Crèche, puis les étoiles faibles autour.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+    "commentaire": "Dessin retenu pour Cancer : 5 étoiles et 4 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 20,8°. Le segment le plus court relie Asellus à Asellus (3,33°). Le plus long relie Asellus à Tarf (11,28°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "Asellus Australis–Asellus Borealis": 3.33,
-    "Acubens–Asellus Australis": 7.12,
-    "Asellus Borealis–Tarf": 13.87,
-    "Asellus Borealis–Iota Cancri": 7.33
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 3.3305
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 7.1233
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 11.276
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "deg": 7.3321
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 44",
       "nature": "amas ouvert",
       "mag": 3.1,
       "distance_al": 610,
-      "note": "Amas ouvert le plus proche du ciel boréal — à l'œil nu, une tache laiteuse dans le Cancer. Amas de la Crèche (Praesepe) : ~1 000 étoiles dont une dizaine de 6ᵉ–7ᵉ grandeur.",
+      "note": "Amas de la Crèche : un groupe étalé d’étoiles visible comme une tache sous un ciel sombre, puis résolu en étoiles aux jumelles.",
       "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC2632, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2632",
+      "constellation_catalogue": "Cnc",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2632",
+        "alias_interroge": "NGC2632",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2632",
+        "alias_interroge": "NGC2632",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 67",
@@ -115,18 +315,31 @@
       "distance_al": 2880,
       "note": "Un des amas ouverts les plus vieux connus (~4 milliards d'années, soit l'âge du Soleil). Riche en étoiles jaunes, il ressemble à un petit amas globulaire aux jumelles.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
-    },
-    {
-      "id": "NGC 6791",
-      "nature": "amas ouvert",
-      "mag": 9.5,
-      "distance_al": 17000,
-      "note": "Amas ouvert très vieux et très riche (~8 milliards d'années), l'un des plus âgés de la Galaxie. Étoiles faibles et serrées : il faut un instrument pour le distinguer du fond.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC2682, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2682",
+      "constellation_catalogue": "Cnc",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2682",
+        "alias_interroge": "NGC2682",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2682",
+        "alias_interroge": "NGC2682",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2775",
@@ -134,9 +347,32 @@
       "mag": 10.24,
       "distance_al": 61200000,
       "note": "Galaxie spirale vue de face, au noyau brillant entouré de bras peu contrastés. Objet difficile en visuel : sa magnitude 10 le réserve aux instruments.",
-      "instrument": "lunette",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2775, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2775",
+      "constellation_catalogue": "Cnc",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2775",
+        "alias_interroge": "NGC2775",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2775",
+        "alias_interroge": "NGC2775",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -168,41 +404,33 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle étoile est la plus facile à repérer dans le Cancer ?",
-      "r": "Tarf (β Cnc), magnitude 3,52 — la plus brillante de la constellation. Elle marque l'une des extrémités du dessin."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Tarf, avec 3,52 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
-      "r": "Pour un observateur débutant, ce n'est pas une étoile mais M 44, la Crèche : la tache laiteuse au centre de la constellation. Les étoiles du Cancer, elles, sont faibles et dispersées."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Asellus – Asellus : environ 3,33°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
-      "r": "Tarf est orangée (type K4III), Asellus Borealis blanche (A1Va), Iota Cancri jaune (G8III). Ces oppositions de couleur sont plus faciles à percevoir sur les étoiles brillantes."
-    },
-    {
-      "q": "La constellation est-elle évidente à l'œil nu ?",
-      "r": "Non — c'est l'une des plus discrètes du zodiaque. Sans M 44 comme point de départ, il est difficile de relier ses étoiles entre elles."
-    },
-    {
-      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
-      "r": "M 44 est déjà perceptible à l'œil nu mais se résout en étoiles aux jumelles. M 67, NGC 6791 et la galaxie NGC 2775 demandent un instrument."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Cancer désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Quel objet permet de repérer le Cancer, et pourquoi ?",
-      "r": "M 44, l'amas de la Crèche (« Praesepe »). Il est visible à l'œil nu sous un bon ciel, comme une tache laiteuse, alors que les étoiles de la constellation sont faibles : c'est le repère le plus sûr pour la trouver."
+      "q": "Pourquoi M 44 est-il un meilleur repère que les étoiles du Cancer ?",
+      "r": "Sous un bon ciel, l’amas forme une tache perceptible à l’œil nu, tandis que les étoiles du Cancer sont relativement faibles. Les jumelles montrent qu’il s’agit d’un ensemble d’étoiles."
     },
     {
-      "q": "Pourquoi dit-on que le Cancer est une constellation « faible » ?",
-      "r": "Ses étoiles les plus brillantes sont de magnitude 3,52 à 4,65 — soit bien moins lumineuses que celles des constellations voisines. Sous un ciel pollué, elle devient difficile à voir."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Cancer. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Quelle différence y a-t-il entre un amas ouvert et une galaxie dans cette constellation ?",
-      "r": "M 44 et M 67 sont des amas ouverts : des groupes d'étoiles proches, liés par la gravitation, à l'intérieur de notre propre Galaxie. NGC 2775 est une galaxie : un ensemble d'étoiles situé bien au-delà de la Voie lactée."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 44 : amas ouvert. Amas de la Crèche : un groupe étalé d’étoiles visible comme une tache sous un ciel sombre, puis résolu en étoiles aux jumelles. Conseil de repérage : œil nu. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Cancer est une constellation discrète, idéale pour apprendre à repérer par un objet plutôt que par ses étoiles. On peut commencer par M44, l'amas de la Crèche, visible à l'œil nu sous un bon ciel, puis chercher les étoiles faibles qui l'entourent.",
+  "message_animation": "Le Cancer est discret : sous un ciel sombre, chercher d’abord la tache de la Crèche, M 44, puis les étoiles qui l’encadrent. Aux jumelles, l’amas se décompose en étoiles. Ne pas confondre l’éclat total d’un amas avec celui d’une seule étoile.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Cancer » (011-cancer.txt)",
@@ -210,59 +438,57 @@
     "manquantes": [],
     "figure_pedagogique": "le Y (constellation faible)",
     "questions": {
-      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
-      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
-      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
-      "statut": "à relire par Christophe avant diffusion"
-    }
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    },
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 6791",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Lyr"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "lacunes": []
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

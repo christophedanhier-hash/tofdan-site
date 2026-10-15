@@ -16,175 +16,609 @@
   },
   "saison": "printemps",
   "voie_lactee": false,
-  "repere_principal": "La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola",
+  "repere_principal": "Reconnaître la Faucille du Lion, un point d’interrogation inversé dont Régulus marque la base.",
   "constellations_voisines": [
-    "Grande Ourse",
-    "Petit Lion",
     "Cancer",
+    "Chevelure de Bérénice",
+    "Coupe (Cratère)",
     "Hydre",
+    "Petit Lion",
     "Sextant",
-    "Coupe",
-    "Vierge",
-    "Chevelure de Bérénice"
+    "Grande Ourse",
+    "Vierge"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "κ",
-      "bayer": "kap",
+      "nom": "κ Leo",
+      "bayer": "κ Leo",
       "ra_deg": 141.16366,
       "dec_deg": 26.18244,
-      "mag": 4.6163,
-      "role": "La crinière — géante orange",
+      "mag": 4.46,
+      "role": "En haut du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * kap Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Leo",
+      "type_spectral": "K2IIIb",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "κ Leo",
+      "identifiant": "simbad:1629359",
+      "simbad_id": "* kap Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Alterf",
-      "bayer": "lam",
+      "bayer": "λ Leo",
       "ra_deg": 142.93017,
       "dec_deg": 22.96806,
-      "mag": 4.4252,
-      "role": "La gueule — géante orange",
+      "mag": 4.31,
+      "role": "En haut du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * lam Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alterf",
+      "bayer_catalogue": "lam Leo",
+      "type_spectral": "K4.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alterf",
+      "identifiant": "simbad:1630010",
+      "simbad_id": "* lam Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "ε",
-      "bayer": "eps",
+      "nom": "ε Leo",
+      "bayer": "ε Leo",
       "ra_deg": 146.46293,
       "dec_deg": 23.77428,
-      "mag": 3.1168,
-      "role": "La crinière — géante jaune",
+      "mag": 2.98,
+      "role": "En haut du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eps Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Leo",
+      "type_spectral": "G1IIIa",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ε Leo",
+      "identifiant": "simbad:1656037",
+      "simbad_id": "* eps Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Rasalas",
-      "bayer": "mu.",
+      "bayer": "μ Leo",
       "ra_deg": 148.19149,
       "dec_deg": 26.00709,
-      "mag": 4.0498,
-      "role": "La tête — géante orange",
+      "mag": 3.88,
+      "role": "En haut du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * mu. Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Rasalas",
+      "bayer_catalogue": "mu. Leo",
+      "type_spectral": "K2IIIbCN1Ca1",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Rasalas",
+      "identifiant": "simbad:1655792",
+      "simbad_id": "* mu. Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "η",
-      "bayer": "eta",
+      "nom": "η Leo",
+      "bayer": "η Leo",
       "ra_deg": 151.83314,
       "dec_deg": 16.76267,
-      "mag": 3.5034,
-      "role": "La patte avant — supergéante blanche",
+      "mag": 3.41,
+      "role": "Au milieu du dessin, côté droite — supergéante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eta Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Leo",
+      "type_spectral": "A0Ib",
+      "nature_stellaire": "Supergéante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "η Leo",
+      "identifiant": "simbad:1671384",
+      "simbad_id": "* eta Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "Regulus",
-      "bayer": "alf",
+      "nom": "Régulus",
+      "bayer": "α Leo",
       "ra_deg": 152.09358,
       "dec_deg": 11.9672,
-      "mag": 1.3232,
-      "role": "La plus brillante de la figure — sous-géante bleue",
+      "mag": 1.4,
+      "role": "En bas du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * alf Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Regulus",
+      "bayer_catalogue": "alf Leo",
+      "type_spectral": "B8IVn",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Régulus",
+      "identifiant": "simbad:1689590",
+      "simbad_id": "* alf Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "nom": "Adhafera",
-      "bayer": "zet",
+      "bayer": "ζ Leo",
       "ra_deg": 154.17252,
       "dec_deg": 23.41733,
-      "mag": 3.5096,
-      "role": "La crinière — géante jaune-blanc",
+      "mag": 3.41,
+      "role": "En haut du dessin, côté droite — géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * zet Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Adhafera",
+      "bayer_catalogue": "zet Leo",
+      "type_spectral": "F0IIIa",
+      "nature_stellaire": "Géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Adhafera",
+      "identifiant": "simbad:1688086",
+      "simbad_id": "* zet Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Algieba",
-      "bayer": "gam01",
+      "bayer": "γ¹ Leo",
       "ra_deg": 154.99234,
       "dec_deg": 19.84186,
-      "mag": 2.1684,
-      "role": "La crinière — géante orange",
+      "mag": 2.23,
+      "role": "En haut du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * gam01 Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Algieba",
+      "bayer_catalogue": "gam01 Leo",
+      "type_spectral": "K1-IIIFe-1",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam01 Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam01%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam01 Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam01%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Algieba",
+      "identifiant": "simbad:1710354",
+      "simbad_id": "* gam01 Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam01 Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam01%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
-      "nom": "b",
-      "bayer": "b",
+      "nom": "b Leo",
+      "bayer": "b Leo",
       "ra_deg": 165.58242,
       "dec_deg": 20.17975,
-      "mag": 4.4298,
-      "role": "Le ventre — naine blanche",
+      "mag": 4.398,
+      "role": "En haut du dessin, côté gauche — type spectral kA1VmA3V (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * b Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "b Leo",
+      "type_spectral": "kA1VmA3V",
+      "nature_stellaire": "Type spectral kA1VmA3V (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* b Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20b%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* b Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20b%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "b Leo",
+      "identifiant": "simbad:1767264",
+      "simbad_id": "* b Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* b Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20b%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "nom": "Zosma",
-      "bayer": "del",
+      "bayer": "δ Leo",
       "ra_deg": 168.52672,
       "dec_deg": 20.52403,
-      "mag": 2.5932,
-      "role": "Le dos — sous-géante blanche",
+      "mag": 2.53,
+      "role": "En haut du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * del Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Zosma",
+      "bayer_catalogue": "del Leo",
+      "type_spectral": "A5IV(n)",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Zosma",
+      "identifiant": "simbad:1785786",
+      "simbad_id": "* del Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "nom": "Chertan",
-      "bayer": "the",
+      "bayer": "θ Leo",
       "ra_deg": 168.56017,
       "dec_deg": 15.42976,
-      "mag": 3.3288,
-      "role": "Le ventre — sous-géante blanche",
+      "mag": 3.35,
+      "role": "Au milieu du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tet Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Chertan",
+      "bayer_catalogue": "tet Leo",
+      "type_spectral": "A2IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Chertan",
+      "identifiant": "simbad:1786324",
+      "simbad_id": "* tet Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
-      "nom": "σ",
-      "bayer": "sig",
+      "nom": "σ Leo",
+      "bayer": "σ Leo",
       "ra_deg": 170.28437,
       "dec_deg": 6.02935,
-      "mag": 4.0345,
-      "role": "La patte — naine bleue",
+      "mag": 4.04,
+      "role": "En bas du dessin, côté gauche — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * sig Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "sig Leo",
+      "type_spectral": "B9.5Vs",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* sig Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* sig Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "σ Leo",
+      "identifiant": "simbad:1805652",
+      "simbad_id": "* sig Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* sig Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
-      "nom": "ι",
-      "bayer": "iot",
+      "nom": "ι Leo",
+      "bayer": "ι Leo",
       "ra_deg": 170.9807,
       "dec_deg": 10.5297,
-      "mag": 4.0331,
-      "role": "Le corps — sous-géante jaune-blanc",
+      "mag": 4.01,
+      "role": "En bas du dessin, côté gauche — sous-géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * iot Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Leo",
+      "type_spectral": "F1IV",
+      "nature_stellaire": "Sous-géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ι Leo",
+      "identifiant": "simbad:1805244",
+      "simbad_id": "* iot Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
-      "nom": "Denebola",
-      "bayer": "bet",
+      "nom": "Dénébola",
+      "bayer": "β Leo",
       "ra_deg": 177.26616,
       "dec_deg": 14.57234,
-      "mag": 2.1605,
-      "role": "La queue — naine blanche",
+      "mag": 2.13,
+      "role": "Au milieu du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * bet Leo ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Denebola",
+      "bayer_catalogue": "bet Leo",
+      "type_spectral": "A3Va",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Leo",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Leo",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Dénébola",
+      "identifiant": "simbad:1863953",
+      "simbad_id": "* bet Leo",
+      "constellation_iau": "Leo",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Leo",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Leo",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         11,
@@ -216,111 +650,314 @@
         2
       ]
     ],
-    "commentaire": "Tracé IAU officiel (4 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-    "note_geometrie": "Figure construite sur 14 étoiles et 4 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Lion : 14 étoiles et 17 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 35,6°. Le segment le plus court relie Rasalas à ε Leo (2,73°). Le plus long relie Chertan à η Leo (16,12°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Alterf–Rasalas": 5.67,
-    "Alterf–Regulus": 14.04,
-    "Alterf–Adhafera": 10.34,
-    "Alterf–Algieba": 11.65,
-    "Alterf–Zosma": 23.87,
-    "Alterf–Chertan": 25.31,
-    "Alterf–Denebola": 33.49,
-    "Rasalas–Regulus": 14.51,
-    "Rasalas–Adhafera": 6.02,
-    "Rasalas–Algieba": 8.79,
-    "Rasalas–Zosma": 19.44,
-    "Rasalas–Chertan": 21.75,
-    "Rasalas–Denebola": 29.48,
-    "Regulus–Adhafera": 11.62,
-    "Regulus–Algieba": 8.35,
-    "Regulus–Zosma": 17.93,
-    "Regulus–Chertan": 16.36,
-    "Regulus–Denebola": 24.63,
-    "Adhafera–Algieba": 3.66,
-    "Adhafera–Zosma": 13.62,
-    "Adhafera–Chertan": 15.73,
-    "Adhafera–Denebola": 23.52,
-    "Algieba–Zosma": 12.72,
-    "Algieba–Chertan": 13.66,
-    "Algieba–Denebola": 21.9,
-    "Zosma–Chertan": 5.09,
-    "Zosma–Denebola": 10.24,
-    "Chertan–Denebola": 8.45
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 11,
+      "b": 12,
+      "deg": 4.5528
+    },
+    {
+      "a": 12,
+      "b": 10,
+      "deg": 5.4378
+    },
+    {
+      "a": 10,
+      "b": 9,
+      "deg": 5.0944
+    },
+    {
+      "a": 9,
+      "b": 13,
+      "deg": 10.2354
+    },
+    {
+      "a": 13,
+      "b": 10,
+      "deg": 8.4523
+    },
+    {
+      "a": 10,
+      "b": 4,
+      "deg": 16.1216
+    },
+    {
+      "a": 4,
+      "b": 7,
+      "deg": 4.2982
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "deg": 9.9548
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "deg": 2.7818
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "deg": 4.8021
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "deg": 8.631
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 3.3415
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 3.5933
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "deg": 6.3131
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "deg": 6.0178
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "deg": 3.6557
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "deg": 2.7283
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 105",
       "nature": "galaxie",
-      "mag": 9.3,
+      "mag": 9.27,
       "distance_al": null,
-      "note": "Galaxie elliptique de magnitude 9,60.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "note": "Galaxie elliptique de magnitude 9,60. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3379, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3379",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3379",
+        "alias_interroge": "NGC3379",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3379",
+        "alias_interroge": "NGC3379",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 65",
       "nature": "galaxie",
-      "mag": 9.3,
+      "mag": 9.32,
       "distance_al": null,
-      "note": "Galaxie spirale de magnitude 9,60, située à 34 millions d'années-lumière ; appartient au triplet du Lion avec sa voisine M 66.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "note": "Galaxie spirale de magnitude 9,60, située à 34 millions d'années-lumière ; appartient au triplet du Lion avec sa voisine M 66. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3623, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3623",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3623",
+        "alias_interroge": "NGC3623",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3623",
+        "alias_interroge": "NGC3623",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 66",
       "nature": "galaxie",
-      "mag": 9,
+      "mag": 8.92,
       "distance_al": null,
-      "note": "Même morphologie que M 65, de magnitude 8,90, distante de 27 millions d'années-lumière ; forme le triplet du Lion avec M 65 et NGC 3628.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "note": "Même morphologie que M 65, de magnitude 8,90, distante de 27 millions d'années-lumière ; forme le triplet du Lion avec M 65 et NGC 3628. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3627, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3627",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3627",
+        "alias_interroge": "NGC3627",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3627",
+        "alias_interroge": "NGC3627",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 95",
       "nature": "galaxie",
-      "mag": 9.7,
+      "mag": 9.77,
       "distance_al": null,
-      "note": "Galaxie spirale barrée de magnitude 11,20, vue de face, à 28 millions d'années-lumière.",
+      "note": "Galaxie spirale barrée de magnitude 11,20, vue de face, à 28 millions d'années-lumière. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "src": "OpenNGC, NGC3351, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3351",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3351",
+        "alias_interroge": "NGC3351",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3351",
+        "alias_interroge": "NGC3351",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 96",
       "nature": "galaxie",
-      "mag": 9.2,
+      "mag": 9.21,
       "distance_al": null,
-      "note": "Galaxie spirale de magnitude 10,0, vue de 3/4, éloignée de 35 millions d'années-lumière.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "note": "Galaxie spirale de magnitude 10,0, vue de 3/4, éloignée de 35 millions d'années-lumière. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3368, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3368",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3368",
+        "alias_interroge": "NGC3368",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3368",
+        "alias_interroge": "NGC3368",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2903",
       "nature": "galaxie",
-      "mag": 8.9,
+      "mag": 8.91,
       "distance_al": null,
-      "note": "Fait bande à part parmi les galaxies de ce secteur.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "note": "Fait bande à part parmi les galaxies de ce secteur. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2903, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2903",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2903",
+        "alias_interroge": "NGC2903",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2903",
+        "alias_interroge": "NGC2903",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 3628",
       "nature": "galaxie",
-      "mag": 9.5,
+      "mag": 9.45,
       "distance_al": null,
-      "note": "Objet du catalogue NGC (NGC 3628). Description non détaillée dans la fiche Atlas.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 121-124",
-      "code": "N2"
+      "note": "Objet du catalogue NGC (NGC 3628). Description non détaillée dans la fiche Atlas. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3628, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3628",
+      "constellation_catalogue": "Leo",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3628",
+        "alias_interroge": "NGC3628",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3628",
+        "alias_interroge": "NGC3628",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -347,59 +984,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Regulus, magnitude 1.3232."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Régulus, avec 1,4 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment repérer κ et Alterf dans le ciel ?",
-      "r": "La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Rasalas – ε Leo : environ 2,73°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-      "r": "NGC 2903 (objet, magnitude 8.9). Voir la fiche pour la description."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Lion désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Que raconte-t-on au public en pointant κ ?",
-      "r": "Située en saison printemps. Repère : La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola."
+      "q": "Dénébola appartient-elle au petit arc de la Faucille ?",
+      "r": "Non. La Faucille représente la région de la tête et de la crinière autour de Régulus. Dénébola marque la queue, à l’autre partie du Lion ; il faut distinguer l’astérisme et la constellation entière."
     },
     {
-      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-      "r": "M 105 (objet) : vB, cL, R, psbM, r; = M105"
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Lion. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Comment orienter le visiteur sur la carte ?",
-      "r": "Faire partir du repère : La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 105 : galaxie. Galaxie elliptique de magnitude 9,60. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Lion : La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola. Constellation de printemps (14 étoiles figurées, 7 objets du ciel profond).",
+  "message_animation": "Reconnaître la Faucille du Lion, un point d’interrogation inversé dont Régulus marque la base. Dénébola se trouve du côté de la queue : elle ne ferme pas la Faucille. Le dessin complet permet de relier la tête au corps de l’animal.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 121–124 (fiche Atlas « Lion »)",
     "archive_texte": "atlas-observation-source/121-*.txt",
     "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-    "lacunes": [
-      "Figure : tracé IAU officiel suivi (4 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "NGC 5248 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-    "refs": [],
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "N2",
-        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
-        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
+      },
+      {
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
+      },
+      {
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
-    ]
-  }
+    ],
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

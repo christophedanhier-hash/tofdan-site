@@ -15,61 +15,184 @@
   },
   "saison": "printemps",
   "voie_lactee": false,
-  "repere_principal": "Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre",
+  "repere_principal": "Sous le Lion, chercher les étoiles discrètes du Sextant.",
   "constellations_voisines": [
-    "Lion",
+    "Coupe (Cratère)",
     "Hydre",
-    "Coupe",
-    "Corbeau"
+    "Lion"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "γ",
-      "bayer": "gam",
+      "nom": "γ Sex",
+      "bayer": "γ Sex",
       "ra_deg": 148.12696,
       "dec_deg": -8.10492,
       "mag": 5.0859,
-      "role": "Le bord — naine blanche",
+      "role": "En bas du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * gam Sex ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Sex",
+      "type_spectral": "A0/1V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ Sex",
+      "identifiant": "simbad:1661602",
+      "simbad_id": "* gam Sex",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Sex",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Sex",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sex",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
-      "nom": "α",
-      "bayer": "alf",
+      "nom": "α Sex",
+      "bayer": "α Sex",
       "ra_deg": 151.98457,
       "dec_deg": -0.37163,
-      "mag": 4.4798,
-      "role": "La plus brillante de la figure — géante blanche",
+      "mag": 4.49,
+      "role": "En haut du dessin, près de l’axe central — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * alf Sex ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "alf Sex",
+      "type_spectral": "A0III",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "α Sex",
+      "identifiant": "simbad:1693402",
+      "simbad_id": "* alf Sex",
+      "constellation_iau": "Sex",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Sex",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sex",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "δ",
-      "bayer": "del",
+      "nom": "δ Sex",
+      "bayer": "δ Sex",
       "ra_deg": 157.36971,
       "dec_deg": -2.73905,
-      "mag": 5.1787,
-      "role": "Le bord — naine bleue",
+      "mag": 5.18,
+      "role": "En haut du dessin, côté gauche — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * del Sex ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Sex",
+      "type_spectral": "B9V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ Sex",
+      "identifiant": "simbad:1717599",
+      "simbad_id": "* del Sex",
+      "constellation_iau": "Sex",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Sex",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sex",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "β",
-      "bayer": "bet",
+      "nom": "β Sex",
+      "bayer": "β Sex",
       "ra_deg": 157.57293,
       "dec_deg": -0.63697,
-      "mag": 5.0315,
-      "role": "Le bord — naine bleue",
+      "mag": 5.1,
+      "role": "En haut du dessin, côté gauche — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * bet Sex ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Sex",
+      "type_spectral": "B6V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Sex",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sex",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "β Sex",
+      "identifiant": "simbad:1733476",
+      "simbad_id": "* bet Sex",
+      "constellation_iau": "Sex",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Sex",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sex",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         2,
@@ -78,33 +201,89 @@
         0
       ]
     ],
-    "commentaire": "Tracé IAU officiel (1 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-    "note_geometrie": "Figure construite sur 4 étoiles et 1 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Sextant : 4 étoiles et 3 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 12°. Le segment le plus court relie δ Sex à β Sex (2,11°). Le plus long relie α Sex à γ Sex (8,64°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé."
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 2.1119
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "deg": 5.5944
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 8.636
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 3115",
       "nature": "galaxie",
-      "mag": 9.2,
+      "mag": 9.09,
       "distance_al": null,
-      "note": "Galaxie du Fuseau : galaxie elliptique de type E, de magnitude 10,10.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 106-108",
-      "code": "N2"
+      "note": "Galaxie du Fuseau : galaxie elliptique, de magnitude 10,10. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3115, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3115",
+      "constellation_catalogue": "Sex",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3115",
+        "alias_interroge": "NGC3115",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3115",
+        "alias_interroge": "NGC3115",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 3166",
       "nature": "galaxie",
-      "mag": 10.6,
+      "mag": 10.62,
       "distance_al": null,
-      "note": "Galaxie spirale de type S0, de magnitude 11,20, appartenant à un petit groupe de galaxies.",
+      "note": "Galaxie lenticulaire, de magnitude 11,20, appartenant à un petit groupe de galaxies. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 106-108",
-      "code": "N2"
+      "src": "OpenNGC, NGC3166, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3166",
+      "constellation_catalogue": "Sex",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3166",
+        "alias_interroge": "NGC3166",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3166",
+        "alias_interroge": "NGC3166",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -131,59 +310,85 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "α, magnitude 4.4798."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "α Sex, avec 4,49 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment repérer γ et α dans le ciel ?",
-      "r": "Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "δ Sex – β Sex : environ 2,11°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-      "r": "NGC 3115 (objet, magnitude 9.2). Voir la fiche pour la description."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Sextant désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Que raconte-t-on au public en pointant γ ?",
-      "r": "Située en saison printemps. Repère : Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre."
+      "q": "Une galaxie lenticulaire est-elle une étoile qui semble allongée ?",
+      "r": "Non. Une galaxie contient un très grand nombre d’étoiles. Une lenticulaire présente un bulbe et un disque, sans les bras spiraux bien marqués d’une galaxie spirale ; son aspect dépend aussi de son orientation."
     },
     {
-      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-      "r": "NGC 3115 (objet) : vB, L, vmE 46deg , vgsmbMEN"
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Sextant. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Comment orienter le visiteur sur la carte ?",
-      "r": "Faire partir du repère : Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 3115 : galaxie. Galaxie du Fuseau : galaxie elliptique, de magnitude 10,10. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Sextant : Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre. Constellation de printemps (4 étoiles figurées, 2 objets du ciel profond).",
+  "message_animation": "Sous le Lion, chercher les étoiles discrètes du Sextant. Le dessin de l’instrument de mesure est conventionnel et peu contrasté. NGC 3115 permet d’introduire les galaxies lenticulaires, à distinguer des étoiles ponctuelles du premier plan.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 106–108 (fiche Atlas « Sextant »)",
     "archive_texte": "atlas-observation-source/106-*.txt",
     "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "Figure : tracé IAU officiel suivi (1 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "Aucun nom propre IAU : les étiquettes sont des désignations Bayer ou Flamsteed.",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-    ]
+      "γ Sex : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-    "refs": [],
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "N2",
-        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
-        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
+      },
+      {
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
+      },
+      {
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
-    ]
-  }
+    ],
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

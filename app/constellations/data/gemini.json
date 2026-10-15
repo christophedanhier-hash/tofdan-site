@@ -7,242 +7,752 @@
   "abreviation_iau": "Gem",
   "source_atlas": "Atlas observation.pdf, pages 43–44 (fiche Atlas « Gémeaux »)",
   "saison": "hiver",
-  "voie_lactee": false,
-  "repere_principal": "Castor et Pollux, les deux têtes jumelles",
+  "voie_lactee": true,
+  "repere_principal": "Repérer d’abord Castor et Pollux, les deux têtes des Gémeaux, puis suivre les étoiles vers leurs pieds.",
   "constellations_voisines": [
-    "Taureau",
     "Cocher",
-    "Lynx",
-    "Cancer",
     "Petit Chien",
+    "Cancer",
+    "Lynx",
+    "Licorne",
     "Orion",
-    "Licorne"
+    "Taureau"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 28734,
       "nom": "1 Gem",
-      "etiq": "1",
-      "bayer": "",
+      "etiq": "1 Gem",
+      "bayer": "1 Gem",
       "ra_deg": 91.03,
       "dec_deg": 23.264,
-      "mag": 4.16,
-      "role": "Le pied est — géante jaune",
+      "mag": 4.15,
+      "role": "Au milieu du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 28734)"
+      "src": "SIMBAD : *   1 Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  1 Gem",
+      "type_spectral": "G5III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   1 Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%201%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   1 Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%201%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:855312",
+      "simbad_id": "*   1 Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   1 Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%201%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 29655,
       "nom": "Propus",
       "etiq": "Propus",
-      "bayer": "eta Gem",
+      "bayer": "η Gem",
       "ra_deg": 93.72,
       "dec_deg": 22.507,
-      "mag": 3.31,
-      "role": "Le pied est — géante rouge",
+      "mag": 3.28,
+      "role": "Pied de Castor — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 29655)/ IAU"
+      "src": "SIMBAD : * eta Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Propus",
+      "bayer_catalogue": "eta Gem",
+      "type_spectral": "M2IIIa",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:869696",
+      "simbad_id": "* eta Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 30343,
-      "nom": "13 Gem",
-      "etiq": "13",
-      "bayer": "mu. Gem",
+      "nom": "Tejat",
+      "etiq": "Tejat",
+      "bayer": "μ Gem",
       "ra_deg": 95.74,
       "dec_deg": 22.514,
       "mag": 2.87,
-      "role": "Le bras est — géante rouge",
+      "role": "Au milieu du dessin, côté droite — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 30343)"
+      "src": "SIMBAD : * mu. Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Tejat",
+      "bayer_catalogue": "mu. Gem",
+      "type_spectral": "M3IIIab",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:885951",
+      "simbad_id": "* mu. Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 30883,
-      "nom": "18 Gem",
-      "etiq": "18",
-      "bayer": "nu. Gem",
+      "nom": "ν Gem",
+      "etiq": "ν Gem",
+      "bayer": "ν Gem",
       "ra_deg": 97.241,
       "dec_deg": 20.212,
-      "mag": 4.13,
-      "role": "Le pied — sous-géante bleue",
+      "mag": 4.14,
+      "role": "En bas du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 30883)"
+      "src": "SIMBAD : * nu. Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. Gem",
+      "type_spectral": "B6IVe",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:886516",
+      "simbad_id": "* nu. Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 31681,
       "nom": "Alhena",
       "etiq": "Alhena",
-      "bayer": "gam Gem",
+      "bayer": "γ Gem",
       "ra_deg": 99.428,
       "dec_deg": 16.399,
-      "mag": 1.93,
-      "role": "Le pied — sous-géante blanche",
+      "mag": 1.92,
+      "role": "Pied de Pollux — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 31681)/ IAU"
+      "src": "SIMBAD : * gam Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alhena",
+      "bayer_catalogue": "gam Gem",
+      "type_spectral": "A1.5IV+",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:902003",
+      "simbad_id": "* gam Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 32246,
       "nom": "Mebsuta",
       "etiq": "Mebsuta",
-      "bayer": "eps Gem",
+      "bayer": "ε Gem",
       "ra_deg": 100.983,
       "dec_deg": 25.131,
-      "mag": 3.06,
-      "role": "Le bras est — supergéante jaune",
+      "mag": 2.98,
+      "role": "Au milieu du dessin, près de l’axe central — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 32246)/ IAU"
+      "src": "SIMBAD : * eps Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mebsuta",
+      "bayer_catalogue": "eps Gem",
+      "type_spectral": "G8Ib",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:900529",
+      "simbad_id": "* eps Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 32362,
       "nom": "Alzirr",
       "etiq": "Alzirr",
-      "bayer": "ksi Gem",
+      "bayer": "ξ Gem",
       "ra_deg": 101.323,
       "dec_deg": 12.896,
-      "mag": 3.35,
-      "role": "Le pied ouest — sous-géante jaune-blanc",
+      "mag": 3.36,
+      "role": "En bas du dessin, près de l’axe central — sous-géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 32362)/ IAU"
+      "src": "SIMBAD : * ksi Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alzirr",
+      "bayer_catalogue": "ksi Gem",
+      "type_spectral": "F5IV-V",
+      "nature_stellaire": "Sous-géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ksi Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ksi Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:921809",
+      "simbad_id": "* ksi Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ksi Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 33018,
       "nom": "θ Gem",
-      "etiq": "θ",
-      "bayer": "the Gem",
+      "etiq": "θ Gem",
+      "bayer": "θ Gem",
       "ra_deg": 103.197,
       "dec_deg": 33.961,
       "mag": 3.6,
-      "role": "Le bras ouest — sous-géante blanche",
+      "role": "En haut du dessin, près de l’axe central — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33018)"
+      "src": "SIMBAD : * tet Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Gem",
+      "type_spectral": "A2IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:918815",
+      "simbad_id": "* tet Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 34088,
       "nom": "Mekbuda",
       "etiq": "Mekbuda",
-      "bayer": "zet Gem",
+      "bayer": "ζ Gem",
       "ra_deg": 106.027,
       "dec_deg": 20.57,
-      "mag": 4.01,
-      "role": "Le genou — supergéante jaune",
+      "mag": 3.79,
+      "role": "En bas du dessin, près de l’axe central — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 34088)/ IAU"
+      "src": "SIMBAD : * zet Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mekbuda",
+      "bayer_catalogue": "zet Gem",
+      "type_spectral": "G1Ib",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:937293",
+      "simbad_id": "* zet Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 34693,
       "nom": "τ Gem",
-      "etiq": "τ",
-      "bayer": "tau Gem",
+      "etiq": "τ Gem",
+      "bayer": "τ Gem",
       "ra_deg": 107.785,
       "dec_deg": 30.245,
-      "mag": 4.41,
-      "role": "L'épaule — géante orange",
+      "mag": 4.42,
+      "role": "En haut du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 34693)"
+      "src": "SIMBAD : * tau Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tau Gem",
+      "type_spectral": "K2III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:952198",
+      "simbad_id": "* tau Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "hip": 35350,
       "nom": "λ Gem",
-      "etiq": "λ",
-      "bayer": "lam Gem",
+      "etiq": "λ Gem",
+      "bayer": "λ Gem",
       "ra_deg": 109.523,
       "dec_deg": 16.54,
-      "mag": 3.58,
-      "role": "La jambe — sous-géante blanche",
+      "mag": 3.559,
+      "role": "En bas du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 35350)"
+      "src": "SIMBAD : * lam Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "lam Gem",
+      "type_spectral": "A4IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:953994",
+      "simbad_id": "* lam Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "hip": 35550,
       "nom": "Wasat",
       "etiq": "Wasat",
-      "bayer": "del Gem",
+      "bayer": "δ Gem",
       "ra_deg": 110.031,
       "dec_deg": 21.982,
-      "mag": 3.5,
-      "role": "La hanche — naine jaune-blanc",
+      "mag": 3.53,
+      "role": "Au milieu du dessin, côté gauche — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 35550)/ IAU"
+      "src": "SIMBAD : * del Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Wasat",
+      "bayer_catalogue": "del Gem",
+      "type_spectral": "F2VkF0mF0",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:969524",
+      "simbad_id": "* del Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "hip": 36046,
       "nom": "ι Gem",
-      "etiq": "ι",
-      "bayer": "iot Gem",
+      "etiq": "ι Gem",
+      "bayer": "ι Gem",
       "ra_deg": 111.432,
       "dec_deg": 27.798,
-      "mag": 3.78,
-      "role": "Le corps — géante jaune",
+      "mag": 3.79,
+      "role": "En haut du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 36046)"
+      "src": "SIMBAD : * iot Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Gem",
+      "type_spectral": "G9IIIb",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:968750",
+      "simbad_id": "* iot Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
       "hip": 36850,
       "nom": "Castor",
       "etiq": "Castor",
-      "bayer": "alf Gem",
+      "bayer": "α Gem",
       "ra_deg": 113.65,
       "dec_deg": 31.889,
       "mag": 1.58,
-      "role": "La tête (jumelle ouest) — naine blanche",
+      "role": "Tête de Castor — spectre complexe ou composé (A1V+A2Vm)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 36850)/ IAU"
+      "src": "SIMBAD : * alf Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Castor",
+      "bayer_catalogue": "alf Gem",
+      "type_spectral": "A1V+A2Vm",
+      "nature_stellaire": "Spectre complexe ou composé (A1V+A2Vm)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:983633",
+      "simbad_id": "* alf Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 14,
       "hip": 36962,
       "nom": "υ Gem",
-      "etiq": "υ",
-      "bayer": "ups Gem",
+      "etiq": "υ Gem",
+      "bayer": "υ Gem",
       "ra_deg": 113.981,
       "dec_deg": 26.896,
       "mag": 4.06,
-      "role": "Le corps — géante rouge",
+      "role": "En haut du dessin, côté gauche — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 36962)"
+      "src": "SIMBAD : * ups Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ups Gem",
+      "type_spectral": "M0III",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ups Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ups Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:985072",
+      "simbad_id": "* ups Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ups Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 15,
       "hip": 37740,
       "nom": "κ Gem",
-      "etiq": "κ",
-      "bayer": "kap Gem",
+      "etiq": "κ Gem",
+      "bayer": "κ Gem",
       "ra_deg": 116.112,
       "dec_deg": 24.398,
       "mag": 3.57,
-      "role": "La jambe — géante jaune",
+      "role": "Au milieu du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 37740)"
+      "src": "SIMBAD : * kap Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Gem",
+      "type_spectral": "G8III-IIIb",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1004126",
+      "simbad_id": "* kap Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 16,
       "hip": 37826,
       "nom": "Pollux",
       "etiq": "Pollux",
-      "bayer": "bet Gem",
+      "bayer": "β Gem",
       "ra_deg": 116.331,
       "dec_deg": 28.026,
-      "mag": 1.16,
-      "role": "La plus brillante de la figure — géante orange",
+      "mag": 1.14,
+      "role": "Tête de Pollux — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 37826)/ IAU"
+      "src": "SIMBAD : * bet Gem ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Pollux",
+      "bayer_catalogue": "bet Gem",
+      "type_spectral": "K0IIIb",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Gem",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Gem",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1003999",
+      "simbad_id": "* bet Gem",
+      "constellation_iau": "Gem",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Gem",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Gem",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         16,
@@ -276,49 +786,150 @@
         3
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 17 étoiles reliées par 16 segments.",
-    "note_geometrie": "Figure construite sur 17 étoiles et 16 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Alzirr à λ Gem (8.73°) ; le plus court relie Propus à 13 Gem (1.87°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Gémeaux : 17 étoiles et 16 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 23,3°. Le segment le plus court relie Propus à Tejat (1,87°). Le plus long relie Alzirr à λ Gem (8,73°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Pollux–υ Gem": 2.37,
-    "υ Gem–κ Gem": 3.15,
-    "Castor–τ Gem": 5.29,
-    "τ Gem–θ Gem": 5.38,
-    "1 Gem–Propus": 2.59,
-    "Propus–13 Gem": 1.87,
-    "13 Gem–Mebsuta": 5.46,
-    "Alzirr–λ Gem": 8.73,
-    "λ Gem–Wasat": 5.46,
-    "Alhena–Mekbuda": 7.52,
-    "Mekbuda–Wasat": 3.99,
-    "Wasat–υ Gem": 6.09,
-    "υ Gem–ι Gem": 2.44,
-    "ι Gem–τ Gem": 4.02,
-    "τ Gem–Mebsuta": 7.9,
-    "Mebsuta–18 Gem": 6.01
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 16,
+      "b": 14,
+      "deg": 2.3716
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "deg": 3.1511
+    },
+    {
+      "a": 13,
+      "b": 9,
+      "deg": 5.285
+    },
+    {
+      "a": 9,
+      "b": 7,
+      "deg": 5.3758
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 2.5912
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 1.8661
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "deg": 5.463
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "deg": 8.7262
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "deg": 5.4631
+    },
+    {
+      "a": 4,
+      "b": 8,
+      "deg": 7.5193
+    },
+    {
+      "a": 8,
+      "b": 11,
+      "deg": 3.9891
+    },
+    {
+      "a": 11,
+      "b": 14,
+      "deg": 6.0881
+    },
+    {
+      "a": 14,
+      "b": 12,
+      "deg": 2.4371
+    },
+    {
+      "a": 12,
+      "b": 9,
+      "deg": 4.0192
+    },
+    {
+      "a": 9,
+      "b": 5,
+      "deg": 7.898
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "deg": 6.0089
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 2168",
       "nature": "amas ouvert",
-      "mag": 5.1,
+      "mag": null,
       "distance_al": null,
-      "note": "NGC 2168 — amas ouvert documenté(e) dans la fiche Atlas de Gémeaux.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 24,00 minutes d’arc. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2168, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2168",
+      "constellation_catalogue": "Gem",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2168",
+        "alias_interroge": "NGC2168",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2392",
       "nature": "nébuleuse planétaire",
-      "mag": 10,
+      "mag": 9.61,
       "distance_al": null,
-      "note": "NGC 2392 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Gémeaux.",
+      "note": "Nébuleuse planétaire. Dimension apparente du catalogue : environ 0,86 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC2392, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2392",
+      "constellation_catalogue": "Gem",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2392",
+        "alias_interroge": "NGC2392",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2392",
+        "alias_interroge": "NGC2392",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -350,85 +961,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Pollux, magnitude 1.16, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Pollux, avec 1,14 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Propus – Tejat : environ 1,87°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Gémeaux ?",
-      "r": "2 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Gémeaux désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 2168 ?",
-      "r": "NGC 2168 est un(e) amas ouvert de magnitude 5.1. Instrument conseillé : œil nu. NGC 2168 — amas ouvert documenté(e) dans la fiche Atlas de Gémeaux."
+      "q": "Castor et Pollux sont-elles deux étoiles identiques ?",
+      "r": "Non. Leur voisinage apparent appartient au dessin des jumeaux, mais Castor est un système multiple et Pollux une géante orangée. Des points lumineux proches sur la carte peuvent avoir des propriétés et des distances différentes."
     },
     {
-      "q": "Quand observer Gémeaux ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Castor et Pollux, les deux têtes jumelles."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Gémeaux. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 2168 : amas ouvert. Amas ouvert. Dimension apparente du catalogue : environ 24,00 minutes d’arc. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Les Gémeaux se repèrent d'abord par ses deux têtes jumelles, Castor et Pollux, deux étoiles de même éclat apparent mais de nature très différente : Castor est en réalité un système de six étoiles, Pollux une géante orange proche. On peut ensuite suivre le corps vers le sud jusqu'à Alhena, et terminer par M35, un bel amas ouvert visible aux jumelles.",
+  "message_animation": "Repérer d’abord Castor et Pollux, les deux têtes des Gémeaux, puis suivre les étoiles vers leurs pieds. Castor est un système multiple ; Pollux est une géante orangée. M 35 se cherche du côté des pieds et se découvre plus facilement aux jumelles sous un bon ciel.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 43–44 (fiche Atlas « Gémeaux »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Petit Cheval">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="319.4" y1="430.0" x2="300.6" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="300.6" cy="30.0" r="7.8" fill="#222"/>
-<circle cx="319.4" cy="430.0" r="7.3" fill="#222"/>
-<text x="315.6" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">δ</text>
-<text x="334.4" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Kitalpha</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Petit Cheval">
+<title>Petit Cheval</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="383.219" y1="540.000" x2="416.781" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="416.781" cy="60.000" r="2.20" fill="#222" data-star="simbad:1427706"/>
+<circle cx="383.219" cy="540.000" r="2.45" fill="#222" data-star="simbad:1409539"/>
+<text x="396.22" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Kitalpha</text>
+<text x="429.78" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ Equ</text>
 </svg>

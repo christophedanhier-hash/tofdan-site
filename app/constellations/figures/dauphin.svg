@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Dauphin">
-<rect width="620" height="460" fill="#ffffff"/>
-<line x1="422.4" y1="396.0" x2="410.1" y2="277.3" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="410.1" y1="277.3" x2="349.9" y2="169.3" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="349.9" y1="169.3" x2="315.0" y2="78.6" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="315.0" y1="78.6" x2="197.6" y2="64.0" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="197.6" y1="64.0" x2="251.1" y2="136.3" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="251.1" y1="136.3" x2="349.9" y2="169.3" stroke="#9bb8d4" stroke-width="1.6"/>
-<circle cx="422.4" cy="396.0" r="3.4" fill="#1b3a5c"/>
-<text x="399.5" y="410.8" font-size="12" font-family="Georgia,serif" fill="#12324f">Aldulfin</text>
-<circle cx="410.1" cy="277.3" r="3.4" fill="#1b3a5c"/>
-<text x="416.8" y="280.8" font-size="12" font-family="Georgia,serif" fill="#12324f">η</text>
-<circle cx="349.9" cy="169.3" r="3.4" fill="#1b3a5c"/>
-<text x="323.8" y="185.8" font-size="12" font-family="Georgia,serif" fill="#12324f">Rotanev</text>
-<circle cx="315.0" cy="78.6" r="3.4" fill="#1b3a5c"/>
-<text x="321.7" y="82.1" font-size="12" font-family="Georgia,serif" fill="#12324f">α</text>
-<circle cx="197.6" cy="64.0" r="3.4" fill="#1b3a5c"/>
-<text x="181.5" y="56.2" font-size="12" font-family="Georgia,serif" fill="#12324f">γ2</text>
-<circle cx="251.1" cy="136.3" r="3.4" fill="#1b3a5c"/>
-<text x="247.0" y="152.6" font-size="12" font-family="Georgia,serif" fill="#12324f">δ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Dauphin">
+<title>Dauphin</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="562.112" y1="540.000" x2="543.248" y2="368.561" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="543.248" y1="368.561" x2="455.827" y2="212.905" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="455.827" y1="212.905" x2="405.634" y2="81.948" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="405.634" y1="81.948" x2="237.888" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="237.888" y1="60.000" x2="313.822" y2="164.986" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="313.822" y1="164.986" x2="455.827" y2="212.905" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="562.112" cy="540.000" r="2.38" fill="#222" data-star="simbad:2741174"/>
+<circle cx="543.248" cy="368.561" r="2.20" fill="#222" data-star="simbad:2741050"/>
+<circle cx="455.827" cy="212.905" r="2.70" fill="#222" data-star="simbad:2757402"/>
+<circle cx="405.634" cy="81.948" r="2.56" fill="#222" data-star="simbad:2775644"/>
+<circle cx="237.888" cy="60.000" r="2.20" fill="#222" data-star="simbad:2775724"/>
+<circle cx="313.822" cy="164.986" r="2.20" fill="#222" data-star="simbad:2757464"/>
+<text x="575.11" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Aldulfin</text>
+<text x="418.63" y="68.95" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sualocin</text>
+<text x="468.83" y="199.91" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Rotanev</text>
+<text x="250.89" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ² Del</text>
+<text x="556.25" y="355.56" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Del</text>
+<text x="326.82" y="151.99" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ Del</text>
 </svg>

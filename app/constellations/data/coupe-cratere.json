@@ -1,120 +1,361 @@
 {
   "id": "coupe-cratere",
   "slug": "coupe-cratere",
-  "nom_fr": "Coupe (Cratère)",
+  "nom_fr": "Coupe",
   "nom_latin": "Crater",
   "genitif": "Crateris",
   "abreviation_iau": "Crt",
   "source_atlas": "fiche Atlas p. 28",
   "saison": "printemps (hémisphère nord)",
-  "voie_lactee": "hors de la Voie lactée (constellation zodiacale voisine du Lion et de l'Hydre)",
-  "repere_principal": "à l'ouest du Corbeau, sous le Lion",
+  "voie_lactee": false,
+  "repere_principal": "Chercher la Coupe à l’ouest du Corbeau, sous le Lion.",
   "constellations_voisines": [
-    "Lion",
     "Corbeau",
     "Hydre",
+    "Lion",
     "Sextant",
     "Vierge"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "η",
-      "bayer": "eta Crt",
+      "nom": "η Crt",
+      "bayer": "η Crt",
       "ra_deg": 179.004,
       "dec_deg": -17.151,
-      "mag": 5.17,
-      "role": "Le bord nord de la coupe — naine bleue",
+      "mag": 5.16,
+      "role": "Point le plus à l’est du dessin — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 58188) / IAU",
-      "etiq": "η"
+      "src": "SIMBAD : * eta Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "η Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Crt",
+      "type_spectral": "A0V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1873667",
+      "simbad_id": "* eta Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
-      "nom": "ζ",
-      "bayer": "zet Crt",
+      "nom": "ζ Crt",
+      "bayer": "ζ Crt",
       "ra_deg": 176.191,
       "dec_deg": -18.351,
-      "mag": 4.71,
-      "role": "Le bord nord — naine blanche",
+      "mag": 4.706,
+      "role": "Prolongement est de la boucle — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 57283) / IAU",
-      "etiq": "ζ"
+      "src": "SIMBAD : * zet Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "ζ Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Crt",
+      "type_spectral": "G8.5III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1854471",
+      "simbad_id": "* zet Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "γ",
-      "bayer": "gam Crt",
+      "nom": "γ Crt",
+      "bayer": "γ Crt",
       "ra_deg": 171.221,
       "dec_deg": -17.684,
       "mag": 4.06,
-      "role": "Le bord ouest — naine blanche",
+      "role": "Sommet est de la boucle — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 55705) / IAU",
-      "etiq": "γ"
+      "src": "SIMBAD : * gam Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "γ Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Crt",
+      "type_spectral": "A7V(n)",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1813780",
+      "simbad_id": "* gam Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "β",
-      "bayer": "bet Crt",
+      "nom": "β Crt",
+      "bayer": "β Crt",
       "ra_deg": 167.915,
       "dec_deg": -22.826,
-      "mag": 4.46,
-      "role": "La plus brillante de la figure — géante jaune",
+      "mag": 4.449,
+      "role": "Sommet sud de la boucle — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 54682) / IAU",
-      "etiq": "β"
+      "src": "SIMBAD : * bet Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "β Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Crt",
+      "type_spectral": "A1V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1795734",
+      "simbad_id": "* bet Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "Alkes",
-      "bayer": "alf Crt",
+      "bayer": "α Crt",
       "ra_deg": 164.945,
       "dec_deg": -18.299,
-      "mag": 4.08,
-      "role": "Le fond de la coupe — géante orange",
+      "mag": 4.07,
+      "role": "Sommet ouest, Alkes — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 53740) / IAU"
+      "src": "SIMBAD : * alf Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alkes",
+      "bayer_catalogue": "alf Crt",
+      "type_spectral": "K0IIIb",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alkes",
+      "identifiant": "simbad:1776854",
+      "simbad_id": "* alf Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "δ",
-      "bayer": "del Crt",
+      "nom": "δ Crt",
+      "bayer": "δ Crt",
       "ra_deg": 169.836,
       "dec_deg": -14.779,
       "mag": 3.56,
-      "role": "Le corps — géante jaune",
+      "role": "Sommet nord de la boucle — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 55282) / IAU",
-      "etiq": "δ"
+      "src": "SIMBAD : * del Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "δ Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "del Crt",
+      "type_spectral": "G9IIICH0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1813606",
+      "simbad_id": "* del Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "ε",
-      "bayer": "eps Crt",
+      "nom": "ε Crt",
+      "bayer": "ε Crt",
       "ra_deg": 171.153,
       "dec_deg": -10.859,
-      "mag": 4.81,
-      "role": "Le corps — naine blanche",
+      "mag": 4.802,
+      "role": "Prolongement vers le nord — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 55687) / IAU",
-      "etiq": "ε"
+      "src": "SIMBAD : * eps Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "ε Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Crt",
+      "type_spectral": "K4III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1812314",
+      "simbad_id": "* eps Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
-      "nom": "θ",
-      "bayer": "tet Crt",
+      "nom": "θ Crt",
+      "bayer": "θ Crt",
       "ra_deg": 174.171,
       "dec_deg": -9.802,
-      "mag": 4.7,
-      "role": "Le bord sud — géante orange",
+      "mag": 4.673,
+      "role": "Point le plus au nord du dessin — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 56633) / IAU",
-      "etiq": "θ"
+      "src": "SIMBAD : * tet Crt ; photométrie V ; type spectral consulté le 2026-10-15",
+      "etiq": "θ Crt",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Crt",
+      "type_spectral": "B9.5V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Crt",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Crt",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1833591",
+      "simbad_id": "* tet Crt",
+      "constellation_iau": "Crt",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Crt",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Crt",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "tracée d'après la source IAU",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -149,74 +390,151 @@
         5
       ]
     ],
-    "commentaire": "Figure de la Coupe : la coupe à deux anses, reconnaissable à son corps allongé et à son anse en boucle fermée.",
-    "note_geometrie": "La Coupe s'étale sur environ 6.0° de ciel, entre les deux étoiles les plus éloignées du tracé (ε – ζ). Sa forme est celle d'un vase allongé : un corps que l'on suit d'une extrémité à l'autre, refermé côté nord par une anse en boucle — les étoiles β, ε et ζ forment un petit triangle refermé sur lui-même (3.2° entre ε et β). C'est ce tracé en boucle qui rend la Coupe identifiable, malgré la faible luminosité de ses étoiles : aucune n'atteint la deuxième magnitude, et seule Alkes porte un nom propre officiel.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Coupe : 8 étoiles et 8 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 14,3°. Le segment le plus court relie η Crt à ζ Crt (2,94°). Le plus long relie γ Crt à β Crt (6°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
   "distances_angulaires_deg": [
     {
-      "entre": "ε – ζ",
-      "deg": 6.0
+      "a": 0,
+      "b": 1,
+      "deg": 2.9355
     },
     {
-      "entre": "Alkes – β",
-      "deg": 5.86
+      "a": 1,
+      "b": 2,
+      "deg": 4.7729
     },
     {
-      "entre": "ζ – Alkes",
-      "deg": 5.31
+      "a": 2,
+      "b": 3,
+      "deg": 6.0042
     },
     {
-      "entre": "δ – ε",
-      "deg": 4.77
+      "a": 3,
+      "b": 4,
+      "deg": 5.3123
     },
     {
-      "entre": "β – θ",
-      "deg": 4.12
+      "a": 4,
+      "b": 5,
+      "deg": 5.8621
     },
     {
-      "entre": "ε – β",
-      "deg": 3.19
+      "a": 5,
+      "b": 6,
+      "deg": 4.1249
     },
     {
-      "entre": "θ – η",
-      "deg": 3.15
+      "a": 6,
+      "b": 7,
+      "deg": 3.1516
     },
     {
-      "entre": "γ – δ",
-      "deg": 2.94
+      "a": 2,
+      "b": 5,
+      "deg": 3.1948
     }
   ],
   "objets_ciel_profond": [
     {
       "id": "NGC 3962",
       "nature": "galaxie",
-      "mag": 10.7,
+      "mag": 10.65,
       "distance_al": 85000000,
       "note": "Galaxie elliptique géante, la plus brillante de la Coupe et l'un des objets les plus faciles de la constellation. Visible dès une lunette comme une petite tache ronde.",
-      "instrument": "lunette",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC3962, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3962",
+      "constellation_catalogue": "Crt",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3962",
+        "alias_interroge": "NGC3962",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3962",
+        "alias_interroge": "NGC3962",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 3981",
       "nature": "galaxie",
-      "mag": 11.0,
+      "mag": 11.65,
       "distance_al": 62000000,
       "note": "Galaxie spirale vue de biais, avec un noyau brillant entouré d'un disque allongé. Accessible aux instruments de 150 mm sous un bon ciel.",
       "instrument": "télescope",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC3981, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3981",
+      "constellation_catalogue": "Crt",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3981",
+        "alias_interroge": "NGC3981",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3981",
+        "alias_interroge": "NGC3981",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 3511",
       "nature": "galaxie",
-      "mag": 11.0,
+      "mag": 11.02,
       "distance_al": 45000000,
       "note": "Galaxie spirale étendue, très allongée dans le champ. Forme une paire intéressante avec NGC 3513 toute proche.",
       "instrument": "télescope",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC3511, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC3511",
+      "constellation_catalogue": "Crt",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3511",
+        "alias_interroge": "NGC3511",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC3511",
+        "alias_interroge": "NGC3511",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -248,98 +566,82 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle étoile de la Coupe est la plus facile à repérer ?",
-      "r": "Alkes (α Crt), magnitude 4,08 : c'est la seule étoile de la constellation à porter un nom propre officiel. Elle se situe au centre du corps de la Coupe."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "δ Crt, avec 3,56 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "δ Crateris, magnitude 3,56. C'est une géante jaune ; elle marque le corps de la Coupe, du côté de l'anse."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "η Crt – ζ Crt : environ 2,94°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelle forme particulière faut-il chercher ?",
-      "r": "Une anse en boucle fermée : les étoiles β, ε et ζ forment un petit triangle refermé sur lui-même, au nord du corps. C'est ce tracé en boucle qui identifie la Coupe."
-    },
-    {
-      "q": "Cette constellation est-elle facile à voir à l'œil nu ?",
-      "r": "Elle demande un bon ciel : aucune de ses étoiles n'atteint la deuxième magnitude, et ses magnitudes vont de 3,56 à 5,17. Elle se repère par sa forme plutôt que par l'éclat de ses étoiles."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Coupe désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Pourquoi la Coupe est-elle difficile à repérer ?",
-      "r": "Parce qu'elle ne contient aucune étoile brillante : la plus lumineuse, δ Crt, n'atteint que la magnitude 3,56. Il faut l'atteindre en s'aidant du Corbeau et du Lion, jamais en la cherchant directement."
+      "q": "Quelles étoiles ferment réellement la boucle du dessin retenu ?",
+      "r": "Les liaisons ferment le quadrilatère γ–β–Alkes–δ–γ. β, ε et ζ ne forment pas le triangle fermé que l’ancienne rédaction annonçait. Le corrigé montre une construction possible, pas un tracé officiel unique."
     },
     {
-      "q": "Comment retrouver la Coupe dans le ciel ?",
-      "r": "En partant du Lion : depuis Regulus, on suit une ligne vers le sud-ouest en passant par le Corbeau, dont les quatre étoiles brillantes pointent directement vers la Coupe, juste à l'ouest."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Coupe. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi la figure de la Coupe dessine-t-elle une boucle ?",
-      "r": "Parce que le tracé officiel retenu referme une anse en boucle : les étoiles β, ε et ζ forment un petit triangle refermé au sommet du vase. Ce n'est qu'une convention de dessin, pas une structure physique — ces étoiles sont à des distances très différentes."
-    },
-    {
-      "q": "Quelle est l'étoile la plus célèbre de la Coupe ?",
-      "r": "Alkes (α Crt), magnitude 4,08. Son nom vient de l'arabe « al-ka's », qui signifie précisément « la coupe ». C'est une géante orange située à environ 174 années-lumière."
-    },
-    {
-      "q": "Y a-t-il des objets du ciel profond à voir dans la Coupe ?",
-      "r": "Oui, mais ils sont difficiles : la Coupe est surtout connue pour son groupe de galaxies spirales (NGC 3511, NGC 3981). La plus accessible est NGC 3962, une galaxie elliptique de magnitude 10,7, visible dans une lunette sous un ciel sombre."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 3962 : galaxie. Galaxie elliptique géante, la plus brillante de la Coupe et l'un des objets les plus faciles de la constellation. Visible dès une lunette comme une petite tache ronde. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "La Coupe est une constellation discrète et allongée, posée juste à l'ouest du Corbeau. La montrer d'abord dans son ensemble : un corps étiré d'est en ouest, refermé au nord par une anse en boucle. Faire suivre le tracé du doigt, du bout du corps jusqu'à la boucle, puis revenir : c'est cette boucle qui rend la Coupe reconnaissable. Insister sur le fait qu'aucune de ses étoiles n'atteint la deuxième magnitude : la Coupe se repère par sa forme, pas par son éclat.",
+  "message_animation": "Chercher la Coupe à l’ouest du Corbeau, sous le Lion. Dans le dessin retenu, suivre le quadrilatère γ–β–Alkes–δ, puis ses prolongements. δ est la plus brillante des étoiles de la fiche. Le dessin est une convention : aucune boucle physique ne relie ces étoiles dans l’espace.",
   "tracabilite": {
     "coordonnees": "Hipparcos (via constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org)",
-    "source_principale": "constellation_lines_iau.dat (Dominic Ford, In-The-Sky.org, © 2015-2025) ; liste des noms IAU (640 noms, sept. 2026)",
-    "statut": "étoiles, figure et contenu pédagogique complets",
-    "lacunes": []
+    "source_principale": "Atlas initial de Christophe pour le support ; sources de la révision détaillées par étoile et objet. Aucun nombre global de noms propres n’est publié sans version de liste.",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

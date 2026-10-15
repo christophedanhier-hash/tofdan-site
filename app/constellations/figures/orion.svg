@@ -1,25 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Orion">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="78.0" y1="93.4" x2="106.0" y2="268.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="78.0" y1="93.4" x2="273.8" y2="230.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="273.8" y1="230.7" x2="106.0" y2="268.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="491.3" y1="366.6" x2="542.0" y2="112.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="491.3" y1="366.6" x2="317.8" y2="171.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="317.8" y1="171.9" x2="542.0" y2="112.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="273.8" y1="230.7" x2="298.1" y2="202.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="298.1" y1="202.9" x2="317.8" y2="171.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="78.0" cy="93.4" r="5" fill="#222"/>
-<text x="91.0" y="83.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Bételgeuse</text>
-<circle cx="106.0" cy="268.4" r="5" fill="#222"/>
-<text x="93.0" y="258.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Bellatrix</text>
-<circle cx="491.3" cy="366.6" r="5" fill="#222"/>
-<text x="504.3" y="356.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Rigel</text>
-<circle cx="542.0" cy="112.9" r="5" fill="#222"/>
-<text x="555.0" y="102.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Saiph</text>
-<circle cx="273.8" cy="230.7" r="5" fill="#222"/>
-<text x="286.8" y="247.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Mintaka</text>
-<circle cx="298.1" cy="202.9" r="5" fill="#222"/>
-<text x="285.1" y="192.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alnilam</text>
-<circle cx="317.8" cy="171.9" r="5" fill="#222"/>
-<text x="304.8" y="161.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alnitak</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Orion">
+<title>Orion</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="258.228" y1="60.000" x2="468.269" y2="90.008" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="258.228" y1="60.000" x2="420.229" y2="276.729" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="420.229" y1="276.729" x2="468.269" y2="90.008" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="541.772" y1="499.029" x2="310.573" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="541.772" y1="499.029" x2="358.921" y2="322.797" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="358.921" y1="322.797" x2="310.573" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="420.229" y1="276.729" x2="390.751" y2="302.029" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="390.751" y1="302.029" x2="358.921" y2="322.797" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="258.228" cy="60.000" r="5.26" fill="#222" data-star="simbad:843879"/>
+<circle cx="468.269" cy="90.008" r="4.29" fill="#222" data-star="simbad:784400"/>
+<circle cx="541.772" cy="499.029" r="5.50" fill="#222" data-star="simbad:771345"/>
+<circle cx="310.573" cy="540.000" r="3.95" fill="#222" data-star="simbad:830758"/>
+<circle cx="420.229" cy="276.729" r="3.67" fill="#222" data-star="simbad:799898"/>
+<circle cx="390.751" cy="302.029" r="4.25" fill="#222" data-star="simbad:799866"/>
+<circle cx="358.921" cy="322.797" r="4.18" fill="#222" data-star="simbad:827058"/>
+<text x="271.23" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Bételgeuse</text>
+<text x="481.27" y="77.01" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Bellatrix</text>
+<text x="433.23" y="263.73" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Mintaka</text>
+<text x="326.65" y="289.03" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alnilam</text>
+<text x="294.82" y="309.80" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alnitak</text>
+<text x="554.77" y="486.03" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Rigel</text>
+<text x="323.57" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Saiph</text>
 </svg>

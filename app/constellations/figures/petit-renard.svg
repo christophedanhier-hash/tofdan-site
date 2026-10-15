@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Petit Renard">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="542.0" y1="252.1" x2="78.0" y2="207.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="78.0" cy="207.9" r="7.8" fill="#222"/>
-<circle cx="542.0" cy="252.1" r="7.9" fill="#222"/>
-<text x="94.5" y="195.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Anser</text>
-<text x="557.0" y="256.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">13</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Petit Renard">
+<title>Petit Renard</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="60.000" y1="335.348" x2="740.000" y2="264.652" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="740.000" cy="264.652" r="2.20" fill="#222" data-star="simbad:2804399"/>
+<circle cx="60.000" cy="335.348" r="2.20" fill="#222" data-star="simbad:2807987"/>
+<text x="73.00" y="322.35" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">13 Vul</text>
+<text x="753.00" y="251.65" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Anser</text>
 </svg>

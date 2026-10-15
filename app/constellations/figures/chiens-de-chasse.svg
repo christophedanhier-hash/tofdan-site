@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Chiens de Chasse">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="95.0" y1="382.8" x2="525.0" y2="77.2" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="95.0" cy="382.8" r="5" fill="#222"/>
-<text x="82.0" y="372.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Cor Caroli</text>
-<circle cx="525.0" cy="77.2" r="5" fill="#222"/>
-<text x="538.0" y="67.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Chara</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Chiens de Chasse">
+<title>Chiens de Chasse</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="62.704" y1="540.000" x2="737.296" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="62.704" cy="540.000" r="3.30" fill="#222" data-star="simbad:1976891"/>
+<circle cx="737.296" cy="60.000" r="2.20" fill="#222" data-star="simbad:1924380"/>
+<text x="750.30" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Chara</text>
+<text x="75.70" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Cor</text>
 </svg>

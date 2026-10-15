@@ -8,173 +8,609 @@
   "source_atlas": "Atlas observation.pdf — fiche « Dragon »",
   "saison": "été",
   "voie_lactee": false,
-  "repere_principal": "La tête en trapèze (Eltanin, Rastaban) puis un long corps sinueux qui s'enroule autour de la Petite Ourse.",
+  "repere_principal": "Commencer par la tête du Dragon, près d’Hercule, puis suivre les étoiles de son long corps entre les deux Ourses.",
   "constellations_voisines": [
-    "Petite Ourse",
+    "Bouvier",
+    "Girafe",
     "Céphée",
     "Cygne",
     "Hercule",
-    "Bouvier",
-    "Girafe"
+    "Lyre",
+    "Grande Ourse",
+    "Petite Ourse"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Grumium",
-      "bayer": "ksi Dra",
+      "bayer": "ξ Dra",
       "ra_deg": 268.3818,
       "dec_deg": 56.8725,
-      "mag": 3.73,
-      "role": "La tête — géante orange",
+      "mag": 3.75,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * ksi Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Grumium",
+      "bayer_catalogue": "ksi Dra",
+      "type_spectral": "K2III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ksi Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ksi Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Grumium",
+      "identifiant": "simbad:324145",
+      "simbad_id": "* ksi Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ksi Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Eltanin",
-      "bayer": "gam Dra",
+      "bayer": "γ Dra",
       "ra_deg": 269.1516,
       "dec_deg": 51.489,
-      "mag": 2.24,
-      "role": "La plus brillante de la figure — géante orange",
+      "mag": 2.23,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * gam Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Eltanin",
+      "bayer_catalogue": "gam Dra",
+      "type_spectral": "K5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Eltanin",
+      "identifiant": "simbad:323363",
+      "simbad_id": "* gam Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Rastaban",
-      "bayer": "bet Dra",
+      "bayer": "β Dra",
       "ra_deg": 262.6082,
       "dec_deg": 52.3014,
-      "mag": 2.79,
-      "role": "La tête — supergéante jaune",
+      "mag": 2.81,
+      "role": "En bas du dessin, côté gauche — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * bet Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Rastaban",
+      "bayer_catalogue": "bet Dra",
+      "type_spectral": "G2Ib-IIa",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Rastaban",
+      "identifiant": "simbad:352495",
+      "simbad_id": "* bet Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "ν2 Dra",
-      "bayer": "nu.02 Dra",
+      "nom": "ν² Dra",
+      "bayer": "ν² Dra",
       "ra_deg": 263.0662,
       "dec_deg": 55.1728,
       "mag": 4.86,
-      "role": "Le cou — naine blanche",
+      "role": "En bas du dessin, côté gauche — type spectral kA4hF2VmF3 (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * nu.02 Dra ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu.02 Dra",
+      "type_spectral": "kA4hF2VmF3",
+      "nature_stellaire": "Type spectral kA4hF2VmF3 (classification détaillée dans la source)",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu.02 Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.02%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ν² Dra",
+      "identifiant": "simbad:337566",
+      "simbad_id": "* nu.02 Dra",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu.02 Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.02%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "Altais",
-      "bayer": "del Dra",
+      "bayer": "δ Dra",
       "ra_deg": 288.1381,
       "dec_deg": 67.6613,
       "mag": 3.07,
-      "role": "Le cou — géante jaune",
+      "role": "Au milieu du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * del Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Altais",
+      "bayer_catalogue": "del Dra",
+      "type_spectral": "G9III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Altais",
+      "identifiant": "simbad:288114",
+      "simbad_id": "* del Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "ε Dra",
-      "bayer": "eps Dra",
+      "bayer": "ε Dra",
       "ra_deg": 297.0426,
       "dec_deg": 70.2678,
-      "mag": 3.84,
-      "role": "Le corps — géante jaune",
+      "mag": 3.91,
+      "role": "En haut du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eps Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Dra",
+      "type_spectral": "G7IIIbFe-1",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ε Dra",
+      "identifiant": "simbad:9773204",
+      "simbad_id": "* eps Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "nom": "φ Dra",
-      "bayer": "phi Dra",
+      "bayer": "φ Dra",
       "ra_deg": 275.1893,
       "dec_deg": 71.3377,
       "mag": 4.22,
-      "role": "Le corps — naine bleue",
+      "role": "Au milieu du dessin, côté gauche — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * phi Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "phi Dra",
+      "type_spectral": "B8V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* phi Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* phi Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "φ Dra",
+      "identifiant": "simbad:314793",
+      "simbad_id": "* phi Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* phi Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Aldhibah",
-      "bayer": "zet Dra",
+      "bayer": "ζ Dra",
       "ra_deg": 257.1968,
       "dec_deg": 65.7146,
       "mag": 3.17,
-      "role": "Le corps — géante bleue",
+      "role": "Au milieu du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * zet Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Aldhibah",
+      "bayer_catalogue": "zet Dra",
+      "type_spectral": "B8III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Aldhibah",
+      "identifiant": "simbad:362863",
+      "simbad_id": "* zet Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "nom": "Athebyne",
-      "bayer": "eta Dra",
+      "bayer": "η Dra",
       "ra_deg": 245.9979,
       "dec_deg": 61.5141,
-      "mag": 2.73,
-      "role": "Le corps — géante jaune",
+      "mag": 2.74,
+      "role": "En bas du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eta Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Athebyne",
+      "bayer_catalogue": "eta Dra",
+      "type_spectral": "G8-IIIab",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Athebyne",
+      "identifiant": "simbad:387849",
+      "simbad_id": "* eta Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "nom": "θ Dra",
-      "bayer": "tet Dra",
+      "bayer": "θ Dra",
       "ra_deg": 240.4738,
       "dec_deg": 58.5644,
-      "mag": 4.01,
-      "role": "L'aile — naine jaune-blanc",
+      "mag": 4,
+      "role": "En bas du dessin, près de l’axe central — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * tet Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Dra",
+      "type_spectral": "F9V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "θ Dra",
+      "identifiant": "simbad:401098",
+      "simbad_id": "* tet Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "nom": "Edasich",
-      "bayer": "iot Dra",
+      "bayer": "ι Dra",
       "ra_deg": 231.2324,
       "dec_deg": 58.966,
       "mag": 3.29,
-      "role": "Le corps — géante orange",
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * iot Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Edasich",
+      "bayer_catalogue": "iot Dra",
+      "type_spectral": "K2III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Edasich",
+      "identifiant": "simbad:444249",
+      "simbad_id": "* iot Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "nom": "Thuban",
-      "bayer": "alf Dra",
+      "bayer": "α Dra",
       "ra_deg": 211.0976,
       "dec_deg": 64.3758,
-      "mag": 3.67,
-      "role": "La queue — géante blanche",
+      "mag": 3.68,
+      "role": "Au milieu du dessin, côté droite — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * alf Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Thuban",
+      "bayer_catalogue": "alf Dra",
+      "type_spectral": "A0III",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Thuban",
+      "identifiant": "simbad:446254",
+      "simbad_id": "* alf Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "nom": "κ Dra",
-      "bayer": "kap Dra",
+      "bayer": "κ Dra",
       "ra_deg": 188.371,
       "dec_deg": 69.7882,
-      "mag": 3.85,
-      "role": "La queue — géante bleue",
+      "mag": 3.89,
+      "role": "En haut du dessin, côté droite — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * kap Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Dra",
+      "type_spectral": "B6IIIe",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "κ Dra",
+      "identifiant": "simbad:447421",
+      "simbad_id": "* kap Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
       "nom": "Giausar",
-      "bayer": "lam Dra",
+      "bayer": "λ Dra",
       "ra_deg": 172.8512,
       "dec_deg": 69.3311,
-      "mag": 3.82,
-      "role": "La queue — géante rouge",
+      "mag": 3.85,
+      "role": "En haut du dessin, côté droite — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * lam Dra ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Giausar",
+      "bayer_catalogue": "lam Dra",
+      "type_spectral": "M0III-IIIaCa1",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Dra",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Dra",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Giausar",
+      "identifiant": "simbad:447949",
+      "simbad_id": "* lam Dra",
+      "constellation_iau": "Dra",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Dra",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Dra",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -233,37 +669,115 @@
         13
       ]
     ],
-    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-    "note_geometrie": "Le Dragon est la plus longue constellation du ciel, et sa géométrie le prouve : la figure se déploie de la tête jusqu'à la queue sur plus de 40°. Le tracé commence par le quadrilatère de tête (Grumium–Eltanin–Rastaban–ν2 Dra, côtés de 2,88° à 5,40°), puis la chaîne descend en serpentant vers le sud : Grumium → Altais (14,05°, la plus longue liaison du tracé) → ε Dra → φ Dra → Aldhibah → Athebyne → θ Dra → Edasich → Thuban → κ Dra → Giausar. Le plus court segment relie Rastaban et ν2 Dra (2,88°). Deux étoiles remarquables jalonnent la queue : Thuban (α Dra), qui était l'étoile polaire il y a 5 000 ans, et Edasich (ι Dra).",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Dragon : 14 étoiles et 14 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 44,9°. Le segment le plus court relie Rastaban à ν² Dra (2,88°). Le plus long relie Grumium à Altais (14,05°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-    "Grumium–Eltanin": 5.4,
-    "Eltanin–Rastaban": 4.12,
-    "Rastaban–ν2 Dra": 2.88,
-    "ν2 Dra–Grumium": 3.42,
-    "Grumium–Altais": 14.05,
-    "Altais–ε Dra": 4.12,
-    "Altais–φ Dra": 5.82,
-    "φ Dra–Aldhibah": 8.6,
-    "Aldhibah–Athebyne": 6.5,
-    "Athebyne–θ Dra": 4.04,
-    "θ Dra–Edasich": 4.81,
-    "Edasich–Thuban": 10.91,
-    "Thuban–κ Dra": 10.28,
-    "κ Dra–Giausar": 5.42
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 5.4022
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 4.1173
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 2.8841
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "deg": 3.4212
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "deg": 14.0469
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 4.1176
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "deg": 5.8178
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "deg": 8.6017
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "deg": 6.4965
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "deg": 4.0361
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "deg": 4.805
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "deg": 10.9117
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "deg": 10.2821
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "deg": 5.4244
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 5866",
-      "nature": "galaxie lenticulaire (M 102)",
+      "nature": "galaxie",
       "mag": 9.89,
       "distance_al": 40000000,
       "note": "La galaxie du Fuseau : vue presque par la tranche, elle montre une bande de poussière bien marquée. C'est l'objet identifié comme le « Messier perdu », M 102.",
       "instrument": "télescope",
-      "src": "O4",
-      "code": "O4"
+      "src": "OpenNGC, NGC5866, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC5866",
+      "constellation_catalogue": "Dra",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5866",
+        "alias_interroge": "NGC5866",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5866",
+        "alias_interroge": "NGC5866",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O4",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -294,79 +808,85 @@
     }
   ],
   "questions_observation": [
-    "Repères-tu d'abord la tête en trapèze, puis la queue, ou l'inverse ?",
-    "Combien d'étoiles de la queue distingues-tu à l'œil nu ?",
-    "Le corps te paraît-il vraiment s'enrouler autour de la Petite Ourse ?",
-    "Thuban te semble-t-elle nettement moins brillante que les « yeux » de la tête ?",
-    "Arrives-tu à suivre le tracé d'un bout à l'autre sans perdre le fil ?"
+    {
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Eltanin, avec 2,23 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
+    },
+    {
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Rastaban – ν² Dra : environ 2,88°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
+    },
+    {
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Dragon désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
+    }
   ],
   "questions_guide": [
-    "Commence par la tête : un trapèze d'étoiles qui pointe vers Véga, entre Hercule et la Petite Ourse.",
-    "Eltanin et Rastaban forment les deux « yeux » du Dragon (leur nom arabe signifie justement le serpent et la tête).",
-    "Puis suis le long corps qui s'enroule : il fait presque le tour de la Petite Ourse.",
-    "Thuban, dans la queue, était l'étoile polaire il y a 5 000 ans — c'est la preuve que le ciel bouge."
+    {
+      "q": "Pourquoi Thuban a-t-elle pu servir de repère polaire autrefois ?",
+      "r": "L’axe de rotation de la Terre change lentement de direction par précession. Le pôle Nord céleste s’est trouvé plus près de Thuban dans l’Antiquité ; il se situe aujourd’hui près de l’étoile polaire de la Petite Ourse."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Dragon. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 5866 : galaxie. La galaxie du Fuseau : vue presque par la tranche, elle montre une bande de poussière bien marquée. C'est l'objet identifié comme le « Messier perdu », M 102. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
+    }
   ],
-  "message_animation": "Le Dragon est la plus longue constellation du ciel : sa tête en trapèze pointe vers Véga, puis son corps s'enroule tout autour de la Petite Ourse. Thuban, son étoile alpha, était l'étoile polaire il y a 5 000 ans.",
+  "message_animation": "Commencer par la tête du Dragon, près d’Hercule, puis suivre les étoiles de son long corps entre les deux Ourses. Thuban permet de raconter la précession : la direction du pôle céleste change lentement au fil des millénaires.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf — fiche « Dragon »",
     "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "5 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-    ]
+      "ν² Dra : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

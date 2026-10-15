@@ -1,68 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Hercule">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="430.5" y1="32.8" x2="486.3" y2="119.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="486.3" y1="119.9" x2="378.3" y2="121.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="378.3" y1="121.1" x2="350.0" y2="124.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="350.0" y1="124.6" x2="246.7" y2="102.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="246.7" y1="102.4" x2="219.3" y2="66.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="219.3" y1="66.9" x2="175.3" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="175.3" y1="30.0" x2="142.6" y2="42.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="142.6" y1="42.8" x2="96.1" y2="66.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="246.7" y1="102.4" x2="241.7" y2="182.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="241.7" y1="182.0" x2="207.3" y2="302.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="207.3" y1="302.4" x2="181.9" y2="331.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="181.9" y1="331.6" x2="192.6" y2="396.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="192.6" y1="396.9" x2="214.7" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="241.7" y1="182.0" x2="302.1" y2="189.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="302.1" y1="189.7" x2="350.0" y2="124.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="523.9" y1="214.7" x2="491.3" y2="209.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="491.3" y1="209.0" x2="453.7" y2="226.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="453.7" y1="226.9" x2="401.6" y2="246.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="401.6" y1="246.1" x2="349.9" y2="261.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="302.1" y1="189.7" x2="349.9" y2="261.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="349.9" y1="261.3" x2="348.7" y2="392.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="348.7" y1="392.3" x2="207.3" y2="302.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="96.1" cy="66.8" r="7.9" fill="#222"/>
-<circle cx="142.6" cy="42.8" r="7.6" fill="#222"/>
-<circle cx="175.3" cy="30.0" r="7.3" fill="#222"/>
-<circle cx="181.9" cy="331.6" r="7.2" fill="#222"/>
-<circle cx="192.6" cy="396.9" r="7.9" fill="#222"/>
-<circle cx="207.3" cy="302.4" r="6.4" fill="#222"/>
-<circle cx="214.7" cy="430.0" r="8.1" fill="#222"/>
-<circle cx="219.3" cy="66.9" r="7.6" fill="#222"/>
-<circle cx="241.7" cy="182.0" r="6.4" fill="#222"/>
-<circle cx="246.7" cy="102.4" r="7.0" fill="#222"/>
-<circle cx="302.1" cy="189.7" r="7.3" fill="#222"/>
-<circle cx="348.7" cy="392.3" r="6.4" fill="#222"/>
-<circle cx="349.9" cy="261.3" r="6.7" fill="#222"/>
-<circle cx="350.0" cy="124.6" r="6.7" fill="#222"/>
-<circle cx="378.3" cy="121.1" r="7.5" fill="#222"/>
-<circle cx="401.6" cy="246.1" r="7.7" fill="#222"/>
-<circle cx="430.5" cy="32.8" r="7.3" fill="#222"/>
-<circle cx="453.7" cy="226.9" r="6.9" fill="#222"/>
-<circle cx="486.3" cy="119.9" r="7.3" fill="#222"/>
-<circle cx="491.3" cy="209.0" r="7.2" fill="#222"/>
-<circle cx="523.9" cy="214.7" r="7.3" fill="#222"/>
-<text x="142.6" y="29.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">φ</text>
-<text x="190.3" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">τ</text>
-<text x="234.3" y="71.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">σ</text>
-<text x="401.6" y="232.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">λ</text>
-<text x="453.7" y="213.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">86</text>
-<text x="507.8" y="197.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ξ</text>
-<text x="96.1" y="53.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">χ</text>
-<text x="196.9" y="336.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
-<text x="207.6" y="401.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Cujam</text>
-<text x="222.3" y="306.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Kornephoros</text>
-<text x="229.7" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">29</text>
-<text x="263.2" y="90.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">η</text>
-<line x1="349.9" y1="261.3" x2="330.4" y2="241.8" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="330.4" y="246.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Sarin</text>
-<text x="350.0" y="111.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">π</text>
-<text x="394.8" y="109.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ρ</text>
-<text x="538.9" y="219.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ο</text>
-<text x="258.2" y="170.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ζ</text>
-<text x="317.1" y="194.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ε</text>
-<text x="363.7" y="396.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">64</text>
-<text x="445.5" y="37.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ι</text>
-<text x="501.3" y="124.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">θ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Hercule">
+<title>Hercule</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="320.707" y1="65.124" x2="263.248" y2="179.647" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="263.248" y1="179.647" x2="351.391" y2="189.530" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="351.391" y1="189.530" x2="374.655" y2="195.158" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="374.655" y1="195.158" x2="460.884" y2="165.885" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="460.884" y1="165.885" x2="480.823" y2="116.526" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="480.823" y1="116.526" x2="511.108" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="511.108" y1="60.000" x2="539.958" y2="75.531" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="539.958" y1="75.531" x2="585.404" y2="103.029" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="460.884" y1="165.885" x2="469.920" y2="265.198" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="469.920" y1="265.198" x2="511.020" y2="401.105" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="511.020" y1="401.105" x2="539.915" y2="431.401" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="539.915" y1="431.401" x2="533.113" y2="503.103" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="533.113" y1="503.103" x2="510.517" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="469.920" y1="265.198" x2="415.022" y2="275.690" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="415.022" y1="275.690" x2="374.655" y2="195.158" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="214.596" y1="290.657" x2="244.659" y2="288.001" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="244.659" y1="288.001" x2="276.177" y2="312.566" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="276.177" y1="312.566" x2="322.154" y2="338.313" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="322.154" y1="338.313" x2="369.658" y2="357.798" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="415.022" y1="275.690" x2="369.658" y2="357.798" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="369.658" y1="357.798" x2="367.224" y2="501.342" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="367.224" y1="501.342" x2="511.020" y2="401.105" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="585.404" cy="103.029" r="2.20" fill="#222" data-star="simbad:496214"/>
+<circle cx="539.958" cy="75.531" r="2.20" fill="#222" data-star="simbad:454518"/>
+<circle cx="511.108" cy="60.000" r="2.50" fill="#222" data-star="simbad:7870649"/>
+<circle cx="539.915" cy="431.401" r="2.59" fill="#222" data-star="simbad:2761392"/>
+<circle cx="533.113" cy="503.103" r="2.20" fill="#222" data-star="simbad:2729071"/>
+<circle cx="511.020" cy="401.105" r="3.38" fill="#222" data-star="simbad:2779309"/>
+<circle cx="510.517" cy="540.000" r="2.20" fill="#222" data-star="simbad:2713412"/>
+<circle cx="480.823" cy="116.526" r="2.24" fill="#222" data-star="simbad:2942308"/>
+<circle cx="469.920" cy="265.198" r="3.36" fill="#222" data-star="simbad:2835800"/>
+<circle cx="460.884" cy="165.885" r="2.80" fill="#222" data-star="simbad:2917411"/>
+<circle cx="415.022" cy="275.690" r="2.46" fill="#222" data-star="simbad:2836946"/>
+<circle cx="367.224" cy="501.342" r="3.14" fill="#222" data-star="simbad:2730756"/>
+<circle cx="369.658" cy="357.798" r="3.10" fill="#222" data-star="simbad:2781350"/>
+<circle cx="374.655" cy="195.158" r="3.06" fill="#222" data-star="simbad:2896727"/>
+<circle cx="351.391" cy="189.530" r="2.26" fill="#222" data-star="simbad:9644141"/>
+<circle cx="322.154" cy="338.313" r="2.20" fill="#222" data-star="simbad:2798916"/>
+<circle cx="320.707" cy="65.124" r="2.56" fill="#222" data-star="simbad:336561"/>
+<circle cx="276.177" cy="312.566" r="2.86" fill="#222" data-star="simbad:2799583"/>
+<circle cx="263.248" cy="179.647" r="2.50" fill="#222" data-star="simbad:2898560"/>
+<circle cx="244.659" cy="288.001" r="2.64" fill="#222" data-star="simbad:2818938"/>
+<circle cx="214.596" cy="290.657" r="2.54" fill="#222" data-star="simbad:2819339"/>
+<text x="524.02" y="388.11" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Kornephoros</text>
+<text x="380.22" y="488.34" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Rasalgethi</text>
+<text x="335.15" y="325.31" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Maasym</text>
+<text x="289.18" y="299.57" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">μ¹ Her</text>
+<text x="598.40" y="90.03" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">χ Her</text>
+<text x="552.96" y="62.53" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">φ Her</text>
+<text x="461.61" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Her</text>
+<text x="552.92" y="418.40" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ Her</text>
+<text x="546.11" y="490.10" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Cujam</text>
+<text x="523.52" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">h Her</text>
+<text x="493.82" y="103.53" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">σ Her</text>
+<text x="482.92" y="252.20" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ζ Her</text>
+<text x="473.88" y="152.89" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Her</text>
+<text x="365.52" y="262.69" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ε Her</text>
+<text x="382.66" y="344.80" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sarin</text>
+<text x="387.65" y="182.16" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">π Her</text>
+<text x="301.89" y="176.53" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ρ Her</text>
+<text x="333.71" y="52.12" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ι Her</text>
+<text x="213.75" y="166.65" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">θ Her</text>
+<text x="257.66" y="275.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ξ Her</text>
+<text x="165.10" y="277.66" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ο Her</text>
 </svg>

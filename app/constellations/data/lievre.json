@@ -8,161 +8,492 @@
   "source_atlas": "Atlas observation.pdf, pages 64–65 (fiche Atlas « Lièvre »)",
   "saison": "hiver",
   "voie_lactee": false,
-  "repere_principal": "Le Lièvre blotti sous Orion",
+  "repere_principal": "Chercher le Lièvre sous Orion, puis reconnaître Arneb et Nihal avant les étoiles plus faibles.",
   "constellations_voisines": [
-    "Orion",
-    "Taureau",
-    "Colombe",
     "Grand Chien",
-    "Eridan"
+    "Burin",
+    "Colombe",
+    "Éridan",
+    "Licorne",
+    "Orion"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 23685,
       "nom": "ε Lep",
-      "etiq": "ε",
-      "bayer": "eps Lep",
+      "etiq": "ε Lep",
+      "bayer": "ε Lep",
       "ra_deg": 76.365,
       "dec_deg": -22.371,
-      "mag": 3.19,
-      "role": "La patte — géante orange",
+      "mag": 3.18,
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 23685)"
+      "src": "SIMBAD : * eps Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Lep",
+      "type_spectral": "K4III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:773400",
+      "simbad_id": "* eps Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 24305,
-      "nom": "5 Lep",
-      "etiq": "5",
-      "bayer": "mu. Lep",
+      "nom": "μ Lep",
+      "etiq": "μ Lep",
+      "bayer": "μ Lep",
       "ra_deg": 78.233,
       "dec_deg": -16.205,
       "mag": 3.29,
-      "role": "Le corps — sous-géante bleue",
+      "role": "En haut du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 24305)"
+      "src": "SIMBAD : * mu. Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "mu. Lep",
+      "type_spectral": "B9IV:HgMn",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:772382",
+      "simbad_id": "* mu. Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 24327,
       "nom": "κ Lep",
-      "etiq": "κ",
-      "bayer": "kap Lep",
+      "etiq": "κ Lep",
+      "bayer": "κ Lep",
       "ra_deg": 78.308,
       "dec_deg": -12.941,
-      "mag": 4.36,
-      "role": "L'oreille — naine bleue",
+      "mag": 4.44,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 24327)"
+      "src": "SIMBAD : * kap Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Lep",
+      "type_spectral": "B7V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:15318635",
+      "simbad_id": "* kap Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 24845,
       "nom": "λ Lep",
-      "etiq": "λ",
-      "bayer": "lam Lep",
+      "etiq": "λ Lep",
+      "bayer": "λ Lep",
       "ra_deg": 79.894,
       "dec_deg": -13.177,
       "mag": 4.29,
-      "role": "L'oreille — naine bleue",
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 24845)"
+      "src": "SIMBAD : * lam Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "lam Lep",
+      "type_spectral": "B0.5V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:787617",
+      "simbad_id": "* lam Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 25606,
       "nom": "Nihal",
       "etiq": "Nihal",
-      "bayer": "bet Lep",
+      "bayer": "β Lep",
       "ra_deg": 82.061,
       "dec_deg": -20.759,
-      "mag": 2.81,
-      "role": "Le museau — géante lumineuse jaune",
+      "mag": 2.84,
+      "role": "En bas du dessin, côté droite — géante lumineuse jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 25606)/ IAU"
+      "src": "SIMBAD : * bet Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Nihal",
+      "bayer_catalogue": "bet Lep",
+      "type_spectral": "G5II-IIIa:",
+      "nature_stellaire": "Géante lumineuse jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:816376",
+      "simbad_id": "* bet Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 25985,
       "nom": "Arneb",
       "etiq": "Arneb",
-      "bayer": "alf Lep",
+      "bayer": "α Lep",
       "ra_deg": 83.183,
       "dec_deg": -17.822,
-      "mag": 2.58,
-      "role": "La plus brillante de la figure — supergéante jaune-blanc",
+      "mag": 2.57,
+      "role": "Au milieu du dessin, près de l’axe central — supergéante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 25985)/ IAU"
+      "src": "SIMBAD : * alf Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Arneb",
+      "bayer_catalogue": "alf Lep",
+      "type_spectral": "F0Ib",
+      "nature_stellaire": "Supergéante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:816204",
+      "simbad_id": "* alf Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 27072,
       "nom": "γ Lep",
-      "etiq": "γ",
-      "bayer": "gam Lep",
+      "etiq": "γ Lep",
+      "bayer": "γ Lep",
       "ra_deg": 86.117,
       "dec_deg": -22.447,
-      "mag": 3.59,
-      "role": "La patte arrière — naine jaune-blanc",
+      "mag": 3.6,
+      "role": "En bas du dessin, côté gauche — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 27072)"
+      "src": "SIMBAD : * gam Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Lep",
+      "type_spectral": "F6V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:832345",
+      "simbad_id": "* gam Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 27288,
       "nom": "ζ Lep",
-      "etiq": "ζ",
-      "bayer": "zet Lep",
+      "etiq": "ζ Lep",
+      "bayer": "ζ Lep",
       "ra_deg": 86.739,
       "dec_deg": -14.822,
-      "mag": 3.55,
-      "role": "L'oreille — sous-géante blanche",
+      "mag": 3.525,
+      "role": "En haut du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 27288)"
+      "src": "SIMBAD : * zet Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Lep",
+      "type_spectral": "A2IV-V(n)",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:831546",
+      "simbad_id": "* zet Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 27654,
       "nom": "δ Lep",
-      "etiq": "δ",
-      "bayer": "del Lep",
+      "etiq": "δ Lep",
+      "bayer": "δ Lep",
       "ra_deg": 87.83,
       "dec_deg": -20.878,
-      "mag": 3.76,
-      "role": "Le corps — géante orange",
+      "mag": 3.85,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 27654)"
+      "src": "SIMBAD : * del Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Lep",
+      "type_spectral": "K0IIIbFe-1.5CH0.5",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:847412",
+      "simbad_id": "* del Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 28103,
       "nom": "η Lep",
-      "etiq": "η",
-      "bayer": "eta Lep",
+      "etiq": "η Lep",
+      "bayer": "η Lep",
       "ra_deg": 89.101,
       "dec_deg": -14.168,
-      "mag": 3.71,
-      "role": "L'oreille — naine jaune-blanc",
+      "mag": 3.72,
+      "role": "En haut du dessin, côté gauche — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 28103)"
+      "src": "SIMBAD : * eta Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Lep",
+      "type_spectral": "F2V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:846675",
+      "simbad_id": "* eta Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "hip": 28910,
       "nom": "θ Lep",
-      "etiq": "θ",
-      "bayer": "the Lep",
+      "etiq": "θ Lep",
+      "bayer": "θ Lep",
       "ra_deg": 91.539,
       "dec_deg": -14.935,
-      "mag": 4.67,
-      "role": "Le corps — naine blanche",
+      "mag": 4.663,
+      "role": "En haut du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 28910)"
+      "src": "SIMBAD : * tet Lep ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Lep",
+      "type_spectral": "A0V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Lep",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Lep",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:863808",
+      "simbad_id": "* tet Lep",
+      "constellation_iau": "Lep",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Lep",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Lep",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         2,
@@ -183,45 +514,143 @@
         4
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 11 étoiles reliées par 12 segments.",
-    "note_geometrie": "Figure construite sur 11 étoiles et 12 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie θ Lep à δ Lep (6.91°) ; le plus court relie δ Lep à γ Lep (2.24°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Lièvre : 11 étoiles et 12 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 16,2°. Le segment le plus court relie δ Lep à γ Lep (2,24°). Le plus long relie θ Lep à δ Lep (6,91°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "κ Lep–5 Lep": 3.26,
-    "5 Lep–ε Lep": 6.41,
-    "ε Lep–Nihal": 5.54,
-    "Nihal–Arneb": 3.12,
-    "λ Lep–5 Lep": 3.43,
-    "5 Lep–Arneb": 5.0,
-    "Arneb–ζ Lep": 4.54,
-    "ζ Lep–η Lep": 2.38,
-    "η Lep–θ Lep": 2.48,
-    "θ Lep–δ Lep": 6.91,
-    "δ Lep–γ Lep": 2.24,
-    "γ Lep–Nihal": 4.13
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 3.2648
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 6.4128
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "deg": 5.5366
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 3.122
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "deg": 3.4278
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "deg": 5.0016
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "deg": 4.5434
+    },
+    {
+      "a": 7,
+      "b": 9,
+      "deg": 2.3785
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "deg": 2.4813
+    },
+    {
+      "a": 10,
+      "b": 8,
+      "deg": 6.9109
+    },
+    {
+      "a": 8,
+      "b": 6,
+      "deg": 2.2352
+    },
+    {
+      "a": 6,
+      "b": 4,
+      "deg": 4.1314
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 1904",
       "nature": "amas globulaire",
-      "mag": 8,
-      "distance_al": null,
-      "note": "NGC 1904 — amas globulaire documenté(e) dans la fiche Atlas de Lièvre.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "mag": 7.94,
+      "distance_al": 42661,
+      "note": "Amas globulaire. Distance au Soleil : environ 42700 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC1904, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC1904",
+      "constellation_catalogue": "Lep",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1904",
+        "alias_interroge": "NGC1904",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 1904 M 79",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 1904 M 79",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 13.08,
+        "incertitude_kpc": 0.18,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1964",
       "nature": "galaxie",
-      "mag": 10.8,
+      "mag": 10.91,
       "distance_al": null,
-      "note": "NGC 1964 — galaxie documenté(e) dans la fiche Atlas de Lièvre.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 5,16 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC1964, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1964",
+      "constellation_catalogue": "Lep",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1964",
+        "alias_interroge": "NGC1964",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1964",
+        "alias_interroge": "NGC1964",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -253,85 +682,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Arneb, magnitude 2.58, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Arneb, avec 2,57 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "δ Lep – γ Lep : environ 2,24°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Lièvre ?",
-      "r": "2 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Lièvre désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 1904 ?",
-      "r": "NGC 1904 est un(e) amas globulaire de magnitude 8. Instrument conseillé : jumelles. NGC 1904 — amas globulaire documenté(e) dans la fiche Atlas de Lièvre."
+      "q": "Comment Orion aide-t-elle à retrouver le Lièvre ?",
+      "r": "Orion fournit un grand repère immédiatement reconnaissable. Le Lièvre se cherche au sud de ses pieds sur une carte orientée nord en haut ; cette indication céleste est plus fiable qu’un simple « en bas » par rapport à l’horizon."
     },
     {
-      "q": "Quand observer Lièvre ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Le Lièvre blotti sous Orion."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Lièvre. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 1904 : amas globulaire. Amas globulaire. Distance au Soleil : environ 42700 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Lièvre est blotti juste sous Orion, ce qui le rend facile à trouver une fois Orion repéré. On peut partir d'Arneb, l'étoile la plus brillante, puis parcourir la silhouette accroupie vers Nihal. La constellation contient M79, un amas globulaire inhabituel : c'est l'un des rares amas globulaires visibles en hiver.",
+  "message_animation": "Chercher le Lièvre sous Orion, puis reconnaître Arneb et Nihal avant les étoiles plus faibles. Ce voisinage est un bon exercice de repérage relatif. M 79 permet d’observer un amas globulaire dans le ciel d’hiver.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 64–65 (fiche Atlas « Lièvre »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

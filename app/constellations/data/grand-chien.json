@@ -7,12 +7,12 @@
   "abreviation_iau": "CMa",
   "source_atlas": "Atlas observation.pdf, pages 45–46–47 (fiche Atlas « Grand Chien »)",
   "saison": "hiver",
-  "voie_lactee": false,
-  "repere_principal": "Sirius, l'étoile la plus brillante du ciel",
+  "voie_lactee": true,
+  "repere_principal": "Partir de Sirius, puis chercher Mirzam à proximité sur le ciel, avant de descendre vers Adhara et Wezen.",
   "constellations_voisines": [
-    "Licorne",
-    "Lièvre",
     "Colombe",
+    "Lièvre",
+    "Licorne",
     "Poupe"
   ],
   "etoiles": [
@@ -21,134 +21,434 @@
       "hip": 30324,
       "nom": "Mirzam",
       "etiq": "Mirzam",
-      "bayer": "bet CMa",
+      "bayer": "β CMa",
       "ra_deg": 95.675,
       "dec_deg": -17.956,
-      "mag": 1.98,
-      "role": "La patte avant — géante lumineuse bleue",
+      "mag": 1.97,
+      "role": "En haut du dessin, côté droite — géante lumineuse bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 30324)/ IAU"
+      "src": "SIMBAD : * bet CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mirzam",
+      "bayer_catalogue": "bet CMa",
+      "type_spectral": "B1II-III",
+      "nature_stellaire": "Géante lumineuse bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:895236",
+      "simbad_id": "* bet CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 31592,
-      "nom": "7 CMa",
-      "etiq": "7",
-      "bayer": "nu.02 CMa",
+      "nom": "ν² CMa",
+      "etiq": "ν² CMa",
+      "bayer": "ν² CMa",
       "ra_deg": 99.171,
       "dec_deg": -19.256,
-      "mag": 3.95,
-      "role": "Le ventre — géante orange",
+      "mag": 3.91,
+      "role": "Au milieu du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 31592)"
+      "src": "SIMBAD : * nu.02 CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu.02 CMa",
+      "type_spectral": "K1.5III-IVFe1",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu.02 CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.02%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu.02 CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.02%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:914344",
+      "simbad_id": "* nu.02 CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu.02 CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.02%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 32349,
       "nom": "Sirius",
       "etiq": "Sirius",
-      "bayer": "alf CMa",
+      "bayer": "α CMa",
       "ra_deg": 101.289,
       "dec_deg": -16.713,
-      "mag": -1.44,
-      "role": "La plus brillante de la figure — naine blanche",
+      "mag": -1.46,
+      "role": "En haut du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 32349)/ IAU"
+      "src": "SIMBAD : * alf CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sirius",
+      "bayer_catalogue": "alf CMa",
+      "type_spectral": "A0mA1Va",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:8399845",
+      "simbad_id": "* alf CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 33152,
-      "nom": "16 CMa",
-      "etiq": "16",
-      "bayer": "omi01 CMa",
+      "nom": "ο¹ CMa",
+      "etiq": "ο¹ CMa",
+      "bayer": "ο¹ CMa",
       "ra_deg": 103.533,
       "dec_deg": -24.184,
-      "mag": 3.89,
-      "role": "La patte — supergéante orange",
+      "mag": 3.87,
+      "role": "En bas du dessin, près de l’axe central — supergéante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33152)"
+      "src": "SIMBAD : * omi01 CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "omi01 CMa",
+      "type_spectral": "K2Iab",
+      "nature_stellaire": "Supergéante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi01 CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi01%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi01 CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi01%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:931544",
+      "simbad_id": "* omi01 CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi01 CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi01%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 33160,
       "nom": "θ CMa",
-      "etiq": "θ",
-      "bayer": "the CMa",
+      "etiq": "θ CMa",
+      "bayer": "θ CMa",
       "ra_deg": 103.548,
       "dec_deg": -12.039,
       "mag": 4.08,
-      "role": "La tête — géante orange",
+      "role": "En haut du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33160)"
+      "src": "SIMBAD : * tet CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet CMa",
+      "type_spectral": "K3/4III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:929295",
+      "simbad_id": "* tet CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 33347,
       "nom": "ι CMa",
-      "etiq": "ι",
-      "bayer": "iot CMa",
+      "etiq": "ι CMa",
+      "bayer": "ι CMa",
       "ra_deg": 104.034,
       "dec_deg": -17.054,
-      "mag": 4.36,
-      "role": "Le cou — supergéante bleue",
+      "mag": 4.385,
+      "role": "En haut du dessin, près de l’axe central — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33347)"
+      "src": "SIMBAD : * iot CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot CMa",
+      "type_spectral": "B3Ib",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:930113",
+      "simbad_id": "* iot CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 33579,
       "nom": "Adhara",
       "etiq": "Adhara",
-      "bayer": "eps CMa",
+      "bayer": "ε CMa",
       "ra_deg": 104.656,
       "dec_deg": -28.972,
       "mag": 1.5,
-      "role": "La patte arrière — géante lumineuse bleue",
+      "role": "En bas du dessin, près de l’axe central — géante lumineuse bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33579)/ IAU"
+      "src": "SIMBAD : * eps CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Adhara",
+      "bayer_catalogue": "eps CMa",
+      "type_spectral": "B1.5II",
+      "nature_stellaire": "Géante lumineuse bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:948520",
+      "simbad_id": "* eps CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 34045,
       "nom": "Muliphein",
       "etiq": "Muliphein",
-      "bayer": "gam CMa",
+      "bayer": "γ CMa",
       "ra_deg": 105.94,
       "dec_deg": -15.633,
-      "mag": 4.11,
-      "role": "La tête — géante lumineuse bleue",
+      "mag": 4.12,
+      "role": "En haut du dessin, côté gauche — géante lumineuse bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 34045)/ IAU"
+      "src": "SIMBAD : * gam CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Muliphein",
+      "bayer_catalogue": "gam CMa",
+      "type_spectral": "B8II",
+      "nature_stellaire": "Géante lumineuse bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:945511",
+      "simbad_id": "* gam CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 34444,
       "nom": "Wezen",
       "etiq": "Wezen",
-      "bayer": "del CMa",
+      "bayer": "δ CMa",
       "ra_deg": 107.098,
       "dec_deg": -26.393,
-      "mag": 1.83,
-      "role": "Le corps — supergéante jaune-blanc",
+      "mag": 1.84,
+      "role": "En bas du dessin, côté gauche — supergéante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 34444)/ IAU"
+      "src": "SIMBAD : * del CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Wezen",
+      "bayer_catalogue": "del CMa",
+      "type_spectral": "F8Ia",
+      "nature_stellaire": "Supergéante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:962991",
+      "simbad_id": "* del CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 35904,
       "nom": "Aludra",
       "etiq": "Aludra",
-      "bayer": "eta CMa",
+      "bayer": "η CMa",
       "ra_deg": 111.024,
       "dec_deg": -29.303,
       "mag": 2.45,
-      "role": "La queue — supergéante bleue",
+      "role": "En bas du dessin, côté gauche — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 35904)/ IAU"
+      "src": "SIMBAD : * eta CMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Aludra",
+      "bayer_catalogue": "eta CMa",
+      "type_spectral": "B5Ia",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta CMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20CMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:980703",
+      "simbad_id": "* eta CMa",
+      "constellation_iau": "CMa",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta CMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20CMa",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         9,
@@ -168,94 +468,249 @@
         8
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 10 étoiles reliées par 11 segments.",
-    "note_geometrie": "Figure construite sur 10 étoiles et 11 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Sirius à Wezen (11.08°) ; le plus court relie ι CMa à Muliphein (2.32°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Grand Chien : 10 étoiles et 11 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 18,6°. Le segment le plus court relie ι CMa à Muliphein (2,32°). Le plus long relie Sirius à Wezen (11,08°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Aludra–Wezen": 4.53,
-    "Wezen–Adhara": 3.37,
-    "Adhara–16 CMa": 4.89,
-    "16 CMa–7 CMa": 6.38,
-    "7 CMa–Mirzam": 3.56,
-    "Mirzam–Sirius": 5.5,
-    "Sirius–ι CMa": 2.65,
-    "ι CMa–Muliphein": 2.32,
-    "Muliphein–θ CMa": 4.28,
-    "θ CMa–ι CMa": 5.04,
-    "Sirius–Wezen": 11.08
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 9,
+      "b": 8,
+      "deg": 4.5291
+    },
+    {
+      "a": 8,
+      "b": 6,
+      "deg": 3.3654
+    },
+    {
+      "a": 6,
+      "b": 3,
+      "deg": 4.8921
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "deg": 6.3789
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 3.5591
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "deg": 5.501
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "deg": 2.6487
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "deg": 2.3161
+    },
+    {
+      "a": 7,
+      "b": 4,
+      "deg": 4.2789
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 5.037
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "deg": 11.081
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 2287",
       "nature": "amas ouvert",
       "mag": 4.5,
       "distance_al": null,
-      "note": "NGC 2287 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
-    },
-    {
-      "id": "NGC 2363",
-      "nature": "galaxie",
-      "mag": null,
-      "distance_al": null,
-      "note": "NGC 2363 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 12,00 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC2287, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2287",
+      "constellation_catalogue": "CMa",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2287",
+        "alias_interroge": "NGC2287",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2287",
+        "alias_interroge": "NGC2287",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2354",
       "nature": "amas ouvert",
       "mag": 6.5,
       "distance_al": null,
-      "note": "NGC 2354 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 4,80 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC2354, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2354",
+      "constellation_catalogue": "CMa",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2354",
+        "alias_interroge": "NGC2354",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2354",
+        "alias_interroge": "NGC2354",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2367",
       "nature": "amas ouvert",
       "mag": 7.9,
       "distance_al": null,
-      "note": "NGC 2367 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 5,40 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC2367, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2367",
+      "constellation_catalogue": "CMa",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2367",
+        "alias_interroge": "NGC2367",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2367",
+        "alias_interroge": "NGC2367",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2359",
-      "nature": "nébuleuse",
+      "nature": "nébuleuse en émission",
       "mag": null,
       "distance_al": null,
-      "note": "NGC 2359 — nébuleuse documenté(e) dans la fiche Atlas de Grand Chien.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
+      "note": "Nébuleuse en émission. Dimension apparente du catalogue : environ 10,00 minutes d’arc. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2359, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2359",
+      "constellation_catalogue": "CMa",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2359",
+        "alias_interroge": "NGC2359",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2207",
       "nature": "galaxie",
-      "mag": 10.7,
+      "mag": 11.06,
       "distance_al": null,
-      "note": "NGC 2207 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 4,86 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC2207, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2207",
+      "constellation_catalogue": "CMa",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2207",
+        "alias_interroge": "NGC2207",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2207",
+        "alias_interroge": "NGC2207",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 2163",
       "nature": "galaxie",
-      "mag": null,
+      "mag": 11.11,
       "distance_al": null,
-      "note": "IC 2163 — galaxie documenté(e) dans la fiche Atlas de Grand Chien.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
+      "note": "Galaxie. Dimension apparente du catalogue : environ 3,37 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, IC2163, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "IC2163",
+      "constellation_catalogue": "CMa",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC2163",
+        "alias_interroge": "IC2163",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC2163",
+        "alias_interroge": "IC2163",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -287,90 +742,89 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Sirius, magnitude -1.44, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Sirius, avec -1,46 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "ι CMa – Muliphein : environ 2,32°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Grand Chien ?",
-      "r": "7 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Grand Chien désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 2287 ?",
-      "r": "NGC 2287 est un(e) amas ouvert de magnitude 4.5. Instrument conseillé : œil nu. NGC 2287 — amas ouvert documenté(e) dans la fiche Atlas de Grand Chien."
+      "q": "Quelle est la différence entre Mirzam et Sirius B ?",
+      "r": "Mirzam est une étoile distincte du dessin du Grand Chien. Sirius B est la compagne physique de Sirius A : une naine blanche très faible en comparaison de l’étoile principale, qui ne se voit pas à l’œil nu."
     },
     {
-      "q": "Quand observer Grand Chien ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Sirius, l'étoile la plus brillante du ciel."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Grand Chien. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 2287 : amas ouvert. Amas ouvert. Dimension apparente du catalogue : environ 12,00 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Grand Chien contient Sirius, l'étoile la plus brillante du ciel nocturne, à seulement 8,6 années-lumière. On peut partir de Sirius et de son compagnon Mirzam, puis descendre vers Adhara et Wezen pour dessiner le corps du chien, et terminer par M41, un amas ouvert bien visible aux jumelles sous Sirius.",
+  "message_animation": "Partir de Sirius, puis chercher Mirzam à proximité sur le ciel, avant de descendre vers Adhara et Wezen. Mirzam n’est pas la compagne de Sirius : la naine blanche de ce système est Sirius B, très difficile à observer près de l’éclat de Sirius A. M 41 se cherche sous Sirius.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 45–46–47 (fiche Atlas « Grand Chien »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "NGC 2363 : Type divergent : la fiche Atlas décrit un amas d'une soixantaine d'étoiles, le catalogue NGC le donne comme galaxie (Gx, Girafe/Cam). Désignation douteuse dans la fiche."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 2363",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Cam"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

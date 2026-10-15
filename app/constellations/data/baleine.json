@@ -14,97 +14,314 @@
   },
   "saison": "automne",
   "voie_lactee": false,
-  "repere_principal": "Diphda (β Cet), isolée au sud-ouest du Carré de Pégase, et Menkar à l'autre extrémité de la figure",
+  "repere_principal": "Commencer par Diphda et Menkar pour prendre la mesure d’une figure très étendue.",
   "constellations_voisines": [
-    "Les Poissons",
-    "Le Bélier",
-    "Le Taureau",
-    "L'Éridan",
-    "Le Fourneau",
-    "Le Sculpteur",
-    "Le Verseau"
+    "Verseau",
+    "Bélier",
+    "Éridan",
+    "Fourneau",
+    "Poissons",
+    "Sculpteur",
+    "Taureau"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Menkar",
-      "bayer": "alf Cet",
+      "bayer": "α Cet",
       "ra_deg": 45.56989,
       "dec_deg": 4.08974,
       "mag": 2.53,
-      "role": "La tête — géante rouge",
+      "role": "En haut du dessin, côté gauche — géante rouge",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Menkar",
+      "bayer_catalogue": "alf Cet",
+      "type_spectral": "M1.5IIIa",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Menkar",
+      "identifiant": "simbad:622399",
+      "simbad_id": "* alf Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Diphda",
-      "bayer": "bet Cet",
+      "bayer": "β Cet",
       "ra_deg": 10.89738,
       "dec_deg": -17.98661,
       "mag": 2.01,
-      "role": "La plus brillante de la figure — géante jaune",
+      "role": "En bas du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Diphda",
+      "bayer_catalogue": "bet Cet",
+      "type_spectral": "G9.5IIICH-1",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Diphda",
+      "identifiant": "simbad:1296450",
+      "simbad_id": "* bet Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Kaffaljidhma",
-      "bayer": "gam Cet",
+      "bayer": "γ Cet",
       "ra_deg": 40.82516,
       "dec_deg": 3.23582,
       "mag": 3.47,
-      "role": "La tête — naine blanche",
+      "role": "En haut du dessin, côté gauche — spectre complexe ou composé (A2Vn+F4V)",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * gam Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Kaffaljidhma",
+      "bayer_catalogue": "gam Cet",
+      "type_spectral": "A2Vn+F4V",
+      "nature_stellaire": "Spectre complexe ou composé (A2Vn+F4V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Kaffaljidhma",
+      "identifiant": "simbad:1408792",
+      "simbad_id": "* gam Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "Delta Cet",
-      "bayer": "del Cet",
+      "nom": "δ Cet",
+      "bayer": "δ Cet",
       "ra_deg": 39.87065,
       "dec_deg": 0.32851,
       "mag": 4.07,
-      "role": "La tête — sous-géante bleue",
+      "role": "En haut du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * del Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Cet",
+      "type_spectral": "B2IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ Cet",
+      "identifiant": "simbad:1397097",
+      "simbad_id": "* del Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "Zeta Cet",
-      "bayer": "zet Cet",
+      "nom": "Baten",
+      "bayer": "ζ Cet",
       "ra_deg": 27.86513,
       "dec_deg": -10.33503,
       "mag": 3.72,
-      "role": "Le pivot — géante orange",
+      "role": "En bas du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * zet Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Baten",
+      "bayer_catalogue": "zet Cet",
+      "type_spectral": "K0.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Baten",
+      "identifiant": "simbad:1317451",
+      "simbad_id": "* zet Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "Tau Cet",
-      "bayer": "tau Cet",
+      "nom": "τ Cet",
+      "bayer": "τ Cet",
       "ra_deg": 26.01701,
       "dec_deg": -15.93748,
       "mag": 3.5,
-      "role": "Le corps — naine jaune",
+      "role": "En bas du dessin, près de l’axe central — étoile jaune de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * tau Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tau Cet",
+      "type_spectral": "G8V",
+      "nature_stellaire": "Étoile jaune de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "τ Cet",
+      "identifiant": "simbad:1298185",
+      "simbad_id": "* tau Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "Eta Cet",
-      "bayer": "eta Cet",
+      "nom": "η Cet",
+      "bayer": "η Cet",
       "ra_deg": 17.14746,
       "dec_deg": -10.18226,
       "mag": 3.45,
-      "role": "Le corps — géante orange",
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * eta Cet ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Cet",
+      "type_spectral": "K2-IIIb",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Cet",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Cet",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "η Cet",
+      "identifiant": "simbad:1335462",
+      "simbad_id": "* eta Cet",
+      "constellation_iau": "Cet",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Cet",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Cet",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -143,22 +360,57 @@
         6
       ]
     ],
-    "commentaire": "Tracé retenu : la tête Menkar–Kaffaljidhma–Delta Cet reliée à Zeta Cet, qui sert de pivot vers le corps (Diphda, Tau Cet, Eta Cet).",
-    "note_geometrie": "Figure en deux blocs reliés par Zeta Cet. La tête est un petit triangle Menkar–Kaffaljidhma–Delta Cet (4,81° / 6,82° / 3,06°). Le corps part de Diphda, avec les trois liaisons les plus longues de la figure : Diphda–Zeta Cet 18,13°, Diphda–Tau Cet 14,60° et Delta Cet–Zeta Cet 16,01°. Diphda–Eta Cet (9,88°) et Zeta Cet–Eta Cet (10,55°) referment le corps.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Baleine : 7 étoiles et 9 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 40,7°. Le segment le plus court relie Kaffaljidhma à δ Cet (3,06°). Le plus long relie Diphda à Baten (18,13°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Menkar–Kaffaljidhma": 4.81,
-    "Menkar–Delta Cet": 6.82,
-    "Diphda–Zeta Cet": 18.13,
-    "Diphda–Tau Cet": 14.6,
-    "Diphda–Eta Cet": 9.88,
-    "Kaffaljidhma–Delta Cet": 3.06,
-    "Delta Cet–Zeta Cet": 16.01,
-    "Zeta Cet–Tau Cet": 5.88,
-    "Zeta Cet–Eta Cet": 10.55
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 2,
+      "deg": 4.8114
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "deg": 6.8241
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "deg": 18.1279
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "deg": 14.6018
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "deg": 9.8787
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 3.0598
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 16.01
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 5.8842
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "deg": 10.5469
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 246",
@@ -167,8 +419,31 @@
       "distance_al": 1813,
       "note": "Nébuleuse planétaire en forme d'anneau, à environ 1 800 années-lumière, dont l'éclat varie fortement selon la bande de mesure.",
       "instrument": "télescope",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC0246, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0246",
+      "constellation_catalogue": "Cet",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0246",
+        "alias_interroge": "NGC0246",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0246",
+        "alias_interroge": "NGC0246",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 247",
@@ -176,9 +451,32 @@
       "mag": 9.21,
       "distance_al": 11966502,
       "note": "Galaxie spirale lointaine de magnitude 9,21, à environ 12 millions d'années-lumière.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC0247, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0247",
+      "constellation_catalogue": "Cet",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0247",
+        "alias_interroge": "NGC0247",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0247",
+        "alias_interroge": "NGC0247",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "WLM",
@@ -187,18 +485,47 @@
       "distance_al": 3118164,
       "note": "Galaxie naine irrégulière du Groupe Local, très diffuse, à environ 3,1 millions d'années-lumière.",
       "instrument": "télescope",
-      "src": "S1",
-      "code": "S1"
+      "src": "Source antérieure conservée ; distance indicative, provenance détaillée dans les données",
+      "code": "AT",
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "S1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 77",
       "nature": "galaxie",
       "mag": 9.29,
       "distance_al": 60984820,
-      "note": "Galaxie spirale de type Sb vue de face, à environ 61 millions d'années-lumière.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "note": "Galaxie spirale vue de face, à environ 61 millions d'années-lumière.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1068, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1068",
+      "constellation_catalogue": "Cet",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1068",
+        "alias_interroge": "NGC1068",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1068",
+        "alias_interroge": "NGC1068",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -230,99 +557,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Diphda (β Cet), magnitude 2,01, devant Menkar (α Cet, 2,53). C'est le repère majeur au sud de la figure."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Diphda, avec 2,01 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelle étoile joue le rôle de pivot dans la figure ?",
-      "r": "Zeta Cet (magnitude 3,72) : elle est reliée à quatre autres étoiles (Delta Cet, Diphda, Tau Cet, Eta Cet)."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Kaffaljidhma – δ Cet : environ 3,06°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Pourquoi la Baleine est-elle difficile à reconnaître ?",
-      "r": "Elle est très étendue (Diphda–Zeta Cet : 18,13° ; Delta Cet–Zeta Cet : 16,01°) et ses étoiles sont de magnitude 2,01 à 4,07 seulement."
-    },
-    {
-      "q": "Quels objets peut-on viser avec un instrument ?",
-      "r": "M 77 (magnitude 9,29), NGC 247 (9,21), NGC 246 (10,9) et WLM (10,9) : tous demandent une lunette ou un télescope, WLM étant le plus délicat."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Baleine désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "À quelle distance se trouve M 77 comparée à NGC 247 ?",
-      "r": "M 77 est à environ 60 984 820 années-lumière, NGC 247 à environ 11 966 502 : M 77 est cinq fois plus lointaine."
+      "q": "Une galaxie de la Baleine est-elle liée aux étoiles du dessin ?",
+      "r": "Non. La constellation désigne une direction et une région du ciel ; une galaxie peut se trouver très loin derrière les étoiles de notre Voie lactée qui dessinent la figure."
     },
     {
-      "q": "Pourquoi NGC 246 a-t-elle deux magnitudes très différentes (8,0 et 10,9) ?",
-      "r": "OpenNGC donne 8,0 en bande B et 10,9 en bande V ; l'Atlas cite 8,0 (photographique). Pour une planétaire, cet écart signale une mesure hétérogène : à signaler."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Baleine. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Qu'est-ce que WLM ?",
-      "r": "Une galaxie naine irrégulière appartenant au Groupe Local, à environ 3 118 164 années-lumière : sa faible luminosité de surface la rend très difficile à observer."
-    },
-    {
-      "q": "Pourquoi Diphda est-elle plus brillante que Menkar, qui porte pourtant la lettre alpha ?",
-      "r": "Les lettres de Bayer ne suivent pas toujours l'ordre de luminosité : ici β Cet (2,01) est plus brillante que α Cet (2,53)."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 77 : galaxie. Galaxie spirale vue de face, à environ 61 millions d'années-lumière. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "La Baleine est une immense constellation d'automne, étirée sur plus de 34° d'ascension droite. Ses étoiles sont peu brillantes mais elle abrite quatre objets très différents : une planétaire (NGC 246), deux galaxies proches (NGC 247, WLM) et la spirale M 77.",
+  "message_animation": "Commencer par Diphda et Menkar pour prendre la mesure d’une figure très étendue. La Baleine représente le monstre marin du récit d’Andromède. Ses galaxies, comme M 77, sont des objets très lointains qui demandent un instrument : elles ne font pas partie d’un animal réel dessiné dans l’espace.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 7–8 (fiche Atlas « Baleine »)",
     "archive_texte": "atlas-observation-source/007-baleine.txt",
     "coordonnees": "Hipparcos I311 / Gaia DR3",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "WLM : absente d'OpenNGC ; magnitude V issue de SIMBAD.",
-      "NGC 246 : magnitude V (10,9) plus faible que la magnitude B (8,0), mesure hétérogène à signaler.",
-      "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

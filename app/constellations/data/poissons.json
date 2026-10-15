@@ -14,208 +14,733 @@
   },
   "saison": "automne",
   "voie_lactee": false,
-  "repere_principal": "L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase",
+  "repere_principal": "Sous le Grand Carré de Pégase, chercher l’Anneau des Poissons, puis suivre les liens du dessin vers Alrescha.",
   "constellations_voisines": [
+    "Andromède",
     "Verseau",
+    "Bélier",
     "Baleine",
     "Pégase",
-    "Andromède",
-    "Triangle",
-    "Bélier",
-    "Céphée",
-    "Lézard"
+    "Triangle"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "δ",
-      "bayer": "del",
+      "nom": "δ Psc",
+      "bayer": "δ Psc",
       "ra_deg": 12.1704,
       "dec_deg": 7.5852,
-      "mag": 4.5555,
-      "role": "Le ruban — géante orange",
+      "mag": 4.44,
+      "role": "En bas du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * del Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Psc",
+      "type_spectral": "K5-III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ Psc",
+      "identifiant": "simbad:1415044",
+      "simbad_id": "* del Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
-      "nom": "ε",
-      "bayer": "eps",
+      "nom": "ε Psc",
+      "bayer": "ε Psc",
       "ra_deg": 15.73607,
       "dec_deg": 7.89007,
-      "mag": 4.4267,
-      "role": "Le ruban — géante jaune",
+      "mag": 4.28,
+      "role": "En bas du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eps Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Psc",
+      "type_spectral": "G9IIIbFe-2",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ε Psc",
+      "identifiant": "simbad:1415289",
+      "simbad_id": "* eps Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "τ",
-      "bayer": "tau",
+      "nom": "τ Psc",
+      "bayer": "τ Psc",
       "ra_deg": 17.91494,
       "dec_deg": 30.08973,
-      "mag": 4.6751,
-      "role": "Le ruban — géante orange",
+      "mag": 4.511,
+      "role": "En haut du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tau Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tau Psc",
+      "type_spectral": "K0.5IIIb",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "τ Psc",
+      "identifiant": "simbad:1514014",
+      "simbad_id": "* tau Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Revati",
-      "bayer": "zet",
+      "bayer": "ζ Psc",
       "ra_deg": 18.43251,
       "dec_deg": 7.57549,
       "mag": 5.2849,
-      "role": "Le ruban — sous-géante blanche",
+      "role": "En bas du dessin, côté gauche — classification spectrale non renseignée pour cette entrée de catalogue",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * zet Psc ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Revati",
+      "bayer_catalogue": "zet Psc",
+      "type_spectral": null,
+      "nature_stellaire": "Classification spectrale non renseignée pour cette entrée de catalogue",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Revati",
+      "identifiant": "simbad:1415784",
+      "simbad_id": "* zet Psc",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "φ",
-      "bayer": "phi",
+      "nom": "φ Psc",
+      "bayer": "φ Psc",
       "ra_deg": 18.43723,
       "dec_deg": 24.58376,
-      "mag": 4.834,
-      "role": "Le ruban — géante orange",
+      "mag": 4.66,
+      "role": "En haut du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * phi Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "phi Psc",
+      "type_spectral": "K0III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* phi Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* phi Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "φ Psc",
+      "identifiant": "simbad:1494513",
+      "simbad_id": "* phi Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* phi Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "υ",
-      "bayer": "ups",
+      "nom": "υ Psc",
+      "bayer": "υ Psc",
       "ra_deg": 19.86657,
       "dec_deg": 27.26409,
-      "mag": 4.7736,
-      "role": "Le ruban — naine blanche",
+      "mag": 4.748,
+      "role": "En haut du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * ups Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ups Psc",
+      "type_spectral": "A3V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ups Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ups Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "υ Psc",
+      "identifiant": "simbad:1504496",
+      "simbad_id": "* ups Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ups Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "μ",
-      "bayer": "mu.",
+      "nom": "μ Psc",
+      "bayer": "μ Psc",
       "ra_deg": 22.5456,
       "dec_deg": 6.14393,
-      "mag": 4.9799,
-      "role": "Le ruban — géante orange",
+      "mag": 4.84,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * mu. Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "mu. Psc",
+      "type_spectral": "K3III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "μ Psc",
+      "identifiant": "simbad:1416199",
+      "simbad_id": "* mu. Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Alpherg",
-      "bayer": "eta",
+      "bayer": "η Psc",
       "ra_deg": 22.87081,
       "dec_deg": 15.34583,
-      "mag": 3.7914,
-      "role": "La plus brillante de la figure — géante jaune",
+      "mag": 3.62,
+      "role": "Au milieu du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eta Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alpherg",
+      "bayer_catalogue": "eta Psc",
+      "type_spectral": "G7IIIa",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alpherg",
+      "identifiant": "simbad:1454376",
+      "simbad_id": "* eta Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
-      "nom": "ν",
-      "bayer": "nu.",
+      "nom": "ν Psc",
+      "bayer": "ν Psc",
       "ra_deg": 25.35795,
       "dec_deg": 5.48761,
-      "mag": 4.5914,
-      "role": "Le ruban — géante orange",
+      "mag": 4.44,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * nu. Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. Psc",
+      "type_spectral": "K3III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ν Psc",
+      "identifiant": "simbad:1416512",
+      "simbad_id": "* nu. Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "nom": "Torcular",
-      "bayer": "omi",
+      "bayer": "ο Psc",
       "ra_deg": 26.34829,
       "dec_deg": 9.15764,
-      "mag": 4.4267,
-      "role": "La queue — géante jaune",
+      "mag": 4.26,
+      "role": "En bas du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * omi Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Torcular",
+      "bayer_catalogue": "omi Psc",
+      "type_spectral": "G8III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Torcular",
+      "identifiant": "simbad:1425804",
+      "simbad_id": "* omi Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "nom": "Alrescha",
-      "bayer": "alf",
+      "bayer": "α Psc",
       "ra_deg": 30.51167,
       "dec_deg": 2.76376,
       "mag": 3.8281,
-      "role": "Le nœud du ruban — sous-géante blanche",
+      "role": "En bas du dessin, côté gauche — type spectral kA0hA7Sr+kA2hF2mF2(IV) (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * alf Psc ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alrescha",
+      "bayer_catalogue": "alf Psc",
+      "type_spectral": "kA0hA7Sr+kA2hF2mF2(IV)",
+      "nature_stellaire": "Type spectral kA0hA7Sr+kA2hF2mF2(IV) (classification détaillée dans la source)",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alrescha",
+      "identifiant": "simbad:1407663",
+      "simbad_id": "* alf Psc",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
-      "nom": "γ",
-      "bayer": "gam",
+      "nom": "γ Psc",
+      "bayer": "γ Psc",
       "ra_deg": 349.28956,
       "dec_deg": 3.28225,
-      "mag": 3.8482,
-      "role": "Le ruban — géante jaune",
+      "mag": 3.7,
+      "role": "En bas du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * gam Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Psc",
+      "type_spectral": "G9III:Fe-2",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ Psc",
+      "identifiant": "simbad:1401934",
+      "simbad_id": "* gam Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
-      "nom": "κ",
-      "bayer": "kap",
+      "nom": "κ Psc",
+      "bayer": "κ Psc",
       "ra_deg": 351.73294,
       "dec_deg": 1.25584,
-      "mag": 4.9527,
-      "role": "Le ruban — naine blanche",
+      "mag": 4.94,
+      "role": "En bas du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * kap Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Psc",
+      "type_spectral": "A2VpSrCrSi",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "κ Psc",
+      "identifiant": "simbad:1385640",
+      "simbad_id": "* kap Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
-      "nom": "θ",
-      "bayer": "the",
+      "nom": "θ Psc",
+      "bayer": "θ Psc",
       "ra_deg": 351.99237,
       "dec_deg": 6.3791,
-      "mag": 4.4401,
-      "role": "Le ruban — géante orange",
+      "mag": 4.3,
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tet Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Psc",
+      "type_spectral": "K0.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "θ Psc",
+      "identifiant": "simbad:1412682",
+      "simbad_id": "* tet Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 14,
-      "nom": "ι",
-      "bayer": "iot",
+      "nom": "ι Psc",
+      "bayer": "ι Psc",
       "ra_deg": 354.98675,
       "dec_deg": 5.62735,
-      "mag": 4.2373,
-      "role": "Le ruban — naine jaune-blanc",
+      "mag": 4.12,
+      "role": "En bas du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * iot Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Psc",
+      "type_spectral": "F7V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ι Psc",
+      "identifiant": "simbad:1412932",
+      "simbad_id": "* iot Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 15,
-      "nom": "λ",
-      "bayer": "lam",
+      "nom": "λ Psc",
+      "bayer": "λ Psc",
       "ra_deg": 355.51201,
       "dec_deg": 1.78042,
-      "mag": 4.5578,
-      "role": "Le ruban — naine blanche",
+      "mag": 4.51,
+      "role": "En bas du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * lam Psc ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "lam Psc",
+      "type_spectral": "A7V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "λ Psc",
+      "identifiant": "simbad:1386264",
+      "simbad_id": "* lam Psc",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 16,
-      "nom": "ω",
-      "bayer": "ome",
+      "nom": "ω Psc",
+      "bayer": "ω Psc",
       "ra_deg": 359.82751,
       "dec_deg": 6.86359,
       "mag": 4.1219,
-      "role": "Le ruban — naine jaune-blanc",
+      "role": "En bas du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * ome Psc ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ome Psc",
+      "type_spectral": "F4V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ome Psc",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Psc",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ω Psc",
+      "identifiant": "simbad:1413261",
+      "simbad_id": "* ome Psc",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Psc",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ome Psc",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Psc",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         14,
@@ -239,39 +764,164 @@
         4
       ]
     ],
-    "commentaire": "Tracé IAU officiel (1 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-    "note_geometrie": "Figure construite sur 17 étoiles et 1 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Poissons : 17 étoiles et 18 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 41,2°. Le segment le plus court relie ε Psc à Revati (2,69°). Le plus long relie ω Psc à δ Psc (12,27°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Revati–Alpherg": 8.9,
-    "Revati–Torcular": 7.99,
-    "Revati–Alrescha": 12.95,
-    "Alpherg–Torcular": 7.06,
-    "Alpherg–Alrescha": 14.66,
-    "Torcular–Alrescha": 7.62
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 14,
+      "b": 13,
+      "deg": 3.0714
+    },
+    {
+      "a": 13,
+      "b": 11,
+      "deg": 4.1039
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "deg": 3.1728
+    },
+    {
+      "a": 12,
+      "b": 15,
+      "deg": 3.814
+    },
+    {
+      "a": 15,
+      "b": 14,
+      "deg": 3.8825
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "deg": 4.9682
+    },
+    {
+      "a": 16,
+      "b": 0,
+      "deg": 12.2657
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 3.5463
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 2.6904
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "deg": 4.3272
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "deg": 2.8738
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "deg": 5.817
+    },
+    {
+      "a": 10,
+      "b": 9,
+      "deg": 7.6164
+    },
+    {
+      "a": 9,
+      "b": 7,
+      "deg": 7.059
+    },
+    {
+      "a": 7,
+      "b": 4,
+      "deg": 10.1317
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "deg": 5.5255
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "deg": 3.3038
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "deg": 2.9726
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 74",
       "nature": "galaxie",
-      "mag": 9.2,
+      "mag": 9.31,
       "distance_al": null,
-      "note": "Galaxie spirale (radio) de type Sc, vue de face, dans laquelle on observe près de 200 nuages d'hydrogène ionisé.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 87-88",
-      "code": "N2"
+      "note": "Galaxie spirale (radio) de type Sc, vue de face, dans laquelle on observe près de 200 nuages d'hydrogène ionisé. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC0628, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0628",
+      "constellation_catalogue": "Psc",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0628",
+        "alias_interroge": "NGC0628",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0628",
+        "alias_interroge": "NGC0628",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 676",
       "nature": "galaxie",
-      "mag": 11,
+      "mag": 12.0,
       "distance_al": null,
-      "note": "Galaxie spirale de magnitude 10,50, vue par la tranche.",
+      "note": "Galaxie lenticulaire de magnitude 10,50, vue par la tranche. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 87-88",
-      "code": "N2"
+      "src": "OpenNGC, NGC0676, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0676",
+      "constellation_catalogue": "Psc",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0676",
+        "alias_interroge": "NGC0676",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0676",
+        "alias_interroge": "NGC0676",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -298,58 +948,88 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Alpherg, magnitude 3.7914."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Alpherg, avec 3,62 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment repérer δ et ε dans le ciel ?",
-      "r": "L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "ε Psc – Revati : environ 2,69°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-      "r": "M 74 (objet, magnitude 9.2). Voir la fiche pour la description."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Poissons désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Que raconte-t-on au public en pointant δ ?",
-      "r": "Située en saison automne. Repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
+      "q": "M 74 est-elle un amas globulaire ?",
+      "r": "Non : M 74 est une galaxie spirale vue presque de face. Sa lumière est étalée sur une grande surface, ce qui rend son observation visuelle délicate malgré une magnitude intégrée mesurable."
     },
     {
-      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-      "r": "M 74 (objet) : glob. cl. , F, vL, R, vg, psmbM, rr; = M74"
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Poissons. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Comment orienter le visiteur sur la carte ?",
-      "r": "Faire partir du repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 74 : galaxie. Galaxie spirale (radio) de type Sc, vue de face, dans laquelle on observe près de 200 nuages d'hydrogène ionisé. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Poissons : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase. Constellation d'automne (17 étoiles figurées, 2 objets du ciel profond).",
+  "message_animation": "Sous le Grand Carré de Pégase, chercher l’Anneau des Poissons, puis suivre les liens du dessin vers Alrescha. La constellation est peu contrastée. M 74 est une galaxie spirale étendue : une magnitude intégrée ne garantit pas une observation facile.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 87–88 (fiche Atlas « Poissons »)",
     "archive_texte": "atlas-observation-source/087-*.txt",
     "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "Figure : tracé IAU officiel suivi (1 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-    ]
+      "Revati : photométrie d’origine conservée, bande non confirmée.",
+      "Alrescha : photométrie d’origine conservée, bande non confirmée.",
+      "ω Psc : photométrie d’origine conservée, bande non confirmée.",
+      "Type spectral absent pour certaines entrées de catalogue : aucune classe inventée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-    "refs": [],
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "N2",
-        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
-        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
+      },
+      {
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
+      },
+      {
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
-    ]
-  }
+    ],
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

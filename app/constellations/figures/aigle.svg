@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Aigle">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="145.1" y1="322.2" x2="78.0" y2="362.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="145.1" y1="322.2" x2="241.6" y2="279.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="241.6" y1="279.4" x2="467.2" y2="310.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="467.2" y1="310.5" x2="542.0" y2="97.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="145.1" cy="322.2" r="5" fill="#222"/>
-<text x="132.1" y="312.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Altaïr</text>
-<circle cx="78.0" cy="362.1" r="5" fill="#222"/>
-<text x="65.0" y="352.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Tarazed</text>
-<circle cx="241.6" cy="279.4" r="5" fill="#222"/>
-<text x="254.6" y="269.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alshain</text>
-<circle cx="467.2" cy="310.5" r="5" fill="#222"/>
-<text x="480.2" y="300.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Eta Aql</text>
-<circle cx="542.0" cy="97.9" r="5" fill="#222"/>
-<text x="529.0" y="87.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Theta Aql</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Aigle">
+<title>Aigle</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="484.314" y1="133.495" x2="530.860" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="484.314" y1="133.495" x2="437.335" y2="236.838" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="437.335" y1="236.838" x2="467.149" y2="463.432" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="467.149" y1="463.432" x2="269.140" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="484.314" cy="133.495" r="4.99" fill="#222" data-star="simbad:2708379"/>
+<circle cx="530.860" cy="60.000" r="3.42" fill="#222" data-star="simbad:2724021"/>
+<circle cx="437.335" cy="236.838" r="2.63" fill="#222" data-star="simbad:2692199"/>
+<circle cx="467.149" cy="463.432" r="2.56" fill="#222" data-star="simbad:2660923"/>
+<circle cx="269.140" cy="540.000" r="3.02" fill="#222" data-star="simbad:2645736"/>
+<text x="543.86" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Tarazed</text>
+<text x="450.33" y="223.84" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alshain</text>
+<text x="497.31" y="120.49" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Altaïr</text>
+<text x="480.15" y="450.43" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Aql</text>
+<text x="282.14" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">θ Aql</text>
 </svg>

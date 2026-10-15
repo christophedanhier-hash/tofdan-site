@@ -8,107 +8,317 @@
   "source_atlas": "Atlas observation.pdf, pages 78–79 (fiche Atlas « Petite Ourse »)",
   "saison": "toute l'année",
   "voie_lactee": false,
-  "repere_principal": "Polaris, l'étoile qui indique le nord",
+  "repere_principal": "Partir de l’étoile polaire, puis chercher le manche et le petit bol vers Kochab et Pherkad.",
   "constellations_voisines": [
+    "Girafe",
     "Céphée",
-    "Dragon",
-    "Girafe"
+    "Dragon"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 11767,
-      "nom": "Polaris",
-      "etiq": "Polaris",
-      "bayer": "alf UMi",
+      "nom": "Étoile polaire",
+      "etiq": "Étoile polaire",
+      "bayer": "α UMi",
       "ra_deg": 37.946,
       "dec_deg": 89.264,
-      "mag": 1.97,
-      "role": "La plus brillante de la figure — supergéante jaune-blanc",
+      "mag": 2.02,
+      "role": "Bout du manche, près du pôle Nord céleste — supergéante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 11767)/ IAU"
+      "src": "SIMBAD : * alf UMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Polaris",
+      "bayer_catalogue": "alf UMi",
+      "type_spectral": "F8Ib",
+      "nature_stellaire": "Supergéante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:317713",
+      "simbad_id": "* alf UMi",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 72607,
       "nom": "Kochab",
       "etiq": "Kochab",
-      "bayer": "bet UMi",
+      "bayer": "β UMi",
       "ra_deg": 222.677,
       "dec_deg": 74.155,
-      "mag": 2.07,
-      "role": "Le bol — géante orange",
+      "mag": 2.08,
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 72607)/ IAU"
+      "src": "SIMBAD : * bet UMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Kochab",
+      "bayer_catalogue": "bet UMi",
+      "type_spectral": "K4-III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:390420",
+      "simbad_id": "* bet UMi",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 75097,
       "nom": "Pherkad",
       "etiq": "Pherkad",
-      "bayer": "gam UMi",
+      "bayer": "γ UMi",
       "ra_deg": 230.182,
       "dec_deg": 71.834,
-      "mag": 3,
-      "role": "Le bol — géante blanche",
+      "mag": 3.002,
+      "role": "En bas du dessin, côté droite — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 75097)/ IAU"
+      "src": "SIMBAD : * gam UMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Pherkad",
+      "bayer_catalogue": "gam UMi",
+      "type_spectral": "A2III",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:389721",
+      "simbad_id": "* gam UMi",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 77055,
       "nom": "ζ UMi",
-      "etiq": "ζ",
-      "bayer": "zet UMi",
+      "etiq": "ζ UMi",
+      "bayer": "ζ UMi",
       "ra_deg": 236.014,
       "dec_deg": 77.794,
-      "mag": 4.29,
-      "role": "Le manche — naine blanche",
+      "mag": 4.274,
+      "role": "En bas du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 77055)"
+      "src": "SIMBAD : * zet UMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet UMi",
+      "type_spectral": "A3Vn",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:365180",
+      "simbad_id": "* zet UMi",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 79822,
       "nom": "η UMi",
-      "etiq": "η",
-      "bayer": "eta UMi",
+      "etiq": "η UMi",
+      "bayer": "η UMi",
       "ra_deg": 244.377,
       "dec_deg": 75.755,
       "mag": 4.95,
-      "role": "Le bol — naine jaune-blanc",
+      "role": "En bas du dessin, côté gauche — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 79822)"
+      "src": "SIMBAD : * eta UMi ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta UMi",
+      "type_spectral": "F5V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (HIP 79822)",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:364867",
+      "simbad_id": "* eta UMi",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 82080,
       "nom": "ε UMi",
-      "etiq": "ε",
-      "bayer": "eps UMi",
+      "etiq": "ε UMi",
+      "bayer": "ε UMi",
       "ra_deg": 251.492,
       "dec_deg": 82.037,
-      "mag": 4.21,
-      "role": "Le manche — géante jaune",
+      "mag": 4.212,
+      "role": "Au milieu du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 82080)"
+      "src": "SIMBAD : * eps UMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps UMi",
+      "type_spectral": "G5III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:330120",
+      "simbad_id": "* eps UMi",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 85822,
       "nom": "Yildun",
       "etiq": "Yildun",
-      "bayer": "del UMi",
+      "bayer": "δ UMi",
       "ra_deg": 263.054,
       "dec_deg": 86.586,
-      "mag": 4.35,
-      "role": "Le manche — naine blanche",
+      "mag": 4.336,
+      "role": "En haut du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 85822)/ IAU"
+      "src": "SIMBAD : * del UMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Yildun",
+      "bayer_catalogue": "del UMi",
+      "type_spectral": "A1Van",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del UMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20UMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:330341",
+      "simbad_id": "* del UMi",
+      "constellation_iau": "UMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del UMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20UMi",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         3,
@@ -121,30 +331,78 @@
         0
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 7 étoiles reliées par 7 segments.",
-    "note_geometrie": "Figure construite sur 7 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie η UMi à Pherkad (5.55°) ; le plus court relie ζ UMi à η UMi (2.79°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Petite Ourse : 7 étoiles et 7 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 18,9°. Le segment le plus court relie ζ UMi à η UMi (2,79°). Le plus long relie η UMi à Pherkad (5,55°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "ζ UMi–η UMi": 2.79,
-    "η UMi–Pherkad": 5.55,
-    "Pherkad–Kochab": 3.19,
-    "Kochab–ζ UMi": 4.84,
-    "ζ UMi–ε UMi": 5.0,
-    "ε UMi–Yildun": 4.67,
-    "Yildun–Polaris": 3.97
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 2.7912
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "deg": 5.5472
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 3.1901
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 4.845
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "deg": 4.9985
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 4.6684
+    },
+    {
+      "a": 6,
+      "b": 0,
+      "deg": 3.9678
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6217",
       "nature": "galaxie",
-      "mag": 11.2,
+      "mag": 12.82,
       "distance_al": null,
-      "note": "NGC 6217 — galaxie documenté(e) dans la fiche Atlas de Petite Ourse.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 2,24 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC6217, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6217",
+      "constellation_catalogue": "UMi",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6217",
+        "alias_interroge": "NGC6217",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6217",
+        "alias_interroge": "NGC6217",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -176,85 +434,85 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Polaris, magnitude 1.97, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Étoile polaire, avec 2,02 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "ζ UMi – η UMi : environ 2,79°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Petite Ourse ?",
-      "r": "1 objet, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Petite Ourse désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 6217 ?",
-      "r": "NGC 6217 est un(e) galaxie de magnitude 11.2. Instrument conseillé : télescope. NGC 6217 — galaxie documenté(e) dans la fiche Atlas de Petite Ourse."
+      "q": "L’étoile polaire est-elle exactement immobile et la plus brillante du ciel ?",
+      "r": "Non. Elle se situe près du pôle Nord céleste, pas exactement dessus, et décrit donc un petit cercle apparent. Elle est bien moins éclatante que Sirius ; son intérêt principal est sa direction près du nord."
     },
     {
-      "q": "Quand observer Petite Ourse ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en toute l'année. Repère principal : Polaris, l'étoile qui indique le nord."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Petite Ourse. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6217 : galaxie. Galaxie. Dimension apparente du catalogue : environ 2,24 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "La Petite Ourse se repère par Polaris, l'étoile qui indique le nord : elle est presque immobile toute la nuit, ce qui a guidé les navigateurs pendant des siècles. On peut partir de Polaris et dessiner la petite casserole vers Kochab et Pherkad, les deux gardiennes du pôle.",
+  "message_animation": "Partir de l’étoile polaire, puis chercher le manche et le petit bol vers Kochab et Pherkad. La Polaire indique approximativement le nord géographique, sans être exactement sur le pôle. Les étoiles faibles de la Petite Ourse sont sensibles à la qualité du ciel.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 78–79 (fiche Atlas « Petite Ourse »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+      "η UMi : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

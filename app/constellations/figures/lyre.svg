@@ -1,22 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Lyre">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="255.4" y1="142.3" x2="117.4" y2="76.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="117.4" y1="76.1" x2="248.5" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="248.5" y1="30.0" x2="255.4" y2="142.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="255.4" y1="142.3" x2="348.4" y2="389.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="348.4" y1="389.6" x2="502.6" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="502.6" y1="430.0" x2="425.5" y2="182.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="425.5" y1="182.6" x2="255.4" y2="142.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="117.4" cy="76.1" r="4.2" fill="#222"/>
-<circle cx="248.5" cy="30.0" r="7.9" fill="#222"/>
-<circle cx="255.4" cy="142.3" r="7.7" fill="#222"/>
-<circle cx="348.4" cy="389.6" r="7.0" fill="#222"/>
-<circle cx="425.5" cy="182.6" r="7.6" fill="#222"/>
-<circle cx="502.6" cy="430.0" r="6.8" fill="#222"/>
-<text x="117.4" y="62.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">Vega</text>
-<text x="263.5" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">5</text>
-<text x="271.9" y="130.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">6</text>
-<text x="364.9" y="377.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β</text>
-<text x="440.5" y="187.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">12</text>
-<text x="517.6" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Sulafat</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Lyre">
+<title>Lyre</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="449.482" y1="199.777" x2="554.943" y2="115.667" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="554.943" y1="115.667" x2="453.369" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="453.369" y1="60.000" x2="449.482" y2="199.777" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="449.482" y1="199.777" x2="375.117" y2="495.095" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="375.117" y1="495.095" x2="245.057" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="245.057" y1="540.000" x2="314.618" y2="248.468" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="314.618" y1="248.468" x2="449.482" y2="199.777" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="554.943" cy="115.667" r="5.58" fill="#222" data-star="simbad:2900336"/>
+<circle cx="453.369" cy="60.000" r="2.20" fill="#222" data-star="simbad:2923757"/>
+<circle cx="449.482" cy="199.777" r="2.20" fill="#222" data-star="simbad:2900021"/>
+<circle cx="375.117" cy="495.095" r="2.86" fill="#222" data-star="simbad:2868583"/>
+<circle cx="314.618" cy="248.468" r="2.20" fill="#222" data-star="simbad:2900492"/>
+<circle cx="245.057" cy="540.000" r="3.00" fill="#222" data-star="simbad:2843608"/>
+<text x="388.12" y="482.10" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sheliak</text>
+<text x="258.06" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sulafat</text>
+<text x="466.37" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ε² Lyr</text>
+<text x="462.48" y="186.78" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ζ¹ Lyr</text>
+<text x="327.62" y="235.47" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ² Lyr</text>
+<text x="567.94" y="102.67" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Véga</text>
 </svg>

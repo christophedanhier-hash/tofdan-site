@@ -1,62 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Poissons">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="364.6" y1="366.5" x2="359.6" y2="355.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="359.6" y1="355.6" x2="353.2" y2="400.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="353.2" y1="400.5" x2="359.1" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="359.1" y1="430.0" x2="365.2" y2="422.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="365.2" y1="422.4" x2="364.6" y2="366.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="364.6" y1="366.5" x2="367.8" y2="348.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="367.8" y1="348.6" x2="349.0" y2="338.2" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="349.0" y1="338.2" x2="336.5" y2="333.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="336.5" y1="333.8" x2="325.0" y2="338.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="325.0" y1="338.3" x2="304.0" y2="359.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="304.0" y1="359.0" x2="287.4" y2="368.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="287.4" y1="368.5" x2="252.2" y2="408.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="252.2" y1="408.1" x2="281.1" y2="315.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="281.1" y1="315.5" x2="302.2" y2="227.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="302.2" y1="227.5" x2="324.9" y2="101.2" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="324.9" y1="101.2" x2="327.3" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="327.3" y1="30.0" x2="318.1" y2="66.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="318.1" y1="66.1" x2="324.9" y2="101.2" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="349.0" cy="338.2" r="7.8" fill="#222"/>
-<circle cx="336.5" cy="333.8" r="7.7" fill="#222"/>
-<circle cx="327.3" cy="30.0" r="7.9" fill="#222"/>
-<circle cx="325.0" cy="338.3" r="8.4" fill="#222"/>
-<circle cx="324.9" cy="101.2" r="8.1" fill="#222"/>
-<circle cx="318.1" cy="66.1" r="8.0" fill="#222"/>
-<circle cx="304.0" cy="359.0" r="8.2" fill="#222"/>
-<circle cx="302.2" cy="227.5" r="7.2" fill="#222"/>
-<circle cx="287.4" cy="368.5" r="7.9" fill="#222"/>
-<circle cx="281.1" cy="315.5" r="7.7" fill="#222"/>
-<circle cx="252.2" cy="408.1" r="7.3" fill="#222"/>
-<circle cx="353.2" cy="400.5" r="7.3" fill="#222"/>
-<circle cx="359.1" cy="430.0" r="8.2" fill="#222"/>
-<circle cx="359.6" cy="355.6" r="7.8" fill="#222"/>
-<circle cx="364.6" cy="366.5" r="7.6" fill="#222"/>
-<circle cx="365.2" cy="422.4" r="7.8" fill="#222"/>
-<circle cx="367.8" cy="348.6" r="7.5" fill="#222"/>
-<line x1="325.0" y1="338.3" x2="379.0" y2="338.3" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="379.0" y="342.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Revati</text>
-<text x="353.0" y="321.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ε</text>
-<line x1="359.6" y1="355.6" x2="337.1" y2="378.1" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="337.1" y="382.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">θ</text>
-<text x="379.6" y="371.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ι</text>
-<line x1="349.0" y1="338.2" x2="349.0" y2="278.2" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="349.0" y="282.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">δ</text>
-<text x="319.0" y="363.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">μ</text>
-<line x1="367.8" y1="348.6" x2="367.8" y2="288.6" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="367.8" y="293.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">ω</text>
-<text x="368.2" y="405.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
-<text x="287.4" y="397.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">ν</text>
-<line x1="281.1" y1="315.5" x2="261.6" y2="296.0" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="261.6" y="300.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Torcular</text>
-<text x="380.2" y="426.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">λ</text>
-<text x="333.1" y="70.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">υ</text>
-<line x1="359.1" y1="430.0" x2="339.6" y2="410.5" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="339.6" y="415.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">κ</text>
-<text x="342.3" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">τ</text>
-<text x="339.9" y="105.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">φ</text>
-<line x1="252.2" y1="408.1" x2="232.7" y2="388.6" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="232.7" y="393.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alrescha</text>
-<text x="317.2" y="232.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alpherg</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Poissons">
+<title>Poissons</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="643.084" y1="463.634" x2="692.200" y2="448.905" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="692.200" y1="448.905" x2="740.000" y2="498.875" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="498.875" x2="700.133" y2="534.744" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="700.133" y1="534.744" x2="636.544" y2="527.961" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="636.544" y1="527.961" x2="643.084" y2="463.634" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="643.084" y1="463.634" x2="562.835" y2="445.958" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="562.835" y1="445.958" x2="362.591" y2="436.935" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="362.591" y1="436.935" x2="305.039" y2="431.542" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="305.039" y1="431.542" x2="261.326" y2="435.987" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="261.326" y1="435.987" x2="193.807" y2="457.861" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="193.807" y1="457.861" x2="147.315" y2="467.258" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="147.315" y1="467.258" x2="60.000" y2="509.534" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="60.000" y1="509.534" x2="133.441" y2="405.913" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="133.441" y1="405.913" x2="194.079" y2="306.404" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="194.079" y1="306.404" x2="269.232" y2="156.886" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="269.232" y1="156.886" x2="280.591" y2="65.256" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="280.591" y1="65.256" x2="249.762" y2="111.334" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="249.762" y1="111.334" x2="269.232" y2="156.886" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="362.591" cy="436.935" r="2.20" fill="#222" data-star="simbad:1415044"/>
+<circle cx="305.039" cy="431.542" r="2.20" fill="#222" data-star="simbad:1415289"/>
+<circle cx="280.591" cy="65.256" r="2.20" fill="#222" data-star="simbad:1514014"/>
+<circle cx="261.326" cy="435.987" r="2.20" fill="#222" data-star="simbad:1415784"/>
+<circle cx="269.232" cy="156.886" r="2.20" fill="#222" data-star="simbad:1494513"/>
+<circle cx="249.762" cy="111.334" r="2.20" fill="#222" data-star="simbad:1504496"/>
+<circle cx="193.807" cy="457.861" r="2.20" fill="#222" data-star="simbad:1416199"/>
+<circle cx="194.079" cy="306.404" r="2.70" fill="#222" data-star="simbad:1454376"/>
+<circle cx="147.315" cy="467.258" r="2.20" fill="#222" data-star="simbad:1416512"/>
+<circle cx="133.441" cy="405.913" r="2.20" fill="#222" data-star="simbad:1425804"/>
+<circle cx="60.000" cy="509.534" r="2.54" fill="#222" data-star="simbad:1407663"/>
+<circle cx="740.000" cy="498.875" r="2.64" fill="#222" data-star="simbad:1401934"/>
+<circle cx="700.133" cy="534.744" r="2.20" fill="#222" data-star="simbad:1385640"/>
+<circle cx="692.200" cy="448.905" r="2.20" fill="#222" data-star="simbad:1412682"/>
+<circle cx="643.084" cy="463.634" r="2.30" fill="#222" data-star="simbad:1412932"/>
+<circle cx="636.544" cy="527.961" r="2.20" fill="#222" data-star="simbad:1386264"/>
+<circle cx="562.835" cy="445.958" r="2.30" fill="#222" data-star="simbad:1413261"/>
+<text x="146.44" y="392.91" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Torcular</text>
+<text x="73.00" y="496.53" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alrescha</text>
+<text x="207.08" y="293.40" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alpherg</text>
+<text x="204.53" y="422.99" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Revati</text>
+<text x="375.59" y="423.93" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ Psc</text>
+<text x="318.04" y="418.54" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ε Psc</text>
+<text x="293.59" y="52.26" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Psc</text>
+<text x="282.23" y="143.89" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">φ Psc</text>
+<text x="262.76" y="98.33" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">υ Psc</text>
+<text x="206.81" y="444.86" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">μ Psc</text>
+<text x="97.82" y="454.26" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ν Psc</text>
+<text x="753.00" y="485.87" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ Psc</text>
+<text x="713.13" y="521.74" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">κ Psc</text>
+<text x="705.20" y="435.90" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">θ Psc</text>
+<text x="593.58" y="450.63" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ι Psc</text>
+<text x="649.54" y="514.96" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">λ Psc</text>
+<text x="513.34" y="432.96" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ω Psc</text>
 </svg>

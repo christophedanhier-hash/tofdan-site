@@ -8,61 +8,185 @@
   "source_atlas": "Atlas observation.pdf — fiche « Flèche »",
   "saison": "été",
   "voie_lactee": true,
-  "repere_principal": "Une petite flèche : pointe en γ Sge, hampe en δ Sge, empennage en α et β Sge.",
+  "repere_principal": "Chercher la petite Flèche entre l’Aigle et le Cygne.",
   "constellations_voisines": [
-    "Hercule",
-    "Petit Renard",
+    "Aigle",
     "Dauphin",
-    "Aigle"
+    "Hercule",
+    "Petit Renard"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "β Sge",
-      "bayer": "bet Sge",
+      "bayer": "β Sge",
       "ra_deg": 295.2622,
       "dec_deg": 17.4761,
-      "mag": 4.39,
-      "role": "L'empennage — géante jaune",
+      "mag": 4.38,
+      "role": "Empennage de la Flèche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * bet Sge ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Sge",
+      "type_spectral": "G8IIIaCN0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "β Sge",
+      "identifiant": "simbad:2753853",
+      "simbad_id": "* bet Sge",
+      "constellation_iau": "Sge",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Sge",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sge",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "δ Sge",
-      "bayer": "del Sge",
+      "bayer": "δ Sge",
       "ra_deg": 296.8469,
       "dec_deg": 18.5343,
-      "mag": 3.68,
-      "role": "Le fût — géante lumineuse rouge",
+      "mag": 3.81,
+      "role": "Hampe de la Flèche — spectre complexe ou composé (M2II+B0V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * del Sge ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Sge",
+      "type_spectral": "M2II+B0V",
+      "nature_stellaire": "Spectre complexe ou composé (M2II+B0V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ Sge",
+      "identifiant": "simbad:2772282",
+      "simbad_id": "* del Sge",
+      "constellation_iau": "Sge",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Sge",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sge",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Sham",
-      "bayer": "alf Sge",
+      "bayer": "α Sge",
       "ra_deg": 295.0241,
       "dec_deg": 18.0139,
-      "mag": 4.39,
-      "role": "Le fût — géante lumineuse jaune",
+      "mag": 4.38,
+      "role": "Empennage de la Flèche — géante lumineuse jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * alf Sge ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sham",
+      "bayer_catalogue": "alf Sge",
+      "type_spectral": "G1II",
+      "nature_stellaire": "Géante lumineuse jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Sham",
+      "identifiant": "simbad:2771739",
+      "simbad_id": "* alf Sge",
+      "constellation_iau": "Sge",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Sge",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sge",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "γ Sge",
-      "bayer": "gam Sge",
+      "bayer": "γ Sge",
       "ra_deg": 299.6891,
       "dec_deg": 19.4921,
-      "mag": 3.51,
-      "role": "La plus brillante de la figure — géante rouge",
+      "mag": 3.47,
+      "role": "Pointe de la Flèche — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * gam Sge ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Sge",
+      "type_spectral": "M0-III",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Sge",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sge",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ Sge",
+      "identifiant": "simbad:2773303",
+      "simbad_id": "* gam Sge",
+      "constellation_iau": "Sge",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Sge",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sge",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -77,26 +201,67 @@
         3
       ]
     ],
-    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-    "note_geometrie": "La Flèche est minuscule mais son dessin est limpide : trois segments suffisent. La hampe va de β Sge à δ Sge (1,84°), prolongée par δ Sge–γ Sge (2,85°) vers la pointe. L'empennage est marqué par le couple Sham (α Sge) et β Sge, séparés de 1,81°. Le plus long segment (δ Sge–γ Sge, 2,85°) désigne la direction du vol, vers le Sagittaire. Aucune liaison ne dépasse 3° : toute la constellation tient dans le champ d'une paire de jumelles.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Flèche : 4 étoiles et 3 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 4,7°. Le segment le plus court relie δ Sge à Sham (1,81°). Le plus long relie δ Sge à γ Sge (2,85°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-    "β Sge–δ Sge": 1.84,
-    "δ Sge–Sham": 1.81,
-    "δ Sge–γ Sge": 2.85
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 1.8415
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 1.8074
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 2.8527
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 71",
       "nature": "amas globulaire",
-      "mag": 8.19,
-      "distance_al": 13000,
-      "note": "Amas globulaire très lâche : on le prend souvent pour un amas ouvert tant ses étoiles sont dispersées.",
+      "mag": 7.16,
+      "distance_al": 13046,
+      "note": "Amas globulaire. Distance au Soleil : environ 13000 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "O3",
-      "code": "O3"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6838, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6838",
+      "constellation_catalogue": "Sge",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6838",
+        "alias_interroge": "NGC6838",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6838 M 71",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6838 M 71",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 4.0,
+        "incertitude_kpc": 0.05,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.03,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -127,79 +292,83 @@
     }
   ],
   "questions_observation": [
-    "Vois-tu une flèche, ou simplement un petit alignement d'étoiles ?",
-    "Repères-tu la pointe, la hampe et l'empennage ?",
-    "La Flèche te paraît-elle plus petite ou plus grande que le Dauphin voisin ?",
-    "Distingues-tu la direction dans laquelle elle semble « voler » ?",
-    "Arrives-tu à la retrouver après avoir regardé ailleurs ?"
+    {
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "γ Sge, avec 3,47 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
+    },
+    {
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "δ Sge – Sham : environ 1,81°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
+    },
+    {
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Flèche désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
+    }
   ],
   "questions_guide": [
-    "Cherche une toute petite flèche entre Hercule et l'Aigle, au-dessus du Dauphin.",
-    "Trois étoiles alignées forment la hampe : c'est le repère le plus sûr.",
-    "Sham, la « flèche » en arabe, marque l'empennage.",
-    "La pointe indique la direction du Sagittaire, vers le cœur de la Voie lactée."
+    {
+      "q": "Quelles étoiles représentent l’empennage et la pointe ?",
+      "r": "Dans le dessin retenu, Sham et β forment les deux branches de l’empennage. La hampe passe par δ vers γ, située à la pointe. Cette description est celle du dessin, pas d’un objet matériel dans l’espace."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Flèche. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 71 : amas globulaire. Amas globulaire. Distance au Soleil : environ 13000 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
+    }
   ],
-  "message_animation": "La Flèche est minuscule mais son dessin est immédiat : une pointe, une hampe, un empennage. Elle file vers le Sagittaire, au cœur de la Voie lactée d'été.",
+  "message_animation": "Chercher la petite Flèche entre l’Aigle et le Cygne. Sham et β dessinent l’empennage ; δ est sur la hampe et γ vers la pointe. L’orientation de ce petit motif n’en fait pas une flèche physiquement dirigée vers une autre constellation.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf — fiche « Flèche »",
     "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "3 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

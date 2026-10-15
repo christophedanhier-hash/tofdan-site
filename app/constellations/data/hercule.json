@@ -8,16 +8,16 @@
   "source_atlas": "Atlas observation.pdf, pages 54–55 (fiche Atlas « Hercule »)",
   "saison": "été",
   "voie_lactee": false,
-  "repere_principal": "Le quadrilatère d'Hercule et le Grand Amas M 13",
+  "repere_principal": "Repérer le quadrilatère central d’Hercule, formé par ζ, η, π et ε.",
   "constellations_voisines": [
-    "Dragon",
-    "Bouvier",
-    "Couronne Boréale",
-    "Serpent",
-    "Ophiuchus",
     "Aigle",
-    "Flèche",
+    "Bouvier",
+    "Couronne boréale",
+    "Dragon",
     "Lyre",
+    "Ophiuchus",
+    "Serpent",
+    "Flèche",
     "Petit Renard"
   ],
   "etoiles": [
@@ -25,278 +25,912 @@
       "i": 0,
       "hip": 77760,
       "nom": "χ Her",
-      "etiq": "χ",
-      "bayer": "chi Her",
+      "etiq": "χ Her",
+      "bayer": "χ Her",
       "ra_deg": 238.167,
       "dec_deg": 42.45,
-      "mag": 4.6,
-      "role": "La jambe — naine jaune-blanc",
+      "mag": 4.62,
+      "role": "En haut du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 77760)"
+      "src": "SIMBAD : * chi Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "chi Her",
+      "type_spectral": "F8VFe-2Hdel-1",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* chi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20chi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* chi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20chi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:496214",
+      "simbad_id": "* chi Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* chi Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20chi%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 79101,
       "nom": "φ Her",
-      "etiq": "φ",
-      "bayer": "phi Her",
+      "etiq": "φ Her",
+      "bayer": "φ Her",
       "ra_deg": 242.192,
       "dec_deg": 44.935,
-      "mag": 4.23,
-      "role": "La jambe — naine bleue",
+      "mag": 4.27,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 79101)"
+      "src": "SIMBAD : * phi Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "phi Her",
+      "type_spectral": "B9VspHgMn",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* phi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* phi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:454518",
+      "simbad_id": "* phi Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* phi Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 79992,
       "nom": "τ Her",
-      "etiq": "τ",
-      "bayer": "tau Her",
+      "etiq": "τ Her",
+      "bayer": "τ Her",
       "ra_deg": 244.935,
       "dec_deg": 46.313,
-      "mag": 3.91,
-      "role": "Le pied nord — naine bleue",
+      "mag": 3.87,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 79992)"
+      "src": "SIMBAD : * tau Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tau Her",
+      "type_spectral": "B5V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:7870649",
+      "simbad_id": "* tau Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 80170,
       "nom": "γ Her",
-      "etiq": "γ",
-      "bayer": "gam Her",
+      "etiq": "γ Her",
+      "bayer": "γ Her",
       "ra_deg": 245.48,
       "dec_deg": 19.153,
-      "mag": 3.74,
-      "role": "Le tibia — géante blanche",
+      "mag": 3.76,
+      "role": "En bas du dessin, côté droite — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80170)"
+      "src": "SIMBAD : * gam Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Her",
+      "type_spectral": "A9IIIbn",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2761392",
+      "simbad_id": "* gam Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 80463,
       "nom": "Cujam",
       "etiq": "Cujam",
-      "bayer": "ome Her",
+      "bayer": "ω Her",
       "ra_deg": 246.354,
       "dec_deg": 14.033,
-      "mag": 4.57,
-      "role": "Le pied — naine blanche",
+      "mag": 4.58,
+      "role": "En bas du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80463)/ IAU"
+      "src": "SIMBAD : * ome Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Cujam",
+      "bayer_catalogue": "ome Her",
+      "type_spectral": "A2VpCrSr",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ome Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ome Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2729071",
+      "simbad_id": "* ome Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ome Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 80816,
       "nom": "Kornephoros",
       "etiq": "Kornephoros",
-      "bayer": "bet Her",
+      "bayer": "β Her",
       "ra_deg": 247.555,
       "dec_deg": 21.49,
-      "mag": 2.78,
-      "role": "La plus brillante de la figure — géante jaune",
+      "mag": 2.77,
+      "role": "En bas du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80816)/ IAU"
+      "src": "SIMBAD : * bet Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Kornephoros",
+      "bayer_catalogue": "bet Her",
+      "type_spectral": "G7IIIaFe-0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2779309",
+      "simbad_id": "* bet Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 81008,
-      "nom": "29 Her",
-      "etiq": "29",
+      "nom": "h Her",
+      "etiq": "h Her",
       "bayer": "h Her",
       "ra_deg": 248.152,
       "dec_deg": 11.488,
-      "mag": 4.84,
-      "role": "Le pied — géante orange",
+      "mag": 4.85,
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 81008)"
+      "src": "SIMBAD : * h Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "h Her",
+      "type_spectral": "K4.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* h Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20h%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* h Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20h%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2713412",
+      "simbad_id": "* h Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* h Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20h%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 81126,
       "nom": "σ Her",
-      "etiq": "σ",
-      "bayer": "sig Her",
+      "etiq": "σ Her",
+      "bayer": "σ Her",
       "ra_deg": 248.526,
       "dec_deg": 42.437,
-      "mag": 4.2,
-      "role": "Le bras — naine bleue",
+      "mag": 4.196,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 81126)"
+      "src": "SIMBAD : * sig Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "sig Her",
+      "type_spectral": "B9V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* sig Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* sig Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2942308",
+      "simbad_id": "* sig Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* sig Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 81693,
       "nom": "ζ Her",
-      "etiq": "ζ",
-      "bayer": "zet Her",
+      "etiq": "ζ Her",
+      "bayer": "ζ Her",
       "ra_deg": 250.323,
       "dec_deg": 31.602,
-      "mag": 2.81,
-      "role": "Le corps — sous-géante jaune",
+      "mag": 2.8,
+      "role": "Sommet du quadrilatère central — sous-géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 81693)"
+      "src": "SIMBAD : * zet Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Her",
+      "type_spectral": "G0IV",
+      "nature_stellaire": "Sous-géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2835800",
+      "simbad_id": "* zet Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 81833,
       "nom": "η Her",
-      "etiq": "η",
-      "bayer": "eta Her",
+      "etiq": "η Her",
+      "bayer": "η Her",
       "ra_deg": 250.724,
       "dec_deg": 38.922,
-      "mag": 3.48,
-      "role": "Le bras — géante jaune",
+      "mag": 3.5,
+      "role": "Sommet du quadrilatère central, près de M 13 — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 81833)"
+      "src": "SIMBAD : * eta Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Her",
+      "type_spectral": "G7IIIFe-1",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2917411",
+      "simbad_id": "* eta Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "hip": 83207,
       "nom": "ε Her",
-      "etiq": "ε",
-      "bayer": "eps Her",
+      "etiq": "ε Her",
+      "bayer": "ε Her",
       "ra_deg": 255.073,
       "dec_deg": 30.926,
       "mag": 3.92,
-      "role": "Le torse — naine blanche",
+      "role": "Sommet du quadrilatère central — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 83207)"
+      "src": "SIMBAD : * eps Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Her",
+      "type_spectral": "A0V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2836946",
+      "simbad_id": "* eps Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "hip": 84345,
       "nom": "Rasalgethi",
       "etiq": "Rasalgethi",
-      "bayer": "alf01 Her",
+      "bayer": "α Her",
       "ra_deg": 258.662,
       "dec_deg": 14.39,
-      "mag": 2.78,
-      "role": "La tête — supergéante rouge",
+      "mag": 3.08,
+      "role": "Tête du personnage — spectre complexe ou composé (M5Ib-II+G5III+F2V:)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 84345)"
+      "src": "SIMBAD : * alf Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Rasalgethi",
+      "bayer_catalogue": "alf Her",
+      "type_spectral": "M5Ib-II+G5III+F2V:",
+      "nature_stellaire": "Spectre complexe ou composé (M5Ib-II+G5III+F2V:)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "Synthèse Alpha Herculis, éclat combiné indicatif et variable",
+        "url": "https://en.wikipedia.org/wiki/Alpha_Herculis",
+        "intervalle": [
+          2.7,
+          4.0
+        ],
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2730756",
+      "simbad_id": "* alf Her",
+      "alerte": "Étoile variable : la magnitude tabulée est indicative et ne décrit pas son éclat à toute date.",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "hip": 84379,
       "nom": "Sarin",
       "etiq": "Sarin",
-      "bayer": "del Her",
+      "bayer": "δ Her",
       "ra_deg": 258.758,
       "dec_deg": 24.84,
-      "mag": 3.12,
-      "role": "La hanche — sous-géante blanche",
+      "mag": 3.13,
+      "role": "En bas du dessin, près de l’axe central — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 84379)/ IAU"
+      "src": "SIMBAD : * del Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sarin",
+      "bayer_catalogue": "del Her",
+      "type_spectral": "A1IVn",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2781350",
+      "simbad_id": "* del Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
       "hip": 84380,
       "nom": "π Her",
-      "etiq": "π",
-      "bayer": "pi. Her",
+      "etiq": "π Her",
+      "bayer": "π Her",
       "ra_deg": 258.762,
       "dec_deg": 36.809,
-      "mag": 3.16,
-      "role": "La main — géante lumineuse orange",
+      "mag": 3.18,
+      "role": "Sommet du quadrilatère central — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 84380)"
+      "src": "SIMBAD : * pi. Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "pi. Her",
+      "type_spectral": "K3II",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* pi. Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* pi. Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2896727",
+      "simbad_id": "* pi. Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* pi. Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 14,
       "hip": 85112,
       "nom": "ρ Her",
-      "etiq": "ρ",
-      "bayer": "rho Her",
+      "etiq": "ρ Her",
+      "bayer": "ρ Her",
       "ra_deg": 260.921,
       "dec_deg": 37.146,
-      "mag": 4.15,
-      "role": "La main — géante blanche",
+      "mag": 4.17,
+      "role": "En haut du dessin, côté gauche — spectre complexe ou composé (A0III+B9.5IVn)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 85112)"
+      "src": "SIMBAD : * rho Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "rho Her",
+      "type_spectral": "A0III+B9.5IVn",
+      "nature_stellaire": "Spectre complexe ou composé (A0III+B9.5IVn)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* rho Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* rho Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:9644141",
+      "simbad_id": "* rho Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* rho Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 15,
       "hip": 85693,
-      "nom": "λ Her",
-      "etiq": "λ",
-      "bayer": "lam Her",
+      "nom": "Maasym",
+      "etiq": "Maasym",
+      "bayer": "λ Her",
       "ra_deg": 262.685,
       "dec_deg": 26.111,
       "mag": 4.41,
-      "role": "La hanche — géante orange",
+      "role": "Au milieu du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 85693)"
+      "src": "SIMBAD : * lam Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Maasym",
+      "bayer_catalogue": "lam Her",
+      "type_spectral": "K3.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2798916",
+      "simbad_id": "* lam Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 16,
       "hip": 86414,
       "nom": "ι Her",
-      "etiq": "ι",
-      "bayer": "iot Her",
+      "etiq": "ι Her",
+      "bayer": "ι Her",
       "ra_deg": 264.866,
       "dec_deg": 46.006,
-      "mag": 3.82,
-      "role": "Le pied nord — sous-géante bleue",
+      "mag": 3.8,
+      "role": "En haut du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 86414)"
+      "src": "SIMBAD : * iot Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Her",
+      "type_spectral": "B3IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:336561",
+      "simbad_id": "* iot Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 17,
       "hip": 86974,
-      "nom": "86 Her",
-      "etiq": "86",
-      "bayer": "mu. Her",
+      "nom": "μ¹ Her",
+      "etiq": "μ¹ Her",
+      "bayer": "μ¹ Her",
       "ra_deg": 266.615,
       "dec_deg": 27.722,
       "mag": 3.42,
-      "role": "Le flanc — sous-géante jaune",
+      "role": "Au milieu du dessin, côté gauche — sous-géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 86974)"
+      "src": "SIMBAD : * mu.01 Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "mu.01 Her",
+      "type_spectral": "G5IV",
+      "nature_stellaire": "Sous-géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu.01 Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.01%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu.01 Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.01%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2799583",
+      "simbad_id": "* mu.01 Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu.01 Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.01%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 18,
       "hip": 87808,
       "nom": "θ Her",
-      "etiq": "θ",
-      "bayer": "the Her",
+      "etiq": "θ Her",
+      "bayer": "θ Her",
       "ra_deg": 269.063,
       "dec_deg": 37.251,
-      "mag": 3.86,
-      "role": "La main ouest — géante lumineuse orange",
+      "mag": 3.88,
+      "role": "En haut du dessin, côté gauche — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 87808)"
+      "src": "SIMBAD : * tet Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Her",
+      "type_spectral": "K1IIaCN2",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2898560",
+      "simbad_id": "* tet Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 19,
       "hip": 87933,
       "nom": "ξ Her",
-      "etiq": "ξ",
-      "bayer": "ksi Her",
+      "etiq": "ξ Her",
+      "bayer": "ξ Her",
       "ra_deg": 269.441,
       "dec_deg": 29.248,
       "mag": 3.7,
-      "role": "Le flanc — géante jaune",
+      "role": "Au milieu du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 87933)"
+      "src": "SIMBAD : * ksi Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ksi Her",
+      "type_spectral": "G8.5III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ksi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ksi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2818938",
+      "simbad_id": "* ksi Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ksi Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 20,
       "hip": 88794,
       "nom": "ο Her",
-      "etiq": "ο",
-      "bayer": "omi Her",
+      "etiq": "ο Her",
+      "bayer": "ο Her",
       "ra_deg": 271.886,
       "dec_deg": 28.762,
-      "mag": 3.84,
-      "role": "Le flanc — géante bleue",
+      "mag": 3.827,
+      "role": "Au milieu du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 88794)"
+      "src": "SIMBAD : * omi Her ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "omi Her",
+      "type_spectral": "B9.5III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi Her",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Her",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2819339",
+      "simbad_id": "* omi Her",
+      "constellation_iau": "Her",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi Her",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Her",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         16,
@@ -336,85 +970,304 @@
         5
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 21 étoiles reliées par 22 segments.",
-    "note_geometrie": "Figure construite sur 21 étoiles et 22 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Rasalgethi à Kornephoros (12.72°) ; le plus court relie ρ Her à π Her (1.76°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Hercule : 21 étoiles et 22 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 37,3°. Le segment le plus court relie ρ Her à π Her (1,76°). Le plus long relie Rasalgethi à Kornephoros (12,72°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "ι Her–θ Her": 9.3,
-    "θ Her–ρ Her": 6.48,
-    "ρ Her–π Her": 1.76,
-    "π Her–η Her": 6.69,
-    "η Her–σ Her": 3.89,
-    "σ Her–τ Her": 4.65,
-    "τ Her–φ Her": 2.36,
-    "φ Her–χ Her": 3.83,
-    "η Her–ζ Her": 7.33,
-    "ζ Her–Kornephoros": 10.41,
-    "Kornephoros–γ Her": 3.04,
-    "γ Her–Cujam": 5.19,
-    "Cujam–29 Her": 3.09,
-    "ζ Her–ε Her": 4.12,
-    "ε Her–π Her": 6.63,
-    "ο Her–ξ Her": 2.19,
-    "ξ Her–86 Her": 2.92,
-    "86 Her–λ Her": 3.86,
-    "λ Her–Sarin": 3.77,
-    "ε Her–Sarin": 6.9,
-    "Sarin–Rasalgethi": 10.45,
-    "Rasalgethi–Kornephoros": 12.72
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 16,
+      "b": 18,
+      "deg": 9.2965
+    },
+    {
+      "a": 18,
+      "b": 14,
+      "deg": 6.4843
+    },
+    {
+      "a": 14,
+      "b": 13,
+      "deg": 1.7573
+    },
+    {
+      "a": 13,
+      "b": 9,
+      "deg": 6.6854
+    },
+    {
+      "a": 9,
+      "b": 7,
+      "deg": 3.8898
+    },
+    {
+      "a": 7,
+      "b": 2,
+      "deg": 4.6477
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 2.3618
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 3.826
+    },
+    {
+      "a": 9,
+      "b": 8,
+      "deg": 7.3273
+    },
+    {
+      "a": 8,
+      "b": 5,
+      "deg": 10.4094
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "deg": 3.0409
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 5.188
+    },
+    {
+      "a": 4,
+      "b": 6,
+      "deg": 3.0906
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "deg": 4.1158
+    },
+    {
+      "a": 10,
+      "b": 13,
+      "deg": 6.6311
+    },
+    {
+      "a": 20,
+      "b": 19,
+      "deg": 2.1928
+    },
+    {
+      "a": 19,
+      "b": 17,
+      "deg": 2.915
+    },
+    {
+      "a": 17,
+      "b": 15,
+      "deg": 3.8565
+    },
+    {
+      "a": 15,
+      "b": 12,
+      "deg": 3.7659
+    },
+    {
+      "a": 10,
+      "b": 12,
+      "deg": 6.9014
+    },
+    {
+      "a": 12,
+      "b": 11,
+      "deg": 10.4504
+    },
+    {
+      "a": 11,
+      "b": 5,
+      "deg": 12.722
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6205",
       "nature": "amas globulaire",
-      "mag": 5.9,
-      "distance_al": null,
-      "note": "NGC 6205 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "mag": 5.81,
+      "distance_al": 24201,
+      "note": "Amas globulaire. Distance au Soleil : environ 24200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6205, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6205",
+      "constellation_catalogue": "Her",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6205",
+        "alias_interroge": "NGC6205",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6205 M 13",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6205 M 13",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 7.42,
+        "incertitude_kpc": 0.08,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6341",
       "nature": "amas globulaire",
-      "mag": 6.5,
-      "distance_al": null,
-      "note": "NGC 6341 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
+      "mag": 6.51,
+      "distance_al": 27723,
+      "note": "Amas globulaire. Distance au Soleil : environ 27700 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6341, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6341",
+      "constellation_catalogue": "Her",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6341",
+        "alias_interroge": "NGC6341",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6341 M 92",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6341 M 92",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 8.5,
+        "incertitude_kpc": 0.07,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.03,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6229",
       "nature": "amas globulaire",
-      "mag": 9.4,
-      "distance_al": null,
-      "note": "NGC 6229 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
+      "mag": 9.33,
+      "distance_al": 98206,
+      "note": "Amas globulaire. Distance au Soleil : environ 98200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6229, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6229",
+      "constellation_catalogue": "Her",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6229",
+        "alias_interroge": "NGC6229",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6229",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6229",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 30.11,
+        "incertitude_kpc": 0.47,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.05,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6210",
       "nature": "nébuleuse planétaire",
-      "mag": 9,
+      "mag": 9.65,
       "distance_al": null,
-      "note": "NGC 6210 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Hercule.",
+      "note": "Nébuleuse planétaire. Dimension apparente du catalogue : environ 0,50 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC6210, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6210",
+      "constellation_catalogue": "Her",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6210",
+        "alias_interroge": "NGC6210",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6210",
+        "alias_interroge": "NGC6210",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6207",
       "nature": "galaxie",
-      "mag": 11.6,
+      "mag": 11.64,
       "distance_al": null,
-      "note": "NGC 6207 — galaxie documenté(e) dans la fiche Atlas de Hercule.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 3,46 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC6207, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6207",
+      "constellation_catalogue": "Her",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6207",
+        "alias_interroge": "NGC6207",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6207",
+        "alias_interroge": "NGC6207",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -446,85 +1299,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Kornephoros, magnitude 2.78, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Kornephoros, avec 2,77 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "ρ Her – π Her : environ 1,76°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Hercule ?",
-      "r": "5 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Hercule désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 6205 ?",
-      "r": "NGC 6205 est un(e) amas globulaire de magnitude 5.9. Instrument conseillé : œil nu. NGC 6205 — amas globulaire documenté(e) dans la fiche Atlas de Hercule."
+      "q": "Quelles étoiles forment le quadrilatère de repérage d’Hercule ?",
+      "r": "Les quatre sommets sont ζ, η, π et ε d’Hercule. Il faut distinguer cette figure centrale des étoiles brillantes situées ailleurs dans la constellation, notamment Kornephoros et Rasalgethi."
     },
     {
-      "q": "Quand observer Hercule ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Le quadrilatère d'Hercule et le Grand Amas M 13."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Hercule. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6205 : amas globulaire. Amas globulaire. Distance au Soleil : environ 24200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Hercule se repère par son quadrilatère de quatre étoiles, dont Kornephoros et ζ Her. On peut commencer par ce quadrilatère, puis chercher sur son côté ouest M13, le plus bel amas globulaire de l'hémisphère nord, visible à l'œil nu sous un ciel pur et magnifique aux jumelles.",
+  "message_animation": "Repérer le quadrilatère central d’Hercule, formé par ζ, η, π et ε. Sur le côté η–ζ se cherche M 13, un amas globulaire. Kornephoros est un repère brillant de la constellation mais n’est pas un sommet de ce quadrilatère.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 54–55 (fiche Atlas « Hercule »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

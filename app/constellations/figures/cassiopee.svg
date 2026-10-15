@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Cassiopée">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="320.1" y1="382.0" x2="409.3" y2="289.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="409.3" y1="289.8" x2="305.0" y2="228.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="305.0" y1="228.1" x2="310.7" y2="137.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="310.7" y1="137.8" x2="210.7" y2="78.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="320.1" cy="382.0" r="5" fill="#222"/>
-<text x="307.1" y="372.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Caph</text>
-<circle cx="409.3" cy="289.8" r="5" fill="#222"/>
-<text x="422.3" y="279.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Schedar</text>
-<circle cx="305.0" cy="228.1" r="5" fill="#222"/>
-<text x="318.0" y="218.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Gamma Cas</text>
-<circle cx="310.7" cy="137.8" r="5" fill="#222"/>
-<text x="323.7" y="127.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ruchbah</text>
-<circle cx="210.7" cy="78.0" r="5" fill="#222"/>
-<text x="223.7" y="68.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Segin</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Cassiopée">
+<title>Cassiopée</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="740.000" y1="338.925" x2="532.700" y2="509.648" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="532.700" y1="509.648" x2="408.584" y2="286.579" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="408.584" y1="286.579" x2="212.124" y2="303.969" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="212.124" y1="303.969" x2="60.000" y2="90.352" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="740.000" cy="338.925" r="3.78" fill="#222" data-star="simbad:129059"/>
+<circle cx="532.700" cy="509.648" r="3.82" fill="#222" data-star="simbad:106481"/>
+<circle cx="408.584" cy="286.579" r="3.69" fill="#222" data-star="simbad:132509"/>
+<circle cx="212.124" cy="303.969" r="3.46" fill="#222" data-star="simbad:168281"/>
+<circle cx="60.000" cy="90.352" r="2.90" fill="#222" data-star="simbad:205738"/>
+<text x="545.70" y="496.65" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Schedar</text>
+<text x="225.12" y="290.97" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Ruchbah</text>
+<text x="421.58" y="273.58" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ Cas</text>
+<text x="73.00" y="77.35" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Segin</text>
+<text x="753.00" y="325.92" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Caph</text>
 </svg>

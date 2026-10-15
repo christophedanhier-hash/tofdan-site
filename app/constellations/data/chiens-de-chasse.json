@@ -15,72 +15,190 @@
   },
   "saison": "printemps",
   "voie_lactee": false,
-  "repere_principal": "Cor Caroli (α CVn), sous la queue de la Grande Ourse",
+  "repere_principal": "Sous le manche de la Grande Ourse, repérer Cor Caroli puis Chara.",
   "constellations_voisines": [
-    "Le Bouvier",
-    "La Chevelure de Bérénice",
-    "La Grande Ourse"
+    "Bouvier",
+    "Chevelure de Bérénice",
+    "Grande Ourse"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "Cor Caroli",
-      "bayer": "alf CVn",
+      "nom": "Cor",
+      "bayer": "α² CVn",
       "ra_deg": 194.00694,
       "dec_deg": 38.31838,
       "mag": 2.88,
-      "role": "La plus brillante de la figure — naine blanche",
+      "role": "En bas du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf02 CVn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Cor",
+      "bayer_catalogue": "alf02 CVn",
+      "type_spectral": "A0VpSiEu",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf02 CVn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf02%20CVn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf02 CVn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf02%20CVn",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Cor",
+      "identifiant": "simbad:1976891",
+      "simbad_id": "* alf02 CVn",
+      "constellation_iau": "CVn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf02 CVn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf02%20CVn",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Chara",
-      "bayer": "bet CVn",
+      "bayer": "β CVn",
       "ra_deg": 188.4356,
       "dec_deg": 41.35748,
       "mag": 4.25,
-      "role": "Le corps — naine jaune",
+      "role": "En haut du dessin, côté droite — étoile jaune de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet CVn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Chara",
+      "bayer_catalogue": "bet CVn",
+      "type_spectral": "G0V",
+      "nature_stellaire": "Étoile jaune de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet CVn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CVn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet CVn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CVn",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Chara",
+      "identifiant": "simbad:1924380",
+      "simbad_id": "* bet CVn",
+      "constellation_iau": "CVn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet CVn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CVn",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
         1
       ]
     ],
-    "commentaire": "Tracé retenu : une seule ligne, Cor Caroli–Chara, qui représente les deux chiens du Bouvier.",
-    "note_geometrie": "La figure officielle de cette constellation ne compte que deux étoiles et une seule liaison : Cor Caroli–Chara, longue de 5,25°. Il n'y a donc ni angle ni alignement à commenter — la figure est un simple trait. C'est cohérent avec la réalité : les Chiens de Chasse sont une constellation moderne et discrète en étoiles, mais elle abrite l'amas globulaire M 3 et la galaxie du Tourbillon (M 51).",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Chiens de Chasse : 2 étoiles et 1 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 5,2°. Son seul segment relie Cor à Chara (5,25°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Cor Caroli–Chara": 5.25
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 5.2458
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 3",
       "nature": "amas globulaire",
       "mag": 6.39,
       "distance_al": 33203,
-      "note": "Amas globulaire parmi les plus brillants du ciel, à environ 33 200 années-lumière.",
+      "note": "Amas globulaire. Distance au Soleil : environ 33200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC5272, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC5272",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5272",
+        "alias_interroge": "NGC5272",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 5272 M 3",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 5272 M 3",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 10.18,
+        "incertitude_kpc": 0.08,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 51",
       "nature": "galaxie",
       "mag": 8.36,
       "distance_al": 24787856,
-      "note": "Galaxie spirale de type Sc vue de face, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "note": "Galaxie spirale vue de face, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC5194, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC5194",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5194",
+        "alias_interroge": "NGC5194",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5194",
+        "alias_interroge": "NGC5194",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 5195",
@@ -89,8 +207,31 @@
       "distance_al": 24421002,
       "note": "Petite galaxie irrégulière satellite de M 51, dans laquelle une supernova a été observée.",
       "instrument": "télescope",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC5195, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC5195",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5195",
+        "alias_interroge": "NGC5195",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5195",
+        "alias_interroge": "NGC5195",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 63",
@@ -98,29 +239,98 @@
       "mag": 8.61,
       "distance_al": 29192251,
       "note": "Galaxie spirale voisine de M 51 sur le ciel, de magnitude 8,61.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC5055, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC5055",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5055",
+        "alias_interroge": "NGC5055",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC5055",
+        "alias_interroge": "NGC5055",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 94",
       "nature": "galaxie",
       "mag": 8.24,
       "distance_al": 15485280,
-      "note": "Galaxie spirale de type Sc, la plus brillante de la liste (magnitude 8,24).",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "note": "Galaxie spirale, la plus brillante de la liste (magnitude 8,24).",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC4736, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4736",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4736",
+        "alias_interroge": "NGC4736",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4736",
+        "alias_interroge": "NGC4736",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 106",
       "nature": "galaxie",
       "mag": 9.29,
       "distance_al": 24391775,
-      "note": "Galaxie spirale de type Sc, de magnitude 9,29.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "note": "Galaxie spirale, de magnitude 9,29.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC4258, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4258",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4258",
+        "alias_interroge": "NGC4258",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4258",
+        "alias_interroge": "NGC4258",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 4449",
@@ -129,18 +339,64 @@
       "distance_al": 13926861,
       "note": "Galaxie irrégulière d'accès relativement aisé, de magnitude 9,64 en bande V.",
       "instrument": "télescope",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC4449, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4449",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4449",
+        "alias_interroge": "NGC4449",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4449",
+        "alias_interroge": "NGC4449",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 4490",
       "nature": "galaxie",
       "mag": 9.72,
       "distance_al": 29060500,
-      "note": "Galaxie spirale en interaction (collision) avec une autre galaxie, de magnitude 9,72.",
+      "note": "Galaxie spirale barrée en interaction (collision) avec une autre galaxie, de magnitude 9,72.",
       "instrument": "télescope",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC4490, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4490",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4490",
+        "alias_interroge": "NGC4490",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4490",
+        "alias_interroge": "NGC4490",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 4214",
@@ -149,28 +405,93 @@
       "distance_al": 9588986,
       "note": "Galaxie de magnitude 9,77, citée avec NGC 4490 dans la fiche de l'Atlas.",
       "instrument": "télescope",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC4214, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4214",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4214",
+        "alias_interroge": "NGC4214",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4214",
+        "alias_interroge": "NGC4214",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 4631",
       "nature": "galaxie",
       "mag": 9.24,
       "distance_al": 23972466,
-      "note": "Galaxie spirale vue par la tranche, en interaction avec la toute proche NGC 4656.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "note": "Galaxie spirale barrée vue par la tranche, en interaction avec la toute proche NGC 4656.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC4631, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4631",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4631",
+        "alias_interroge": "NGC4631",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4631",
+        "alias_interroge": "NGC4631",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 4656",
       "nature": "paire de galaxies",
-      "mag": 10.52,
+      "mag": null,
       "distance_al": 15916413,
-      "note": "Paire de galaxies de magnitude 10,52, voisine de NGC 4631 avec laquelle elle interagit.",
+      "note": "Paire de galaxies de magnitude 10,52, voisine de NGC 4631 avec laquelle elle interagit. Magnitude non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "S1",
-      "code": "S1"
+      "src": "OpenNGC, NGC4656, photométrie non renseignée ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC4656",
+      "constellation_catalogue": "CVn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC4656",
+        "alias_interroge": "NGC4656",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "S1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -202,100 +523,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Cor Caroli (α CVn), magnitude 2,88, devant Chara (β CVn, 4,25), à 5,25° de distance."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Cor, avec 2,88 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Pourquoi la figure se réduit-elle à une seule liaison ?",
-      "r": "Parce que la constellation ne compte que deux étoiles assez brillantes pour être retenues dans la figure : Cor Caroli et Chara."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Cor – Chara : environ 5,25°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel est l'objet du ciel profond le plus brillant ?",
-      "r": "L'amas globulaire M 3, magnitude 6,39, visible aux jumelles ; parmi les galaxies, M 94 (8,24) et M 51 (8,36)."
-    },
-    {
-      "q": "Quelles galaxies sont en interaction ?",
-      "r": "M 51 et NGC 5195 (magnitudes 8,36 et 9,58) ; NGC 4631 (9,24) et NGC 4656 (10,52) ; NGC 4490 (9,72) est elle aussi en interaction avec une autre galaxie."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Chiens de Chasse désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "À quelle distance est M 3 ?",
-      "r": "À environ 33 203 années-lumière, d'après Baumgardt & Vasiliev 2021, référence pour les amas globulaires."
+      "q": "Pourquoi ne voit-on que deux étoiles dans ce dessin ?",
+      "r": "C’est un choix de représentation simplifiée. La constellation contient beaucoup d’autres étoiles : ses limites définissent une région du ciel, pas seulement le segment Cor Caroli–Chara."
     },
     {
-      "q": "Pourquoi l'Atlas dit-il 8,80 pour M 51 alors que le catalogue donne 8,36 ?",
-      "r": "L'Atlas cite une magnitude photographique ; OpenNGC donne la bande V. Ce ne sont pas les mêmes bandes : il faut toujours préciser laquelle."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Chiens de Chasse. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi NGC 5195 a-t-elle une magnitude différente dans l'Atlas (10,6) et le catalogue (9,58) ?",
-      "r": "Mêmes causes de bande de mesure ; de plus, l'extraction du texte de l'Atlas a dû être corrigée pour attribuer 10,60 à NGC 5195 et non à M 51."
-    },
-    {
-      "q": "Qu'est-ce que la collision de galaxies observée entre M 51 et NGC 5195 ?",
-      "r": "Deux galaxies proches (environ 24,8 et 24,4 millions d'années-lumière) qui exercent l'une sur l'autre des forces de marée qui déforment leurs bras spiraux."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 3 : amas globulaire. Amas globulaire. Distance au Soleil : environ 33200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Les Chiens de Chasse n'ont que deux étoiles dans la figure (Cor Caroli et Chara), mais onze objets du ciel profond : l'amas globulaire M 3 et dix galaxies, dont la célèbre M 51, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
+  "message_animation": "Sous le manche de la Grande Ourse, repérer Cor Caroli puis Chara. Deux étoiles suffisent ici au dessin simplifié ; la constellation couvre toutefois toute une région du ciel. M 3 et les galaxies comme M 51 offrent ensuite des cibles de nature très différente.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 20–22 (fiche Atlas « Chiens de Chasse »)",
     "archive_texte": "atlas-observation-source/020-chiens-de-chasse.txt",
     "coordonnees": "Hipparcos I311 / Gaia DR3",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "NGC 4656 : magnitude issue de SIMBAD (OpenNGC vide).",
-      "NGC 5195 : l'Atlas a été corrigé à l'extraction (8,80 pour M 51, 10,60 pour NGC 5195).",
-      "Figure : seulement 2 étoiles et 1 liaison ; aucune carte IAU officielle n'impose un tracé unique, le tracé retenu est documenté comme un choix.",
-      "M 63 : parallaxe rejetée, distance issue de Wikidata."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

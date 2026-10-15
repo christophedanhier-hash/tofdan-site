@@ -13,95 +13,312 @@
   },
   "saison": "été–automne",
   "voie_lactee": false,
-  "repere_principal": "La figure en forme de croissant qui court d'Algedi (α Cap) à Deneb Algedi (δ Cap) en passant par Dabih et Nashira, dans une région du ciel dépourvue d'étoiles brillantes",
+  "repere_principal": "Repérer le groupe Algedi–Dabih, puis parcourir le dessin jusqu’à Nashira et Deneb Algedi.",
   "constellations_voisines": [
-    "Le Sagittaire",
-    "L'Aigle",
-    "Le Verseau",
-    "Le Poisson austral",
-    "Le Microscope"
+    "Aigle",
+    "Verseau",
+    "Microscope",
+    "Poisson austral",
+    "Sagittaire"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Algedi",
-      "bayer": "alf Cap",
+      "bayer": "α² Cap",
       "ra_deg": 304.51356,
       "dec_deg": -12.54485,
       "mag": 3.58,
-      "role": "La corne ouest — géante jaune",
+      "role": "En haut du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf02 Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Algedi",
+      "bayer_catalogue": "alf02 Cap",
+      "type_spectral": "G9III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf02 Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf02%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf02 Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf02%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Algedi",
+      "identifiant": "simbad:2577256",
+      "simbad_id": "* alf02 Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf02 Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf02%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Dabih",
-      "bayer": "bet Cap",
+      "bayer": "β¹ Cap",
       "ra_deg": 305.25278,
       "dec_deg": -14.78141,
       "mag": 3.08,
-      "role": "La corne est — géante lumineuse jaune",
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (G9II:+B8p:Si:)",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet01 Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Dabih",
+      "bayer_catalogue": "bet01 Cap",
+      "type_spectral": "G9II:+B8p:Si:",
+      "nature_stellaire": "Spectre complexe ou composé (G9II:+B8p:Si:)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet01 Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet01 Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Dabih",
+      "identifiant": "simbad:2556894",
+      "simbad_id": "* bet01 Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet01 Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Nashira",
-      "bayer": "gam Cap",
+      "bayer": "γ Cap",
       "ra_deg": 325.02269,
       "dec_deg": -16.66237,
       "mag": 3.67,
-      "role": "La queue — naine jaune-blanc",
+      "role": "En haut du dessin, côté gauche — type spectral kF0hF1VmF2 (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * gam Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Nashira",
+      "bayer_catalogue": "gam Cap",
+      "type_spectral": "kF0hF1VmF2",
+      "nature_stellaire": "Type spectral kF0hF1VmF2 (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Nashira",
+      "identifiant": "simbad:1282227",
+      "simbad_id": "* gam Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "Deneb Algedi",
-      "bayer": "del Cap",
+      "nom": "Deneb",
+      "bayer": "δ Cap",
       "ra_deg": 326.76018,
       "dec_deg": -16.12729,
       "mag": 2.83,
-      "role": "La plus brillante de la figure — géante blanche",
+      "role": "En haut du dessin, côté gauche — type spectral kA5hF0mF2III (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * del Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Deneb",
+      "bayer_catalogue": "del Cap",
+      "type_spectral": "kA5hF0mF2III",
+      "nature_stellaire": "Type spectral kA5hF0mF2III (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Deneb",
+      "identifiant": "simbad:1292016",
+      "simbad_id": "* del Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "Zeta Cap",
-      "bayer": "zet Cap",
+      "nom": "ζ Cap",
+      "bayer": "ζ Cap",
       "ra_deg": 321.66679,
       "dec_deg": -22.41132,
       "mag": 3.74,
-      "role": "Le corps — supergéante jaune",
+      "role": "En bas du dessin, côté gauche — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * zet Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Cap",
+      "type_spectral": "G4Ib:Ba2",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ζ Cap",
+      "identifiant": "simbad:1251888",
+      "simbad_id": "* zet Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "Omega Cap",
-      "bayer": "ome Cap",
+      "nom": "ω Cap",
+      "bayer": "ω Cap",
       "ra_deg": 312.95538,
       "dec_deg": -26.91913,
       "mag": 4.12,
-      "role": "Le corps — géante rouge",
+      "role": "En bas du dessin, près de l’axe central — géante rouge",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * ome Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ome Cap",
+      "type_spectral": "M0IIIBa0.5",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ome Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ome Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ω Cap",
+      "identifiant": "simbad:2376189",
+      "simbad_id": "* ome Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ome Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ome%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "Psi Cap",
-      "bayer": "psi Cap",
+      "nom": "ψ Cap",
+      "bayer": "ψ Cap",
       "ra_deg": 311.52389,
       "dec_deg": -25.2709,
       "mag": 4.122,
-      "role": "Le corps — naine jaune-blanc",
+      "role": "En bas du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * psi Cap ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "psi Cap",
+      "type_spectral": "F5V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* psi Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20psi%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* psi Cap",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20psi%20Cap",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ψ Cap",
+      "identifiant": "simbad:2398339",
+      "simbad_id": "* psi Cap",
+      "constellation_iau": "Cap",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* psi Cap",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20psi%20Cap",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -128,29 +345,82 @@
         6
       ]
     ],
-    "commentaire": "Tracé retenu : une chaîne ouverte Algedi–Dabih–Psi Cap–Omega Cap–Zeta Cap–Deneb Algedi–Nashira, qui dessine le croissant bien connu.",
-    "note_geometrie": "Chaîne ouverte en croissant, du nord-ouest vers le sud-est. Deux paires très serrées l'encadrent : Algedi–Dabih 2,35° au nord, Nashira–Deneb Algedi 1,75° au sud (le segment le plus court). Entre les deux, la figure s'étire par Dabih–Psi Cap 12,03°, la liaison la plus longue, puis Omega Cap–Psi Cap 2,09°, Zeta Cap–Omega Cap 9,11° et Deneb Algedi–Zeta Cap 7,91°. Aucune de ces étoiles n'est alignée avec une autre : la forme tient à l'alternance des distances.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Capricorne : 7 étoiles et 6 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 21,8°. Le segment le plus court relie Nashira à Deneb (1,75°). Le plus long relie Dabih à ψ Cap (12,03°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Algedi–Dabih": 2.35,
-    "Dabih–Psi Cap": 12.03,
-    "Nashira–Deneb Algedi": 1.75,
-    "Deneb Algedi–Zeta Cap": 7.91,
-    "Zeta Cap–Omega Cap": 9.11,
-    "Omega Cap–Psi Cap": 2.09
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 2.3491
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "deg": 12.0252
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 1.7506
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 7.9103
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 9.106
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 2.0903
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 30",
       "nature": "amas globulaire",
-      "mag": 7.1,
+      "mag": 7.37,
       "distance_al": 27593,
-      "note": "Amas globulaire de magnitude 7,1, à environ 27 600 années-lumière (l'Atlas indique 40 000).",
+      "note": "Amas globulaire. Distance au Soleil : environ 27600 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC7099, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC7099",
+      "constellation_catalogue": "Cap",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7099",
+        "alias_interroge": "NGC7099",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 7099 M 30",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 7099 M 30",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 8.46,
+        "incertitude_kpc": 0.09,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.05,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -182,99 +452,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Deneb Algedi (δ Cap), magnitude 2,83, devant Dabih (β Cap, 3,08). Algedi (α Cap) n'est que de magnitude 3,58."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Deneb, avec 2,83 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Peut-on voir la forme du Capricorne à l'œil nu ?",
-      "r": "Oui sous un ciel dégagé : toutes les étoiles de la figure sont de magnitude 2,83 à 4,12. Le croissant se lit de Algedi à Nashira."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Nashira – Deneb : environ 1,75°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelles étoiles forment des paires serrées ?",
-      "r": "Algedi et Dabih (2,35°), Nashira et Deneb Algedi (1,75°) et Omega Cap et Psi Cap (2,09°)."
-    },
-    {
-      "q": "Quel objet du ciel profond peut-on viser ?",
-      "r": "L'amas globulaire M 30 (magnitude 7,1) : visible aux jumelles, il apparaît comme une tache floue ; un télescope commence à le résoudre en étoiles."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Capricorne désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "À quelle distance est M 30 ?",
-      "r": "À environ 27 593 années-lumière, d'après Baumgardt & Vasiliev 2021. L'Atlas indique 40 000 années-lumière : la valeur du catalogue la plus récente est retenue."
+      "q": "Un amas globulaire ressemble-t-il à une étoile à l’oculaire ?",
+      "r": "À faible grossissement, il peut paraître comme une petite tache concentrée. Un instrument et un grossissement adaptés révèlent sa structure ; sa résolution en étoiles dépend aussi du ciel et du diamètre disponible."
     },
     {
-      "q": "Pourquoi l'Atlas et le catalogue ne donnent-ils pas la même distance ?",
-      "r": "Les mesures de distance des amas globulaires ont été affinées par les données de Gaia ; l'Atlas reprend une valeur plus ancienne."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Capricorne. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Qu'est-ce qu'un amas globulaire ?",
-      "r": "Une concentration dense et sphérique de très nombreuses étoiles anciennes, liée par la gravité et en orbite autour de la Galaxie."
-    },
-    {
-      "q": "Quelle est la plus longue liaison de la figure ?",
-      "r": "Dabih–Psi Cap, 12,03° ; Zeta Cap–Omega Cap (9,11°) et Deneb Algedi–Zeta Cap (7,91°) complètent le bas du croissant."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 30 : amas globulaire. Amas globulaire. Distance au Soleil : environ 27600 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Capricorne est une constellation modeste de l'été-automne, reconnaissable à sa forme en croissant. Sa fiche ne retient qu'un objet du ciel profond, l'amas globulaire M 30, bon exemple d'objet à distance corrigée par rapport à l'Atlas.",
+  "message_animation": "Repérer le groupe Algedi–Dabih, puis parcourir le dessin jusqu’à Nashira et Deneb Algedi. La figure est peu éclatante : une bonne transparence du ciel est utile. M 30 permet ensuite de passer des étoiles isolées à un amas globulaire.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, page 13 (fiche Atlas « Capricorne »)",
     "archive_texte": "atlas-observation-source/013-capricorne.txt",
     "coordonnees": "Hipparcos I311 / Gaia DR3",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix.",
-      "M 30 : distance retenue (Baumgardt & Vasiliev 2021) différente de celle de l'Atlas (40 000 a.l.).",
-      "Un seul objet du ciel profond retenu par la fiche Atlas."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

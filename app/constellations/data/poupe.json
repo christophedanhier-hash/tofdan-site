@@ -14,143 +14,486 @@
     ]
   },
   "saison": "hiver",
-  "voie_lactee": false,
-  "repere_principal": "Naos et Pi Puppis, alignées au sud-est du Grand Chien",
+  "voie_lactee": true,
+  "repere_principal": "La Poupe prolonge vers le sud la région du Grand Chien.",
   "constellations_voisines": [
     "Grand Chien",
-    "Colombe",
-    "Peintre",
-    "Voile",
     "Carène",
-    "Licorne",
+    "Colombe",
     "Hydre",
-    "Boussole"
+    "Licorne",
+    "Peintre",
+    "Boussole",
+    "Voiles"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "α",
-      "bayer": "alf",
+      "nom": "Canopus",
+      "bayer": "α Car",
       "ra_deg": 95.98788,
       "dec_deg": -52.69572,
-      "mag": -0.5536,
-      "role": "La plus brillante de la figure — géante orange",
+      "mag": -0.74,
+      "role": "En bas du dessin, côté droite — géante lumineuse blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * alf Car ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Canopus",
+      "bayer_catalogue": "alf Car",
+      "type_spectral": "A9II",
+      "nature_stellaire": "Géante lumineuse blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Car",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Car",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Car",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Car",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Canopus",
+      "identifiant": "simbad:2997002",
+      "simbad_id": "* alf Car",
+      "constellation_iau": "Car",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "alerte": "Repère voisin : cette étoile appartient à la constellation « Carène » (Car), pas à celle de cette fiche. Sa présence est un choix du dessin pédagogique.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Car",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Car",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
-      "nom": "ν",
-      "bayer": "nu.",
+      "nom": "ν Pup",
+      "bayer": "ν Pup",
       "ra_deg": 99.4403,
       "dec_deg": -43.19592,
-      "mag": 3.1395,
-      "role": "Le pont — géante bleue",
+      "mag": 3.17,
+      "role": "En bas du dessin, côté droite — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * nu. Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. Pup",
+      "type_spectral": "B8III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ν Pup",
+      "identifiant": "simbad:917549",
+      "simbad_id": "* nu. Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "π",
-      "bayer": "pi.",
+      "nom": "π Pup",
+      "bayer": "π Pup",
       "ra_deg": 109.28568,
       "dec_deg": -37.09749,
-      "mag": 2.8296,
-      "role": "Le pont — géante orange",
+      "mag": 2.7,
+      "role": "Au milieu du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * pi. Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "pi. Pup",
+      "type_spectral": "K4III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* pi. Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* pi. Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "π Pup",
+      "identifiant": "simbad:965550",
+      "simbad_id": "* pi. Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* pi. Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "p",
-      "bayer": "p",
+      "nom": "p Pup",
+      "bayer": "p Pup",
       "ra_deg": 113.84557,
       "dec_deg": -28.36928,
-      "mag": 4.6109,
-      "role": "Le gouvernail — naine bleue",
+      "mag": 4.63,
+      "role": "En haut du dessin, près de l’axe central — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * p Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "p Pup",
+      "type_spectral": "B7V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* p Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20p%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* p Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20p%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "p Pup",
+      "identifiant": "simbad:996677",
+      "simbad_id": "* p Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* p Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20p%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "κ1",
-      "bayer": "kap01",
+      "nom": "k² Pup",
+      "bayer": "k² Pup",
       "ra_deg": 114.70784,
       "dec_deg": -26.80389,
-      "mag": 3.7439,
-      "role": "Le gouvernail — sous-géante bleue",
+      "mag": 4.429,
+      "role": "En haut du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * k02 Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "k02 Pup",
+      "type_spectral": "B5IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* k02 Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20k02%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* k02 Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20k02%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "k² Pup",
+      "identifiant": "simbad:996587",
+      "simbad_id": "* k02 Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* k02 Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20k02%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "l",
-      "bayer": "l",
+      "nom": "l Pup",
+      "bayer": "l Pup",
       "ra_deg": 115.95197,
       "dec_deg": -28.95483,
-      "mag": 4.0152,
-      "role": "Le gouvernail — supergéante blanche",
+      "mag": 3.93,
+      "role": "En haut du dessin, côté gauche — supergéante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * l Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "l Pup",
+      "type_spectral": "A4Iabe",
+      "nature_stellaire": "Supergéante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* l Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20l%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* l Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20l%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "l Pup",
+      "identifiant": "simbad:1014925",
+      "simbad_id": "* l Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* l Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20l%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "ο",
-      "bayer": "omi",
+      "nom": "ο Pup",
+      "bayer": "ο Pup",
       "ra_deg": 117.02156,
       "dec_deg": -25.93718,
-      "mag": 4.4428,
-      "role": "La quille — sous-géante bleue",
+      "mag": 4.49,
+      "role": "En haut du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * omi Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "omi Pup",
+      "type_spectral": "B1IVe",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ο Pup",
+      "identifiant": "simbad:1013709",
+      "simbad_id": "* omi Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Azmidi",
-      "bayer": "ksi",
+      "bayer": "ξ Pup",
       "ra_deg": 117.32358,
       "dec_deg": -24.85978,
-      "mag": 3.5109,
-      "role": "La poupe — supergéante jaune",
+      "mag": 3.3,
+      "role": "En haut du dessin, côté gauche — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * ksi Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Azmidi",
+      "bayer_catalogue": "ksi Pup",
+      "type_spectral": "G6Ib",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ksi Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ksi Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Azmidi",
+      "identifiant": "simbad:1013154",
+      "simbad_id": "* ksi Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ksi Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "nom": "Naos",
-      "bayer": "zet",
+      "bayer": "ζ Pup",
       "ra_deg": 120.89613,
       "dec_deg": -40.00319,
-      "mag": 2.1364,
-      "role": "Le pont — supergéante bleue",
+      "mag": 2.25,
+      "role": "Au milieu du dessin, côté gauche — supergéante bleue",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * zet Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Naos",
+      "bayer_catalogue": "zet Pup",
+      "type_spectral": "O4I(n)fp",
+      "nature_stellaire": "Supergéante bleue",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Naos",
+      "identifiant": "simbad:1035794",
+      "simbad_id": "* zet Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "nom": "Tureis",
-      "bayer": "rho",
+      "bayer": "ρ Pup",
       "ra_deg": 121.88626,
       "dec_deg": -24.30444,
-      "mag": 2.9157,
-      "role": "La poupe — géante lumineuse jaune-blanc",
+      "mag": 2.81,
+      "role": "En haut du dessin, côté gauche — géante lumineuse jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * rho Pup ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Tureis",
+      "bayer_catalogue": "rho Pup",
+      "type_spectral": "F5IIkF2IImF5II",
+      "nature_stellaire": "Géante lumineuse jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* rho Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* rho Pup",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Pup",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Tureis",
+      "identifiant": "simbad:1054564",
+      "simbad_id": "* rho Pup",
+      "constellation_iau": "Pup",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* rho Pup",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Pup",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
-      "nom": "γ2",
-      "bayer": "gam02",
+      "nom": "γ² Vel",
+      "bayer": "γ² Vel",
       "ra_deg": 122.38315,
       "dec_deg": -47.33661,
-      "mag": 1.7034,
-      "role": "La poupe — géante orange",
+      "mag": 1.83,
+      "role": "En bas du dessin, côté gauche — spectre complexe ou composé (WC8+O7.5III-V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * gam02 Vel ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam02 Vel",
+      "type_spectral": "WC8+O7.5III-V",
+      "nature_stellaire": "Spectre complexe ou composé (WC8+O7.5III-V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam02 Vel",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam02%20Vel",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam02 Vel",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam02%20Vel",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ² Vel",
+      "identifiant": "simbad:2994088",
+      "simbad_id": "* gam02 Vel",
+      "constellation_iau": "Vel",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "alerte": "Repère voisin : cette étoile appartient à la constellation « Voiles » (Vel), pas à celle de cette fiche. Sa présence est un choix du dessin pédagogique.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam02 Vel",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam02%20Vel",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         10,
@@ -170,66 +513,218 @@
         0
       ]
     ],
-    "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-    "note_geometrie": "Figure construite sur 11 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Poupe : 11 étoiles et 11 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 34,5°. Le segment le plus court relie ο Pup à Azmidi (1,11°). Le plus long relie Naos à Tureis (15,72°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon. Repères voisins explicitement conservés dans le dessin : Canopus (Carène), γ² Vel (Voiles).",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Azmidi–Naos": 15.44,
-    "Azmidi–Tureis": 4.19,
-    "Naos–Tureis": 15.72
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 10,
+      "b": 8,
+      "deg": 7.4115
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "deg": 15.7208
+    },
+    {
+      "a": 9,
+      "b": 7,
+      "deg": 4.1859
+    },
+    {
+      "a": 7,
+      "b": 4,
+      "deg": 3.0531
+    },
+    {
+      "a": 4,
+      "b": 3,
+      "deg": 1.742
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "deg": 1.9388
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 3.1634
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "deg": 1.1114
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "deg": 9.5304
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 9.6748
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 9.7742
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 46",
       "nature": "amas ouvert",
       "mag": 6.1,
       "distance_al": null,
-      "note": "Amas ouvert de magnitude globale 9,20, comptant une centaine d'étoiles dans un volume de 3 années-lumière de diamètre.",
+      "note": "Amas ouvert de magnitude globale 9,20, comptant une centaine d'étoiles dans un volume de 3 années-lumière de diamètre. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
-      "code": "N2"
+      "src": "OpenNGC, NGC2437, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2437",
+      "constellation_catalogue": "Pup",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2437",
+        "alias_interroge": "NGC2437",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2437",
+        "alias_interroge": "NGC2437",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 47",
       "nature": "amas ouvert",
       "mag": 4.4,
       "distance_al": null,
-      "note": "Amas ouvert de magnitude globale 4,5, contenant une cinquantaine d'étoiles assez concentrées.",
-      "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
-      "code": "N2"
+      "note": "Amas ouvert de magnitude globale 4,5, contenant une cinquantaine d'étoiles assez concentrées. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC2422, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2422",
+      "constellation_catalogue": "Pup",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2422",
+        "alias_interroge": "NGC2422",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2422",
+        "alias_interroge": "NGC2422",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 93",
       "nature": "amas ouvert",
       "mag": 6.2,
       "distance_al": null,
-      "note": "Amas ouvert de magnitude globale 6,20, assez spectaculaire dans un petit télescope ; plusieurs centaines d'étoiles.",
-      "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
-      "code": "N2"
+      "note": "Amas ouvert de magnitude globale 6,20, assez spectaculaire dans un petit télescope ; plusieurs centaines d'étoiles. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC2447, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2447",
+      "constellation_catalogue": "Pup",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2447",
+        "alias_interroge": "NGC2447",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2447",
+        "alias_interroge": "NGC2447",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2438",
       "nature": "nébuleuse planétaire",
-      "mag": 10,
+      "mag": 10.8,
       "distance_al": null,
-      "note": "Nébuleuse planétaire de magnitude 10,10, très proche de M 46 mais sans lien avec lui, difficile à observer.",
+      "note": "Nébuleuse planétaire de magnitude 10,10, très proche de M 46 mais sans lien avec lui, difficile à observer. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
-      "code": "N2"
+      "src": "OpenNGC, NGC2438, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2438",
+      "constellation_catalogue": "Pup",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2438",
+        "alias_interroge": "NGC2438",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2438",
+        "alias_interroge": "NGC2438",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2467",
-      "nature": "amas + nébuleuse",
-      "mag": 7,
+      "nature": "amas ouvert et nébuleuse",
+      "mag": null,
       "distance_al": null,
-      "note": "Amas ouvert associé à une nébuleuse diffuse.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 91-93",
-      "code": "N2"
+      "note": "Amas ouvert associé à une nébuleuse diffuse. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2467, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2467",
+      "constellation_catalogue": "Pup",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2467",
+        "alias_interroge": "NGC2467",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -256,59 +751,86 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "α, magnitude -0.5536."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Canopus, avec -0,74 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment repérer α et ν dans le ciel ?",
-      "r": "Naos et Pi Puppis, alignées au sud-est du Grand Chien."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "ο Pup – Azmidi : environ 1,11°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-      "r": "M 47 (objet, magnitude 4.4). Voir la fiche pour la description."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Poupe désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Que raconte-t-on au public en pointant α ?",
-      "r": "Située en saison hiver. Repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
+      "q": "Pourquoi ne voit-on pas Canopus depuis la Belgique ?",
+      "r": "Sa déclinaison est trop australe. À la latitude de l’OCA, elle reste sous l’horizon même à son passage le plus haut. Une étoile présente dans un dessin n’est donc pas nécessairement observable depuis le lieu choisi."
     },
     {
-      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-      "r": "M 46 (objet) : !, Cl, vB, vRi, vL, inv PN ; = M46"
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Poupe. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Comment orienter le visiteur sur la carte ?",
-      "r": "Faire partir du repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 46 : amas ouvert. Amas ouvert de magnitude globale 9,20, comptant une centaine d'étoiles dans un volume de 3 années-lumière de diamètre. Distance non renseignée dans les sources retenues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Poupe : Naos et Pi Puppis, alignées au sud-est du Grand Chien. Constellation de hiver (11 étoiles figurées, 5 objets du ciel profond).",
+  "message_animation": "La Poupe prolonge vers le sud la région du Grand Chien. Le tracé retenu utilise aussi Canopus, dans la Carène, et des repères des Voiles : leur appartenance est indiquée. Depuis la Belgique, certaines de ces étoiles ne se lèvent jamais ; utiliser plutôt les amas de la partie accessible, comme M 46 et M 47.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 91–93 (fiche Atlas « Poupe »)",
     "archive_texte": "atlas-observation-source/091-*.txt",
     "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-    "lacunes": [
-      "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021.",
-      "L'étoile désignée α à la position RA 95,988 / Dec −52,696 est α Carinae (Canopus, mag −0,55), qui appartient à la Carène. Sa présence dans le tracé de la Poupe résulte du tracé IAU retenu, qui déborde sur la constellation voisine pour fermer la figure. Point à valider par l'observateur."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": [
+        "Canopus (Carène)",
+        "γ² Vel (Voiles)"
+      ]
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-    "refs": [],
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "N2",
-        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
-        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
+      },
+      {
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
+      },
+      {
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
-    ]
-  }
+    ],
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

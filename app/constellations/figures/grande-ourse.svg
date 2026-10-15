@@ -1,24 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Grande Ourse">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="246.7" y1="352.3" x2="298.7" y2="382.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="298.7" y1="382.0" x2="359.0" y2="308.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="359.0" y1="308.3" x2="323.1" y2="266.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="323.1" y1="266.4" x2="246.7" y2="352.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="323.1" y1="266.4" x2="331.7" y2="202.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="331.7" y1="202.3" x2="329.8" y2="149.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="329.8" y1="149.8" x2="373.3" y2="78.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="246.7" cy="352.3" r="5" fill="#222"/>
-<text x="233.7" y="342.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Dubhe</text>
-<circle cx="298.7" cy="382.0" r="5" fill="#222"/>
-<text x="311.7" y="399.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Merak</text>
-<circle cx="359.0" cy="308.3" r="5" fill="#222"/>
-<text x="372.0" y="298.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Phecda</text>
-<circle cx="323.1" cy="266.4" r="5" fill="#222"/>
-<text x="336.1" y="256.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Megrez</text>
-<circle cx="331.7" cy="202.3" r="5" fill="#222"/>
-<text x="344.7" y="192.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alioth</text>
-<circle cx="329.8" cy="149.8" r="5" fill="#222"/>
-<text x="316.8" y="139.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Mizar</text>
-<circle cx="373.3" cy="78.0" r="5" fill="#222"/>
-<text x="386.3" y="68.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alkaid</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Grande Ourse">
+<title>Grande Ourse</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="689.520" y1="136.874" x2="740.000" y2="277.010" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="277.010" x2="553.931" y2="390.752" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="553.931" y1="390.752" x2="463.469" y2="305.211" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="463.469" y1="305.211" x2="689.520" y2="136.874" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="463.469" y1="305.211" x2="316.250" y2="328.861" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="316.250" y1="328.861" x2="196.469" y2="337.998" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="196.469" y1="337.998" x2="60.000" y2="463.126" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="689.520" cy="136.874" r="4.17" fill="#222" data-star="simbad:486427"/>
+<circle cx="740.000" cy="277.010" r="3.70" fill="#222" data-star="simbad:534420"/>
+<circle cx="553.931" cy="390.752" r="3.65" fill="#222" data-star="simbad:550487"/>
+<circle cx="463.469" cy="305.211" r="2.94" fill="#222" data-star="simbad:531922"/>
+<circle cx="316.250" cy="328.861" r="4.18" fill="#222" data-star="simbad:530581"/>
+<circle cx="196.469" cy="337.998" r="3.82" fill="#222" data-star="simbad:529550"/>
+<circle cx="60.000" cy="463.126" r="4.11" fill="#222" data-star="simbad:566010"/>
+<text x="566.93" y="377.75" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Phecda</text>
+<text x="476.47" y="292.21" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Megrez</text>
+<text x="329.25" y="315.86" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alioth</text>
+<text x="73.00" y="450.13" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alkaid</text>
+<text x="702.52" y="123.87" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Dubhe</text>
+<text x="753.00" y="264.01" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Merak</text>
+<text x="209.47" y="325.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Mizar</text>
 </svg>

@@ -1,0 +1,376 @@
+[
+  {
+    "fiche": "aigle.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 5,
+    "objets_distincts": 9
+  },
+  {
+    "fiche": "andromede.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "balance.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 6,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "baleine.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 4
+  },
+  {
+    "fiche": "bouvier.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 4
+  },
+  {
+    "fiche": "cancer.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 6791",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Lyr"
+      }
+    ],
+    "etoiles": 5,
+    "objets_distincts": 3
+  },
+  {
+    "fiche": "capricorne.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "cassiopee.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 5,
+    "objets_distincts": 9
+  },
+  {
+    "fiche": "chevelure-de-berenice.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 3,
+    "objets_distincts": 13
+  },
+  {
+    "fiche": "chiens-de-chasse.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 2,
+    "objets_distincts": 11
+  },
+  {
+    "fiche": "cocher.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "grande-ourse.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 7
+  },
+  {
+    "fiche": "orion.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 12
+  },
+  {
+    "fiche": "cephee.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 10,
+    "objets_distincts": 10
+  },
+  {
+    "fiche": "coupe-cratere.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 8,
+    "objets_distincts": 3
+  },
+  {
+    "fiche": "couronne-boreale.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "cygne.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 12,
+    "objets_distincts": 12
+  },
+  {
+    "fiche": "dauphin.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 6,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "dragon.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 14,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "ecu-de-sobieski.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 4,
+    "objets_distincts": 6
+  },
+  {
+    "fiche": "fleche.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 4,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "gemini.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 17,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "grand-chien.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 2363",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Cam"
+      }
+    ],
+    "etoiles": 10,
+    "objets_distincts": 6
+  },
+  {
+    "fiche": "girafe.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 8,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "hercule.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 21,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "hydre.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 21,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "lezard.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 9,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "licorne.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 2525",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Pup"
+      }
+    ],
+    "etoiles": 9,
+    "objets_distincts": 4
+  },
+  {
+    "fiche": "lievre.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 11,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "lynx.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 8,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "lyre.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 6,
+    "objets_distincts": 3
+  },
+  {
+    "fiche": "ophiuchus.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 17,
+    "objets_distincts": 10
+  },
+  {
+    "fiche": "petite-ourse.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 7,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "pegase.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 4594",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Vir"
+      }
+    ],
+    "etoiles": 12,
+    "objets_distincts": 6
+  },
+  {
+    "fiche": "persee.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 1490",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Ret"
+      },
+      {
+        "id": "NGC 6853",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Vul"
+      }
+    ],
+    "etoiles": 19,
+    "objets_distincts": 9
+  },
+  {
+    "fiche": "petit-cheval.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 6934",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Del"
+      },
+      {
+        "id": "NGC 7006",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Del"
+      }
+    ],
+    "etoiles": 2,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "petit-chien.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 2506",
+        "motif": "attribution à une autre constellation",
+        "catalogue": "Mon"
+      }
+    ],
+    "etoiles": 2,
+    "objets_distincts": 1
+  },
+  {
+    "fiche": "poissons.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 17,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "petit-renard.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 6853",
+        "motif": "alias de M 27"
+      }
+    ],
+    "etoiles": 2,
+    "objets_distincts": 4
+  },
+  {
+    "fiche": "poupe.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 11,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "sagittaire.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 6494",
+        "motif": "alias de M 23"
+      },
+      {
+        "id": "NGC 6656",
+        "motif": "alias de M 22"
+      }
+    ],
+    "etoiles": 10,
+    "objets_distincts": 18
+  },
+  {
+    "fiche": "scorpion.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 6093",
+        "motif": "alias de M 80"
+      },
+      {
+        "id": "NGC 6405",
+        "motif": "alias de M 6"
+      }
+    ],
+    "etoiles": 18,
+    "objets_distincts": 7
+  },
+  {
+    "fiche": "serpent.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 12,
+    "objets_distincts": 3
+  },
+  {
+    "fiche": "sextant.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 4,
+    "objets_distincts": 2
+  },
+  {
+    "fiche": "taureau.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 13,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "triangle.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 3,
+    "objets_distincts": 3
+  },
+  {
+    "fiche": "verseau.json",
+    "retraits_ou_fusions": [
+      {
+        "id": "NGC 6994",
+        "motif": "alias de M 73"
+      }
+    ],
+    "etoiles": 16,
+    "objets_distincts": 5
+  },
+  {
+    "fiche": "vierge.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 14,
+    "objets_distincts": 15
+  },
+  {
+    "fiche": "lion.json",
+    "retraits_ou_fusions": [],
+    "etoiles": 14,
+    "objets_distincts": 7
+  }
+]

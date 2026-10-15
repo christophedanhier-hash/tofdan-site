@@ -7,80 +7,231 @@
   "abreviation_iau": "Lyn",
   "source_atlas": "Atlas observation.pdf, pages 66–67 (fiche Atlas « Lynx »)",
   "saison": "hiver",
-  "voie_lactee": true,
-  "repere_principal": "La constellation la plus discrète du ciel",
+  "voie_lactee": false,
+  "repere_principal": "Le Lynx est une constellation discrète entre les grands repères de la Grande Ourse et des Gémeaux.",
   "constellations_voisines": [
-    "Grande Ourse",
-    "Gémeaux",
-    "Cancer",
     "Cocher",
-    "Girafe"
+    "Girafe",
+    "Cancer",
+    "Gémeaux",
+    "Petit Lion",
+    "Grande Ourse"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 30060,
       "nom": "2 Lyn",
-      "etiq": "2",
-      "bayer": "",
+      "etiq": "2 Lyn",
+      "bayer": "2 Lyn",
       "ra_deg": 94.906,
       "dec_deg": 59.011,
-      "mag": 4.44,
-      "role": "La patte — naine blanche",
+      "mag": 4.434,
+      "role": "En haut du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 30060)"
+      "src": "SIMBAD : *   2 Lyn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  2 Lyn",
+      "type_spectral": "A2Vs",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   2 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%202%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   2 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%202%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:349298",
+      "simbad_id": "*   2 Lyn",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   2 Lyn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%202%20Lyn",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 33449,
       "nom": "15 Lyn",
-      "etiq": "15",
-      "bayer": "",
+      "etiq": "15 Lyn",
+      "bayer": "15 Lyn",
       "ra_deg": 104.319,
       "dec_deg": 58.423,
       "mag": 4.35,
-      "role": "Le corps — géante jaune",
+      "role": "En haut du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33449)"
+      "src": "SIMBAD : *  15 Lyn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 15 Lyn",
+      "type_spectral": "G2III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  15 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2015%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  15 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2015%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:383267",
+      "simbad_id": "*  15 Lyn",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  15 Lyn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2015%20Lyn",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 36145,
       "nom": "21 Lyn",
-      "etiq": "21",
-      "bayer": "",
+      "etiq": "21 Lyn",
+      "bayer": "21 Lyn",
       "ra_deg": 111.679,
       "dec_deg": 49.212,
       "mag": 4.61,
-      "role": "Le corps — naine blanche",
+      "role": "Au milieu du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 36145)"
+      "src": "SIMBAD : *  21 Lyn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 21 Lyn",
+      "type_spectral": "A0.5Vs",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  21 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2021%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  21 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2021%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:439659",
+      "simbad_id": "*  21 Lyn",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  21 Lyn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2021%20Lyn",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 41075,
-      "nom": "31 Lyn",
-      "etiq": "31",
-      "bayer": "",
+      "nom": "Alsciaukat",
+      "etiq": "Alsciaukat",
+      "bayer": "31 Lyn",
       "ra_deg": 125.709,
       "dec_deg": 43.188,
       "mag": 4.25,
-      "role": "Le corps — géante orange",
+      "role": "En bas du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 41075)"
+      "src": "SIMBAD : *  31 Lyn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alsciaukat",
+      "bayer_catalogue": " 31 Lyn",
+      "type_spectral": "K4+III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  31 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2031%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  31 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2031%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:541542",
+      "simbad_id": "*  31 Lyn",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  31 Lyn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2031%20Lyn",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 44248,
       "nom": "10 UMa",
-      "etiq": "10",
-      "bayer": "",
+      "etiq": "10 UMa",
+      "bayer": "10 UMa",
       "ra_deg": 135.161,
       "dec_deg": 41.783,
       "mag": 3.96,
-      "role": "La patte arrière — géante orange",
+      "role": "En bas du dessin, côté gauche — spectre complexe ou composé (F3V+G5V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 44248) [constellation réelle : UMa]"
+      "src": "SIMBAD : *  10 UMa ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 10 UMa",
+      "type_spectral": "F3V+G5V",
+      "nature_stellaire": "Spectre complexe ou composé (F3V+G5V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  10 UMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2010%20UMa",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  10 UMa",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2010%20UMa",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:577215",
+      "simbad_id": "*  10 UMa",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  10 UMa",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2010%20UMa",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
@@ -90,40 +241,130 @@
       "bayer": "",
       "ra_deg": 136.632,
       "dec_deg": 38.452,
-      "mag": 4.56,
-      "role": "La queue — naine blanche",
+      "mag": 4.539,
+      "role": "En bas du dessin, côté gauche — géante lumineuse jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 44700)"
+      "src": "SIMBAD : HD  77912 ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "",
+      "type_spectral": "G7IIa",
+      "nature_stellaire": "Géante lumineuse jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "HD  77912",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2077912",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "HD  77912",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2077912",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:617743",
+      "simbad_id": "HD  77912",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "HD  77912",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2077912",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 45688,
       "nom": "38 Lyn",
-      "etiq": "38",
-      "bayer": "",
+      "etiq": "38 Lyn",
+      "bayer": "38 Lyn",
       "ra_deg": 139.711,
       "dec_deg": 36.803,
-      "mag": 3.82,
-      "role": "Le cou — naine blanche",
+      "mag": 3.92,
+      "role": "En bas du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 45688)"
+      "src": "SIMBAD : *  38 Lyn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 38 Lyn",
+      "type_spectral": "A1V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  38 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2038%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  38 Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2038%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1612109",
+      "simbad_id": "*  38 Lyn",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  38 Lyn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2038%20Lyn",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 45860,
       "nom": "α Lyn",
-      "etiq": "α",
-      "bayer": "alf Lyn",
+      "etiq": "α Lyn",
+      "bayer": "α Lyn",
       "ra_deg": 140.264,
       "dec_deg": 34.393,
       "mag": 3.14,
-      "role": "La plus brillante de la figure — géante orange",
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 45860)"
+      "src": "SIMBAD : * alf Lyn ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "alf Lyn",
+      "type_spectral": "K6III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Lyn",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lyn",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1613144",
+      "simbad_id": "* alf Lyn",
+      "constellation_iau": "Lyn",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Lyn",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lyn",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         7,
@@ -136,40 +377,109 @@
         0
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 8 étoiles reliées par 7 segments.",
-    "note_geometrie": "Figure construite sur 8 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie 31 Lyn à 21 Lyn (11.40°) ; le plus court relie α Lyn à 38 Lyn (2.45°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Lynx : 8 étoiles et 7 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 38,5°. Le segment le plus court relie α Lyn à 38 Lyn (2,45°). Le plus long relie Alsciaukat à 21 Lyn (11,4°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "α Lyn–38 Lyn": 2.45,
-    "38 Lyn–HIP 44700": 2.94,
-    "HIP 44700–10 UMa": 3.52,
-    "10 UMa–31 Lyn": 7.11,
-    "31 Lyn–21 Lyn": 11.4,
-    "21 Lyn–15 Lyn": 10.17,
-    "15 Lyn–2 Lyn": 4.92
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 7,
+      "b": 6,
+      "deg": 2.4516
+    },
+    {
+      "a": 6,
+      "b": 5,
+      "deg": 2.9435
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "deg": 3.5157
+    },
+    {
+      "a": 4,
+      "b": 3,
+      "deg": 7.1064
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "deg": 11.4005
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 10.1703
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 4.9189
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 2683",
       "nature": "galaxie",
-      "mag": 9.7,
+      "mag": 9.69,
       "distance_al": null,
-      "note": "NGC 2683 — galaxie documenté(e) dans la fiche Atlas de Lynx.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 9,48 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC2683, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2683",
+      "constellation_catalogue": "Lyn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2683",
+        "alias_interroge": "NGC2683",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2683",
+        "alias_interroge": "NGC2683",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2537",
       "nature": "galaxie",
-      "mag": 11.7,
+      "mag": 11.71,
       "distance_al": null,
-      "note": "NGC 2537 — galaxie documenté(e) dans la fiche Atlas de Lynx.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 2,07 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC2537, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2537",
+      "constellation_catalogue": "Lyn",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2537",
+        "alias_interroge": "NGC2537",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2537",
+        "alias_interroge": "NGC2537",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -201,85 +511,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "α Lyn, magnitude 3.14, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "α Lyn, avec 3,14 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "α Lyn – 38 Lyn : environ 2,45°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Lynx ?",
-      "r": "2 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Lynx désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 2683 ?",
-      "r": "NGC 2683 est un(e) galaxie de magnitude 9.7. Instrument conseillé : télescope. NGC 2683 — galaxie documenté(e) dans la fiche Atlas de Lynx."
+      "q": "Que faire si une étoile du Lynx manque à l’œil nu ?",
+      "r": "Vérifier la transparence et la pollution lumineuse, puis utiliser la carte ou des jumelles. L’échec de repérage ne signifie pas que l’étoile n’existe pas : l’observation dépend des conditions et de l’expérience."
     },
     {
-      "q": "Quand observer Lynx ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La constellation la plus discrète du ciel."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Lynx. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 2683 : galaxie. Galaxie. Dimension apparente du catalogue : environ 9,48 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Lynx est la constellation la plus discrète du ciel : Johannes Hevelius lui a donné ce nom parce qu'il fallait, disait-il, des yeux de lynx pour la voir. On peut la repérer entre la Grande Ourse et les Gémeaux, puis chercher ses deux galaxies NGC 2683 et NGC 2537, accessibles aux instruments amateurs.",
+  "message_animation": "Le Lynx est une constellation discrète entre les grands repères de la Grande Ourse et des Gémeaux. Suivre sa ligne d’étoiles progressivement. Ne pas exiger d’un débutant qu’il reconnaisse immédiatement un animal dans ce tracé peu contrasté.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 66–67 (fiche Atlas « Lynx »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

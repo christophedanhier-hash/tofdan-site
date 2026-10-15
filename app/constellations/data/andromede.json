@@ -14,97 +14,313 @@
   },
   "saison": "automne",
   "voie_lactee": false,
-  "repere_principal": "Alpheratz, Mirach et Almach : la ligne d'étoiles de magnitude 2 qui part du Carré de Pégase",
+  "repere_principal": "Partir d’Alpheratz, à un sommet du Grand Carré de Pégase, puis suivre la ligne vers Mirach et Almach.",
   "constellations_voisines": [
     "Cassiopée",
-    "Persée",
-    "Le Triangle",
-    "Les Poissons",
+    "Lézard",
     "Pégase",
-    "Le Lézard",
-    "Céphée"
+    "Persée",
+    "Poissons",
+    "Triangle"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Alpheratz",
-      "bayer": "alf And",
+      "bayer": "α And",
       "ra_deg": 2.09692,
       "dec_deg": 29.09043,
       "mag": 2.06,
-      "role": "La chaîne principale — sous-géante bleue",
+      "role": "En bas du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alpheratz",
+      "bayer_catalogue": "alf And",
+      "type_spectral": "B8IV-VHgMn",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alpheratz",
+      "identifiant": "simbad:1502055",
+      "simbad_id": "* alf And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Mirach",
-      "bayer": "bet And",
+      "bayer": "β And",
       "ra_deg": 17.43302,
       "dec_deg": 35.62056,
       "mag": 2.05,
-      "role": "La plus brillante de la figure — géante rouge",
+      "role": "Au milieu du dessin, près de l’axe central — géante rouge",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mirach",
+      "bayer_catalogue": "bet And",
+      "type_spectral": "M0+IIIa",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Mirach",
+      "identifiant": "simbad:1546016",
+      "simbad_id": "* bet And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Almach",
-      "bayer": "gam And",
+      "bayer": "γ¹ And",
       "ra_deg": 30.9748,
       "dec_deg": 42.32973,
       "mag": 2.1,
-      "role": "L'extrémité — géante lumineuse orange",
+      "role": "En haut du dessin, côté gauche — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * gam01 And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Almach",
+      "bayer_catalogue": "gam01 And",
+      "type_spectral": "K2+IIb",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam01 And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam01%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam01 And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam01%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Almach",
+      "identifiant": "simbad:9999",
+      "simbad_id": "* gam01 And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam01 And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam01%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "Delta And",
-      "bayer": "del And",
+      "nom": "δ And",
+      "bayer": "δ And",
       "ra_deg": 9.83168,
       "dec_deg": 30.86098,
       "mag": 3.28,
-      "role": "La chaîne principale — géante orange",
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * del And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del And",
+      "type_spectral": "K3III-IIIbCN0.5",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ And",
+      "identifiant": "simbad:1512653",
+      "simbad_id": "* del And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "Pi And",
-      "bayer": "pi And",
+      "nom": "π And",
+      "bayer": "π And",
       "ra_deg": 9.22021,
       "dec_deg": 33.71934,
       "mag": 4.36,
-      "role": "La chaîne principale — naine bleue",
+      "role": "En bas du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * pi. And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "pi. And",
+      "type_spectral": "B5V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* pi. And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* pi. And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "π And",
+      "identifiant": "simbad:1531388",
+      "simbad_id": "* pi. And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* pi. And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "Mu And",
-      "bayer": "mu And",
+      "nom": "μ And",
+      "bayer": "μ And",
       "ra_deg": 14.18837,
       "dec_deg": 38.49933,
       "mag": 3.87,
-      "role": "La branche vers M 31 — naine blanche",
+      "role": "En haut du dessin, près de l’axe central — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * mu. And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "mu. And",
+      "type_spectral": "A6V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "μ And",
+      "identifiant": "simbad:1545741",
+      "simbad_id": "* mu. And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "Nu And",
-      "bayer": "nu And",
+      "nom": "ν And",
+      "bayer": "ν And",
       "ra_deg": 12.45353,
       "dec_deg": 41.07891,
       "mag": 4.53,
-      "role": "La branche vers M 31 — naine bleue",
+      "role": "En haut du dessin, près de l’axe central — étoile bleu-blanc de la séquence principale",
       "visibilite": "jumelles",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * nu. And ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. And",
+      "type_spectral": "B5V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20And",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. And",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20And",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ν And",
+      "identifiant": "simbad:1576362",
+      "simbad_id": "* nu. And",
+      "constellation_iau": "And",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. And",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20And",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -135,20 +351,47 @@
         6
       ]
     ],
-    "commentaire": "Tracé retenu : la ligne principale Alpheratz–Delta And–Pi And–Mirach prolongée vers Almach, avec la branche Mirach–Mu And–Nu And qui mène à la galaxie M 31.",
-    "note_geometrie": "La chaîne principale Alpheratz–Delta And–Mirach est presque rectiligne : ses segments mesurent 6,93° et 7,94°, et Alpheratz–Mirach en direct 14,48° contre 14,87° par Delta And — soit un écart de 0,4° seulement pour un détour de deux segments. La branche qui mène à la galaxie M 31 est la plus courte de la figure : Mirach–Mu And 3,87° puis Mu And–Nu And 2,90°. Les liaisons Mirach–Almach (12,46°) et Delta And–Pi And (2,90°) ferment la figure.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Andromède : 7 étoiles et 7 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 26,7°. Le segment le plus court relie μ And à ν And (2,9°). Le plus long relie Mirach à Almach (12,46°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Alpheratz–Delta And": 6.93,
-    "Mirach–Almach": 12.46,
-    "Mirach–Delta And": 7.94,
-    "Mirach–Pi And": 7.01,
-    "Mirach–Mu And": 3.87,
-    "Delta And–Pi And": 2.9,
-    "Mu And–Nu And": 2.9
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 3,
+      "deg": 6.9284
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 12.4605
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 7.9373
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "deg": 7.0145
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "deg": 3.8713
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 2.9047
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 2.9035
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 31",
@@ -156,9 +399,32 @@
       "mag": 3.44,
       "distance_al": 2674479,
       "note": "Grande galaxie spirale d'Andromède, la vedette de la constellation, visible à l'œil nu sous un ciel sombre.",
-      "instrument": "œil nu",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC0224, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0224",
+      "constellation_catalogue": "And",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0224",
+        "alias_interroge": "NGC0224",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0224",
+        "alias_interroge": "NGC0224",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 32",
@@ -166,9 +432,32 @@
       "mag": 8.13,
       "distance_al": 2738316,
       "note": "Petite galaxie elliptique naine, satellite de M 31 ; l'Atlas lui attribue la magnitude 8,70.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC0221, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0221",
+      "constellation_catalogue": "And",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0221",
+        "alias_interroge": "NGC0221",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0221",
+        "alias_interroge": "NGC0221",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 110",
@@ -176,9 +465,32 @@
       "mag": 8.15,
       "distance_al": 2754624,
       "note": "Autre galaxie naine elliptique satellite de M 31 ; l'Atlas lui attribue la magnitude 9,40.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC0205, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0205",
+      "constellation_catalogue": "And",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0205",
+        "alias_interroge": "NGC0205",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0205",
+        "alias_interroge": "NGC0205",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 891",
@@ -187,8 +499,31 @@
       "distance_al": 32452522,
       "note": "Galaxie située à l'est de la constellation, bien plus lointaine et plus faible que M 31.",
       "instrument": "télescope",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC0891, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0891",
+      "constellation_catalogue": "And",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0891",
+        "alias_interroge": "NGC0891",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0891",
+        "alias_interroge": "NGC0891",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7662",
@@ -196,9 +531,32 @@
       "mag": 8.3,
       "distance_al": 5732,
       "note": "Remarquable nébuleuse planétaire surnommée la Boule de Neige, à environ 5 700 années-lumière.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC7662, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7662",
+      "constellation_catalogue": "And",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7662",
+        "alias_interroge": "NGC7662",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7662",
+        "alias_interroge": "NGC7662",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -230,103 +588,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Mirach (β And), magnitude 2,05, devant Alpheratz (2,06) et Almach (2,10) : les trois étoiles principales sont presque à égalité, ce qui rend le classement difficile à l'œil nu."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Mirach, avec 2,05 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment retrouver la galaxie M 31 à partir de la figure ?",
-      "r": "On part de Mirach et on suit la branche Mirach–Mu And (3,87°)–Nu And (2,90° plus loin) : M 31 se trouve tout près de Nu And. Sa magnitude de 3,44 la rend visible à l'œil nu sous un ciel sans pollution lumineuse."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "μ And – ν And : environ 2,9°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelles étoiles de la figure sont les plus faibles ?",
-      "r": "Nu And (magnitude 4,53) et Pi And (4,36). Nu And demande un bon ciel ou des jumelles ; Pi And reste visible à l'œil nu."
-    },
-    {
-      "q": "Quels objets nécessitent un instrument ?",
-      "r": "M 32 (magnitude 8,13) et M 110 (8,15), les deux petites galaxies satellites de M 31, ainsi que NGC 7662 (8,30) et NGC 891 (10,01), qui demandent une lunette ou un télescope."
-    },
-    {
-      "q": "Quelle est la plus longue liaison de la figure ?",
-      "r": "Mirach–Almach, 12,46° : c'est la ligne qui prolonge la figure vers le nord-est."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Andromède désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Pourquoi M 31 paraît-elle si petite sur une photo prise à l'œil ?",
-      "r": "Parce qu'elle est très lointaine : environ 2 674 479 années-lumière. Son diamètre réel est immense, mais vue d'aussi loin, seule sa région centrale brille assez pour être perçue à l'œil nu."
+      "q": "Pourquoi M 31 n’apparaît-elle pas comme sur les photographies ?",
+      "r": "L’œil perçoit surtout la région centrale la plus lumineuse. La lumière du disque est étalée sur une grande surface ; les poses photographiques longues révèlent des régions beaucoup moins contrastées."
     },
     {
-      "q": "Quelle différence de luminosité entre M 31 et NGC 891 ?",
-      "r": "M 31 est de magnitude 3,44 et NGC 891 de 10,01 : un écart de 6,57 magnitudes, soit un rapport de luminosité supérieur à 400. NGC 891 est aussi beaucoup plus loin (environ 32 452 522 années-lumière)."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Andromède. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi l'Atlas donne-t-il 8,70 pour M 32 alors que le catalogue donne 8,13 ?",
-      "r": "Les deux valeurs ne sont pas mesurées de la même façon : l'Atlas cite une magnitude de source ancienne, OpenNGC une magnitude en bande V. Il faut toujours préciser la bande quand on compare des magnitudes."
-    },
-    {
-      "q": "La planétaire NGC 7662 est-elle une planète ?",
-      "r": "Non : c'est une enveloppe de gaz expulsée par une étoile, située à environ 5 732 années-lumière (l'Atlas indique 5 600). On l'appelle la Boule de Neige."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 31 : galaxie. Grande galaxie spirale d'Andromède, la vedette de la constellation, visible à l'œil nu sous un ciel sombre. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Andromède est la constellation de l'automne. Trois étoiles de magnitude proche de 2 (Mirach, Alpheratz, Almach) donnent la ligne de base ; la branche Mirach–Mu And–Nu And conduit ensuite à M 31, la galaxie d'Andromède, visible à l'œil nu sous un ciel sombre à plus de 2,6 millions d'années-lumière.",
+  "message_animation": "Partir d’Alpheratz, à un sommet du Grand Carré de Pégase, puis suivre la ligne vers Mirach et Almach. Depuis Mirach, la branche passant par μ et ν d’Andromède aide à chercher M 31. Sous un ciel sombre, son noyau apparaît comme une petite tache ; les photographies montrent une étendue bien plus grande.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 3–4 (fiche Atlas « Andromède »)",
     "archive_texte": "atlas-observation-source/003-androm-de.txt",
     "coordonnees": "Hipparcos I311 / Gaia DR3",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "Alpheratz, Mirach, Almach : écart de magnitude très faible, classement fragile à l'œil nu.",
-      "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix.",
-      "M 32 et M 110 : l'Atlas donne des magnitudes (8,70 et 9,40) différentes de celles d'OpenNGC (8,13 et 8,15)."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

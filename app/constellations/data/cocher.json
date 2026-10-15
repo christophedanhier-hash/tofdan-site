@@ -14,95 +14,313 @@
   },
   "saison": "hiver",
   "voie_lactee": true,
-  "repere_principal": "Capella, étoile jaune très brillante (magnitude 0,08), au sommet du pentagone du Cocher",
+  "repere_principal": "Repérer Capella et parcourir le grand contour du Cocher.",
   "constellations_voisines": [
-    "La Girafe",
-    "Les Gémeaux",
-    "Le Lynx",
+    "Girafe",
+    "Gémeaux",
+    "Lynx",
     "Persée",
-    "Le Taureau"
+    "Taureau"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Capella",
-      "bayer": "alf Aur",
+      "bayer": "α Aur",
       "ra_deg": 79.17233,
       "dec_deg": 45.99799,
       "mag": 0.08,
-      "role": "La plus brillante de la figure — géante jaune",
+      "role": "En haut du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf Aur ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Capella",
+      "bayer_catalogue": "alf Aur",
+      "type_spectral": "G3III:",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Capella",
+      "identifiant": "simbad:284536",
+      "simbad_id": "* alf Aur",
+      "constellation_iau": "Aur",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Aur",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Aur",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Menkalinan",
-      "bayer": "bet Aur",
+      "bayer": "β Aur",
       "ra_deg": 89.88218,
       "dec_deg": 44.94743,
       "mag": 1.9,
-      "role": "L'épaule droite — sous-géante blanche",
+      "role": "En haut du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet Aur ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Menkalinan",
+      "bayer_catalogue": "bet Aur",
+      "type_spectral": "A1IV-Vp",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Menkalinan",
+      "identifiant": "simbad:835414",
+      "simbad_id": "* bet Aur",
+      "constellation_iau": "Aur",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Aur",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Aur",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Elnath",
-      "bayer": "bet Tau",
+      "bayer": "β Tau",
       "ra_deg": 81.57297,
       "dec_deg": 28.60745,
       "mag": 1.65,
-      "role": "Le pied est — naine bleue",
+      "role": "En bas du dessin, près de l’axe central — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD TAP/ADQL, filtre V (étoile partagée Cocher/Taureau)"
+      "src": "SIMBAD : * bet Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Elnath",
+      "bayer_catalogue": "bet Tau",
+      "type_spectral": "B7III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Elnath",
+      "identifiant": "simbad:794302",
+      "simbad_id": "* bet Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "alerte": "Repère voisin : cette étoile appartient à la constellation « Taureau » (Tau), pas à celle de cette fiche. Sa présence est un choix du dessin pédagogique.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Hassaleh",
-      "bayer": "iot Aur",
+      "bayer": "ι Aur",
       "ra_deg": 74.24842,
       "dec_deg": 33.16609,
       "mag": 2.69,
-      "role": "Le genou — géante lumineuse orange",
+      "role": "En bas du dessin, côté droite — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * iot Aur ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Hassaleh",
+      "bayer_catalogue": "iot Aur",
+      "type_spectral": "K3II-III",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Hassaleh",
+      "identifiant": "simbad:742177",
+      "simbad_id": "* iot Aur",
+      "constellation_iau": "Aur",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Aur",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Aur",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "Theta Aur",
-      "bayer": "the Aur",
+      "nom": "Mahasim",
+      "bayer": "θ Aur",
       "ra_deg": 89.93029,
       "dec_deg": 37.21258,
       "mag": 2.62,
-      "role": "Le bras — naine blanche",
+      "role": "Au milieu du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * tet Aur ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mahasim",
+      "bayer_catalogue": "tet Aur",
+      "type_spectral": "A0VpSi",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Mahasim",
+      "identifiant": "simbad:836292",
+      "simbad_id": "* tet Aur",
+      "constellation_iau": "Aur",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Aur",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Aur",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "Almaaz",
-      "bayer": "eps Aur",
+      "bayer": "ε Aur",
       "ra_deg": 75.49223,
       "dec_deg": 43.82331,
       "mag": 2.99,
-      "role": "Le pied du cocher — supergéante blanche",
+      "role": "En haut du dessin, côté droite — supergéante blanche",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * eps Aur ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Almaaz",
+      "bayer_catalogue": "eps Aur",
+      "type_spectral": "A9Ia",
+      "nature_stellaire": "Supergéante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Almaaz",
+      "identifiant": "simbad:741050",
+      "simbad_id": "* eps Aur",
+      "constellation_iau": "Aur",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Aur",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Aur",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "Eta Aur",
-      "bayer": "eta Aur",
+      "nom": "Haedus",
+      "bayer": "η Aur",
       "ra_deg": 76.62873,
       "dec_deg": 41.23448,
       "mag": 3.18,
-      "role": "Le bras — naine bleue",
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * eta Aur ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Haedus",
+      "bayer_catalogue": "eta Aur",
+      "type_spectral": "B3V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Aur",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Aur",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Haedus",
+      "identifiant": "simbad:755025",
+      "simbad_id": "* eta Aur",
+      "constellation_iau": "Aur",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Aur",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Aur",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -133,20 +351,47 @@
         6
       ]
     ],
-    "commentaire": "Tracé retenu : le pentagone Capella–Menkalinan–Theta Aur–Elnath–Hassaleh–Eta Aur, avec la branche Capella–Almaaz.",
-    "note_geometrie": "Pentagone ouvert, très dissymétrique. Trois segments courts partent de Capella : Almaaz 3,39° (le plus court), Eta Aur 5,11° et Menkalinan 7,58°. Le contour se poursuit par Menkalinan–Theta Aur 7,73°, Theta Aur–Elnath 11,09° (la liaison la plus longue de la figure) et Elnath–Hassaleh 7,76°, avant de refermer par Hassaleh–Eta Aur 8,29°. Capella est le nœud de la figure : trois liaisons y aboutissent.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Cocher : 7 étoiles et 7 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 17,6°. Le segment le plus court relie Capella à Almaaz (3,39°). Le plus long relie Elnath à Mahasim (11,09°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon. Repères voisins explicitement conservés dans le dessin : Elnath (Taureau).",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Capella–Menkalinan": 7.58,
-    "Capella–Almaaz": 3.39,
-    "Capella–Eta Aur": 5.11,
-    "Menkalinan–Theta Aur": 7.73,
-    "Elnath–Hassaleh": 7.76,
-    "Elnath–Theta Aur": 11.09,
-    "Hassaleh–Eta Aur": 8.29
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 7.5775
+    },
+    {
+      "a": 0,
+      "b": 5,
+      "deg": 3.3937
+    },
+    {
+      "a": 0,
+      "b": 6,
+      "deg": 5.1063
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "deg": 7.7349
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 7.7611
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "deg": 11.0923
+    },
+    {
+      "a": 3,
+      "b": 6,
+      "deg": 8.2872
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 36",
@@ -155,8 +400,31 @@
       "distance_al": 3906,
       "note": "Amas ouvert brillant, parmi les plus faciles d'accès, à environ 3 900 années-lumière.",
       "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC1960, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1960",
+      "constellation_catalogue": "Aur",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1960",
+        "alias_interroge": "NGC1960",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1960",
+        "alias_interroge": "NGC1960",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 37",
@@ -165,8 +433,31 @@
       "distance_al": 4897,
       "note": "Amas ouvert le plus brillant des trois, à environ 4 900 années-lumière.",
       "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC2099, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2099",
+      "constellation_catalogue": "Aur",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2099",
+        "alias_interroge": "NGC2099",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2099",
+        "alias_interroge": "NGC2099",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 38",
@@ -175,8 +466,31 @@
       "distance_al": 3732,
       "note": "Amas ouvert de magnitude 6,4, à environ 3 700 années-lumière.",
       "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC1912, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1912",
+      "constellation_catalogue": "Aur",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1912",
+        "alias_interroge": "NGC1912",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1912",
+        "alias_interroge": "NGC1912",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1907",
@@ -184,19 +498,65 @@
       "mag": 8.2,
       "distance_al": 5338,
       "note": "Petit amas ouvert d'une trentaine d'étoiles, enserré dans une nébuleuse, près de M 38.",
-      "instrument": "lunette",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1907, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1907",
+      "constellation_catalogue": "Aur",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1907",
+        "alias_interroge": "NGC1907",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1907",
+        "alias_interroge": "NGC1907",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 405",
-      "nature": "nébuleuse diffusée",
+      "nature": "nébuleuse",
       "mag": 10.0,
       "distance_al": 1500,
       "note": "Nébuleuse diffuse de l'Étoile flamboyante, éclairée par la variable AE Aurigae, magnitude connue en bande B seulement.",
       "instrument": "télescope",
-      "src": "O2",
-      "code": "O2"
+      "src": "OpenNGC, IC0405, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "IC0405",
+      "constellation_catalogue": "Aur",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0405",
+        "alias_interroge": "IC0405",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0405",
+        "alias_interroge": "IC0405",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O2",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -228,100 +588,85 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus facile à repérer ?",
-      "r": "Capella (α Aur), magnitude 0,08 : la plus brillante de la constellation, reliée à trois autres étoiles (Menkalinan, Almaaz, Eta Aur)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Capella, avec 0,08 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelle étoile du pentagone n'appartient pas au Cocher ?",
-      "r": "Elnath (β Tau, magnitude 1,65) : elle est officiellement rattachée au Taureau mais ferme le pentagone du Cocher dans la figure traditionnelle."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Capella – Almaaz : environ 3,39°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel amas est le plus brillant ?",
-      "r": "M 37, magnitude 5,6, devant M 36 (6,0) et M 38 (6,4) : les trois se repèrent aux jumelles."
-    },
-    {
-      "q": "Quel objet du ciel profond est le plus difficile ?",
-      "r": "IC 405, nébuleuse diffuse dont la magnitude (10,0) n'est connue qu'en bande B, avec l'étoile variable AE Aurigae en son cœur."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Cocher désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Pourquoi Elnath fait-elle partie de la figure mais pas de la constellation ?",
-      "r": "La figure est un choix pédagogique issu du tracé traditionnel, alors que les limites officielles de l'IAU ont attribué Elnath au Taureau. Les deux notions sont différentes."
+      "q": "Pourquoi Elnath apparaît-elle dans le Cocher et dans le Taureau ?",
+      "r": "Elnath appartient officiellement au Taureau, mais sert de repère dans un dessin traditionnel du Cocher. Une étoile peut aider à dessiner une figure voisine sans changer d’appartenance officielle."
     },
     {
-      "q": "Pourquoi M 36, M 37 et M 38 sont-ils si proches sur le ciel ?",
-      "r": "Parce que le Cocher se trouve dans le plan de la Voie lactée, riche en amas ouverts : ils sont à environ 3 906, 4 897 et 3 732 années-lumière, à des distances voisines."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Cocher. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi la magnitude d'IC 405 est-elle donnée en bande B ?",
-      "r": "Aucune magnitude V n'est publiée pour cette nébuleuse : la valeur de 10,0 est mesurée dans le bleu et n'est pas directement comparable aux autres objets."
-    },
-    {
-      "q": "Quelle est la différence de luminosité entre Capella et Eta Aur ?",
-      "r": "Capella (0,08) est environ 17 fois plus brillante qu'Eta Aur (3,18), soit un écart de 3,10 magnitudes."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 36 : amas ouvert. Amas ouvert brillant, parmi les plus faciles d'accès, à environ 3 900 années-lumière. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Cocher est dominé par Capella, étoile de magnitude 0,08. Sa figure en pentagone emprunte Elnath, officiellement rattachée au Taureau. La constellation traverse la Voie lactée d'hiver et abrite trois amas ouverts brillants (M 36, M 37, M 38) faciles aux jumelles.",
+  "message_animation": "Repérer Capella et parcourir le grand contour du Cocher. Le dessin emprunte Elnath au Taureau : les limites des constellations et les traits d’une illustration ne sont pas la même chose. Dans la région de la Voie lactée, comparer les amas ouverts M 36, M 37 et M 38.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 23–24 (fiche Atlas « Cocher »)",
     "archive_texte": "atlas-observation-source/023-cocher.txt",
     "coordonnees": "Hipparcos I311 / Gaia DR3",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "IC 405 : aucune magnitude V publiée ; la magnitude (10,0) est en bande B.",
-      "Elnath (β Tau) appartient officiellement au Taureau ; elle est incluse dans la figure du Cocher.",
-      "Theta Aur : désignation de Bayer absente du payload (champ vide).",
-      "Figure : aucune carte IAU officielle n'impose un tracé unique ; le tracé retenu est documenté comme un choix."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": [
+        "Elnath (Taureau)"
+      ]
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

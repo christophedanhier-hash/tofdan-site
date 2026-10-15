@@ -8,16 +8,16 @@
   "source_atlas": "Atlas observation.pdf, pages 48–49 (fiche Atlas « Girafe »)",
   "saison": "hiver",
   "voie_lactee": true,
-  "repere_principal": "La longue girafe circumpolaire autour du pôle",
+  "repere_principal": "La Girafe occupe une région discrète entre plusieurs grands repères du ciel boréal.",
   "constellations_voisines": [
-    "Petite Ourse",
-    "Céphée",
-    "Cassiopée",
-    "Persée",
     "Cocher",
+    "Cassiopée",
+    "Céphée",
+    "Dragon",
     "Lynx",
+    "Persée",
     "Grande Ourse",
-    "Dragon"
+    "Petite Ourse"
   ],
   "etoiles": [
     {
@@ -28,10 +28,40 @@
       "bayer": "",
       "ra_deg": 52.267,
       "dec_deg": 59.94,
-      "mag": 4.21,
-      "role": "L'encolure — géante bleue",
+      "mag": 4.22,
+      "role": "En bas du dessin, côté droite — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 16228)"
+      "src": "SIMBAD : HD  21291 ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "",
+      "type_spectral": "B9Ia",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "HD  21291",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2021291",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "HD  21291",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2021291",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:243229",
+      "simbad_id": "HD  21291",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "HD  21291",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2021291",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
@@ -41,62 +71,212 @@
       "bayer": "",
       "ra_deg": 57.38,
       "dec_deg": 65.526,
-      "mag": 4.39,
-      "role": "La patte — sous-géante blanche",
+      "mag": 4.48,
+      "role": "Au milieu du dessin, côté droite — géante lumineuse rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 17884)"
+      "src": "SIMBAD : V* BE Cam ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "",
+      "type_spectral": "M2II",
+      "nature_stellaire": "Géante lumineuse rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "V* BE Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A%20BE%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "V* BE Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A%20BE%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:268935",
+      "simbad_id": "V* BE Cam",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "V* BE Cam",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%2A%20BE%20Cam",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 17959,
       "nom": "γ Cam",
-      "etiq": "γ",
-      "bayer": "gam Cam",
+      "etiq": "γ Cam",
+      "bayer": "γ Cam",
       "ra_deg": 57.589,
       "dec_deg": 71.332,
-      "mag": 4.59,
-      "role": "Le corps — sous-géante blanche",
+      "mag": 4.604,
+      "role": "En haut du dessin, côté droite — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 17959)"
+      "src": "SIMBAD : * gam Cam ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Cam",
+      "type_spectral": "A2IVn",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:280655",
+      "simbad_id": "* gam Cam",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Cam",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cam",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 22783,
       "nom": "α Cam",
-      "etiq": "α",
-      "bayer": "alf Cam",
+      "etiq": "α Cam",
+      "bayer": "α Cam",
       "ra_deg": 73.513,
       "dec_deg": 66.343,
-      "mag": 4.26,
-      "role": "Le cou — supergéante bleue",
+      "mag": 4.29,
+      "role": "Au milieu du dessin, près de l’axe central — supergéante bleue",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 22783)"
+      "src": "SIMBAD : * alf Cam ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "alf Cam",
+      "type_spectral": "O9Ia",
+      "nature_stellaire": "Supergéante bleue",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:293690",
+      "simbad_id": "* alf Cam",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Cam",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cam",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 23040,
       "nom": "7 Cam",
-      "etiq": "7",
-      "bayer": "",
+      "etiq": "7 Cam",
+      "bayer": "7 Cam",
       "ra_deg": 74.322,
       "dec_deg": 53.752,
-      "mag": 4.43,
-      "role": "Le corps — naine blanche",
+      "mag": 4.433,
+      "role": "En bas du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 23040)"
+      "src": "SIMBAD : *   7 Cam ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  7 Cam",
+      "type_spectral": "A1V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   7 Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%207%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   7 Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%207%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:283459",
+      "simbad_id": "*   7 Cam",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   7 Cam",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%207%20Cam",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 23522,
       "nom": "β Cam",
-      "etiq": "β",
-      "bayer": "bet Cam",
+      "etiq": "β Cam",
+      "bayer": "β Cam",
       "ra_deg": 75.855,
       "dec_deg": 60.442,
-      "mag": 4.03,
-      "role": "La plus brillante de la figure — supergéante jaune",
+      "mag": 4.02,
+      "role": "En bas du dessin, côté gauche — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 23522)"
+      "src": "SIMBAD : * bet Cam ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Cam",
+      "type_spectral": "G1Ib",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Cam",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cam",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:294885",
+      "simbad_id": "* bet Cam",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Cam",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cam",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
@@ -106,10 +286,40 @@
       "bayer": "",
       "ra_deg": 94.712,
       "dec_deg": 69.32,
-      "mag": 4.76,
-      "role": "Le corps — géante bleue",
+      "mag": 4.757,
+      "role": "En haut du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 29997)"
+      "src": "SIMBAD : HD  42818 ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "",
+      "type_spectral": "A0Vn",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "HD  42818",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2042818",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "HD  42818",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2042818",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:333895",
+      "simbad_id": "HD  42818",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "HD  42818",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2042818",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
@@ -119,14 +329,44 @@
       "bayer": "",
       "ra_deg": 105.016,
       "dec_deg": 76.977,
-      "mag": 4.55,
-      "role": "Le corps — géante bleue",
+      "mag": 4.54,
+      "role": "En haut du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 33694)"
+      "src": "SIMBAD : HD  49878 ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "",
+      "type_spectral": "K4III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "HD  49878",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2049878",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "HD  49878",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2049878",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:346824",
+      "simbad_id": "HD  49878",
+      "constellation_iau": "Cam",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "HD  49878",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20%2049878",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         7,
@@ -142,40 +382,109 @@
         0
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 8 étoiles reliées par 7 segments.",
-    "note_geometrie": "Figure construite sur 8 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie HIP 29997 à α Cam (8.48°) ; le plus court relie γ Cam à HIP 17884 (5.81°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Girafe : 8 étoiles et 7 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 25,8°. Le segment le plus court relie γ Cam à HIP 17884 (5,81°). Le plus long relie HIP 29997 à α Cam (8,48°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "HIP 33694–HIP 29997": 8.19,
-    "HIP 29997–α Cam": 8.48,
-    "α Cam–β Cam": 5.99,
-    "β Cam–7 Cam": 6.74,
-    "α Cam–γ Cam": 7.57,
-    "γ Cam–HIP 17884": 5.81,
-    "HIP 17884–HIP 16228": 6.05
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 7,
+      "b": 6,
+      "deg": 8.1904
+    },
+    {
+      "a": 6,
+      "b": 3,
+      "deg": 8.4824
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "deg": 5.9924
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "deg": 6.7412
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "deg": 7.5708
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 5.8065
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 6.0526
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 1502",
       "nature": "amas ouvert",
-      "mag": 5.7,
+      "mag": 6.9,
       "distance_al": null,
-      "note": "NGC 1502 — amas ouvert documenté(e) dans la fiche Atlas de Girafe.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 10,20 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC1502, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1502",
+      "constellation_catalogue": "Cam",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1502",
+        "alias_interroge": "NGC1502",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1502",
+        "alias_interroge": "NGC1502",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2403",
       "nature": "galaxie",
-      "mag": 8.4,
+      "mag": 8.43,
       "distance_al": null,
-      "note": "NGC 2403 — galaxie documenté(e) dans la fiche Atlas de Girafe.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "note": "Galaxie. Dimension apparente du catalogue : environ 19,95 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2403, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2403",
+      "constellation_catalogue": "Cam",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2403",
+        "alias_interroge": "NGC2403",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2403",
+        "alias_interroge": "NGC2403",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -207,85 +516,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "β Cam, magnitude 4.03, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "β Cam, avec 4,02 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "γ Cam – HIP 17884 : environ 5,81°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Girafe ?",
-      "r": "2 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Girafe désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 1502 ?",
-      "r": "NGC 1502 est un(e) amas ouvert de magnitude 5.7. Instrument conseillé : œil nu. NGC 1502 — amas ouvert documenté(e) dans la fiche Atlas de Girafe."
+      "q": "Pourquoi une constellation peut-elle être grande mais difficile à reconnaître ?",
+      "r": "L’étendue du dessin ne garantit pas l’éclat de ses étoiles. La Girafe est peu contrastée : la pollution lumineuse et la transparence peuvent effacer ses repères, même si la région est bien au-dessus de l’horizon."
     },
     {
-      "q": "Quand observer Girafe ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La longue girafe circumpolaire autour du pôle."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Girafe. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 1502 : amas ouvert. Amas ouvert. Dimension apparente du catalogue : environ 10,20 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "La Girafe est une constellation circumpolaire très discrète : ses étoiles les plus brillantes ne dépassent pas la magnitude 4. On peut la repérer en partant de la Grande Ourse et de Cassiopée, puis en cherchant la longue silhouette qui s'étire entre les deux. Elle abrite NGC 2403, une galaxie spirale remarquable pour un instrument amateur.",
+  "message_animation": "La Girafe occupe une région discrète entre plusieurs grands repères du ciel boréal. Chercher les étoiles les plus brillantes de la fiche avant de tenter d’imaginer l’animal entier. Des jumelles peuvent aider à retrouver les points du dessin quand le ciel est éclairci.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 48–49 (fiche Atlas « Girafe »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

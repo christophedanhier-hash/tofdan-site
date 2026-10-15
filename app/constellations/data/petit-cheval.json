@@ -8,86 +8,152 @@
   "source_atlas": "Atlas observation.pdf, pages 85 (fiche Atlas « Petit Cheval »)",
   "saison": "automne",
   "voie_lactee": false,
-  "repere_principal": "La tête du petit cheval, minuscule mais ancienne",
+  "repere_principal": "Repérer le Petit Cheval entre Pégase et le Dauphin.",
   "constellations_voisines": [
-    "Pégase",
+    "Verseau",
     "Dauphin",
-    "Verseau"
+    "Pégase"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 104858,
       "nom": "δ Equ",
-      "etiq": "δ",
-      "bayer": "del Equ",
+      "etiq": "δ Equ",
+      "bayer": "δ Equ",
       "ra_deg": 318.62,
       "dec_deg": 10.008,
-      "mag": 4.47,
-      "role": "Le museau — naine jaune-blanc",
+      "mag": 4.49,
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (F7(V)+G0(V))",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 104858)"
+      "src": "SIMBAD : * del Equ ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Equ",
+      "type_spectral": "F7(V)+G0(V)",
+      "nature_stellaire": "Spectre complexe ou composé (F7(V)+G0(V))",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Equ",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Equ",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Equ",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Equ",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1427706",
+      "simbad_id": "* del Equ",
+      "constellation_iau": "Equ",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Equ",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Equ",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 104987,
       "nom": "Kitalpha",
       "etiq": "Kitalpha",
-      "bayer": "alf Equ",
+      "bayer": "α Equ",
       "ra_deg": 318.956,
       "dec_deg": 5.248,
-      "mag": 3.92,
-      "role": "La plus brillante de la figure — sous-géante jaune",
+      "mag": 3.933,
+      "role": "En bas du dessin, côté gauche — spectre complexe ou composé (G6IV+B9.5V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 104987)/ IAU"
+      "src": "SIMBAD : * alf Equ ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Kitalpha",
+      "bayer_catalogue": "alf Equ",
+      "type_spectral": "G6IV+B9.5V",
+      "nature_stellaire": "Spectre complexe ou composé (G6IV+B9.5V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Equ",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Equ",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Equ",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Equ",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1409539",
+      "simbad_id": "* alf Equ",
+      "constellation_iau": "Equ",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Equ",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Equ",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         1,
         0
       ]
     ],
-    "commentaire": "Figure du Petit Cheval : deux étoiles seulement, Kitalpha et δ Equ, reliées par un unique segment de 4,77°. Aucun tracé complexe : la constellation se lit d'un seul regard.",
-    "note_geometrie": "Figure construite sur 2 étoiles et 1 segment, d'après le tracé traditionnel IAU. Le segment relie Kitalpha à δ Equ, sur 4,77°. C'est l'une des figures les plus courtes de tout l'atlas : l'étendue impose une marge calculée pour que les disques et les étiquettes tiennent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Petit Cheval : 2 étoiles et 1 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 4,8°. Son seul segment relie Kitalpha à δ Equ (4,77°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Kitalpha–δ Equ": 4.77
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 4.7716
+    }
+  ],
   "objets_ciel_profond": [
-    {
-      "id": "NGC 6934",
-      "nature": "amas globulaire",
-      "mag": 8.8,
-      "distance_al": 52000,
-      "note": "Amas globulaire compact, situé à l'ouest du petit carré. Accessible aux jumelles sous la forme d'une petite tache floue, il faut un télescope pour commencer à le résoudre en étoiles.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
-    },
-    {
-      "id": "NGC 7006",
-      "nature": "amas globulaire",
-      "mag": 10.6,
-      "distance_al": 135000,
-      "note": "L'un des amas globulaires les plus éloignés de la Galaxie, à plus de 130 000 années-lumière. Très petit et faible : réservé aux instruments.",
-      "instrument": "télescope",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
-    },
     {
       "id": "NGC 7015",
       "nature": "galaxie",
-      "mag": 12.4,
+      "mag": 12.53,
       "distance_al": 200000000,
       "note": "Galaxie spirale vue presque de face, mais très faible. Objet difficile, nécessitant un ciel sombre et un diamètre suffisant.",
       "instrument": "télescope",
-      "src": "OpenNGC",
-      "code": "O1"
+      "src": "OpenNGC, NGC7015, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7015",
+      "constellation_catalogue": "Equ",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7015",
+        "alias_interroge": "NGC7015",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7015",
+        "alias_interroge": "NGC7015",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -119,79 +185,94 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Kitalpha, magnitude 3.92, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Kitalpha, avec 3,93 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Kitalpha – δ Equ : environ 4,77°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Petit Cheval ?",
-      "r": "0 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Petit Cheval désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Quand observer Petit Cheval ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : La tête du petit cheval, minuscule mais ancienne."
+      "q": "Deux points dans un dessin signifient-ils qu’il n’existe que deux étoiles dans cette constellation ?",
+      "r": "Non. La constellation est une région du ciel contenant beaucoup d’étoiles. Le dessin sélectionne seulement quelques repères ; un inventaire pédagogique peut aussi ne proposer aucun objet du ciel profond sans être incomplet."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Petit Cheval. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 7015 : galaxie. Galaxie spirale vue presque de face, mais très faible. Objet difficile, nécessitant un ciel sombre et un diamètre suffisant. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Petit Cheval est l'une des plus petites constellations du ciel : deux étoiles seulement, reliées par un unique segment de 4,77°. On le montre comme un point de repère, entre Pégase et le Dauphin, au sud-est du grand carré de Pégase. L'intérêt pédagogique est double : constater qu'une constellation peut n'avoir que deux étoiles, et comprendre que le dessin traditionnel est une convention, non une contrainte physique.",
+  "message_animation": "Repérer le Petit Cheval entre Pégase et le Dauphin. Le dessin simplifié de cette fiche ne relie que Kitalpha et δ du Petit Cheval ; cela ne signifie pas que la constellation entière n’a que deux étoiles. Aucun objet n’est ajouté artificiellement pour remplir la liste.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 85 (fiche Atlas « Petit Cheval »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "étoiles, figure et contenu pédagogique complets",
-    "lacunes": []
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 6934",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Del"
+        },
+        {
+          "id": "NGC 7006",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Del"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

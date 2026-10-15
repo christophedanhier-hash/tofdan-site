@@ -8,138 +8,407 @@
   "source_atlas": "Atlas observation.pdf, pages 61–62 (fiche Atlas « Licorne »)",
   "saison": "hiver",
   "voie_lactee": true,
-  "repere_principal": "La Licorne, discrète mais riche en nébuleuses",
+  "repere_principal": "Entre Orion et les deux Chiens, la Licorne est discrète en étoiles mais riche en objets de la Voie lactée.",
   "constellations_voisines": [
     "Grand Chien",
     "Petit Chien",
-    "Orion",
-    "Lièvre",
+    "Gémeaux",
     "Hydre",
-    "Poupe",
-    "Girafe",
-    "Gémeaux"
+    "Lièvre",
+    "Orion",
+    "Poupe"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 29651,
       "nom": "γ Mon",
-      "etiq": "γ",
-      "bayer": "gam Mon",
+      "etiq": "γ Mon",
+      "bayer": "γ Mon",
       "ra_deg": 93.714,
       "dec_deg": -6.275,
-      "mag": 3.99,
-      "role": "Le corps — géante orange",
+      "mag": 3.96,
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 29651)"
+      "src": "SIMBAD : * gam Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Mon",
+      "type_spectral": "K1III:",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:878988",
+      "simbad_id": "* gam Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 30419,
       "nom": "ε Mon",
-      "etiq": "ε",
-      "bayer": "eps Mon",
+      "etiq": "ε Mon",
+      "bayer": "ε Mon",
       "ra_deg": 95.942,
       "dec_deg": 4.593,
-      "mag": 4.39,
-      "role": "Le cou — sous-géante blanche",
+      "mag": 4.398,
+      "role": "En haut du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 30419)"
+      "src": "SIMBAD : * eps Mon A ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps Mon A",
+      "type_spectral": "A8V(n)",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Mon A",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Mon%20A",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Mon A",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Mon%20A",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:889885",
+      "simbad_id": "* eps Mon A",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Mon A",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Mon%20A",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 30867,
       "nom": "β Mon",
-      "etiq": "β",
-      "bayer": "bet Mon",
+      "etiq": "β Mon",
+      "bayer": "β Mon",
       "ra_deg": 97.204,
       "dec_deg": -7.033,
-      "mag": 3.76,
-      "role": "La plus brillante de la figure — naine bleue",
+      "mag": 3.74,
+      "role": "En bas du dessin, côté droite — spectre complexe ou composé (B4Ve+B2Vn(e)+B3V:nne)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 30867)"
+      "src": "SIMBAD : * bet Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Mon",
+      "type_spectral": "B4Ve+B2Vn(e)+B3V:nne",
+      "nature_stellaire": "Spectre complexe ou composé (B4Ve+B2Vn(e)+B3V:nne)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:893615",
+      "simbad_id": "* bet Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 31216,
       "nom": "13 Mon",
-      "etiq": "13",
-      "bayer": "",
+      "etiq": "13 Mon",
+      "bayer": "13 Mon",
       "ra_deg": 98.226,
       "dec_deg": 7.333,
-      "mag": 4.47,
-      "role": "La tête — supergéante blanche",
+      "mag": 4.5,
+      "role": "En haut du dessin, côté droite — supergéante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 31216)"
+      "src": "SIMBAD : *  13 Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 13 Mon",
+      "type_spectral": "A0Ib",
+      "nature_stellaire": "Supergéante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  13 Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2013%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  13 Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2013%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:889154",
+      "simbad_id": "*  13 Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  13 Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2013%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 31978,
       "nom": "15 Mon",
-      "etiq": "15",
-      "bayer": "S Mon",
+      "etiq": "15 Mon",
+      "bayer": "15 Mon",
       "ra_deg": 100.244,
       "dec_deg": 9.896,
-      "mag": 4.66,
-      "role": "La tête — naine bleue",
+      "mag": 4.68,
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (O7V+B1.5/2V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 31978)"
+      "src": "SIMBAD : *  15 Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 15 Mon",
+      "type_spectral": "O7V+B1.5/2V",
+      "nature_stellaire": "Spectre complexe ou composé (O7V+B1.5/2V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  15 Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2015%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  15 Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2015%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:903759",
+      "simbad_id": "*  15 Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  15 Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2015%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 32578,
       "nom": "18 Mon",
-      "etiq": "18",
-      "bayer": "",
+      "etiq": "18 Mon",
+      "bayer": "18 Mon",
       "ra_deg": 101.965,
       "dec_deg": 2.412,
-      "mag": 4.48,
-      "role": "Le corps — géante orange",
+      "mag": 4.47,
+      "role": "Au milieu du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 32578)"
+      "src": "SIMBAD : *  18 Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 18 Mon",
+      "type_spectral": "K0+III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  18 Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2018%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  18 Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2018%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:924670",
+      "simbad_id": "*  18 Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  18 Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2018%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 34769,
       "nom": "δ Mon",
-      "etiq": "δ",
-      "bayer": "del Mon",
+      "etiq": "δ Mon",
+      "bayer": "δ Mon",
       "ra_deg": 107.966,
       "dec_deg": -0.493,
       "mag": 4.15,
-      "role": "Le corps — sous-géante blanche",
+      "role": "Au milieu du dessin, près de l’axe central — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 34769)"
+      "src": "SIMBAD : * del Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Mon",
+      "type_spectral": "A0IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:956995",
+      "simbad_id": "* del Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 37447,
       "nom": "α Mon",
-      "etiq": "α",
-      "bayer": "alf Mon",
+      "etiq": "α Mon",
+      "bayer": "α Mon",
       "ra_deg": 115.312,
       "dec_deg": -9.551,
-      "mag": 3.94,
-      "role": "La patte arrière — géante jaune",
+      "mag": 3.93,
+      "role": "En bas du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 37447)"
+      "src": "SIMBAD : * alf Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "alf Mon",
+      "type_spectral": "G9.5III-IIIbFe-0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:990399",
+      "simbad_id": "* alf Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 39863,
       "nom": "ζ Mon",
-      "etiq": "ζ",
-      "bayer": "zet Mon",
+      "etiq": "ζ Mon",
+      "bayer": "ζ Mon",
       "ra_deg": 122.149,
       "dec_deg": -2.984,
-      "mag": 4.36,
-      "role": "Le corps — supergéante jaune",
+      "mag": 4.33,
+      "role": "En bas du dessin, côté gauche — supergéante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 39863)"
+      "src": "SIMBAD : * zet Mon ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Mon",
+      "type_spectral": "G2Ib",
+      "nature_stellaire": "Supergéante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Mon",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Mon",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1045423",
+      "simbad_id": "* zet Mon",
+      "constellation_iau": "Mon",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Mon",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Mon",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         4,
@@ -160,72 +429,181 @@
         7
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 9 étoiles reliées par 9 segments.",
-    "note_geometrie": "Figure construite sur 9 étoiles et 9 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie δ Mon à ζ Mon (14.39°) ; le plus court relie 15 Mon à 13 Mon (3.25°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Licorne : 9 étoiles et 9 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 28,5°. Le segment le plus court relie 15 Mon à 13 Mon (3,25°). Le plus long relie δ Mon à ζ Mon (14,39°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "15 Mon–13 Mon": 3.25,
-    "13 Mon–ε Mon": 3.56,
-    "ε Mon–18 Mon": 6.39,
-    "18 Mon–13 Mon": 6.17,
-    "18 Mon–δ Mon": 6.67,
-    "δ Mon–β Mon": 12.57,
-    "β Mon–γ Mon": 3.55,
-    "δ Mon–ζ Mon": 14.39,
-    "ζ Mon–α Mon": 9.45
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 4,
+      "b": 3,
+      "deg": 3.248
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "deg": 3.5591
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "deg": 6.3948
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "deg": 6.1714
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 6.6658
+    },
+    {
+      "a": 6,
+      "b": 2,
+      "deg": 12.5684
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "deg": 3.5484
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "deg": 14.3925
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "deg": 9.4477
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 2261",
-      "nature": "nébuleuse",
-      "mag": null,
+      "nature": "nébuleuse par réflexion",
+      "mag": 11.85,
       "distance_al": null,
-      "note": "NGC 2261 — nébuleuse documenté(e) dans la fiche Atlas de Licorne.",
-      "instrument": "n. d.",
-      "src": "N1",
-      "code": "N1"
+      "note": "Nébuleuse par réflexion. Dimension apparente du catalogue : environ 2,00 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2261, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2261",
+      "constellation_catalogue": "Mon",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2261",
+        "alias_interroge": "NGC2261",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2261",
+        "alias_interroge": "NGC2261",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2264",
-      "nature": "amas avec nébulosité",
+      "nature": "amas ouvert et nébuleuse",
       "mag": 3.9,
       "distance_al": null,
-      "note": "NGC 2264 — amas avec nébulosité documenté(e) dans la fiche Atlas de Licorne.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert et nébuleuse. Dimension apparente du catalogue : environ 11,40 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2264, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2264",
+      "constellation_catalogue": "Mon",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2264",
+        "alias_interroge": "NGC2264",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2264",
+        "alias_interroge": "NGC2264",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2244",
-      "nature": "amas ouvert",
+      "nature": "amas ouvert et nébuleuse",
       "mag": 4.8,
       "distance_al": null,
-      "note": "NGC 2244 — amas ouvert documenté(e) dans la fiche Atlas de Licorne.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert au centre de la région de la Rosette. La nébulosité qui l’entoure est distincte du groupe d’étoiles. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2239, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2239",
+      "constellation_catalogue": "Mon",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2239",
+        "alias_interroge": "NGC2244",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2239",
+        "alias_interroge": "NGC2244",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2323",
       "nature": "amas ouvert",
       "mag": 5.9,
       "distance_al": null,
-      "note": "NGC 2323 — amas ouvert documenté(e) dans la fiche Atlas de Licorne.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
-    },
-    {
-      "id": "NGC 2525",
-      "nature": "galaxie",
-      "mag": 11.6,
-      "distance_al": null,
-      "note": "NGC 2525 — galaxie documenté(e) dans la fiche Atlas de Licorne.",
-      "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 14,10 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC2323, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2323",
+      "constellation_catalogue": "Mon",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2323",
+        "alias_interroge": "NGC2323",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2323",
+        "alias_interroge": "NGC2323",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -257,90 +635,89 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "β Mon, magnitude 3.76, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "β Mon, avec 3,74 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "15 Mon – 13 Mon : environ 3,25°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Licorne ?",
-      "r": "5 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Licorne désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 2261 ?",
-      "r": "NGC 2261 est un(e) nébuleuse (magnitude non renseignée). Instrument conseillé : instrument non déterminé. NGC 2261 — nébuleuse documenté(e) dans la fiche Atlas de Licorne."
+      "q": "NGC 2244 et la Rosette désignent-ils exactement la même chose ?",
+      "r": "NGC 2244 désigne l’amas ouvert au centre de cette région. La nébulosité de la Rosette l’entoure et porte d’autres désignations NGC. Le contraste nécessaire à l’observation du gaz est différent de celui des étoiles de l’amas."
     },
     {
-      "q": "Quand observer Licorne ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La Licorne, discrète mais riche en nébuleuses."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Licorne. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 2261 : nébuleuse par réflexion. Nébuleuse par réflexion. Dimension apparente du catalogue : environ 2,00 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "La Licorne est une constellation discrète mais l'une des plus riches du ciel en nébuleuses. On peut partir de ses trois étoiles alignées, γ, ε et δ Monocerotis, puis explorer NGC 2264 — l'amas de l'Arbre de Noël avec sa nébuleuse du Cône — et la nébuleuse de la Rosette NGC 2244, superbe en photo et visible aux jumelles sous un ciel sombre.",
+  "message_animation": "Entre Orion et les deux Chiens, la Licorne est discrète en étoiles mais riche en objets de la Voie lactée. Distinguer l’amas ouvert NGC 2244 du gaz de la Rosette qui l’entoure : voir les étoiles d’un amas ne signifie pas avoir vu la nébuleuse diffuse.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 61–62 (fiche Atlas « Licorne »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "NGC 2525 : Cité dans la fiche Atlas « Licorne » ; le catalogue NGC le situe dans la Poupe (Pup). Attribution à revoir."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 2525",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Pup"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

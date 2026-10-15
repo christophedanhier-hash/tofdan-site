@@ -114,7 +114,7 @@
   },
   {
    "id": "coupe-cratere",
-   "nom_fr": "Coupe (Cratère)",
+   "nom_fr": "Coupe",
    "nom_latin": "Crater",
    "abreviation": "Crt",
    "fichier": "coupe-cratere.json",
@@ -122,7 +122,7 @@
   },
   {
    "id": "couronne-boreale",
-   "nom_fr": "Couronne Boréale",
+   "nom_fr": "Couronne boréale",
    "nom_latin": "Corona Borealis",
    "abreviation": "CrB",
    "fichier": "couronne-boreale.json",

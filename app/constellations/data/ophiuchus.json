@@ -7,242 +7,751 @@
   "abreviation_iau": "Oph",
   "source_atlas": "Atlas observation.pdf, pages 70–71–72 (fiche Atlas « Ophiuchus »)",
   "saison": "été",
-  "voie_lactee": false,
-  "repere_principal": "Le porteur du Serpent, au carrefour de la Voie lactée",
+  "voie_lactee": true,
+  "repere_principal": "Ophiuchus, aussi appelé le Serpentaire, porte le Serpent dont les deux parties se trouvent de part et d’autre.",
   "constellations_voisines": [
-    "Hercule",
-    "Serpent",
     "Aigle",
-    "Sagittaire",
-    "Scorpion",
+    "Hercule",
     "Balance",
-    "Aigle"
+    "Scorpion",
+    "Serpent",
+    "Sagittaire"
   ],
   "etoiles": [
     {
       "i": 0,
       "hip": 79593,
-      "nom": "Yed Prior",
-      "etiq": "Yed Prior",
-      "bayer": "del Oph",
+      "nom": "Yed",
+      "etiq": "Yed",
+      "bayer": "δ Oph",
       "ra_deg": 243.587,
       "dec_deg": -3.694,
-      "mag": 2.73,
-      "role": "La main ouest — géante rouge",
+      "mag": 2.75,
+      "role": "Au milieu du dessin, côté droite — géante rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 79593)/ IAU"
+      "src": "SIMBAD : * del Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Yed",
+      "bayer_catalogue": "del Oph",
+      "type_spectral": "M0.5III",
+      "nature_stellaire": "Géante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2622323",
+      "simbad_id": "* del Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 79882,
-      "nom": "Yed Posterior",
-      "etiq": "Yed Posterior",
-      "bayer": "eps Oph",
+      "nom": "Yed",
+      "etiq": "Yed",
+      "bayer": "ε Oph",
       "ra_deg": 244.58,
       "dec_deg": -4.693,
       "mag": 3.23,
-      "role": "La main ouest — géante jaune",
+      "role": "Au milieu du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 79882)/ IAU"
+      "src": "SIMBAD : * eps Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Yed",
+      "bayer_catalogue": "eps Oph",
+      "type_spectral": "G9.5IIIbFe-0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2622342",
+      "simbad_id": "* eps Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 80343,
       "nom": "ψ Oph",
-      "etiq": "ψ",
-      "bayer": "psi Oph",
+      "etiq": "ψ Oph",
+      "bayer": "ψ Oph",
       "ra_deg": 246.026,
       "dec_deg": -20.037,
-      "mag": 4.48,
-      "role": "La jambe — géante lumineuse orange",
+      "mag": 4.5,
+      "role": "En bas du dessin, côté droite — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80343)"
+      "src": "SIMBAD : * psi Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "psi Oph",
+      "type_spectral": "K0-II-III",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* psi Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20psi%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* psi Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20psi%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2529715",
+      "simbad_id": "* psi Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* psi Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20psi%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 80473,
       "nom": "ρ Oph",
-      "etiq": "ρ",
-      "bayer": "rho Oph",
+      "etiq": "ρ Oph",
+      "bayer": "ρ Oph",
       "ra_deg": 246.396,
       "dec_deg": -23.447,
-      "mag": 4.57,
-      "role": "Le pied — sous-géante bleue",
+      "mag": 4.63,
+      "role": "En bas du dessin, côté droite — spectre complexe ou composé (B2IV+B2V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80473)"
+      "src": "SIMBAD : * rho Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "rho Oph",
+      "type_spectral": "B2IV+B2V",
+      "nature_stellaire": "Spectre complexe ou composé (B2IV+B2V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* rho Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* rho Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2482782",
+      "simbad_id": "* rho Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* rho Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 80569,
       "nom": "χ Oph",
-      "etiq": "χ",
-      "bayer": "chi Oph",
+      "etiq": "χ Oph",
+      "bayer": "χ Oph",
       "ra_deg": 246.756,
       "dec_deg": -18.456,
-      "mag": 4.22,
-      "role": "La jambe — naine bleue",
+      "mag": 4.43,
+      "role": "En bas du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80569)"
+      "src": "SIMBAD : * chi Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "chi Oph",
+      "type_spectral": "B2Vne",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* chi Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20chi%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* chi Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20chi%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2529806",
+      "simbad_id": "* chi Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* chi Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20chi%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 80628,
       "nom": "υ Oph",
-      "etiq": "υ",
-      "bayer": "ups Oph",
+      "etiq": "υ Oph",
+      "bayer": "υ Oph",
       "ra_deg": 246.951,
       "dec_deg": -8.372,
-      "mag": 4.62,
-      "role": "Le torse — naine blanche",
+      "mag": 4.63,
+      "role": "Au milieu du dessin, côté droite — type spectral kA2hA5VmA5 (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80628)"
+      "src": "SIMBAD : * ups Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ups Oph",
+      "type_spectral": "kA2hA5VmA5",
+      "nature_stellaire": "Type spectral kA2hA5VmA5 (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ups Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ups Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2595520",
+      "simbad_id": "* ups Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ups Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 80883,
       "nom": "Marfik",
       "etiq": "Marfik",
-      "bayer": "lam Oph",
+      "bayer": "λ Oph",
       "ra_deg": 247.729,
       "dec_deg": 1.984,
       "mag": 3.82,
-      "role": "Le coude — sous-géante blanche",
+      "role": "En haut du dessin, côté droite — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80883)/ IAU"
+      "src": "SIMBAD : * lam Oph ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Marfik",
+      "bayer_catalogue": "lam Oph",
+      "type_spectral": "A1IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (HIP 80883)/ IAU",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2651709",
+      "simbad_id": "* lam Oph",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 80894,
       "nom": "φ Oph",
-      "etiq": "φ",
-      "bayer": "phi Oph",
+      "etiq": "φ Oph",
+      "bayer": "φ Oph",
       "ra_deg": 247.785,
       "dec_deg": -16.613,
-      "mag": 4.29,
-      "role": "La jambe — géante jaune",
+      "mag": 4.27,
+      "role": "En bas du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 80894)"
+      "src": "SIMBAD : * phi Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "phi Oph",
+      "type_spectral": "G8+IIIa",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* phi Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* phi Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2545386",
+      "simbad_id": "* phi Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* phi Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 81377,
       "nom": "ζ Oph",
-      "etiq": "ζ",
-      "bayer": "zet Oph",
+      "etiq": "ζ Oph",
+      "bayer": "ζ Oph",
       "ra_deg": 249.29,
       "dec_deg": -10.567,
-      "mag": 2.54,
-      "role": "Le torse — sous-géante bleue",
+      "mag": 2.56,
+      "role": "Au milieu du dessin, côté droite — sous-géante bleue",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 81377)"
+      "src": "SIMBAD : * zet Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Oph",
+      "type_spectral": "O9.2IVnn",
+      "nature_stellaire": "Sous-géante bleue",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2579741",
+      "simbad_id": "* zet Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 83000,
       "nom": "κ Oph",
-      "etiq": "κ",
-      "bayer": "kap Oph",
+      "etiq": "κ Oph",
+      "bayer": "κ Oph",
       "ra_deg": 254.418,
       "dec_deg": 9.375,
-      "mag": 3.19,
-      "role": "L'épaule est — géante orange",
+      "mag": 3.2,
+      "role": "En haut du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 83000)"
+      "src": "SIMBAD : * kap Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Oph",
+      "type_spectral": "K2III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2698985",
+      "simbad_id": "* kap Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "hip": 84012,
       "nom": "Sabik",
       "etiq": "Sabik",
-      "bayer": "eta Oph",
+      "bayer": "η Oph",
       "ra_deg": 257.594,
       "dec_deg": -15.725,
-      "mag": 2.43,
-      "role": "La hanche — sous-géante blanche",
+      "mag": 2.42,
+      "role": "En bas du dessin, près de l’axe central — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 84012)/ IAU"
+      "src": "SIMBAD : * eta Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sabik",
+      "bayer_catalogue": "eta Oph",
+      "type_spectral": "A2IV-V",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2561035",
+      "simbad_id": "* eta Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "hip": 84970,
       "nom": "θ Oph",
-      "etiq": "θ",
-      "bayer": "the Oph",
+      "etiq": "θ Oph",
+      "bayer": "θ Oph",
       "ra_deg": 260.502,
       "dec_deg": -24.999,
-      "mag": 3.27,
-      "role": "Le pied",
+      "mag": 3.26,
+      "role": "En bas du dessin, côté gauche — type spectral OB (classification détaillée dans la source)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 84970)"
+      "src": "SIMBAD : * tet Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Oph",
+      "type_spectral": "OB",
+      "nature_stellaire": "Type spectral OB (classification détaillée dans la source)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2511493",
+      "simbad_id": "* tet Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "hip": 85423,
-      "nom": "45 Oph",
-      "etiq": "45",
+      "nom": "d Oph",
+      "etiq": "d Oph",
       "bayer": "d Oph",
       "ra_deg": 261.839,
       "dec_deg": -29.867,
-      "mag": 4.28,
-      "role": "Le pied — géante jaune-blanc",
+      "mag": 4.269,
+      "role": "En bas du dessin, côté gauche — géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 85423)"
+      "src": "SIMBAD : * d Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "d Oph",
+      "type_spectral": "F5III-IV",
+      "nature_stellaire": "Géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* d Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20d%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* d Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20d%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2410069",
+      "simbad_id": "* d Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* d Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20d%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
       "hip": 86032,
       "nom": "Rasalhague",
       "etiq": "Rasalhague",
-      "bayer": "alf Oph",
+      "bayer": "α Oph",
       "ra_deg": 263.733,
       "dec_deg": 12.561,
-      "mag": 2.08,
-      "role": "La plus brillante de la figure — sous-géante blanche",
+      "mag": 2.07,
+      "role": "En haut du dessin, côté gauche — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 86032)/ IAU"
+      "src": "SIMBAD : * alf Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Rasalhague",
+      "bayer_catalogue": "alf Oph",
+      "type_spectral": "A5IVnn",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2715185",
+      "simbad_id": "* alf Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 14,
       "hip": 86742,
       "nom": "Cebalrai",
       "etiq": "Cebalrai",
-      "bayer": "bet Oph",
+      "bayer": "β Oph",
       "ra_deg": 265.868,
       "dec_deg": 4.567,
-      "mag": 2.76,
-      "role": "L'épaule ouest — géante orange",
+      "mag": 2.75,
+      "role": "En haut du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 86742)/ IAU"
+      "src": "SIMBAD : * bet Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Cebalrai",
+      "bayer_catalogue": "bet Oph",
+      "type_spectral": "K2IIICN0.5",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2668771",
+      "simbad_id": "* bet Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 15,
       "hip": 87108,
       "nom": "γ Oph",
-      "etiq": "γ",
-      "bayer": "gam Oph",
+      "etiq": "γ Oph",
+      "bayer": "γ Oph",
       "ra_deg": 266.973,
       "dec_deg": 2.707,
       "mag": 3.75,
-      "role": "Le bras — naine blanche",
+      "role": "En haut du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 87108)"
+      "src": "SIMBAD : * gam Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Oph",
+      "type_spectral": "A1VnkA0mA0",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2653576",
+      "simbad_id": "* gam Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 16,
       "hip": 88048,
-      "nom": "64 Oph",
-      "etiq": "64",
-      "bayer": "nu. Oph",
+      "nom": "ν Oph",
+      "etiq": "ν Oph",
+      "bayer": "ν Oph",
       "ra_deg": 269.757,
       "dec_deg": -9.773,
-      "mag": 3.32,
-      "role": "Le torse — géante jaune",
+      "mag": 3.34,
+      "role": "Au milieu du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 88048)"
+      "src": "SIMBAD : * nu. Oph ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. Oph",
+      "type_spectral": "G9IIIa",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Oph",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Oph",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:2597385",
+      "simbad_id": "* nu. Oph",
+      "constellation_iau": "Oph",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Oph",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Oph",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         16,
@@ -272,131 +781,475 @@
         3
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 17 étoiles reliées par 18 segments.",
-    "note_geometrie": "Figure construite sur 17 étoiles et 18 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Sabik à Cebalrai (21.88°) ; le plus court relie Yed Prior à Yed Posterior (1.41°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Ophiuchus : 17 étoiles et 18 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 42,5°. Le segment le plus court relie Yed à Yed (1,41°). Le plus long relie Sabik à Cebalrai (21,88°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "64 Oph–γ Oph": 12.78,
-    "γ Oph–Cebalrai": 2.16,
-    "Cebalrai–Rasalhague": 8.27,
-    "Rasalhague–κ Oph": 9.68,
-    "κ Oph–Marfik": 9.94,
-    "Marfik–Yed Prior": 7.03,
-    "Yed Prior–Yed Posterior": 1.41,
-    "Yed Posterior–υ Oph": 4.37,
-    "υ Oph–ζ Oph": 3.18,
-    "ζ Oph–Sabik": 9.59,
-    "Sabik–Cebalrai": 21.88,
-    "Sabik–θ Oph": 9.67,
-    "θ Oph–45 Oph": 5.01,
-    "κ Oph–ζ Oph": 20.58,
-    "ζ Oph–φ Oph": 6.22,
-    "φ Oph–χ Oph": 2.09,
-    "χ Oph–ψ Oph": 1.72,
-    "ψ Oph–ρ Oph": 3.43
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 16,
+      "b": 15,
+      "deg": 12.7844
+    },
+    {
+      "a": 15,
+      "b": 14,
+      "deg": 2.1623
+    },
+    {
+      "a": 14,
+      "b": 13,
+      "deg": 8.2676
+    },
+    {
+      "a": 13,
+      "b": 9,
+      "deg": 9.6824
+    },
+    {
+      "a": 9,
+      "b": 6,
+      "deg": 9.9432
+    },
+    {
+      "a": 6,
+      "b": 0,
+      "deg": 7.0269
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 1.4067
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "deg": 4.3683
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "deg": 3.1844
+    },
+    {
+      "a": 8,
+      "b": 10,
+      "deg": 9.5884
+    },
+    {
+      "a": 10,
+      "b": 14,
+      "deg": 21.8825
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "deg": 9.6652
+    },
+    {
+      "a": 11,
+      "b": 12,
+      "deg": 5.0104
+    },
+    {
+      "a": 9,
+      "b": 8,
+      "deg": 20.5842
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "deg": 6.2203
+    },
+    {
+      "a": 7,
+      "b": 4,
+      "deg": 2.0879
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "deg": 1.7247
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 3.4273
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6333",
       "nature": "amas globulaire",
-      "mag": 7.9,
-      "distance_al": null,
-      "note": "NGC 6333 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "mag": 7.65,
+      "distance_al": 27071,
+      "note": "Amas globulaire. Distance au Soleil : environ 27100 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6333, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6333",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6333",
+        "alias_interroge": "NGC6333",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6333 M 9",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6333 M 9",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 8.3,
+        "incertitude_kpc": 0.14,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6254",
       "nature": "amas globulaire",
-      "mag": 6.6,
-      "distance_al": null,
-      "note": "NGC 6254 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+      "mag": 6.61,
+      "distance_al": 16536,
+      "note": "Amas globulaire. Distance au Soleil : environ 16500 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6254, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6254",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6254",
+        "alias_interroge": "NGC6254",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6254 M 10",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6254 M 10",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 5.07,
+        "incertitude_kpc": 0.06,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6218",
       "nature": "amas globulaire",
-      "mag": 6.6,
-      "distance_al": null,
-      "note": "NGC 6218 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+      "mag": 7.09,
+      "distance_al": 16667,
+      "note": "Amas globulaire. Distance au Soleil : environ 16700 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6218, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6218",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6218",
+        "alias_interroge": "NGC6218",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6218 M 12",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6218 M 12",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 5.11,
+        "incertitude_kpc": 0.05,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6402",
       "nature": "amas globulaire",
-      "mag": 7.6,
-      "distance_al": null,
-      "note": "NGC 6402 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "mag": 7.87,
+      "distance_al": 29811,
+      "note": "Amas globulaire. Distance au Soleil : environ 29800 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6402, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6402",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6402",
+        "alias_interroge": "NGC6402",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6402 M 14",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6402 M 14",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 9.14,
+        "incertitude_kpc": 0.25,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.06,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6273",
       "nature": "amas globulaire",
-      "mag": 7.2,
-      "distance_al": null,
-      "note": "NGC 6273 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+      "mag": 6.88,
+      "distance_al": 27201,
+      "note": "Amas globulaire. Distance au Soleil : environ 27200 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6273, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6273",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6273",
+        "alias_interroge": "NGC6273",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6273 M 19",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6273 M 19",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 8.34,
+        "incertitude_kpc": 0.16,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6266",
       "nature": "amas globulaire",
       "mag": 6.6,
-      "distance_al": null,
-      "note": "NGC 6266 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+      "distance_al": 19667,
+      "note": "Amas globulaire. Distance au Soleil : environ 19700 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6266, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6266",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6266",
+        "alias_interroge": "NGC6266",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6266 M 62",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6266 M 62",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 6.03,
+        "incertitude_kpc": 0.09,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.06,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6171",
       "nature": "amas globulaire",
-      "mag": 8.1,
-      "distance_al": null,
-      "note": "NGC 6171 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "mag": 8.28,
+      "distance_al": 18363,
+      "note": "Amas globulaire. Distance au Soleil : environ 18400 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6171, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6171",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6171",
+        "alias_interroge": "NGC6171",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6171 M 107",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6171 M 107",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 5.63,
+        "incertitude_kpc": 0.08,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6633",
       "nature": "amas ouvert",
       "mag": 4.6,
       "distance_al": null,
-      "note": "NGC 6633 — amas ouvert documenté(e) dans la fiche Atlas de Ophiuchus.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 12,00 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC6633, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6633",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6633",
+        "alias_interroge": "NGC6633",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6633",
+        "alias_interroge": "NGC6633",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 4665",
       "nature": "amas ouvert",
       "mag": 4.2,
       "distance_al": null,
-      "note": "IC 4665 — amas ouvert documenté(e) dans la fiche Atlas de Ophiuchus.",
-      "instrument": "œil nu",
-      "src": "N1",
-      "code": "N1"
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 24,60 minutes d’arc. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, IC4665, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "IC4665",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC4665",
+        "alias_interroge": "IC4665",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC4665",
+        "alias_interroge": "IC4665",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6572",
       "nature": "nébuleuse planétaire",
-      "mag": 9,
+      "mag": 8.1,
       "distance_al": null,
-      "note": "NGC 6572 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Ophiuchus.",
+      "note": "Nébuleuse planétaire. Dimension apparente du catalogue : environ 0,18 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC6572, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6572",
+      "constellation_catalogue": "Oph",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6572",
+        "alias_interroge": "NGC6572",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6572",
+        "alias_interroge": "NGC6572",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -428,85 +1281,85 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Rasalhague, magnitude 2.08, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Rasalhague, avec 2,07 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Yed – Yed : environ 1,41°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Ophiuchus ?",
-      "r": "10 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Ophiuchus désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 6333 ?",
-      "r": "NGC 6333 est un(e) amas globulaire de magnitude 7.9. Instrument conseillé : jumelles. NGC 6333 — amas globulaire documenté(e) dans la fiche Atlas de Ophiuchus."
+      "q": "Pourquoi le Serpent apparaît-il en deux parties autour d’Ophiuchus ?",
+      "r": "La Tête et la Queue sont deux régions distinctes de la même constellation du Serpent. Ophiuchus les sépare sur la carte ; le personnage traditionnel porte le serpent, mais les limites officielles et les dessins sont deux notions différentes."
     },
     {
-      "q": "Quand observer Ophiuchus ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Le porteur du Serpent, au carrefour de la Voie lactée."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Ophiuchus. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6333 : amas globulaire. Amas globulaire. Distance au Soleil : environ 27100 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Ophiuchus est le porteur du Serpent, à cheval sur la Voie lactée. On peut commencer par ses deux étoiles d'appui, Yed Prior et Yed Posterior, puis explorer une région exceptionnellement riche en amas globulaires : M10, M12, M107 sont tous accessibles aux jumelles dans le même champ.",
+  "message_animation": "Ophiuchus, aussi appelé le Serpentaire, porte le Serpent dont les deux parties se trouvent de part et d’autre. Partir de Rasalhague et des repères du contour. Les amas globulaires M 10, M 12 et M 107 sont des cibles distinctes : les pointer séparément plutôt que promettre un même champ instrumental.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 70–71–72 (fiche Atlas « Ophiuchus »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+      "Marfik : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

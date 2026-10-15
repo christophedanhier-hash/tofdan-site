@@ -1,100 +1,317 @@
 {
   "id": "couronne-boreale",
   "slug": "couronne-boreale",
-  "nom_fr": "Couronne Boréale",
+  "nom_fr": "Couronne boréale",
   "nom_latin": "Corona Borealis",
   "genitif": "Coronae Borealis",
   "abreviation_iau": "CrB",
   "source_atlas": "Atlas observation.pdf — fiche « Couronne Boréale »",
   "saison": "été",
   "voie_lactee": false,
-  "repere_principal": "Un arc de cercle de sept étoiles, ouvert vers le bas — le diadème de la légende d'Ariane.",
+  "repere_principal": "Entre le Bouvier, à l’ouest, et Hercule, à l’est, chercher le petit arc de la Couronne boréale.",
   "constellations_voisines": [
-    "Hercule",
     "Bouvier",
+    "Hercule",
     "Serpent"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "θ CrB",
-      "bayer": "tet CrB",
+      "bayer": "θ CrB",
       "ra_deg": 233.2325,
       "dec_deg": 31.3592,
-      "mag": 4.14,
-      "role": "Le bord nord — naine bleue",
+      "mag": 4.13,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * tet CrB ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet CrB",
+      "type_spectral": "B6Vnne",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "θ CrB",
+      "identifiant": "simbad:2880433",
+      "simbad_id": "* tet CrB",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Nusakan",
-      "bayer": "bet CrB",
+      "bayer": "β CrB",
       "ra_deg": 231.9577,
       "dec_deg": 29.1055,
-      "mag": 3.66,
-      "role": "Le bord sud — naine jaune-blanc",
+      "mag": 3.68,
+      "role": "Au milieu du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * bet CrB ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Nusakan",
+      "bayer_catalogue": "bet CrB",
+      "type_spectral": "F2VpSrCrEuSi",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Nusakan",
+      "identifiant": "simbad:2855814",
+      "simbad_id": "* bet CrB",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Alphecca",
-      "bayer": "alf CrB",
+      "bayer": "α CrB",
       "ra_deg": 233.6716,
       "dec_deg": 26.7149,
-      "mag": 2.22,
-      "role": "La plus brillante de la figure — sous-géante blanche",
+      "mag": 2.24,
+      "role": "En bas du dessin, côté droite — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * alf CrB ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alphecca",
+      "bayer_catalogue": "alf CrB",
+      "type_spectral": "A1IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alphecca",
+      "identifiant": "simbad:2831152",
+      "simbad_id": "* alf CrB",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "γ CrB",
-      "bayer": "gam CrB",
+      "bayer": "γ CrB",
       "ra_deg": 235.686,
       "dec_deg": 26.2955,
       "mag": 3.81,
-      "role": "Le bord ouest — naine blanche",
+      "role": "En bas du dessin, près de l’axe central — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * gam CrB ; photométrie à préciser ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam CrB",
+      "type_spectral": "A0V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": null,
+      "source_mag": {
+        "catalogue": "Valeur conservée de la fiche antérieure",
+        "detail": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag",
+        "statut": "bande et composante à confirmer ; ne pas traiter comme magnitude V vérifiée"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ CrB",
+      "identifiant": "simbad:2812057",
+      "simbad_id": "* gam CrB",
+      "alerte": "Valeur photométrique antérieure conservée ; bande ou composante non confirmée. Ne pas comparer finement aux valeurs V.",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "δ CrB",
-      "bayer": "del CrB",
+      "bayer": "δ CrB",
       "ra_deg": 237.3987,
       "dec_deg": 26.0685,
-      "mag": 4.59,
-      "role": "Le bord — géante jaune",
+      "mag": 4.63,
+      "role": "En bas du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * del CrB ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del CrB",
+      "type_spectral": "G5III-IVFe-1",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ CrB",
+      "identifiant": "simbad:2812458",
+      "simbad_id": "* del CrB",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "ε CrB",
-      "bayer": "eps CrB",
+      "bayer": "ε CrB",
       "ra_deg": 239.3971,
       "dec_deg": 26.878,
-      "mag": 4.14,
-      "role": "Le bord est — géante orange",
+      "mag": 4.13,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eps CrB ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eps CrB",
+      "type_spectral": "K2IIIab",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ε CrB",
+      "identifiant": "simbad:2812760",
+      "simbad_id": "* eps CrB",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "nom": "ι CrB",
-      "bayer": "iot CrB",
+      "bayer": "ι CrB",
       "ra_deg": 240.3608,
       "dec_deg": 29.8511,
-      "mag": 4.98,
-      "role": "Le bord — géante blanche",
+      "mag": 4.971,
+      "role": "En haut du dessin, côté gauche — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * iot CrB ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot CrB",
+      "type_spectral": "A0IIIspHgMnEu",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot CrB",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20CrB",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ι CrB",
+      "identifiant": "simbad:2832443",
+      "simbad_id": "* iot CrB",
+      "constellation_iau": "CrB",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot CrB",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20CrB",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -121,29 +338,75 @@
         6
       ]
     ],
-    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-    "note_geometrie": "La Couronne Boréale est un simple arc de sept étoiles, ouvert vers le bas de la figure. L'arc se lit d'un bout à l'autre : θ CrB → Nusakan (β) → Alphecca (α) → γ → δ → ε → ι CrB. Les segments les plus courts se suivent au centre de l'arc (γ CrB–δ CrB 1,55°, puis Alphecca–γ CrB 1,85°, et δ CrB–ε CrB 1,96°) : c'est le creux du diadème, là où les étoiles semblent serrées. Le segment qui remonte vers l'extrémité (ε CrB–ι CrB, 3,09°) est le plus long. Alphecca, l'« étoile gemme », brille exactement au creux de l'arc.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Couronne boréale : 7 étoiles et 6 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 7,4°. Le segment le plus court relie γ CrB à δ CrB (1,55°). Le plus long relie ε CrB à ι CrB (3,09°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-    "θ CrB–Nusakan": 2.51,
-    "Nusakan–Alphecca": 2.83,
-    "Alphecca–γ CrB": 1.85,
-    "γ CrB–δ CrB": 1.55,
-    "δ CrB–ε CrB": 1.96,
-    "ε CrB–ι CrB": 3.09
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 2.5084
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 2.8299
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 1.8508
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 1.5536
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 1.9634
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 3.0916
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6131",
-      "nature": "galaxie spirale barrée",
+      "nature": "galaxie",
       "mag": 13.28,
       "distance_al": 242000000,
       "note": "Galaxie spirale barrée lointaine, dans un champ pauvre en objets brillants. Un défi de télescope.",
       "instrument": "télescope",
-      "src": "O4",
-      "code": "O4"
+      "src": "OpenNGC, NGC6131, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6131",
+      "constellation_catalogue": "CrB",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6131",
+        "alias_interroge": "NGC6131",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6131",
+        "alias_interroge": "NGC6131",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O4",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -174,79 +437,85 @@
     }
   ],
   "questions_observation": [
-    "Vois-tu la forme d'un arc ouvert, ou d'un cercle presque fermé ?",
-    "Combien d'étoiles distingues-tu à l'œil nu dans l'arc ?",
-    "Alphecca te paraît-elle plus brillante que ses voisines immédiates ?",
-    "Repères-tu le creux du diadème, là où les étoiles se resserrent ?",
-    "La couleur de Nusakan te semble-t-elle rougeâtre ? (C'est une étoile variable.)"
+    {
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Alphecca, avec 2,24 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
+    },
+    {
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "γ CrB – δ CrB : environ 1,55°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
+    },
+    {
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Couronne boréale désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
+    }
   ],
   "questions_guide": [
-    "Repère d'abord l'Arc : entre Hercule à l'ouest et le Bouvier à l'est, une petite traînée d'étoiles en demi-cercle.",
-    "Alphecca est l'étoile la plus brillante : elle occupe le creux de l'arc. Si tu la trouves, tu as la Couronne.",
-    "Compare sa taille à la Grande Ourse : la Couronne est bien plus petite — un simple diadème, pas une casserole.",
-    "Montre-la en été : elle culmine haut dans le ciel les soirs de juillet."
+    {
+      "q": "L’ouverture de la Couronne indique-t-elle toujours le bas du ciel ?",
+      "r": "Non. L’arc conserve sa forme entre les étoiles, mais son orientation par rapport à l’horizon dépend de l’heure, de la date et du lieu d’observation."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Couronne boréale. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6131 : galaxie. Galaxie spirale barrée lointaine, dans un champ pauvre en objets brillants. Un défi de télescope. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
+    }
   ],
-  "message_animation": "La Couronne Boréale est un petit arc de sept étoiles, ouvert vers l'horizon. Alphecca, sa « gemme », brille au creux de l'arc. Un diadème à la portée des jumelles, facile à repérer entre Hercule et le Bouvier.",
+  "message_animation": "Entre le Bouvier, à l’ouest, et Hercule, à l’est, chercher le petit arc de la Couronne boréale. Alphecca en est le repère le plus éclatant. Retrouver le même motif à plusieurs heures aide à comprendre qu’un arc n’a pas toujours la même orientation par rapport à l’horizon.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf — fiche « Couronne Boréale »",
     "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
     "lacunes": [
-      "5 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-    ]
+      "γ CrB : photométrie d’origine conservée, bande non confirmée."
+    ],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

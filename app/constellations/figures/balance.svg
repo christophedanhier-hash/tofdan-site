@@ -1,21 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Balance">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="415.5" y1="164.9" x2="296.4" y2="35.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="415.5" y1="164.9" x2="210.6" y2="139.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="415.5" y1="164.9" x2="350.6" y2="338.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="296.4" y1="35.0" x2="210.6" y2="139.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="210.6" y1="139.0" x2="210.3" y2="393.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="210.3" y1="393.4" x2="204.5" y2="425.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="415.5" cy="164.9" r="5" fill="#222"/>
-<text x="428.5" y="154.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zubenelgenubi</text>
-<circle cx="296.4" cy="35.0" r="5" fill="#222"/>
-<text x="309.4" y="25.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zubeneschamali</text>
-<circle cx="210.6" cy="139.0" r="5" fill="#222"/>
-<text x="197.6" y="129.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Gamma Lib</text>
-<circle cx="350.6" cy="338.9" r="5" fill="#222"/>
-<text x="363.6" y="328.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Sigma Lib</text>
-<circle cx="210.3" cy="393.4" r="5" fill="#222"/>
-<text x="223.3" y="383.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Upsilon Lib</text>
-<circle cx="204.5" cy="425.0" r="5" fill="#222"/>
-<text x="217.5" y="415.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Tau Lib</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Balance">
+<title>Balance</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="529.757" y1="219.854" x2="383.128" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="529.757" y1="219.854" x2="277.618" y2="188.065" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="529.757" y1="219.854" x2="449.999" y2="433.974" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="383.128" y1="60.000" x2="277.618" y2="188.065" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="277.618" y1="188.065" x2="277.389" y2="501.070" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="277.389" y1="501.070" x2="270.243" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="529.757" cy="219.854" r="3.40" fill="#222" data-star="simbad:2309078"/>
+<circle cx="383.128" cy="60.000" r="3.50" fill="#222" data-star="simbad:2578351"/>
+<circle cx="277.618" cy="188.065" r="2.47" fill="#222" data-star="simbad:2544098"/>
+<circle cx="449.999" cy="433.974" r="3.03" fill="#222" data-star="simbad:2376374"/>
+<circle cx="277.389" cy="501.070" r="2.73" fill="#222" data-star="simbad:2377014"/>
+<circle cx="270.243" cy="540.000" r="2.69" fill="#222" data-star="simbad:2357347"/>
+<text x="396.13" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Zubeneschamali</text>
+<text x="290.62" y="175.06" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Zubenelhakrabi</text>
+<text x="542.76" y="206.85" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Zubenelgenubi</text>
+<text x="463.00" y="420.97" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Brachium</text>
+<text x="290.39" y="488.07" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">υ Lib</text>
+<text x="283.24" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Lib</text>
 </svg>

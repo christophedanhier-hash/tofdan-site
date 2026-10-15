@@ -8,16 +8,16 @@
   "source_atlas": "Atlas observation.pdf, pages 80–81 (fiche Atlas « Pégase »)",
   "saison": "automne",
   "voie_lactee": false,
-  "repere_principal": "Le Grand Carré de Pégase, repère de l'automne",
+  "repere_principal": "Reconnaître le Grand Carré avec Markab, Scheat, Algenib et Alpheratz.",
   "constellations_voisines": [
     "Andromède",
-    "Lézard",
+    "Verseau",
     "Cygne",
-    "Petit Renard",
     "Dauphin",
-    "Écuyer",
+    "Petit Cheval",
+    "Lézard",
     "Poissons",
-    "Verseau"
+    "Petit Renard"
   ],
   "etoiles": [
     {
@@ -25,160 +25,520 @@
       "hip": 1067,
       "nom": "Algenib",
       "etiq": "Algenib",
-      "bayer": "gam Peg",
+      "bayer": "γ Peg",
       "ra_deg": 3.309,
       "dec_deg": 15.184,
-      "mag": 2.83,
-      "role": "Le flanc nord — sous-géante bleue",
+      "mag": 2.84,
+      "role": "Au milieu du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 1067)/ IAU"
+      "src": "SIMBAD : * gam Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Algenib",
+      "bayer_catalogue": "gam Peg",
+      "type_spectral": "B2IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1450034",
+      "simbad_id": "* gam Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 107315,
       "nom": "Enif",
       "etiq": "Enif",
-      "bayer": "eps Peg",
+      "bayer": "ε Peg",
       "ra_deg": 326.046,
       "dec_deg": 9.875,
-      "mag": 2.38,
-      "role": "La plus brillante de la figure — supergéante orange",
+      "mag": 2.39,
+      "role": "En bas du dessin, côté droite — supergéante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 107315)/ IAU"
+      "src": "SIMBAD : * eps Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Enif",
+      "bayer_catalogue": "eps Peg",
+      "type_spectral": "K2Ib-II",
+      "nature_stellaire": "Supergéante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1428414",
+      "simbad_id": "* eps Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 107354,
       "nom": "κ Peg",
-      "etiq": "κ",
-      "bayer": "kap Peg",
+      "etiq": "κ Peg",
+      "bayer": "κ Peg",
       "ra_deg": 326.161,
       "dec_deg": 25.645,
-      "mag": 4.14,
-      "role": "La patte — naine jaune-blanc",
+      "mag": 4.135,
+      "role": "En haut du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 107354)"
+      "src": "SIMBAD : * kap Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Peg",
+      "type_spectral": "F5V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1498140",
+      "simbad_id": "* kap Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 109176,
       "nom": "ι Peg",
-      "etiq": "ι",
-      "bayer": "iot Peg",
+      "etiq": "ι Peg",
+      "bayer": "ι Peg",
       "ra_deg": 331.752,
       "dec_deg": 25.345,
       "mag": 3.77,
-      "role": "La patte — naine jaune-blanc",
+      "role": "En haut du dessin, côté droite — étoile jaune-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 109176)"
+      "src": "SIMBAD : * iot Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Peg",
+      "type_spectral": "F5V",
+      "nature_stellaire": "Étoile jaune-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1498723",
+      "simbad_id": "* iot Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 109410,
       "nom": "π Peg",
-      "etiq": "π",
-      "bayer": "pi. Peg",
+      "etiq": "π Peg",
+      "bayer": "π Peg",
       "ra_deg": 332.497,
       "dec_deg": 33.178,
-      "mag": 4.28,
-      "role": "Le poitrail — géante lumineuse jaune-blanc",
+      "mag": 4.29,
+      "role": "En haut du dessin, côté droite — géante lumineuse jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 109410)"
+      "src": "SIMBAD : * pi. Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "pi. Peg",
+      "type_spectral": "F5II-III_sh",
+      "nature_stellaire": "Géante lumineuse jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* pi. Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* pi. Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1526366",
+      "simbad_id": "* pi. Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* pi. Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 109427,
       "nom": "Biham",
       "etiq": "Biham",
-      "bayer": "the Peg",
+      "bayer": "θ Peg",
       "ra_deg": 332.549,
       "dec_deg": 6.198,
-      "mag": 3.52,
-      "role": "La croupe — naine blanche",
+      "mag": 3.55,
+      "role": "En bas du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 109427)/ IAU"
+      "src": "SIMBAD : * tet Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Biham",
+      "bayer_catalogue": "tet Peg",
+      "type_spectral": "A1Va",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1410742",
+      "simbad_id": "* tet Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 112029,
       "nom": "Homam",
       "etiq": "Homam",
-      "bayer": "zet Peg",
+      "bayer": "42 Peg",
       "ra_deg": 340.365,
       "dec_deg": 10.831,
       "mag": 3.41,
-      "role": "Le cou — sous-géante bleue",
+      "role": "En bas du dessin, près de l’axe central — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 112029)/ IAU"
+      "src": "SIMBAD : *  42 Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Homam",
+      "bayer_catalogue": " 42 Peg",
+      "type_spectral": "B8.5IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  42 Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2042%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  42 Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2042%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1429947",
+      "simbad_id": "*  42 Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  42 Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2042%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 112158,
       "nom": "Matar",
       "etiq": "Matar",
-      "bayer": "eta Peg",
+      "bayer": "η Peg",
       "ra_deg": 340.751,
       "dec_deg": 30.221,
-      "mag": 2.93,
-      "role": "La patte avant — géante lumineuse jaune",
+      "mag": 2.95,
+      "role": "En haut du dessin, près de l’axe central — spectre complexe ou composé (G8II+F0V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 112158)/ IAU"
+      "src": "SIMBAD : * eta Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Matar",
+      "bayer_catalogue": "eta Peg",
+      "type_spectral": "G8II+F0V",
+      "nature_stellaire": "Spectre complexe ou composé (G8II+F0V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1509474",
+      "simbad_id": "* eta Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 112440,
       "nom": "λ Peg",
-      "etiq": "λ",
-      "bayer": "lam Peg",
+      "etiq": "λ Peg",
+      "bayer": "λ Peg",
       "ra_deg": 341.633,
       "dec_deg": 23.566,
-      "mag": 3.97,
-      "role": "Le ventre — géante jaune",
+      "mag": 3.93,
+      "role": "En haut du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 112440)"
+      "src": "SIMBAD : * lam Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "lam Peg",
+      "type_spectral": "G8IIIaCN0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1480470",
+      "simbad_id": "* lam Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "hip": 112748,
-      "nom": "48 Peg",
-      "etiq": "48",
-      "bayer": "mu. Peg",
+      "nom": "Sadalbari",
+      "etiq": "Sadalbari",
+      "bayer": "μ Peg",
       "ra_deg": 342.5,
       "dec_deg": 24.602,
-      "mag": 3.51,
-      "role": "Le ventre — géante jaune",
+      "mag": 3.48,
+      "role": "En haut du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 112748)"
+      "src": "SIMBAD : * mu. Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sadalbari",
+      "bayer_catalogue": "mu. Peg",
+      "type_spectral": "G8+III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu. Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu. Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1489446",
+      "simbad_id": "* mu. Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu. Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "hip": 113881,
       "nom": "Scheat",
       "etiq": "Scheat",
-      "bayer": "bet Peg",
+      "bayer": "β Peg",
       "ra_deg": 345.943,
       "dec_deg": 28.082,
-      "mag": 2.44,
-      "role": "L'épaule est — géante lumineuse rouge",
+      "mag": 2.42,
+      "role": "En haut du dessin, près de l’axe central — géante lumineuse rouge",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 113881)/ IAU"
+      "src": "SIMBAD : * bet Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Scheat",
+      "bayer_catalogue": "bet Peg",
+      "type_spectral": "M2.5II-III",
+      "nature_stellaire": "Géante lumineuse rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1500441",
+      "simbad_id": "* bet Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "hip": 113963,
       "nom": "Markab",
       "etiq": "Markab",
-      "bayer": "alf Peg",
+      "bayer": "α Peg",
       "ra_deg": 346.19,
       "dec_deg": 15.205,
-      "mag": 2.49,
-      "role": "L'épaule ouest — sous-géante blanche",
+      "mag": 2.48,
+      "role": "En bas du dessin, près de l’axe central — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 113963)/ IAU"
+      "src": "SIMBAD : * alf Peg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Markab",
+      "bayer_catalogue": "alf Peg",
+      "type_spectral": "A0IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Peg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Peg",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1447433",
+      "simbad_id": "* alf Peg",
+      "constellation_iau": "Peg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Peg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Peg",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -204,94 +564,262 @@
         1
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 12 étoiles reliées par 11 segments.",
-    "note_geometrie": "Figure construite sur 12 étoiles et 11 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Algenib à Markab (16.52°) ; le plus court relie 48 Peg à λ Peg (1.30°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Pégase : 12 étoiles et 11 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 36,7°. Le segment le plus court relie Sadalbari à λ Peg (1,3°). Le plus long relie Algenib à Markab (16,52°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Algenib–Markab": 16.52,
-    "Markab–Scheat": 12.88,
-    "Scheat–Matar": 5.01,
-    "Matar–π Peg": 7.62,
-    "Scheat–48 Peg": 4.65,
-    "48 Peg–λ Peg": 1.3,
-    "λ Peg–ι Peg": 9.17,
-    "ι Peg–κ Peg": 5.06,
-    "Markab–Homam": 7.16,
-    "Homam–Biham": 9.01,
-    "Biham–Enif": 7.41
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 11,
+      "deg": 16.5163
+    },
+    {
+      "a": 11,
+      "b": 10,
+      "deg": 12.879
+    },
+    {
+      "a": 10,
+      "b": 7,
+      "deg": 5.0128
+    },
+    {
+      "a": 7,
+      "b": 4,
+      "deg": 7.6167
+    },
+    {
+      "a": 10,
+      "b": 9,
+      "deg": 4.6503
+    },
+    {
+      "a": 9,
+      "b": 8,
+      "deg": 1.3038
+    },
+    {
+      "a": 8,
+      "b": 3,
+      "deg": 9.1663
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "deg": 5.0551
+    },
+    {
+      "a": 11,
+      "b": 6,
+      "deg": 7.1639
+    },
+    {
+      "a": 6,
+      "b": 5,
+      "deg": 9.0099
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "deg": 7.414
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 7078",
       "nature": "amas globulaire",
-      "mag": 6.4,
-      "distance_al": null,
-      "note": "NGC 7078 — amas globulaire documenté(e) dans la fiche Atlas de Pégase.",
+      "mag": 6.28,
+      "distance_al": 34931,
+      "note": "Amas globulaire. Distance au Soleil : environ 34900 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC7078, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC7078",
+      "constellation_catalogue": "Peg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7078",
+        "alias_interroge": "NGC7078",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 7078 M 15",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 7078 M 15",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 10.71,
+        "incertitude_kpc": 0.1,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.07,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7331",
       "nature": "galaxie",
-      "mag": 9.5,
+      "mag": 9.41,
       "distance_al": null,
-      "note": "NGC 7331 — galaxie documenté(e) dans la fiche Atlas de Pégase.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 9,27 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7331, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7331",
+      "constellation_catalogue": "Peg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7331",
+        "alias_interroge": "NGC7331",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7331",
+        "alias_interroge": "NGC7331",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7814",
       "nature": "galaxie",
-      "mag": 10.5,
+      "mag": 10.6,
       "distance_al": null,
-      "note": "NGC 7814 — galaxie documenté(e) dans la fiche Atlas de Pégase.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 4,37 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
-    },
-    {
-      "id": "NGC 4594",
-      "nature": "galaxie",
-      "mag": 8.3,
-      "distance_al": null,
-      "note": "NGC 4594 — galaxie documenté(e) dans la fiche Atlas de Pégase.",
-      "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7814, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7814",
+      "constellation_catalogue": "Peg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7814",
+        "alias_interroge": "NGC7814",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7814",
+        "alias_interroge": "NGC7814",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7217",
       "nature": "galaxie",
-      "mag": 10.2,
+      "mag": 10.47,
       "distance_al": null,
-      "note": "NGC 7217 — galaxie documenté(e) dans la fiche Atlas de Pégase.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 4,52 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7217, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7217",
+      "constellation_catalogue": "Peg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7217",
+        "alias_interroge": "NGC7217",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7217",
+        "alias_interroge": "NGC7217",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7317",
       "nature": "galaxie",
-      "mag": 13.6,
+      "mag": 13.66,
       "distance_al": null,
-      "note": "NGC 7317 — galaxie documenté(e) dans la fiche Atlas de Pégase.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 0,80 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7317, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7317",
+      "constellation_catalogue": "Peg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7317",
+        "alias_interroge": "NGC7317",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7317",
+        "alias_interroge": "NGC7317",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7319",
       "nature": "galaxie",
-      "mag": 13.1,
+      "mag": 13.48,
       "distance_al": null,
-      "note": "NGC 7319 — galaxie documenté(e) dans la fiche Atlas de Pégase.",
+      "note": "Galaxie. Dimension apparente du catalogue : environ 1,67 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7319, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7319",
+      "constellation_catalogue": "Peg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7319",
+        "alias_interroge": "NGC7319",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7319",
+        "alias_interroge": "NGC7319",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -323,85 +851,89 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Enif, magnitude 2.38, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Enif, avec 2,39 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Sadalbari – λ Peg : environ 1,3°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Pégase ?",
-      "r": "7 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Pégase désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 7078 ?",
-      "r": "NGC 7078 est un(e) amas globulaire de magnitude 6.4. Instrument conseillé : jumelles. NGC 7078 — amas globulaire documenté(e) dans la fiche Atlas de Pégase."
+      "q": "Pourquoi Alpheratz manque-t-elle aux étoiles de la fiche Pégase ?",
+      "r": "Elle appartient à Andromède, bien qu’elle forme un sommet du Grand Carré utilisé pour repérer Pégase. Le carré est un astérisme : il peut réunir des étoiles de deux constellations."
     },
     {
-      "q": "Quand observer Pégase ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : Le Grand Carré de Pégase, repère de l'automne."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Pégase. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 7078 : amas globulaire. Amas globulaire. Distance au Soleil : environ 34900 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Pégase se repère par son Grand Carré, quatre étoiles presque de même éclat qui forment l'un des repères majeurs du ciel d'automne. On peut partir de ce carré, puis suivre le cou du cheval vers Enif, son museau. La constellation abrite M15, un amas globulaire très dense, visible à l'œil nu sous un ciel pur.",
+  "message_animation": "Reconnaître le Grand Carré avec Markab, Scheat, Algenib et Alpheratz. Alpheratz appartient à Andromède et complète ce repère partagé ; le dessin de Pégase retenu ici ne l’inclut pas. Suivre ensuite le contour vers Enif et chercher M 15 avec des jumelles ou un télescope.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 80–81 (fiche Atlas « Pégase »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "NGC 4594 : Cité dans la fiche Atlas « Pégase » comme référence de comparaison ; le catalogue NGC le situe dans la Vierge (Vir). Retenu par prudence, attribution à revoir."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 4594",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Vir"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

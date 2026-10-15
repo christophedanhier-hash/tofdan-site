@@ -7,90 +7,314 @@
   "abreviation_iau": "Ori",
   "source_atlas": "Fiche Atlas « Orion » (074-orion.txt)",
   "saison": "Hiver",
-  "voie_lactee": false,
-  "repere_principal": "Les trois étoiles de la ceinture (Alnitak, Alnilam, Mintaka), alignées à 0,01° près — le repère le plus reconnaissable du ciel d'hiver",
-  "constellations_voisines": [],
+  "voie_lactee": true,
+  "repere_principal": "Commencer par les trois étoiles de la ceinture, puis reconnaître les épaules et les pieds du chasseur.",
+  "constellations_voisines": [
+    "Éridan",
+    "Gémeaux",
+    "Lièvre",
+    "Licorne",
+    "Taureau"
+  ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Bételgeuse",
-      "bayer": "alf Ori",
+      "bayer": "α Ori",
       "ra_deg": 88.79294,
       "dec_deg": 7.40706,
       "mag": 0.42,
-      "role": "Épaule droite — supergéante rouge",
+      "role": "Épaule du chasseur, côté est — supergéante rouge",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Betelgeuse",
+      "bayer_catalogue": "alf Ori",
+      "type_spectral": "M1-M2Ia-Iab",
+      "nature_stellaire": "Supergéante rouge",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Bételgeuse",
+      "identifiant": "simbad:843879",
+      "simbad_id": "* alf Ori",
+      "alerte": "Étoile variable : la magnitude tabulée est indicative et ne décrit pas son éclat à toute date.",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Bellatrix",
-      "bayer": "gam Ori",
+      "bayer": "γ Ori",
       "ra_deg": 81.28276,
       "dec_deg": 6.3497,
       "mag": 1.64,
-      "role": "Épaule gauche — supergéante bleue",
+      "role": "Épaule du chasseur, côté ouest — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * gam Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Bellatrix",
+      "bayer_catalogue": "gam Ori",
+      "type_spectral": "B2III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Bellatrix",
+      "identifiant": "simbad:784400",
+      "simbad_id": "* gam Ori",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Rigel",
-      "bayer": "bet Ori",
+      "bayer": "β Ori",
       "ra_deg": 78.63447,
       "dec_deg": -8.20164,
       "mag": 0.13,
-      "role": "La plus brillante de la figure — supergéante bleue",
+      "role": "Pied du chasseur, côté ouest — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Rigel",
+      "bayer_catalogue": "bet Ori",
+      "type_spectral": "B8Ia",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Rigel",
+      "identifiant": "simbad:771345",
+      "simbad_id": "* bet Ori",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Saiph",
-      "bayer": "kap Ori",
+      "bayer": "κ Ori",
       "ra_deg": 86.93912,
       "dec_deg": -9.6696,
       "mag": 2.06,
-      "role": "Le pied droit — supergéante bleue",
+      "role": "Pied du chasseur, côté est — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * kap Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Saiph",
+      "bayer_catalogue": "kap Ori",
+      "type_spectral": "B0.5Ia",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Saiph",
+      "identifiant": "simbad:830758",
+      "simbad_id": "* kap Ori",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "Mintaka",
-      "bayer": "del Ori",
+      "bayer": "δ Ori",
       "ra_deg": 83.00167,
       "dec_deg": -0.2991,
       "mag": 2.41,
-      "role": "Ceinture — étoile ouest",
+      "role": "Ceinture, étoile ouest — géante lumineuse bleue",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * del Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Mintaka",
+      "bayer_catalogue": "del Ori",
+      "type_spectral": "O9.5IINwk",
+      "nature_stellaire": "Géante lumineuse bleue",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Mintaka",
+      "identifiant": "simbad:799898",
+      "simbad_id": "* del Ori",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "Alnilam",
-      "bayer": "eps Ori",
+      "bayer": "ε Ori",
       "ra_deg": 84.05339,
       "dec_deg": -1.20192,
       "mag": 1.69,
-      "role": "Ceinture — étoile centrale",
+      "role": "Ceinture, étoile centrale — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * eps Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alnilam",
+      "bayer_catalogue": "eps Ori",
+      "type_spectral": "B0Ia",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alnilam",
+      "identifiant": "simbad:799866",
+      "simbad_id": "* eps Ori",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "nom": "Alnitak",
-      "bayer": "zet Ori",
+      "bayer": "ζ Ori",
       "ra_deg": 85.18969,
       "dec_deg": -1.94257,
       "mag": 1.77,
-      "role": "Ceinture — étoile est",
+      "role": "Ceinture, étoile est — spectre complexe ou composé (O9.7Ib+B0III)",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * zet Ori ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alnitak",
+      "bayer_catalogue": "zet Ori",
+      "type_spectral": "O9.7Ib+B0III",
+      "nature_stellaire": "Spectre complexe ou composé (O9.7Ib+B0III)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Ori",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Ori",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alnitak",
+      "identifiant": "simbad:827058",
+      "simbad_id": "* zet Ori",
+      "constellation_iau": "Ori",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Ori",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Ori",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE, explicitement assumé. Figure etablie depuis les coordonnées SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -125,30 +349,85 @@
         6
       ]
     ],
-    "commentaire": "Forme retenue : le sablier — épaules (Bételgeuse–Bellatrix), ceinture (Alnitak–Alnilam–Mintaka), puis les deux sommets vers Rigel et Saiph.",
-    "note_geometrie": "Les trois étoiles de la ceinture sont alignées à 0,006° près (Alnitak→Alnilam 1,39°, Alnilam→Mintaka 1,36°, et 2,74° en direct) : c'est l'alignement le plus rectiligne du ciel. Les épaules sont à Dec +7,4° et +6,3°, la ceinture à −1,9° et −0,3°, les pieds à −8,2° et −9,7° : la figure s'empile verticalement, ce qui referme le sablier.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+    "commentaire": "Dessin retenu pour Orion : 7 étoiles et 8 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 18,6°. Le segment le plus court relie Alnilam à Alnitak (1,36°). Le plus long relie Bételgeuse à Mintaka (9,63°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "Bételgeuse–Bellatrix": 7.53,
-    "Bételgeuse–Mintaka": 9.63,
-    "Mintaka–Bellatrix": 6.87,
-    "Rigel–Saiph": 8.33,
-    "Rigel–Alnitak": 9.04,
-    "Alnitak–Saiph": 7.92,
-    "Mintaka–Alnilam": 1.39,
-    "Alnilam–Alnitak": 1.36
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 7.5305
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "deg": 9.6304
+    },
+    {
+      "a": 4,
+      "b": 1,
+      "deg": 6.8666
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 8.3338
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "deg": 9.0425
+    },
+    {
+      "a": 6,
+      "b": 3,
+      "deg": 7.9203
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 1.386
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 1.356
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 42",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": 4.0,
       "distance_al": 1340,
       "note": "La nébuleuse d'Orion : la plus célèbre du ciel, visible à l'œil nu dans l'Épée. Un immense nuage de gaz où naissent des étoiles, illuminé par le trapèze d'Orion.",
-      "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1976, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1976",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1976",
+        "alias_interroge": "NGC1976",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1976",
+        "alias_interroge": "NGC1976",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 43",
@@ -156,59 +435,189 @@
       "mag": 9.0,
       "distance_al": 1600,
       "note": "« Nébuleuse de Mairan » : petite nébuleuse accolée à M 42, dont elle est séparée par une bande sombre. Elle a son propre cœur lumineux.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1982, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1982",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1982",
+        "alias_interroge": "NGC1982",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1982",
+        "alias_interroge": "NGC1982",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1980",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": 2.5,
       "distance_al": 1260,
       "note": "Amas ouvert serré illuminant la base de l'Épée d'Orion, autour de l'étoile ι Orionis. Riche et brillant, il prolonge l'observation de M 42.",
-      "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1980, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1980",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1980",
+        "alias_interroge": "NGC1980",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1980",
+        "alias_interroge": "NGC1980",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1977",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": null,
       "distance_al": 1290,
-      "note": "Nébuleuse de l'Homme qui court, illuminée par plusieurs étoiles chaudes ; aucune magnitude globale publiée, elle s'observe en grand champ autour de M 42.",
-      "instrument": "n. d.",
-      "src": "Wikidata ; magnitude non publiée",
-      "code": "W1†"
+      "note": "Nébuleuse de l'Homme qui court, illuminée par plusieurs étoiles chaudes ; aucune magnitude globale publiée, elle s'observe en grand champ autour de M 42. Magnitude non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1977, photométrie non renseignée ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1977",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1977",
+        "alias_interroge": "NGC1977",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "Wikidata ; magnitude non publiée",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1975",
       "nature": "nébuleuse",
       "mag": 7.0,
       "distance_al": null,
-      "note": "Faible nébuleuse diffuse au nord de M 42, dans le même groupe que 1973 et 1977. Objet de photographie, invisible à l'œil.",
-      "instrument": "jumelles",
-      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée",
-      "code": "O2‡"
+      "note": "Faible nébuleuse diffuse au nord de M 42, dans le même groupe que 1973 et 1977. Objet de photographie, invisible à l'œil. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1975, photométrie B ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1975",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1975",
+        "alias_interroge": "NGC1975",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1975",
+        "alias_interroge": "NGC1975",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1973",
       "nature": "nébuleuse",
       "mag": 7.0,
       "distance_al": null,
-      "note": "Petite nébuleuse diffuse du groupe de l'Homme qui court, à l'est de M 42. Sans magnitude publiée : à réserver à la photographie.",
-      "instrument": "jumelles",
-      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée",
-      "code": "O2‡"
+      "note": "Petite nébuleuse diffuse du groupe de l'Homme qui court, à l'est de M 42. Sans magnitude publiée : à réserver à la photographie. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1973, photométrie B ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1973",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1973",
+        "alias_interroge": "NGC1973",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1973",
+        "alias_interroge": "NGC1973",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1981",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": 4.2,
       "distance_al": 1280,
       "note": "Amas ouvert de l'Épée d'Orion, au nord de la nébuleuse, formant un V d'étoiles brillantes. Visible à l'œil nu dans la Voie lactée d'Orion.",
-      "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1981, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1981",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1981",
+        "alias_interroge": "NGC1981",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1981",
+        "alias_interroge": "NGC1981",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 78",
@@ -216,9 +625,32 @@
       "mag": 8.0,
       "distance_al": 1600,
       "note": "Nébuleuse par réflexion dans Orion, bleutée : duo de petites nébuleuses éclairées par deux étoiles dans un champ poussiéreux. Facile aux jumelles.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2068, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2068",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2068",
+        "alias_interroge": "NGC2068",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2068",
+        "alias_interroge": "NGC2068",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 434",
@@ -226,9 +658,32 @@
       "mag": 11.0,
       "distance_al": 1500,
       "note": "Nébuleuse de la Tête de Cheval : une silhouette noire d'encensoir découpée dans une longue bande rouge. Exige un filtre Hβ et un ciel parfait à l'œil ; superbe en photo.",
-      "instrument": "lunette",
-      "src": "OpenNGC (magnitude B) + Wikidata",
-      "code": "O2"
+      "instrument": "télescope",
+      "src": "OpenNGC, IC0434, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "IC0434",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0434",
+        "alias_interroge": "IC0434",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0434",
+        "alias_interroge": "IC0434",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC (magnitude B) + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2112",
@@ -236,9 +691,32 @@
       "mag": 9.1,
       "distance_al": 3720,
       "note": "Amas ouvert modeste du nord d'Orion, peu concentré, dans un champ pauvre. À voir à la lunette.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2112, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2112",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2112",
+        "alias_interroge": "NGC2112",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2112",
+        "alias_interroge": "NGC2112",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2186",
@@ -246,9 +724,32 @@
       "mag": 8.7,
       "distance_al": 7900,
       "note": "Petit amas ouvert d'Orion, dans un riche champ de la Voie lactée, non loin de Bételgeuse. Modeste mais facile.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2186, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2186",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2186",
+        "alias_interroge": "NGC2186",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2186",
+        "alias_interroge": "NGC2186",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 2194",
@@ -256,9 +757,32 @@
       "mag": 8.5,
       "distance_al": 12400,
       "note": "Amas ouvert riche et compact d'Orion, aux étoiles faibles serrées. Un des plus beaux amas ouverts de la région pour un télescope.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC2194, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2194",
+      "constellation_catalogue": "Ori",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2194",
+        "alias_interroge": "NGC2194",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2194",
+        "alias_interroge": "NGC2194",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -290,41 +814,33 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle étoile est la plus facile à repérer ?",
-      "r": "Rigel (β Ori, mag 0,13), la plus brillante — mais Bételgeuse (α Ori, 0,42) est aussi immédiate à cause de sa teinte rouge-orangée caractéristique."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Rigel, avec 0,13 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
-      "r": "Les trois étoiles de la ceinture : Alnitak – Alnilam – Mintaka. Elles sont alignées à 0,01° près et brillent toutes autour de la magnitude 2."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Alnilam – Alnitak : environ 1,36°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
-      "r": "Le contraste est spectaculaire : Bételgeuse rouge-orangée face à Rigel bleu-blanc. On peut le percevoir à l'œil nu, ce qui rend Orion idéale pour expliquer la couleur des étoiles."
-    },
-    {
-      "q": "La forme est-elle évidente à l'œil nu ?",
-      "r": "Oui, c'est l'une des figures les plus lisibles du ciel : un sablier avec une ceinture de trois étoiles en son milieu."
-    },
-    {
-      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
-      "r": "M 42, la nébuleuse d'Orion, est déjà perceptible à l'œil nu comme une tache floue — et spectaculaire aux jumelles. M 78 et les autres objets demandent un instrument."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Orion désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Pourquoi Orion est-elle considérée comme la constellation de référence de l'hiver ?",
-      "r": "Parce qu'elle est très lumineuse (Rigel mag 0,13 et Bételgeuse mag 0,42), très étendue, et que ses trois étoiles de ceinture forment un alignement immédiatement reconnaissable."
+      "q": "Pourquoi Bételgeuse et Rigel n’ont-elles pas la même couleur ?",
+      "r": "Bételgeuse est une supergéante rouge et Rigel une supergéante bleue. Leur contraste renseigne sur la température de surface : le bleu correspond à une surface plus chaude que le rouge."
     },
     {
-      "q": "Que trouve-t-on sous la ceinture d'Orion ?",
-      "r": "Les trois étoiles de la ceinture pointent vers le bas de la constellation, où se trouve l'épée : c'est là que se situe M 42, la grande nébuleuse d'Orion."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Orion. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi Bételgeuse et Rigel sont-elles de couleurs si différentes ?",
-      "r": "Bételgeuse est une supergéante rouge (type M1-M2Ia), Rigel une supergéante bleue (B8Ia). La couleur traduit la température de surface : Rigel est bien plus chaude que Bételgeuse."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 42 : amas ouvert et nébuleuse. La nébuleuse d'Orion : la plus célèbre du ciel, visible à l'œil nu dans l'Épée. Un immense nuage de gaz où naissent des étoiles, illuminé par le trapèze d'Orion. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Orion est la constellation la plus riche du ciel d'hiver. On peut commencer par la ceinture — trois étoiles parfaitement alignées — puis montrer que la même zone contient la nébuleuse M42, des amas et des étoiles de luminosités très contrastées.",
+  "message_animation": "Commencer par les trois étoiles de la ceinture, puis reconnaître les épaules et les pieds du chasseur. Comparer la teinte de Bételgeuse à celle de Rigel. Sous la ceinture, l’épée conduit à M 42, la grande nébuleuse d’Orion.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Orion » (074-orion.txt)",
@@ -332,64 +848,51 @@
     "manquantes": [],
     "figure_pedagogique": "le sablier",
     "questions": {
-      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
-      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
-      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
-      "statut": "à relire par Christophe avant diffusion"
-    }
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    },
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "lacunes": []
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

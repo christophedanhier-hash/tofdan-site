@@ -7,8 +7,8 @@
   "abreviation_iau": "Lac",
   "source_atlas": "Atlas observation.pdf, pages 59–60 (fiche Atlas « Lézard »)",
   "saison": "automne",
-  "voie_lactee": true,
-  "repere_principal": "Un petit zigzag entre Cygne et Andromède",
+  "voie_lactee": false,
+  "repere_principal": "Entre le Cygne et Andromède, chercher le petit zigzag du Lézard.",
   "constellations_voisines": [
     "Andromède",
     "Cassiopée",
@@ -25,118 +25,388 @@
       "bayer": "",
       "ra_deg": 333.47,
       "dec_deg": 39.715,
-      "mag": 4.5,
-      "role": "La queue — géante lumineuse orange",
+      "mag": 4.49,
+      "role": "En bas du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 109754)"
+      "src": "SIMBAD : HD 211073 ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "",
+      "type_spectral": "K2.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "HD 211073",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20211073",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "HD 211073",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20211073",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1584838",
+      "simbad_id": "HD 211073",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "HD 211073",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=HD%20211073",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 109937,
       "nom": "1 Lac",
-      "etiq": "1",
-      "bayer": "",
+      "etiq": "1 Lac",
+      "bayer": "1 Lac",
       "ra_deg": 333.992,
       "dec_deg": 37.749,
-      "mag": 4.14,
-      "role": "Le corps — géante lumineuse orange",
+      "mag": 4.15,
+      "role": "En bas du dessin, côté droite — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 109937)"
+      "src": "SIMBAD : *   1 Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  1 Lac",
+      "type_spectral": "K3-II-III",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   1 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%201%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   1 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%201%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:1551949",
+      "simbad_id": "*   1 Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   1 Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%201%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "hip": 110351,
       "nom": "2 Lac",
-      "etiq": "2",
-      "bayer": "",
+      "etiq": "2 Lac",
+      "bayer": "2 Lac",
       "ra_deg": 335.256,
       "dec_deg": 46.537,
-      "mag": 4.55,
-      "role": "Le corps — naine bleue",
+      "mag": 4.54,
+      "role": "Au milieu du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 110351)"
+      "src": "SIMBAD : *   2 Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  2 Lac",
+      "type_spectral": "B6V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   2 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%202%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   2 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%202%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:17245",
+      "simbad_id": "*   2 Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   2 Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%202%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "hip": 110538,
       "nom": "β Lac",
-      "etiq": "β",
-      "bayer": "bet Lac",
+      "etiq": "β Lac",
+      "bayer": "β Lac",
       "ra_deg": 335.89,
       "dec_deg": 52.229,
-      "mag": 4.42,
-      "role": "La tête — géante jaune",
+      "mag": 4.44,
+      "role": "En haut du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 110538)"
+      "src": "SIMBAD : * bet Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Lac",
+      "type_spectral": "G9IIIbCa1",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:75118",
+      "simbad_id": "* bet Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "hip": 110609,
       "nom": "4 Lac",
-      "etiq": "4",
-      "bayer": "",
+      "etiq": "4 Lac",
+      "bayer": "4 Lac",
       "ra_deg": 336.129,
       "dec_deg": 49.476,
-      "mag": 4.55,
-      "role": "Le corps — supergéante bleue",
+      "mag": 4.58,
+      "role": "En haut du dessin, près de l’axe central — supergéante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 110609)"
+      "src": "SIMBAD : *   4 Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  4 Lac",
+      "type_spectral": "B9Iab-Ib",
+      "nature_stellaire": "Supergéante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   4 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%204%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   4 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%204%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:38785",
+      "simbad_id": "*   4 Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   4 Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%204%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "hip": 111022,
       "nom": "5 Lac",
-      "etiq": "5",
-      "bayer": "",
+      "etiq": "5 Lac",
+      "bayer": "5 Lac",
       "ra_deg": 337.383,
       "dec_deg": 47.707,
-      "mag": 4.34,
-      "role": "Le corps — supergéante orange",
+      "mag": 4.37,
+      "role": "En haut du dessin, près de l’axe central — spectre complexe ou composé (K9Ia+B2V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 111022)"
+      "src": "SIMBAD : *   5 Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  5 Lac",
+      "type_spectral": "K9Ia+B2V",
+      "nature_stellaire": "Spectre complexe ou composé (K9Ia+B2V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   5 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%205%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   5 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%205%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:18498",
+      "simbad_id": "*   5 Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   5 Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%205%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
       "hip": 111104,
       "nom": "6 Lac",
-      "etiq": "6",
-      "bayer": "",
+      "etiq": "6 Lac",
+      "bayer": "6 Lac",
       "ra_deg": 337.622,
       "dec_deg": 43.123,
-      "mag": 4.52,
-      "role": "La queue — sous-géante bleue",
+      "mag": 4.511,
+      "role": "En bas du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 111104)"
+      "src": "SIMBAD : *   6 Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "  6 Lac",
+      "type_spectral": "B2IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*   6 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%206%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*   6 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%206%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:4153",
+      "simbad_id": "*   6 Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*   6 Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%20%206%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "hip": 111169,
       "nom": "α Lac",
-      "etiq": "α",
-      "bayer": "alf Lac",
+      "etiq": "α Lac",
+      "bayer": "α Lac",
       "ra_deg": 337.822,
       "dec_deg": 50.282,
-      "mag": 3.76,
-      "role": "La plus brillante de la figure — naine blanche",
+      "mag": 3.77,
+      "role": "En haut du dessin, côté gauche — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 111169)"
+      "src": "SIMBAD : * alf Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "alf Lac",
+      "type_spectral": "A1V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:38673",
+      "simbad_id": "* alf Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "hip": 111944,
       "nom": "11 Lac",
-      "etiq": "11",
-      "bayer": "",
+      "etiq": "11 Lac",
+      "bayer": "11 Lac",
       "ra_deg": 340.128,
       "dec_deg": 44.276,
-      "mag": 4.5,
-      "role": "La queue — géante orange",
+      "mag": 4.46,
+      "role": "Au milieu du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 111944)"
+      "src": "SIMBAD : *  11 Lac ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 11 Lac",
+      "type_spectral": "K2.5III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  11 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2011%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  11 Lac",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2011%20Lac",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:4551",
+      "simbad_id": "*  11 Lac",
+      "constellation_iau": "Lac",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  11 Lac",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2011%20Lac",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         1,
@@ -152,43 +422,124 @@
         6
       ]
     ],
-    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 9 étoiles reliées par 10 segments.",
-    "note_geometrie": "Figure construite sur 9 étoiles et 10 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie HIP 109754 à 6 Lac (4.61°) ; le plus court relie 5 Lac à 2 Lac (1.86°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Lézard : 9 étoiles et 10 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 14,5°. Le segment le plus court relie 5 Lac à 2 Lac (1,86°). Le plus long relie HIP 109754 à 6 Lac (4,61°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "1 Lac–HIP 109754": 2.01,
-    "HIP 109754–6 Lac": 4.61,
-    "6 Lac–11 Lac": 2.15,
-    "11 Lac–5 Lac": 3.92,
-    "5 Lac–α Lac": 2.59,
-    "α Lac–β Lac": 2.29,
-    "β Lac–4 Lac": 2.76,
-    "4 Lac–5 Lac": 1.95,
-    "5 Lac–2 Lac": 1.86,
-    "2 Lac–6 Lac": 3.8
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 2.0077
+    },
+    {
+      "a": 0,
+      "b": 6,
+      "deg": 4.6149
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "deg": 2.1474
+    },
+    {
+      "a": 8,
+      "b": 5,
+      "deg": 3.9248
+    },
+    {
+      "a": 5,
+      "b": 7,
+      "deg": 2.591
+    },
+    {
+      "a": 7,
+      "b": 3,
+      "deg": 2.2917
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 2.7571
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 1.9537
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "deg": 1.8609
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "deg": 3.8036
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 7209",
       "nature": "amas ouvert",
-      "mag": 6.7,
+      "mag": 7.7,
       "distance_al": null,
-      "note": "NGC 7209 — amas ouvert documenté(e) dans la fiche Atlas de Lézard.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 6,00 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7209, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7209",
+      "constellation_catalogue": "Lac",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7209",
+        "alias_interroge": "NGC7209",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7209",
+        "alias_interroge": "NGC7209",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7243",
       "nature": "amas ouvert",
       "mag": 6.4,
       "distance_al": null,
-      "note": "NGC 7243 — amas ouvert documenté(e) dans la fiche Atlas de Lézard.",
+      "note": "Amas ouvert. Dimension apparente du catalogue : environ 15,00 minutes d’arc. Distance non renseignée dans les sources retenues.",
       "instrument": "jumelles",
-      "src": "N1",
-      "code": "N1"
+      "src": "OpenNGC, NGC7243, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7243",
+      "constellation_catalogue": "Lac",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7243",
+        "alias_interroge": "NGC7243",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7243",
+        "alias_interroge": "NGC7243",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -220,85 +571,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "α Lac, magnitude 3.76, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "α Lac, avec 3,77 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "5 Lac – 2 Lac : environ 1,86°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Lézard ?",
-      "r": "2 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Lézard désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Comment observer NGC 7209 ?",
-      "r": "NGC 7209 est un(e) amas ouvert de magnitude 6.7. Instrument conseillé : jumelles. NGC 7209 — amas ouvert documenté(e) dans la fiche Atlas de Lézard."
+      "q": "Pourquoi commencer par les constellations voisines ?",
+      "r": "Dans une région sans étoile très brillante, les grands repères proches permettent de limiter la zone de recherche. On identifie ensuite les étoiles du petit motif au lieu de chercher d’emblée un animal reconnaissable."
     },
     {
-      "q": "Quand observer Lézard ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : Un petit zigzag entre Cygne et Andromède."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Lézard. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 7209 : amas ouvert. Amas ouvert. Dimension apparente du catalogue : environ 6,00 minutes d’arc. Distance non renseignée dans les sources retenues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Lézard est un petit zigzag tracé entre le Cygne et Andromède, sans étoile remarquable. C'est une constellation d'objets : on peut la parcourir en cherchant ses deux amas ouverts, NGC 7243 et NGC 7209, tous deux accessibles aux jumelles, et en profitant du voisinage immédiat de la Voie lactée.",
+  "message_animation": "Entre le Cygne et Andromède, chercher le petit zigzag du Lézard. La constellation ne présente pas d’étoile très éclatante : travailler avec les voisines et les positions du dessin. Les amas ouverts NGC 7209 et NGC 7243 sont des cibles de cette région.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 59–60 (fiche Atlas « Lézard »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-    "lacunes": [
-      "Aucune lacune identifiée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

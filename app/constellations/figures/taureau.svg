@@ -1,41 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Taureau">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="416.9" y1="347.5" x2="527.5" y2="292.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="527.5" y1="292.6" x2="424.8" y2="252.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="424.8" y1="252.6" x2="362.1" y2="207.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="362.1" y1="207.6" x2="332.1" y2="204.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="332.1" y1="204.1" x2="307.2" y2="195.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="307.2" y1="195.0" x2="85.7" y2="130.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="362.1" y1="207.6" x2="351.6" y2="180.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="351.6" y1="180.4" x2="332.3" y2="157.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="332.3" y1="157.4" x2="285.3" y2="105.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="285.3" y1="105.3" x2="127.4" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="534.3" y1="302.9" x2="498.8" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="534.3" cy="302.9" r="7.2" fill="#222"/>
-<circle cx="527.5" cy="292.6" r="7.2" fill="#222"/>
-<circle cx="498.8" cy="430.0" r="7.7" fill="#222"/>
-<circle cx="424.8" cy="252.6" r="6.9" fill="#222"/>
-<circle cx="416.9" cy="347.5" r="7.3" fill="#222"/>
-<circle cx="362.1" cy="207.6" r="7.2" fill="#222"/>
-<circle cx="351.6" cy="180.4" r="7.3" fill="#222"/>
-<circle cx="332.3" cy="157.4" r="7.2" fill="#222"/>
-<circle cx="332.1" cy="204.1" r="7.0" fill="#222"/>
-<circle cx="307.2" cy="195.0" r="5.0" fill="#222"/>
-<circle cx="285.3" cy="105.3" r="7.6" fill="#222"/>
-<circle cx="127.4" cy="30.0" r="5.5" fill="#222"/>
-<circle cx="85.7" cy="130.1" r="6.5" fill="#222"/>
-<text x="377.1" y="212.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Prima Hyadum</text>
-<text x="366.6" y="184.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">δ</text>
-<text x="347.3" y="161.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ain</text>
-<line x1="332.1" y1="204.1" x2="309.6" y2="226.6" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="309.6" y="231.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Chamukuy</text>
-<text x="286.2" y="199.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Aldebaran</text>
-<text x="549.3" y="307.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ο</text>
-<text x="544.0" y="280.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ξ</text>
-<text x="513.8" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">10</text>
-<text x="441.3" y="240.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">λ</text>
-<text x="416.9" y="334.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">ν</text>
-<text x="300.3" y="109.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">τ</text>
-<text x="143.9" y="18.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Elnath</text>
-<text x="102.2" y="118.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Tianguan</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Taureau">
+<title>Taureau</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="507.403" y1="448.428" x2="654.291" y2="381.309" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="654.291" y1="381.309" x2="515.740" y2="340.262" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="515.740" y1="340.262" x2="438.492" y2="289.144" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="438.492" y1="289.144" x2="403.210" y2="284.943" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="403.210" y1="284.943" x2="374.521" y2="273.949" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="374.521" y1="273.949" x2="135.365" y2="181.657" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="438.492" y1="289.144" x2="426.095" y2="257.444" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="426.095" y1="257.444" x2="403.977" y2="230.163" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="403.977" y1="230.163" x2="352.541" y2="166.356" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="352.541" y1="166.356" x2="192.725" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="664.635" y1="392.627" x2="619.487" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="664.635" cy="392.627" r="2.72" fill="#222" data-star="simbad:641294"/>
+<circle cx="654.291" cy="381.309" r="2.60" fill="#222" data-star="simbad:641314"/>
+<circle cx="619.487" cy="540.000" r="2.20" fill="#222" data-star="simbad:663925"/>
+<circle cx="515.740" cy="340.262" r="2.87" fill="#222" data-star="simbad:691373"/>
+<circle cx="507.403" cy="448.428" r="2.49" fill="#222" data-star="simbad:691822"/>
+<circle cx="438.492" cy="289.144" r="2.68" fill="#222" data-star="simbad:708551"/>
+<circle cx="426.095" cy="257.444" r="2.59" fill="#222" data-star="simbad:708562"/>
+<circle cx="403.977" cy="230.163" r="2.78" fill="#222" data-star="simbad:708367"/>
+<circle cx="403.210" cy="284.943" r="2.87" fill="#222" data-star="simbad:708990"/>
+<circle cx="374.521" cy="273.949" r="4.91" fill="#222" data-star="simbad:719377"/>
+<circle cx="352.541" cy="166.356" r="2.20" fill="#222" data-star="simbad:732646"/>
+<circle cx="192.725" cy="60.000" r="4.28" fill="#222" data-star="simbad:794302"/>
+<circle cx="135.365" cy="181.657" r="3.18" fill="#222" data-star="simbad:823349"/>
+<text x="295.82" y="260.95" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Aldébaran</text>
+<text x="331.81" y="297.94" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Chamukuy</text>
+<text x="148.37" y="168.66" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Tianguan</text>
+<text x="439.09" y="244.44" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Secunda</text>
+<text x="632.49" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">10 Tau</text>
+<text x="205.73" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Elnath</text>
+<text x="677.63" y="379.63" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ο Tau</text>
+<text x="604.79" y="368.31" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ξ Tau</text>
+<text x="528.74" y="327.26" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">λ Tau</text>
+<text x="520.40" y="435.43" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ν Tau</text>
+<text x="451.49" y="276.14" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Prima</text>
+<text x="365.54" y="153.36" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Tau</text>
+<text x="416.98" y="217.16" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Ain</text>
 </svg>

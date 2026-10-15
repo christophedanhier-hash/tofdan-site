@@ -8,151 +8,523 @@
   "source_atlas": "Atlas observation.pdf — fiche « Cygne »",
   "saison": "été",
   "voie_lactee": true,
-  "repere_principal": "La Croix du Nord : Deneb en haut, Sadr au centre, Albireo en bas, les ailes de part et d'autre.",
+  "repere_principal": "Suivre la grande croix du Cygne le long de la Voie lactée : Deneb marque la queue, Sadr le centre et Albiréo la tête.",
   "constellations_voisines": [
     "Céphée",
     "Dragon",
+    "Lézard",
     "Lyre",
-    "Petit Renard",
     "Pégase",
-    "Lézard"
+    "Petit Renard"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "β1 Cyg",
-      "bayer": "bet01 Cyg",
+      "nom": "Albiréo",
+      "bayer": "β¹ Cyg",
       "ra_deg": 292.6804,
       "dec_deg": 27.9597,
-      "mag": 3.05,
-      "role": "L'aile ouest — géante lumineuse orange",
+      "mag": 3.08,
+      "role": "Tête du Cygne, pied de la grande croix — spectre complexe ou composé (K3II+B9.5V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * bet01 Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Albireo",
+      "bayer_catalogue": "bet01 Cyg",
+      "type_spectral": "K3II+B9.5V",
+      "nature_stellaire": "Spectre complexe ou composé (K3II+B9.5V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet01 Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet01 Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Albiréo",
+      "identifiant": "simbad:2824708",
+      "simbad_id": "* bet01 Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet01 Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "φ Cyg",
-      "bayer": "phi Cyg",
+      "bayer": "φ Cyg",
       "ra_deg": 294.8442,
       "dec_deg": 30.1532,
-      "mag": 4.68,
-      "role": "L'aile ouest — géante jaune",
+      "mag": 4.673,
+      "role": "Cou du Cygne — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * phi Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "phi Cyg",
+      "type_spectral": "G8III-IV",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* phi Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* phi Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "φ Cyg",
+      "identifiant": "simbad:2846984",
+      "simbad_id": "* phi Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* phi Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20phi%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "η Cyg",
-      "bayer": "eta Cyg",
+      "bayer": "η Cyg",
       "ra_deg": 299.0767,
       "dec_deg": 35.0835,
-      "mag": 3.89,
-      "role": "L'aile ouest — géante orange",
+      "mag": 3.88,
+      "role": "Cou du Cygne — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eta Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Cyg",
+      "type_spectral": "K0III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "η Cyg",
+      "identifiant": "simbad:2903812",
+      "simbad_id": "* eta Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Sadr",
-      "bayer": "gam Cyg",
+      "bayer": "γ Cyg",
       "ra_deg": 305.5571,
       "dec_deg": 40.2567,
       "mag": 2.23,
-      "role": "Le cœur — supergéante jaune-blanc",
+      "role": "Centre de la croix, naissance des ailes — supergéante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * gam Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sadr",
+      "bayer_catalogue": "gam Cyg",
+      "type_spectral": "F8Ib",
+      "nature_stellaire": "Supergéante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Sadr",
+      "identifiant": "simbad:52992",
+      "simbad_id": "* gam Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "Fawaris",
-      "bayer": "del Cyg",
+      "bayer": "δ Cyg",
       "ra_deg": 296.2435,
       "dec_deg": 45.1307,
-      "mag": 2.86,
-      "role": "L'aile ouest — sous-géante bleue",
+      "mag": 2.87,
+      "role": "Aile du Cygne, côté ouest — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * del Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Fawaris",
+      "bayer_catalogue": "del Cyg",
+      "type_spectral": "B9.5IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Fawaris",
+      "identifiant": "simbad:194918",
+      "simbad_id": "* del Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "ι Cyg",
-      "bayer": "iot Cyg",
+      "bayer": "ι Cyg",
       "ra_deg": 292.4264,
       "dec_deg": 51.7295,
-      "mag": 3.76,
-      "role": "L'aile est — naine blanche",
+      "mag": 3.755,
+      "role": "En haut du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * iot Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot Cyg",
+      "type_spectral": "A5V",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ι Cyg",
+      "identifiant": "simbad:247874",
+      "simbad_id": "* iot Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "ο2 Cyg",
-      "bayer": "omi02 Cyg",
+      "nom": "ο² Cyg",
+      "bayer": "ο² Cyg",
       "ra_deg": 303.868,
       "dec_deg": 47.7142,
-      "mag": 3.96,
-      "role": "L'aile est — supergéante orange",
+      "mag": 3.98,
+      "role": "En haut du dessin, près de l’axe central — spectre complexe ou composé (K7Ib-II+B1V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * omi02 Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "omi02 Cyg",
+      "type_spectral": "K7Ib-II+B1V",
+      "nature_stellaire": "Spectre complexe ou composé (K7Ib-II+B1V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi02 Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi02%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi02 Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi02%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ο² Cyg",
+      "identifiant": "simbad:153522",
+      "simbad_id": "* omi02 Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi02 Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi02%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Deneb",
-      "bayer": "alf Cyg",
+      "bayer": "α Cyg",
       "ra_deg": 310.358,
       "dec_deg": 45.2803,
       "mag": 1.25,
-      "role": "La plus brillante de la figure — supergéante blanche",
+      "role": "Queue du Cygne — supergéante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * alf Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Deneb",
+      "bayer_catalogue": "alf Cyg",
+      "type_spectral": "A2Ia",
+      "nature_stellaire": "Supergéante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Deneb",
+      "identifiant": "simbad:92338",
+      "simbad_id": "* alf Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "nom": "κ Cyg",
-      "bayer": "kap Cyg",
+      "bayer": "κ Cyg",
       "ra_deg": 289.2755,
       "dec_deg": 53.3682,
-      "mag": 3.8,
-      "role": "L'aile est — géante jaune",
+      "mag": 3.76,
+      "role": "En haut du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * kap Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Cyg",
+      "type_spectral": "G9III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "κ Cyg",
+      "identifiant": "simbad:261338",
+      "simbad_id": "* kap Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
       "nom": "ν Cyg",
-      "bayer": "nu. Cyg",
+      "bayer": "ν Cyg",
       "ra_deg": 314.2934,
       "dec_deg": 41.1672,
       "mag": 3.94,
-      "role": "L'aile est — géante blanche",
+      "role": "Au milieu du dessin, côté gauche — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * nu. Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. Cyg",
+      "type_spectral": "A0IIIn",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ν Cyg",
+      "identifiant": "simbad:31842",
+      "simbad_id": "* nu. Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
       "nom": "ζ Cyg",
-      "bayer": "zet Cyg",
+      "bayer": "ζ Cyg",
       "ra_deg": 318.2341,
       "dec_deg": 30.2271,
       "mag": 3.21,
-      "role": "Le cou — géante jaune",
+      "role": "En bas du dessin, côté gauche — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * zet Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet Cyg",
+      "type_spectral": "G8+III-IIIaBa0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ζ Cyg",
+      "identifiant": "simbad:1539166",
+      "simbad_id": "* zet Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
-      "nom": "ε Cyg",
-      "bayer": "eps Cyg",
+      "nom": "Aljanah",
+      "bayer": "ε Cyg",
       "ra_deg": 311.5518,
       "dec_deg": 33.9695,
       "mag": 2.48,
-      "role": "Le bec — géante orange",
+      "role": "Aile du Cygne, côté est — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * eps Cyg ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Aljanah",
+      "bayer_catalogue": "eps Cyg",
+      "type_spectral": "K0III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Cyg",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Cyg",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Aljanah",
+      "identifiant": "simbad:2933504",
+      "simbad_id": "* eps Cyg",
+      "constellation_iau": "Cyg",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Cyg",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Cyg",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -207,26 +579,77 @@
         3
       ]
     ],
-    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-    "note_geometrie": "Le Cygne se construit autour d'une grande croix. La barre longue suit la Voie lactée : Deneb (α) → Sadr (γ) → η Cyg → φ Cyg → β1 Cyg, avec des segments de 5,09° à 7,28°. La barre transversale est formée par les ailes : Fawaris (δ) et ι Cyg d'un côté, ε Cyg et ζ Cyg de l'autre. Les mesures montrent un tracé très étendu : le segment η Cyg–Sadr atteint 7,28° et ν Cyg–ζ Cyg 11,40°, la plus longue liaison de la figure. Le plus court segment relie κ Cyg et ι Cyg (2,52°). Sadr est le carrefour : cinq liaisons y aboutissent — c'est le cœur du Cygne, au croisement de la croix et des ailes.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Cygne : 12 étoiles et 13 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 31,2°. Le segment le plus court relie κ Cyg à ι Cyg (2,52°). Le plus long relie ν Cyg à ζ Cyg (11,39°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-    "β1 Cyg–φ Cyg": 2.9,
-    "φ Cyg–η Cyg": 6.08,
-    "η Cyg–Sadr": 7.28,
-    "Sadr–Fawaris": 8.39,
-    "Fawaris–ι Cyg": 7.07,
-    "ι Cyg–ο2 Cyg": 8.4,
-    "ο2 Cyg–Deneb": 5.09,
-    "Deneb–Sadr": 6.13,
-    "κ Cyg–ι Cyg": 2.52,
-    "Deneb–ν Cyg": 5.01,
-    "ν Cyg–ζ Cyg": 11.4,
-    "ζ Cyg–ε Cyg": 6.78,
-    "ε Cyg–Sadr": 7.89
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 2.8962
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 6.0826
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 7.281
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 8.3945
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "deg": 7.0657
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 8.4033
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "deg": 5.0852
+    },
+    {
+      "a": 7,
+      "b": 3,
+      "deg": 6.134
+    },
+    {
+      "a": 8,
+      "b": 5,
+      "deg": 2.5208
+    },
+    {
+      "a": 7,
+      "b": 9,
+      "deg": 5.0127
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "deg": 11.395
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "deg": 6.7835
+    },
+    {
+      "a": 11,
+      "b": 3,
+      "deg": 7.8938
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 39",
@@ -234,9 +657,32 @@
       "mag": 4.6,
       "distance_al": 980,
       "note": "Vaste amas ouvert très dispersé, bien adapté aux jumelles. Compagnon d'été facile à reconnaître.",
-      "instrument": "œil nu",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC7092, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7092",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7092",
+        "alias_interroge": "NGC7092",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7092",
+        "alias_interroge": "NGC7092",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 29",
@@ -245,38 +691,130 @@
       "distance_al": 3000,
       "note": "Petit amas ouvert compact, dans une région très riche en étoiles et en nébulosités.",
       "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "src": "OpenNGC, NGC6913, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6913",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6913",
+        "alias_interroge": "NGC6913",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6913",
+        "alias_interroge": "NGC6913",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 5146",
-      "nature": "amas ouvert + nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": 7.2,
       "distance_al": 2690,
       "note": "La nébuleuse du Cocon : amas jeune niché dans la nébuleuse qui l'a vu naître.",
-      "instrument": "jumelles",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, IC5146, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "IC5146",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC5146",
+        "alias_interroge": "IC5146",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC5146",
+        "alias_interroge": "IC5146",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6888",
-      "nature": "nébuleuse en émission (Croissant)",
+      "nature": "nébuleuse en émission",
       "mag": 7.44,
       "distance_al": 5650,
       "note": "La nébuleuse du Croissant : une étoile de type Wolf-Rayet souffle un vent qui sculpte une coquille de gaz.",
-      "instrument": "jumelles",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6888, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6888",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6888",
+        "alias_interroge": "NGC6888",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6888",
+        "alias_interroge": "NGC6888",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6946",
-      "nature": "galaxie spirale",
+      "nature": "galaxie",
       "mag": 9.05,
       "distance_al": 20000000,
       "note": "La « galaxie du Feu d'artifice » : une spirale vue de face, très riche en supernovas observées. Elle est vue à travers la poussière de la Voie lactée, ce qui la rend plus difficile qu'il n'y paraît.",
-      "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6946, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6946",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6946",
+        "alias_interroge": "NGC6946",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6946",
+        "alias_interroge": "NGC6946",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6826",
@@ -284,69 +822,220 @@
       "mag": 9.44,
       "distance_al": 4230,
       "note": "La nébuleuse du Clignotant : nébuleuse planétaire dont l'éclat central « disparaît » quand on regarde à côté (vision décalée).",
-      "instrument": "jumelles",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6826, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6826",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6826",
+        "alias_interroge": "NGC6826",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6826",
+        "alias_interroge": "NGC6826",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7000",
       "nature": "nébuleuse en émission",
-      "mag": null,
+      "mag": 4.0,
       "distance_al": 2590,
       "note": "La nébuleuse Amérique du Nord : une vaste région d'hydrogène ionisé. Objet étendu : on la voit mieux aux jumelles ou au grand champ qu'au télescope.",
-      "instrument": "n. d.",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC7000, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7000",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7000",
+        "alias_interroge": "NGC7000",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7000",
+        "alias_interroge": "NGC7000",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 5070",
-      "nature": "nébuleuse en émission (Pélican)",
-      "mag": null,
+      "nature": "nébuleuse en émission",
+      "mag": 8.0,
       "distance_al": 2590,
       "note": "La nébuleuse du Pélican : partie de la même grande région que la nébuleuse Amérique du Nord.",
-      "instrument": "n. d.",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, IC5070, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "IC5070",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC5070",
+        "alias_interroge": "IC5070",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC5070",
+        "alias_interroge": "IC5070",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6914",
       "nature": "nébuleuse par réflexion",
       "mag": null,
       "distance_al": 3260,
-      "note": "Nébuleuse par réflexion : elle ne fait que renvoyer la lumière d'étoiles voisines.",
-      "instrument": "n. d.",
-      "src": "O1",
-      "code": "O1"
+      "note": "Nébuleuse par réflexion : elle ne fait que renvoyer la lumière d'étoiles voisines. Magnitude non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6914, photométrie non renseignée ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6914",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6914",
+        "alias_interroge": "NGC6914",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6960",
-      "nature": "rémanent de supernova (Dentelles)",
-      "mag": null,
+      "nature": "rémanent de supernova",
+      "mag": 7.0,
       "distance_al": 2400,
       "note": "Les Dentelles du Cygne (partie ouest) : filaments d'un rémanent de supernova vieux de plusieurs milliers d'années.",
-      "instrument": "n. d.",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6960, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6960",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6960",
+        "alias_interroge": "NGC6960",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6960",
+        "alias_interroge": "NGC6960",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6979",
-      "nature": "rémanent de supernova (Dentelles)",
+      "nature": "rémanent de supernova",
       "mag": null,
       "distance_al": null,
-      "note": "Les Dentelles du Cygne (partie centrale) : le Pickering's Triangle, région la plus faible de l'ensemble.",
-      "instrument": "n. d.",
-      "src": "O1",
-      "code": "O1"
+      "note": "Les Dentelles du Cygne (partie centrale) : le Pickering's Triangle, région la plus faible de l'ensemble. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6979, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6979",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6979",
+        "alias_interroge": "NGC6979",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6992",
-      "nature": "rémanent de supernova (Dentelles)",
-      "mag": null,
+      "nature": "rémanent de supernova",
+      "mag": 7.0,
       "distance_al": 2400,
       "note": "Les Dentelles du Cygne (partie est) : la partie la plus brillante et la plus facile du rémanent.",
-      "instrument": "n. d.",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6992, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6992",
+      "constellation_catalogue": "Cyg",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6992",
+        "alias_interroge": "NGC6992",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6992",
+        "alias_interroge": "NGC6992",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -377,79 +1066,83 @@
     }
   ],
   "questions_observation": [
-    "Vois-tu clairement la forme d'une croix, ou plutôt d'un oiseau aux ailes déployées ?",
-    "Distingues-tu la couleur d'Albireo, la tête du Cygne ? (Elle est célèbre pour son bleu et son ambre.)",
-    "Le fond du ciel autour du Cygne te paraît-il plus fourni qu'ailleurs ?",
-    "Repères-tu Sadr au croisement, avec cinq directions qui partent d'elle ?",
-    "Arrives-tu à suivre l'axe de la croix dans la longueur, jusqu'à la queue ?"
+    {
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Deneb, avec 1,25 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
+    },
+    {
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "κ Cyg – ι Cyg : environ 2,52°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
+    },
+    {
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Cygne désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
+    }
   ],
   "questions_guide": [
-    "Cherche d'abord Deneb : elle forme le grand triangle d'été avec Véga et Altaïr.",
-    "Deneb marque la queue du Cygne. La tête est à l'opposé, en Albireo, au bout de la grande croix.",
-    "Le Cygne « vole » le long de la Voie lactée : sa barre longue est parallèle à la bande laiteuse.",
-    "Sadr, au centre, est le carrefour : c'est là que les ailes croisent le corps."
+    {
+      "q": "Où se trouvent la tête, la queue et les ailes du Cygne ?",
+      "r": "La tête est du côté d’Albiréo, la queue du côté de Deneb. Sadr marque le croisement de la grande croix ; les branches transversales dessinent les ailes. Ces repères évitent d’appeler une aile le bec de l’oiseau."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Cygne. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 39 : amas ouvert. Vaste amas ouvert très dispersé, bien adapté aux jumelles. Compagnon d'été facile à reconnaître. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
+    }
   ],
-  "message_animation": "Le Cygne déploie sa grande croix le long de la Voie lactée. Deneb marque la queue, Albireo la tête, et les Dentelles — restes d'une étoile explosée il y a des milliers d'années — se faufilent entre les ailes.",
+  "message_animation": "Suivre la grande croix du Cygne le long de la Voie lactée : Deneb marque la queue, Sadr le centre et Albiréo la tête. Les deux ailes partent de Sadr. Au télescope, Albiréo offre un contraste de couleurs entre ses composantes ; à l’œil nu, elles ne sont pas séparées.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf — fiche « Cygne »",
     "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "9 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

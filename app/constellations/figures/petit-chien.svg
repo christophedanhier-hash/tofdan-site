@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Petit Chien">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="126.4" y1="430.0" x2="493.6" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="493.6" cy="30.0" r="6.5" fill="#222"/>
-<circle cx="126.4" cy="430.0" r="4.5" fill="#222"/>
-<text x="508.6" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Gomeisa</text>
-<text x="141.4" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Procyon</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Petit Chien">
+<title>Petit Chien</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="163.468" y1="540.000" x2="636.532" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="636.532" cy="60.000" r="3.29" fill="#222" data-star="simbad:971213"/>
+<circle cx="163.468" cy="540.000" r="5.30" fill="#222" data-star="simbad:988145"/>
+<text x="649.53" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Gomeisa</text>
+<text x="176.47" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Procyon</text>
 </svg>

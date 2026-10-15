@@ -1,50 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Dragon">
-<rect width="620" height="460" fill="#ffffff"/>
-<line x1="170.0" y1="269.7" x2="166.8" y2="316.8" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="166.8" y1="316.8" x2="194.2" y2="309.7" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="194.2" y1="309.7" x2="192.3" y2="284.6" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="192.3" y1="284.6" x2="170.0" y2="269.7" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="170.0" y1="269.7" x2="87.3" y2="175.3" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="87.3" y1="175.3" x2="50.0" y2="152.5" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="87.3" y1="175.3" x2="141.5" y2="143.2" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="141.5" y1="143.2" x2="216.8" y2="192.4" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="216.8" y1="192.4" x2="263.7" y2="229.1" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="263.7" y1="229.1" x2="286.9" y2="254.9" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="286.9" y1="254.9" x2="325.6" y2="251.4" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="325.6" y1="251.4" x2="409.9" y2="204.1" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="409.9" y1="204.1" x2="505.0" y2="156.7" stroke="#9bb8d4" stroke-width="1.6"/>
-<line x1="505.0" y1="156.7" x2="570.0" y2="160.7" stroke="#9bb8d4" stroke-width="1.6"/>
-<circle cx="170.0" cy="269.7" r="3.4" fill="#1b3a5c"/>
-<line x1="170.0" y1="269.7" x2="130.0" y2="269.7" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
-<text x="103.9" y="273.2" font-size="12" font-family="Georgia,serif" fill="#12324f">Grumium</text>
-<circle cx="166.8" cy="316.8" r="6.0" fill="#1b3a5c"/>
-<line x1="166.8" y1="316.8" x2="129.4" y2="323.4" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
-<text x="103.3" y="326.9" font-size="12" font-family="Georgia,serif" fill="#12324f">Eltanin</text>
-<circle cx="194.2" cy="309.7" r="4.6" fill="#1b3a5c"/>
-<line x1="194.2" y1="309.7" x2="248.3" y2="300.2" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
-<text x="218.9" y="303.7" font-size="12" font-family="Georgia,serif" fill="#12324f">Rastaban</text>
-<circle cx="192.3" cy="284.6" r="3.4" fill="#1b3a5c"/>
-<line x1="192.3" y1="284.6" x2="182.0" y2="256.4" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
-<text x="172.4" y="259.9" font-size="12" font-family="Georgia,serif" fill="#12324f">ν2</text>
-<circle cx="87.3" cy="175.3" r="4.6" fill="#1b3a5c"/>
-<text x="65.6" y="191.8" font-size="12" font-family="Georgia,serif" fill="#12324f">Altais</text>
-<circle cx="50.0" cy="152.5" r="3.4" fill="#1b3a5c"/>
-<text x="42.6" y="169.0" font-size="12" font-family="Georgia,serif" fill="#12324f">ε</text>
-<circle cx="141.5" cy="143.2" r="3.4" fill="#1b3a5c"/>
-<text x="128.7" y="135.4" font-size="12" font-family="Georgia,serif" fill="#12324f">φ</text>
-<circle cx="216.8" cy="192.4" r="4.6" fill="#1b3a5c"/>
-<text x="189.7" y="208.7" font-size="12" font-family="Georgia,serif" fill="#12324f">Aldhibah</text>
-<circle cx="263.7" cy="229.1" r="4.6" fill="#1b3a5c"/>
-<text x="235.5" y="245.6" font-size="12" font-family="Georgia,serif" fill="#12324f">Athebyne</text>
-<circle cx="286.9" cy="254.9" r="3.4" fill="#1b3a5c"/>
-<text x="287.1" y="269.7" font-size="12" font-family="Georgia,serif" fill="#12324f">θ</text>
-<circle cx="325.6" cy="251.4" r="4.6" fill="#1b3a5c"/>
-<text x="303.9" y="267.1" font-size="12" font-family="Georgia,serif" fill="#12324f">Edasich</text>
-<circle cx="409.9" cy="204.1" r="3.4" fill="#1b3a5c"/>
-<line x1="409.9" y1="204.1" x2="422.7" y2="219.4" stroke="#a8c2d8" stroke-width="0.7" stroke-dasharray="2,2"/>
-<text x="399.9" y="222.9" font-size="12" font-family="Georgia,serif" fill="#12324f">Thuban</text>
-<circle cx="505.0" cy="156.7" r="3.4" fill="#1b3a5c"/>
-<text x="505.2" y="171.5" font-size="12" font-family="Georgia,serif" fill="#12324f">κ</text>
-<circle cx="570.0" cy="160.7" r="3.4" fill="#1b3a5c"/>
-<text x="550.4" y="175.5" font-size="12" font-family="Georgia,serif" fill="#12324f">Giausar</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Dragon">
+<title>Dragon</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="209.348" y1="461.840" x2="181.142" y2="538.455" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="181.142" y1="538.455" x2="243.521" y2="540.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="243.521" y1="540.000" x2="247.190" y2="496.678" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="247.190" y1="496.678" x2="209.348" y2="461.840" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="209.348" y1="461.840" x2="151.087" y2="258.817" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="151.087" y1="258.817" x2="137.836" y2="197.817" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="151.087" y1="258.817" x2="237.142" y2="242.823" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="237.142" y1="242.823" x2="312.039" y2="347.036" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="312.039" y1="347.036" x2="385.443" y2="409.922" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="385.443" y1="409.922" x2="431.638" y2="448.572" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="431.638" y1="448.572" x2="499.986" y2="425.969" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="499.986" y1="425.969" x2="591.202" y2="289.031" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="591.202" y1="289.031" x2="621.802" y2="134.576" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="621.802" y1="134.576" x2="662.164" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="209.348" cy="461.840" r="2.60" fill="#222" data-star="simbad:324145"/>
+<circle cx="181.142" cy="538.455" r="3.82" fill="#222" data-star="simbad:323363"/>
+<circle cx="243.521" cy="540.000" r="3.35" fill="#222" data-star="simbad:352495"/>
+<circle cx="247.190" cy="496.678" r="2.20" fill="#222" data-star="simbad:337566"/>
+<circle cx="151.087" cy="258.817" r="3.14" fill="#222" data-star="simbad:288114"/>
+<circle cx="137.836" cy="197.817" r="2.47" fill="#222" data-star="simbad:9773204"/>
+<circle cx="237.142" cy="242.823" r="2.22" fill="#222" data-star="simbad:314793"/>
+<circle cx="312.039" cy="347.036" r="3.06" fill="#222" data-star="simbad:362863"/>
+<circle cx="385.443" cy="409.922" r="3.41" fill="#222" data-star="simbad:387849"/>
+<circle cx="431.638" cy="448.572" r="2.40" fill="#222" data-star="simbad:401098"/>
+<circle cx="499.986" cy="425.969" r="2.97" fill="#222" data-star="simbad:444249"/>
+<circle cx="591.202" cy="289.031" r="2.66" fill="#222" data-star="simbad:446254"/>
+<circle cx="621.802" cy="134.576" r="2.49" fill="#222" data-star="simbad:447421"/>
+<circle cx="662.164" cy="60.000" r="2.52" fill="#222" data-star="simbad:447949"/>
+<text x="256.52" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Rastaban</text>
+<text x="325.04" y="334.04" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Aldhibah</text>
+<text x="398.44" y="396.92" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Athebyne</text>
+<text x="222.35" y="448.84" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Grumium</text>
+<text x="194.14" y="525.46" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Eltanin</text>
+<text x="512.99" y="412.97" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Edasich</text>
+<text x="675.16" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Giausar</text>
+<text x="260.19" y="483.68" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ν² Dra</text>
+<text x="164.09" y="245.82" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Altais</text>
+<text x="604.20" y="276.03" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Thuban</text>
+<text x="150.84" y="184.82" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ε Dra</text>
+<text x="250.14" y="229.82" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">φ Dra</text>
+<text x="444.64" y="435.57" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">θ Dra</text>
+<text x="634.80" y="121.58" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">κ Dra</text>
 </svg>

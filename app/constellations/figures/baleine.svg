@@ -1,26 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Baleine">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="95.0" y1="87.3" x2="155.8" y2="97.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="95.0" y1="87.3" x2="168.2" y2="134.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="525.0" y1="372.7" x2="319.3" y2="268.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="525.0" y1="372.7" x2="341.4" y2="338.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="525.0" y1="372.7" x2="452.4" y2="268.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="155.8" y1="97.9" x2="168.2" y2="134.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="168.2" y1="134.8" x2="319.3" y2="268.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="319.3" y1="268.1" x2="341.4" y2="338.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="319.3" y1="268.1" x2="452.4" y2="268.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="95.0" cy="87.3" r="5" fill="#222"/>
-<text x="108.0" y="77.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Menkar</text>
-<circle cx="525.0" cy="372.7" r="5" fill="#222"/>
-<text x="538.0" y="362.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Diphda</text>
-<circle cx="155.8" cy="97.9" r="5" fill="#222"/>
-<text x="168.8" y="87.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Kaffaljidhma</text>
-<circle cx="168.2" cy="134.8" r="5" fill="#222"/>
-<text x="181.2" y="124.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Delta Cet</text>
-<circle cx="319.3" cy="268.1" r="5" fill="#222"/>
-<text x="332.3" y="258.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Zeta Cet</text>
-<circle cx="341.4" cy="338.9" r="5" fill="#222"/>
-<text x="354.4" y="328.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Tau Cet</text>
-<circle cx="452.4" cy="268.7" r="5" fill="#222"/>
-<text x="465.4" y="258.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Eta Cet</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Baleine">
+<title>Baleine</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="60.000" y1="74.135" x2="156.173" y2="90.843" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="60.000" y1="74.135" x2="175.840" y2="149.201" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="525.865" x2="414.753" y2="360.183" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="525.865" x2="449.567" y2="472.138" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="525.865" x2="625.287" y2="361.204" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="156.173" y1="90.843" x2="175.840" y2="149.201" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="175.840" y1="149.201" x2="414.753" y2="360.183" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="414.753" y1="360.183" x2="449.567" y2="472.138" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="414.753" y1="360.183" x2="625.287" y2="361.204" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="60.000" cy="74.135" r="3.58" fill="#222" data-star="simbad:622399"/>
+<circle cx="740.000" cy="525.865" r="3.99" fill="#222" data-star="simbad:1296450"/>
+<circle cx="156.173" cy="90.843" r="2.82" fill="#222" data-star="simbad:1408792"/>
+<circle cx="175.840" cy="149.201" r="2.34" fill="#222" data-star="simbad:1397097"/>
+<circle cx="414.753" cy="360.183" r="2.62" fill="#222" data-star="simbad:1317451"/>
+<circle cx="449.567" cy="472.138" r="2.80" fill="#222" data-star="simbad:1298185"/>
+<circle cx="625.287" cy="361.204" r="2.84" fill="#222" data-star="simbad:1335462"/>
+<text x="169.17" y="77.84" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Kaffaljidhma</text>
+<text x="73.00" y="61.13" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Menkar</text>
+<text x="683.20" y="512.87" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Diphda</text>
+<text x="188.84" y="136.20" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ Cet</text>
+<text x="427.75" y="347.18" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Baten</text>
+<text x="462.57" y="459.14" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Cet</text>
+<text x="638.29" y="348.20" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Cet</text>
 </svg>

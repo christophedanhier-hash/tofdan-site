@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-15",
+  "description": "SHA-256 des réponses brutes archivées dans le profil Gérard ; les valeurs scientifiques utiles sont conservées dans catalogues-20261015.json. Aucun secret ni authentifiant.",
+  "sources": [
+    {
+      "fichier": "identites-7.json",
+      "octets": 5252,
+      "sha256": "08dc94468fae692ef3ac7bfc343f34e28b38b3c9c33f40462af9f14fdc227cd7"
+    },
+    {
+      "fichier": "identites-9.json",
+      "octets": 5372,
+      "sha256": "abfc73843aa338047db0eb2aa1c252b8a89b2ba6001493cc4050fcd5ae79828d"
+    },
+    {
+      "fichier": "identites-0.json",
+      "octets": 5211,
+      "sha256": "b33c958ddd48982a3b657a1ff4d7038ffcfe16fa970c0faa6386d8e22810f2b3"
+    },
+    {
+      "fichier": "identites-1.json",
+      "octets": 5350,
+      "sha256": "3dae1b11d6b5ab320cd31a12ad90f9779ddfba13214a312f9dda57c3006435e0"
+    },
+    {
+      "fichier": "identites-2.json",
+      "octets": 5306,
+      "sha256": "c659b6541cebb7f2634899897d72bb8243e94d452f3fef9e4c431926e71f3098"
+    },
+    {
+      "fichier": "identites-6.json",
+      "octets": 5261,
+      "sha256": "51cbe06faf12a366b3b68e9b15765090b88b02ba65fb813f2cb89b5bb74d4997"
+    },
+    {
+      "fichier": "identites-4.json",
+      "octets": 5320,
+      "sha256": "80a0d10ce4378b2710711cdc71693d268c270fe22aba2dc9b7ccbc6ea3834171"
+    },
+    {
+      "fichier": "identites-5.json",
+      "octets": 5293,
+      "sha256": "ade09df439f3a89f9b87750e4ddb9ee0fc2bcaa17f57edb4b4c9139971851fc0"
+    },
+    {
+      "fichier": "identites-3.json",
+      "octets": 5266,
+      "sha256": "85032303b1a2561672c9a1b1ca5b7eebf630e0dc7926f1ac75e6e5775f75e527"
+    },
+    {
+      "fichier": "identites-8.json",
+      "octets": 5382,
+      "sha256": "6e87e9c5e2b81f7adffc93e7fcbb5c30677de3c6fafa4450410bb543f10daf42"
+    },
+    {
+      "fichier": "photometrie-1.json",
+      "octets": 1531,
+      "sha256": "64592e7fa0d7e7517292b5ca5dc6fc989cf34022ffd7a20542ad38af50398af2"
+    },
+    {
+      "fichier": "photometrie-2.json",
+      "octets": 1534,
+      "sha256": "81b44f1a3f8def9f810b574b08cd5d52836a09b9c4d615eafe635783f268e446"
+    },
+    {
+      "fichier": "photometrie-0.json",
+      "octets": 1516,
+      "sha256": "cdeb6a0b6e32d257a591dc9fe633fedf2dc502354de949034d0e79140fad7761"
+    },
+    {
+      "fichier": "photometrie-6.json",
+      "octets": 1576,
+      "sha256": "b24c0d27ffc4034379be02bec1954bc14f5379b6167ccabb43a997e79c5b8b9f"
+    },
+    {
+      "fichier": "photometrie-4.json",
+      "octets": 1589,
+      "sha256": "c3732d15ab76a5a5fdbd462ebcb4198c526908c992aa3218fdfd0f39b29dfff9"
+    },
+    {
+      "fichier": "photometrie-3.json",
+      "octets": 1569,
+      "sha256": "6f7828ad90311a401cd5d6f24f353b395bbe9f11dd09e1eb718149c549897ee9"
+    },
+    {
+      "fichier": "photometrie-7.json",
+      "octets": 995,
+      "sha256": "8ebb93e4fff1ff3e2e0415c1251e9ef5dd1cbf08bce8a68b7793770d0f6ee2ca"
+    },
+    {
+      "fichier": "photometrie-5.json",
+      "octets": 1597,
+      "sha256": "8343a78158a694320223a56faf4e0b90f6d954d7f1d6bf4d6958e80198bd0cc7"
+    },
+    {
+      "fichier": "repli-401.json",
+      "octets": 1121,
+      "sha256": "2606c198caf1e9b0643731de0f274205dd7f1ba6d9b98e961d8eca39fc721485"
+    },
+    {
+      "fichier": "repli-52.json",
+      "octets": 1128,
+      "sha256": "638ebe8fa1bf5dffffcaee5ceffac540b481e9b186bd44e0b6f838919878ef4f"
+    },
+    {
+      "fichier": "repli-342.json",
+      "octets": 1117,
+      "sha256": "ec9d8a5c982938bc93170decd14dffc52d5342baccf725804e688ff5606fd52a"
+    },
+    {
+      "fichier": "repli-10.json",
+      "octets": 1122,
+      "sha256": "a5ca23423860c43c4fe0d3cbdfe01c5f2e1cd0a58c28059ddce64c556af8afcd"
+    },
+    {
+      "fichier": "repli-11.json",
+      "octets": 1119,
+      "sha256": "acb0ae703a9fe20cfe5f2a5085ca36ba3aab9fd105e08ecf2fc5f90ba643e92b"
+    },
+    {
+      "fichier": "repli-9.json",
+      "octets": 1118,
+      "sha256": "3f827169964292a3e6a9df7114979ebbd9dcc1f6384a7a3b77ba515a89edac0f"
+    },
+    {
+      "fichier": "repli-388.json",
+      "octets": 1115,
+      "sha256": "0c4edc6c23b853c3d0d01fbcd782b2c0d89ecd3305c5d4637e9f3dc17d8c0060"
+    },
+    {
+      "fichier": "baumgardt-parameters.html",
+      "octets": 188768,
+      "sha256": "c2e231374ba447d5153307c1018c1ea982f03706b813814a24209a32027bd225"
+    },
+    {
+      "fichier": "limites-roman87.dat",
+      "octets": 10802,
+      "sha256": "17407174f8d1e2771e4e693bc007d542b69ae0b604cec311774c7e91e146f196"
+    },
+    {
+      "fichier": "OpenNGC.csv",
+      "octets": 3942519,
+      "sha256": "211ddbb3e319bb04b52b0cb7ca3b13862079a022dbe577f2367bd3846b0fa85f"
+    },
+    {
+      "fichier": "IAU-CSN.txt",
+      "octets": 71800,
+      "sha256": "84fac0c90f1b19abc491c2793469e0caa7b003ad1bc93a790ca41147010d0eb0"
+    }
+  ],
+  "catalogues": {
+    "SIMBAD": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+    "OpenNGC": "https://github.com/mattiaverga/OpenNGC",
+    "Baumgardt": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+    "IAU-CSN": "https://www.iau.org/public/themes/naming_stars/",
+    "Frontieres": "https://docs.astropy.org/en/stable/api/astropy.coordinates.get_constellation.html"
+  },
+  "attribution": "OpenNGC : Mattia Verga et contributeurs, CC BY-SA 4.0. IAU-CSN : UAI/WGSN, CC BY. SIMBAD : CDS Strasbourg. Frontières : Roman 1987, via Astropy (BSD). Table d’amas : Baumgardt et collaborateurs, articles référencés par la table."
+}

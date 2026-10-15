@@ -1,58 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Verseau">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="362.8" y1="60.8" x2="394.9" y2="80.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="394.9" y1="80.1" x2="408.0" y2="55.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="408.0" y1="55.3" x2="401.7" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="401.7" y1="30.0" x2="362.8" y2="60.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="362.8" y1="60.8" x2="278.8" y2="155.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="278.8" y1="155.8" x2="144.4" y2="226.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="419.1" y1="57.1" x2="408.0" y2="55.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="278.8" y1="155.8" x2="364.2" y2="303.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="362.8" y1="60.8" x2="385.7" y2="195.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="385.7" y1="195.6" x2="444.5" y2="191.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="444.5" y1="191.9" x2="468.5" y2="164.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="468.5" y1="164.4" x2="469.9" y2="219.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="469.9" y1="219.0" x2="475.6" y2="411.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="444.5" y1="191.9" x2="440.5" y2="299.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="440.5" y1="299.0" x2="447.2" y2="338.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="447.2" y1="338.1" x2="469.9" y2="219.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="469.9" y1="219.0" x2="463.9" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="144.4" cy="226.3" r="7.2" fill="#222"/>
-<circle cx="278.8" cy="155.8" r="6.6" fill="#222"/>
-<circle cx="362.8" cy="60.8" r="6.7" fill="#222"/>
-<circle cx="364.2" cy="303.9" r="7.6" fill="#222"/>
-<circle cx="385.7" cy="195.6" r="7.7" fill="#222"/>
-<circle cx="394.9" cy="80.1" r="7.3" fill="#222"/>
-<circle cx="401.7" cy="30.0" r="8.0" fill="#222"/>
-<circle cx="408.0" cy="55.3" r="7.2" fill="#222"/>
-<circle cx="419.1" cy="57.1" r="7.4" fill="#222"/>
-<circle cx="440.5" cy="299.0" r="7.5" fill="#222"/>
-<circle cx="444.5" cy="191.9" r="7.2" fill="#222"/>
-<circle cx="447.2" cy="338.1" r="6.8" fill="#222"/>
-<circle cx="463.9" cy="430.0" r="7.3" fill="#222"/>
-<circle cx="468.5" cy="164.4" r="7.7" fill="#222"/>
-<circle cx="469.9" cy="219.0" r="7.7" fill="#222"/>
-<circle cx="475.6" cy="411.8" r="7.5" fill="#222"/>
-<line x1="362.8" y1="60.8" x2="343.3" y2="41.3" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="343.3" y="45.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Sadalmelik</text>
-<text x="409.9" y="84.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Sadachbia</text>
-<text x="416.7" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">π</text>
-<line x1="408.0" y1="55.3" x2="462.0" y2="55.3" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="462.0" y="59.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ζ¹</text>
-<text x="434.1" y="61.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">η</text>
-<line x1="444.5" y1="191.9" x2="425.0" y2="172.4" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="425.0" y="176.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">λ</text>
-<text x="483.5" y="168.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">φ</text>
-<text x="484.9" y="223.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ψ¹</text>
-<line x1="385.7" y1="195.6" x2="366.2" y2="176.1" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="366.2" y="180.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Ancha</text>
-<line x1="440.5" y1="299.0" x2="421.0" y2="279.5" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="421.0" y="284.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">τ²</text>
-<line x1="447.2" y1="338.1" x2="427.7" y2="318.6" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="427.7" y="323.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Skat</text>
-<text x="478.9" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">88</text>
-<text x="490.6" y="416.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">98</text>
-<text x="159.4" y="230.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Albali</text>
-<text x="293.8" y="160.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Sadalsuud</text>
-<text x="380.7" y="291.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ι</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Verseau">
+<title>Verseau</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="392.618" y1="128.003" x2="321.597" y2="146.659" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="321.597" y1="146.659" x2="289.626" y2="122.185" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="289.626" y1="122.185" x2="305.537" y2="97.214" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="305.537" y1="97.214" x2="392.618" y2="128.003" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="392.618" y1="128.003" x2="544.339" y2="225.237" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="544.339" y1="225.237" x2="740.000" y2="307.133" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="260.486" y1="123.933" x2="289.626" y2="122.185" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="544.339" y1="225.237" x2="386.224" y2="369.735" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="392.618" y1="128.003" x2="342.316" y2="260.667" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="342.316" y1="260.667" x2="184.675" y2="257.399" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="184.675" y1="257.399" x2="87.917" y2="231.833" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="87.917" y1="231.833" x2="82.411" y2="286.507" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="82.411" y1="286.507" x2="60.000" y2="486.204" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="184.675" y1="257.399" x2="199.434" y2="364.323" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="199.434" y1="364.323" x2="178.320" y2="404.524" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="178.320" y1="404.524" x2="82.411" y2="286.507" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="82.411" y1="286.507" x2="118.314" y2="502.786" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="740.000" cy="307.133" r="2.58" fill="#222" data-star="simbad:2592902"/>
+<circle cx="544.339" cy="225.237" r="3.29" fill="#222" data-star="simbad:1340905"/>
+<circle cx="392.618" cy="128.003" r="3.25" fill="#222" data-star="simbad:1362859"/>
+<circle cx="386.224" cy="369.735" r="2.20" fill="#222" data-star="simbad:1301037"/>
+<circle cx="342.316" cy="260.667" r="2.27" fill="#222" data-star="simbad:1322341"/>
+<circle cx="321.597" cy="146.659" r="2.53" fill="#222" data-star="simbad:1363564"/>
+<circle cx="305.537" cy="97.214" r="2.20" fill="#222" data-star="simbad:1382994"/>
+<circle cx="289.626" cy="122.185" r="2.20" fill="#222" data-star="simbad:1363538"/>
+<circle cx="260.486" cy="123.933" r="2.38" fill="#222" data-star="simbad:7112772"/>
+<circle cx="199.434" cy="364.323" r="2.42" fill="#222" data-star="simbad:1302317"/>
+<circle cx="184.675" cy="257.399" r="2.57" fill="#222" data-star="simbad:1342990"/>
+<circle cx="178.320" cy="404.524" r="2.98" fill="#222" data-star="simbad:1302503"/>
+<circle cx="118.314" cy="502.786" r="2.69" fill="#222" data-star="simbad:1285053"/>
+<circle cx="87.917" cy="231.833" r="2.22" fill="#222" data-star="simbad:1343310"/>
+<circle cx="82.411" cy="286.507" r="2.20" fill="#222" data-star="simbad:1325078"/>
+<circle cx="60.000" cy="486.204" r="2.42" fill="#222" data-star="simbad:1285450"/>
+<text x="405.62" y="115.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sadalmelik</text>
+<text x="557.34" y="212.24" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sadalsuud</text>
+<text x="334.60" y="159.66" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Sadachbia</text>
+<text x="683.20" y="294.13" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Albali</text>
+<text x="232.83" y="109.19" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ζ¹ Aqr</text>
+<text x="131.31" y="489.79" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">c² Aqr</text>
+<text x="95.41" y="273.51" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ψ¹ Aqr</text>
+<text x="73.00" y="473.20" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">b¹ Aqr</text>
+<text x="399.22" y="356.73" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ι Aqr</text>
+<text x="355.32" y="247.67" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Ancha</text>
+<text x="318.54" y="84.21" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">π Aqr</text>
+<text x="273.49" y="136.93" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Aqr</text>
+<text x="212.43" y="351.32" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">τ Aqr</text>
+<text x="197.67" y="244.40" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">λ Aqr</text>
+<text x="100.92" y="218.83" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">φ Aqr</text>
+<text x="191.32" y="391.52" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Skat</text>
 </svg>

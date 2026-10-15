@@ -15,218 +15,776 @@
   },
   "saison": "été",
   "voie_lactee": true,
-  "repere_principal": "Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)",
+  "repere_principal": "Repérer Antarès et sa teinte rouge-orangée, puis suivre le corps vers Shaula et Lesath au dard.",
   "constellations_voisines": [
-    "Balance",
-    "Ophiuchus",
-    "Couronne Australe",
     "Autel",
+    "Couronne australe",
+    "Balance",
     "Loup",
     "Règle",
-    "Indien"
+    "Ophiuchus",
+    "Sagittaire"
   ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Iklil",
-      "bayer": "rho",
+      "bayer": "ρ Sco",
       "ra_deg": 239.22119,
       "dec_deg": -29.21401,
-      "mag": 3.8095,
-      "role": "Le corps — sous-géante bleue",
+      "mag": 3.86,
+      "role": "Au milieu du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * rho Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Iklil",
+      "bayer_catalogue": "rho Sco",
+      "type_spectral": "B2IV-V",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* rho Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* rho Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Iklil",
+      "identifiant": "simbad:2377579",
+      "simbad_id": "* rho Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* rho Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20rho%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Fang",
-      "bayer": "pi.",
+      "bayer": "π Sco",
       "ra_deg": 239.713,
       "dec_deg": -26.11404,
-      "mag": 2.8274,
-      "role": "La pince — naine bleue",
+      "mag": 2.91,
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (B1V+B2:V:)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * pi. Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Fang",
+      "bayer_catalogue": "pi. Sco",
+      "type_spectral": "B1V+B2:V:",
+      "nature_stellaire": "Spectre complexe ou composé (B1V+B2:V:)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* pi. Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* pi. Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Fang",
+      "identifiant": "simbad:2400278",
+      "simbad_id": "* pi. Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* pi. Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20pi.%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "Dschubba",
-      "bayer": "del",
+      "bayer": "δ Sco",
       "ra_deg": 240.08338,
       "dec_deg": -22.62162,
-      "mag": 2.2617,
-      "role": "La pince — sous-géante bleue",
+      "mag": 2.32,
+      "role": "En haut du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * del Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Dschubba",
+      "bayer_catalogue": "del Sco",
+      "type_spectral": "B0.3IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Dschubba",
+      "identifiant": "simbad:2482381",
+      "simbad_id": "* del Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Acrab",
-      "bayer": "bet01",
+      "bayer": "β¹ Sco",
       "ra_deg": 241.35931,
       "dec_deg": -19.80539,
-      "mag": 2.594,
-      "role": "La pince nord — naine bleue",
+      "mag": 2.62,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * bet01 Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Acrab",
+      "bayer_catalogue": "bet01 Sco",
+      "type_spectral": "B1V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet01 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet01 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Acrab",
+      "identifiant": "simbad:2529161",
+      "simbad_id": "* bet01 Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet01 Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet01%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "Jabbah",
-      "bayer": "nu.",
+      "bayer": "ν Sco",
       "ra_deg": 242.99892,
       "dec_deg": -19.46065,
-      "mag": 4.0076,
-      "role": "La tête — naine bleue",
+      "mag": 4,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * nu. Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Jabbah",
+      "bayer_catalogue": "nu. Sco",
+      "type_spectral": "B2V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Jabbah",
+      "identifiant": "simbad:2529348",
+      "simbad_id": "* nu. Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
       "nom": "Alniyat",
-      "bayer": "sig",
+      "bayer": "σ Sco",
       "ra_deg": 245.29718,
       "dec_deg": -25.59275,
-      "mag": 2.9227,
-      "role": "Le torse — géante bleue",
+      "mag": 2.89,
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (B1III+B1:V)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * sig Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alniyat",
+      "bayer_catalogue": "sig Sco",
+      "type_spectral": "B1III+B1:V",
+      "nature_stellaire": "Spectre complexe ou composé (B1III+B1:V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* sig Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* sig Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alniyat",
+      "identifiant": "simbad:2482758",
+      "simbad_id": "* sig Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* sig Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20sig%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "Antares",
-      "bayer": "alf",
+      "nom": "Antarès",
+      "bayer": "α Sco",
       "ra_deg": 247.35195,
       "dec_deg": -26.43195,
-      "mag": 0.9757,
-      "role": "La plus brillante de la figure — supergéante rouge",
+      "mag": 0.91,
+      "role": "En haut du dessin, côté droite — spectre complexe ou composé (M1.5Iab+B2Vn)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * alf Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Antares",
+      "bayer_catalogue": "alf Sco",
+      "type_spectral": "M1.5Iab+B2Vn",
+      "nature_stellaire": "Spectre complexe ou composé (M1.5Iab+B2Vn)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Antarès",
+      "identifiant": "simbad:2401703",
+      "simbad_id": "* alf Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Paikauhale",
-      "bayer": "tau",
+      "bayer": "τ Sco",
       "ra_deg": 248.97066,
       "dec_deg": -28.21596,
-      "mag": 2.7374,
-      "role": "Le corps — naine bleue",
+      "mag": 2.81,
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tau Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Paikauhale",
+      "bayer_catalogue": "tau Sco",
+      "type_spectral": "B0V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Paikauhale",
+      "identifiant": "simbad:2406927",
+      "simbad_id": "* tau Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "nom": "Larawag",
-      "bayer": "eps",
+      "bayer": "ε Sco",
       "ra_deg": 252.54269,
       "dec_deg": -34.29261,
-      "mag": 2.4532,
-      "role": "Le corps — géante orange",
+      "mag": 2.29,
+      "role": "Au milieu du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eps Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Larawag",
+      "bayer_catalogue": "eps Sco",
+      "type_spectral": "K1III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Larawag",
+      "identifiant": "simbad:2359912",
+      "simbad_id": "* eps Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
-      "nom": "μ1",
-      "bayer": "mu.01",
+      "nom": "Xamidimura",
+      "bayer": "μ¹ Sco",
       "ra_deg": 252.96766,
       "dec_deg": -38.04733,
-      "mag": 2.9245,
-      "role": "Le corps — naine bleue",
+      "mag": 2.98,
+      "role": "En bas du dessin, près de l’axe central — spectre complexe ou composé (B1V+B)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * mu.01 Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Xamidimura",
+      "bayer_catalogue": "mu.01 Sco",
+      "type_spectral": "B1V+B",
+      "nature_stellaire": "Spectre complexe ou composé (B1V+B)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* mu.01 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.01%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* mu.01 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.01%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Xamidimura",
+      "identifiant": "simbad:2343679",
+      "simbad_id": "* mu.01 Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* mu.01 Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20mu.01%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
-      "nom": "ζ2",
-      "bayer": "zet02",
+      "nom": "ζ² Sco",
+      "bayer": "ζ² Sco",
       "ra_deg": 253.64627,
       "dec_deg": -42.36076,
-      "mag": 3.7651,
-      "role": "Le corps — géante orange",
+      "mag": 3.62,
+      "role": "En bas du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * zet02 Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "zet02 Sco",
+      "type_spectral": "K3III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet02 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet02%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet02 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet02%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ζ² Sco",
+      "identifiant": "simbad:2315258",
+      "simbad_id": "* zet02 Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet02 Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet02%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
-      "nom": "η",
-      "bayer": "eta",
+      "nom": "η Sco",
+      "bayer": "η Sco",
       "ra_deg": 258.03823,
       "dec_deg": -43.23849,
-      "mag": 3.4149,
-      "role": "La queue — sous-géante jaune-blanc",
+      "mag": 3.33,
+      "role": "En bas du dessin, côté gauche — sous-géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eta Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Sco",
+      "type_spectral": "F5IV",
+      "nature_stellaire": "Sous-géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "η Sco",
+      "identifiant": "simbad:2317974",
+      "simbad_id": "* eta Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "nom": "Lesath",
-      "bayer": "ups",
+      "bayer": "υ Sco",
       "ra_deg": 262.69099,
       "dec_deg": -37.29574,
-      "mag": 2.6043,
-      "role": "Le dard — sous-géante bleue",
+      "mag": 2.65,
+      "role": "En bas du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * ups Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Lesath",
+      "bayer_catalogue": "ups Sco",
+      "type_spectral": "B2IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ups Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ups Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Lesath",
+      "identifiant": "simbad:2347116",
+      "simbad_id": "* ups Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ups Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ups%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 13,
       "nom": "Shaula",
-      "bayer": "lam",
+      "bayer": "λ Sco",
       "ra_deg": 263.40219,
       "dec_deg": -37.10375,
-      "mag": 1.5244,
-      "role": "Le dard — sous-géante bleue",
+      "mag": 1.63,
+      "role": "En bas du dessin, côté gauche — spectre complexe ou composé (B2IV+DA7.9)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * lam Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Shaula",
+      "bayer_catalogue": "lam Sco",
+      "type_spectral": "B2IV+DA7.9",
+      "nature_stellaire": "Spectre complexe ou composé (B2IV+DA7.9)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Shaula",
+      "identifiant": "simbad:2347504",
+      "simbad_id": "* lam Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 14,
       "nom": "Sargas",
-      "bayer": "the",
+      "bayer": "θ Sco",
       "ra_deg": 264.32969,
       "dec_deg": -42.99782,
-      "mag": 1.9269,
-      "role": "La queue — géante jaune-blanc",
+      "mag": 1.85,
+      "role": "En bas du dessin, côté gauche — géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tet Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Sargas",
+      "bayer_catalogue": "tet Sco",
+      "type_spectral": "F1III",
+      "nature_stellaire": "Géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Sargas",
+      "identifiant": "simbad:2319253",
+      "simbad_id": "* tet Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 15,
-      "nom": "κ",
-      "bayer": "kap",
+      "nom": "κ Sco",
+      "bayer": "κ Sco",
       "ra_deg": 265.622,
       "dec_deg": -39.02992,
-      "mag": 2.3164,
-      "role": "Le corps — géante bleue",
+      "mag": 2.386,
+      "role": "En bas du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * kap Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "kap Sco",
+      "type_spectral": "B1.5III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* kap Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* kap Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "κ Sco",
+      "identifiant": "simbad:2348159",
+      "simbad_id": "* kap Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* kap Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20kap%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 16,
-      "nom": "ι1",
-      "bayer": "iot01",
+      "nom": "ι¹ Sco",
+      "bayer": "ι¹ Sco",
       "ra_deg": 266.89617,
       "dec_deg": -40.12698,
-      "mag": 3.1092,
-      "role": "Le corps — supergéante jaune-blanc",
+      "mag": 2.992,
+      "role": "En bas du dessin, côté gauche — supergéante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * iot01 Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "iot01 Sco",
+      "type_spectral": "F2Ia",
+      "nature_stellaire": "Supergéante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* iot01 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot01%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* iot01 Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot01%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ι¹ Sco",
+      "identifiant": "simbad:2334783",
+      "simbad_id": "* iot01 Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* iot01 Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20iot01%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 17,
-      "nom": "G",
-      "bayer": "G",
+      "nom": "Fuyue",
+      "bayer": "G Sco",
       "ra_deg": 267.46438,
       "dec_deg": -37.04337,
-      "mag": 3.3521,
-      "role": "Le corps — géante orange",
+      "mag": 3.21,
+      "role": "En bas du dessin, côté gauche — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * G Sco ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Fuyue",
+      "bayer_catalogue": "G Sco",
+      "type_spectral": "K2III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* G Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20G%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* G Sco",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20G%20Sco",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Fuyue",
+      "identifiant": "simbad:2349028",
+      "simbad_id": "* G Sco",
+      "constellation_iau": "Sco",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* G Sco",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20G%20Sco",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         17,
@@ -252,169 +810,334 @@
         0
       ]
     ],
-    "commentaire": "Tracé IAU officiel (2 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-    "note_geometrie": "Figure construite sur 18 étoiles et 2 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Scorpion : 18 étoiles et 17 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 30,2°. Le segment le plus court relie Shaula à Lesath (0,6°). Le plus long relie Larawag à Paikauhale (6,8°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Iklil–Fang": 3.13,
-    "Iklil–Dschubba": 6.64,
-    "Iklil–Acrab": 9.61,
-    "Iklil–Jabbah": 10.34,
-    "Iklil–Alniyat": 6.5,
-    "Iklil–Antares": 7.71,
-    "Iklil–Paikauhale": 8.61,
-    "Iklil–Larawag": 12.4,
-    "Iklil–Lesath": 21.15,
-    "Iklil–Shaula": 21.65,
-    "Iklil–Sargas": 24.37,
-    "Fang–Dschubba": 3.51,
-    "Fang–Acrab": 6.49,
-    "Fang–Jabbah": 7.31,
-    "Fang–Alniyat": 5.05,
-    "Fang–Antares": 6.86,
-    "Fang–Paikauhale": 8.5,
-    "Fang–Larawag": 13.76,
-    "Fang–Lesath": 22.43,
-    "Fang–Shaula": 22.88,
-    "Fang–Sargas": 26.21,
-    "Dschubba–Acrab": 3.06,
-    "Dschubba–Jabbah": 4.17,
-    "Dschubba–Alniyat": 5.61,
-    "Dschubba–Antares": 7.63,
-    "Dschubba–Paikauhale": 9.78,
-    "Dschubba–Larawag": 15.98,
-    "Dschubba–Lesath": 24.36,
-    "Dschubba–Shaula": 24.76,
-    "Dschubba–Sargas": 28.61,
-    "Acrab–Jabbah": 1.58,
-    "Acrab–Alniyat": 6.83,
-    "Acrab–Antares": 8.62,
-    "Acrab–Paikauhale": 10.91,
-    "Acrab–Larawag": 17.55,
-    "Acrab–Lesath": 25.51,
-    "Acrab–Shaula": 25.85,
-    "Acrab–Sargas": 30.16,
-    "Jabbah–Alniyat": 6.49,
-    "Jabbah–Antares": 8.04,
-    "Jabbah–Paikauhale": 10.31,
-    "Jabbah–Larawag": 17.08,
-    "Jabbah–Lesath": 24.76,
-    "Jabbah–Shaula": 25.07,
-    "Jabbah–Sargas": 29.59,
-    "Alniyat–Antares": 2.03,
-    "Alniyat–Paikauhale": 4.2,
-    "Alniyat–Larawag": 10.72,
-    "Alniyat–Lesath": 18.84,
-    "Alniyat–Shaula": 19.22,
-    "Alniyat–Sargas": 23.34,
-    "Antares–Paikauhale": 2.29,
-    "Antares–Larawag": 9.04,
-    "Antares–Lesath": 16.92,
-    "Antares–Shaula": 17.28,
-    "Antares–Sargas": 21.57,
-    "Paikauhale–Larawag": 6.8,
-    "Paikauhale–Lesath": 14.65,
-    "Paikauhale–Shaula": 15.02,
-    "Paikauhale–Sargas": 19.29,
-    "Larawag–Lesath": 8.76,
-    "Larawag–Shaula": 9.25,
-    "Larawag–Sargas": 12.65,
-    "Lesath–Shaula": 0.6,
-    "Lesath–Sargas": 5.84,
-    "Shaula–Sargas": 5.94
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 17,
+      "b": 13,
+      "deg": 3.2414
+    },
+    {
+      "a": 13,
+      "b": 12,
+      "deg": 0.5981
+    },
+    {
+      "a": 12,
+      "b": 15,
+      "deg": 2.8839
+    },
+    {
+      "a": 15,
+      "b": 16,
+      "deg": 1.4724
+    },
+    {
+      "a": 16,
+      "b": 14,
+      "deg": 3.4535
+    },
+    {
+      "a": 14,
+      "b": 11,
+      "deg": 4.5976
+    },
+    {
+      "a": 11,
+      "b": 10,
+      "deg": 3.3395
+    },
+    {
+      "a": 10,
+      "b": 9,
+      "deg": 4.3444
+    },
+    {
+      "a": 9,
+      "b": 8,
+      "deg": 3.7703
+    },
+    {
+      "a": 8,
+      "b": 7,
+      "deg": 6.7993
+    },
+    {
+      "a": 7,
+      "b": 6,
+      "deg": 2.2914
+    },
+    {
+      "a": 6,
+      "b": 5,
+      "deg": 2.0283
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "deg": 5.6094
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 3.0571
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 1.5823
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "deg": 3.5087
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 3.1304
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 4",
       "nature": "amas globulaire",
-      "mag": 5.9,
-      "distance_al": null,
-      "note": "Amas globulaire de magnitude 6,3, facile à repérer aux jumelles à l'ouest d'Antarès.",
+      "mag": 5.65,
+      "distance_al": 6034,
+      "note": "Amas globulaire. Distance au Soleil : environ 6000 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6121, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6121",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6121",
+        "alias_interroge": "NGC6121",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6121 M 4",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6121 M 4",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 1.85,
+        "incertitude_kpc": 0.02,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.04,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 6",
       "nature": "amas ouvert",
       "mag": 4.2,
       "distance_al": null,
-      "note": "Amas du Papillon (NGC 6405), amas ouvert de magnitude globale 4,20.",
-      "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "note": "Amas du Papillon (NGC 6405), amas ouvert de magnitude globale 4,20. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC6405, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6405",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6405",
+        "alias_interroge": "NGC6405",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6405",
+        "alias_interroge": "NGC6405",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité.",
+      "alias": [
+        "NGC 6405"
+      ]
     },
     {
       "id": "M 7",
       "nature": "amas ouvert",
       "mag": 3.3,
       "distance_al": null,
-      "note": "Amas relativement peu peuplé, qui se détache sur une région beaucoup plus riche de la Voie lactée.",
-      "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "note": "Amas relativement peu peuplé, qui se détache sur une région beaucoup plus riche de la Voie lactée. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC6475, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6475",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6475",
+        "alias_interroge": "NGC6475",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6475",
+        "alias_interroge": "NGC6475",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 80",
       "nature": "amas globulaire",
-      "mag": 7.2,
-      "distance_al": null,
-      "note": "Amas globulaire très ramassé (NGC 6093), éloigné de 60 000 années-lumière.",
+      "mag": 7.43,
+      "distance_al": 33725,
+      "note": "Amas globulaire. Distance au Soleil : environ 33700 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
-    },
-    {
-      "id": "NGC 6093",
-      "nature": "amas globulaire",
-      "mag": 7.2,
-      "distance_al": null,
-      "note": "Doublon catalogue de M 80 (NGC 6093) : amas globulaire très ramassé, éloigné de 60 000 années-lumière.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6093, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6093",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6093",
+        "alias_interroge": "NGC6093",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6093 M 80",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6093 M 80",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 10.34,
+        "incertitude_kpc": 0.12,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.03,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité.",
+      "alias": [
+        "NGC 6093"
+      ]
     },
     {
       "id": "NGC 6231",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert",
       "mag": 2.6,
       "distance_al": null,
-      "note": "Modeste amas ouvert, situé à 6500 années-lumière, qui se signale surtout par la singulière relation qu'on lui suppose avec l'amas globulaire NGC 6397 (Autel).",
-      "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "note": "Modeste amas ouvert, situé à 6500 années-lumière, qui se signale surtout par la singulière relation qu'on lui suppose avec l'amas globulaire NGC 6397 (Autel). Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC6231, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6231",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6231",
+        "alias_interroge": "NGC6231",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6231",
+        "alias_interroge": "NGC6231",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6357",
-      "nature": "nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": null,
       "distance_al": null,
-      "note": "Nébuleuse renfermant en son centre l'amas ouvert Pismis 24.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "note": "Nébuleuse renfermant en son centre l'amas ouvert Pismis 24. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6357, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6357",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6357",
+        "alias_interroge": "NGC6357",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6383",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert",
       "mag": 5.5,
       "distance_al": null,
-      "note": "Amas ouvert plongé dans une région nébulaire.",
-      "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
-    },
-    {
-      "id": "NGC 6405",
-      "nature": "amas ouvert",
-      "mag": 4.2,
-      "distance_al": null,
-      "note": "Cl, L, iR, lC, st 7, 10...; = M6",
-      "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 100-102",
-      "code": "N2"
+      "note": "Amas ouvert plongé dans une région nébulaire. Distance non renseignée dans les sources retenues.",
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC6374, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6374",
+      "constellation_catalogue": "Sco",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6374",
+        "alias_interroge": "NGC6383",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6374",
+        "alias_interroge": "NGC6383",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -441,63 +1164,92 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Antares, magnitude 0.9757."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Antarès, avec 0,91 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment repérer Iklil et Fang dans le ciel ?",
-      "r": "Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Shaula – Lesath : environ 0,6°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-      "r": "NGC 6231 (objet, magnitude 2.6). Voir la fiche pour la description."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Scorpion désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Que raconte-t-on au public en pointant Iklil ?",
-      "r": "Située en saison été. Repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
+      "q": "Pourquoi peut-on voir Antarès sans voir tout le dard du Scorpion ?",
+      "r": "Les étoiles n’ont pas toutes la même déclinaison. Certaines parties de la constellation restent beaucoup plus basses, voire sous l’horizon du lieu, alors qu’Antarès peut déjà être observable."
     },
     {
-      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-      "r": "M 4 (objet) : Cl, 8 or 10 B st line, with 5 st, rrr; = M4"
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Scorpion. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Comment orienter le visiteur sur la carte ?",
-      "r": "Faire partir du repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 4 : amas globulaire. Amas globulaire. Distance au Soleil : environ 6000 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Scorpion : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath). Constellation de été (18 étoiles figurées, 9 objets du ciel profond).",
+  "message_animation": "Repérer Antarès et sa teinte rouge-orangée, puis suivre le corps vers Shaula et Lesath au dard. Depuis la Belgique, la partie australe du dessin est basse ou inaccessible. Ne pas confondre une carte complète de la constellation et ce que le lieu permet réellement de voir.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 100–102 (fiche Atlas « Scorpion »)",
     "archive_texte": "atlas-observation-source/100-*.txt",
     "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-    "lacunes": [
-      "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "NGC 6357 : magnitude non disponible au catalogue NGC 2000.0.",
-      "IC 4499 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-      "IC 4666 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-      "M 1 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-      "NGC 6397 : cité dans la fiche Atlas mais écarté — mention de comparaison ou d'illustration, et le catalogue NGC le situe ailleurs (contrôle colonne Const).",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 6093",
+          "motif": "alias de M 80"
+        },
+        {
+          "id": "NGC 6405",
+          "motif": "alias de M 6"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-    "refs": [],
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "N2",
-        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
-        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
+      },
+      {
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
+      },
+      {
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
-    ]
-  }
+    ],
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

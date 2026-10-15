@@ -14,164 +14,567 @@
     ]
   },
   "saison": "hiver",
-  "voie_lactee": false,
-  "repere_principal": "Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan",
+  "voie_lactee": true,
+  "repere_principal": "Chercher le V des Hyades autour d’Aldébaran, puis les cornes vers Elnath et Tianguan.",
   "constellations_voisines": [
-    "Cocher",
-    "Persée",
     "Bélier",
+    "Cocher",
     "Baleine",
     "Éridan",
+    "Gémeaux",
     "Orion",
-    "Gémeaux"
+    "Persée"
   ],
   "etoiles": [
     {
       "i": 0,
-      "nom": "ο",
-      "bayer": "omi",
+      "nom": "ο Tau",
+      "bayer": "ο Tau",
       "ra_deg": 51.20349,
       "dec_deg": 9.02906,
-      "mag": 3.77,
-      "role": "La tête des Hyades — géante jaune",
+      "mag": 3.6,
+      "role": "En bas du dessin, côté droite — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * omi Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "omi Tau",
+      "type_spectral": "G6III",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* omi Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* omi Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ο Tau",
+      "identifiant": "simbad:641294",
+      "simbad_id": "* omi Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* omi Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20omi%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
-      "nom": "ξ",
-      "bayer": "ksi",
+      "nom": "ξ Tau",
+      "bayer": "ξ Tau",
       "ra_deg": 51.79217,
       "dec_deg": 9.73277,
-      "mag": 3.7082,
-      "role": "La tête des Hyades — naine bleue",
+      "mag": 3.75,
+      "role": "En bas du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * ksi Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "ksi Tau",
+      "type_spectral": "B9Vn",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* ksi Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* ksi Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ξ Tau",
+      "identifiant": "simbad:641314",
+      "simbad_id": "* ksi Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* ksi Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20ksi%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "10 Tau",
-      "bayer": "",
+      "bayer": "10 Tau",
       "ra_deg": 54.21883,
       "dec_deg": 0.40283,
-      "mag": 4.4104,
-      "role": "La tête des Hyades — sous-géante jaune-blanc",
+      "mag": 4.3,
+      "role": "En bas du dessin, côté droite — sous-géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : *  10 Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": " 10 Tau",
+      "type_spectral": "F9IV-V",
+      "nature_stellaire": "Sous-géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "*  10 Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2010%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "*  10 Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2010%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "10 Tau",
+      "identifiant": "simbad:663925",
+      "simbad_id": "*  10 Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "*  10 Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20%2010%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "λ",
-      "bayer": "lam",
+      "nom": "λ Tau",
+      "bayer": "λ Tau",
       "ra_deg": 60.17009,
       "dec_deg": 12.49038,
-      "mag": 3.3774,
-      "role": "La tête des Hyades — sous-géante bleue",
+      "mag": 3.41,
+      "role": "Au milieu du dessin, côté droite — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * lam Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "lam Tau",
+      "type_spectral": "B4IV",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* lam Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* lam Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "λ Tau",
+      "identifiant": "simbad:691373",
+      "simbad_id": "* lam Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* lam Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20lam%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "ν",
-      "bayer": "nu.",
+      "nom": "ν Tau",
+      "bayer": "ν Tau",
       "ra_deg": 60.78907,
       "dec_deg": 5.98931,
-      "mag": 3.9203,
-      "role": "La tête des Hyades — naine blanche",
+      "mag": 3.883,
+      "role": "En bas du dessin, côté droite — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * nu. Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "nu. Tau",
+      "type_spectral": "A0.5Va",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* nu. Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* nu. Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "ν Tau",
+      "identifiant": "simbad:691822",
+      "simbad_id": "* nu. Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* nu. Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20nu.%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 5,
-      "nom": "Prima Hyadum",
-      "bayer": "gam",
+      "nom": "Prima",
+      "bayer": "γ Tau",
       "ra_deg": 64.94806,
       "dec_deg": 15.6277,
-      "mag": 3.8123,
-      "role": "La tête des Hyades — géante jaune",
+      "mag": 3.65,
+      "role": "Au milieu du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * gam Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Prima",
+      "bayer_catalogue": "gam Tau",
+      "type_spectral": "G9.5IIIabCN0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Prima",
+      "identifiant": "simbad:708551",
+      "simbad_id": "* gam Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 6,
-      "nom": "δ",
-      "bayer": "del",
+      "nom": "Secunda",
+      "bayer": "δ Tau",
       "ra_deg": 65.73345,
       "dec_deg": 17.54258,
-      "mag": 3.9308,
-      "role": "Le corps — géante jaune",
+      "mag": 3.76,
+      "role": "Au milieu du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * del Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Secunda",
+      "bayer_catalogue": "del Tau",
+      "type_spectral": "G9.5IIICN0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Secunda",
+      "identifiant": "simbad:708562",
+      "simbad_id": "* del Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 7,
       "nom": "Ain",
-      "bayer": "eps",
+      "bayer": "ε Tau",
       "ra_deg": 67.15389,
       "dec_deg": 19.18052,
-      "mag": 3.6992,
-      "role": "La corne ouest — géante jaune",
+      "mag": 3.53,
+      "role": "En haut du dessin, près de l’axe central — géante jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * eps Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Ain",
+      "bayer_catalogue": "eps Tau",
+      "type_spectral": "G9.5IIICN0.5",
+      "nature_stellaire": "Géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Ain",
+      "identifiant": "simbad:708367",
+      "simbad_id": "* eps Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 8,
       "nom": "Chamukuy",
-      "bayer": "the02",
+      "bayer": "θ² Tau",
       "ra_deg": 67.16531,
       "dec_deg": 15.87095,
-      "mag": 3.4597,
-      "role": "La corne — géante blanche",
+      "mag": 3.41,
+      "role": "Au milieu du dessin, près de l’axe central — géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tet02 Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Chamukuy",
+      "bayer_catalogue": "tet02 Tau",
+      "type_spectral": "A7III",
+      "nature_stellaire": "Géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet02 Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet02%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet02 Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet02%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Chamukuy",
+      "identifiant": "simbad:708990",
+      "simbad_id": "* tet02 Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet02 Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet02%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 9,
-      "nom": "Aldebaran",
-      "bayer": "alf",
+      "nom": "Aldébaran",
+      "bayer": "α Tau",
       "ra_deg": 68.98,
       "dec_deg": 16.50976,
-      "mag": 1.0024,
-      "role": "La plus brillante de la figure — géante orange",
+      "mag": 0.86,
+      "role": "Au milieu du dessin, près de l’axe central — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * alf Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Aldebaran",
+      "bayer_catalogue": "alf Tau",
+      "type_spectral": "K5+III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Aldébaran",
+      "identifiant": "simbad:719377",
+      "simbad_id": "* alf Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 10,
-      "nom": "τ",
-      "bayer": "tau",
+      "nom": "τ Tau",
+      "bayer": "τ Tau",
       "ra_deg": 70.56126,
       "dec_deg": 22.95698,
-      "mag": 4.2366,
-      "role": "La tête des Hyades — naine bleue",
+      "mag": 4.258,
+      "role": "En haut du dessin, près de l’axe central — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * tau Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tau Tau",
+      "type_spectral": "B3V",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tau Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tau Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "τ Tau",
+      "identifiant": "simbad:732646",
+      "simbad_id": "* tau Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tau Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tau%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 11,
       "nom": "Elnath",
-      "bayer": "bet",
+      "bayer": "β Tau",
       "ra_deg": 81.57291,
       "dec_deg": 28.60787,
-      "mag": 1.6151,
-      "role": "La corne est — géante bleue",
+      "mag": 1.65,
+      "role": "En haut du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * bet Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Elnath",
+      "bayer_catalogue": "bet Tau",
+      "type_spectral": "B7III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Elnath",
+      "identifiant": "simbad:794302",
+      "simbad_id": "* bet Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 12,
       "nom": "Tianguan",
-      "bayer": "zet",
+      "bayer": "ζ Tau",
       "ra_deg": 84.41119,
       "dec_deg": 21.14259,
-      "mag": 2.9184,
-      "role": "La corne — sous-géante bleue",
+      "mag": 3.03,
+      "role": "En haut du dessin, côté gauche — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
+      "src": "SIMBAD : * zet Tau ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Tianguan",
+      "bayer_catalogue": "zet Tau",
+      "type_spectral": "B1IVe_shell",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* zet Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* zet Tau",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Tau",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Tianguan",
+      "identifiant": "simbad:823349",
+      "simbad_id": "* zet Tau",
+      "constellation_iau": "Tau",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* zet Tau",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20zet%20Tau",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         4,
@@ -194,38 +597,98 @@
         2
       ]
     ],
-    "commentaire": "Tracé IAU officiel (3 chaîne(s)), repris de constellation_lines_iau.dat (In-The-Sky.org).",
-    "note_geometrie": "Figure construite sur 13 étoiles et 3 chaîne(s). Étiquettes placées sans chevauchement, vérifié sur le fichier produit.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Taureau : 13 étoiles et 11 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 38,5°. Le segment le plus court relie Chamukuy à Aldébaran (1,86°). Le plus long relie Aldébaran à Tianguan (15,31°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Prima Hyadum–Ain": 4.13,
-    "Prima Hyadum–Chamukuy": 2.15,
-    "Prima Hyadum–Aldebaran": 3.97,
-    "Prima Hyadum–Elnath": 20.1,
-    "Prima Hyadum–Tianguan": 19.26,
-    "Ain–Chamukuy": 3.31,
-    "Ain–Aldebaran": 3.19,
-    "Ain–Elnath": 16.18,
-    "Ain–Tianguan": 16.31,
-    "Chamukuy–Aldebaran": 1.86,
-    "Chamukuy–Elnath": 18.41,
-    "Chamukuy–Tianguan": 17.17,
-    "Aldebaran–Elnath": 16.76,
-    "Aldebaran–Tianguan": 15.31,
-    "Elnath–Tianguan": 7.9
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 4,
+      "b": 1,
+      "deg": 9.6649
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "deg": 8.6699
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "deg": 5.5962
+    },
+    {
+      "a": 5,
+      "b": 8,
+      "deg": 2.1478
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "deg": 1.8561
+    },
+    {
+      "a": 9,
+      "b": 12,
+      "deg": 15.3133
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "deg": 2.0575
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "deg": 2.1213
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "deg": 4.9362
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "deg": 11.4042
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "deg": 9.1337
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 1",
-      "nature": "nébuleuse",
+      "nature": "rémanent de supernova",
       "mag": 8.4,
       "distance_al": null,
-      "note": "Nébuleuse du Crabe, distante de 4000 années-lumière : matière dispersée à la vitesse de 1400 km/s par la supernova de type II observée en Chine en 1054.",
-      "instrument": "jumelles",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
-      "code": "N2"
+      "note": "Nébuleuse du Crabe, distante de 4000 années-lumière : matière dispersée à la vitesse de 1400 km/s par la supernova de type II observée en Chine en 1054. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC1952, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1952",
+      "constellation_catalogue": "Tau",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1952",
+        "alias_interroge": "NGC1952",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1952",
+        "alias_interroge": "NGC1952",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 45",
@@ -234,38 +697,107 @@
       "distance_al": 444,
       "note": "Les Pléiades, aussi appelées Atlantides par les auteurs de l'Antiquité.",
       "instrument": "œil nu",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
-      "code": "N2"
+      "src": "Source antérieure conservée ; distance indicative, provenance détaillée dans les données",
+      "code": "AT",
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1514",
       "nature": "nébuleuse planétaire",
-      "mag": 10,
+      "mag": 10.19,
       "distance_al": null,
-      "note": "Nébuleuse planétaire de magnitude 10.",
+      "note": "Nébuleuse planétaire de magnitude 10. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
-      "code": "N2"
+      "src": "OpenNGC, NGC1514, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1514",
+      "constellation_catalogue": "Tau",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1514",
+        "alias_interroge": "NGC1514",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1514",
+        "alias_interroge": "NGC1514",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1587",
       "nature": "galaxie",
-      "mag": 13,
+      "mag": 11.7,
       "distance_al": null,
-      "note": "Objet du catalogue NGC (NGC 1587). Description non détaillée dans la fiche Atlas.",
+      "note": "Objet du catalogue NGC (NGC 1587). Description non détaillée dans la fiche Atlas. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
-      "code": "N2"
+      "src": "OpenNGC, NGC1587, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1587",
+      "constellation_catalogue": "Tau",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1587",
+        "alias_interroge": "NGC1587",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1587",
+        "alias_interroge": "NGC1587",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 1589",
       "nature": "galaxie",
-      "mag": 14,
+      "mag": 11.81,
       "distance_al": null,
-      "note": "Galaxie (en haut sur la photographie, avec NGC 1587).",
+      "note": "Galaxie (en haut sur la photographie, avec NGC 1587). Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "NGC 2000.0 (catalogue VII/118) ; fiche Atlas p. 109-111",
-      "code": "N2"
+      "src": "OpenNGC, NGC1589, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC1589",
+      "constellation_catalogue": "Tau",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1589",
+        "alias_interroge": "NGC1589",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC1589",
+        "alias_interroge": "NGC1589",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -292,58 +824,83 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Aldebaran, magnitude 1.0024."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Aldébaran, avec 0,86 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Comment repérer ο et ξ dans le ciel ?",
-      "r": "Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Chamukuy – Aldébaran : environ 1,86°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quel objet du ciel profond est le plus accessible ici, et à quoi le reconnaît-on ?",
-      "r": "M 45 (amas ouvert, magnitude 1.6). Voir la fiche pour la description."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Taureau désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Que raconte-t-on au public en pointant ο ?",
-      "r": "Située en saison hiver. Repère : Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan."
+      "q": "Aldébaran fait-elle partie de l’amas des Hyades ?",
+      "r": "Non. Elle se projette devant les Hyades et sert de repère du V, mais elle est à une distance différente. Un dessin de constellation peut réunir une étoile d’avant-plan et les membres d’un amas situé derrière elle."
     },
     {
-      "q": "Quel objet montrer en priorité dans l'instrument, et pourquoi ?",
-      "r": "M 1 (objet) : vB, vL, E 135deg +/- , vglbM, r; = M1"
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Taureau. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Comment orienter le visiteur sur la carte ?",
-      "r": "Faire partir du repère : Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 1 : rémanent de supernova. Nébuleuse du Crabe, distante de 4000 années-lumière : matière dispersée à la vitesse de 1400 km/s par la supernova de type II observée en Chine en 1054. Distance non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Taureau : Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan. Constellation de hiver (13 étoiles figurées, 5 objets du ciel profond).",
+  "message_animation": "Chercher le V des Hyades autour d’Aldébaran, puis les cornes vers Elnath et Tianguan. Aldébaran se trouve dans la même direction que les Hyades mais n’appartient pas à l’amas. Les Pléiades constituent un autre groupe, plus compact sur le ciel.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 109–111 (fiche Atlas « Taureau »)",
     "archive_texte": "atlas-observation-source/109-*.txt",
     "coordonnees": "Hipparcos (VizieR I/311) pour les étoiles ; NGC 2000.0 (VII/118) pour les objets",
-    "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
-    "lacunes": [
-      "Figure : tracé IAU officiel suivi (3 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Étoiles : Hipparcos (positions) et IV/27A (désignations). Objets : catalogue NGC 2000.0. Tracés : constellation_lines_iau.dat (In-The-Sky.org).",
-    "refs": [],
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "N2",
-        "texte": "NGC 2000.0 (catalogue VII/118) — nature de l'objet",
-        "detail": "Le catalogue NGC 2000.0 (Sky Publishing, VizieR VII/118) donne le type de chaque objet (galaxie, amas ouvert, amas globulaire, nébuleuse…). Il fournit ici la nature ; l'instrument n'est précisé que lorsque l'Atlas le dit."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
+      },
+      {
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
+      },
+      {
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
-    ]
-  }
+    ],
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

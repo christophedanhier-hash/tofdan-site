@@ -8,12 +8,12 @@
   "source_atlas": "Atlas observation.pdf, pages 86 (fiche Atlas « Petit Chien »)",
   "saison": "hiver",
   "voie_lactee": false,
-  "repere_principal": "Procyon, le précurseur du Grand Chien",
+  "repere_principal": "Procyon et Gomeisa forment le dessin simplifié du Petit Chien.",
   "constellations_voisines": [
-    "Licorne",
-    "Gémeaux",
     "Cancer",
-    "Hydre"
+    "Gémeaux",
+    "Hydre",
+    "Licorne"
   ],
   "etoiles": [
     {
@@ -21,64 +21,136 @@
       "hip": 36188,
       "nom": "Gomeisa",
       "etiq": "Gomeisa",
-      "bayer": "bet CMi",
+      "bayer": "β CMi",
       "ra_deg": 111.788,
       "dec_deg": 8.289,
       "mag": 2.89,
-      "role": "Le corps — naine bleue",
+      "role": "En haut du dessin, côté droite — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 36188)/ IAU"
+      "src": "SIMBAD : * bet CMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Gomeisa",
+      "bayer_catalogue": "bet CMi",
+      "type_spectral": "B8Ve",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet CMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet CMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:971213",
+      "simbad_id": "* bet CMi",
+      "constellation_iau": "CMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet CMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20CMi",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "hip": 37279,
       "nom": "Procyon",
       "etiq": "Procyon",
-      "bayer": "alf CMi",
+      "bayer": "α CMi",
       "ra_deg": 114.827,
       "dec_deg": 5.228,
-      "mag": 0.4,
-      "role": "La plus brillante de la figure — sous-géante jaune-blanc",
+      "mag": 0.37,
+      "role": "En bas du dessin, côté gauche — spectre complexe ou composé (F5IV-V+DQZ)",
       "visibilite": "œil nu",
-      "src": "Hipparcos (HIP 37279)/ IAU"
+      "src": "SIMBAD : * alf CMi ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Procyon",
+      "bayer_catalogue": "alf CMi",
+      "type_spectral": "F5IV-V+DQZ",
+      "nature_stellaire": "Spectre complexe ou composé (F5IV-V+DQZ)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf CMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMi",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf CMi",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMi",
+        "consulte": "2026-10-15"
+      },
+      "identifiant": "simbad:988145",
+      "simbad_id": "* alf CMi",
+      "constellation_iau": "CMi",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf CMi",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20CMi",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         1,
         0
       ]
     ],
-    "commentaire": "Figure du Petit Chien : deux étoiles, Procyon et Gomeisa, reliées par un unique segment de 4,30°. Procyon, magnitude 0,40, en domine largement le tracé.",
-    "note_geometrie": "Figure construite sur 2 étoiles et 1 segment, d'après le tracé traditionnel IAU. Le segment relie Procyon à Gomeisa, sur 4,30°. L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Petit Chien : 2 étoiles et 1 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 4,3°. Son seul segment relie Procyon à Gomeisa (4,3°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Procyon–Gomeisa": 4.3
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 1,
+      "b": 0,
+      "deg": 4.2983
+    }
+  ],
   "objets_ciel_profond": [
     {
-      "id": "NGC 2506",
-      "nature": "amas ouvert",
-      "mag": 7.6,
-      "distance_al": 11000,
-      "note": "Bel amas ouvert riche et serré, découvert par William Herschel en 1791. Visible aux jumelles comme une tache grumeleuse, il se résout à partir d'une lunette.",
-      "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
-    },
-    {
       "id": "NGC 2402",
-      "nature": "galaxie",
-      "mag": 12.9,
+      "nature": "paire de galaxies",
+      "mag": null,
       "distance_al": 230000000,
-      "note": "Galaxie faible, sans structure visible aux instruments amateurs. Objet de défi.",
+      "note": "Galaxie faible, sans structure visible aux instruments amateurs. Objet de défi. Magnitude non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "OpenNGC",
-      "code": "O1"
+      "src": "OpenNGC, NGC2402, photométrie non renseignée ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC2402",
+      "constellation_catalogue": "CMi",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC2402",
+        "alias_interroge": "NGC2402",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -110,79 +182,89 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus brillante de la figure ?",
-      "r": "Procyon, magnitude 0.4, selon le catalogue Hipparcos (bande V)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Procyon, avec 0,37 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles de la figure demandent un instrument ?",
-      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Procyon – Gomeisa : environ 4,3°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Combien d'objets du ciel profond sont documentés dans Petit Chien ?",
-      "r": "0 objets, d'après la fiche Atlas correspondante."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Petit Chien désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Quand observer Petit Chien ?",
-      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Procyon, le précurseur du Grand Chien."
+      "q": "Quelles étoiles composent le Triangle d’hiver ?",
+      "r": "Procyon dans le Petit Chien, Sirius dans le Grand Chien et Bételgeuse dans Orion. Cet astérisme réunit trois constellations : c’est un outil de repérage, pas un amas stellaire."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Petit Chien. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 2402 : paire de galaxies. Galaxie faible, sans structure visible aux instruments amateurs. Objet de défi. Magnitude non renseignée dans les sources retenues. Conseil de repérage : télescope. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Le Petit Chien se repère immédiatement grâce à Procyon, la huitième étoile la plus brillante du ciel, dont l'éclat blanc tranche sur le fond. Le dessin ne comporte que deux étoiles, Procyon et Gomeisa, reliées par un segment de 4,30°. On en profite pour montrer que Procyon forme, avec Sirius et Bételgeuse, le Triangle d'hiver, et qu'elle est l'un des rares systèmes dont on a mesuré directement le diamètre.",
+  "message_animation": "Procyon et Gomeisa forment le dessin simplifié du Petit Chien. Procyon complète le Triangle d’hiver avec Sirius et Bételgeuse. Cette figure de repérage ne décrit pas des étoiles liées physiquement entre elles.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 86 (fiche Atlas « Petit Chien »)",
     "archive_texte": null,
     "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-    "statut": "étoiles, figure et contenu pédagogique complets",
-    "lacunes": []
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [
+        {
+          "id": "NGC 2506",
+          "motif": "attribution à une autre constellation",
+          "catalogue": "Mon"
+        }
+      ],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

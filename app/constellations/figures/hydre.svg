@@ -1,71 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Hydre">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="400.8" y1="30.0" x2="397.6" y2="36.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="397.6" y1="36.0" x2="407.8" y2="61.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="407.8" y1="61.4" x2="416.7" y2="62.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="416.7" y1="62.0" x2="418.9" y2="37.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="418.9" y1="37.4" x2="400.8" y2="30.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="400.8" y1="30.0" x2="384.3" y2="34.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="384.3" y1="34.9" x2="350.1" y2="72.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="350.1" y1="72.7" x2="309.1" y2="108.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="309.1" y1="108.7" x2="328.1" y2="186.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="328.1" y1="186.7" x2="292.3" y2="249.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="292.3" y1="249.8" x2="274.3" y2="231.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="274.3" y1="231.8" x2="267.6" y2="224.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="267.6" y1="224.6" x2="250.3" y2="269.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="250.3" y1="269.8" x2="228.8" y2="263.4" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="228.8" y1="263.4" x2="221.3" y2="284.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="214.1" y1="328.5" x2="205.0" y2="412.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="205.0" y1="412.1" x2="201.1" y2="430.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="201.1" y1="430.0" x2="235.9" y2="331.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="235.9" y1="331.8" x2="289.4" y2="365.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="289.4" y1="365.0" x2="358.3" y2="376.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="418.9" cy="37.4" r="7.5" fill="#222"/>
-<circle cx="416.7" cy="62.0" r="7.8" fill="#222"/>
-<circle cx="407.8" cy="61.4" r="7.6" fill="#222"/>
-<circle cx="400.8" cy="30.0" r="6.9" fill="#222"/>
-<circle cx="397.6" cy="36.0" r="7.7" fill="#222"/>
-<circle cx="384.3" cy="34.9" r="6.7" fill="#222"/>
-<circle cx="350.1" cy="72.7" r="7.3" fill="#222"/>
-<circle cx="328.1" cy="186.7" r="5.8" fill="#222"/>
-<circle cx="309.1" cy="108.7" r="7.3" fill="#222"/>
-<circle cx="292.3" cy="249.8" r="7.5" fill="#222"/>
-<circle cx="274.3" cy="231.8" r="7.9" fill="#222"/>
-<circle cx="267.6" cy="224.6" r="7.1" fill="#222"/>
-<circle cx="250.3" cy="269.8" r="7.3" fill="#222"/>
-<circle cx="228.8" cy="263.4" r="6.7" fill="#222"/>
-<circle cx="221.3" cy="284.3" r="7.5" fill="#222"/>
-<circle cx="214.1" cy="328.5" r="7.8" fill="#222"/>
-<circle cx="205.0" cy="412.1" r="7.0" fill="#222"/>
-<circle cx="201.1" cy="430.0" r="7.6" fill="#222"/>
-<circle cx="235.9" cy="331.8" r="6.6" fill="#222"/>
-<circle cx="289.4" cy="365.0" r="6.8" fill="#222"/>
-<circle cx="358.3" cy="376.8" r="7.7" fill="#222"/>
-<text x="386.8" y="65.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">η</text>
-<text x="414.1" y="24.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ρ</text>
-<text x="384.3" y="21.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">ζ</text>
-<text x="433.9" y="41.9" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">δ</text>
-<text x="431.7" y="66.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Minchir</text>
-<line x1="400.8" y1="30.0" x2="454.8" y2="30.0" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="454.8" y="34.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ashlesha</text>
-<text x="265.3" y="274.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">42</text>
-<line x1="350.1" y1="72.7" x2="330.6" y2="53.2" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="330.6" y="57.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">θ</text>
-<line x1="274.3" y1="231.8" x2="254.8" y2="212.3" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="254.8" y="216.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">40</text>
-<text x="284.1" y="212.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">λ</text>
-<line x1="228.8" y1="263.4" x2="209.3" y2="243.9" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="209.3" y="248.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">HIP 52943</text>
-<line x1="221.3" y1="284.3" x2="201.8" y2="264.8" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="201.8" y="269.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Alkes</text>
-<text x="307.3" y="254.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">39</text>
-<text x="230.6" y="316.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β Crt</text>
-<line x1="235.9" y1="331.8" x2="289.9" y2="331.8" stroke="#bbb" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="289.9" y="336.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">γ</text>
-<text x="324.1" y="113.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Ukdah</text>
-<text x="220.0" y="416.6" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ξ</text>
-<text x="216.1" y="434.5" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">β Hya</text>
-<text x="343.1" y="191.2" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Alphard</text>
-<text x="305.9" y="353.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">π</text>
-<text x="373.3" y="381.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">58</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Hydre">
+<title>Hydre</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="722.134" y1="116.696" x2="718.777" y2="121.215" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="718.777" y1="121.215" x2="728.457" y2="140.730" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="728.457" y1="140.730" x2="737.239" y2="141.494" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="737.239" y1="141.494" x2="740.000" y2="122.809" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="122.809" x2="722.134" y2="116.696" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="722.134" y1="116.696" x2="705.170" y2="120.061" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="705.170" y1="120.061" x2="667.835" y2="147.341" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="667.835" y1="147.341" x2="618.863" y2="172.433" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="618.863" y1="172.433" x2="640.020" y2="229.494" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="640.020" y1="229.494" x2="594.802" y2="273.977" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="594.802" y1="273.977" x2="570.567" y2="260.240" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="570.567" y1="260.240" x2="560.771" y2="254.866" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="560.771" y1="254.866" x2="532.980" y2="287.972" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="532.980" y1="287.972" x2="491.080" y2="284.017" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="491.080" y1="284.017" x2="473.647" y2="300.376" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="454.761" y1="335.453" x2="425.212" y2="407.612" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="425.212" y1="407.612" x2="395.035" y2="428.203" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="395.035" y1="428.203" x2="225.561" y2="375.034" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="225.561" y1="375.034" x2="143.061" y2="433.790" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="143.061" y1="433.790" x2="60.000" y2="483.304" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="740.000" cy="122.809" r="2.30" fill="#222" data-star="simbad:1113830"/>
+<circle cx="737.239" cy="141.494" r="2.20" fill="#222" data-star="simbad:1114306"/>
+<circle cx="728.457" cy="140.730" r="2.20" fill="#222" data-star="simbad:1114529"/>
+<circle cx="722.134" cy="116.696" r="2.90" fill="#222" data-star="simbad:1113500"/>
+<circle cx="718.777" cy="121.215" r="2.20" fill="#222" data-star="simbad:1113873"/>
+<circle cx="705.170" cy="120.061" r="3.12" fill="#222" data-star="simbad:1136978"/>
+<circle cx="667.835" cy="147.341" r="2.49" fill="#222" data-star="simbad:1619085"/>
+<circle cx="640.020" cy="229.494" r="4.02" fill="#222" data-star="simbad:1634852"/>
+<circle cx="618.863" cy="172.433" r="2.47" fill="#222" data-star="simbad:1646438"/>
+<circle cx="594.802" cy="273.977" r="2.31" fill="#222" data-star="simbad:1662457"/>
+<circle cx="570.567" cy="260.240" r="2.20" fill="#222" data-star="simbad:1679482"/>
+<circle cx="560.771" cy="254.866" r="2.71" fill="#222" data-star="simbad:1701229"/>
+<circle cx="532.980" cy="287.972" r="2.55" fill="#222" data-star="simbad:1720797"/>
+<circle cx="491.080" cy="284.017" r="3.11" fill="#222" data-star="simbad:1759124"/>
+<circle cx="473.647" cy="300.376" r="2.34" fill="#222" data-star="simbad:1776854"/>
+<circle cx="454.761" cy="335.453" r="2.20" fill="#222" data-star="simbad:1795734"/>
+<circle cx="425.212" cy="407.612" r="2.77" fill="#222" data-star="simbad:1836217"/>
+<circle cx="395.035" cy="428.203" r="2.20" fill="#222" data-star="simbad:1875429"/>
+<circle cx="225.561" cy="375.034" r="3.20" fill="#222" data-star="simbad:2141636"/>
+<circle cx="143.061" cy="433.790" r="2.98" fill="#222" data-star="simbad:2244833"/>
+<circle cx="60.000" cy="483.304" r="2.20" fill="#222" data-star="simbad:2310201"/>
+<text x="735.13" y="103.70" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Ashlesha</text>
+<text x="662.14" y="165.49" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Minchir</text>
+<text x="653.02" y="216.49" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alphard</text>
+<text x="583.57" y="247.24" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">υ² Hya</text>
+<text x="753.00" y="135.81" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ Hya</text>
+<text x="678.96" y="140.73" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Hya</text>
+<text x="658.28" y="97.21" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ρ Hya</text>
+<text x="655.67" y="120.06" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ζ Hya</text>
+<text x="618.33" y="147.34" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">θ Hya</text>
+<text x="569.36" y="159.43" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Ukdah</text>
+<text x="607.80" y="286.98" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Zhang</text>
+<text x="511.27" y="241.87" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">λ Hya</text>
+<text x="545.98" y="274.97" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">μ Hya</text>
+<text x="504.08" y="271.02" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ν Hya</text>
+<text x="424.15" y="287.38" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Alkes</text>
+<text x="467.76" y="322.45" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">β Crt</text>
+<text x="438.21" y="394.61" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ξ Hya</text>
+<text x="345.54" y="415.20" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">β Hya</text>
+<text x="238.56" y="362.03" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ Hya</text>
+<text x="156.06" y="420.79" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">π Hya</text>
+<text x="73.00" y="470.30" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">E Hya</text>
 </svg>

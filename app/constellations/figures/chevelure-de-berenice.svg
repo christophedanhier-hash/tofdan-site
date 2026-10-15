@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-label="Figure de la constellation Chevelure de Bérénice">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="138.5" y1="425.0" x2="132.5" y2="53.7" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="132.5" y1="53.7" x2="487.5" y2="35.0" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="138.5" cy="425.0" r="5" fill="#222"/>
-<text x="151.5" y="415.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Diadem</text>
-<circle cx="132.5" cy="53.7" r="5" fill="#222"/>
-<text x="145.5" y="43.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Beta Com</text>
-<circle cx="487.5" cy="35.0" r="5" fill="#222"/>
-<text x="500.5" y="25.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Gamma Com</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Chevelure de Bérénice">
+<title>Chevelure de Bérénice</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="189.413" y1="540.000" x2="181.703" y2="83.376" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="181.703" y1="83.376" x2="618.297" y2="60.000" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="189.413" cy="540.000" r="2.20" fill="#222" data-star="simbad:2104797"/>
+<circle cx="181.703" cy="83.376" r="2.20" fill="#222" data-star="simbad:2101714"/>
+<circle cx="618.297" cy="60.000" r="2.20" fill="#222" data-star="simbad:1928749"/>
+<text x="202.41" y="527.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Diadem</text>
+<text x="194.70" y="70.38" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">β Com</text>
+<text x="631.30" y="47.00" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ Com</text>
 </svg>

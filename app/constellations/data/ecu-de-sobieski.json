@@ -8,7 +8,7 @@
   "source_atlas": "Atlas observation.pdf — fiche « Écu de Sobieski »",
   "saison": "été",
   "voie_lactee": true,
-  "repere_principal": "Un petit quadrilatère allongé, dans une région très riche de la Voie lactée.",
+  "repere_principal": "Repérer l’Écu de Sobieski au sud de l’Aigle, dans une région très fournie de la Voie lactée.",
   "constellations_voisines": [
     "Aigle",
     "Serpent",
@@ -18,50 +18,174 @@
     {
       "i": 0,
       "nom": "δ Sct",
-      "bayer": "del Sct",
+      "bayer": "δ Sct",
       "ra_deg": 280.5684,
       "dec_deg": -9.0526,
-      "mag": 4.7,
-      "role": "Le bouclier — géante lumineuse jaune-blanc",
+      "mag": 4.71,
+      "role": "Au milieu du dessin, côté gauche — géante lumineuse jaune-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * del Sct ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "del Sct",
+      "type_spectral": "F2II-III",
+      "nature_stellaire": "Géante lumineuse jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "δ Sct",
+      "identifiant": "simbad:2600853",
+      "simbad_id": "* del Sct",
+      "constellation_iau": "Sct",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Sct",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Sct",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "β Sct",
-      "bayer": "bet Sct",
+      "bayer": "β Sct",
       "ra_deg": 281.7937,
       "dec_deg": -4.7478,
       "mag": 4.22,
-      "role": "Le bouclier — géante lumineuse jaune",
+      "role": "En haut du dessin, côté gauche — géante lumineuse jaune",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * bet Sct ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "bet Sct",
+      "type_spectral": "G4IIa",
+      "nature_stellaire": "Géante lumineuse jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "β Sct",
+      "identifiant": "simbad:2627917",
+      "simbad_id": "* bet Sct",
+      "constellation_iau": "Sct",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Sct",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Sct",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
       "nom": "α Sct",
-      "bayer": "alf Sct",
+      "bayer": "α Sct",
       "ra_deg": 278.8018,
       "dec_deg": -8.2433,
-      "mag": 3.85,
-      "role": "La plus brillante de la figure — géante orange",
+      "mag": 3.83,
+      "role": "En haut du dessin, côté droite — géante orangée",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * alf Sct ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "alf Sct",
+      "type_spectral": "K3III",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "α Sct",
+      "identifiant": "simbad:2611237",
+      "simbad_id": "* alf Sct",
+      "constellation_iau": "Sct",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Sct",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Sct",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "γ Sct",
-      "bayer": "gam Sct",
+      "bayer": "γ Sct",
       "ra_deg": 277.2994,
       "dec_deg": -14.5658,
-      "mag": 4.67,
-      "role": "Le bouclier — sous-géante blanche",
+      "mag": 4.675,
+      "role": "En bas du dessin, côté droite — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
+      "src": "SIMBAD : * gam Sct ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Sct",
+      "type_spectral": "A1IV/V",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Sct",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sct",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ Sct",
+      "identifiant": "simbad:2566511",
+      "simbad_id": "* gam Sct",
+      "constellation_iau": "Sct",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Sct",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Sct",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -80,17 +204,32 @@
         0
       ]
     ],
-    "commentaire": "Tracé retenu : figure reconstruite à partir des lignes IAU (constellation_lines_iau.dat, Dominic Ford / In-The-Sky.org).",
-    "note_geometrie": "L'Écu de Sobieski est un petit quadrilatère allongé, dont les quatre côtés mesurent entre 4,47° et 6,49°. Le tracé suit un quadrilatère régulier : δ Sct → β Sct → α Sct → γ Sct → δ Sct. C'est une figure homogène — aucune arête n'est courte au point de brouiller la lecture — mais elle est modeste en taille et posée dans une région tellement riche de la Voie lactée qu'il faut la chercher. Le plus court côté relie δ Sct et β Sct (4,47°) ; le plus long, α Sct–γ Sct (6,49°).",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+    "commentaire": "Dessin retenu pour Écu de Sobieski : 4 étoiles et 4 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 10,8°. Le segment le plus court relie δ Sct à β Sct (4,47°). Le plus long relie α Sct à γ Sct (6,49°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus (formule de haversine) — sert au mode guidé.",
-    "δ Sct–β Sct": 4.47,
-    "β Sct–α Sct": 4.59,
-    "α Sct–γ Sct": 6.49,
-    "γ Sct–δ Sct": 6.37
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 4.4733
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 4.5883
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 6.4916
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "deg": 6.3738
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "M 11",
@@ -98,9 +237,32 @@
       "mag": 5.8,
       "distance_al": 6730,
       "note": "L'amas du Canard sauvage : l'un des amas ouverts les plus riches et les plus beaux du ciel.",
-      "instrument": "œil nu",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC6705, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6705",
+      "constellation_catalogue": "Sct",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6705",
+        "alias_interroge": "NGC6705",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6705",
+        "alias_interroge": "NGC6705",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6664",
@@ -109,18 +271,71 @@
       "distance_al": 6340,
       "note": "Amas ouvert assez dispersé, dans un champ très riche.",
       "instrument": "jumelles",
-      "src": "O5",
-      "code": "O5"
+      "src": "OpenNGC, NGC6664, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6664",
+      "constellation_catalogue": "Sct",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6664",
+        "alias_interroge": "NGC6664",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6664",
+        "alias_interroge": "NGC6664",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6712",
       "nature": "amas globulaire",
-      "mag": 8.1,
-      "distance_al": 24100,
-      "note": "Amas globulaire modeste mais bien condensé, dans une région chargée de poussière.",
-      "instrument": "jumelles",
-      "src": "O3",
-      "code": "O3"
+      "mag": 8.6,
+      "distance_al": 24070,
+      "note": "Amas globulaire. Distance au Soleil : environ 24100 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
+      "instrument": "télescope",
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6712, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6712",
+      "constellation_catalogue": "Sct",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6712",
+        "alias_interroge": "NGC6712",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6712",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6712",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 7.38,
+        "incertitude_kpc": 0.24,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.03,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 26",
@@ -128,9 +343,32 @@
       "mag": 8.87,
       "distance_al": 5460,
       "note": "Petit amas ouvert compact, assez détaché du fond riche de la Voie lactée.",
-      "instrument": "jumelles",
-      "src": "O5",
-      "code": "O5"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6694, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6694",
+      "constellation_catalogue": "Sct",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6694",
+        "alias_interroge": "NGC6694",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6694",
+        "alias_interroge": "NGC6694",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O5",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6625",
@@ -138,9 +376,32 @@
       "mag": 9.0,
       "distance_al": 4360,
       "note": "Amas ouvert faible et dispersé : objet de patience.",
-      "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6625, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6625",
+      "constellation_catalogue": "Sct",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6625",
+        "alias_interroge": "NGC6625",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6625",
+        "alias_interroge": "NGC6625",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6683",
@@ -148,9 +409,32 @@
       "mag": 9.4,
       "distance_al": 4620,
       "note": "Petit amas ouvert, modeste à l'oculaire.",
-      "instrument": "jumelles",
-      "src": "O1",
-      "code": "O1"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC6683, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6683",
+      "constellation_catalogue": "Sct",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6683",
+        "alias_interroge": "NGC6683",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6683",
+        "alias_interroge": "NGC6683",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "O1",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -181,79 +465,83 @@
     }
   ],
   "questions_observation": [
-    "Le quadrilatère te paraît-il régulier, ou plus long que large ?",
-    "Le fond du ciel autour de l'Écu te paraît-il plus riche qu'autour de la Couronne ?",
-    "Distingues-tu les quatre étoiles du cadre à l'œil nu ?",
-    "Repères-tu la direction de la Voie lactée qui traverse la région ?",
-    "Ton regard accroche-t-il autre chose dans le champ, à côté du quadrilatère ?"
+    {
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "α Sct, avec 3,83 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
+    },
+    {
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "δ Sct – β Sct : environ 4,47°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
+    },
+    {
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Écu de Sobieski désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
+    }
   ],
   "questions_guide": [
-    "Cherche un petit quadrilatère posé dans la Voie lactée, juste au sud de l'Aigle.",
-    "C'est une constellation minuscule et discrète : repère-la d'abord grâce à ses voisines.",
-    "M 11, l'amas du Canard sauvage, s'y trouve — c'est la vraie raison de pointer l'Écu.",
-    "Le motif est un rectangle allongé, plus long que large."
+    {
+      "q": "Pourquoi faut-il distinguer le dessin de l’Écu et M 11 ?",
+      "r": "Les étoiles du contour servent à reconnaître une direction dans le ciel. M 11 est un amas ouvert : un véritable groupe d’étoiles, distinct de la simple figure du bouclier."
+    },
+    {
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Écu de Sobieski. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
+    },
+    {
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 11 : amas ouvert. L'amas du Canard sauvage : l'un des amas ouverts les plus riches et les plus beaux du ciel. Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
+    }
   ],
-  "message_animation": "L'Écu de Sobieski est une petite constellation discrète posée dans la Voie lactée la plus dense. M 11, l'amas du Canard sauvage, y est l'un des plus beaux amas ouverts du ciel.",
+  "message_animation": "Repérer l’Écu de Sobieski au sud de l’Aigle, dans une région très fournie de la Voie lactée. Ses étoiles restent modestes ; l’amas ouvert M 11, dit du Canard sauvage, est une cible instrumentale marquante.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf — fiche « Écu de Sobieski »",
     "coordonnees": "Hipparcos (catalogue I/239), positions et magnitudes Vmag ; tracé aligné sur les lignes IAU (constellation_lines_iau.dat)",
-    "statut": "LOT 2 — à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "4 étoiles du tracé n'ont pas de nom propre approuvé par l'IAU ; leur désignation de Bayer est utilisée."
-    ]
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "questions": {
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    }
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

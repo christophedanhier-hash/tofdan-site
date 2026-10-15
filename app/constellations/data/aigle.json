@@ -14,16 +14,17 @@
   },
   "saison": "été–début automne",
   "voie_lactee": true,
-  "repere_principal": "Altaïr, membre du Triangle d'été (avec Véga et Deneb)",
+  "repere_principal": "Repérer Altaïr entre Tarazed et Alshain, puis replacer ce trio dans le Triangle d’été avec Véga et Deneb.",
   "constellations_voisines": [
-    "La Flèche",
+    "Verseau",
+    "Capricorne",
+    "Dauphin",
     "Hercule",
-    "Le Serpent",
-    "L'Écu",
-    "Le Sagittaire",
-    "Le Capricorne",
-    "Le Verseau",
-    "Le Dauphin"
+    "Ophiuchus",
+    "Écu de Sobieski",
+    "Serpent",
+    "Flèche",
+    "Sagittaire"
   ],
   "etoiles": [
     {
@@ -33,9 +34,40 @@
       "ra_deg": 297.69583,
       "dec_deg": 8.86832,
       "mag": 0.76,
-      "role": "La plus brillante de la figure — naine blanche",
+      "role": "Centre du trio d’Altaïr — étoile blanche de la séquence principale",
       "visibilite": "œil nu",
-      "src": "Hipparcos I311 via Wikipedia"
+      "src": "SIMBAD : * alf Aql ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Altair",
+      "bayer_catalogue": "alf Aql",
+      "type_spectral": "A7Vn",
+      "nature_stellaire": "Étoile blanche de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Altaïr",
+      "identifiant": "simbad:2708379",
+      "simbad_id": "* alf Aql",
+      "constellation_iau": "Aql",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Aql",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Aql",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
@@ -43,10 +75,41 @@
       "bayer": "γ Aql",
       "ra_deg": 296.56492,
       "dec_deg": 10.61326,
-      "mag": 2.712,
-      "role": "Le fléau — géante lumineuse orange",
+      "mag": 2.72,
+      "role": "Trio d’Altaïr, étoile nord — géante lumineuse orangée",
       "visibilite": "œil nu",
-      "src": "SAAO via Wikipedia"
+      "src": "SIMBAD : * gam Aql ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Tarazed",
+      "bayer_catalogue": "gam Aql",
+      "type_spectral": "K3II",
+      "nature_stellaire": "Géante lumineuse orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Tarazed",
+      "identifiant": "simbad:2724021",
+      "simbad_id": "* gam Aql",
+      "constellation_iau": "Aql",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Aql",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Aql",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
@@ -54,37 +117,130 @@
       "bayer": "β Aql",
       "ra_deg": 298.8283,
       "dec_deg": 6.40676,
-      "mag": 3.87,
-      "role": "Le fléau — sous-géante jaune",
+      "mag": 3.71,
+      "role": "Trio d’Altaïr, étoile sud — sous-géante jaune",
       "visibilite": "œil nu",
-      "src": "Gaia DR3 via Wikipedia"
+      "src": "SIMBAD : * bet Aql ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Alshain",
+      "bayer_catalogue": "bet Aql",
+      "type_spectral": "G8IV",
+      "nature_stellaire": "Sous-géante jaune",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Alshain",
+      "identifiant": "simbad:2692199",
+      "simbad_id": "* bet Aql",
+      "constellation_iau": "Aql",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Aql",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Aql",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
-      "nom": "Eta Aql",
+      "nom": "η Aql",
       "bayer": "η Aql",
       "ra_deg": 298.1182,
       "dec_deg": 1.00566,
-      "mag": 3.49,
-      "role": "La queue — supergéante jaune-blanc",
+      "mag": 3.8,
+      "role": "En bas du dessin, côté droite — spectre complexe ou composé (F6Iab+B9.8V)",
       "visibilite": "œil nu",
-      "src": "Wikipedia (variable 3,49–4,3) — À TRAITER AVEC PRUDENCE",
-      "alerte": "Étoile variable : la magnitude change. Ne pas l'utiliser pour comparer la luminosité."
+      "src": "SIMBAD : * eta Aql ; photométrie V ; type spectral consulté le 2026-10-15",
+      "alerte": "Étoile variable : la magnitude tabulée est indicative et ne décrit pas son éclat à toute date.",
+      "nom_iau": null,
+      "bayer_catalogue": "eta Aql",
+      "type_spectral": "F6Iab+B9.8V",
+      "nature_stellaire": "Spectre complexe ou composé (F6Iab+B9.8V)",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eta Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eta Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "η Aql",
+      "identifiant": "simbad:2660923",
+      "simbad_id": "* eta Aql",
+      "constellation_iau": "Aql",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eta Aql",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eta%20Aql",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
-      "nom": "Theta Aql",
+      "nom": "θ Aql",
       "bayer": "θ Aql",
       "ra_deg": 302.82619,
       "dec_deg": -0.82146,
-      "mag": 3.26,
-      "role": "La queue — géante bleue",
+      "mag": 3.22,
+      "role": "En bas du dessin, côté gauche — géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "Hipparcos via Wikipedia"
+      "src": "SIMBAD : * tet Aql ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "tet Aql",
+      "type_spectral": "B9.5III",
+      "nature_stellaire": "Géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* tet Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* tet Aql",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Aql",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "θ Aql",
+      "identifiant": "simbad:2645736",
+      "simbad_id": "* tet Aql",
+      "constellation_iau": "Aql",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* tet Aql",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20tet%20Aql",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE assumé (décision Christophe, 12/10/2026). La figure classique de l'Aigle est la ligne du fléau (Tarazed-Altaïr-Alshain) prolongée par la queue (Alshain-Eta-Theta). Les illustrations traditionnelles ne tracent PAS les ailes : elles sont seulement symbolisees par le trio. Trois étoiles de la fiche (delta, lambda, zeta) n'appartiennent donc a AUCUN trace : elles ont été retirees pour que l'app n'affiche que des étoiles reliees. Aucune étoile orpheline.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -103,18 +259,32 @@
         4
       ]
     ],
-    "commentaire": "Tracé retenu : la ligne Altaïr-Tarazed-Alshain (le trio serre du fléau, 2,07° / 2,71°), puis la queue Alshain-Eta-Theta (5,45° / 5,05°). Les ailes ne sont pas tracées — conformément aux illustrations classiques ou ces trois étoiles symbolisent la ligne du fléau sans que les ailes soient dessinees.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée.",
-    "note_geometrie": "Les trois étoiles du trio (Altaïr, Tarazed, Alshain) sont alignées à 0,01° près. En revanche la queue Alshain -> Eta -> Theta n'est PAS alignée : Alshain-Eta = 5,45°, Eta-Theta = 5,05°, mais Alshain-Theta = 8,26° seulement. La somme 10,50° differe donc de 8,26° — c'est normal, les deux segments forment un angle."
+    "commentaire": "Dessin retenu pour Aigle : 5 étoiles et 4 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique.",
+    "note_geometrie": "La figure s’étend sur environ 13°. Le segment le plus court relie Altaïr à Tarazed (2,07°). Le plus long relie Alshain à η Aql (5,45°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon."
   },
-  "distances_angulaires_deg": {
-    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-    "Altair-Tarazed": 2.07,
-    "Altair-Alshain": 2.71,
-    "Tarazed-Alshain": 4.76,
-    "Alshain-EtaAql": 5.45,
-    "EtaAql-ThetaAql": 5.05
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 2.0705
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "deg": 2.7053
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 5.4474
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 5.0499
+    }
+  ],
   "objets_ciel_profond": [
     {
       "id": "NGC 6709",
@@ -123,18 +293,62 @@
       "distance_al": 3000,
       "note": "région NO de l'Aigle, riche d'une quarantaine d'étoiles",
       "instrument": "jumelles",
-      "src": "Atlas p.2",
-      "code": "A1"
+      "src": "OpenNGC, NGC6709, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6709",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6709",
+        "alias_interroge": "NGC6709",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6709",
+        "alias_interroge": "NGC6709",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "Atlas p.2",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6738",
-      "nature": "amas ouvert",
+      "nature": "regroupement apparent d’étoiles",
       "mag": 8.3,
       "distance_al": null,
-      "note": "modeste",
-      "instrument": "lunette",
-      "src": "Atlas p.2 ; distance non publiée",
-      "code": "A1‡"
+      "note": "Regroupement apparent d’étoiles ; il ne doit pas être présenté sans réserve comme un amas physique. Distance non renseignée dans les sources retenues.",
+      "instrument": "n. d.",
+      "src": "OpenNGC, NGC6738, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6738",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6738",
+        "alias_interroge": "NGC6738",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6738",
+        "alias_interroge": "NGC6738",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6755",
@@ -143,8 +357,31 @@
       "distance_al": 5000,
       "note": "une centaine d'étoiles au petit télescope",
       "instrument": "jumelles",
-      "src": "Atlas p.2",
-      "code": "A1"
+      "src": "OpenNGC, NGC6755, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6755",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6755",
+        "alias_interroge": "NGC6755",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6755",
+        "alias_interroge": "NGC6755",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "Atlas p.2",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6756",
@@ -153,58 +390,199 @@
       "distance_al": 4900,
       "note": "très concentré",
       "instrument": "télescope",
-      "src": "Atlas p.2",
-      "code": "A1"
+      "src": "OpenNGC, NGC6756, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6756",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6756",
+        "alias_interroge": "NGC6756",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6756",
+        "alias_interroge": "NGC6756",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "Atlas p.2",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6760",
       "nature": "amas globulaire",
-      "mag": 9.55,
-      "distance_al": 70000,
-      "note": "diamètre apparent ~2′ ; AD=19h11m12.06s, déc=+01°01′49.7″",
+      "mag": 8.89,
+      "distance_al": 27430,
+      "note": "Amas globulaire. Distance au Soleil : environ 27400 années-lumière, d’après la table de paramètres de Baumgardt. Une détection aux jumelles ne signifie pas que les étoiles de l’amas seront résolues.",
       "instrument": "télescope",
-      "src": "Atlas p.2",
-      "code": "A1"
+      "src": "OpenNGC (identité) ; Baumgardt (distance, V), NGC6760, 2026-10-15",
+      "code": "B+O",
+      "identifiant_catalogue": "NGC6760",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6760",
+        "alias_interroge": "NGC6760",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "Baumgardt et al. 2020, table de paramètres",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6760",
+        "colonne": "V [mag]",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "catalogue": "Baumgardt, paramètres des amas globulaires ; distances majoritairement Baumgardt & Vasiliev 2021",
+        "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/parameter.html",
+        "entree": "NGC 6760",
+        "colonne": "R Soleil [kpc]",
+        "distance_kpc": 8.41,
+        "incertitude_kpc": 0.43,
+        "conversion": "1 kpc = 3261,563777 années-lumière",
+        "consulte": "2026-10-15",
+        "statut": "publication primaire recoupée"
+      },
+      "incertitude_mag": 0.05,
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6741",
       "nature": "nébuleuse planétaire",
-      "mag": 9.6,
+      "mag": 11.5,
       "distance_al": 12200,
       "note": "étoile centrale de magnitude 16",
       "instrument": "télescope",
-      "src": "SIMBAD (mag) + Wikidata (distance)",
-      "code": "S1"
+      "src": "OpenNGC, NGC6741, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6741",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6741",
+        "alias_interroge": "NGC6741",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6741",
+        "alias_interroge": "NGC6741",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "SIMBAD (mag) + Wikidata (distance)",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6751",
       "nature": "nébuleuse planétaire",
-      "mag": 15.48,
+      "mag": 11.9,
       "distance_al": 8430,
       "note": "diamètre < 1 a.l. (~600 × le Système solaire)",
       "instrument": "télescope",
-      "src": "SIMBAD (mag) + Wikidata (distance)",
-      "code": "S1"
+      "src": "OpenNGC, NGC6751, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6751",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6751",
+        "alias_interroge": "NGC6751",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6751",
+        "alias_interroge": "NGC6751",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "SIMBAD (mag) + Wikidata (distance)",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6790",
       "nature": "nébuleuse planétaire",
       "mag": 10.5,
       "distance_al": null,
-      "note": "enveloppe en expansion à 40 km/s ; étoile centrale mag 10,50",
+      "note": "enveloppe en expansion à 40 km/s ; étoile centrale mag 10,50 Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "SIMBAD (mag) ; distance non publiée",
-      "code": "S2‡"
+      "src": "OpenNGC, NGC6790, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6790",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6790",
+        "alias_interroge": "NGC6790",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6790",
+        "alias_interroge": "NGC6790",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 6804",
       "nature": "nébuleuse planétaire",
-      "mag": 13.4,
+      "mag": 12.0,
       "distance_al": null,
-      "note": "diamètre angulaire ≈ Jupiter au plus loin ; étoile centrale mag 14",
+      "note": "diamètre angulaire ≈ Jupiter au plus loin ; étoile centrale mag 14 Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "SIMBAD (mag) ; distance non publiée",
-      "code": "S2‡"
+      "src": "OpenNGC, NGC6804, photométrie V ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "NGC6804",
+      "constellation_catalogue": "Aql",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6804",
+        "alias_interroge": "NGC6804",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC6804",
+        "alias_interroge": "NGC6804",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -236,125 +614,85 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle est l'étoile la plus facile à repérer ?",
-      "r": "Altaïr (α Aql), magnitude 0,76 : c'est de loin la plus brillante de la constellation. Elle est encadrée par Tarazed (γ, mag 2,71) et Alshain (β, mag 3,87) — le trio dit « d'Altaïr »."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Altaïr, avec 0,76 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
-      "r": "Les trois étoiles alignées Tarazed – Altaïr – Alshain. Altaïr se situe presque exactement sur la ligne qui joint les deux autres."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "Altaïr – Tarazed : environ 2,07°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
-      "r": "Altaïr est blanche (type A7V), Tarazed orangée (K3II), Alshain jaune (G8IV). La couleur d'une étoile traduit sa température de surface : les plus bleues sont les plus chaudes."
-    },
-    {
-      "q": "La forme de l'Aigle est-elle évidente à l'œil nu ?",
-      "r": "Non. Seul le trio central est immédiat ; la figure complète (le corps et la queue) demande de repérer des étoiles plus faibles comme η et θ Aql (mag 3,49 et 3,26)."
-    },
-    {
-      "q": "Quelles étoiles disparaissent lorsque le ciel devient plus lumineux ?",
-      "r": "Les moins brillantes d'abord : Alshain (3,87) et η Aql (3,49) avant Altaïr (0,76). Sous un ciel pollué, seule la partie centrale reste visible."
-    },
-    {
-      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
-      "r": "Les objets du ciel profond de la constellation : ils sont bien plus faibles que les étoiles. Les jumelles suffisent pour les plus brillants ; un télescope est nécessaire pour les autres."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Aigle désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Pourquoi l'Aigle contient-il beaucoup d'objets ?",
-      "r": "Parce que sa région traverse une partie riche de la Voie lactée."
+      "q": "Pourquoi trouve-t-on des amas et des nébuleuses dans cette région ?",
+      "r": "Notre regard traverse ici le plan de la Voie lactée, riche en étoiles et en matière interstellaire. Les objets proches sur la carte ne sont pas nécessairement voisins dans l’espace."
     },
     {
-      "q": "Un objet de magnitude 6,70 est-il toujours visible à l'œil nu ?",
-      "r": "Pas nécessairement : la brillance de surface, la pollution lumineuse et la transparence du ciel interviennent."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Aigle. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi une nébuleuse planétaire ne concerne-t-elle pas une planète ?",
-      "r": "Le terme historique désigne une enveloppe de gaz expulsée par une étoile, dont l'aspect circulaire rappelait une planète dans les instruments anciens."
-    },
-    {
-      "q": "Que montre NGC 6760 ?",
-      "r": "Un amas globulaire : une concentration dense et sphérique d'étoiles."
-    },
-    {
-      "q": "Que faut-il expliquer à propos des photos ?",
-      "r": "Elles utilisent souvent des poses longues et des traitements qui révèlent des détails invisibles ou très difficiles à percevoir à l'oculaire."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "NGC 6709 : amas ouvert. région NO de l'Aigle, riche d'une quarantaine d'étoiles Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "L'Aigle est une constellation située dans une région riche de la Voie lactée. On peut commencer avec le trio Altaïr–Tarazed–Alshain, puis montrer que la même zone contient des amas d'étoiles et des nébuleuses planétaires, très différents par leur nature et leur distance.",
+  "message_animation": "Repérer Altaïr entre Tarazed et Alshain, puis replacer ce trio dans le Triangle d’été avec Véga et Deneb. La Voie lactée traverse cette région : distinguer les étoiles du dessin des amas et nébuleuses que l’on explore avec un instrument.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 1–2 (fourni par Christophe)",
     "archive_texte": "atlas-observation-source/001-aigle.txt",
     "etendue_wiki": "wiki-oca/docs/formation-guide-astro/constellations-et-objets.md §5",
     "fiche_pilote": "wiki-oca/docs/formation-guide-astro/fiches-atlas/aigle-fiche-pilote.md",
     "coordonnees": "Hipparcos I311 / Gaia DR3, via fiches Wikipedia citées",
-    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-    "lacunes": [
-      "Aucune carte/image extraite : les visuels sont à générer depuis les coordonnées (SVG)",
-      "NGC 6751 et NGC 6738 : distance ou magnitude non indiquée par l'Atlas",
-      "Eta Aql est variable : magnitude non stable",
-      "Figure : aucune carte IAU officielle n'impose un tracé unique. Le tracé retenu est documenté comme un choix."
-    ],
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "lacunes": [],
     "questions": {
-      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
-      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
-      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
-      "statut": "à relire par Christophe avant diffusion"
-    }
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    },
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx"
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }

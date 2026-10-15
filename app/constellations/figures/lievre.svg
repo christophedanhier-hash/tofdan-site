@@ -1,37 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" width="620" height="460" role="img" aria-label="Figure de la constellation Lièvre">
-<rect width="620" height="460" fill="#fbf9f4"/>
-<line x1="483.5" y1="90.5" x2="485.8" y2="187.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="485.8" y1="187.9" x2="542.0" y2="367.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="542.0" y1="367.3" x2="369.5" y2="321.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="369.5" y1="321.1" x2="335.2" y2="235.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="435.5" y1="97.6" x2="485.8" y2="187.9" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="485.8" y1="187.9" x2="335.2" y2="235.6" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="335.2" y1="235.6" x2="226.0" y2="146.8" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="226.0" y1="146.8" x2="153.2" y2="127.3" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="153.2" y1="127.3" x2="78.0" y2="150.2" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="78.0" y1="150.2" x2="192.4" y2="324.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="192.4" y1="324.5" x2="245.1" y2="369.5" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<line x1="245.1" y1="369.5" x2="369.5" y2="321.1" stroke="#1a4f8b" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="542.0" cy="367.3" r="6.8" fill="#222"/>
-<circle cx="485.8" cy="187.9" r="6.8" fill="#222"/>
-<circle cx="483.5" cy="90.5" r="7.7" fill="#222"/>
-<circle cx="435.5" cy="97.6" r="7.6" fill="#222"/>
-<circle cx="369.5" cy="321.1" r="6.4" fill="#222"/>
-<circle cx="335.2" cy="235.6" r="6.3" fill="#222"/>
-<circle cx="245.1" cy="369.5" r="7.1" fill="#222"/>
-<circle cx="226.0" cy="146.8" r="7.0" fill="#222"/>
-<circle cx="192.4" cy="324.5" r="7.2" fill="#222"/>
-<circle cx="153.2" cy="127.3" r="7.2" fill="#222"/>
-<circle cx="78.0" cy="150.2" r="7.9" fill="#222"/>
-<text x="498.5" y="95.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">κ</text>
-<text x="450.5" y="102.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">λ</text>
-<text x="557.0" y="371.8" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ε</text>
-<text x="500.8" y="192.4" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">5</text>
-<text x="386.0" y="309.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">Nihal</text>
-<text x="314.2" y="240.1" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="end">Arneb</text>
-<text x="245.1" y="356.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">γ</text>
-<text x="241.0" y="151.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">ζ</text>
-<text x="207.4" y="329.0" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">δ</text>
-<text x="169.7" y="115.3" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="start">η</text>
-<text x="78.0" y="136.7" font-family="system-ui,sans-serif" font-size="13" fill="#333" text-anchor="middle">θ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Figure de Lièvre">
+<title>Lièvre</title>
+<desc>Dessin pédagogique calculé depuis les coordonnées des étoiles. Les noms sont les mêmes que dans le tableau de la fiche.</desc>
+<rect width="800" height="600" fill="#fbf9f4"/>
+<line x1="667.178" y1="75.188" x2="666.662" y2="229.841" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="666.662" y1="229.841" x2="740.000" y2="524.812" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="740.000" y1="524.812" x2="491.083" y2="442.050" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="491.083" y1="442.050" x2="441.779" y2="302.973" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="593.763" y1="84.861" x2="666.662" y2="229.841" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="666.662" y1="229.841" x2="441.779" y2="302.973" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="441.779" y1="302.973" x2="279.550" y2="162.300" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="279.550" y1="162.300" x2="170.677" y2="133.595" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="170.677" y1="133.595" x2="60.000" y2="173.575" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="60.000" y1="173.575" x2="236.079" y2="449.660" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="236.079" y1="449.660" x2="312.907" y2="522.448" stroke="#1a4f8b" stroke-width="2.5"/>
+<line x1="312.907" y1="522.448" x2="491.083" y2="442.050" stroke="#1a4f8b" stroke-width="2.5"/>
+<circle cx="740.000" cy="524.812" r="3.06" fill="#222" data-star="simbad:773400"/>
+<circle cx="666.662" cy="229.841" r="2.97" fill="#222" data-star="simbad:772382"/>
+<circle cx="667.178" cy="75.188" r="2.20" fill="#222" data-star="simbad:15318635"/>
+<circle cx="593.763" cy="84.861" r="2.20" fill="#222" data-star="simbad:787617"/>
+<circle cx="491.083" cy="442.050" r="3.33" fill="#222" data-star="simbad:816376"/>
+<circle cx="441.779" cy="302.973" r="3.54" fill="#222" data-star="simbad:816204"/>
+<circle cx="312.907" cy="522.448" r="2.72" fill="#222" data-star="simbad:832345"/>
+<circle cx="279.550" cy="162.300" r="2.78" fill="#222" data-star="simbad:831546"/>
+<circle cx="236.079" cy="449.660" r="2.52" fill="#222" data-star="simbad:847412"/>
+<circle cx="170.677" cy="133.595" r="2.62" fill="#222" data-star="simbad:846675"/>
+<circle cx="60.000" cy="173.575" r="2.20" fill="#222" data-star="simbad:863808"/>
+<text x="753.00" y="511.81" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ε Lep</text>
+<text x="679.66" y="216.84" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">μ Lep</text>
+<text x="680.18" y="62.19" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">κ Lep</text>
+<text x="606.76" y="71.86" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">λ Lep</text>
+<text x="504.08" y="429.05" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Nihal</text>
+<text x="454.78" y="289.97" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">Arneb</text>
+<text x="325.91" y="509.45" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">γ Lep</text>
+<text x="292.55" y="149.30" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">ζ Lep</text>
+<text x="249.08" y="436.66" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">δ Lep</text>
+<text x="183.68" y="120.59" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">η Lep</text>
+<text x="73.00" y="160.57" dominant-baseline="middle" font-family="Arial,sans-serif" font-size="12" fill="#333" paint-order="stroke" stroke="#fbf9f4" stroke-width="4" stroke-linejoin="round">θ Lep</text>
 </svg>

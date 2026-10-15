@@ -8,67 +8,228 @@
   "source_atlas": "Fiche Atlas « Cassiopée » (014-cassiop-e.txt)",
   "saison": "Automne",
   "voie_lactee": true,
-  "repere_principal": "Le W de Cassiopée (β, α, γ, δ, ε Cas), repère polaire facile à trouver toute l'année depuis la Belgique",
-  "constellations_voisines": [],
+  "repere_principal": "Retrouver le W de Cassiopée, puis repérer sa position par rapport à l’étoile polaire et à la Grande Ourse.",
+  "constellations_voisines": [
+    "Andromède",
+    "Girafe",
+    "Céphée",
+    "Lézard",
+    "Persée"
+  ],
   "etoiles": [
     {
       "i": 0,
       "nom": "Caph",
-      "bayer": "bet Cas",
+      "bayer": "β Cas",
       "ra_deg": 2.29452,
       "dec_deg": 59.14978,
       "mag": 2.27,
-      "role": "La main ouest — géante jaune-blanc",
+      "role": "Extrémité ouest du W — géante jaune-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * bet Cas ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Caph",
+      "bayer_catalogue": "bet Cas",
+      "type_spectral": "F2III",
+      "nature_stellaire": "Géante jaune-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* bet Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* bet Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Caph",
+      "identifiant": "simbad:129059",
+      "simbad_id": "* bet Cas",
+      "constellation_iau": "Cas",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* bet Cas",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20bet%20Cas",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 1,
       "nom": "Schedar",
-      "bayer": "alf Cas",
+      "bayer": "α Cas",
       "ra_deg": 10.12685,
       "dec_deg": 56.53733,
       "mag": 2.23,
-      "role": "La plus brillante de la figure — géante orange",
+      "role": "Sommet ouest du W — géante orangée",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * alf Cas ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Schedar",
+      "bayer_catalogue": "alf Cas",
+      "type_spectral": "K0-IIIa",
+      "nature_stellaire": "Géante orangée",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* alf Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* alf Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Schedar",
+      "identifiant": "simbad:106481",
+      "simbad_id": "* alf Cas",
+      "constellation_iau": "Cas",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* alf Cas",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20alf%20Cas",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 2,
-      "nom": "Gamma Cas",
-      "bayer": "gam Cas",
+      "nom": "γ Cas",
+      "bayer": "γ Cas",
       "ra_deg": 14.17721,
       "dec_deg": 60.71674,
       "mag": 2.39,
-      "role": "Le siège — sous-géante bleue",
+      "role": "Sommet central du W — sous-géante bleu-blanc",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * gam Cas ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": null,
+      "bayer_catalogue": "gam Cas",
+      "type_spectral": "B0.5IVpe",
+      "nature_stellaire": "Sous-géante bleu-blanc",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* gam Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* gam Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "γ Cas",
+      "identifiant": "simbad:132509",
+      "simbad_id": "* gam Cas",
+      "constellation_iau": "Cas",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* gam Cas",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20gam%20Cas",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 3,
       "nom": "Ruchbah",
-      "bayer": "del Cas",
+      "bayer": "δ Cas",
       "ra_deg": 21.45396,
       "dec_deg": 60.23528,
       "mag": 2.68,
-      "role": "Le genou — sous-géante blanche",
+      "role": "Creux est du W — sous-géante blanche",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * del Cas ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Ruchbah",
+      "bayer_catalogue": "del Cas",
+      "type_spectral": "A5IV",
+      "nature_stellaire": "Sous-géante blanche",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* del Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* del Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Ruchbah",
+      "identifiant": "simbad:168281",
+      "simbad_id": "* del Cas",
+      "constellation_iau": "Cas",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* del Cas",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20del%20Cas",
+          "consulte": "2026-10-15"
+        }
+      }
     },
     {
       "i": 4,
       "nom": "Segin",
-      "bayer": "eps Cas",
+      "bayer": "ε Cas",
       "ra_deg": 28.59889,
       "dec_deg": 63.6701,
       "mag": 3.37,
-      "role": "Le pied — naine bleue",
+      "role": "Extrémité est du W — étoile bleu-blanc de la séquence principale",
       "visibilite": "œil nu",
-      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+      "src": "SIMBAD : * eps Cas ; photométrie V ; type spectral consulté le 2026-10-15",
+      "nom_iau": "Segin",
+      "bayer_catalogue": "eps Cas",
+      "type_spectral": "B3Vp_sh",
+      "nature_stellaire": "Étoile bleu-blanc de la séquence principale",
+      "bande_mag": "V",
+      "source_mag": {
+        "catalogue": "SIMBAD allfluxes.V",
+        "identifiant": "* eps Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "source_type": {
+        "catalogue": "SIMBAD basic.sp_type",
+        "identifiant": "* eps Cas",
+        "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Cas",
+        "consulte": "2026-10-15"
+      },
+      "etiq": "Segin",
+      "identifiant": "simbad:205738",
+      "simbad_id": "* eps Cas",
+      "constellation_iau": "Cas",
+      "source_constellation": "Frontières UAI B1875, Roman 1987, via Astropy 8.0.1 depuis les coordonnées ICRS ; pas une inférence depuis le nom Bayer.",
+      "source_role": {
+        "position": "Dessin stéréographique calculé depuis ra_deg/dec_deg ; parties nommées uniquement pour le tracé pédagogique documenté.",
+        "physique": {
+          "catalogue": "SIMBAD basic.sp_type",
+          "identifiant": "* eps Cas",
+          "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%2A%20eps%20Cas",
+          "consulte": "2026-10-15"
+        }
+      }
     }
   ],
   "figure": {
-    "statut": "CHOIX PEDAGOGIQUE, explicitement assumé. Figure etablie depuis les coordonnées SIMBAD, puis VERIFIEE par mesure des distances angulaires et controle visuel du rendu.",
+    "statut": "Construction pédagogique documentée ; les limites UAI ne prescrivent pas un tracé figuratif unique.",
     "liaisons": [
       [
         0,
@@ -87,26 +248,65 @@
         4
       ]
     ],
-    "commentaire": "Forme retenue : le W — les cinq étoiles principales reliées dans l'ordre du zigzag (β Caph → α Schedar → γ → δ Ruchbah → ε Segin).",
-    "note_geometrie": "Les cinq étoiles forment un zigzag régulier : les segments mesurent 4,91° / 4,68° / 3,62° / 4,80° et les déclinaisons passent alternativement de +56° à +64°. C'est cette alternance qui donne le W. Aucune liaison n'est ambiguë : chacune est la plus courte entre deux étoiles voisines de la chaîne.",
-    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé montre UNE construction possible, pas la seule réponse juste : deux élèves peuvent relier différemment et avoir tous les deux raison."
+    "commentaire": "Dessin retenu pour Cassiopée : 5 étoiles et 4 segments. Les traits indiquent des directions apparentes, pas des liaisons physiques entre les étoiles.",
+    "note_geometrie": "La figure s’étend sur environ 13,3°. Le segment le plus court relie γ Cas à Ruchbah (3,62°). Le plus long relie Caph à Schedar (4,92°). Les localisations « haut », « bas », « gauche » et « droite » des rôles se rapportent au dessin affiché, pas à une orientation permanente par rapport à l’horizon.",
+    "mode_libre": "Plusieurs dessins sont possibles. Le corrigé est une convention de repérage, pas une réponse astronomique unique."
   },
-  "distances_angulaires_deg": {
-    "Caph–Schedar": 4.91,
-    "Schedar–Gamma Cas": 4.68,
-    "Gamma Cas–Ruchbah": 3.62,
-    "Ruchbah–Segin": 4.8
-  },
+  "distances_angulaires_deg": [
+    {
+      "a": 0,
+      "b": 1,
+      "deg": 4.915
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "deg": 4.6792
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "deg": 3.6162
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "deg": 4.7994
+    }
+  ],
   "objets_ciel_profond": [
     {
-      "id": "M52",
+      "id": "M 52",
       "nature": "amas ouvert",
       "mag": 6.9,
       "distance_al": 5470,
       "note": "Amas ouvert dense et riche, en fourmilière serrée. Aisé aux jumelles, il se résout en étoiles dans une petite lunette. À 5° du célèbre NGC 7635 (Bulle).",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC7654, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7654",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7654",
+        "alias_interroge": "NGC7654",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7654",
+        "alias_interroge": "NGC7654",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "M 103",
@@ -115,8 +315,31 @@
       "distance_al": 8740,
       "note": "Petit amas ouvert en triangle, un des derniers du catalogue Messier. Quelques étoiles brillantes dominent un fond de faibles étoiles ; très joli à la lunette.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC0581, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0581",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0581",
+        "alias_interroge": "NGC0581",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0581",
+        "alias_interroge": "NGC0581",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 457",
@@ -124,9 +347,32 @@
       "mag": 6.4,
       "distance_al": 10300,
       "note": "Amas ouvert du Hibou (ou E.T.) : deux étoiles brillantes figurent les yeux, et sa forme évoque une chouette. Très spectaculaire aux jumelles et en lunette.",
-      "instrument": "œil nu",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "instrument": "jumelles",
+      "src": "OpenNGC, NGC0457, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0457",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0457",
+        "alias_interroge": "NGC0457",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0457",
+        "alias_interroge": "NGC0457",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7789",
@@ -135,28 +381,89 @@
       "distance_al": 7200,
       "note": "Amas ouvert très riche des « Roseaux » — une rose de faibles étoiles serrées. Un des plus beaux amas ouverts pour un télescope de 100 mm et plus.",
       "instrument": "jumelles",
-      "src": "OpenNGC + Wikidata",
-      "code": "O1"
+      "src": "OpenNGC, NGC7789, photométrie V ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7789",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7789",
+        "alias_interroge": "NGC7789",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "V",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7789",
+        "alias_interroge": "NGC7789",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 59",
       "nature": "nébuleuse par réflexion",
       "mag": null,
       "distance_al": null,
-      "note": "Aucune magnitude publiée pour cette nébuleuse diffuse ; elle se repère à sa position, à 1° environ de γ Cassiopeiae.",
-      "instrument": "n. d.",
-      "src": "Wikidata ; magnitude et distance non publiées",
-      "code": "W1†‡"
+      "note": "Aucune magnitude publiée pour cette nébuleuse diffuse ; elle se repère à sa position, à 1° environ de γ Cassiopeiae. Magnitude non renseignée dans les sources retenues. Distance non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, IC0059, photométrie non renseignée ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "IC0059",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0059",
+        "alias_interroge": "IC0059",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 63",
       "nature": "nébuleuse en émission",
       "mag": 13.33,
       "distance_al": null,
-      "note": "Nébuleuse en émission faible, voisine d'IC 59 et excitée par γ Cassiopeiae. À photographier, hors de portée de l'œil.",
+      "note": "Nébuleuse en émission faible, voisine d'IC 59 et excitée par γ Cassiopeiae. À photographier, hors de portée de l'œil. Distance non renseignée dans les sources retenues.",
       "instrument": "télescope",
-      "src": "OpenNGC (magnitude B) + Wikidata ; distance non publiée",
-      "code": "O2‡"
+      "src": "OpenNGC, IC0063, photométrie B ; distance non renseignée",
+      "code": "ON",
+      "identifiant_catalogue": "IC0063",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0063",
+        "alias_interroge": "IC0063",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "IC0063",
+        "alias_interroge": "IC0063",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "statut": "distance non renseignée dans les sources retenues"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 7635",
@@ -164,29 +471,90 @@
       "mag": 11.0,
       "distance_al": 7860,
       "note": "Nébuleuse de la Bulle : une sphère de gaz soufflée par une étoile chaude. Sa magnitude en bande B (11) la rend exigeante ; très belle en photo à fort grossissement.",
-      "instrument": "lunette",
-      "src": "OpenNGC (magnitude B) + Wikidata",
-      "code": "O2"
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC7635, photométrie B ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC7635",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7635",
+        "alias_interroge": "NGC7635",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": "B",
+      "source_magnitude": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC7635",
+        "alias_interroge": "NGC7635",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "OpenNGC (magnitude B) + Wikidata",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "NGC 281",
       "nature": "nébuleuse en émission",
       "mag": null,
       "distance_al": 9500,
-      "note": "Aucune magnitude publiée pour cette nébuleuse diffuse (dite « Pacman ») ; on la repère au filtre UHC, autour de l'amas IC 1590.",
-      "instrument": "n. d.",
-      "src": "Wikidata ; magnitude non publiée",
-      "code": "W1†"
+      "note": "Aucune magnitude publiée pour cette nébuleuse diffuse (dite « Pacman ») ; on la repère au filtre UHC, autour de l'amas IC 1590. Magnitude non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, NGC0281, photométrie non renseignée ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "NGC0281",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "NGC0281",
+        "alias_interroge": "NGC0281",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "Wikidata ; magnitude non publiée",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     },
     {
       "id": "IC 1590",
-      "nature": "amas + nébuleuse",
+      "nature": "amas ouvert et nébuleuse",
       "mag": null,
       "distance_al": 9620,
-      "note": "Amas très jeune noyé dans la nébuleuse NGC 281 ; aucune magnitude publiée séparément pour l'amas.",
-      "instrument": "n. d.",
-      "src": "Wikidata ; magnitude non publiée",
-      "code": "W1†"
+      "note": "Amas très jeune noyé dans la nébuleuse NGC 281 ; aucune magnitude publiée séparément pour l'amas. Magnitude non renseignée dans les sources retenues.",
+      "instrument": "télescope",
+      "src": "OpenNGC, IC1590, photométrie non renseignée ; distance indicative, provenance détaillée dans les données",
+      "code": "ON",
+      "identifiant_catalogue": "IC1590",
+      "constellation_catalogue": "Cas",
+      "source_catalogue": {
+        "catalogue": "OpenNGC",
+        "entree": "IC1590",
+        "alias_interroge": "IC1590",
+        "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/master/database_files/NGC.csv",
+        "consulte": "2026-10-15"
+      },
+      "bande_mag": null,
+      "source_magnitude": {
+        "statut": "pas de magnitude intégrée B/V retenue dans OpenNGC ; ancienne valeur non confirmée retirée"
+      },
+      "source_distance": {
+        "provenance": "valeur de la fiche antérieure, dont la provenance déclarée est conservée",
+        "source_declaree": "Wikidata ; magnitude non publiée",
+        "statut": "distance indicative ; publication primaire non revalidée lors de cette correction"
+      },
+      "conseil_observation": "Conseil de repérage sous un ciel sombre ; la nature, l’étendue, le contraste et le grossissement comptent aussi. La magnitude seule ne garantit pas la visibilité."
     }
   ],
   "codification_luminosite": [
@@ -218,41 +586,33 @@
   ],
   "questions_observation": [
     {
-      "q": "Quelle étoile est la plus facile à repérer ?",
-      "r": "Les cinq étoiles du W se voient toutes à l'œil nu. Schedar (α Cas, mag 2,23) est la plus brillante du groupe, suivie de près par Caph (β, 2,27)."
+      "q": "Quelle étoile a le plus petit nombre de magnitude V parmi les valeurs confirmées du tableau ?",
+      "r": "Schedar, avec 2,23 en bande V. C’est l’éclat tabulé le plus élevé parmi les valeurs V confirmées de cette sélection ; une étoile variable peut modifier ce classement selon la date. Ne pas mélanger sans réserve des bandes photométriques différentes."
     },
     {
-      "q": "Quelles étoiles forment le groupe le plus reconnaissable ?",
-      "r": "Les cinq étoiles du W : Caph – Schedar – Gamma Cas – Ruchbah – Segin. C'est ce tracé qui rend la constellation identifiable au premier coup d'œil."
+      "q": "Quelle liaison permet de travailler une petite séparation angulaire ?",
+      "r": "γ Cas – Ruchbah : environ 3,62°. Cette séparation est calculée depuis les coordonnées, indépendamment des noms affichés."
     },
     {
-      "q": "Quelle différence de couleur observes-tu entre les étoiles ?",
-      "r": "Gamma Cas est bleu-blanc (type B0.5IV), Schedar orangée (K0-IIIa), Caph jaune-blanc (F2III), Ruchbah blanche (A5IV). Le contraste est net à l'œil nu."
-    },
-    {
-      "q": "La forme est-elle évidente à l'œil nu ?",
-      "r": "Oui, c'est l'une des figures les plus lisibles du ciel : le W se reconnaît immédiatement, sans instrument, même depuis un site moyennement pollué."
-    },
-    {
-      "q": "Quels objets nécessitent des jumelles ou un télescope ?",
-      "r": "Les amas et nébuleuses de la constellation (M52, M103, NGC 457, NGC 7635…) : NGC 457 est le plus accessible, les autres demandent un instrument."
+      "q": "Les étoiles du dessin forment-elles nécessairement un groupe réel ?",
+      "r": "Non. Cassiopée désigne une région du ciel et le dessin relie des directions apparentes. Des étoiles voisines sur la carte peuvent être à des distances très différentes ; un amas physique est une autre notion."
     }
   ],
   "questions_guide": [
     {
-      "q": "Pourquoi Cassiopée est-elle si facile à retrouver dans le ciel ?",
-      "r": "Parce que sa forme en « W » (β, α, γ, δ, ε Cas) est très caractéristique et qu'elle est circumpolaire : depuis la Belgique, elle ne se couche jamais."
+      "q": "Pourquoi le W change-t-il d’orientation au cours de la nuit ?",
+      "r": "La rotation de la Terre fait tourner le ciel en apparence autour du pôle céleste. Les étoiles principales de Cassiopée restent au-dessus de l’horizon depuis la Belgique, mais leur orientation par rapport à cet horizon change."
     },
     {
-      "q": "Quel rôle Cassiopée joue-t-elle pour trouver le nord ?",
-      "r": "Elle fait face à la Grande Ourse de part et d'autre de l'étoile polaire. La ligne qui la relie au W de la Grande Ourse passe à peu près par le pôle céleste."
+      "q": "Comment utiliser les rôles indiqués à côté des étoiles ?",
+      "r": "Repérer d’abord leur place dans le dessin de Cassiopée. Les mots haut, bas, gauche et droite décrivent la carte affichée. Les propriétés physiques après le tiret proviennent du catalogue ; la position apparente ne donne pas la distance réelle."
     },
     {
-      "q": "Pourquoi trouve-t-on ici beaucoup d'amas et de nébuleuses ?",
-      "r": "Parce que la constellation est traversée par la Voie lactée : dans cette direction, notre regard longe le plan de la Galaxie, où se concentrent étoiles, amas et nuages de gaz."
+      "q": "Quel objet choisir pour commencer dans cette fiche ?",
+      "r": "M 52 : amas ouvert. Amas ouvert dense et riche, en fourmilière serrée. Aisé aux jumelles, il se résout en étoiles dans une petite lunette. À 5° du célèbre NGC 7635 (Bulle). Conseil de repérage : jumelles. Vérifier les conditions du ciel et le champ de l’instrument avant l’observation."
     }
   ],
-  "message_animation": "Cassiopée se reconnaît immédiatement à son W. On peut d'abord tracer la ligne brisée des cinq étoiles principales, puis montrer que la même zone contient des amas ouverts et des restes de supernova, très différents par leur nature et leur distance.",
+  "message_animation": "Retrouver le W de Cassiopée, puis repérer sa position par rapport à l’étoile polaire et à la Grande Ourse. Selon l’heure, le W peut sembler tourné ou renversé. Cette rotation apparente accompagne celle du ciel autour du pôle céleste.",
   "tracabilite": {
     "etoiles": "SIMBAD TAP/ADQL (simbad.u-strasbg.fr), filtre V, requete 2026-10-12",
     "objets": "Fiche Atlas « Cassiopée » (014-cassiop-e.txt)",
@@ -260,64 +620,51 @@
     "manquantes": [],
     "figure_pedagogique": "le W",
     "questions": {
-      "source": "Types spectraux : SIMBAD TAP (basic.sp_type, classification MK) — collecte 2026-10-12",
-      "magnitudes": "valeurs de l'app (Gaia DR3 / Hipparcos via Wikipedia)",
-      "redaction": "éléments de réponse rédigés par Gérard, ancrés sur les données mesurées",
-      "statut": "à relire par Christophe avant diffusion"
-    }
+      "source": "SIMBAD/OpenNGC pour les données ; calcul sphérique pour les distances ; définition UAI des constellations pour les notions de repérage",
+      "redaction": "Gérard, révision 2026-10-15"
+    },
+    "statut": "Révision de qualité du 2026-10-15 ; limites de vérification explicites, aucune certification absolue",
+    "revision_qualite": {
+      "date": "2026-10-15",
+      "identites": "SIMBAD : identifiants exacts ou identité positionnelle explicitement résolue ; réponses conservées par Gérard",
+      "types_spectraux": "sources détaillées pour chaque étoile ; spectres complexes non réduits abusivement à une classe simple",
+      "geometrie": "séparations sphériques calculées depuis les coordonnées du dessin",
+      "noms": "liste IAU-CSN datée utilisée pour les alias, formes françaises attestées pour l’affichage",
+      "redaction": "Gérard : repérage, notions physiques et réponses calculées, sans anatomie non documentée",
+      "limites": [
+        "Les distances d’objets héritées sont indicatives : leur publication primaire reste à revalider.",
+        "Le critère d’observation est géométrique et ne modélise pas la nuit astronomique, le relief, la météo ni la pollution lumineuse."
+      ],
+      "decisions_objets": [],
+      "metadonnees": "Frontières UAI B1875 via Roman 1987/Astropy 8.0.1 pour les appartenances et voisins ; traversée du plan galactique b=0° explicitement définie.",
+      "etoiles_voisines": []
+    },
+    "source_figures": "Dessin pédagogique ; UAI : https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+    "lacunes": []
   },
   "referentiel_sources": {
-    "titre": "D'où viennent ces données ?",
-    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "titre": "Sources et limites",
+    "intro": "La source de chaque étoile et de chaque objet est conservée dans les données ; les distances héritées sont indicatives.",
     "lignes": [
       {
-        "code": "O1",
-        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+        "code": "ON",
+        "texte": "OpenNGC : identité, nature et photométrie B/V ; distances héritées indicatives."
       },
       {
-        "code": "O2",
-        "texte": "OpenNGC, magnitude en bande B",
-        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+        "code": "B+O",
+        "texte": "OpenNGC pour l’identité ; table de Baumgardt pour la distance et la magnitude V des amas globulaires."
       },
       {
-        "code": "S1",
-        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+        "code": "AT",
+        "texte": "Données de l’Atlas antérieur conservées et signalées comme telles ; source primaire à revalider."
       },
       {
-        "code": "S2",
-        "texte": "SIMBAD (magnitude) seule",
-        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-      },
-      {
-        "code": "W1",
-        "texte": "Wikidata seule",
-        "detail": "Aucune valeur de catalogue disponible pour cet objet."
-      },
-      {
-        "code": "A1",
-        "texte": "Atlas, corrigé page 2",
-        "detail": "Valeur reprise de l'atlas de référence du guide."
-      },
-      {
-        "code": "INSTR",
-        "texte": "n. d. — instrument non déterminé",
-        "detail": "L'Atlas ne précise pas, pour cet objet, l'instrument à utiliser. La mention est conservée telle quelle plutôt que comblée par une valeur inventée."
+        "code": "SIMBAD",
+        "texte": "Identités et types spectraux des étoiles ; magnitudes V disponibles."
       }
     ],
-    "marqueurs": [
-      {
-        "code": "†",
-        "texte": "magnitude non publiée",
-        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-      },
-      {
-        "code": "‡",
-        "texte": "distance non publiée",
-        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-      }
-    ],
-    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
-  }
+    "marqueurs": [],
+    "note_fin": "Une valeur absente ou non confirmée est signalée, jamais remplacée par une estimation inventée."
+  },
+  "voie_lactee_definition": "Le plan galactique (latitude galactique b = 0°) traverse les frontières UAI de la constellation ; ce critère ne prédit pas la visibilité de la bande diffuse."
 }
