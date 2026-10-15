@@ -32,7 +32,7 @@
       "ra_deg": 307.3951,
       "dec_deg": 62.9941,
       "mag": 4.21,
-      "role": "",
+      "role": "Le bras — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -43,7 +43,7 @@
       "ra_deg": 311.322,
       "dec_deg": 61.8368,
       "mag": 3.41,
-      "role": "",
+      "role": "Le corps — sous-géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -54,7 +54,7 @@
       "ra_deg": 319.6441,
       "dec_deg": 62.5855,
       "mag": 2.45,
-      "role": "Nom officiel IAU. Magnitude 2,45.",
+      "role": "La plus brillante de la figure — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -65,7 +65,7 @@
       "ra_deg": 325.8769,
       "dec_deg": 58.7801,
       "mag": 4.23,
-      "role": "",
+      "role": "Le corps — supergéante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -76,7 +76,7 @@
       "ra_deg": 333.757,
       "dec_deg": 57.0435,
       "mag": 4.18,
-      "role": "",
+      "role": "Le pied — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -87,7 +87,7 @@
       "ra_deg": 332.7136,
       "dec_deg": 58.2012,
       "mag": 3.39,
-      "role": "",
+      "role": "La jambe — supergéante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -98,7 +98,7 @@
       "ra_deg": 337.2927,
       "dec_deg": 58.4152,
       "mag": 4.07,
-      "role": "",
+      "role": "La hanche — supergéante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -109,7 +109,7 @@
       "ra_deg": 342.4205,
       "dec_deg": 66.2007,
       "mag": 3.5,
-      "role": "",
+      "role": "Le bras — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -120,7 +120,7 @@
       "ra_deg": 322.1649,
       "dec_deg": 70.5607,
       "mag": 3.23,
-      "role": "",
+      "role": "L'épaule — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -131,7 +131,7 @@
       "ra_deg": 354.8374,
       "dec_deg": 77.632,
       "mag": 3.21,
-      "role": "Nom officiel IAU. Magnitude 3,21.",
+      "role": "La tête — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     }

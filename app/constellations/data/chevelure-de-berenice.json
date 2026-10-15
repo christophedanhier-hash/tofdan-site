@@ -1,339 +1,339 @@
 {
- "id": "chevelure-de-berenice",
- "slug": "chevelure-de-berenice",
- "nom_fr": "Chevelure de Bérénice",
- "nom_latin": "Coma Berenices",
- "genitif": "Comae Berenices",
- "abreviation_iau": "Com",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   17,
-   18,
-   19
-  ]
- },
- "saison": "printemps",
- "voie_lactee": false,
- "repere_principal": "Melotte 111, l'amas ouvert étalé qui forme la « chevelure », à mi-chemin entre Arcturus et la Grande Ourse",
- "constellations_voisines": [
-  "Le Bouvier",
-  "Les Chiens de Chasse",
-  "La Grande Ourse",
-  "Le Lion",
-  "La Vierge"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "Diadem",
-   "bayer": "alf Com",
-   "ra_deg": 197.49702,
-   "dec_deg": 17.52946,
-   "mag": 4.32,
-   "role": "Extrémité du tracé, reliée à Beta Com.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  "id": "chevelure-de-berenice",
+  "slug": "chevelure-de-berenice",
+  "nom_fr": "Chevelure de Bérénice",
+  "nom_latin": "Coma Berenices",
+  "genitif": "Comae Berenices",
+  "abreviation_iau": "Com",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      17,
+      18,
+      19
+    ]
   },
-  {
-   "i": 1,
-   "nom": "Beta Com",
-   "bayer": "bet Com",
-   "ra_deg": 197.96831,
-   "dec_deg": 27.87818,
-   "mag": 4.25,
-   "role": "Maillon intermédiaire entre Diadem et Gamma Com.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  },
-  {
-   "i": 2,
-   "nom": "Gamma Com",
-   "bayer": "gam Com",
-   "ra_deg": 186.73447,
-   "dec_deg": 28.26842,
-   "mag": 4.34,
-   "role": "Extrémité du tracé, reliée à Beta Com.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    0,
-    1
-   ],
-   [
-    1,
-    2
-   ]
+  "saison": "printemps",
+  "voie_lactee": false,
+  "repere_principal": "Melotte 111, l'amas ouvert étalé qui forme la « chevelure », à mi-chemin entre Arcturus et la Grande Ourse",
+  "constellations_voisines": [
+    "Le Bouvier",
+    "Les Chiens de Chasse",
+    "La Grande Ourse",
+    "Le Lion",
+    "La Vierge"
   ],
-  "commentaire": "Tracé retenu : la ligne Diadem–Beta Com–Gamma Com, qui dessine une barre allongée de trois étoiles.",
-  "note_geometrie": "La figure officielle de cette constellation est une simple barre de trois étoiles, sans aucune branche : Diadem–Beta Com 10,36° puis Beta Com–Gamma Com 9,92°. Les deux segments sont de longueur presque identique (écart de 0,4°), ce qui donne à l'ensemble l'aspect d'un trait régulier. C'est volontairement minimal : la richesse de la Chevelure de Bérénice n'est pas dans ses étoiles (aucune ne dépasse la magnitude 4,25) mais dans ses objets du ciel profond.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Diadem–Beta Com": 10.36,
-  "Beta Com–Gamma Com": 9.92
- },
- "objets_ciel_profond": [
-  {
-   "id": "Melotte 111",
-   "nature": "amas ouvert",
-   "mag": 1.8,
-   "distance_al": 280,
-   "note": "Amas ouvert très riche mais dispersé, à environ 280 années-lumière, visible à l'œil nu.",
-   "instrument": "œil nu",
-   "src": "W1",
-   "code": "W1"
-  },
-  {
-   "id": "M 53",
-   "nature": "amas globulaire",
-   "mag": 7.79,
-   "distance_al": 60339,
-   "note": "Amas globulaire de magnitude 7,79, à environ 60 300 années-lumière (l'Atlas indique 90 000).",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4147",
-   "nature": "amas globulaire",
-   "mag": 10.74,
-   "distance_al": 60469,
-   "note": "Amas globulaire faible (magnitude 10,74), à environ 60 500 années-lumière (l'Atlas indique 150 000).",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 64",
-   "nature": "galaxie",
-   "mag": 8.52,
-   "distance_al": 15691740,
-   "note": "Galaxie spirale de type Sb surnommée l'Œil-Noir, la plus brillante des galaxies de la constellation.",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 85",
-   "nature": "galaxie",
-   "mag": 9.05,
-   "distance_al": 51697863,
-   "note": "Galaxie de magnitude 9,05 (l'Atlas indique 10,20).",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 88",
-   "nature": "galaxie",
-   "mag": 10.33,
-   "distance_al": 65034061,
-   "note": "Galaxie spirale de type Sb, de magnitude 10,33.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 91",
-   "nature": "galaxie",
-   "mag": 10.96,
-   "distance_al": 55901569,
-   "note": "Galaxie spirale de type Sc, de magnitude 10,96.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 98",
-   "nature": "galaxie",
-   "mag": 10.84,
-   "distance_al": 57484344,
-   "note": "Galaxie spirale de magnitude 10,84, voisine de M 99 sur le ciel.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 99",
-   "nature": "galaxie",
-   "mag": 9.84,
-   "distance_al": 45118919,
-   "note": "Galaxie spirale de magnitude 9,84, à environ 45 millions d'années-lumière.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 100",
-   "nature": "galaxie",
-   "mag": 9.47,
-   "distance_al": 45216765,
-   "note": "Grande galaxie spirale de magnitude 9,47, à environ 45 millions d'années-lumière.",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4414",
-   "nature": "galaxie",
-   "mag": 10.2,
-   "distance_al": 60125731,
-   "note": "Galaxie spirale de magnitude 10,2, à environ 60 millions d'années-lumière.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4725",
-   "nature": "galaxie",
-   "mag": 9.38,
-   "distance_al": 42008893,
-   "note": "Galaxie spirale barrée de type SBb, de magnitude 9,38 (l'Atlas indique 10,20).",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4565",
-   "nature": "galaxie",
-   "mag": 10.86,
-   "distance_al": 41901375,
-   "note": "Galaxie spirale vue de profil, de magnitude 10,86 en bande V.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Beta Com, magnitude 4,25, juste devant Diadem (4,32) et Gamma Com (4,34) : trois étoiles presque égales, toutes faibles."
-  },
-  {
-   "q": "Pourquoi la figure est-elle difficile à voir ?",
-   "r": "Aucune étoile ne dépasse la magnitude 4,25 ; il faut un ciel sombre pour distinguer la barre Diadem–Beta Com–Gamma Com (10,36° puis 9,92°)."
-  },
-  {
-   "q": "Quel objet est le plus facile à repérer ?",
-   "r": "Melotte 111, amas ouvert de magnitude intégrée 1,8, à environ 280 années-lumière : très étalé, il se voit à l'œil nu et se contemple aux jumelles."
-  },
-  {
-   "q": "Quelle galaxie est la plus brillante de la liste ?",
-   "r": "M 64, l'Œil-Noir, magnitude 8,52 ; viennent ensuite M 85 (9,05) et NGC 4725 (9,38)."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Pourquoi Melotte 111 a-t-il une magnitude de 1,8 alors que ses étoiles sont bien plus faibles ?",
-   "r": "1,8 est la magnitude de l'amas entier, somme de la lumière de toutes ses étoiles ; chacune prise séparément est bien plus faible."
-  },
-  {
-   "q": "À quelle distance sont M 53 et NGC 4147 ?",
-   "r": "D'après Baumgardt & Vasiliev 2021, à environ 60 339 et 60 469 années-lumière. L'Atlas indique 90 000 et 150 000 : les valeurs récentes sont retenues."
-  },
-  {
-   "q": "Pourquoi y a-t-il tant de galaxies dans la Chevelure de Bérénice ?",
-   "r": "Parce que la constellation regarde hors du plan de la Galaxie : peu de gaz et de poussière nous masquent les galaxies lointaines, comme M 99 (45 118 919 a.l.) ou M 100 (45 216 765 a.l.)."
-  },
-  {
-   "q": "Que signifie « galaxie vue de profil » ?",
-   "r": "Que son disque est presque parallèle à notre ligne de visée, comme NGC 4565 : on voit une fine bande sombre de poussière."
-  }
- ],
- "message_animation": "La Chevelure de Bérénice est faible en étoiles (aucune ne dépasse la magnitude 4,25) mais exceptionnellement riche en objets : un amas ouvert de 280 années-lumière (Melotte 111), deux amas globulaires (M 53, NGC 4147) et dix galaxies, dont l'Œil-Noir (M 64).",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 17–19 (fiche Atlas « Chevelure de Bérénice »)",
-  "archive_texte": "atlas-observation-source/017-chevelure-de-b-r-nice.txt",
-  "coordonnees": "Hipparcos I311 / Gaia DR3",
-  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-  "lacunes": [
-   "Figure : seulement 3 étoiles ; aucune carte IAU officielle n'impose un tracé unique, le tracé retenu est documenté comme un choix.",
-   "Melotte 111 : la magnitude est celle de l'amas entier (source Wikidata), pas celle d'une étoile ; distance SIMBAD/Gaia.",
-   "M 53 et NGC 4147 : distances retenues (Baumgardt & Vasiliev 2021) différentes de celles de l'Atlas (90 000 et 150 000 a.l.).",
-   "NGC 4725 : parallaxe rejetée, distance issue de Wikidata."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Diadem",
+      "bayer": "alf Com",
+      "ra_deg": 197.49702,
+      "dec_deg": 17.52946,
+      "mag": 4.32,
+      "role": "La chevelure — naine jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Beta Com",
+      "bayer": "bet Com",
+      "ra_deg": 197.96831,
+      "dec_deg": 27.87818,
+      "mag": 4.25,
+      "role": "La plus brillante de la figure — naine jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 2,
+      "nom": "Gamma Com",
+      "bayer": "gam Com",
+      "ra_deg": 186.73447,
+      "dec_deg": 28.26842,
+      "mag": 4.34,
+      "role": "Le corps — géante orange",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "commentaire": "Tracé retenu : la ligne Diadem–Beta Com–Gamma Com, qui dessine une barre allongée de trois étoiles.",
+    "note_geometrie": "La figure officielle de cette constellation est une simple barre de trois étoiles, sans aucune branche : Diadem–Beta Com 10,36° puis Beta Com–Gamma Com 9,92°. Les deux segments sont de longueur presque identique (écart de 0,4°), ce qui donne à l'ensemble l'aspect d'un trait régulier. C'est volontairement minimal : la richesse de la Chevelure de Bérénice n'est pas dans ses étoiles (aucune ne dépasse la magnitude 4,25) mais dans ses objets du ciel profond.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Diadem–Beta Com": 10.36,
+    "Beta Com–Gamma Com": 9.92
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "Melotte 111",
+      "nature": "amas ouvert",
+      "mag": 1.8,
+      "distance_al": 280,
+      "note": "Amas ouvert très riche mais dispersé, à environ 280 années-lumière, visible à l'œil nu.",
+      "instrument": "œil nu",
+      "src": "W1",
+      "code": "W1"
+    },
+    {
+      "id": "M 53",
+      "nature": "amas globulaire",
+      "mag": 7.79,
+      "distance_al": 60339,
+      "note": "Amas globulaire de magnitude 7,79, à environ 60 300 années-lumière (l'Atlas indique 90 000).",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4147",
+      "nature": "amas globulaire",
+      "mag": 10.74,
+      "distance_al": 60469,
+      "note": "Amas globulaire faible (magnitude 10,74), à environ 60 500 années-lumière (l'Atlas indique 150 000).",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 64",
+      "nature": "galaxie",
+      "mag": 8.52,
+      "distance_al": 15691740,
+      "note": "Galaxie spirale de type Sb surnommée l'Œil-Noir, la plus brillante des galaxies de la constellation.",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 85",
+      "nature": "galaxie",
+      "mag": 9.05,
+      "distance_al": 51697863,
+      "note": "Galaxie de magnitude 9,05 (l'Atlas indique 10,20).",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 88",
+      "nature": "galaxie",
+      "mag": 10.33,
+      "distance_al": 65034061,
+      "note": "Galaxie spirale de type Sb, de magnitude 10,33.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 91",
+      "nature": "galaxie",
+      "mag": 10.96,
+      "distance_al": 55901569,
+      "note": "Galaxie spirale de type Sc, de magnitude 10,96.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 98",
+      "nature": "galaxie",
+      "mag": 10.84,
+      "distance_al": 57484344,
+      "note": "Galaxie spirale de magnitude 10,84, voisine de M 99 sur le ciel.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 99",
+      "nature": "galaxie",
+      "mag": 9.84,
+      "distance_al": 45118919,
+      "note": "Galaxie spirale de magnitude 9,84, à environ 45 millions d'années-lumière.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 100",
+      "nature": "galaxie",
+      "mag": 9.47,
+      "distance_al": 45216765,
+      "note": "Grande galaxie spirale de magnitude 9,47, à environ 45 millions d'années-lumière.",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4414",
+      "nature": "galaxie",
+      "mag": 10.2,
+      "distance_al": 60125731,
+      "note": "Galaxie spirale de magnitude 10,2, à environ 60 millions d'années-lumière.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4725",
+      "nature": "galaxie",
+      "mag": 9.38,
+      "distance_al": 42008893,
+      "note": "Galaxie spirale barrée de type SBb, de magnitude 9,38 (l'Atlas indique 10,20).",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4565",
+      "nature": "galaxie",
+      "mag": 10.86,
+      "distance_al": 41901375,
+      "note": "Galaxie spirale vue de profil, de magnitude 10,86 en bande V.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Beta Com, magnitude 4,25, juste devant Diadem (4,32) et Gamma Com (4,34) : trois étoiles presque égales, toutes faibles."
+    },
+    {
+      "q": "Pourquoi la figure est-elle difficile à voir ?",
+      "r": "Aucune étoile ne dépasse la magnitude 4,25 ; il faut un ciel sombre pour distinguer la barre Diadem–Beta Com–Gamma Com (10,36° puis 9,92°)."
+    },
+    {
+      "q": "Quel objet est le plus facile à repérer ?",
+      "r": "Melotte 111, amas ouvert de magnitude intégrée 1,8, à environ 280 années-lumière : très étalé, il se voit à l'œil nu et se contemple aux jumelles."
+    },
+    {
+      "q": "Quelle galaxie est la plus brillante de la liste ?",
+      "r": "M 64, l'Œil-Noir, magnitude 8,52 ; viennent ensuite M 85 (9,05) et NGC 4725 (9,38)."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Pourquoi Melotte 111 a-t-il une magnitude de 1,8 alors que ses étoiles sont bien plus faibles ?",
+      "r": "1,8 est la magnitude de l'amas entier, somme de la lumière de toutes ses étoiles ; chacune prise séparément est bien plus faible."
+    },
+    {
+      "q": "À quelle distance sont M 53 et NGC 4147 ?",
+      "r": "D'après Baumgardt & Vasiliev 2021, à environ 60 339 et 60 469 années-lumière. L'Atlas indique 90 000 et 150 000 : les valeurs récentes sont retenues."
+    },
+    {
+      "q": "Pourquoi y a-t-il tant de galaxies dans la Chevelure de Bérénice ?",
+      "r": "Parce que la constellation regarde hors du plan de la Galaxie : peu de gaz et de poussière nous masquent les galaxies lointaines, comme M 99 (45 118 919 a.l.) ou M 100 (45 216 765 a.l.)."
+    },
+    {
+      "q": "Que signifie « galaxie vue de profil » ?",
+      "r": "Que son disque est presque parallèle à notre ligne de visée, comme NGC 4565 : on voit une fine bande sombre de poussière."
+    }
+  ],
+  "message_animation": "La Chevelure de Bérénice est faible en étoiles (aucune ne dépasse la magnitude 4,25) mais exceptionnellement riche en objets : un amas ouvert de 280 années-lumière (Melotte 111), deux amas globulaires (M 53, NGC 4147) et dix galaxies, dont l'Œil-Noir (M 64).",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 17–19 (fiche Atlas « Chevelure de Bérénice »)",
+    "archive_texte": "atlas-observation-source/017-chevelure-de-b-r-nice.txt",
+    "coordonnees": "Hipparcos I311 / Gaia DR3",
+    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+    "lacunes": [
+      "Figure : seulement 3 étoiles ; aucune carte IAU officielle n'impose un tracé unique, le tracé retenu est documenté comme un choix.",
+      "Melotte 111 : la magnitude est celle de l'amas entier (source Wikidata), pas celle d'une étoile ; distance SIMBAD/Gaia.",
+      "M 53 et NGC 4147 : distances retenues (Baumgardt & Vasiliev 2021) différentes de celles de l'Atlas (90 000 et 150 000 a.l.).",
+      "NGC 4725 : parallaxe rejetée, distance issue de Wikidata."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

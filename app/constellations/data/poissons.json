@@ -33,7 +33,7 @@
       "ra_deg": 12.1704,
       "dec_deg": 7.5852,
       "mag": 4.5555,
-      "role": "",
+      "role": "Le ruban — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -44,7 +44,7 @@
       "ra_deg": 15.73607,
       "dec_deg": 7.89007,
       "mag": 4.4267,
-      "role": "",
+      "role": "Le ruban — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -55,7 +55,7 @@
       "ra_deg": 17.91494,
       "dec_deg": 30.08973,
       "mag": 4.6751,
-      "role": "",
+      "role": "Le ruban — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -66,7 +66,7 @@
       "ra_deg": 18.43251,
       "dec_deg": 7.57549,
       "mag": 5.2849,
-      "role": "",
+      "role": "Le ruban — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -77,7 +77,7 @@
       "ra_deg": 18.43723,
       "dec_deg": 24.58376,
       "mag": 4.834,
-      "role": "",
+      "role": "Le ruban — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -88,7 +88,7 @@
       "ra_deg": 19.86657,
       "dec_deg": 27.26409,
       "mag": 4.7736,
-      "role": "",
+      "role": "Le ruban — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -99,7 +99,7 @@
       "ra_deg": 22.5456,
       "dec_deg": 6.14393,
       "mag": 4.9799,
-      "role": "",
+      "role": "Le ruban — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -110,7 +110,7 @@
       "ra_deg": 22.87081,
       "dec_deg": 15.34583,
       "mag": 3.7914,
-      "role": "",
+      "role": "La plus brillante de la figure — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -121,7 +121,7 @@
       "ra_deg": 25.35795,
       "dec_deg": 5.48761,
       "mag": 4.5914,
-      "role": "",
+      "role": "Le ruban — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -132,7 +132,7 @@
       "ra_deg": 26.34829,
       "dec_deg": 9.15764,
       "mag": 4.4267,
-      "role": "",
+      "role": "La queue — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -143,7 +143,7 @@
       "ra_deg": 30.51167,
       "dec_deg": 2.76376,
       "mag": 3.8281,
-      "role": "",
+      "role": "Le nœud du ruban — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -154,7 +154,7 @@
       "ra_deg": 349.28956,
       "dec_deg": 3.28225,
       "mag": 3.8482,
-      "role": "",
+      "role": "Le ruban — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -165,7 +165,7 @@
       "ra_deg": 351.73294,
       "dec_deg": 1.25584,
       "mag": 4.9527,
-      "role": "",
+      "role": "Le ruban — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -176,7 +176,7 @@
       "ra_deg": 351.99237,
       "dec_deg": 6.3791,
       "mag": 4.4401,
-      "role": "",
+      "role": "Le ruban — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -187,7 +187,7 @@
       "ra_deg": 354.98675,
       "dec_deg": 5.62735,
       "mag": 4.2373,
-      "role": "",
+      "role": "Le ruban — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -198,7 +198,7 @@
       "ra_deg": 355.51201,
       "dec_deg": 1.78042,
       "mag": 4.5578,
-      "role": "",
+      "role": "Le ruban — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -209,7 +209,7 @@
       "ra_deg": 359.82751,
       "dec_deg": 6.86359,
       "mag": 4.1219,
-      "role": "",
+      "role": "Le ruban — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -324,7 +324,7 @@
       "r": "Faire partir du repère : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase."
     }
   ],
-  "message_animation": "Poissons : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase. Constellation de automne (17 étoiles figurées, 2 objet(s) du ciel profond).",
+  "message_animation": "Poissons : L'anneau (Circlet) et les deux poissons reliés par le lien, sous le Carré de Pégase. Constellation d'automne (17 étoiles figurées, 2 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 87–88 (fiche Atlas « Poissons »)",
     "archive_texte": "atlas-observation-source/087-*.txt",

@@ -18,7 +18,7 @@
       "ra_deg": 2.29452,
       "dec_deg": 59.14978,
       "mag": 2.27,
-      "role": "Extrémité ouest du W",
+      "role": "La main ouest — géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -29,7 +29,7 @@
       "ra_deg": 10.12685,
       "dec_deg": 56.53733,
       "mag": 2.23,
-      "role": "Sommet ouest du W",
+      "role": "La plus brillante de la figure — géante orange",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -40,7 +40,7 @@
       "ra_deg": 14.17721,
       "dec_deg": 60.71674,
       "mag": 2.39,
-      "role": "Sommet central du W",
+      "role": "Le siège — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -51,7 +51,7 @@
       "ra_deg": 21.45396,
       "dec_deg": 60.23528,
       "mag": 2.68,
-      "role": "Creux est du W",
+      "role": "Le genou — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -62,7 +62,7 @@
       "ra_deg": 28.59889,
       "dec_deg": 63.6701,
       "mag": 3.37,
-      "role": "Extrémité est du W",
+      "role": "Le pied — naine bleue",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     }

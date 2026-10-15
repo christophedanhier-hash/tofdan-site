@@ -31,7 +31,7 @@
       "ra_deg": 292.17671,
       "dec_deg": 24.66516,
       "mag": 4.5419,
-      "role": "",
+      "role": "La plus brillante de la figure — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -42,7 +42,7 @@
       "ra_deg": 298.36534,
       "dec_deg": 24.07953,
       "mag": 4.5682,
-      "role": "",
+      "role": "Le corps — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -160,7 +160,7 @@
       "r": "Faire partir du repère : Deux étoiles seulement : Anser et 13 Vulpeculae, juste au sud du Cygne."
     }
   ],
-  "message_animation": "Petit Renard : Deux étoiles seulement : Anser et 13 Vulpeculae, juste au sud du Cygne. Constellation de été (2 étoiles figurées, 5 objet(s) du ciel profond).",
+  "message_animation": "Petit Renard : Deux étoiles seulement : Anser et 13 Vulpeculae, juste au sud du Cygne. Constellation de été (2 étoiles figurées, 5 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 89–90 (fiche Atlas « Petit Renard »)",
     "archive_texte": "atlas-observation-source/089-*.txt",

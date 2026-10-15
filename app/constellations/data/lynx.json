@@ -1,285 +1,285 @@
 {
- "id": "lynx",
- "slug": "lynx",
- "nom_fr": "Lynx",
- "nom_latin": "Lynx",
- "genitif": "Lyncis",
- "abreviation_iau": "Lyn",
- "source_atlas": "Atlas observation.pdf, pages 66–67 (fiche Atlas « Lynx »)",
- "saison": "hiver",
- "voie_lactee": true,
- "repere_principal": "La constellation la plus discrète du ciel",
- "constellations_voisines": [
-  "Grande Ourse",
-  "Gémeaux",
-  "Cancer",
-  "Cocher",
-  "Girafe"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "hip": 30060,
-   "nom": "2 Lyn",
-   "etiq": "2",
-   "bayer": "",
-   "ra_deg": 94.906,
-   "dec_deg": 59.011,
-   "mag": 4.44,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 30060)"
-  },
-  {
-   "i": 1,
-   "hip": 33449,
-   "nom": "15 Lyn",
-   "etiq": "15",
-   "bayer": "",
-   "ra_deg": 104.319,
-   "dec_deg": 58.423,
-   "mag": 4.35,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 33449)"
-  },
-  {
-   "i": 2,
-   "hip": 36145,
-   "nom": "21 Lyn",
-   "etiq": "21",
-   "bayer": "",
-   "ra_deg": 111.679,
-   "dec_deg": 49.212,
-   "mag": 4.61,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 36145)"
-  },
-  {
-   "i": 3,
-   "hip": 41075,
-   "nom": "31 Lyn",
-   "etiq": "31",
-   "bayer": "",
-   "ra_deg": 125.709,
-   "dec_deg": 43.188,
-   "mag": 4.25,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 41075)"
-  },
-  {
-   "i": 4,
-   "hip": 44248,
-   "nom": "10 UMa",
-   "etiq": "10",
-   "bayer": "",
-   "ra_deg": 135.161,
-   "dec_deg": 41.783,
-   "mag": 3.96,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 44248) [constellation réelle : UMa]"
-  },
-  {
-   "i": 5,
-   "hip": 44700,
-   "nom": "HIP 44700",
-   "etiq": "HIP 44700",
-   "bayer": "",
-   "ra_deg": 136.632,
-   "dec_deg": 38.452,
-   "mag": 4.56,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 44700)"
-  },
-  {
-   "i": 6,
-   "hip": 45688,
-   "nom": "38 Lyn",
-   "etiq": "38",
-   "bayer": "",
-   "ra_deg": 139.711,
-   "dec_deg": 36.803,
-   "mag": 3.82,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 45688)"
-  },
-  {
-   "i": 7,
-   "hip": 45860,
-   "nom": "α Lyn",
-   "etiq": "α",
-   "bayer": "alf Lyn",
-   "ra_deg": 140.264,
-   "dec_deg": 34.393,
-   "mag": 3.14,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 45860)"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    7,
-    6,
-    5,
-    4,
-    3,
-    2,
-    1,
-    0
-   ]
+  "id": "lynx",
+  "slug": "lynx",
+  "nom_fr": "Lynx",
+  "nom_latin": "Lynx",
+  "genitif": "Lyncis",
+  "abreviation_iau": "Lyn",
+  "source_atlas": "Atlas observation.pdf, pages 66–67 (fiche Atlas « Lynx »)",
+  "saison": "hiver",
+  "voie_lactee": true,
+  "repere_principal": "La constellation la plus discrète du ciel",
+  "constellations_voisines": [
+    "Grande Ourse",
+    "Gémeaux",
+    "Cancer",
+    "Cocher",
+    "Girafe"
   ],
-  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 8 étoiles reliées par 7 segments.",
-  "note_geometrie": "Figure construite sur 8 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie 31 Lyn à 21 Lyn (11.40°) ; le plus court relie α Lyn à 38 Lyn (2.45°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "α Lyn–38 Lyn": 2.45,
-  "38 Lyn–HIP 44700": 2.94,
-  "HIP 44700–10 UMa": 3.52,
-  "10 UMa–31 Lyn": 7.11,
-  "31 Lyn–21 Lyn": 11.4,
-  "21 Lyn–15 Lyn": 10.17,
-  "15 Lyn–2 Lyn": 4.92
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 2683",
-   "nature": "galaxie",
-   "mag": 9.7,
-   "distance_al": null,
-   "note": "NGC 2683 — galaxie documenté(e) dans la fiche Atlas de Lynx.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2537",
-   "nature": "galaxie",
-   "mag": 11.7,
-   "distance_al": null,
-   "note": "NGC 2537 — galaxie documenté(e) dans la fiche Atlas de Lynx.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "α Lyn, magnitude 3.14, selon le catalogue Hipparcos (bande V)."
-  },
-  {
-   "q": "Quelles étoiles de la figure demandent un instrument ?",
-   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
-  },
-  {
-   "q": "Combien d'objets du ciel profond sont documentés dans Lynx ?",
-   "r": "2 objet(s), d'après la fiche Atlas correspondante."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Comment observer NGC 2683 ?",
-   "r": "NGC 2683 est un(e) galaxie de magnitude 9.7. Instrument conseillé : télescope. NGC 2683 — galaxie documenté(e) dans la fiche Atlas de Lynx."
-  },
-  {
-   "q": "Quand observer Lynx ?",
-   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La constellation la plus discrète du ciel."
-  }
- ],
- "message_animation": "Lynx — 8 étoiles reliées, 2 objet(s) du ciel profond documenté(s). Saison : hiver.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 66–67 (fiche Atlas « Lynx »)",
-  "archive_texte": null,
-  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-  "lacunes": [
-   "Aucune lacune identifiée."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "hip": 30060,
+      "nom": "2 Lyn",
+      "etiq": "2",
+      "bayer": "",
+      "ra_deg": 94.906,
+      "dec_deg": 59.011,
+      "mag": 4.44,
+      "role": "La patte — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 30060)"
+    },
+    {
+      "i": 1,
+      "hip": 33449,
+      "nom": "15 Lyn",
+      "etiq": "15",
+      "bayer": "",
+      "ra_deg": 104.319,
+      "dec_deg": 58.423,
+      "mag": 4.35,
+      "role": "Le corps — géante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 33449)"
+    },
+    {
+      "i": 2,
+      "hip": 36145,
+      "nom": "21 Lyn",
+      "etiq": "21",
+      "bayer": "",
+      "ra_deg": 111.679,
+      "dec_deg": 49.212,
+      "mag": 4.61,
+      "role": "Le corps — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 36145)"
+    },
+    {
+      "i": 3,
+      "hip": 41075,
+      "nom": "31 Lyn",
+      "etiq": "31",
+      "bayer": "",
+      "ra_deg": 125.709,
+      "dec_deg": 43.188,
+      "mag": 4.25,
+      "role": "Le corps — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 41075)"
+    },
+    {
+      "i": 4,
+      "hip": 44248,
+      "nom": "10 UMa",
+      "etiq": "10",
+      "bayer": "",
+      "ra_deg": 135.161,
+      "dec_deg": 41.783,
+      "mag": 3.96,
+      "role": "La patte arrière — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 44248) [constellation réelle : UMa]"
+    },
+    {
+      "i": 5,
+      "hip": 44700,
+      "nom": "HIP 44700",
+      "etiq": "HIP 44700",
+      "bayer": "",
+      "ra_deg": 136.632,
+      "dec_deg": 38.452,
+      "mag": 4.56,
+      "role": "La queue — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 44700)"
+    },
+    {
+      "i": 6,
+      "hip": 45688,
+      "nom": "38 Lyn",
+      "etiq": "38",
+      "bayer": "",
+      "ra_deg": 139.711,
+      "dec_deg": 36.803,
+      "mag": 3.82,
+      "role": "Le cou — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 45688)"
+    },
+    {
+      "i": 7,
+      "hip": 45860,
+      "nom": "α Lyn",
+      "etiq": "α",
+      "bayer": "alf Lyn",
+      "ra_deg": 140.264,
+      "dec_deg": 34.393,
+      "mag": 3.14,
+      "role": "La plus brillante de la figure — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 45860)"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 8 étoiles reliées par 7 segments.",
+    "note_geometrie": "Figure construite sur 8 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie 31 Lyn à 21 Lyn (11.40°) ; le plus court relie α Lyn à 38 Lyn (2.45°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "α Lyn–38 Lyn": 2.45,
+    "38 Lyn–HIP 44700": 2.94,
+    "HIP 44700–10 UMa": 3.52,
+    "10 UMa–31 Lyn": 7.11,
+    "31 Lyn–21 Lyn": 11.4,
+    "21 Lyn–15 Lyn": 10.17,
+    "15 Lyn–2 Lyn": 4.92
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 2683",
+      "nature": "galaxie",
+      "mag": 9.7,
+      "distance_al": null,
+      "note": "NGC 2683 — galaxie documenté(e) dans la fiche Atlas de Lynx.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2537",
+      "nature": "galaxie",
+      "mag": 11.7,
+      "distance_al": null,
+      "note": "NGC 2537 — galaxie documenté(e) dans la fiche Atlas de Lynx.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "α Lyn, magnitude 3.14, selon le catalogue Hipparcos (bande V)."
+    },
+    {
+      "q": "Quelles étoiles de la figure demandent un instrument ?",
+      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+    },
+    {
+      "q": "Combien d'objets du ciel profond sont documentés dans Lynx ?",
+      "r": "2 objets, d'après la fiche Atlas correspondante."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Comment observer NGC 2683 ?",
+      "r": "NGC 2683 est un(e) galaxie de magnitude 9.7. Instrument conseillé : télescope. NGC 2683 — galaxie documenté(e) dans la fiche Atlas de Lynx."
+    },
+    {
+      "q": "Quand observer Lynx ?",
+      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La constellation la plus discrète du ciel."
+    }
+  ],
+  "message_animation": "Le Lynx est la constellation la plus discrète du ciel : Johannes Hevelius lui a donné ce nom parce qu'il fallait, disait-il, des yeux de lynx pour la voir. On peut la repérer entre la Grande Ourse et les Gémeaux, puis chercher ses deux galaxies NGC 2683 et NGC 2537, accessibles aux instruments amateurs.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 66–67 (fiche Atlas « Lynx »)",
+    "archive_texte": null,
+    "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "lacunes": [
+      "Aucune lacune identifiée."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

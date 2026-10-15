@@ -24,7 +24,7 @@
       "ra_deg": 308.3032,
       "dec_deg": 11.3033,
       "mag": 4.03,
-      "role": "",
+      "role": "La queue — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -35,7 +35,7 @@
       "ra_deg": 308.4875,
       "dec_deg": 13.0272,
       "mag": 5.39,
-      "role": "",
+      "role": "La queue — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -46,7 +46,7 @@
       "ra_deg": 309.387,
       "dec_deg": 14.5952,
       "mag": 3.64,
-      "role": "",
+      "role": "La plus brillante de la figure — sous-géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -57,7 +57,7 @@
       "ra_deg": 309.9094,
       "dec_deg": 15.9121,
       "mag": 3.77,
-      "role": "",
+      "role": "Le nez — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -68,7 +68,7 @@
       "ra_deg": 311.6647,
       "dec_deg": 16.1248,
       "mag": 4.27,
-      "role": "",
+      "role": "La queue — sous-géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -79,7 +79,7 @@
       "ra_deg": 310.8648,
       "dec_deg": 15.0747,
       "mag": 4.43,
-      "role": "",
+      "role": "Le corps — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     }

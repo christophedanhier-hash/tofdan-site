@@ -30,7 +30,7 @@
       "ra_deg": 148.12696,
       "dec_deg": -8.10492,
       "mag": 5.0859,
-      "role": "",
+      "role": "Le bord — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -41,7 +41,7 @@
       "ra_deg": 151.98457,
       "dec_deg": -0.37163,
       "mag": 4.4798,
-      "role": "",
+      "role": "La plus brillante de la figure — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -52,7 +52,7 @@
       "ra_deg": 157.36971,
       "dec_deg": -2.73905,
       "mag": 5.1787,
-      "role": "",
+      "role": "Le bord — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -63,7 +63,7 @@
       "ra_deg": 157.57293,
       "dec_deg": -0.63697,
       "mag": 5.0315,
-      "role": "",
+      "role": "Le bord — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -157,7 +157,7 @@
       "r": "Faire partir du repère : Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre."
     }
   ],
-  "message_animation": "Sextant : Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre. Constellation de printemps (4 étoiles figurées, 2 objet(s) du ciel profond).",
+  "message_animation": "Sextant : Quatre étoiles faibles (mag 4 à 5) formant un petit quadrilatère entre le Lion et l'Hydre. Constellation de printemps (4 étoiles figurées, 2 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 106–108 (fiche Atlas « Sextant »)",
     "archive_texte": "atlas-observation-source/106-*.txt",

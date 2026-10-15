@@ -33,7 +33,7 @@
       "ra_deg": 233.70079,
       "dec_deg": 10.53886,
       "mag": 3.8677,
-      "role": "",
+      "role": "La tête",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -44,7 +44,7 @@
       "ra_deg": 235.38789,
       "dec_deg": 19.67051,
       "mag": 4.5337,
-      "role": "",
+      "role": "La tête — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -55,7 +55,7 @@
       "ra_deg": 236.06665,
       "dec_deg": 6.42552,
       "mag": 2.7971,
-      "role": "",
+      "role": "La plus brillante de la figure — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -66,7 +66,7 @@
       "ra_deg": 236.54673,
       "dec_deg": 15.42193,
       "mag": 3.6836,
-      "role": "",
+      "role": "La tête — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -77,7 +77,7 @@
       "ra_deg": 237.18504,
       "dec_deg": 18.14178,
       "mag": 4.1929,
-      "role": "",
+      "role": "La tête — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -88,7 +88,7 @@
       "ra_deg": 237.40527,
       "dec_deg": -3.43014,
       "mag": 3.5411,
-      "role": "",
+      "role": "Le corps — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -99,7 +99,7 @@
       "ra_deg": 237.70371,
       "dec_deg": 4.47758,
       "mag": 3.7548,
-      "role": "",
+      "role": "La tête — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -110,7 +110,7 @@
       "ra_deg": 239.11248,
       "dec_deg": 15.66473,
       "mag": 3.9456,
-      "role": "",
+      "role": "La tête — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -121,7 +121,7 @@
       "ra_deg": 242.46055,
       "dec_deg": -3.46673,
       "mag": 5.512,
-      "role": "",
+      "role": "Le corps — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -132,7 +132,7 @@
       "ra_deg": 264.39677,
       "dec_deg": -15.39841,
       "mag": 3.6075,
-      "role": "",
+      "role": "La queue — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -143,7 +143,7 @@
       "ra_deg": 275.32884,
       "dec_deg": -2.89712,
       "mag": 3.3995,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -154,7 +154,7 @@
       "ra_deg": 284.05484,
       "dec_deg": 4.20353,
       "mag": 4.6864,
-      "role": "",
+      "role": "Le corps — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -272,7 +272,7 @@
       "r": "Faire partir du repère : Deux morceaux distincts : la Tête (Unukalhai) à l'ouest, la Queue (Alya) à l'est, séparés par Ophiuchus."
     }
   ],
-  "message_animation": "Serpent : Deux morceaux distincts : la Tête (Unukalhai) à l'ouest, la Queue (Alya) à l'est, séparés par Ophiuchus. Constellation de été (12 étoiles figurées, 3 objet(s) du ciel profond).",
+  "message_animation": "Serpent : Deux morceaux distincts : la Tête (Unukalhai) à l'ouest, la Queue (Alya) à l'est, séparés par Ophiuchus. Constellation de été (12 étoiles figurées, 3 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 103–105 (fiche Atlas « Serpent »)",
     "archive_texte": "atlas-observation-source/103-*.txt",

@@ -36,7 +36,7 @@
       "ra_deg": 176.46488,
       "dec_deg": 6.52981,
       "mag": 4.1388,
-      "role": "",
+      "role": "La jambe — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -47,7 +47,7 @@
       "ra_deg": 177.67203,
       "dec_deg": 1.76538,
       "mag": 3.7136,
-      "role": "",
+      "role": "La tête — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -58,7 +58,7 @@
       "ra_deg": 181.30279,
       "dec_deg": 8.73285,
       "mag": 4.2802,
-      "role": "",
+      "role": "La jambe — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -69,7 +69,7 @@
       "ra_deg": 184.97663,
       "dec_deg": -0.66675,
       "mag": 3.8992,
-      "role": "",
+      "role": "La tête — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -80,7 +80,7 @@
       "ra_deg": 190.41668,
       "dec_deg": -1.44952,
       "mag": 2.8213,
-      "role": "",
+      "role": "Le bras — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -91,7 +91,7 @@
       "ra_deg": 193.90201,
       "dec_deg": 3.3976,
       "mag": 3.4405,
-      "role": "",
+      "role": "La jambe — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -102,7 +102,7 @@
       "ra_deg": 195.54484,
       "dec_deg": 10.9591,
       "mag": 2.998,
-      "role": "",
+      "role": "Le bras ouest — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -113,7 +113,7 @@
       "ra_deg": 197.48755,
       "dec_deg": -5.53893,
       "mag": 4.369,
-      "role": "",
+      "role": "Le corps — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -124,7 +124,7 @@
       "ra_deg": 201.29835,
       "dec_deg": -11.16124,
       "mag": 0.8891,
-      "role": "",
+      "role": "La plus brillante de la figure — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -135,7 +135,7 @@
       "ra_deg": 203.67398,
       "dec_deg": -0.59594,
       "mag": 3.4147,
-      "role": "",
+      "role": "Le corps — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -146,7 +146,7 @@
       "ra_deg": 210.4116,
       "dec_deg": 1.54458,
       "mag": 4.2777,
-      "role": "",
+      "role": "Le pied — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -157,7 +157,7 @@
       "ra_deg": 214.00369,
       "dec_deg": -5.99953,
       "mag": 4.1854,
-      "role": "",
+      "role": "La robe — géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -168,7 +168,7 @@
       "ra_deg": 220.76484,
       "dec_deg": -5.65743,
       "mag": 3.9589,
-      "role": "",
+      "role": "Le corps — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -179,7 +179,7 @@
       "ra_deg": 221.56247,
       "dec_deg": 1.89294,
       "mag": 3.7371,
-      "role": "",
+      "role": "Le pied — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -448,7 +448,7 @@
       "r": "Faire partir du repère : Spica, l'épi, au bout d'un long bras qui remonte vers Vindemiatrix et Porrima."
     }
   ],
-  "message_animation": "Vierge : Spica, l'épi, au bout d'un long bras qui remonte vers Vindemiatrix et Porrima. Constellation de printemps (14 étoiles figurées, 15 objet(s) du ciel profond).",
+  "message_animation": "Vierge : Spica, l'épi, au bout d'un long bras qui remonte vers Vindemiatrix et Porrima. Constellation de printemps (14 étoiles figurées, 15 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 117–120 (fiche Atlas « Vierge »)",
     "archive_texte": "atlas-observation-source/117-*.txt",

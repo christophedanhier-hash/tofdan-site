@@ -38,7 +38,7 @@
       "ra_deg": 271.45219,
       "dec_deg": -30.42365,
       "mag": 3.1356,
-      "role": "",
+      "role": "Le bout de la flèche — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -49,7 +49,7 @@
       "ra_deg": 273.44087,
       "dec_deg": -21.05883,
       "mag": 3.8729,
-      "role": "",
+      "role": "La flèche — supergéante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -60,7 +60,7 @@
       "ra_deg": 274.40721,
       "dec_deg": -36.76128,
       "mag": 3.1512,
-      "role": "",
+      "role": "Le bras — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -71,7 +71,7 @@
       "ra_deg": 275.24842,
       "dec_deg": -29.82804,
       "mag": 2.8654,
-      "role": "",
+      "role": "Le pied nord de l'arc — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -82,7 +82,7 @@
       "ra_deg": 276.04311,
       "dec_deg": -34.38432,
       "mag": 1.7986,
-      "role": "",
+      "role": "La plus brillante de la figure — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -93,7 +93,7 @@
       "ra_deg": 276.99279,
       "dec_deg": -25.42125,
       "mag": 2.9838,
-      "role": "",
+      "role": "Le sommet de l'arc — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -104,7 +104,7 @@
       "ra_deg": 281.41397,
       "dec_deg": -26.99078,
       "mag": 3.1339,
-      "role": "",
+      "role": "La flèche — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -115,7 +115,7 @@
       "ra_deg": 283.81632,
       "dec_deg": -26.29659,
       "mag": 2.0095,
-      "role": "",
+      "role": "Le torse — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -126,7 +126,7 @@
       "ra_deg": 285.65301,
       "dec_deg": -29.88011,
       "mag": 2.6212,
-      "role": "",
+      "role": "Le coude — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -137,7 +137,7 @@
       "ra_deg": 286.73518,
       "dec_deg": -27.66981,
       "mag": 3.4689,
-      "role": "",
+      "role": "Le bras — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -439,7 +439,7 @@
       "r": "Faire partir du repère : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable."
     }
   ],
-  "message_animation": "Sagittaire : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable. Constellation de été (10 étoiles figurées, 20 objet(s) du ciel profond).",
+  "message_animation": "Sagittaire : La « Théière » : un astérisme de huit étoiles, dont Kaus Australis et Nunki, très reconnaissable. Constellation de été (10 étoiles figurées, 20 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 94–99 (fiche Atlas « Sagittaire »)",
     "archive_texte": "atlas-observation-source/094-*.txt",

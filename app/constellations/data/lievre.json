@@ -1,337 +1,337 @@
 {
- "id": "lievre",
- "slug": "lievre",
- "nom_fr": "Lièvre",
- "nom_latin": "Lepus",
- "genitif": "Leporis",
- "abreviation_iau": "Lep",
- "source_atlas": "Atlas observation.pdf, pages 64–65 (fiche Atlas « Lièvre »)",
- "saison": "hiver",
- "voie_lactee": false,
- "repere_principal": "Le Lièvre blotti sous Orion",
- "constellations_voisines": [
-  "Orion",
-  "Taureau",
-  "Colombe",
-  "Grand Chien",
-  "Eridan"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "hip": 23685,
-   "nom": "ε Lep",
-   "etiq": "ε",
-   "bayer": "eps Lep",
-   "ra_deg": 76.365,
-   "dec_deg": -22.371,
-   "mag": 3.19,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 23685)"
-  },
-  {
-   "i": 1,
-   "hip": 24305,
-   "nom": "5 Lep",
-   "etiq": "5",
-   "bayer": "mu. Lep",
-   "ra_deg": 78.233,
-   "dec_deg": -16.205,
-   "mag": 3.29,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 24305)"
-  },
-  {
-   "i": 2,
-   "hip": 24327,
-   "nom": "κ Lep",
-   "etiq": "κ",
-   "bayer": "kap Lep",
-   "ra_deg": 78.308,
-   "dec_deg": -12.941,
-   "mag": 4.36,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 24327)"
-  },
-  {
-   "i": 3,
-   "hip": 24845,
-   "nom": "λ Lep",
-   "etiq": "λ",
-   "bayer": "lam Lep",
-   "ra_deg": 79.894,
-   "dec_deg": -13.177,
-   "mag": 4.29,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 24845)"
-  },
-  {
-   "i": 4,
-   "hip": 25606,
-   "nom": "Nihal",
-   "etiq": "Nihal",
-   "bayer": "bet Lep",
-   "ra_deg": 82.061,
-   "dec_deg": -20.759,
-   "mag": 2.81,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 25606)/ IAU"
-  },
-  {
-   "i": 5,
-   "hip": 25985,
-   "nom": "Arneb",
-   "etiq": "Arneb",
-   "bayer": "alf Lep",
-   "ra_deg": 83.183,
-   "dec_deg": -17.822,
-   "mag": 2.58,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 25985)/ IAU"
-  },
-  {
-   "i": 6,
-   "hip": 27072,
-   "nom": "γ Lep",
-   "etiq": "γ",
-   "bayer": "gam Lep",
-   "ra_deg": 86.117,
-   "dec_deg": -22.447,
-   "mag": 3.59,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 27072)"
-  },
-  {
-   "i": 7,
-   "hip": 27288,
-   "nom": "ζ Lep",
-   "etiq": "ζ",
-   "bayer": "zet Lep",
-   "ra_deg": 86.739,
-   "dec_deg": -14.822,
-   "mag": 3.55,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 27288)"
-  },
-  {
-   "i": 8,
-   "hip": 27654,
-   "nom": "δ Lep",
-   "etiq": "δ",
-   "bayer": "del Lep",
-   "ra_deg": 87.83,
-   "dec_deg": -20.878,
-   "mag": 3.76,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 27654)"
-  },
-  {
-   "i": 9,
-   "hip": 28103,
-   "nom": "η Lep",
-   "etiq": "η",
-   "bayer": "eta Lep",
-   "ra_deg": 89.101,
-   "dec_deg": -14.168,
-   "mag": 3.71,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 28103)"
-  },
-  {
-   "i": 10,
-   "hip": 28910,
-   "nom": "θ Lep",
-   "etiq": "θ",
-   "bayer": "the Lep",
-   "ra_deg": 91.539,
-   "dec_deg": -14.935,
-   "mag": 4.67,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 28910)"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    2,
-    1,
-    0,
-    4,
-    5
-   ],
-   [
-    3,
-    1,
-    5,
-    7,
-    9,
-    10,
-    8,
-    6,
-    4
-   ]
+  "id": "lievre",
+  "slug": "lievre",
+  "nom_fr": "Lièvre",
+  "nom_latin": "Lepus",
+  "genitif": "Leporis",
+  "abreviation_iau": "Lep",
+  "source_atlas": "Atlas observation.pdf, pages 64–65 (fiche Atlas « Lièvre »)",
+  "saison": "hiver",
+  "voie_lactee": false,
+  "repere_principal": "Le Lièvre blotti sous Orion",
+  "constellations_voisines": [
+    "Orion",
+    "Taureau",
+    "Colombe",
+    "Grand Chien",
+    "Eridan"
   ],
-  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 11 étoiles reliées par 12 segments.",
-  "note_geometrie": "Figure construite sur 11 étoiles et 12 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie θ Lep à δ Lep (6.91°) ; le plus court relie δ Lep à γ Lep (2.24°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "κ Lep–5 Lep": 3.26,
-  "5 Lep–ε Lep": 6.41,
-  "ε Lep–Nihal": 5.54,
-  "Nihal–Arneb": 3.12,
-  "λ Lep–5 Lep": 3.43,
-  "5 Lep–Arneb": 5.0,
-  "Arneb–ζ Lep": 4.54,
-  "ζ Lep–η Lep": 2.38,
-  "η Lep–θ Lep": 2.48,
-  "θ Lep–δ Lep": 6.91,
-  "δ Lep–γ Lep": 2.24,
-  "γ Lep–Nihal": 4.13
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 1904",
-   "nature": "amas globulaire",
-   "mag": 8,
-   "distance_al": null,
-   "note": "NGC 1904 — amas globulaire documenté(e) dans la fiche Atlas de Lièvre.",
-   "instrument": "jumelles",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 1964",
-   "nature": "galaxie",
-   "mag": 10.8,
-   "distance_al": null,
-   "note": "NGC 1964 — galaxie documenté(e) dans la fiche Atlas de Lièvre.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Arneb, magnitude 2.58, selon le catalogue Hipparcos (bande V)."
-  },
-  {
-   "q": "Quelles étoiles de la figure demandent un instrument ?",
-   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
-  },
-  {
-   "q": "Combien d'objets du ciel profond sont documentés dans Lièvre ?",
-   "r": "2 objet(s), d'après la fiche Atlas correspondante."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Comment observer NGC 1904 ?",
-   "r": "NGC 1904 est un(e) amas globulaire de magnitude 8. Instrument conseillé : jumelles. NGC 1904 — amas globulaire documenté(e) dans la fiche Atlas de Lièvre."
-  },
-  {
-   "q": "Quand observer Lièvre ?",
-   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Le Lièvre blotti sous Orion."
-  }
- ],
- "message_animation": "Lièvre — 11 étoiles reliées, 2 objet(s) du ciel profond documenté(s). Saison : hiver.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 64–65 (fiche Atlas « Lièvre »)",
-  "archive_texte": null,
-  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-  "lacunes": [
-   "Aucune lacune identifiée."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "hip": 23685,
+      "nom": "ε Lep",
+      "etiq": "ε",
+      "bayer": "eps Lep",
+      "ra_deg": 76.365,
+      "dec_deg": -22.371,
+      "mag": 3.19,
+      "role": "La patte — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 23685)"
+    },
+    {
+      "i": 1,
+      "hip": 24305,
+      "nom": "5 Lep",
+      "etiq": "5",
+      "bayer": "mu. Lep",
+      "ra_deg": 78.233,
+      "dec_deg": -16.205,
+      "mag": 3.29,
+      "role": "Le corps — sous-géante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 24305)"
+    },
+    {
+      "i": 2,
+      "hip": 24327,
+      "nom": "κ Lep",
+      "etiq": "κ",
+      "bayer": "kap Lep",
+      "ra_deg": 78.308,
+      "dec_deg": -12.941,
+      "mag": 4.36,
+      "role": "L'oreille — naine bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 24327)"
+    },
+    {
+      "i": 3,
+      "hip": 24845,
+      "nom": "λ Lep",
+      "etiq": "λ",
+      "bayer": "lam Lep",
+      "ra_deg": 79.894,
+      "dec_deg": -13.177,
+      "mag": 4.29,
+      "role": "L'oreille — naine bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 24845)"
+    },
+    {
+      "i": 4,
+      "hip": 25606,
+      "nom": "Nihal",
+      "etiq": "Nihal",
+      "bayer": "bet Lep",
+      "ra_deg": 82.061,
+      "dec_deg": -20.759,
+      "mag": 2.81,
+      "role": "Le museau — géante lumineuse jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 25606)/ IAU"
+    },
+    {
+      "i": 5,
+      "hip": 25985,
+      "nom": "Arneb",
+      "etiq": "Arneb",
+      "bayer": "alf Lep",
+      "ra_deg": 83.183,
+      "dec_deg": -17.822,
+      "mag": 2.58,
+      "role": "La plus brillante de la figure — supergéante jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 25985)/ IAU"
+    },
+    {
+      "i": 6,
+      "hip": 27072,
+      "nom": "γ Lep",
+      "etiq": "γ",
+      "bayer": "gam Lep",
+      "ra_deg": 86.117,
+      "dec_deg": -22.447,
+      "mag": 3.59,
+      "role": "La patte arrière — naine jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 27072)"
+    },
+    {
+      "i": 7,
+      "hip": 27288,
+      "nom": "ζ Lep",
+      "etiq": "ζ",
+      "bayer": "zet Lep",
+      "ra_deg": 86.739,
+      "dec_deg": -14.822,
+      "mag": 3.55,
+      "role": "L'oreille — sous-géante blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 27288)"
+    },
+    {
+      "i": 8,
+      "hip": 27654,
+      "nom": "δ Lep",
+      "etiq": "δ",
+      "bayer": "del Lep",
+      "ra_deg": 87.83,
+      "dec_deg": -20.878,
+      "mag": 3.76,
+      "role": "Le corps — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 27654)"
+    },
+    {
+      "i": 9,
+      "hip": 28103,
+      "nom": "η Lep",
+      "etiq": "η",
+      "bayer": "eta Lep",
+      "ra_deg": 89.101,
+      "dec_deg": -14.168,
+      "mag": 3.71,
+      "role": "L'oreille — naine jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 28103)"
+    },
+    {
+      "i": 10,
+      "hip": 28910,
+      "nom": "θ Lep",
+      "etiq": "θ",
+      "bayer": "the Lep",
+      "ra_deg": 91.539,
+      "dec_deg": -14.935,
+      "mag": 4.67,
+      "role": "Le corps — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 28910)"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        2,
+        1,
+        0,
+        4,
+        5
+      ],
+      [
+        3,
+        1,
+        5,
+        7,
+        9,
+        10,
+        8,
+        6,
+        4
+      ]
+    ],
+    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 11 étoiles reliées par 12 segments.",
+    "note_geometrie": "Figure construite sur 11 étoiles et 12 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie θ Lep à δ Lep (6.91°) ; le plus court relie δ Lep à γ Lep (2.24°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "κ Lep–5 Lep": 3.26,
+    "5 Lep–ε Lep": 6.41,
+    "ε Lep–Nihal": 5.54,
+    "Nihal–Arneb": 3.12,
+    "λ Lep–5 Lep": 3.43,
+    "5 Lep–Arneb": 5.0,
+    "Arneb–ζ Lep": 4.54,
+    "ζ Lep–η Lep": 2.38,
+    "η Lep–θ Lep": 2.48,
+    "θ Lep–δ Lep": 6.91,
+    "δ Lep–γ Lep": 2.24,
+    "γ Lep–Nihal": 4.13
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 1904",
+      "nature": "amas globulaire",
+      "mag": 8,
+      "distance_al": null,
+      "note": "NGC 1904 — amas globulaire documenté(e) dans la fiche Atlas de Lièvre.",
+      "instrument": "jumelles",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 1964",
+      "nature": "galaxie",
+      "mag": 10.8,
+      "distance_al": null,
+      "note": "NGC 1964 — galaxie documenté(e) dans la fiche Atlas de Lièvre.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Arneb, magnitude 2.58, selon le catalogue Hipparcos (bande V)."
+    },
+    {
+      "q": "Quelles étoiles de la figure demandent un instrument ?",
+      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+    },
+    {
+      "q": "Combien d'objets du ciel profond sont documentés dans Lièvre ?",
+      "r": "2 objets, d'après la fiche Atlas correspondante."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Comment observer NGC 1904 ?",
+      "r": "NGC 1904 est un(e) amas globulaire de magnitude 8. Instrument conseillé : jumelles. NGC 1904 — amas globulaire documenté(e) dans la fiche Atlas de Lièvre."
+    },
+    {
+      "q": "Quand observer Lièvre ?",
+      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Le Lièvre blotti sous Orion."
+    }
+  ],
+  "message_animation": "Le Lièvre est blotti juste sous Orion, ce qui le rend facile à trouver une fois Orion repéré. On peut partir d'Arneb, l'étoile la plus brillante, puis parcourir la silhouette accroupie vers Nihal. La constellation contient M79, un amas globulaire inhabituel : c'est l'un des rares amas globulaires visibles en hiver.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 64–65 (fiche Atlas « Lièvre »)",
+    "archive_texte": null,
+    "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "lacunes": [
+      "Aucune lacune identifiée."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

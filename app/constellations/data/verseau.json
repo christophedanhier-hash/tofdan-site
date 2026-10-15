@@ -36,7 +36,7 @@
       "ra_deg": 311.91888,
       "dec_deg": -9.49569,
       "mag": 3.7818,
-      "role": "",
+      "role": "Le bras — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -47,7 +47,7 @@
       "ra_deg": 322.88967,
       "dec_deg": -5.57116,
       "mag": 3.0404,
-      "role": "",
+      "role": "La plus brillante de la figure — supergéante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -58,7 +58,7 @@
       "ra_deg": 331.44594,
       "dec_deg": -0.31983,
       "mag": 3.108,
-      "role": "",
+      "role": "L'épaule — supergéante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -69,7 +69,7 @@
       "ra_deg": 331.60919,
       "dec_deg": -13.86954,
       "mag": 4.2648,
-      "role": "",
+      "role": "Le pied — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -80,7 +80,7 @@
       "ra_deg": 334.20819,
       "dec_deg": -7.78324,
       "mag": 4.3335,
-      "role": "",
+      "role": "Le corps — géante lumineuse jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -91,7 +91,7 @@
       "ra_deg": 335.41375,
       "dec_deg": -1.38735,
       "mag": 3.8423,
-      "role": "",
+      "role": "Le bras — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -102,7 +102,7 @@
       "ra_deg": 336.31922,
       "dec_deg": 1.37739,
       "mag": 4.7397,
-      "role": "",
+      "role": "La main — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -113,7 +113,7 @@
       "ra_deg": 337.2075,
       "dec_deg": -0.02006,
       "mag": 3.745,
-      "role": "",
+      "role": "La main — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -124,7 +124,7 @@
       "ra_deg": 338.83887,
       "dec_deg": -0.11736,
       "mag": 4.0159,
-      "role": "",
+      "role": "La main — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -135,7 +135,7 @@
       "ra_deg": 342.39796,
       "dec_deg": -13.59254,
       "mag": 4.1494,
-      "role": "",
+      "role": "Le bras — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -146,7 +146,7 @@
       "ra_deg": 343.1536,
       "dec_deg": -7.57968,
       "mag": 3.8072,
-      "role": "",
+      "role": "Le corps — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -157,7 +157,7 @@
       "ra_deg": 343.66266,
       "dec_deg": -15.82076,
       "mag": 3.2964,
-      "role": "",
+      "role": "Le pied — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -168,7 +168,7 @@
       "ra_deg": 347.36151,
       "dec_deg": -21.17249,
       "mag": 3.8484,
-      "role": "",
+      "role": "Le pied — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -179,7 +179,7 @@
       "ra_deg": 348.58055,
       "dec_deg": -6.04853,
       "mag": 4.3152,
-      "role": "",
+      "role": "Le corps — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -190,7 +190,7 @@
       "ra_deg": 348.97199,
       "dec_deg": -9.0877,
       "mag": 4.409,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -201,7 +201,7 @@
       "ra_deg": 350.74292,
       "dec_deg": -20.10035,
       "mag": 4.118,
-      "role": "",
+      "role": "Le pied — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -376,7 +376,7 @@
       "r": "Faire partir du repère : L'urne (Sadalmelik, Sadalsuud) et le filet d'eau qui descend vers Skat, au sud-est de Pégase."
     }
   ],
-  "message_animation": "Verseau : L'urne (Sadalmelik, Sadalsuud) et le filet d'eau qui descend vers Skat, au sud-est de Pégase. Constellation de automne (16 étoiles figurées, 6 objet(s) du ciel profond).",
+  "message_animation": "Verseau : L'urne (Sadalmelik, Sadalsuud) et le filet d'eau qui descend vers Skat, au sud-est de Pégase. Constellation d'automne (16 étoiles figurées, 6 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 114–116 (fiche Atlas « Verseau »)",
     "archive_texte": "atlas-observation-source/114-*.txt",

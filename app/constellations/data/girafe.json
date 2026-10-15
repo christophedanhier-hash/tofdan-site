@@ -1,291 +1,291 @@
 {
- "id": "girafe",
- "slug": "girafe",
- "nom_fr": "Girafe",
- "nom_latin": "Camelopardalis",
- "genitif": "Camelopardalis",
- "abreviation_iau": "Cam",
- "source_atlas": "Atlas observation.pdf, pages 48–49 (fiche Atlas « Girafe »)",
- "saison": "hiver",
- "voie_lactee": true,
- "repere_principal": "La longue girafe circumpolaire autour du pôle",
- "constellations_voisines": [
-  "Petite Ourse",
-  "Céphée",
-  "Cassiopée",
-  "Persée",
-  "Cocher",
-  "Lynx",
-  "Grande Ourse",
-  "Dragon"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "hip": 16228,
-   "nom": "HIP 16228",
-   "etiq": "HIP 16228",
-   "bayer": "",
-   "ra_deg": 52.267,
-   "dec_deg": 59.94,
-   "mag": 4.21,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 16228)"
-  },
-  {
-   "i": 1,
-   "hip": 17884,
-   "nom": "HIP 17884",
-   "etiq": "HIP 17884",
-   "bayer": "",
-   "ra_deg": 57.38,
-   "dec_deg": 65.526,
-   "mag": 4.39,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 17884)"
-  },
-  {
-   "i": 2,
-   "hip": 17959,
-   "nom": "γ Cam",
-   "etiq": "γ",
-   "bayer": "gam Cam",
-   "ra_deg": 57.589,
-   "dec_deg": 71.332,
-   "mag": 4.59,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 17959)"
-  },
-  {
-   "i": 3,
-   "hip": 22783,
-   "nom": "α Cam",
-   "etiq": "α",
-   "bayer": "alf Cam",
-   "ra_deg": 73.513,
-   "dec_deg": 66.343,
-   "mag": 4.26,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 22783)"
-  },
-  {
-   "i": 4,
-   "hip": 23040,
-   "nom": "7 Cam",
-   "etiq": "7",
-   "bayer": "",
-   "ra_deg": 74.322,
-   "dec_deg": 53.752,
-   "mag": 4.43,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 23040)"
-  },
-  {
-   "i": 5,
-   "hip": 23522,
-   "nom": "β Cam",
-   "etiq": "β",
-   "bayer": "bet Cam",
-   "ra_deg": 75.855,
-   "dec_deg": 60.442,
-   "mag": 4.03,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 23522)"
-  },
-  {
-   "i": 6,
-   "hip": 29997,
-   "nom": "HIP 29997",
-   "etiq": "HIP 29997",
-   "bayer": "",
-   "ra_deg": 94.712,
-   "dec_deg": 69.32,
-   "mag": 4.76,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 29997)"
-  },
-  {
-   "i": 7,
-   "hip": 33694,
-   "nom": "HIP 33694",
-   "etiq": "HIP 33694",
-   "bayer": "",
-   "ra_deg": 105.016,
-   "dec_deg": 76.977,
-   "mag": 4.55,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 33694)"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    7,
-    6,
-    3,
-    5,
-    4
-   ],
-   [
-    3,
-    2,
-    1,
-    0
-   ]
+  "id": "girafe",
+  "slug": "girafe",
+  "nom_fr": "Girafe",
+  "nom_latin": "Camelopardalis",
+  "genitif": "Camelopardalis",
+  "abreviation_iau": "Cam",
+  "source_atlas": "Atlas observation.pdf, pages 48–49 (fiche Atlas « Girafe »)",
+  "saison": "hiver",
+  "voie_lactee": true,
+  "repere_principal": "La longue girafe circumpolaire autour du pôle",
+  "constellations_voisines": [
+    "Petite Ourse",
+    "Céphée",
+    "Cassiopée",
+    "Persée",
+    "Cocher",
+    "Lynx",
+    "Grande Ourse",
+    "Dragon"
   ],
-  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 8 étoiles reliées par 7 segments.",
-  "note_geometrie": "Figure construite sur 8 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie HIP 29997 à α Cam (8.48°) ; le plus court relie γ Cam à HIP 17884 (5.81°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "HIP 33694–HIP 29997": 8.19,
-  "HIP 29997–α Cam": 8.48,
-  "α Cam–β Cam": 5.99,
-  "β Cam–7 Cam": 6.74,
-  "α Cam–γ Cam": 7.57,
-  "γ Cam–HIP 17884": 5.81,
-  "HIP 17884–HIP 16228": 6.05
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 1502",
-   "nature": "amas ouvert",
-   "mag": 5.7,
-   "distance_al": null,
-   "note": "NGC 1502 — amas ouvert documenté(e) dans la fiche Atlas de Girafe.",
-   "instrument": "œil nu",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 2403",
-   "nature": "galaxie",
-   "mag": 8.4,
-   "distance_al": null,
-   "note": "NGC 2403 — galaxie documenté(e) dans la fiche Atlas de Girafe.",
-   "instrument": "jumelles",
-   "src": "N1",
-   "code": "N1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "β Cam, magnitude 4.03, selon le catalogue Hipparcos (bande V)."
-  },
-  {
-   "q": "Quelles étoiles de la figure demandent un instrument ?",
-   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
-  },
-  {
-   "q": "Combien d'objets du ciel profond sont documentés dans Girafe ?",
-   "r": "2 objet(s), d'après la fiche Atlas correspondante."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Comment observer NGC 1502 ?",
-   "r": "NGC 1502 est un(e) amas ouvert de magnitude 5.7. Instrument conseillé : œil nu. NGC 1502 — amas ouvert documenté(e) dans la fiche Atlas de Girafe."
-  },
-  {
-   "q": "Quand observer Girafe ?",
-   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La longue girafe circumpolaire autour du pôle."
-  }
- ],
- "message_animation": "Girafe — 8 étoiles reliées, 2 objet(s) du ciel profond documenté(s). Saison : hiver.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 48–49 (fiche Atlas « Girafe »)",
-  "archive_texte": null,
-  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-  "lacunes": [
-   "Aucune lacune identifiée."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "hip": 16228,
+      "nom": "HIP 16228",
+      "etiq": "HIP 16228",
+      "bayer": "",
+      "ra_deg": 52.267,
+      "dec_deg": 59.94,
+      "mag": 4.21,
+      "role": "L'encolure — géante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 16228)"
+    },
+    {
+      "i": 1,
+      "hip": 17884,
+      "nom": "HIP 17884",
+      "etiq": "HIP 17884",
+      "bayer": "",
+      "ra_deg": 57.38,
+      "dec_deg": 65.526,
+      "mag": 4.39,
+      "role": "La patte — sous-géante blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 17884)"
+    },
+    {
+      "i": 2,
+      "hip": 17959,
+      "nom": "γ Cam",
+      "etiq": "γ",
+      "bayer": "gam Cam",
+      "ra_deg": 57.589,
+      "dec_deg": 71.332,
+      "mag": 4.59,
+      "role": "Le corps — sous-géante blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 17959)"
+    },
+    {
+      "i": 3,
+      "hip": 22783,
+      "nom": "α Cam",
+      "etiq": "α",
+      "bayer": "alf Cam",
+      "ra_deg": 73.513,
+      "dec_deg": 66.343,
+      "mag": 4.26,
+      "role": "Le cou — supergéante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 22783)"
+    },
+    {
+      "i": 4,
+      "hip": 23040,
+      "nom": "7 Cam",
+      "etiq": "7",
+      "bayer": "",
+      "ra_deg": 74.322,
+      "dec_deg": 53.752,
+      "mag": 4.43,
+      "role": "Le corps — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 23040)"
+    },
+    {
+      "i": 5,
+      "hip": 23522,
+      "nom": "β Cam",
+      "etiq": "β",
+      "bayer": "bet Cam",
+      "ra_deg": 75.855,
+      "dec_deg": 60.442,
+      "mag": 4.03,
+      "role": "La plus brillante de la figure — supergéante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 23522)"
+    },
+    {
+      "i": 6,
+      "hip": 29997,
+      "nom": "HIP 29997",
+      "etiq": "HIP 29997",
+      "bayer": "",
+      "ra_deg": 94.712,
+      "dec_deg": 69.32,
+      "mag": 4.76,
+      "role": "Le corps — géante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 29997)"
+    },
+    {
+      "i": 7,
+      "hip": 33694,
+      "nom": "HIP 33694",
+      "etiq": "HIP 33694",
+      "bayer": "",
+      "ra_deg": 105.016,
+      "dec_deg": 76.977,
+      "mag": 4.55,
+      "role": "Le corps — géante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 33694)"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        7,
+        6,
+        3,
+        5,
+        4
+      ],
+      [
+        3,
+        2,
+        1,
+        0
+      ]
+    ],
+    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 8 étoiles reliées par 7 segments.",
+    "note_geometrie": "Figure construite sur 8 étoiles et 7 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie HIP 29997 à α Cam (8.48°) ; le plus court relie γ Cam à HIP 17884 (5.81°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "HIP 33694–HIP 29997": 8.19,
+    "HIP 29997–α Cam": 8.48,
+    "α Cam–β Cam": 5.99,
+    "β Cam–7 Cam": 6.74,
+    "α Cam–γ Cam": 7.57,
+    "γ Cam–HIP 17884": 5.81,
+    "HIP 17884–HIP 16228": 6.05
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 1502",
+      "nature": "amas ouvert",
+      "mag": 5.7,
+      "distance_al": null,
+      "note": "NGC 1502 — amas ouvert documenté(e) dans la fiche Atlas de Girafe.",
+      "instrument": "œil nu",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 2403",
+      "nature": "galaxie",
+      "mag": 8.4,
+      "distance_al": null,
+      "note": "NGC 2403 — galaxie documenté(e) dans la fiche Atlas de Girafe.",
+      "instrument": "jumelles",
+      "src": "N1",
+      "code": "N1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "β Cam, magnitude 4.03, selon le catalogue Hipparcos (bande V)."
+    },
+    {
+      "q": "Quelles étoiles de la figure demandent un instrument ?",
+      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+    },
+    {
+      "q": "Combien d'objets du ciel profond sont documentés dans Girafe ?",
+      "r": "2 objets, d'après la fiche Atlas correspondante."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Comment observer NGC 1502 ?",
+      "r": "NGC 1502 est un(e) amas ouvert de magnitude 5.7. Instrument conseillé : œil nu. NGC 1502 — amas ouvert documenté(e) dans la fiche Atlas de Girafe."
+    },
+    {
+      "q": "Quand observer Girafe ?",
+      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La longue girafe circumpolaire autour du pôle."
+    }
+  ],
+  "message_animation": "La Girafe est une constellation circumpolaire très discrète : ses étoiles les plus brillantes ne dépassent pas la magnitude 4. On peut la repérer en partant de la Grande Ourse et de Cassiopée, puis en cherchant la longue silhouette qui s'étire entre les deux. Elle abrite NGC 2403, une galaxie spirale remarquable pour un instrument amateur.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 48–49 (fiche Atlas « Girafe »)",
+    "archive_texte": null,
+    "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "lacunes": [
+      "Aucune lacune identifiée."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

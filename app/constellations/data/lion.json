@@ -35,7 +35,7 @@
       "ra_deg": 141.16366,
       "dec_deg": 26.18244,
       "mag": 4.6163,
-      "role": "",
+      "role": "La crinière — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -46,7 +46,7 @@
       "ra_deg": 142.93017,
       "dec_deg": 22.96806,
       "mag": 4.4252,
-      "role": "",
+      "role": "La gueule — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -57,7 +57,7 @@
       "ra_deg": 146.46293,
       "dec_deg": 23.77428,
       "mag": 3.1168,
-      "role": "",
+      "role": "La crinière — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -68,7 +68,7 @@
       "ra_deg": 148.19149,
       "dec_deg": 26.00709,
       "mag": 4.0498,
-      "role": "",
+      "role": "La tête — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -79,7 +79,7 @@
       "ra_deg": 151.83314,
       "dec_deg": 16.76267,
       "mag": 3.5034,
-      "role": "",
+      "role": "La patte avant — supergéante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -90,7 +90,7 @@
       "ra_deg": 152.09358,
       "dec_deg": 11.9672,
       "mag": 1.3232,
-      "role": "",
+      "role": "La plus brillante de la figure — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -101,7 +101,7 @@
       "ra_deg": 154.17252,
       "dec_deg": 23.41733,
       "mag": 3.5096,
-      "role": "",
+      "role": "La crinière — géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -112,7 +112,7 @@
       "ra_deg": 154.99234,
       "dec_deg": 19.84186,
       "mag": 2.1684,
-      "role": "",
+      "role": "La crinière — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -123,7 +123,7 @@
       "ra_deg": 165.58242,
       "dec_deg": 20.17975,
       "mag": 4.4298,
-      "role": "",
+      "role": "Le ventre — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -134,7 +134,7 @@
       "ra_deg": 168.52672,
       "dec_deg": 20.52403,
       "mag": 2.5932,
-      "role": "",
+      "role": "Le dos — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -145,7 +145,7 @@
       "ra_deg": 168.56017,
       "dec_deg": 15.42976,
       "mag": 3.3288,
-      "role": "",
+      "role": "Le ventre — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -156,7 +156,7 @@
       "ra_deg": 170.28437,
       "dec_deg": 6.02935,
       "mag": 4.0345,
-      "role": "",
+      "role": "La patte — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -167,7 +167,7 @@
       "ra_deg": 170.9807,
       "dec_deg": 10.5297,
       "mag": 4.0331,
-      "role": "",
+      "role": "Le corps — sous-géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -178,7 +178,7 @@
       "ra_deg": 177.26616,
       "dec_deg": 14.57234,
       "mag": 2.1605,
-      "role": "",
+      "role": "La queue — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -373,7 +373,7 @@
       "r": "Faire partir du repère : La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola."
     }
   ],
-  "message_animation": "Lion : La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola. Constellation de printemps (14 étoiles figurées, 7 objet(s) du ciel profond).",
+  "message_animation": "Lion : La « Faucille » : un point d'interrogation inversé dessiné par Regulus, Algieba et Rasalas, fermé par Denebola. Constellation de printemps (14 étoiles figurées, 7 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 121–124 (fiche Atlas « Lion »)",
     "archive_texte": "atlas-observation-source/121-*.txt",

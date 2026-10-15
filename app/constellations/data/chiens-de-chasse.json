@@ -1,301 +1,301 @@
 {
- "id": "chiens-de-chasse",
- "slug": "chiens-de-chasse",
- "nom_fr": "Chiens de Chasse",
- "nom_latin": "Canes Venatici",
- "genitif": "Canum Venaticorum",
- "abreviation_iau": "CVn",
- "source_atlas": {
-  "pdf": "Atlas observation.pdf",
-  "pages": [
-   20,
-   21,
-   22
-  ]
- },
- "saison": "printemps",
- "voie_lactee": false,
- "repere_principal": "Cor Caroli (α CVn), sous la queue de la Grande Ourse",
- "constellations_voisines": [
-  "Le Bouvier",
-  "La Chevelure de Bérénice",
-  "La Grande Ourse"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "nom": "Cor Caroli",
-   "bayer": "alf CVn",
-   "ra_deg": 194.00694,
-   "dec_deg": 38.31838,
-   "mag": 2.88,
-   "role": "Extrémité du tracé, reliée à Chara.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+  "id": "chiens-de-chasse",
+  "slug": "chiens-de-chasse",
+  "nom_fr": "Chiens de Chasse",
+  "nom_latin": "Canes Venatici",
+  "genitif": "Canum Venaticorum",
+  "abreviation_iau": "CVn",
+  "source_atlas": {
+    "pdf": "Atlas observation.pdf",
+    "pages": [
+      20,
+      21,
+      22
+    ]
   },
-  {
-   "i": 1,
-   "nom": "Chara",
-   "bayer": "bet CVn",
-   "ra_deg": 188.4356,
-   "dec_deg": 41.35748,
-   "mag": 4.25,
-   "role": "Extrémité du tracé, reliée à Cor Caroli.",
-   "visibilite": "œil nu",
-   "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    0,
-    1
-   ]
+  "saison": "printemps",
+  "voie_lactee": false,
+  "repere_principal": "Cor Caroli (α CVn), sous la queue de la Grande Ourse",
+  "constellations_voisines": [
+    "Le Bouvier",
+    "La Chevelure de Bérénice",
+    "La Grande Ourse"
   ],
-  "commentaire": "Tracé retenu : une seule ligne, Cor Caroli–Chara, qui représente les deux chiens du Bouvier.",
-  "note_geometrie": "La figure officielle de cette constellation ne compte que deux étoiles et une seule liaison : Cor Caroli–Chara, longue de 5,25°. Il n'y a donc ni angle ni alignement à commenter — la figure est un simple trait. C'est cohérent avec la réalité : les Chiens de Chasse sont une constellation moderne et discrète en étoiles, mais elle abrite l'amas globulaire M 3 et la galaxie du Tourbillon (M 51).",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Cor Caroli–Chara": 5.25
- },
- "objets_ciel_profond": [
-  {
-   "id": "M 3",
-   "nature": "amas globulaire",
-   "mag": 6.39,
-   "distance_al": 33203,
-   "note": "Amas globulaire parmi les plus brillants du ciel, à environ 33 200 années-lumière.",
-   "instrument": "jumelles",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 51",
-   "nature": "galaxie",
-   "mag": 8.36,
-   "distance_al": 24787856,
-   "note": "Galaxie spirale de type Sc vue de face, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 5195",
-   "nature": "galaxie",
-   "mag": 9.58,
-   "distance_al": 24421002,
-   "note": "Petite galaxie irrégulière satellite de M 51, dans laquelle une supernova a été observée.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 63",
-   "nature": "galaxie",
-   "mag": 8.61,
-   "distance_al": 29192251,
-   "note": "Galaxie spirale voisine de M 51 sur le ciel, de magnitude 8,61.",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 94",
-   "nature": "galaxie",
-   "mag": 8.24,
-   "distance_al": 15485280,
-   "note": "Galaxie spirale de type Sc, la plus brillante de la liste (magnitude 8,24).",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "M 106",
-   "nature": "galaxie",
-   "mag": 9.29,
-   "distance_al": 24391775,
-   "note": "Galaxie spirale de type Sc, de magnitude 9,29.",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4449",
-   "nature": "galaxie",
-   "mag": 9.64,
-   "distance_al": 13926861,
-   "note": "Galaxie irrégulière d'accès relativement aisé, de magnitude 9,64 en bande V.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4490",
-   "nature": "galaxie",
-   "mag": 9.72,
-   "distance_al": 29060500,
-   "note": "Galaxie spirale en interaction (collision) avec une autre galaxie, de magnitude 9,72.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4214",
-   "nature": "galaxie",
-   "mag": 9.77,
-   "distance_al": 9588986,
-   "note": "Galaxie de magnitude 9,77, citée avec NGC 4490 dans la fiche de l'Atlas.",
-   "instrument": "télescope",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4631",
-   "nature": "galaxie",
-   "mag": 9.24,
-   "distance_al": 23972466,
-   "note": "Galaxie spirale vue par la tranche, en interaction avec la toute proche NGC 4656.",
-   "instrument": "lunette",
-   "src": "O1",
-   "code": "O1"
-  },
-  {
-   "id": "NGC 4656",
-   "nature": "paire de galaxies",
-   "mag": 10.52,
-   "distance_al": 15916413,
-   "note": "Paire de galaxies de magnitude 10,52, voisine de NGC 4631 avec laquelle elle interagit.",
-   "instrument": "télescope",
-   "src": "S1",
-   "code": "S1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Cor Caroli (α CVn), magnitude 2,88, devant Chara (β CVn, 4,25), à 5,25° de distance."
-  },
-  {
-   "q": "Pourquoi la figure se réduit-elle à une seule liaison ?",
-   "r": "Parce que la constellation ne compte que deux étoiles assez brillantes pour être retenues dans la figure : Cor Caroli et Chara."
-  },
-  {
-   "q": "Quel est l'objet du ciel profond le plus brillant ?",
-   "r": "L'amas globulaire M 3, magnitude 6,39, visible aux jumelles ; parmi les galaxies, M 94 (8,24) et M 51 (8,36)."
-  },
-  {
-   "q": "Quelles galaxies sont en interaction ?",
-   "r": "M 51 et NGC 5195 (magnitudes 8,36 et 9,58) ; NGC 4631 (9,24) et NGC 4656 (10,52) ; NGC 4490 (9,72) est elle aussi en interaction avec une autre galaxie."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "À quelle distance est M 3 ?",
-   "r": "À environ 33 203 années-lumière, d'après Baumgardt & Vasiliev 2021, référence pour les amas globulaires."
-  },
-  {
-   "q": "Pourquoi l'Atlas dit-il 8,80 pour M 51 alors que le catalogue donne 8,36 ?",
-   "r": "L'Atlas cite une magnitude photographique ; OpenNGC donne la bande V. Ce ne sont pas les mêmes bandes : il faut toujours préciser laquelle."
-  },
-  {
-   "q": "Pourquoi NGC 5195 a-t-elle une magnitude différente dans l'Atlas (10,6) et le catalogue (9,58) ?",
-   "r": "Mêmes causes de bande de mesure ; de plus, l'extraction du texte de l'Atlas a dû être corrigée pour attribuer 10,60 à NGC 5195 et non à M 51."
-  },
-  {
-   "q": "Qu'est-ce que la collision de galaxies observée entre M 51 et NGC 5195 ?",
-   "r": "Deux galaxies proches (environ 24,8 et 24,4 millions d'années-lumière) qui exercent l'une sur l'autre des forces de marée qui déforment leurs bras spiraux."
-  }
- ],
- "message_animation": "Les Chiens de Chasse n'ont que deux étoiles dans la figure (Cor Caroli et Chara), mais onze objets du ciel profond : l'amas globulaire M 3 et dix galaxies, dont la célèbre M 51, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 20–22 (fiche Atlas « Chiens de Chasse »)",
-  "archive_texte": "atlas-observation-source/020-chiens-de-chasse.txt",
-  "coordonnees": "Hipparcos I311 / Gaia DR3",
-  "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
-  "lacunes": [
-   "NGC 4656 : magnitude issue de SIMBAD (OpenNGC vide).",
-   "NGC 5195 : l'Atlas a été corrigé à l'extraction (8,80 pour M 51, 10,60 pour NGC 5195).",
-   "Figure : seulement 2 étoiles et 1 liaison ; aucune carte IAU officielle n'impose un tracé unique, le tracé retenu est documenté comme un choix.",
-   "M 63 : parallaxe rejetée, distance issue de Wikidata."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "nom": "Cor Caroli",
+      "bayer": "alf CVn",
+      "ra_deg": 194.00694,
+      "dec_deg": 38.31838,
+      "mag": 2.88,
+      "role": "La plus brillante de la figure — naine blanche",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    },
+    {
+      "i": 1,
+      "nom": "Chara",
+      "bayer": "bet CVn",
+      "ra_deg": 188.4356,
+      "dec_deg": 41.35748,
+      "mag": 4.25,
+      "role": "Le corps — naine jaune",
+      "visibilite": "œil nu",
+      "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        0,
+        1
+      ]
+    ],
+    "commentaire": "Tracé retenu : une seule ligne, Cor Caroli–Chara, qui représente les deux chiens du Bouvier.",
+    "note_geometrie": "La figure officielle de cette constellation ne compte que deux étoiles et une seule liaison : Cor Caroli–Chara, longue de 5,25°. Il n'y a donc ni angle ni alignement à commenter — la figure est un simple trait. C'est cohérent avec la réalité : les Chiens de Chasse sont une constellation moderne et discrète en étoiles, mais elle abrite l'amas globulaire M 3 et la galaxie du Tourbillon (M 51).",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Cor Caroli–Chara": 5.25
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "M 3",
+      "nature": "amas globulaire",
+      "mag": 6.39,
+      "distance_al": 33203,
+      "note": "Amas globulaire parmi les plus brillants du ciel, à environ 33 200 années-lumière.",
+      "instrument": "jumelles",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 51",
+      "nature": "galaxie",
+      "mag": 8.36,
+      "distance_al": 24787856,
+      "note": "Galaxie spirale de type Sc vue de face, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 5195",
+      "nature": "galaxie",
+      "mag": 9.58,
+      "distance_al": 24421002,
+      "note": "Petite galaxie irrégulière satellite de M 51, dans laquelle une supernova a été observée.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 63",
+      "nature": "galaxie",
+      "mag": 8.61,
+      "distance_al": 29192251,
+      "note": "Galaxie spirale voisine de M 51 sur le ciel, de magnitude 8,61.",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 94",
+      "nature": "galaxie",
+      "mag": 8.24,
+      "distance_al": 15485280,
+      "note": "Galaxie spirale de type Sc, la plus brillante de la liste (magnitude 8,24).",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "M 106",
+      "nature": "galaxie",
+      "mag": 9.29,
+      "distance_al": 24391775,
+      "note": "Galaxie spirale de type Sc, de magnitude 9,29.",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4449",
+      "nature": "galaxie",
+      "mag": 9.64,
+      "distance_al": 13926861,
+      "note": "Galaxie irrégulière d'accès relativement aisé, de magnitude 9,64 en bande V.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4490",
+      "nature": "galaxie",
+      "mag": 9.72,
+      "distance_al": 29060500,
+      "note": "Galaxie spirale en interaction (collision) avec une autre galaxie, de magnitude 9,72.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4214",
+      "nature": "galaxie",
+      "mag": 9.77,
+      "distance_al": 9588986,
+      "note": "Galaxie de magnitude 9,77, citée avec NGC 4490 dans la fiche de l'Atlas.",
+      "instrument": "télescope",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4631",
+      "nature": "galaxie",
+      "mag": 9.24,
+      "distance_al": 23972466,
+      "note": "Galaxie spirale vue par la tranche, en interaction avec la toute proche NGC 4656.",
+      "instrument": "lunette",
+      "src": "O1",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 4656",
+      "nature": "paire de galaxies",
+      "mag": 10.52,
+      "distance_al": 15916413,
+      "note": "Paire de galaxies de magnitude 10,52, voisine de NGC 4631 avec laquelle elle interagit.",
+      "instrument": "télescope",
+      "src": "S1",
+      "code": "S1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Cor Caroli (α CVn), magnitude 2,88, devant Chara (β CVn, 4,25), à 5,25° de distance."
+    },
+    {
+      "q": "Pourquoi la figure se réduit-elle à une seule liaison ?",
+      "r": "Parce que la constellation ne compte que deux étoiles assez brillantes pour être retenues dans la figure : Cor Caroli et Chara."
+    },
+    {
+      "q": "Quel est l'objet du ciel profond le plus brillant ?",
+      "r": "L'amas globulaire M 3, magnitude 6,39, visible aux jumelles ; parmi les galaxies, M 94 (8,24) et M 51 (8,36)."
+    },
+    {
+      "q": "Quelles galaxies sont en interaction ?",
+      "r": "M 51 et NGC 5195 (magnitudes 8,36 et 9,58) ; NGC 4631 (9,24) et NGC 4656 (10,52) ; NGC 4490 (9,72) est elle aussi en interaction avec une autre galaxie."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "À quelle distance est M 3 ?",
+      "r": "À environ 33 203 années-lumière, d'après Baumgardt & Vasiliev 2021, référence pour les amas globulaires."
+    },
+    {
+      "q": "Pourquoi l'Atlas dit-il 8,80 pour M 51 alors que le catalogue donne 8,36 ?",
+      "r": "L'Atlas cite une magnitude photographique ; OpenNGC donne la bande V. Ce ne sont pas les mêmes bandes : il faut toujours préciser laquelle."
+    },
+    {
+      "q": "Pourquoi NGC 5195 a-t-elle une magnitude différente dans l'Atlas (10,6) et le catalogue (9,58) ?",
+      "r": "Mêmes causes de bande de mesure ; de plus, l'extraction du texte de l'Atlas a dû être corrigée pour attribuer 10,60 à NGC 5195 et non à M 51."
+    },
+    {
+      "q": "Qu'est-ce que la collision de galaxies observée entre M 51 et NGC 5195 ?",
+      "r": "Deux galaxies proches (environ 24,8 et 24,4 millions d'années-lumière) qui exercent l'une sur l'autre des forces de marée qui déforment leurs bras spiraux."
+    }
+  ],
+  "message_animation": "Les Chiens de Chasse n'ont que deux étoiles dans la figure (Cor Caroli et Chara), mais onze objets du ciel profond : l'amas globulaire M 3 et dix galaxies, dont la célèbre M 51, la Galaxie du Tourbillon, en interaction avec NGC 5195.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 20–22 (fiche Atlas « Chiens de Chasse »)",
+    "archive_texte": "atlas-observation-source/020-chiens-de-chasse.txt",
+    "coordonnees": "Hipparcos I311 / Gaia DR3",
+    "statut": "PROTOTYPE — corrigé à valider par Christophe avant diffusion publique",
+    "lacunes": [
+      "NGC 4656 : magnitude issue de SIMBAD (OpenNGC vide).",
+      "NGC 5195 : l'Atlas a été corrigé à l'extraction (8,80 pour M 51, 10,60 pour NGC 5195).",
+      "Figure : seulement 2 étoiles et 1 liaison ; aucune carte IAU officielle n'impose un tracé unique, le tracé retenu est documenté comme un choix.",
+      "M 63 : parallaxe rejetée, distance issue de Wikidata."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

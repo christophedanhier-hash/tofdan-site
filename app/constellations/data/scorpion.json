@@ -33,7 +33,7 @@
       "ra_deg": 239.22119,
       "dec_deg": -29.21401,
       "mag": 3.8095,
-      "role": "",
+      "role": "Le corps — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -44,7 +44,7 @@
       "ra_deg": 239.713,
       "dec_deg": -26.11404,
       "mag": 2.8274,
-      "role": "",
+      "role": "La pince — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -55,7 +55,7 @@
       "ra_deg": 240.08338,
       "dec_deg": -22.62162,
       "mag": 2.2617,
-      "role": "",
+      "role": "La pince — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -66,7 +66,7 @@
       "ra_deg": 241.35931,
       "dec_deg": -19.80539,
       "mag": 2.594,
-      "role": "",
+      "role": "La pince nord — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -77,7 +77,7 @@
       "ra_deg": 242.99892,
       "dec_deg": -19.46065,
       "mag": 4.0076,
-      "role": "",
+      "role": "La tête — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -88,7 +88,7 @@
       "ra_deg": 245.29718,
       "dec_deg": -25.59275,
       "mag": 2.9227,
-      "role": "",
+      "role": "Le torse — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -99,7 +99,7 @@
       "ra_deg": 247.35195,
       "dec_deg": -26.43195,
       "mag": 0.9757,
-      "role": "",
+      "role": "La plus brillante de la figure — supergéante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -110,7 +110,7 @@
       "ra_deg": 248.97066,
       "dec_deg": -28.21596,
       "mag": 2.7374,
-      "role": "",
+      "role": "Le corps — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -121,7 +121,7 @@
       "ra_deg": 252.54269,
       "dec_deg": -34.29261,
       "mag": 2.4532,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -132,7 +132,7 @@
       "ra_deg": 252.96766,
       "dec_deg": -38.04733,
       "mag": 2.9245,
-      "role": "",
+      "role": "Le corps — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -143,7 +143,7 @@
       "ra_deg": 253.64627,
       "dec_deg": -42.36076,
       "mag": 3.7651,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -154,7 +154,7 @@
       "ra_deg": 258.03823,
       "dec_deg": -43.23849,
       "mag": 3.4149,
-      "role": "",
+      "role": "La queue — sous-géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -165,7 +165,7 @@
       "ra_deg": 262.69099,
       "dec_deg": -37.29574,
       "mag": 2.6043,
-      "role": "",
+      "role": "Le dard — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -176,7 +176,7 @@
       "ra_deg": 263.40219,
       "dec_deg": -37.10375,
       "mag": 1.5244,
-      "role": "",
+      "role": "Le dard — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -187,7 +187,7 @@
       "ra_deg": 264.32969,
       "dec_deg": -42.99782,
       "mag": 1.9269,
-      "role": "",
+      "role": "La queue — géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -198,7 +198,7 @@
       "ra_deg": 265.622,
       "dec_deg": -39.02992,
       "mag": 2.3164,
-      "role": "",
+      "role": "Le corps — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -209,7 +209,7 @@
       "ra_deg": 266.89617,
       "dec_deg": -40.12698,
       "mag": 3.1092,
-      "role": "",
+      "role": "Le corps — supergéante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -220,7 +220,7 @@
       "ra_deg": 267.46438,
       "dec_deg": -37.04337,
       "mag": 3.3521,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -467,7 +467,7 @@
       "r": "Faire partir du repère : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath)."
     }
   ],
-  "message_animation": "Scorpion : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath). Constellation de été (18 étoiles figurées, 9 objet(s) du ciel profond).",
+  "message_animation": "Scorpion : Antarès, le cœur rouge, au centre d'un long crochet qui se termine par le dard (Shaula, Lesath). Constellation de été (18 étoiles figurées, 9 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 100–102 (fiche Atlas « Scorpion »)",
     "archive_texte": "atlas-observation-source/100-*.txt",

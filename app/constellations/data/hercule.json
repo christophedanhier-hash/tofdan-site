@@ -1,530 +1,530 @@
 {
- "id": "hercule",
- "slug": "hercule",
- "nom_fr": "Hercule",
- "nom_latin": "Hercules",
- "genitif": "Herculis",
- "abreviation_iau": "Her",
- "source_atlas": "Atlas observation.pdf, pages 54–55 (fiche Atlas « Hercule »)",
- "saison": "été",
- "voie_lactee": false,
- "repere_principal": "Le quadrilatère d'Hercule et le Grand Amas M 13",
- "constellations_voisines": [
-  "Dragon",
-  "Bouvier",
-  "Couronne Boréale",
-  "Serpent",
-  "Ophiuchus",
-  "Aigle",
-  "Flèche",
-  "Lyre",
-  "Petit Renard"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "hip": 77760,
-   "nom": "χ Her",
-   "etiq": "χ",
-   "bayer": "chi Her",
-   "ra_deg": 238.167,
-   "dec_deg": 42.45,
-   "mag": 4.6,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 77760)"
-  },
-  {
-   "i": 1,
-   "hip": 79101,
-   "nom": "φ Her",
-   "etiq": "φ",
-   "bayer": "phi Her",
-   "ra_deg": 242.192,
-   "dec_deg": 44.935,
-   "mag": 4.23,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 79101)"
-  },
-  {
-   "i": 2,
-   "hip": 79992,
-   "nom": "τ Her",
-   "etiq": "τ",
-   "bayer": "tau Her",
-   "ra_deg": 244.935,
-   "dec_deg": 46.313,
-   "mag": 3.91,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 79992)"
-  },
-  {
-   "i": 3,
-   "hip": 80170,
-   "nom": "γ Her",
-   "etiq": "γ",
-   "bayer": "gam Her",
-   "ra_deg": 245.48,
-   "dec_deg": 19.153,
-   "mag": 3.74,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 80170)"
-  },
-  {
-   "i": 4,
-   "hip": 80463,
-   "nom": "Cujam",
-   "etiq": "Cujam",
-   "bayer": "ome Her",
-   "ra_deg": 246.354,
-   "dec_deg": 14.033,
-   "mag": 4.57,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 80463)/ IAU"
-  },
-  {
-   "i": 5,
-   "hip": 80816,
-   "nom": "Kornephoros",
-   "etiq": "Kornephoros",
-   "bayer": "bet Her",
-   "ra_deg": 247.555,
-   "dec_deg": 21.49,
-   "mag": 2.78,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 80816)/ IAU"
-  },
-  {
-   "i": 6,
-   "hip": 81008,
-   "nom": "29 Her",
-   "etiq": "29",
-   "bayer": "h Her",
-   "ra_deg": 248.152,
-   "dec_deg": 11.488,
-   "mag": 4.84,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 81008)"
-  },
-  {
-   "i": 7,
-   "hip": 81126,
-   "nom": "σ Her",
-   "etiq": "σ",
-   "bayer": "sig Her",
-   "ra_deg": 248.526,
-   "dec_deg": 42.437,
-   "mag": 4.2,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 81126)"
-  },
-  {
-   "i": 8,
-   "hip": 81693,
-   "nom": "ζ Her",
-   "etiq": "ζ",
-   "bayer": "zet Her",
-   "ra_deg": 250.323,
-   "dec_deg": 31.602,
-   "mag": 2.81,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 81693)"
-  },
-  {
-   "i": 9,
-   "hip": 81833,
-   "nom": "η Her",
-   "etiq": "η",
-   "bayer": "eta Her",
-   "ra_deg": 250.724,
-   "dec_deg": 38.922,
-   "mag": 3.48,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 81833)"
-  },
-  {
-   "i": 10,
-   "hip": 83207,
-   "nom": "ε Her",
-   "etiq": "ε",
-   "bayer": "eps Her",
-   "ra_deg": 255.073,
-   "dec_deg": 30.926,
-   "mag": 3.92,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 83207)"
-  },
-  {
-   "i": 11,
-   "hip": 84345,
-   "nom": "64 Her",
-   "etiq": "64",
-   "bayer": "alf01 Her",
-   "ra_deg": 258.662,
-   "dec_deg": 14.39,
-   "mag": 2.78,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 84345)"
-  },
-  {
-   "i": 12,
-   "hip": 84379,
-   "nom": "Sarin",
-   "etiq": "Sarin",
-   "bayer": "del Her",
-   "ra_deg": 258.758,
-   "dec_deg": 24.84,
-   "mag": 3.12,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 84379)/ IAU"
-  },
-  {
-   "i": 13,
-   "hip": 84380,
-   "nom": "π Her",
-   "etiq": "π",
-   "bayer": "pi. Her",
-   "ra_deg": 258.762,
-   "dec_deg": 36.809,
-   "mag": 3.16,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 84380)"
-  },
-  {
-   "i": 14,
-   "hip": 85112,
-   "nom": "ρ Her",
-   "etiq": "ρ",
-   "bayer": "rho Her",
-   "ra_deg": 260.921,
-   "dec_deg": 37.146,
-   "mag": 4.15,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 85112)"
-  },
-  {
-   "i": 15,
-   "hip": 85693,
-   "nom": "λ Her",
-   "etiq": "λ",
-   "bayer": "lam Her",
-   "ra_deg": 262.685,
-   "dec_deg": 26.111,
-   "mag": 4.41,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 85693)"
-  },
-  {
-   "i": 16,
-   "hip": 86414,
-   "nom": "ι Her",
-   "etiq": "ι",
-   "bayer": "iot Her",
-   "ra_deg": 264.866,
-   "dec_deg": 46.006,
-   "mag": 3.82,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 86414)"
-  },
-  {
-   "i": 17,
-   "hip": 86974,
-   "nom": "86 Her",
-   "etiq": "86",
-   "bayer": "mu. Her",
-   "ra_deg": 266.615,
-   "dec_deg": 27.722,
-   "mag": 3.42,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 86974)"
-  },
-  {
-   "i": 18,
-   "hip": 87808,
-   "nom": "θ Her",
-   "etiq": "θ",
-   "bayer": "the Her",
-   "ra_deg": 269.063,
-   "dec_deg": 37.251,
-   "mag": 3.86,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 87808)"
-  },
-  {
-   "i": 19,
-   "hip": 87933,
-   "nom": "ξ Her",
-   "etiq": "ξ",
-   "bayer": "ksi Her",
-   "ra_deg": 269.441,
-   "dec_deg": 29.248,
-   "mag": 3.7,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 87933)"
-  },
-  {
-   "i": 20,
-   "hip": 88794,
-   "nom": "ο Her",
-   "etiq": "ο",
-   "bayer": "omi Her",
-   "ra_deg": 271.886,
-   "dec_deg": 28.762,
-   "mag": 3.84,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 88794)"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    16,
-    18,
-    14,
-    13,
-    9,
-    7,
-    2,
-    1,
-    0
-   ],
-   [
-    9,
-    8,
-    5,
-    3,
-    4,
-    6
-   ],
-   [
-    8,
-    10,
-    13
-   ],
-   [
-    20,
-    19,
-    17,
-    15,
-    12
-   ],
-   [
-    10,
-    12,
-    11,
-    5
-   ]
+  "id": "hercule",
+  "slug": "hercule",
+  "nom_fr": "Hercule",
+  "nom_latin": "Hercules",
+  "genitif": "Herculis",
+  "abreviation_iau": "Her",
+  "source_atlas": "Atlas observation.pdf, pages 54–55 (fiche Atlas « Hercule »)",
+  "saison": "été",
+  "voie_lactee": false,
+  "repere_principal": "Le quadrilatère d'Hercule et le Grand Amas M 13",
+  "constellations_voisines": [
+    "Dragon",
+    "Bouvier",
+    "Couronne Boréale",
+    "Serpent",
+    "Ophiuchus",
+    "Aigle",
+    "Flèche",
+    "Lyre",
+    "Petit Renard"
   ],
-  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 21 étoiles reliées par 22 segments.",
-  "note_geometrie": "Figure construite sur 21 étoiles et 22 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie 64 Her à Kornephoros (12.72°) ; le plus court relie ρ Her à π Her (1.76°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "ι Her–θ Her": 9.3,
-  "θ Her–ρ Her": 6.48,
-  "ρ Her–π Her": 1.76,
-  "π Her–η Her": 6.69,
-  "η Her–σ Her": 3.89,
-  "σ Her–τ Her": 4.65,
-  "τ Her–φ Her": 2.36,
-  "φ Her–χ Her": 3.83,
-  "η Her–ζ Her": 7.33,
-  "ζ Her–Kornephoros": 10.41,
-  "Kornephoros–γ Her": 3.04,
-  "γ Her–Cujam": 5.19,
-  "Cujam–29 Her": 3.09,
-  "ζ Her–ε Her": 4.12,
-  "ε Her–π Her": 6.63,
-  "ο Her–ξ Her": 2.19,
-  "ξ Her–86 Her": 2.92,
-  "86 Her–λ Her": 3.86,
-  "λ Her–Sarin": 3.77,
-  "ε Her–Sarin": 6.9,
-  "Sarin–64 Her": 10.45,
-  "64 Her–Kornephoros": 12.72
- },
- "objets_ciel_profond": [
-  {
-   "id": "NGC 6205",
-   "nature": "amas globulaire",
-   "mag": 5.9,
-   "distance_al": null,
-   "note": "NGC 6205 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
-   "instrument": "œil nu",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 6341",
-   "nature": "amas globulaire",
-   "mag": 6.5,
-   "distance_al": null,
-   "note": "NGC 6341 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
-   "instrument": "jumelles",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 6229",
-   "nature": "amas globulaire",
-   "mag": 9.4,
-   "distance_al": null,
-   "note": "NGC 6229 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 6210",
-   "nature": "nébuleuse planétaire",
-   "mag": 9,
-   "distance_al": null,
-   "note": "NGC 6210 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Hercule.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  },
-  {
-   "id": "NGC 6207",
-   "nature": "galaxie",
-   "mag": 11.6,
-   "distance_al": null,
-   "note": "NGC 6207 — galaxie documenté(e) dans la fiche Atlas de Hercule.",
-   "instrument": "télescope",
-   "src": "N1",
-   "code": "N1"
-  }
- ],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Kornephoros, magnitude 2.78, selon le catalogue Hipparcos (bande V)."
-  },
-  {
-   "q": "Quelles étoiles de la figure demandent un instrument ?",
-   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
-  },
-  {
-   "q": "Combien d'objets du ciel profond sont documentés dans Hercule ?",
-   "r": "5 objet(s), d'après la fiche Atlas correspondante."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Comment observer NGC 6205 ?",
-   "r": "NGC 6205 est un(e) amas globulaire de magnitude 5.9. Instrument conseillé : œil nu. NGC 6205 — amas globulaire documenté(e) dans la fiche Atlas de Hercule."
-  },
-  {
-   "q": "Quand observer Hercule ?",
-   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Le quadrilatère d'Hercule et le Grand Amas M 13."
-  }
- ],
- "message_animation": "Hercule — 21 étoiles reliées, 5 objet(s) du ciel profond documenté(s). Saison : été.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 54–55 (fiche Atlas « Hercule »)",
-  "archive_texte": null,
-  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-  "lacunes": [
-   "Aucune lacune identifiée."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "hip": 77760,
+      "nom": "χ Her",
+      "etiq": "χ",
+      "bayer": "chi Her",
+      "ra_deg": 238.167,
+      "dec_deg": 42.45,
+      "mag": 4.6,
+      "role": "La jambe — naine jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 77760)"
+    },
+    {
+      "i": 1,
+      "hip": 79101,
+      "nom": "φ Her",
+      "etiq": "φ",
+      "bayer": "phi Her",
+      "ra_deg": 242.192,
+      "dec_deg": 44.935,
+      "mag": 4.23,
+      "role": "La jambe — naine bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 79101)"
+    },
+    {
+      "i": 2,
+      "hip": 79992,
+      "nom": "τ Her",
+      "etiq": "τ",
+      "bayer": "tau Her",
+      "ra_deg": 244.935,
+      "dec_deg": 46.313,
+      "mag": 3.91,
+      "role": "Le pied nord — naine bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 79992)"
+    },
+    {
+      "i": 3,
+      "hip": 80170,
+      "nom": "γ Her",
+      "etiq": "γ",
+      "bayer": "gam Her",
+      "ra_deg": 245.48,
+      "dec_deg": 19.153,
+      "mag": 3.74,
+      "role": "Le tibia — géante blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 80170)"
+    },
+    {
+      "i": 4,
+      "hip": 80463,
+      "nom": "Cujam",
+      "etiq": "Cujam",
+      "bayer": "ome Her",
+      "ra_deg": 246.354,
+      "dec_deg": 14.033,
+      "mag": 4.57,
+      "role": "Le pied — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 80463)/ IAU"
+    },
+    {
+      "i": 5,
+      "hip": 80816,
+      "nom": "Kornephoros",
+      "etiq": "Kornephoros",
+      "bayer": "bet Her",
+      "ra_deg": 247.555,
+      "dec_deg": 21.49,
+      "mag": 2.78,
+      "role": "La plus brillante de la figure — géante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 80816)/ IAU"
+    },
+    {
+      "i": 6,
+      "hip": 81008,
+      "nom": "29 Her",
+      "etiq": "29",
+      "bayer": "h Her",
+      "ra_deg": 248.152,
+      "dec_deg": 11.488,
+      "mag": 4.84,
+      "role": "Le pied — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 81008)"
+    },
+    {
+      "i": 7,
+      "hip": 81126,
+      "nom": "σ Her",
+      "etiq": "σ",
+      "bayer": "sig Her",
+      "ra_deg": 248.526,
+      "dec_deg": 42.437,
+      "mag": 4.2,
+      "role": "Le bras — naine bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 81126)"
+    },
+    {
+      "i": 8,
+      "hip": 81693,
+      "nom": "ζ Her",
+      "etiq": "ζ",
+      "bayer": "zet Her",
+      "ra_deg": 250.323,
+      "dec_deg": 31.602,
+      "mag": 2.81,
+      "role": "Le corps — sous-géante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 81693)"
+    },
+    {
+      "i": 9,
+      "hip": 81833,
+      "nom": "η Her",
+      "etiq": "η",
+      "bayer": "eta Her",
+      "ra_deg": 250.724,
+      "dec_deg": 38.922,
+      "mag": 3.48,
+      "role": "Le bras — géante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 81833)"
+    },
+    {
+      "i": 10,
+      "hip": 83207,
+      "nom": "ε Her",
+      "etiq": "ε",
+      "bayer": "eps Her",
+      "ra_deg": 255.073,
+      "dec_deg": 30.926,
+      "mag": 3.92,
+      "role": "Le torse — naine blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 83207)"
+    },
+    {
+      "i": 11,
+      "hip": 84345,
+      "nom": "Rasalgethi",
+      "etiq": "Rasalgethi",
+      "bayer": "alf01 Her",
+      "ra_deg": 258.662,
+      "dec_deg": 14.39,
+      "mag": 2.78,
+      "role": "La tête — supergéante rouge",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 84345)"
+    },
+    {
+      "i": 12,
+      "hip": 84379,
+      "nom": "Sarin",
+      "etiq": "Sarin",
+      "bayer": "del Her",
+      "ra_deg": 258.758,
+      "dec_deg": 24.84,
+      "mag": 3.12,
+      "role": "La hanche — sous-géante blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 84379)/ IAU"
+    },
+    {
+      "i": 13,
+      "hip": 84380,
+      "nom": "π Her",
+      "etiq": "π",
+      "bayer": "pi. Her",
+      "ra_deg": 258.762,
+      "dec_deg": 36.809,
+      "mag": 3.16,
+      "role": "La main — géante lumineuse orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 84380)"
+    },
+    {
+      "i": 14,
+      "hip": 85112,
+      "nom": "ρ Her",
+      "etiq": "ρ",
+      "bayer": "rho Her",
+      "ra_deg": 260.921,
+      "dec_deg": 37.146,
+      "mag": 4.15,
+      "role": "La main — géante blanche",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 85112)"
+    },
+    {
+      "i": 15,
+      "hip": 85693,
+      "nom": "λ Her",
+      "etiq": "λ",
+      "bayer": "lam Her",
+      "ra_deg": 262.685,
+      "dec_deg": 26.111,
+      "mag": 4.41,
+      "role": "La hanche — géante orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 85693)"
+    },
+    {
+      "i": 16,
+      "hip": 86414,
+      "nom": "ι Her",
+      "etiq": "ι",
+      "bayer": "iot Her",
+      "ra_deg": 264.866,
+      "dec_deg": 46.006,
+      "mag": 3.82,
+      "role": "Le pied nord — sous-géante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 86414)"
+    },
+    {
+      "i": 17,
+      "hip": 86974,
+      "nom": "86 Her",
+      "etiq": "86",
+      "bayer": "mu. Her",
+      "ra_deg": 266.615,
+      "dec_deg": 27.722,
+      "mag": 3.42,
+      "role": "Le flanc — sous-géante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 86974)"
+    },
+    {
+      "i": 18,
+      "hip": 87808,
+      "nom": "θ Her",
+      "etiq": "θ",
+      "bayer": "the Her",
+      "ra_deg": 269.063,
+      "dec_deg": 37.251,
+      "mag": 3.86,
+      "role": "La main ouest — géante lumineuse orange",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 87808)"
+    },
+    {
+      "i": 19,
+      "hip": 87933,
+      "nom": "ξ Her",
+      "etiq": "ξ",
+      "bayer": "ksi Her",
+      "ra_deg": 269.441,
+      "dec_deg": 29.248,
+      "mag": 3.7,
+      "role": "Le flanc — géante jaune",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 87933)"
+    },
+    {
+      "i": 20,
+      "hip": 88794,
+      "nom": "ο Her",
+      "etiq": "ο",
+      "bayer": "omi Her",
+      "ra_deg": 271.886,
+      "dec_deg": 28.762,
+      "mag": 3.84,
+      "role": "Le flanc — géante bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 88794)"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        16,
+        18,
+        14,
+        13,
+        9,
+        7,
+        2,
+        1,
+        0
+      ],
+      [
+        9,
+        8,
+        5,
+        3,
+        4,
+        6
+      ],
+      [
+        8,
+        10,
+        13
+      ],
+      [
+        20,
+        19,
+        17,
+        15,
+        12
+      ],
+      [
+        10,
+        12,
+        11,
+        5
+      ]
+    ],
+    "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 21 étoiles reliées par 22 segments.",
+    "note_geometrie": "Figure construite sur 21 étoiles et 22 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Rasalgethi à Kornephoros (12.72°) ; le plus court relie ρ Her à π Her (1.76°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "ι Her–θ Her": 9.3,
+    "θ Her–ρ Her": 6.48,
+    "ρ Her–π Her": 1.76,
+    "π Her–η Her": 6.69,
+    "η Her–σ Her": 3.89,
+    "σ Her–τ Her": 4.65,
+    "τ Her–φ Her": 2.36,
+    "φ Her–χ Her": 3.83,
+    "η Her–ζ Her": 7.33,
+    "ζ Her–Kornephoros": 10.41,
+    "Kornephoros–γ Her": 3.04,
+    "γ Her–Cujam": 5.19,
+    "Cujam–29 Her": 3.09,
+    "ζ Her–ε Her": 4.12,
+    "ε Her–π Her": 6.63,
+    "ο Her–ξ Her": 2.19,
+    "ξ Her–86 Her": 2.92,
+    "86 Her–λ Her": 3.86,
+    "λ Her–Sarin": 3.77,
+    "ε Her–Sarin": 6.9,
+    "Sarin–Rasalgethi": 10.45,
+    "Rasalgethi–Kornephoros": 12.72
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 6205",
+      "nature": "amas globulaire",
+      "mag": 5.9,
+      "distance_al": null,
+      "note": "NGC 6205 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
+      "instrument": "œil nu",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 6341",
+      "nature": "amas globulaire",
+      "mag": 6.5,
+      "distance_al": null,
+      "note": "NGC 6341 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
+      "instrument": "jumelles",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 6229",
+      "nature": "amas globulaire",
+      "mag": 9.4,
+      "distance_al": null,
+      "note": "NGC 6229 — amas globulaire documenté(e) dans la fiche Atlas de Hercule.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 6210",
+      "nature": "nébuleuse planétaire",
+      "mag": 9,
+      "distance_al": null,
+      "note": "NGC 6210 — nébuleuse planétaire documenté(e) dans la fiche Atlas de Hercule.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    },
+    {
+      "id": "NGC 6207",
+      "nature": "galaxie",
+      "mag": 11.6,
+      "distance_al": null,
+      "note": "NGC 6207 — galaxie documenté(e) dans la fiche Atlas de Hercule.",
+      "instrument": "télescope",
+      "src": "N1",
+      "code": "N1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Kornephoros, magnitude 2.78, selon le catalogue Hipparcos (bande V)."
+    },
+    {
+      "q": "Quelles étoiles de la figure demandent un instrument ?",
+      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+    },
+    {
+      "q": "Combien d'objets du ciel profond sont documentés dans Hercule ?",
+      "r": "5 objets, d'après la fiche Atlas correspondante."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Comment observer NGC 6205 ?",
+      "r": "NGC 6205 est un(e) amas globulaire de magnitude 5.9. Instrument conseillé : œil nu. NGC 6205 — amas globulaire documenté(e) dans la fiche Atlas de Hercule."
+    },
+    {
+      "q": "Quand observer Hercule ?",
+      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en été. Repère principal : Le quadrilatère d'Hercule et le Grand Amas M 13."
+    }
+  ],
+  "message_animation": "Hercule se repère par son quadrilatère de quatre étoiles, dont Kornephoros et ζ Her. On peut commencer par ce quadrilatère, puis chercher sur son côté ouest M13, le plus bel amas globulaire de l'hémisphère nord, visible à l'œil nu sous un ciel pur et magnifique aux jumelles.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 54–55 (fiche Atlas « Hercule »)",
+    "archive_texte": null,
+    "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+    "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
+    "lacunes": [
+      "Aucune lacune identifiée."
+    ]
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

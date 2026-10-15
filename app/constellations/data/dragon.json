@@ -25,7 +25,7 @@
       "ra_deg": 268.3818,
       "dec_deg": 56.8725,
       "mag": 3.73,
-      "role": "",
+      "role": "La tête — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -36,7 +36,7 @@
       "ra_deg": 269.1516,
       "dec_deg": 51.489,
       "mag": 2.24,
-      "role": "",
+      "role": "La plus brillante de la figure — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -47,7 +47,7 @@
       "ra_deg": 262.6082,
       "dec_deg": 52.3014,
       "mag": 2.79,
-      "role": "",
+      "role": "La tête — supergéante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -58,7 +58,7 @@
       "ra_deg": 263.0662,
       "dec_deg": 55.1728,
       "mag": 4.86,
-      "role": "",
+      "role": "Le cou — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -69,7 +69,7 @@
       "ra_deg": 288.1381,
       "dec_deg": 67.6613,
       "mag": 3.07,
-      "role": "",
+      "role": "Le cou — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -80,7 +80,7 @@
       "ra_deg": 297.0426,
       "dec_deg": 70.2678,
       "mag": 3.84,
-      "role": "",
+      "role": "Le corps — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -91,7 +91,7 @@
       "ra_deg": 275.1893,
       "dec_deg": 71.3377,
       "mag": 4.22,
-      "role": "",
+      "role": "Le corps — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -102,7 +102,7 @@
       "ra_deg": 257.1968,
       "dec_deg": 65.7146,
       "mag": 3.17,
-      "role": "",
+      "role": "Le corps — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -113,7 +113,7 @@
       "ra_deg": 245.9979,
       "dec_deg": 61.5141,
       "mag": 2.73,
-      "role": "",
+      "role": "Le corps — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -124,7 +124,7 @@
       "ra_deg": 240.4738,
       "dec_deg": 58.5644,
       "mag": 4.01,
-      "role": "",
+      "role": "L'aile — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -135,7 +135,7 @@
       "ra_deg": 231.2324,
       "dec_deg": 58.966,
       "mag": 3.29,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -146,7 +146,7 @@
       "ra_deg": 211.0976,
       "dec_deg": 64.3758,
       "mag": 3.67,
-      "role": "",
+      "role": "La queue — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -157,7 +157,7 @@
       "ra_deg": 188.371,
       "dec_deg": 69.7882,
       "mag": 3.85,
-      "role": "",
+      "role": "La queue — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     },
@@ -168,7 +168,7 @@
       "ra_deg": 172.8512,
       "dec_deg": 69.3311,
       "mag": 3.82,
-      "role": "",
+      "role": "La queue — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (catalogue I/239) — coordonnées et magnitude Vmag"
     }

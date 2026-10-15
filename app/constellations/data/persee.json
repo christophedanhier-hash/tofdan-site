@@ -28,7 +28,7 @@
       "ra_deg": 41.049,
       "dec_deg": 49.229,
       "mag": 4.1,
-      "role": "",
+      "role": "Le torse — naine jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 12777)"
     },
@@ -41,7 +41,7 @@
       "ra_deg": 42.674,
       "dec_deg": 55.896,
       "mag": 3.77,
-      "role": "",
+      "role": "La tête — supergéante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 13268)/ IAU"
     },
@@ -54,7 +54,7 @@
       "ra_deg": 43.564,
       "dec_deg": 52.762,
       "mag": 3.93,
-      "role": "",
+      "role": "L'épaule — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 13531)"
     },
@@ -67,7 +67,7 @@
       "ra_deg": 46.199,
       "dec_deg": 53.506,
       "mag": 2.91,
-      "role": "",
+      "role": "Le cou — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 14328)"
     },
@@ -80,7 +80,7 @@
       "ra_deg": 46.294,
       "dec_deg": 38.841,
       "mag": 3.32,
-      "role": "",
+      "role": "La cuisse — géante rouge",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 14354)"
     },
@@ -93,7 +93,7 @@
       "ra_deg": 47.042,
       "dec_deg": 40.956,
       "mag": 2.09,
-      "role": "",
+      "role": "L'œil — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 14576)"
     },
@@ -106,7 +106,7 @@
       "ra_deg": 47.262,
       "dec_deg": 49.614,
       "mag": 4.05,
-      "role": "",
+      "role": "Le bras — naine jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 14632)"
     },
@@ -119,7 +119,7 @@
       "ra_deg": 47.373,
       "dec_deg": 44.858,
       "mag": 3.79,
-      "role": "",
+      "role": "La jambe — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 14668)/ IAU"
     },
@@ -132,7 +132,7 @@
       "ra_deg": 51.081,
       "dec_deg": 49.861,
       "mag": 1.79,
-      "role": "",
+      "role": "La plus brillante de la figure — supergéante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 15863)/ IAU"
     },
@@ -145,7 +145,7 @@
       "ra_deg": 55.731,
       "dec_deg": 47.788,
       "mag": 3.01,
-      "role": "",
+      "role": "Le torse — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 17358)"
     },
@@ -158,7 +158,7 @@
       "ra_deg": 56.08,
       "dec_deg": 32.288,
       "mag": 3.84,
-      "role": "",
+      "role": "Le pied — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 17448)/ IAU"
     },
@@ -171,7 +171,7 @@
       "ra_deg": 58.533,
       "dec_deg": 31.884,
       "mag": 2.84,
-      "role": "",
+      "role": "Le pied — supergéante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 18246)"
     },
@@ -184,7 +184,7 @@
       "ra_deg": 59.463,
       "dec_deg": 40.01,
       "mag": 2.9,
-      "role": "",
+      "role": "La jambe — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 18532)"
     },
@@ -197,7 +197,7 @@
       "ra_deg": 59.741,
       "dec_deg": 35.791,
       "mag": 3.98,
-      "role": "",
+      "role": "Le pied — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 18614)/ IAU"
     },
@@ -210,7 +210,7 @@
       "ra_deg": 61.646,
       "dec_deg": 50.351,
       "mag": 4.25,
-      "role": "",
+      "role": "Le bras — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 19167)"
     },
@@ -223,7 +223,7 @@
       "ra_deg": 62.165,
       "dec_deg": 47.713,
       "mag": 3.96,
-      "role": "",
+      "role": "La jambe — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 19343)"
     },
@@ -236,7 +236,7 @@
       "ra_deg": 63.724,
       "dec_deg": 48.409,
       "mag": 4.12,
-      "role": "",
+      "role": "Le torse — supergéante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 19812)"
     },
@@ -249,7 +249,7 @@
       "ra_deg": 64.561,
       "dec_deg": 50.296,
       "mag": 4.6,
-      "role": "",
+      "role": "La hanche — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 20070)"
     },
@@ -262,7 +262,7 @@
       "ra_deg": 25.915,
       "dec_deg": 50.689,
       "mag": 4.01,
-      "role": "",
+      "role": "Le bras — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 8068)"
     }
@@ -485,7 +485,7 @@
     },
     {
       "q": "Combien d'objets du ciel profond sont documentés dans Persée ?",
-      "r": "11 objet(s), d'après la fiche Atlas correspondante."
+      "r": "11 objets, d'après la fiche Atlas correspondante."
     }
   ],
   "questions_guide": [
@@ -498,7 +498,7 @@
       "r": "Sa position sur la sphère céleste la place dans le ciel du soir en automne. Repère principal : Algol, l'étoile démon, et les amas doubles h et χ."
     }
   ],
-  "message_animation": "Persée — 19 étoiles reliées, 11 objet(s) du ciel profond documenté(s). Saison : automne.",
+  "message_animation": "Persée raconte le héros qui délivra Andromède. On peut partir d'Algol, l'étoile démon, qui faiblit toutes les 2,9 jours : c'est la première variable à éclipses découverte. On termine par les amas doubles h et χ Persée, somptueux aux jumelles, qui se présentent ensemble dans le même champ.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 82–83–84 (fiche Atlas « Persée »)",
     "archive_texte": null,

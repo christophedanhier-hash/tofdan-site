@@ -34,7 +34,7 @@
       "ra_deg": 95.98788,
       "dec_deg": -52.69572,
       "mag": -0.5536,
-      "role": "",
+      "role": "La plus brillante de la figure — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -45,7 +45,7 @@
       "ra_deg": 99.4403,
       "dec_deg": -43.19592,
       "mag": 3.1395,
-      "role": "",
+      "role": "Le pont — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -56,7 +56,7 @@
       "ra_deg": 109.28568,
       "dec_deg": -37.09749,
       "mag": 2.8296,
-      "role": "",
+      "role": "Le pont — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -67,7 +67,7 @@
       "ra_deg": 113.84557,
       "dec_deg": -28.36928,
       "mag": 4.6109,
-      "role": "",
+      "role": "Le gouvernail — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -78,7 +78,7 @@
       "ra_deg": 114.70784,
       "dec_deg": -26.80389,
       "mag": 3.7439,
-      "role": "",
+      "role": "Le gouvernail — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -89,7 +89,7 @@
       "ra_deg": 115.95197,
       "dec_deg": -28.95483,
       "mag": 4.0152,
-      "role": "",
+      "role": "Le gouvernail — supergéante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -100,7 +100,7 @@
       "ra_deg": 117.02156,
       "dec_deg": -25.93718,
       "mag": 4.4428,
-      "role": "",
+      "role": "La quille — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -111,7 +111,7 @@
       "ra_deg": 117.32358,
       "dec_deg": -24.85978,
       "mag": 3.5109,
-      "role": "",
+      "role": "La poupe — supergéante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -122,7 +122,7 @@
       "ra_deg": 120.89613,
       "dec_deg": -40.00319,
       "mag": 2.1364,
-      "role": "",
+      "role": "Le pont — supergéante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -133,7 +133,7 @@
       "ra_deg": 121.88626,
       "dec_deg": -24.30444,
       "mag": 2.9157,
-      "role": "",
+      "role": "La poupe — géante lumineuse jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -144,7 +144,7 @@
       "ra_deg": 122.38315,
       "dec_deg": -47.33661,
       "mag": 1.7034,
-      "role": "",
+      "role": "La poupe — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -282,7 +282,7 @@
       "r": "Faire partir du repère : Naos et Pi Puppis, alignées au sud-est du Grand Chien."
     }
   ],
-  "message_animation": "Poupe : Naos et Pi Puppis, alignées au sud-est du Grand Chien. Constellation de hiver (11 étoiles figurées, 5 objet(s) du ciel profond).",
+  "message_animation": "Poupe : Naos et Pi Puppis, alignées au sud-est du Grand Chien. Constellation de hiver (11 étoiles figurées, 5 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 91–93 (fiche Atlas « Poupe »)",
     "archive_texte": "atlas-observation-source/091-*.txt",
@@ -290,7 +290,8 @@
     "statut": "PUBLIÉ — construit par Gérard, contrôles structurels passés",
     "lacunes": [
       "Figure : tracé IAU officiel suivi (2 chaîne(s)) ; aucune carte n'impose un tracé unique.",
-      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021."
+      "distance_al non renseignée pour cette fiche — à compléter via NED / Baumgardt & Vasiliev 2021.",
+      "L'étoile désignée α à la position RA 95,988 / Dec −52,696 est α Carinae (Canopus, mag −0,55), qui appartient à la Carène. Sa présence dans le tracé de la Poupe résulte du tracé IAU retenu, qui déborde sur la constellation voisine pour fermer la figure. Point à valider par l'observateur."
     ]
   },
   "referentiel_sources": {

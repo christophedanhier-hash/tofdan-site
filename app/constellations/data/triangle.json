@@ -29,7 +29,7 @@
       "ra_deg": 28.27042,
       "dec_deg": 29.5794,
       "mag": 3.521,
-      "role": "",
+      "role": "Le sommet — géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -40,7 +40,7 @@
       "ra_deg": 32.3855,
       "dec_deg": 34.98739,
       "mag": 3.0625,
-      "role": "",
+      "role": "La plus brillante de la figure — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -51,7 +51,7 @@
       "ra_deg": 34.32848,
       "dec_deg": 33.84732,
       "mag": 4.0211,
-      "role": "",
+      "role": "La base ouest — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -155,7 +155,7 @@
       "r": "Faire partir du repère : Un triangle net de trois étoiles (Mothallah, β et γ) entre Andromède et le Bélier."
     }
   ],
-  "message_animation": "Triangle : Un triangle net de trois étoiles (Mothallah, β et γ) entre Andromède et le Bélier. Constellation de automne (3 étoiles figurées, 3 objet(s) du ciel profond).",
+  "message_animation": "Triangle : Un triangle net de trois étoiles (Mothallah, β et γ) entre Andromède et le Bélier. Constellation d'automne (3 étoiles figurées, 3 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 112–113 (fiche Atlas « Triangle »)",
     "archive_texte": "atlas-observation-source/112-*.txt",

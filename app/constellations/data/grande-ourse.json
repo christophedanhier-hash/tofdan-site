@@ -18,7 +18,7 @@
       "ra_deg": 165.93196,
       "dec_deg": 61.75103,
       "mag": 1.79,
-      "role": "Bord avant du bol",
+      "role": "Le bol — géante jaune",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -29,7 +29,7 @@
       "ra_deg": 165.46033,
       "dec_deg": 56.38243,
       "mag": 2.37,
-      "role": "Bord avant du bol",
+      "role": "Le bol — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -40,7 +40,7 @@
       "ra_deg": 178.4577,
       "dec_deg": 53.69476,
       "mag": 2.44,
-      "role": "Bord arrière du bol",
+      "role": "Le bol — naine blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -51,7 +51,7 @@
       "ra_deg": 183.8565,
       "dec_deg": 57.03262,
       "mag": 3.32,
-      "role": "Jonction bol/manche",
+      "role": "Le manche — naine blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -62,7 +62,7 @@
       "ra_deg": 193.50729,
       "dec_deg": 55.95982,
       "mag": 1.77,
-      "role": "Manche — 1ʳᵉ étoile",
+      "role": "La plus brillante de la figure — géante blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -73,7 +73,7 @@
       "ra_deg": 200.98143,
       "dec_deg": 54.92536,
       "mag": 2.22,
-      "role": "Manche — Mizar (couple avec Alcor)",
+      "role": "Le manche — naine blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -84,7 +84,7 @@
       "ra_deg": 206.88516,
       "dec_deg": 49.31327,
       "mag": 1.86,
-      "role": "Bout du manche",
+      "role": "Le bout du manche — naine bleue",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     }

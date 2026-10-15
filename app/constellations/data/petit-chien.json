@@ -1,169 +1,188 @@
 {
- "id": "petit-chien",
- "slug": "petit-chien",
- "nom_fr": "Petit Chien",
- "nom_latin": "Canis Minor",
- "genitif": "Canis Minoris",
- "abreviation_iau": "CMi",
- "source_atlas": "Atlas observation.pdf, pages 86 (fiche Atlas « Petit Chien »)",
- "saison": "hiver",
- "voie_lactee": false,
- "repere_principal": "Procyon, le précurseur du Grand Chien",
- "constellations_voisines": [
-  "Licorne",
-  "Gémeaux",
-  "Cancer",
-  "Hydre"
- ],
- "etoiles": [
-  {
-   "i": 0,
-   "hip": 36188,
-   "nom": "Gomeisa",
-   "etiq": "Gomeisa",
-   "bayer": "bet CMi",
-   "ra_deg": 111.788,
-   "dec_deg": 8.289,
-   "mag": 2.89,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 36188)/ IAU"
-  },
-  {
-   "i": 1,
-   "hip": 37279,
-   "nom": "Procyon",
-   "etiq": "Procyon",
-   "bayer": "alf CMi",
-   "ra_deg": 114.827,
-   "dec_deg": 5.228,
-   "mag": 0.4,
-   "role": "",
-   "visibilite": "œil nu",
-   "src": "Hipparcos (HIP 37279)/ IAU"
-  }
- ],
- "figure": {
-  "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
-  "liaisons": [
-   [
-    1,
-    0
-   ]
+  "id": "petit-chien",
+  "slug": "petit-chien",
+  "nom_fr": "Petit Chien",
+  "nom_latin": "Canis Minor",
+  "genitif": "Canis Minoris",
+  "abreviation_iau": "CMi",
+  "source_atlas": "Atlas observation.pdf, pages 86 (fiche Atlas « Petit Chien »)",
+  "saison": "hiver",
+  "voie_lactee": false,
+  "repere_principal": "Procyon, le précurseur du Grand Chien",
+  "constellations_voisines": [
+    "Licorne",
+    "Gémeaux",
+    "Cancer",
+    "Hydre"
   ],
-  "commentaire": "Tracé retenu d'après la source IAU (constellation_lines_iau.dat, D. Ford, In-The-Sky.org) : 2 étoiles reliées par 1 segments.",
-  "note_geometrie": "Figure construite sur 2 étoiles et 1 segments, d'après le tracé traditionnel IAU. Le segment le plus long relie Procyon à Gomeisa (4.30°) ; le plus court relie Procyon à Gomeisa (4.30°). L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
-  "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
- },
- "distances_angulaires_deg": {
-  "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
-  "Procyon–Gomeisa": 4.3
- },
- "objets_ciel_profond": [],
- "codification_luminosite": [
-  {
-   "code": 1,
-   "libelle": "très brillante",
-   "desc": "visible immédiatement"
-  },
-  {
-   "code": 2,
-   "libelle": "brillante",
-   "desc": "facile à repérer"
-  },
-  {
-   "code": 3,
-   "libelle": "moyenne",
-   "desc": "visible dans un bon ciel"
-  },
-  {
-   "code": 4,
-   "libelle": "faible",
-   "desc": "demande une attention particulière"
-  },
-  {
-   "code": 5,
-   "libelle": "limite",
-   "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
-  }
- ],
- "questions_observation": [
-  {
-   "q": "Quelle est l'étoile la plus brillante de la figure ?",
-   "r": "Procyon, magnitude 0.4, selon le catalogue Hipparcos (bande V)."
-  },
-  {
-   "q": "Quelles étoiles de la figure demandent un instrument ?",
-   "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
-  },
-  {
-   "q": "Combien d'objets du ciel profond sont documentés dans Petit Chien ?",
-   "r": "0 objet(s), d'après la fiche Atlas correspondante."
-  }
- ],
- "questions_guide": [
-  {
-   "q": "Quand observer Petit Chien ?",
-   "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Procyon, le précurseur du Grand Chien."
-  }
- ],
- "message_animation": "Petit Chien — 2 étoiles reliées, 0 objet(s) du ciel profond documenté(s). Saison : hiver.",
- "tracabilite": {
-  "source_principale": "Atlas observation.pdf, pages 86 (fiche Atlas « Petit Chien »)",
-  "archive_texte": null,
-  "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
-  "statut": "Lot 3 — publié ; données vérifiées à la source, 5 attributions d'objets à revoir (voir lacunes)",
-  "lacunes": [
-   "Aucune lacune identifiée."
-  ]
- },
- "referentiel_sources": {
-  "titre": "D'où viennent ces données ?",
-  "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
-  "lignes": [
-   {
-    "code": "O1",
-    "texte": "OpenNGC (magnitude) + Wikidata (distance)",
-    "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
-   },
-   {
-    "code": "O2",
-    "texte": "OpenNGC, magnitude en bande B",
-    "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
-   },
-   {
-    "code": "S1",
-    "texte": "SIMBAD (magnitude) + Wikidata (distance)",
-    "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
-   },
-   {
-    "code": "S2",
-    "texte": "SIMBAD (magnitude) seule",
-    "detail": "La magnitude est confirmée, la distance n'est pas publiée."
-   },
-   {
-    "code": "W1",
-    "texte": "Wikidata seule",
-    "detail": "Aucune valeur de catalogue disponible pour cet objet."
-   },
-   {
-    "code": "A1",
-    "texte": "Atlas, corrigé page 2",
-    "detail": "Valeur reprise de l'atlas de référence du guide."
-   }
+  "etoiles": [
+    {
+      "i": 0,
+      "hip": 36188,
+      "nom": "Gomeisa",
+      "etiq": "Gomeisa",
+      "bayer": "bet CMi",
+      "ra_deg": 111.788,
+      "dec_deg": 8.289,
+      "mag": 2.89,
+      "role": "Le corps — naine bleue",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 36188)/ IAU"
+    },
+    {
+      "i": 1,
+      "hip": 37279,
+      "nom": "Procyon",
+      "etiq": "Procyon",
+      "bayer": "alf CMi",
+      "ra_deg": 114.827,
+      "dec_deg": 5.228,
+      "mag": 0.4,
+      "role": "La plus brillante de la figure — sous-géante jaune-blanc",
+      "visibilite": "œil nu",
+      "src": "Hipparcos (HIP 37279)/ IAU"
+    }
   ],
-  "marqueurs": [
-   {
-    "code": "†",
-    "texte": "magnitude non publiée",
-    "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
-   },
-   {
-    "code": "‡",
-    "texte": "distance non publiée",
-    "detail": "La distance n'est pas établie de façon fiable pour cet objet."
-   }
+  "figure": {
+    "statut": "CHOIX PEDAGOGIQUE assumé. La figure suit le tracé traditionnel, aligné sur les cartes officielles de l'IAU ; elle n'est pas la seule construction possible et les étoiles non reliées ont été retirées pour que l'app n'affiche que des étoiles reliées.",
+    "liaisons": [
+      [
+        1,
+        0
+      ]
+    ],
+    "commentaire": "Figure du Petit Chien : deux étoiles, Procyon et Gomeisa, reliées par un unique segment de 4,30°. Procyon, magnitude 0,40, en domine largement le tracé.",
+    "note_geometrie": "Figure construite sur 2 étoiles et 1 segment, d'après le tracé traditionnel IAU. Le segment relie Procyon à Gomeisa, sur 4,30°. L'étendue de la figure impose la marge : elle est calculée pour que tous les disques et étiquettes restent dans le cadre, sans étirement ni déformation.",
+    "mode_libre": "L'app doit accepter toute liaison raisonnable. Le corrigé n'est pas une réponse unique : il montre UNE construction possible, documentée."
+  },
+  "distances_angulaires_deg": {
+    "note": "Mesurées entre les coordonnées ci-dessus — sert au mode guidé.",
+    "Procyon–Gomeisa": 4.3
+  },
+  "objets_ciel_profond": [
+    {
+      "id": "NGC 2506",
+      "nature": "amas ouvert",
+      "mag": 7.6,
+      "distance_al": 11000,
+      "note": "Bel amas ouvert riche et serré, découvert par William Herschel en 1791. Visible aux jumelles comme une tache grumeleuse, il se résout à partir d'une lunette.",
+      "instrument": "jumelles",
+      "src": "OpenNGC + Wikidata",
+      "code": "O1"
+    },
+    {
+      "id": "NGC 2402",
+      "nature": "galaxie",
+      "mag": 12.9,
+      "distance_al": 230000000,
+      "note": "Galaxie faible, sans structure visible aux instruments amateurs. Objet de défi.",
+      "instrument": "télescope",
+      "src": "OpenNGC",
+      "code": "O1"
+    }
   ],
-  "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
- }
+  "codification_luminosite": [
+    {
+      "code": 1,
+      "libelle": "très brillante",
+      "desc": "visible immédiatement"
+    },
+    {
+      "code": 2,
+      "libelle": "brillante",
+      "desc": "facile à repérer"
+    },
+    {
+      "code": 3,
+      "libelle": "moyenne",
+      "desc": "visible dans un bon ciel"
+    },
+    {
+      "code": 4,
+      "libelle": "faible",
+      "desc": "demande une attention particulière"
+    },
+    {
+      "code": 5,
+      "libelle": "limite",
+      "desc": "à rechercher avec un instrument ou sous un ciel très sombre"
+    }
+  ],
+  "questions_observation": [
+    {
+      "q": "Quelle est l'étoile la plus brillante de la figure ?",
+      "r": "Procyon, magnitude 0.4, selon le catalogue Hipparcos (bande V)."
+    },
+    {
+      "q": "Quelles étoiles de la figure demandent un instrument ?",
+      "r": "Toutes les étoiles de cette figure sont accessibles à l'œil nu."
+    },
+    {
+      "q": "Combien d'objets du ciel profond sont documentés dans Petit Chien ?",
+      "r": "0 objets, d'après la fiche Atlas correspondante."
+    }
+  ],
+  "questions_guide": [
+    {
+      "q": "Quand observer Petit Chien ?",
+      "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : Procyon, le précurseur du Grand Chien."
+    }
+  ],
+  "message_animation": "Le Petit Chien se repère immédiatement grâce à Procyon, la huitième étoile la plus brillante du ciel, dont l'éclat blanc tranche sur le fond. Le dessin ne comporte que deux étoiles, Procyon et Gomeisa, reliées par un segment de 4,30°. On en profite pour montrer que Procyon forme, avec Sirius et Bételgeuse, le Triangle d'hiver, et qu'elle est l'un des rares systèmes dont on a mesuré directement le diamètre.",
+  "tracabilite": {
+    "source_principale": "Atlas observation.pdf, pages 86 (fiche Atlas « Petit Chien »)",
+    "archive_texte": null,
+    "coordonnees": "Hipparcos I/311 (HIP, RA/Dec J2000, magnitude V) ; désignations Bayer/Flamsteed : IV/27A (Kostjuk) ; objets : NGC 2000.0 (VII/118) ; tracés : constellation_lines_iau.dat (D. Ford, In-The-Sky.org)",
+    "statut": "étoiles, figure et contenu pédagogique complets",
+    "lacunes": []
+  },
+  "referentiel_sources": {
+    "titre": "D'où viennent ces données ?",
+    "intro": "Chaque objet porte un code de 2 caractères : une lettre pour le catalogue d'origine, un chiffre quand plusieurs sources se combinent.",
+    "lignes": [
+      {
+        "code": "O1",
+        "texte": "OpenNGC (magnitude) + Wikidata (distance)",
+        "detail": "OpenNGC est un catalogue moderne d'objets du ciel profond ; Wikidata fournit la distance mesurée."
+      },
+      {
+        "code": "O2",
+        "texte": "OpenNGC, magnitude en bande B",
+        "detail": "Mesurée dans le bleu (filtre B) et non dans le vert : la valeur est légèrement plus faible qu'une magnitude visuelle."
+      },
+      {
+        "code": "S1",
+        "texte": "SIMBAD (magnitude) + Wikidata (distance)",
+        "detail": "SIMBAD est la base de référence des astronomes professionnels, tenue à Strasbourg."
+      },
+      {
+        "code": "S2",
+        "texte": "SIMBAD (magnitude) seule",
+        "detail": "La magnitude est confirmée, la distance n'est pas publiée."
+      },
+      {
+        "code": "W1",
+        "texte": "Wikidata seule",
+        "detail": "Aucune valeur de catalogue disponible pour cet objet."
+      },
+      {
+        "code": "A1",
+        "texte": "Atlas, corrigé page 2",
+        "detail": "Valeur reprise de l'atlas de référence du guide."
+      }
+    ],
+    "marqueurs": [
+      {
+        "code": "†",
+        "texte": "magnitude non publiée",
+        "detail": "Aucun catalogue ne donne de magnitude globale pour cet objet étendu."
+      },
+      {
+        "code": "‡",
+        "texte": "distance non publiée",
+        "detail": "La distance n'est pas établie de façon fiable pour cet objet."
+      }
+    ],
+    "note_fin": "Ces codes remplacent un texte long : la traçabilité complète reste enregistrée dans les données du site."
+  }
 }

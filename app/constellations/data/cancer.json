@@ -18,7 +18,7 @@
       "ra_deg": 134.62168,
       "dec_deg": 11.85768,
       "mag": 4.249,
-      "role": "Branche sud du Y",
+      "role": "La pince — naine blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -29,7 +29,7 @@
       "ra_deg": 131.17125,
       "dec_deg": 18.15431,
       "mag": 3.94,
-      "role": "Centre du Y — âne du sud",
+      "role": "Une branche du Y — géante orange",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -40,7 +40,7 @@
       "ra_deg": 130.82145,
       "dec_deg": 21.4685,
       "mag": 4.652,
-      "role": "Centre du Y — âne du nord",
+      "role": "Une branche du Y — naine blanche",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -51,7 +51,7 @@
       "ra_deg": 124.12884,
       "dec_deg": 9.18554,
       "mag": 3.52,
-      "role": "Branche ouest du Y",
+      "role": "La plus brillante de la figure — géante orange",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -62,7 +62,7 @@
       "ra_deg": 131.67425,
       "dec_deg": 28.75989,
       "mag": 4.018,
-      "role": "Branche nord du Y",
+      "role": "Une branche du Y — géante jaune",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     }

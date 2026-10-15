@@ -33,7 +33,7 @@
       "ra_deg": 297.69583,
       "dec_deg": 8.86832,
       "mag": 0.76,
-      "role": "Étoile centrale, la plus brillante. Repère absolu du débutant.",
+      "role": "La plus brillante de la figure — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos I311 via Wikipedia"
     },
@@ -44,7 +44,7 @@
       "ra_deg": 296.56492,
       "dec_deg": 10.61326,
       "mag": 2.712,
-      "role": "Trio d'Altaïr — sommet nord.",
+      "role": "Le fléau — géante lumineuse orange",
       "visibilite": "œil nu",
       "src": "SAAO via Wikipedia"
     },
@@ -55,7 +55,7 @@
       "ra_deg": 298.8283,
       "dec_deg": 6.40676,
       "mag": 3.87,
-      "role": "Trio d'Altaïr — sommet sud.",
+      "role": "Le fléau — sous-géante jaune",
       "visibilite": "œil nu",
       "src": "Gaia DR3 via Wikipedia"
     },
@@ -66,7 +66,7 @@
       "ra_deg": 298.1182,
       "dec_deg": 1.00566,
       "mag": 3.49,
-      "role": "4e maillon de la queue : Alshain → Eta → Theta.",
+      "role": "La queue — supergéante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Wikipedia (variable 3,49–4,3) — À TRAITER AVEC PRUDENCE",
       "alerte": "Étoile variable : la magnitude change. Ne pas l'utiliser pour comparer la luminosité."
@@ -78,7 +78,7 @@
       "ra_deg": 302.82619,
       "dec_deg": -0.82146,
       "mag": 3.26,
-      "role": "Extrémité basse de la queue (Alshain → Eta → Theta).",
+      "role": "La queue — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos via Wikipedia"
     }

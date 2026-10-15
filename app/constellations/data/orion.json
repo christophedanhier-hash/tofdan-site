@@ -40,7 +40,7 @@
       "ra_deg": 78.63447,
       "dec_deg": -8.20164,
       "mag": 0.13,
-      "role": "Pied gauche — la plus brillante du ciel",
+      "role": "La plus brillante de la figure — supergéante bleue",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },
@@ -51,7 +51,7 @@
       "ra_deg": 86.93912,
       "dec_deg": -9.6696,
       "mag": 2.06,
-      "role": "Pied droit",
+      "role": "Le pied droit — supergéante bleue",
       "visibilite": "œil nu",
       "src": "SIMBAD (CDS Strasbourg), requête TAP/ADQL, filtre V"
     },

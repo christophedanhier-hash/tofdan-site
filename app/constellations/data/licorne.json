@@ -29,7 +29,7 @@
       "ra_deg": 93.714,
       "dec_deg": -6.275,
       "mag": 3.99,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 29651)"
     },
@@ -42,7 +42,7 @@
       "ra_deg": 95.942,
       "dec_deg": 4.593,
       "mag": 4.39,
-      "role": "",
+      "role": "Le cou — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 30419)"
     },
@@ -55,7 +55,7 @@
       "ra_deg": 97.204,
       "dec_deg": -7.033,
       "mag": 3.76,
-      "role": "",
+      "role": "La plus brillante de la figure — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 30867)"
     },
@@ -68,7 +68,7 @@
       "ra_deg": 98.226,
       "dec_deg": 7.333,
       "mag": 4.47,
-      "role": "",
+      "role": "La tête — supergéante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 31216)"
     },
@@ -81,7 +81,7 @@
       "ra_deg": 100.244,
       "dec_deg": 9.896,
       "mag": 4.66,
-      "role": "",
+      "role": "La tête — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 31978)"
     },
@@ -94,7 +94,7 @@
       "ra_deg": 101.965,
       "dec_deg": 2.412,
       "mag": 4.48,
-      "role": "",
+      "role": "Le corps — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 32578)"
     },
@@ -107,7 +107,7 @@
       "ra_deg": 107.966,
       "dec_deg": -0.493,
       "mag": 4.15,
-      "role": "",
+      "role": "Le corps — sous-géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 34769)"
     },
@@ -120,7 +120,7 @@
       "ra_deg": 115.312,
       "dec_deg": -9.551,
       "mag": 3.94,
-      "role": "",
+      "role": "La patte arrière — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 37447)"
     },
@@ -133,7 +133,7 @@
       "ra_deg": 122.149,
       "dec_deg": -2.984,
       "mag": 4.36,
-      "role": "",
+      "role": "Le corps — supergéante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (HIP 39863)"
     }
@@ -266,7 +266,7 @@
     },
     {
       "q": "Combien d'objets du ciel profond sont documentés dans Licorne ?",
-      "r": "5 objet(s), d'après la fiche Atlas correspondante."
+      "r": "5 objets, d'après la fiche Atlas correspondante."
     }
   ],
   "questions_guide": [
@@ -279,7 +279,7 @@
       "r": "Sa position sur la sphère céleste la place dans le ciel du soir en hiver. Repère principal : La Licorne, discrète mais riche en nébuleuses."
     }
   ],
-  "message_animation": "Licorne — 9 étoiles reliées, 5 objet(s) du ciel profond documenté(s). Saison : hiver.",
+  "message_animation": "La Licorne est une constellation discrète mais l'une des plus riches du ciel en nébuleuses. On peut partir de ses trois étoiles alignées, γ, ε et δ Monocerotis, puis explorer NGC 2264 — l'amas de l'Arbre de Noël avec sa nébuleuse du Cône — et la nébuleuse de la Rosette NGC 2244, superbe en photo et visible aux jumelles sous un ciel sombre.",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 61–62 (fiche Atlas « Licorne »)",
     "archive_texte": null,

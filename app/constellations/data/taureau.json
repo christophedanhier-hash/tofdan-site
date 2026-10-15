@@ -33,7 +33,7 @@
       "ra_deg": 51.20349,
       "dec_deg": 9.02906,
       "mag": 3.77,
-      "role": "",
+      "role": "La tête des Hyades — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -44,7 +44,7 @@
       "ra_deg": 51.79217,
       "dec_deg": 9.73277,
       "mag": 3.7082,
-      "role": "",
+      "role": "La tête des Hyades — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -55,7 +55,7 @@
       "ra_deg": 54.21883,
       "dec_deg": 0.40283,
       "mag": 4.4104,
-      "role": "",
+      "role": "La tête des Hyades — sous-géante jaune-blanc",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -66,7 +66,7 @@
       "ra_deg": 60.17009,
       "dec_deg": 12.49038,
       "mag": 3.3774,
-      "role": "",
+      "role": "La tête des Hyades — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -77,7 +77,7 @@
       "ra_deg": 60.78907,
       "dec_deg": 5.98931,
       "mag": 3.9203,
-      "role": "",
+      "role": "La tête des Hyades — naine blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -88,7 +88,7 @@
       "ra_deg": 64.94806,
       "dec_deg": 15.6277,
       "mag": 3.8123,
-      "role": "",
+      "role": "La tête des Hyades — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -99,7 +99,7 @@
       "ra_deg": 65.73345,
       "dec_deg": 17.54258,
       "mag": 3.9308,
-      "role": "",
+      "role": "Le corps — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -110,7 +110,7 @@
       "ra_deg": 67.15389,
       "dec_deg": 19.18052,
       "mag": 3.6992,
-      "role": "",
+      "role": "La corne ouest — géante jaune",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -121,7 +121,7 @@
       "ra_deg": 67.16531,
       "dec_deg": 15.87095,
       "mag": 3.4597,
-      "role": "",
+      "role": "La corne — géante blanche",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -132,7 +132,7 @@
       "ra_deg": 68.98,
       "dec_deg": 16.50976,
       "mag": 1.0024,
-      "role": "",
+      "role": "La plus brillante de la figure — géante orange",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -143,7 +143,7 @@
       "ra_deg": 70.56126,
       "dec_deg": 22.95698,
       "mag": 4.2366,
-      "role": "",
+      "role": "La tête des Hyades — naine bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -154,7 +154,7 @@
       "ra_deg": 81.57291,
       "dec_deg": 28.60787,
       "mag": 1.6151,
-      "role": "",
+      "role": "La corne est — géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     },
@@ -165,7 +165,7 @@
       "ra_deg": 84.41119,
       "dec_deg": 21.14259,
       "mag": 2.9184,
-      "role": "",
+      "role": "La corne — sous-géante bleue",
       "visibilite": "œil nu",
       "src": "Hipparcos (VizieR I/311) position ; IV/27A (Kostjuk) désignation"
     }
@@ -318,7 +318,7 @@
       "r": "Faire partir du repère : Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan."
     }
   ],
-  "message_animation": "Taureau : Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan. Constellation de hiver (13 étoiles figurées, 5 objet(s) du ciel profond).",
+  "message_animation": "Taureau : Le « V » des Hyades autour d'Aldébaran, prolongé par les cornes jusqu'à Elnath et Tianguan. Constellation de hiver (13 étoiles figurées, 5 objets du ciel profond).",
   "tracabilite": {
     "source_principale": "Atlas observation.pdf, pages 109–111 (fiche Atlas « Taureau »)",
     "archive_texte": "atlas-observation-source/109-*.txt",
