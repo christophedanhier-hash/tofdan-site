@@ -31,6 +31,7 @@ with sync_playwright() as pw:
    assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
    page.locator('.carte-btn--zodiaque').first.focus();page.keyboard.press('Enter')
    page.wait_for_function('document.querySelector(".entete-const h2").textContent==="Balance"')
+   page.wait_for_function('(()=>{const i=document.querySelector(".carte-const .fig img");return i && i.complete && i.naturalWidth>0 && i.getAttribute("src").indexOf("balance.svg")!==-1;})()')
    page.screenshot(path=str(out/f'catalogue-{width}-{theme}.png'),full_page=True)
    page.locator('.legende-zodiaque summary').click()
    assert page.locator('.legende-zodiaque p').first.is_visible()
