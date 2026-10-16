@@ -299,6 +299,27 @@ h2.sous {
 .carte-abr { grid-area: abr; min-width: 0; color: var(--color-text-dim); font-size: 0.72rem; }
 .carte-duree { grid-area: duree; white-space: nowrap; font-size: 0.75rem; color: var(--color-text-dim); }
 
+/* Le texte et le symbole restent des repères, même sans perception des couleurs. */
+.carte-abr { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.badge-zodiaque, .badge-ecliptique {
+  display: inline-block;
+  width: fit-content;
+  padding: 1px 7px;
+  border: 1px solid #a66d12;
+  border-radius: 999px;
+  background: #fff3d6;
+  color: #704400;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.badge-ecliptique { border-color: #617e98; background: #eaf3ff; color: #254763; }
+.carte-btn--zodiaque { border-top-color: #a66d12; }
+.legende-zodiaque { font-size: 0.78rem; color: var(--color-text); }
+.legende-zodiaque summary { cursor: pointer; padding: 4px 0; }
+.legende-zodiaque p { margin: 6px 0; }
+.legende-zodiaque[open] { flex-shrink: 0; }
+
 .carte-const {
   display: flex;
   flex-direction: column;

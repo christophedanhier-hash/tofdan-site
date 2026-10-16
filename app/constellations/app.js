@@ -635,6 +635,22 @@
     } catch (e) { return !!val; }
   }
 
+  // Repères culturels : signes traditionnels, sans les confondre avec les régions IAU.
+  // Ophiuchus est traversée par l'écliptique mais n'est pas un des douze signes.
+  var SIGNES_ZODIAQUE = {
+    belier: '♈', taureau: '♉', gemini: '♊', cancer: '♋', lion: '♌', vierge: '♍',
+    balance: '♎', scorpion: '♏', sagittaire: '♐', capricorne: '♑', verseau: '♒', poissons: '♓'
+  };
+  function badgeZodiaque(id) {
+    if (Object.prototype.hasOwnProperty.call(SIGNES_ZODIAQUE, id)) {
+      return el('span', { class: 'badge-zodiaque' }, [
+        el('span', { 'aria-hidden': 'true', text: SIGNES_ZODIAQUE[id] + '\uFE0E ' }),
+        'Zodiaque'
+      ]);
+    }
+    if (id === 'ophiuchus') return el('span', { class: 'badge-ecliptique', text: 'Écliptique' });
+    return el('span', { hidden: true });
+  }
   function ecran1() {
     var d = etat.data;
     var courant = etat.index.constellations.filter(function (x) { return x.id === etat.id; })[0] || {};
@@ -653,7 +669,7 @@
     }).forEach(function (c) {
       var actif = (c.id === etat.id);
       var attrs = {
-        class: 'carte-btn', type: 'button', 'aria-current': actif ? 'true' : 'false',
+        class: 'carte-btn' + (Object.prototype.hasOwnProperty.call(SIGNES_ZODIAQUE, c.id) ? ' carte-btn--zodiaque' : ''), type: 'button', 'aria-current': actif ? 'true' : 'false',
         onclick: function () {
           if (actif) return;
           choisirDepuisCarte(c, null);
@@ -664,13 +680,15 @@
       else if (v.observable) { court = v.minutes + ' min'; long = 'observable · ' + v.minutes + ' min · ' + heureLocale(v.debut) + ' – ' + heureLocale(v.fin); }
       else { court = 'non obs.'; long = 'non observable ce soir (' + v.minutes + ' min)'; }
       var nomFr = valide(c.nom_fr) ? String(c.nom_fr) : '—';
-      var plein = nomFr + ' (' + c.nom_latin + ', ' + c.abreviation + ') : ' + long;
+      var repereZodiaque = Object.prototype.hasOwnProperty.call(SIGNES_ZODIAQUE, c.id) ? ' · Zodiaque, nom associé à un signe astrologique traditionnel' :
+        (c.id === 'ophiuchus' ? ' · Écliptique, hors des douze signes astrologiques traditionnels' : '');
+      var plein = nomFr + ' (' + c.nom_latin + ', ' + c.abreviation + ')' + repereZodiaque + ' : ' + long;
       attrs.title = plein;
       attrs['aria-label'] = plein;
       liste.appendChild(el('li', null, [el('button', attrs, [
         el('span', { class: 'pastille' + (v && v.observable ? ' pastille--ok' : ''), 'aria-hidden': 'true' }),
         el('span', { class: 'carte-nom', text: nomFr }),
-        el('small', { class: 'carte-abr', text: String(c.abreviation) }),
+        el('small', { class: 'carte-abr' }, [String(c.abreviation), badgeZodiaque(c.id)]),
         el('span', { class: 'carte-duree', text: court })
       ])]));
     });
@@ -688,11 +706,20 @@
 
     return el('section', null, [
       bandeau,
+      el('details', { class: 'legende-zodiaque' }, [
+        el('summary', { text: 'Les repères Zodiaque : retrouver les noms familiers des signes' }),
+        el('p', { text: 'Les badges Zodiaque signalent les constellations dont les noms sont associés aux douze signes astrologiques traditionnels : Cancer, Vierge, Lion… Un signe est un secteur de 30° du zodiaque ; une constellation est une région du ciel aux limites définies, de taille variable. Ce ne sont pas deux découpages identiques. Ici, nous observons les constellations, pas les horoscopes.' }),
+        el('p', { text: 'Le trajet apparent annuel du Soleil, appelé écliptique, traverse aussi Ophiuchus (le Serpentaire), qui ne fait pas partie des douze signes traditionnels. Son badge Écliptique le distingue. Le Bélier n’a pas encore de fiche dans ce catalogue.' }),
+        el('a', { href: 'https://en.wikipedia.org/wiki/Zodiac', target: '_blank', rel: 'noopener noreferrer', text: 'En savoir plus : signes et constellations du zodiaque' }),
+        ' · ',
+        el('a', { href: 'https://noirlab.edu/public/education/constellations/ophiuchus/', target: '_blank', rel: 'noopener noreferrer', text: 'NOIRLab — Ophiuchus et l’écliptique' })
+      ]),
       el('div', { class: 'accueil' }, [
         liste,
         el('div', { class: 'carte-const' }, [
           el('div', { class: 'entete-const' }, [
             el('h2', { text: d.nom_fr }),
+            badgeZodiaque(etat.id),
             el('span', { class: 'meta', text: meta }),
             el('div', { class: 'btns' }, btns)
           ]),
