@@ -4,6 +4,18 @@ from playwright.sync_api import sync_playwright
 
 parser=argparse.ArgumentParser();parser.add_argument('--url',default='http://127.0.0.1:8994/app/constellations/index.html');parser.add_argument('--output',required=True);parser.add_argument('--chromium')
 a=parser.parse_args();OUT=pathlib.Path(a.output);OUT.mkdir(parents=True,exist_ok=True);BASE=pathlib.Path(__file__).resolve().parents[1];idx=json.loads((BASE/'data/index.json').read_text())['constellations'];report={}
+def verifier_etoiles(table,c):
+ d=json.loads((BASE/'data'/c['fichier']).read_text())
+ attendu=sorted(d['etoiles'],key=lambda s:(not bool(s.get('nom_iau')),s['mag']))
+ rows=table.locator('.ligne-etoile');assert rows.count()==len(attendu),c['id']
+ assert table.locator('thead th').all_text_contents()==['Nom','Désignation','Rôle','Éclat et observation']
+ for i,s in enumerate(attendu):
+  cells=rows.nth(i).locator('td');assert cells.count()==4
+  assert cells.nth(0).inner_text()==s['nom'];assert cells.nth(1).inner_text()==s['bayer']
+  assert s['role'] in cells.nth(2).inner_text()
+  mag=str(int(s['mag']) if s['mag']==int(s['mag']) else s['mag']).replace('.',',')
+  assert mag in cells.nth(3).inner_text();assert s['visibilite'] in cells.nth(3).inner_text()
+ return len(attendu)
 with sync_playwright() as p:
  browser=p.chromium.launch(headless=True,**({'executable_path':a.chromium} if a.chromium else {}),args=['--no-sandbox'])
  context=browser.new_context(viewport={'width':1366,'height':900},timezone_id='Europe/Brussels',locale='fr-BE');page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
@@ -17,6 +29,7 @@ with sync_playwright() as p:
   for i,label in [(2,'Fiche'),(3,'Dessin'),(4,'Comparaison'),(5,'Objets'),(6,'Questions')]:
    page.get_by_role('button',name=f'{i} · {label}',exact=True).click();assert not page.locator('#erreur').is_visible(),c['nom_fr']+' erreur';assert len(page.locator('#ecran').inner_text().strip())>8
    assert not page.evaluate('document.documentElement.scrollWidth>innerWidth'),c['nom_fr']+' débordement bureau'
+   if i==2:r['etoiles_triees']=verifier_etoiles(page.locator('#ecran .fiche-etoiles'),c)
    r['etapes'].append(i)
    if i==6:
     while page.get_by_role('button',name='Voir la réponse',exact=True).count():page.get_by_role('button',name='Voir la réponse',exact=True).first.click()
@@ -31,6 +44,7 @@ with sync_playwright() as p:
   selection(c['nom_fr'])
   for i,label in [(1,'Catalogue'),(2,'Fiche'),(3,'Dessin'),(4,'Comparaison'),(5,'Objets'),(6,'Questions')]:
    page.get_by_role('button',name=f'{i} · {label}',exact=True).click();assert not page.locator('#erreur').is_visible();assert not page.evaluate('document.documentElement.scrollWidth>innerWidth'),c['nom_fr']+' débordement mobile '+label;mob.append({'fiche':c['fichier'],'etape':i})
+   if i==2:verifier_etoiles(page.locator('#ecran .fiche-etoiles'),c)
  page.screenshot(path=str(OUT/'mobile.png'),full_page=True);report['mobile']=mob;page.set_viewport_size({'width':1366,'height':900})
  # Dessin sans souris, y compris annulation.
  selection('Orion');page.get_by_role('button',name='3 · Dessin',exact=True).click()
@@ -52,6 +66,7 @@ with sync_playwright() as p:
  report['DST']=page.evaluate("()=>['2026-01-15','2026-03-28','2026-10-24'].map(s=>{const [y,m,d]=s.split('-').map(Number);return {soir:s,attendu:(new Date(y,m-1,d+1,4)-new Date(y,m-1,d,21))/60000,obtenu:ConstVisibilite.visibilite({ra:0,dec:90},s,{lat:49.9,lon:5}).minutes}})");assert all(r['attendu']==r['obtenu'] for r in report['DST'])
  # Impression réelle des 49 : ressources chargées et PDF effectivement produit.
  page.evaluate('window.__printReady=false');page.get_by_role('button',name='🖨️ Imprimer',exact=True).click();page.get_by_role('menuitem',name='Les 49 fiches',exact=True).click();page.wait_for_function('window.__printReady===true',timeout=90000)
+ for i,c in enumerate(idx):verifier_etoiles(page.locator('#impression .fiche-etoiles').nth(i),c)
  imp=page.locator('#impression').evaluate('''(z)=>({articles:z.querySelectorAll("article").length,images:z.querySelectorAll("img").length,invalides:[...z.querySelectorAll("img")].filter(i=>!i.naturalWidth).length,canvas:z.querySelectorAll("canvas").length,polaires_non_affichees:z.querySelectorAll(".imp-carte-txt").length,articles_incomplets:[...z.querySelectorAll("article")].filter(a=>a.querySelectorAll("img").length!==1||a.querySelectorAll("canvas").length+a.querySelectorAll(".imp-carte-txt").length!==2).length,texte:z.innerText})''');assert imp['articles']==49;assert imp['images']==49;assert imp['canvas']+imp['polaires_non_affichees']==98;assert imp['articles_incomplets']==0;assert imp['invalides']==0;(OUT/'impression-texte.txt').write_text(imp.pop('texte'));report['impression']=imp
  page.pdf(path=str(OUT/'49-fiches-corrigees.pdf'),format='A4',print_background=True)
  assert not errors,errors;report['erreurs_JS']=errors

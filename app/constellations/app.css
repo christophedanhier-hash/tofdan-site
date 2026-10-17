@@ -379,6 +379,20 @@ h2.sous {
 }
 
 /* --- Ecran 2 : fiche eleve ------------------------------------------------ */
+.fiche-etoiles caption {
+  text-align: left;
+  padding: 6px 0 10px;
+  font-size: 0.78rem;
+  color: var(--color-text-dim);
+}
+.fiche-etoiles .groupe-etoiles th {
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--color-text);
+  background: var(--color-bg-alt);
+}
+.eclat-mag { font-weight: 600; }
+.eclat-visibilite { margin-top: 3px; font-size: 0.85em; }
 
 .table-wrap {
   width: 100%;

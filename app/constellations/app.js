@@ -356,7 +356,7 @@
       var tri = e.slice().sort(function (a, b) { return a.mag - b.mag; });
       var h = tri[0], b = tri[tri.length - 1];
       kids.push(el('p', null, [
-        'Ici : ', el('strong', { text: h.nom }), ' (magnitude ' + fmtNum(h.mag) + ') est la plus brillante de la fiche ; ',
+        'Parmi les étoiles de la fiche dont la magnitude V est confirmée : ', el('strong', { text: h.nom }), ' (magnitude ' + fmtNum(h.mag) + ') est la plus brillante ; ',
         el('strong', { text: b.nom }), ' (magnitude ' + fmtNum(b.mag) + ') est la plus faible.'
       ]));
     }
@@ -731,23 +731,49 @@
     ]);
   }
 
-  function ecran2() {
-    var d = etat.data;
+  function etoilesOrdonnees(etoiles) {
+    // Trier une copie : les indices des tracés, distances et exercices sont immuables.
+    return (etoiles || []).map(function (s, i) { return { s: s, i: i }; }).sort(function (a, b) {
+      var groupeA = valide(a.s.nom_iau) ? 0 : 1, groupeB = valide(b.s.nom_iau) ? 0 : 1;
+      if (groupeA !== groupeB) return groupeA - groupeB;
+      var magA = typeof a.s.mag === 'number' && isFinite(a.s.mag) ? a.s.mag : Infinity;
+      var magB = typeof b.s.mag === 'number' && isFinite(b.s.mag) ? b.s.mag : Infinity;
+      if (magA !== magB) return magA < magB ? -1 : 1;
+      return a.i - b.i;
+    }).map(function (x) { return x.s; });
+  }
+  function tableauEtoiles(etoiles, impression) {
     var tbody = el('tbody');
-    d.etoiles.forEach(function (s) {
+    var groupePrecedent = null;
+    etoilesOrdonnees(etoiles).forEach(function (s) {
+      var groupe = valide(s.nom_iau) ? 'Étoiles avec un nom propre' : 'Étoiles repérées par leur désignation';
+      if (groupe !== groupePrecedent) {
+        tbody.appendChild(el('tr', { class: 'groupe-etoiles' }, [el('th', { colspan: '4', text: groupe })]));
+        groupePrecedent = groupe;
+      }
       var role = el('td', { text: s.role });
       if (s.alerte) role.appendChild(el('div', { class: 'alerte', text: s.alerte }));
-      if (s.source_type && s.source_type.url) role.appendChild(el('div', null, [el('a', { href: s.source_type.url, target: '_blank', rel: 'noopener noreferrer', class: 'petit', text: 'Source SIMBAD' })]));
-      tbody.appendChild(el('tr', null, [
+      if (!impression && s.source_type && s.source_type.url) role.appendChild(el('div', null, [el('a', { href: s.source_type.url, target: '_blank', rel: 'noopener noreferrer', class: 'petit', text: 'Source SIMBAD' })]));
+      tbody.appendChild(el('tr', { class: 'ligne-etoile' }, [
         el('td', { text: s.nom }), el('td', { text: s.bayer }),
-        el('td', { text: magnitudeLisible(s) }), role, el('td', { text: s.visibilite })
+        role, el('td', { class: 'eclat-observation' }, [
+          el('div', { class: 'eclat-mag', text: 'Magnitude : ' + magnitudeLisible(s) }),
+          el('div', { class: 'eclat-visibilite', text: texteOuTiret(s.visibilite) })
+        ])
       ]));
     });
     var thead = el('thead', null, [el('tr', null,
-      ['Nom', 'Désignation', 'Magnitude', 'Rôle', 'Visibilité'].map(function (t) { return el('th', { text: t }); }))]);
+      ['Nom', 'Désignation', 'Rôle', 'Éclat et observation'].map(function (t) { return el('th', { scope: 'col', text: t }); }))]);
+    return el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche fiche-etoiles' }, [
+      el('caption', { text: 'Noms propres d’abord ; dans chaque groupe, de la plus brillante à la moins brillante selon la magnitude renseignée. Plus elle est petite, plus l’astre paraît brillant. Visibilité indicative selon le ciel et la hauteur ; les bandes non confirmées restent signalées.' }),
+      thead, tbody
+    ])]);
+  }
+  function ecran2() {
+    var d = etat.data;
     return el('section', null, [
       el('h1', { class: 'titre', text: 'Fiche élève — ' + d.nom_fr }),
-      el('div', { class: 'table-wrap' }, [el('table', { class: 'fiche' }, [thead, tbody])]),
+      tableauEtoiles(d.etoiles, false),
       el('div', { class: 'duo' }, [
         el('div', { class: 'encart' }, [
           el('p', null, [el('strong', { text: 'Repère principal : ' }), valide(d.repere_principal) ? String(d.repere_principal) : '—']),
@@ -1641,9 +1667,7 @@
       el('div', { class: 'imp-figure' }, [el('img', { src: c.figure_svg ? c.figure_svg + '?v=' + VERSION_DONNEES : '', alt: 'Figure de la constellation ' + d.nom_fr })]),
       valide(d.repere_principal) ? el('div', { class: 'encart' }, [el('p', null, [el('strong', { text: 'Repère principal : ' }), String(d.repere_principal)])]) : null,
       valide(d.message_animation) ? el('div', { class: 'encart' }, [el('p', null, [el('strong', { text: 'Message d\'animation : ' }), String(d.message_animation)])]) : null,
-      sectionImp('Étoiles principales', tableauImp(['Nom', 'Désignation', 'Mag.', 'Rôle', 'Visibilité'], (d.etoiles || []).map(function (s) {
-        return [texteOuTiret(s.nom), texteOuTiret(s.bayer), magnitudeLisible(s), texteOuTiret(s.role) + (valide(s.alerte) ? ' ⚠ ' + s.alerte : ''), texteOuTiret(s.visibilite)];
-      })))
+      sectionImp('Étoiles principales', tableauEtoiles(d.etoiles, true))
     ];
 
     var codes = d.codification_luminosite || [], profond = d.objets_ciel_profond || [];

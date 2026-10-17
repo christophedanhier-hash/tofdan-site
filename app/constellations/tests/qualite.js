@@ -8,7 +8,7 @@ const window = {addEventListener: () => {}, location: {href: 'http://localhost/a
 const context = {document, window, localStorage: {getItem: () => null, setItem: () => {}}, fetch: () => new Promise(() => {}), console, Date, Intl, setTimeout, clearTimeout};
 vm.createContext(context);
 const code = fs.readFileSync(path.join(base, 'app.js'), 'utf8');
-const exportTests = 'window.__qualite = {etat:etat, distanceLiaison:distanceLiaison, fmtAL:fmtAL, magnitudeLisible:magnitudeLisible, projeter:projeter, visibilite:visibilite, centre:centre, hauteur:hauteur};';
+const exportTests = 'window.__qualite = {etat:etat, etoilesOrdonnees:etoilesOrdonnees, distanceLiaison:distanceLiaison, fmtAL:fmtAL, magnitudeLisible:magnitudeLisible, projeter:projeter, visibilite:visibilite, centre:centre, hauteur:hauteur};';
 assert(code.endsWith('})();\n') || code.endsWith('})();'));
 vm.runInContext(code.replace(/\}\)\(\);\s*$/, exportTests + '\n})();'), context);
 const api = window.__qualite;
@@ -31,6 +31,14 @@ for (const c of index) {
   assert.equal(d.nom_fr,c.nom_fr);assert.equal(d.id,c.id);assert(d.repere_principal && d.message_animation);
   assert.equal(typeof d.voie_lactee,'boolean');assert(d.voie_lactee_definition);
   api.etat.data=d;result.fiches++;result.etoiles+=d.etoiles.length;result.objets+=d.objets_ciel_profond.length;
+  const avant=JSON.stringify(d.etoiles), tries=api.etoilesOrdonnees(d.etoiles);
+  assert.equal(JSON.stringify(d.etoiles),avant,'ordre interne immuable');
+  assert.equal(tries.length,d.etoiles.length);
+  assert.equal(new Set(tries).size,d.etoiles.length,'aucune perte ni duplication');
+  for(let i=1;i<tries.length;i++) {
+    assert(!tries[i].nom_iau || tries[i-1].nom_iau,'noms propres en premier');
+    if(Boolean(tries[i].nom_iau)===Boolean(tries[i-1].nom_iau)) assert(tries[i-1].mag<=tries[i].mag,'magnitudes croissantes');
+  }
   const svg=fs.readFileSync(path.join(base,c.figure_svg),'utf8');result.svg++;
   const texts=[...svg.matchAll(/<text[^>]*>(.*?)<\/text>/g)].map(m=>m[1].replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>'));
   assert.equal(texts.length,d.etoiles.length,c.id+' nombre étiquettes');
